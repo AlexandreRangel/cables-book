@@ -2659,6 +2659,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Boolean Logic Operations*
 ### And
+![And op](images/ops/Ops_Boolean_And.svg)
+
 **Full Name:** `Ops.Boolean.And`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.And) for details*
 
@@ -2674,6 +2676,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### BoolToNumber
+![BoolToNumber op](images/ops/Ops_Boolean_BoolToNumber.svg)
+
 **Full Name:** `Ops.Boolean.BoolToNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToNumber) for details*
 
@@ -2689,6 +2693,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### BoolToString
+![BoolToString op](images/ops/Ops_Boolean_BoolToString.svg)
+
 **Full Name:** `Ops.Boolean.BoolToString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToString) for details*
 
@@ -2704,6 +2710,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### BoolToTrigger
+![BoolToTrigger op](images/ops/Ops_Boolean_BoolToTrigger.svg)
+
 **Full Name:** `Ops.Boolean.BoolToTrigger`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToTrigger) for details*
 
@@ -2719,6 +2727,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### BooleanVariable
+![BooleanVariable op](images/ops/Ops_Boolean_BooleanVariable.svg)
+
 **Full Name:** `Ops.Boolean.BooleanVariable`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BooleanVariable) for details*
 
@@ -2734,6 +2744,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Equals
+![Equals op](images/ops/Ops_Boolean_Equals.svg)
+
 **Full Name:** `Ops.Boolean.Equals`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Equals) for details*
 
@@ -2749,6 +2761,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### GreaterThan
+![GreaterThan op](images/ops/Ops_Boolean_GreaterThan.svg)
+
 **Full Name:** `Ops.Boolean.GreaterThan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.GreaterThan) for details*
 
@@ -2764,6 +2778,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### IfElse
+![IfElse op](images/ops/Ops_Boolean_IfElse.svg)
+
 **Full Name:** `Ops.Boolean.IfElse`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.IfElse) for details*
 
@@ -2779,6 +2795,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### LessThan
+![LessThan op](images/ops/Ops_Boolean_LessThan.svg)
+
 **Full Name:** `Ops.Boolean.LessThan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.LessThan) for details*
 
@@ -2794,6 +2812,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Not
+![Not op](images/ops/Ops_Boolean_Not.svg)
+
 **Full Name:** `Ops.Boolean.Not`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Not) for details*
 
@@ -2809,6 +2829,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### NumberToBool
+![NumberToBool op](images/ops/Ops_Boolean_NumberToBool.svg)
+
 **Full Name:** `Ops.Boolean.NumberToBool`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.NumberToBool) for details*
 
@@ -2824,6 +2846,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Or
+![Or op](images/ops/Ops_Boolean_Or.svg)
+
 **Full Name:** `Ops.Boolean.Or`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Or) for details*
 
@@ -2839,6 +2863,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Toggle
+![Toggle op](images/ops/Ops_Boolean_Toggle.svg)
+
 **Full Name:** `Ops.Boolean.Toggle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Toggle) for details*
 
@@ -2854,6 +2880,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerBoolChange
+![TriggerBoolChange op](images/ops/Ops_Boolean_TriggerBoolChange.svg)
+
 **Full Name:** `Ops.Boolean.TriggerBoolChange`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerBoolChange) for details*
 
@@ -2869,6 +2897,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerOnFalse
+![TriggerOnFalse op](images/ops/Ops_Boolean_TriggerOnFalse.svg)
+
 **Full Name:** `Ops.Boolean.TriggerOnFalse`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerOnFalse) for details*
 
@@ -2884,6 +2914,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerOnTrue
+![TriggerOnTrue op](images/ops/Ops_Boolean_TriggerOnTrue.svg)
+
 **Full Name:** `Ops.Boolean.TriggerOnTrue`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerOnTrue) for details*
 
@@ -2902,6 +2934,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Color Manipulation and Conversion*
 ### ColorFromHex
+![ColorFromHex op](images/ops/Ops_Color_ColorFromHex.svg)
+
 **Full Name:** `Ops.Color.ColorFromHex`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorFromHex) for details*
 
@@ -2917,6 +2951,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ColorPalette
+![ColorPalette op](images/ops/Ops_Color_ColorPalette.svg)
+
 **Full Name:** `Ops.Color.ColorPalette`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorPalette) for details*
 
@@ -2932,6 +2968,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ColorToArray
+![ColorToArray op](images/ops/Ops_Color_ColorToArray.svg)
+
 **Full Name:** `Ops.Color.ColorToArray`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorToArray) for details*
 
@@ -2947,6 +2985,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### HexToRgb
+![HexToRgb op](images/ops/Ops_Color_HexToRgb.svg)
+
 **Full Name:** `Ops.Color.HexToRgb`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.HexToRgb) for details*
 
@@ -2962,6 +3002,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Hsl
+![Hsl op](images/ops/Ops_Color_Hsl.svg)
+
 **Full Name:** `Ops.Color.Hsl`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.Hsl) for details*
 
@@ -2977,6 +3019,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### HslToRgb
+![HslToRgb op](images/ops/Ops_Color_HslToRgb.svg)
+
 **Full Name:** `Ops.Color.HslToRgb`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.HslToRgb) for details*
 
@@ -2992,6 +3036,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Rgb
+![Rgb op](images/ops/Ops_Color_Rgb.svg)
+
 **Full Name:** `Ops.Color.Rgb`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.Rgb) for details*
 
@@ -3007,6 +3053,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RgbToHex
+![RgbToHex op](images/ops/Ops_Color_RgbToHex.svg)
+
 **Full Name:** `Ops.Color.RgbToHex`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RgbToHex) for details*
 
@@ -3022,6 +3070,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RgbToHsl
+![RgbToHsl op](images/ops/Ops_Color_RgbToHsl.svg)
+
 **Full Name:** `Ops.Color.RgbToHsl`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RgbToHsl) for details*
 
@@ -3040,6 +3090,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Development and Debugging Tools*
 ### Console
+![Console op](images/ops/Ops_Dev_Console.svg)
+
 **Full Name:** `Ops.Dev.Console`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Dev.Console) for details*
 
@@ -3055,6 +3107,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Debug
+![Debug op](images/ops/Ops_Dev_Debug.svg)
+
 **Full Name:** `Ops.Dev.Debug`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Dev.Debug) for details*
 
@@ -3070,6 +3124,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Performance
+![Performance op](images/ops/Ops_Dev_Performance.svg)
+
 **Full Name:** `Ops.Dev.Performance`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Dev.Performance) for details*
 
@@ -3085,6 +3141,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Stats
+![Stats op](images/ops/Ops_Dev_Stats.svg)
+
 **Full Name:** `Ops.Dev.Stats`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Dev.Stats) for details*
 
@@ -3100,6 +3158,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Tester
+![Tester op](images/ops/Ops_Dev_Tester.svg)
+
 **Full Name:** `Ops.Dev.Tester`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Dev.Tester) for details*
 
@@ -3118,6 +3178,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Input Device Handling*
 ### Gamepad
+![Gamepad op](images/ops/Ops_Devices_Gamepad.svg)
+
 **Full Name:** `Ops.Devices.Gamepad`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Gamepad) for details*
 
@@ -3133,6 +3195,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### KeyPress
+![KeyPress op](images/ops/Ops_Devices_KeyPress.svg)
+
 **Full Name:** `Ops.Devices.KeyPress`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.KeyPress) for details*
 
@@ -3148,6 +3212,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### KeyPressLearn
+![KeyPressLearn op](images/ops/Ops_Devices_KeyPressLearn.svg)
+
 **Full Name:** `Ops.Devices.KeyPressLearn`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.KeyPressLearn) for details*
 
@@ -3163,6 +3229,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Keyboard
+![Keyboard op](images/ops/Ops_Devices_Keyboard.svg)
+
 **Full Name:** `Ops.Devices.Keyboard`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Keyboard) for details*
 
@@ -3178,6 +3246,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Mouse
+![Mouse op](images/ops/Ops_Devices_Mouse.svg)
+
 **Full Name:** `Ops.Devices.Mouse`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Mouse) for details*
 
@@ -3193,6 +3263,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### MouseButton
+![MouseButton op](images/ops/Ops_Devices_MouseButton.svg)
+
 **Full Name:** `Ops.Devices.MouseButton`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.MouseButton) for details*
 
@@ -3208,6 +3280,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### MousePosition
+![MousePosition op](images/ops/Ops_Devices_MousePosition.svg)
+
 **Full Name:** `Ops.Devices.MousePosition`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.MousePosition) for details*
 
@@ -3223,6 +3297,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Touch
+![Touch op](images/ops/Ops_Devices_Touch.svg)
+
 **Full Name:** `Ops.Devices.Touch`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Touch) for details*
 
@@ -3241,6 +3317,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Core WebGL Rendering*
 ### MainLoop
+![MainLoop op](images/ops/Ops_Gl_MainLoop.svg)
+
 **Full Name:** `Ops.Gl.MainLoop`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.MainLoop) for details*
 
@@ -3256,6 +3334,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Render
+![Render op](images/ops/Ops_Gl_Render.svg)
+
 **Full Name:** `Ops.Gl.Render`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Render) for details*
 
@@ -3271,6 +3351,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RenderToTexture
+![RenderToTexture op](images/ops/Ops_Gl_RenderToTexture.svg)
+
 **Full Name:** `Ops.Gl.RenderToTexture`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.RenderToTexture) for details*
 
@@ -3286,6 +3368,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Shader
+![Shader op](images/ops/Ops_Gl_Shader.svg)
+
 **Full Name:** `Ops.Gl.Shader`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader) for details*
 
@@ -3301,6 +3385,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ShaderEffects
+![ShaderEffects op](images/ops/Ops_Gl_ShaderEffects.svg)
+
 **Full Name:** `Ops.Gl.ShaderEffects`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ShaderEffects) for details*
 
@@ -3319,6 +3405,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Matrix Transformations and Camera Controls*
 ### ArrayToMatrices4
+![ArrayToMatrices4 op](images/ops/Ops_Gl_Matrix_ArrayToMatrices4.svg)
+
 **Full Name:** `Ops.Gl.Matrix.ArrayToMatrices4`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.ArrayToMatrices4) for details*
 
@@ -3334,6 +3422,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Billboarding
+![Billboarding op](images/ops/Ops_Gl_Matrix_Billboarding.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Billboarding`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Billboarding) for details*
 
@@ -3349,6 +3439,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Camera
+![Camera op](images/ops/Ops_Gl_Matrix_Camera.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Camera`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Camera) for details*
 
@@ -3364,6 +3456,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Compose
+![Compose op](images/ops/Ops_Gl_Matrix_Compose.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Compose`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Compose) for details*
 
@@ -3379,6 +3473,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### LookAt
+![LookAt op](images/ops/Ops_Gl_Matrix_LookAt.svg)
+
 **Full Name:** `Ops.Gl.Matrix.LookAt`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.LookAt) for details*
 
@@ -3394,6 +3490,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ModelMatrix
+![ModelMatrix op](images/ops/Ops_Gl_Matrix_ModelMatrix.svg)
+
 **Full Name:** `Ops.Gl.Matrix.ModelMatrix`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.ModelMatrix) for details*
 
@@ -3409,6 +3507,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### OrbitControls
+![OrbitControls op](images/ops/Ops_Gl_Matrix_OrbitControls.svg)
+
 **Full Name:** `Ops.Gl.Matrix.OrbitControls`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.OrbitControls) for details*
 
@@ -3424,6 +3524,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Orthogonal
+![Orthogonal op](images/ops/Ops_Gl_Matrix_Orthogonal.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Orthogonal`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Orthogonal) for details*
 
@@ -3439,6 +3541,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Perspective
+![Perspective op](images/ops/Ops_Gl_Matrix_Perspective.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Perspective`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Perspective) for details*
 
@@ -3454,6 +3558,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ProjectionMatrix
+![ProjectionMatrix op](images/ops/Ops_Gl_Matrix_ProjectionMatrix.svg)
+
 **Full Name:** `Ops.Gl.Matrix.ProjectionMatrix`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.ProjectionMatrix) for details*
 
@@ -3469,6 +3575,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Rotate
+![Rotate op](images/ops/Ops_Gl_Matrix_Rotate.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Rotate`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Rotate) for details*
 
@@ -3484,6 +3592,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Scale
+![Scale op](images/ops/Ops_Gl_Matrix_Scale.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Scale`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Scale) for details*
 
@@ -3499,6 +3609,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Transform
+![Transform op](images/ops/Ops_Gl_Matrix_Transform.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Transform`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Transform) for details*
 
@@ -3514,6 +3626,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Translate
+![Translate op](images/ops/Ops_Gl_Matrix_Translate.svg)
+
 **Full Name:** `Ops.Gl.Matrix.Translate`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.Translate) for details*
 
@@ -3529,6 +3643,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ViewMatrix
+![ViewMatrix op](images/ops/Ops_Gl_Matrix_ViewMatrix.svg)
+
 **Full Name:** `Ops.Gl.Matrix.ViewMatrix`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Matrix.ViewMatrix) for details*
 
@@ -3547,6 +3663,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *3D Mesh Primitives*
 ### Circle
+![Circle op](images/ops/Ops_Gl_Meshes_Circle.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Circle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Circle) for details*
 
@@ -3562,6 +3680,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Cube
+![Cube op](images/ops/Ops_Gl_Meshes_Cube.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Cube`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Cube) for details*
 
@@ -3577,6 +3697,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Cylinder
+![Cylinder op](images/ops/Ops_Gl_Meshes_Cylinder.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Cylinder`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Cylinder) for details*
 
@@ -3592,6 +3714,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### FullscreenRectangle
+![FullscreenRectangle op](images/ops/Ops_Gl_Meshes_FullscreenRectangle.svg)
+
 **Full Name:** `Ops.Gl.Meshes.FullscreenRectangle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.FullscreenRectangle) for details*
 
@@ -3607,6 +3731,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Plane
+![Plane op](images/ops/Ops_Gl_Meshes_Plane.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Plane`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Plane) for details*
 
@@ -3622,6 +3748,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Rectangle
+![Rectangle op](images/ops/Ops_Gl_Meshes_Rectangle.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Rectangle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Rectangle) for details*
 
@@ -3637,6 +3765,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sphere
+![Sphere op](images/ops/Ops_Gl_Meshes_Sphere.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Sphere`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Sphere) for details*
 
@@ -3652,6 +3782,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Torus
+![Torus op](images/ops/Ops_Gl_Meshes_Torus.svg)
+
 **Full Name:** `Ops.Gl.Meshes.Torus`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Meshes.Torus) for details*
 
@@ -3670,6 +3802,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Phong Lighting and Materials*
 ### AmbientLight
+![AmbientLight op](images/ops/Ops_Gl_Phong_AmbientLight.svg)
+
 **Full Name:** `Ops.Gl.Phong.AmbientLight`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.AmbientLight) for details*
 
@@ -3685,6 +3819,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### DirectionalLight
+![DirectionalLight op](images/ops/Ops_Gl_Phong_DirectionalLight.svg)
+
 **Full Name:** `Ops.Gl.Phong.DirectionalLight`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.DirectionalLight) for details*
 
@@ -3700,6 +3836,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Light
+![Light op](images/ops/Ops_Gl_Phong_Light.svg)
+
 **Full Name:** `Ops.Gl.Phong.Light`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.Light) for details*
 
@@ -3715,6 +3853,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Material
+![Material op](images/ops/Ops_Gl_Phong_Material.svg)
+
 **Full Name:** `Ops.Gl.Phong.Material`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.Material) for details*
 
@@ -3730,6 +3870,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PhongMaterial
+![PhongMaterial op](images/ops/Ops_Gl_Phong_PhongMaterial.svg)
+
 **Full Name:** `Ops.Gl.Phong.PhongMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.PhongMaterial) for details*
 
@@ -3745,6 +3887,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PointLight
+![PointLight op](images/ops/Ops_Gl_Phong_PointLight.svg)
+
 **Full Name:** `Ops.Gl.Phong.PointLight`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.PointLight) for details*
 
@@ -3760,6 +3904,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SpotLight
+![SpotLight op](images/ops/Ops_Gl_Phong_SpotLight.svg)
+
 **Full Name:** `Ops.Gl.Phong.SpotLight`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Phong.SpotLight) for details*
 
@@ -3778,6 +3924,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Shader Materials*
 ### BasicMaterial
+![BasicMaterial op](images/ops/Ops_Gl_Shader_BasicMaterial.svg)
+
 **Full Name:** `Ops.Gl.Shader.BasicMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.BasicMaterial) for details*
 
@@ -3793,6 +3941,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### FlatShading
+![FlatShading op](images/ops/Ops_Gl_Shader_FlatShading.svg)
+
 **Full Name:** `Ops.Gl.Shader.FlatShading`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.FlatShading) for details*
 
@@ -3808,6 +3958,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Lighting
+![Lighting op](images/ops/Ops_Gl_Shader_Lighting.svg)
+
 **Full Name:** `Ops.Gl.Shader.Lighting`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.Lighting) for details*
 
@@ -3823,6 +3975,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### MatCapMaterial
+![MatCapMaterial op](images/ops/Ops_Gl_Shader_MatCapMaterial.svg)
+
 **Full Name:** `Ops.Gl.Shader.MatCapMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.MatCapMaterial) for details*
 
@@ -3838,6 +3992,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### NormalMaterial
+![NormalMaterial op](images/ops/Ops_Gl_Shader_NormalMaterial.svg)
+
 **Full Name:** `Ops.Gl.Shader.NormalMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.NormalMaterial) for details*
 
@@ -3853,6 +4009,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PhongMaterial
+![PhongMaterial op](images/ops/Ops_Gl_Shader_PhongMaterial.svg)
+
 **Full Name:** `Ops.Gl.Shader.PhongMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.PhongMaterial) for details*
 
@@ -3868,6 +4026,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PointMaterial
+![PointMaterial op](images/ops/Ops_Gl_Shader_PointMaterial.svg)
+
 **Full Name:** `Ops.Gl.Shader.PointMaterial`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Shader.PointMaterial) for details*
 
@@ -3886,6 +4046,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Texture Loading and Management*
 ### Texture
+![Texture op](images/ops/Ops_Gl_Textures_Texture.svg)
+
 **Full Name:** `Ops.Gl.Textures.Texture`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Textures.Texture) for details*
 
@@ -3901,6 +4063,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TextureCanvas
+![TextureCanvas op](images/ops/Ops_Gl_Textures_TextureCanvas.svg)
+
 **Full Name:** `Ops.Gl.Textures.TextureCanvas`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Textures.TextureCanvas) for details*
 
@@ -3916,6 +4080,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TextureVideo
+![TextureVideo op](images/ops/Ops_Gl_Textures_TextureVideo.svg)
+
 **Full Name:** `Ops.Gl.Textures.TextureVideo`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Textures.TextureVideo) for details*
 
@@ -3934,6 +4100,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *HTML DOM Manipulation*
 ### AppendChild
+![AppendChild op](images/ops/Ops_Html_AppendChild.svg)
+
 **Full Name:** `Ops.Html.AppendChild`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.AppendChild) for details*
 
@@ -3949,6 +4117,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### CSS
+![CSS op](images/ops/Ops_Html_CSS.svg)
+
 **Full Name:** `Ops.Html.CSS`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.CSS) for details*
 
@@ -3964,6 +4134,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### DivElement
+![DivElement op](images/ops/Ops_Html_DivElement.svg)
+
 **Full Name:** `Ops.Html.DivElement`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.DivElement) for details*
 
@@ -3979,6 +4151,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ElementById
+![ElementById op](images/ops/Ops_Html_ElementById.svg)
+
 **Full Name:** `Ops.Html.ElementById`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.ElementById) for details*
 
@@ -3994,6 +4168,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ElementChilds
+![ElementChilds op](images/ops/Ops_Html_ElementChilds.svg)
+
 **Full Name:** `Ops.Html.ElementChilds`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.ElementChilds) for details*
 
@@ -4009,6 +4185,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### HtmlElement
+![HtmlElement op](images/ops/Ops_Html_HtmlElement.svg)
+
 **Full Name:** `Ops.Html.HtmlElement`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.HtmlElement) for details*
 
@@ -4024,6 +4202,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### InnerHTML
+![InnerHTML op](images/ops/Ops_Html_InnerHTML.svg)
+
 **Full Name:** `Ops.Html.InnerHTML`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.InnerHTML) for details*
 
@@ -4039,6 +4219,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SetStyle
+![SetStyle op](images/ops/Ops_Html_SetStyle.svg)
+
 **Full Name:** `Ops.Html.SetStyle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.SetStyle) for details*
 
@@ -4057,6 +4239,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *JSON Parsing and HTTP Requests*
 ### HttpRequest
+![HttpRequest op](images/ops/Ops_Json_HttpRequest.svg)
+
 **Full Name:** `Ops.Json.HttpRequest`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.HttpRequest) for details*
 
@@ -4072,6 +4256,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### JsonPath
+![JsonPath op](images/ops/Ops_Json_JsonPath.svg)
+
 **Full Name:** `Ops.Json.JsonPath`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.JsonPath) for details*
 
@@ -4087,6 +4273,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetArray
+![ObjectGetArray op](images/ops/Ops_Json_ObjectGetArray.svg)
+
 **Full Name:** `Ops.Json.ObjectGetArray`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.ObjectGetArray) for details*
 
@@ -4102,6 +4290,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetNumber
+![ObjectGetNumber op](images/ops/Ops_Json_ObjectGetNumber.svg)
+
 **Full Name:** `Ops.Json.ObjectGetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.ObjectGetNumber) for details*
 
@@ -4117,6 +4307,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetString
+![ObjectGetString op](images/ops/Ops_Json_ObjectGetString.svg)
+
 **Full Name:** `Ops.Json.ObjectGetString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.ObjectGetString) for details*
 
@@ -4132,6 +4324,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ParseJson
+![ParseJson op](images/ops/Ops_Json_ParseJson.svg)
+
 **Full Name:** `Ops.Json.ParseJson`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.ParseJson) for details*
 
@@ -4147,6 +4341,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### StringifyJson
+![StringifyJson op](images/ops/Ops_Json_StringifyJson.svg)
+
 **Full Name:** `Ops.Json.StringifyJson`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.StringifyJson) for details*
 
@@ -4165,6 +4361,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Mathematical Operations*
 ### Abs
+![Abs op](images/ops/Ops_Math_Abs.svg)
+
 **Full Name:** `Ops.Math.Abs`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Abs) for details*
 
@@ -4180,6 +4378,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Acos
+![Acos op](images/ops/Ops_Math_Acos.svg)
+
 **Full Name:** `Ops.Math.Acos`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Acos) for details*
 
@@ -4195,6 +4395,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Add
+![Add op](images/ops/Ops_Math_Add.svg)
+
 **Full Name:** `Ops.Math.Add`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Add) for details*
 
@@ -4210,6 +4412,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Asin
+![Asin op](images/ops/Ops_Math_Asin.svg)
+
 **Full Name:** `Ops.Math.Asin`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Asin) for details*
 
@@ -4225,6 +4429,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Atan
+![Atan op](images/ops/Ops_Math_Atan.svg)
+
 **Full Name:** `Ops.Math.Atan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Atan) for details*
 
@@ -4240,6 +4446,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Atan2
+![Atan2 op](images/ops/Ops_Math_Atan2.svg)
+
 **Full Name:** `Ops.Math.Atan2`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Atan2) for details*
 
@@ -4255,6 +4463,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Ceil
+![Ceil op](images/ops/Ops_Math_Ceil.svg)
+
 **Full Name:** `Ops.Math.Ceil`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Ceil) for details*
 
@@ -4270,6 +4480,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Clamp
+![Clamp op](images/ops/Ops_Math_Clamp.svg)
+
 **Full Name:** `Ops.Math.Clamp`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Clamp) for details*
 
@@ -4285,6 +4497,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Compare
+![Compare op](images/ops/Ops_Math_Compare.svg)
+
 **Full Name:** `Ops.Math.Compare`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Compare) for details*
 
@@ -4300,6 +4514,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Cos
+![Cos op](images/ops/Ops_Math_Cos.svg)
+
 **Full Name:** `Ops.Math.Cos`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Cos) for details*
 
@@ -4315,6 +4531,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Degrees
+![Degrees op](images/ops/Ops_Math_Degrees.svg)
+
 **Full Name:** `Ops.Math.Degrees`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Degrees) for details*
 
@@ -4330,6 +4548,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Divide
+![Divide op](images/ops/Ops_Math_Divide.svg)
+
 **Full Name:** `Ops.Math.Divide`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Divide) for details*
 
@@ -4345,6 +4565,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### E
+![E op](images/ops/Ops_Math_E.svg)
+
 **Full Name:** `Ops.Math.E`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.E) for details*
 
@@ -4360,6 +4582,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Floor
+![Floor op](images/ops/Ops_Math_Floor.svg)
+
 **Full Name:** `Ops.Math.Floor`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Floor) for details*
 
@@ -4375,6 +4599,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Fract
+![Fract op](images/ops/Ops_Math_Fract.svg)
+
 **Full Name:** `Ops.Math.Fract`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Fract) for details*
 
@@ -4390,6 +4616,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Log
+![Log op](images/ops/Ops_Math_Log.svg)
+
 **Full Name:** `Ops.Math.Log`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Log) for details*
 
@@ -4405,6 +4633,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Max
+![Max op](images/ops/Ops_Math_Max.svg)
+
 **Full Name:** `Ops.Math.Max`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Max) for details*
 
@@ -4420,6 +4650,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Min
+![Min op](images/ops/Ops_Math_Min.svg)
+
 **Full Name:** `Ops.Math.Min`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Min) for details*
 
@@ -4435,6 +4667,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Modulo
+![Modulo op](images/ops/Ops_Math_Modulo.svg)
+
 **Full Name:** `Ops.Math.Modulo`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Modulo) for details*
 
@@ -4450,6 +4684,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Multiply
+![Multiply op](images/ops/Ops_Math_Multiply.svg)
+
 **Full Name:** `Ops.Math.Multiply`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Multiply) for details*
 
@@ -4465,6 +4701,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Negate
+![Negate op](images/ops/Ops_Math_Negate.svg)
+
 **Full Name:** `Ops.Math.Negate`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Negate) for details*
 
@@ -4480,6 +4718,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Normalize
+![Normalize op](images/ops/Ops_Math_Normalize.svg)
+
 **Full Name:** `Ops.Math.Normalize`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Normalize) for details*
 
@@ -4495,6 +4735,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PI
+![PI op](images/ops/Ops_Math_PI.svg)
+
 **Full Name:** `Ops.Math.PI`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.PI) for details*
 
@@ -4510,6 +4752,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Pow
+![Pow op](images/ops/Ops_Math_Pow.svg)
+
 **Full Name:** `Ops.Math.Pow`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Pow) for details*
 
@@ -4525,6 +4769,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Radians
+![Radians op](images/ops/Ops_Math_Radians.svg)
+
 **Full Name:** `Ops.Math.Radians`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Radians) for details*
 
@@ -4540,6 +4786,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Random
+![Random op](images/ops/Ops_Math_Random.svg)
+
 **Full Name:** `Ops.Math.Random`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Random) for details*
 
@@ -4555,6 +4803,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RandomNumber
+![RandomNumber op](images/ops/Ops_Math_RandomNumber.svg)
+
 **Full Name:** `Ops.Math.RandomNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.RandomNumber) for details*
 
@@ -4570,6 +4820,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RandomNumbers
+![RandomNumbers op](images/ops/Ops_Math_RandomNumbers.svg)
+
 **Full Name:** `Ops.Math.RandomNumbers`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.RandomNumbers) for details*
 
@@ -4585,6 +4837,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Round
+![Round op](images/ops/Ops_Math_Round.svg)
+
 **Full Name:** `Ops.Math.Round`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Round) for details*
 
@@ -4600,6 +4854,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sign
+![Sign op](images/ops/Ops_Math_Sign.svg)
+
 **Full Name:** `Ops.Math.Sign`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Sign) for details*
 
@@ -4615,6 +4871,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sin
+![Sin op](images/ops/Ops_Math_Sin.svg)
+
 **Full Name:** `Ops.Math.Sin`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Sin) for details*
 
@@ -4630,6 +4888,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sqrt
+![Sqrt op](images/ops/Ops_Math_Sqrt.svg)
+
 **Full Name:** `Ops.Math.Sqrt`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Sqrt) for details*
 
@@ -4645,6 +4905,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Subtract
+![Subtract op](images/ops/Ops_Math_Subtract.svg)
+
 **Full Name:** `Ops.Math.Subtract`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Subtract) for details*
 
@@ -4660,6 +4922,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sum
+![Sum op](images/ops/Ops_Math_Sum.svg)
+
 **Full Name:** `Ops.Math.Sum`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Sum) for details*
 
@@ -4675,6 +4939,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Tan
+![Tan op](images/ops/Ops_Math_Tan.svg)
+
 **Full Name:** `Ops.Math.Tan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.Tan) for details*
 
@@ -4690,6 +4956,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerRandom
+![TriggerRandom op](images/ops/Ops_Math_TriggerRandom.svg)
+
 **Full Name:** `Ops.Math.TriggerRandom`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.TriggerRandom) for details*
 
@@ -4708,6 +4976,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Number Operations and Variables*
 ### Compare
+![Compare op](images/ops/Ops_Number_Compare.svg)
+
 **Full Name:** `Ops.Number.Compare`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.Compare) for details*
 
@@ -4723,6 +4993,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Equals
+![Equals op](images/ops/Ops_Number_Equals.svg)
+
 **Full Name:** `Ops.Number.Equals`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.Equals) for details*
 
@@ -4738,6 +5010,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### GreaterThan
+![GreaterThan op](images/ops/Ops_Number_GreaterThan.svg)
+
 **Full Name:** `Ops.Number.GreaterThan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.GreaterThan) for details*
 
@@ -4753,6 +5027,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### LessThan
+![LessThan op](images/ops/Ops_Number_LessThan.svg)
+
 **Full Name:** `Ops.Number.LessThan`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.LessThan) for details*
 
@@ -4768,6 +5044,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Number
+![Number op](images/ops/Ops_Number_Number.svg)
+
 **Full Name:** `Ops.Number.Number`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.Number) for details*
 
@@ -4783,6 +5061,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### NumberByTrigger
+![NumberByTrigger op](images/ops/Ops_Number_NumberByTrigger.svg)
+
 **Full Name:** `Ops.Number.NumberByTrigger`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.NumberByTrigger) for details*
 
@@ -4798,6 +5078,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### NumberVariable
+![NumberVariable op](images/ops/Ops_Number_NumberVariable.svg)
+
 **Full Name:** `Ops.Number.NumberVariable`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.NumberVariable) for details*
 
@@ -4813,6 +5095,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RandomNumber
+![RandomNumber op](images/ops/Ops_Number_RandomNumber.svg)
+
 **Full Name:** `Ops.Number.RandomNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.RandomNumber) for details*
 
@@ -4828,6 +5112,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SetNumber
+![SetNumber op](images/ops/Ops_Number_SetNumber.svg)
+
 **Full Name:** `Ops.Number.SetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.SetNumber) for details*
 
@@ -4843,6 +5129,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SwitchNumber
+![SwitchNumber op](images/ops/Ops_Number_SwitchNumber.svg)
+
 **Full Name:** `Ops.Number.SwitchNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.SwitchNumber) for details*
 
@@ -4858,6 +5146,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerNumber
+![TriggerNumber op](images/ops/Ops_Number_TriggerNumber.svg)
+
 **Full Name:** `Ops.Number.TriggerNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Number.TriggerNumber) for details*
 
@@ -4876,6 +5166,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Object Manipulation*
 ### Object
+![Object op](images/ops/Ops_Object_Object.svg)
+
 **Full Name:** `Ops.Object.Object`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.Object) for details*
 
@@ -4891,6 +5183,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetArray
+![ObjectGetArray op](images/ops/Ops_Object_ObjectGetArray.svg)
+
 **Full Name:** `Ops.Object.ObjectGetArray`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectGetArray) for details*
 
@@ -4906,6 +5200,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetNumber
+![ObjectGetNumber op](images/ops/Ops_Object_ObjectGetNumber.svg)
+
 **Full Name:** `Ops.Object.ObjectGetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectGetNumber) for details*
 
@@ -4921,6 +5217,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectGetString
+![ObjectGetString op](images/ops/Ops_Object_ObjectGetString.svg)
+
 **Full Name:** `Ops.Object.ObjectGetString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectGetString) for details*
 
@@ -4936,6 +5234,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectMerge
+![ObjectMerge op](images/ops/Ops_Object_ObjectMerge.svg)
+
 **Full Name:** `Ops.Object.ObjectMerge`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectMerge) for details*
 
@@ -4951,6 +5251,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectSetNumber
+![ObjectSetNumber op](images/ops/Ops_Object_ObjectSetNumber.svg)
+
 **Full Name:** `Ops.Object.ObjectSetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectSetNumber) for details*
 
@@ -4966,6 +5268,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ObjectSetString
+![ObjectSetString op](images/ops/Ops_Object_ObjectSetString.svg)
+
 **Full Name:** `Ops.Object.ObjectSetString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Object.ObjectSetString) for details*
 
@@ -4984,6 +5288,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Sequence and Iteration*
 ### Sequence
+![Sequence op](images/ops/Ops_Sequence_Sequence.svg)
+
 **Full Name:** `Ops.Sequence.Sequence`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sequence.Sequence) for details*
 
@@ -4999,6 +5305,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SequenceRepeater
+![SequenceRepeater op](images/ops/Ops_Sequence_SequenceRepeater.svg)
+
 **Full Name:** `Ops.Sequence.SequenceRepeater`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sequence.SequenceRepeater) for details*
 
@@ -5014,6 +5322,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SequenceSetIndex
+![SequenceSetIndex op](images/ops/Ops_Sequence_SequenceSetIndex.svg)
+
 **Full Name:** `Ops.Sequence.SequenceSetIndex`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sequence.SequenceSetIndex) for details*
 
@@ -5029,6 +5339,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SequenceTimer
+![SequenceTimer op](images/ops/Ops_Sequence_SequenceTimer.svg)
+
 **Full Name:** `Ops.Sequence.SequenceTimer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sequence.SequenceTimer) for details*
 
@@ -5047,6 +5359,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Sidebar UI Elements*
 ### Sidebar
+![Sidebar op](images/ops/Ops_Sidebar_Sidebar.svg)
+
 **Full Name:** `Ops.Sidebar.Sidebar`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sidebar.Sidebar) for details*
 
@@ -5062,6 +5376,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SidebarButton
+![SidebarButton op](images/ops/Ops_Sidebar_SidebarButton.svg)
+
 **Full Name:** `Ops.Sidebar.SidebarButton`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sidebar.SidebarButton) for details*
 
@@ -5077,6 +5393,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SidebarText
+![SidebarText op](images/ops/Ops_Sidebar_SidebarText.svg)
+
 **Full Name:** `Ops.Sidebar.SidebarText`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sidebar.SidebarText) for details*
 
@@ -5092,6 +5410,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SidebarToggle
+![SidebarToggle op](images/ops/Ops_Sidebar_SidebarToggle.svg)
+
 **Full Name:** `Ops.Sidebar.SidebarToggle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Sidebar.SidebarToggle) for details*
 
@@ -5110,6 +5430,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *String Operations*
 ### Concat
+![Concat op](images/ops/Ops_String_Concat.svg)
+
 **Full Name:** `Ops.String.Concat`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Concat) for details*
 
@@ -5125,6 +5447,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Contains
+![Contains op](images/ops/Ops_String_Contains.svg)
+
 **Full Name:** `Ops.String.Contains`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Contains) for details*
 
@@ -5140,6 +5464,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Equals
+![Equals op](images/ops/Ops_String_Equals.svg)
+
 **Full Name:** `Ops.String.Equals`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Equals) for details*
 
@@ -5155,6 +5481,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Length
+![Length op](images/ops/Ops_String_Length.svg)
+
 **Full Name:** `Ops.String.Length`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Length) for details*
 
@@ -5170,6 +5498,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### NumberToString
+![NumberToString op](images/ops/Ops_String_NumberToString.svg)
+
 **Full Name:** `Ops.String.NumberToString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.NumberToString) for details*
 
@@ -5185,6 +5515,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ParseFloat
+![ParseFloat op](images/ops/Ops_String_ParseFloat.svg)
+
 **Full Name:** `Ops.String.ParseFloat`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.ParseFloat) for details*
 
@@ -5200,6 +5532,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ParseInt
+![ParseInt op](images/ops/Ops_String_ParseInt.svg)
+
 **Full Name:** `Ops.String.ParseInt`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.ParseInt) for details*
 
@@ -5215,6 +5549,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Replace
+![Replace op](images/ops/Ops_String_Replace.svg)
+
 **Full Name:** `Ops.String.Replace`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Replace) for details*
 
@@ -5230,6 +5566,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Split
+![Split op](images/ops/Ops_String_Split.svg)
+
 **Full Name:** `Ops.String.Split`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Split) for details*
 
@@ -5245,6 +5583,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### String
+![String op](images/ops/Ops_String_String.svg)
+
 **Full Name:** `Ops.String.String`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.String) for details*
 
@@ -5260,6 +5600,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### StringCompose
+![StringCompose op](images/ops/Ops_String_StringCompose.svg)
+
 **Full Name:** `Ops.String.StringCompose`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.StringCompose) for details*
 
@@ -5275,6 +5617,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### StringVariable
+![StringVariable op](images/ops/Ops_String_StringVariable.svg)
+
 **Full Name:** `Ops.String.StringVariable`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.StringVariable) for details*
 
@@ -5290,6 +5634,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Substring
+![Substring op](images/ops/Ops_String_Substring.svg)
+
 **Full Name:** `Ops.String.Substring`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.Substring) for details*
 
@@ -5305,6 +5651,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ToLowerCase
+![ToLowerCase op](images/ops/Ops_String_ToLowerCase.svg)
+
 **Full Name:** `Ops.String.ToLowerCase`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.ToLowerCase) for details*
 
@@ -5320,6 +5668,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ToUpperCase
+![ToUpperCase op](images/ops/Ops_String_ToUpperCase.svg)
+
 **Full Name:** `Ops.String.ToUpperCase`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.ToUpperCase) for details*
 
@@ -5335,6 +5685,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerString
+![TriggerString op](images/ops/Ops_String_TriggerString.svg)
+
 **Full Name:** `Ops.String.TriggerString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.String.TriggerString) for details*
 
@@ -5353,6 +5705,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Trigger Flow Control*
 ### GateTrigger
+![GateTrigger op](images/ops/Ops_Trigger_GateTrigger.svg)
+
 **Full Name:** `Ops.Trigger.GateTrigger`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.GateTrigger) for details*
 
@@ -5368,6 +5722,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Repeat
+![Repeat op](images/ops/Ops_Trigger_Repeat.svg)
+
 **Full Name:** `Ops.Trigger.Repeat`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.Repeat) for details*
 
@@ -5383,6 +5739,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RouteBoolean
+![RouteBoolean op](images/ops/Ops_Trigger_RouteBoolean.svg)
+
 **Full Name:** `Ops.Trigger.RouteBoolean`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.RouteBoolean) for details*
 
@@ -5398,6 +5756,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RouteNumber
+![RouteNumber op](images/ops/Ops_Trigger_RouteNumber.svg)
+
 **Full Name:** `Ops.Trigger.RouteNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.RouteNumber) for details*
 
@@ -5413,6 +5773,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### RouteString
+![RouteString op](images/ops/Ops_Trigger_RouteString.svg)
+
 **Full Name:** `Ops.Trigger.RouteString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.RouteString) for details*
 
@@ -5428,6 +5790,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Sequence
+![Sequence op](images/ops/Ops_Trigger_Sequence.svg)
+
 **Full Name:** `Ops.Trigger.Sequence`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.Sequence) for details*
 
@@ -5443,6 +5807,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerCounter
+![TriggerCounter op](images/ops/Ops_Trigger_TriggerCounter.svg)
+
 **Full Name:** `Ops.Trigger.TriggerCounter`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerCounter) for details*
 
@@ -5458,6 +5824,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerDelay
+![TriggerDelay op](images/ops/Ops_Trigger_TriggerDelay.svg)
+
 **Full Name:** `Ops.Trigger.TriggerDelay`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerDelay) for details*
 
@@ -5473,6 +5841,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerFilter
+![TriggerFilter op](images/ops/Ops_Trigger_TriggerFilter.svg)
+
 **Full Name:** `Ops.Trigger.TriggerFilter`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerFilter) for details*
 
@@ -5488,6 +5858,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerLimiter
+![TriggerLimiter op](images/ops/Ops_Trigger_TriggerLimiter.svg)
+
 **Full Name:** `Ops.Trigger.TriggerLimiter`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerLimiter) for details*
 
@@ -5503,6 +5875,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerOnce
+![TriggerOnce op](images/ops/Ops_Trigger_TriggerOnce.svg)
+
 **Full Name:** `Ops.Trigger.TriggerOnce`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerOnce) for details*
 
@@ -5518,6 +5892,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerReceive
+![TriggerReceive op](images/ops/Ops_Trigger_TriggerReceive.svg)
+
 **Full Name:** `Ops.Trigger.TriggerReceive`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for details*
 
@@ -5533,6 +5909,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerSend
+![TriggerSend op](images/ops/Ops_Trigger_TriggerSend.svg)
+
 **Full Name:** `Ops.Trigger.TriggerSend`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerSend) for details*
 
@@ -5548,6 +5926,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TriggerSwitch
+![TriggerSwitch op](images/ops/Ops_Trigger_TriggerSwitch.svg)
+
 **Full Name:** `Ops.Trigger.TriggerSwitch`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Trigger.TriggerSwitch) for details*
 
@@ -5566,6 +5946,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *User Interface Elements*
 ### Button
+![Button op](images/ops/Ops_Ui_Button.svg)
+
 **Full Name:** `Ops.Ui.Button`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Button) for details*
 
@@ -5581,6 +5963,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ButtonBar
+![ButtonBar op](images/ops/Ops_Ui_ButtonBar.svg)
+
 **Full Name:** `Ops.Ui.ButtonBar`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.ButtonBar) for details*
 
@@ -5596,6 +5980,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Checkbox
+![Checkbox op](images/ops/Ops_Ui_Checkbox.svg)
+
 **Full Name:** `Ops.Ui.Checkbox`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Checkbox) for details*
 
@@ -5611,6 +5997,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### ColorPicker
+![ColorPicker op](images/ops/Ops_Ui_ColorPicker.svg)
+
 **Full Name:** `Ops.Ui.ColorPicker`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.ColorPicker) for details*
 
@@ -5626,6 +6014,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### DropDown
+![DropDown op](images/ops/Ops_Ui_DropDown.svg)
+
 **Full Name:** `Ops.Ui.DropDown`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.DropDown) for details*
 
@@ -5641,6 +6031,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### File
+![File op](images/ops/Ops_Ui_File.svg)
+
 **Full Name:** `Ops.Ui.File`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.File) for details*
 
@@ -5656,6 +6048,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Info
+![Info op](images/ops/Ops_Ui_Info.svg)
+
 **Full Name:** `Ops.Ui.Info`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Info) for details*
 
@@ -5671,6 +6065,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Label
+![Label op](images/ops/Ops_Ui_Label.svg)
+
 **Full Name:** `Ops.Ui.Label`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Label) for details*
 
@@ -5686,6 +6082,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Number
+![Number op](images/ops/Ops_Ui_Number.svg)
+
 **Full Name:** `Ops.Ui.Number`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Number) for details*
 
@@ -5701,6 +6099,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Slider
+![Slider op](images/ops/Ops_Ui_Slider.svg)
+
 **Full Name:** `Ops.Ui.Slider`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Slider) for details*
 
@@ -5716,6 +6116,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Text
+![Text op](images/ops/Ops_Ui_Text.svg)
+
 **Full Name:** `Ops.Ui.Text`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Text) for details*
 
@@ -5731,6 +6133,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### TextArea
+![TextArea op](images/ops/Ops_Ui_TextArea.svg)
+
 **Full Name:** `Ops.Ui.TextArea`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.TextArea) for details*
 
@@ -5746,6 +6150,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Toggle
+![Toggle op](images/ops/Ops_Ui_Toggle.svg)
+
 **Full Name:** `Ops.Ui.Toggle`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Toggle) for details*
 
@@ -5761,6 +6167,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VizLayer
+![VizLayer op](images/ops/Ops_Ui_VizLayer.svg)
+
 **Full Name:** `Ops.Ui.VizLayer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.VizLayer) for details*
 
@@ -5776,6 +6184,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VizPort
+![VizPort op](images/ops/Ops_Ui_VizPort.svg)
+
 **Full Name:** `Ops.Ui.VizPort`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.VizPort) for details*
 
@@ -5794,6 +6204,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Global Variables*
 ### VarGet
+![VarGet op](images/ops/Ops_Vars_VarGet.svg)
+
 **Full Name:** `Ops.Vars.VarGet`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGet) for details*
 
@@ -5809,6 +6221,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarGetArray
+![VarGetArray op](images/ops/Ops_Vars_VarGetArray.svg)
+
 **Full Name:** `Ops.Vars.VarGetArray`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGetArray) for details*
 
@@ -5824,6 +6238,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarGetNumber
+![VarGetNumber op](images/ops/Ops_Vars_VarGetNumber.svg)
+
 **Full Name:** `Ops.Vars.VarGetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGetNumber) for details*
 
@@ -5839,6 +6255,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarGetObject
+![VarGetObject op](images/ops/Ops_Vars_VarGetObject.svg)
+
 **Full Name:** `Ops.Vars.VarGetObject`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGetObject) for details*
 
@@ -5854,6 +6272,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarGetString
+![VarGetString op](images/ops/Ops_Vars_VarGetString.svg)
+
 **Full Name:** `Ops.Vars.VarGetString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGetString) for details*
 
@@ -5869,6 +6289,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarGetTexture
+![VarGetTexture op](images/ops/Ops_Vars_VarGetTexture.svg)
+
 **Full Name:** `Ops.Vars.VarGetTexture`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarGetTexture) for details*
 
@@ -5884,6 +6306,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSet
+![VarSet op](images/ops/Ops_Vars_VarSet.svg)
+
 **Full Name:** `Ops.Vars.VarSet`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSet) for details*
 
@@ -5899,6 +6323,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSetArray
+![VarSetArray op](images/ops/Ops_Vars_VarSetArray.svg)
+
 **Full Name:** `Ops.Vars.VarSetArray`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSetArray) for details*
 
@@ -5914,6 +6340,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSetNumber
+![VarSetNumber op](images/ops/Ops_Vars_VarSetNumber.svg)
+
 **Full Name:** `Ops.Vars.VarSetNumber`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSetNumber) for details*
 
@@ -5929,6 +6357,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSetObject
+![VarSetObject op](images/ops/Ops_Vars_VarSetObject.svg)
+
 **Full Name:** `Ops.Vars.VarSetObject`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSetObject) for details*
 
@@ -5944,6 +6374,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSetString
+![VarSetString op](images/ops/Ops_Vars_VarSetString.svg)
+
 **Full Name:** `Ops.Vars.VarSetString`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSetString) for details*
 
@@ -5959,6 +6391,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarSetTexture
+![VarSetTexture op](images/ops/Ops_Vars_VarSetTexture.svg)
+
 **Full Name:** `Ops.Vars.VarSetTexture`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarSetTexture) for details*
 
@@ -5974,6 +6408,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### VarTrigger
+![VarTrigger op](images/ops/Ops_Vars_VarTrigger.svg)
+
 **Full Name:** `Ops.Vars.VarTrigger`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Vars.VarTrigger) for details*
 
@@ -5992,6 +6428,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 
 *Web Audio API*
 ### AudioAnalyzer
+![AudioAnalyzer op](images/ops/Ops_WebAudio_AudioAnalyzer.svg)
+
 **Full Name:** `Ops.WebAudio.AudioAnalyzer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.AudioAnalyzer) for details*
 
@@ -6007,6 +6445,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### AudioBuffer
+![AudioBuffer op](images/ops/Ops_WebAudio_AudioBuffer.svg)
+
 **Full Name:** `Ops.WebAudio.AudioBuffer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.AudioBuffer) for details*
 
@@ -6022,6 +6462,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### AudioBufferPlayer
+![AudioBufferPlayer op](images/ops/Ops_WebAudio_AudioBufferPlayer.svg)
+
 **Full Name:** `Ops.WebAudio.AudioBufferPlayer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.AudioBufferPlayer) for details*
 
@@ -6037,6 +6479,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Convolver
+![Convolver op](images/ops/Ops_WebAudio_Convolver.svg)
+
 **Full Name:** `Ops.WebAudio.Convolver`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Convolver) for details*
 
@@ -6052,6 +6496,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Delay
+![Delay op](images/ops/Ops_WebAudio_Delay.svg)
+
 **Full Name:** `Ops.WebAudio.Delay`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Delay) for details*
 
@@ -6067,6 +6513,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Distortion
+![Distortion op](images/ops/Ops_WebAudio_Distortion.svg)
+
 **Full Name:** `Ops.WebAudio.Distortion`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Distortion) for details*
 
@@ -6082,6 +6530,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Filter
+![Filter op](images/ops/Ops_WebAudio_Filter.svg)
+
 **Full Name:** `Ops.WebAudio.Filter`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Filter) for details*
 
@@ -6097,6 +6547,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Gain
+![Gain op](images/ops/Ops_WebAudio_Gain.svg)
+
 **Full Name:** `Ops.WebAudio.Gain`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Gain) for details*
 
@@ -6112,6 +6564,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Microphone
+![Microphone op](images/ops/Ops_WebAudio_Microphone.svg)
+
 **Full Name:** `Ops.WebAudio.Microphone`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Microphone) for details*
 
@@ -6127,6 +6581,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### MixStereo
+![MixStereo op](images/ops/Ops_WebAudio_MixStereo.svg)
+
 **Full Name:** `Ops.WebAudio.MixStereo`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.MixStereo) for details*
 
@@ -6142,6 +6598,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Oscillator
+![Oscillator op](images/ops/Ops_WebAudio_Oscillator.svg)
+
 **Full Name:** `Ops.WebAudio.Oscillator`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Oscillator) for details*
 
@@ -6157,6 +6615,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Output
+![Output op](images/ops/Ops_WebAudio_Output.svg)
+
 **Full Name:** `Ops.WebAudio.Output`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Output) for details*
 
@@ -6172,6 +6632,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PannerCone
+![PannerCone op](images/ops/Ops_WebAudio_PannerCone.svg)
+
 **Full Name:** `Ops.WebAudio.PannerCone`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.PannerCone) for details*
 
@@ -6187,6 +6649,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### PannerPosition
+![PannerPosition op](images/ops/Ops_WebAudio_PannerPosition.svg)
+
 **Full Name:** `Ops.WebAudio.PannerPosition`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.PannerPosition) for details*
 
@@ -6202,6 +6666,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Reverb
+![Reverb op](images/ops/Ops_WebAudio_Reverb.svg)
+
 **Full Name:** `Ops.WebAudio.Reverb`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Reverb) for details*
 
@@ -6217,6 +6683,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SamplePlayer
+![SamplePlayer op](images/ops/Ops_WebAudio_SamplePlayer.svg)
+
 **Full Name:** `Ops.WebAudio.SamplePlayer`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.SamplePlayer) for details*
 
@@ -6232,6 +6700,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### SoundFile
+![SoundFile op](images/ops/Ops_WebAudio_SoundFile.svg)
+
 **Full Name:** `Ops.WebAudio.SoundFile`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.SoundFile) for details*
 
@@ -6247,6 +6717,8 @@ This chapter provides a comprehensive reference for all operators (ops) availabl
 ---
 
 ### Spectrum
+![Spectrum op](images/ops/Ops_WebAudio_Spectrum.svg)
+
 **Full Name:** `Ops.WebAudio.Spectrum`
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.WebAudio.Spectrum) for details*
 
