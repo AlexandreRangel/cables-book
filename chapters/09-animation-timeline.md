@@ -109,15 +109,15 @@ TargetValue -> Spring -> AnimatedValue
 ### Timeline Interface
 
 ```
-┌─────────────────────────────────────────────────────┐
-│ [Play][Pause][Stop] [Time: 00:00:00]  [BPM: 120]   │
-|-─────────────────────────────────────────────────────┤
-│ Property Name  │ ●────●────────●────●─────────     │
-│ Property 2     │ ●─────────●──────●────────        │
-│ Property 3     │ ●───────────────●──────────       │
-|-─────────────────────────────────────────────────────┤
-│ <- 0s        5s        10s       15s       20s ->    │
-`-─────────────────────────────────────────────────────┘
++-----------------------------------------------------+
+| [Play][Pause][Stop] [Time: 00:00:00]  [BPM: 120]   |
++-----------------------------------------------------+
+| Property Name  | o----o--------o----o---------     |
+| Property 2     | o---------o------o--------        |
+| Property 3     | o---------------o----------       |
++-----------------------------------------------------+
+| <- 0s        5s        10s       15s       20s ->    |
++-----------------------------------------------------+
 ```
 
 ### Adding Keyframes
@@ -316,8 +316,8 @@ Control clip playback based on conditions:
 
 ```
 Condition -> If
-    |--> True: Play Clip A
-    `--> False: Play Clip B
+    +-> True: Play Clip A
+    +-> False: Play Clip B
 ```
 
 ## JavaScript Custom Op Integration with Animation System
@@ -772,9 +772,9 @@ Chain multiple actions in order:
 
 ```
 Trigger -> Sequence
-             |--> Action 1
-             |--> Action 2 (after delay)
-             `--> Action 3 (after delay)
+             +-> Action 1
+             +-> Action 2 (after delay)
+             +-> Action 3 (after delay)
 ```
 
 ### Delay
@@ -1070,11 +1070,11 @@ Shape
 
 ```
 Timeline
-|-── 0s: Camera position keyframe
-|-── 2s: Object appears (alpha 0->1)
-|-── 4s: Object rotates
-|-── 6s: Color change
-`-── 8s: Fade out
++-- 0s: Camera position keyframe
++-- 2s: Object appears (alpha 0->1)
++-- 4s: Object rotates
++-- 6s: Color change
++-- 8s: Fade out
 ```
 
 ### Example 5: Layered Animation Clips (Additive)
@@ -1141,10 +1141,10 @@ Custom op that controls animation based on game state:
 
 ```
 Game State -> Custom Op
-    |--> State = "idle": Play "idle" clip
-    |--> State = "walk": Play "walk" clip
-    |--> State = "run": Play "run" clip
-    `--> State = "jump": Play "jump" clip (one-shot)
+    +-> State = "idle": Play "idle" clip
+    +-> State = "walk": Play "walk" clip
+    +-> State = "run": Play "run" clip
+    +-> State = "jump": Play "jump" clip (one-shot)
     |
 Selected Clip -> Anim -> Position
 ```
@@ -1305,7 +1305,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 16. Design a complex scene with multiple objects, each using a combination of clips and procedural motion
 
 ---
-
-**Previous**: [<- Audio & Sound](08-audio-sound.md) | **Next**: [Export & Deployment ->](10-export-deployment.md)
-
 

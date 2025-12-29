@@ -4,61 +4,20 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 
+%% TOC spacing - add small space between section numbers and titles
+\usepackage{tocloft}
+\setlength{\cftsecnumwidth}{2.5em}
+\setlength{\cftsubsecnumwidth}{3.2em}
+\setlength{\cftsubsubsecnumwidth}{4em}
+\setlength{\cftparanumwidth}{4.8em}
+
 %% Font fallbacks for symbols and emojis
 \usepackage{fontspec}
 
-%% Define fallback fonts
-\newfontfamily\symbolfont{Segoe UI Symbol}[Scale=MatchLowercase]
-\newfontfamily\emojifont{Segoe UI Emoji}[Scale=MatchLowercase]
-
-%% Use symbol font for arrows and symbols
-\usepackage{newunicodechar}
-\newunicodechar{→}{{\symbolfont →}}
-\newunicodechar{←}{{\symbolfont ←}}
-\newunicodechar{↓}{{\symbolfont ↓}}
-\newunicodechar{↑}{{\symbolfont ↑}}
-\newunicodechar{↔}{{\symbolfont ↔}}
-\newunicodechar{●}{{\symbolfont ●}}
-\newunicodechar{○}{{\symbolfont ○}}
-\newunicodechar{■}{{\symbolfont ■}}
-\newunicodechar{□}{{\symbolfont □}}
-\newunicodechar{▪}{{\symbolfont ▪}}
-\newunicodechar{▫}{{\symbolfont ▫}}
-\newunicodechar{◆}{{\symbolfont ◆}}
-\newunicodechar{◇}{{\symbolfont ◇}}
-\newunicodechar{★}{{\symbolfont ★}}
-\newunicodechar{☆}{{\symbolfont ☆}}
-\newunicodechar{•}{{\symbolfont •}}
-\newunicodechar{‣}{{\symbolfont ‣}}
-\newunicodechar{※}{{\symbolfont ※}}
-
-%% Common emojis
-\newunicodechar{🎨}{{\emojifont 🎨}}
-\newunicodechar{🌐}{{\emojifont 🌐}}
-\newunicodechar{⚡}{{\emojifont ⚡}}
-\newunicodechar{📦}{{\emojifont 📦}}
-\newunicodechar{✅}{{\emojifont ✅}}
-\newunicodechar{❌}{{\emojifont ❌}}
-\newunicodechar{⭐}{{\emojifont ⭐}}
-\newunicodechar{🔧}{{\emojifont 🔧}}
-\newunicodechar{📁}{{\emojifont 📁}}
-\newunicodechar{💡}{{\emojifont 💡}}
-\newunicodechar{🎯}{{\emojifont 🎯}}
-\newunicodechar{🚀}{{\emojifont 🚀}}
-\newunicodechar{⚠}{{\emojifont ⚠}}
-\newunicodechar{📝}{{\emojifont 📝}}
-\newunicodechar{🔗}{{\emojifont 🔗}}
-\newunicodechar{📊}{{\emojifont 📊}}
-\newunicodechar{🎵}{{\emojifont 🎵}}
-\newunicodechar{🎬}{{\emojifont 🎬}}
-\newunicodechar{💻}{{\emojifont 💻}}
-\newunicodechar{🖥}{{\emojifont 🖥}}
-\newunicodechar{📱}{{\emojifont 📱}}
+%% No special unicode character mappings needed - using pure ASCII
 
 %% Define colors - simple dark gray palette
 \definecolor{headergray}{RGB}{51,51,51}
-\definecolor{codebg}{RGB}{242,242,242}
-\definecolor{codeborder}{RGB}{200,200,200}
 \definecolor{linkblue}{RGB}{0,102,204}
 
 %% Custom header styles - dark gray with size hierarchy
@@ -84,12 +43,35 @@
   {\fontsize{12}{16}\bfseries\color{headergray}}
   {\theparagraph}{1em}{}
 
-%% Code block styling - light gray box
+%% Code block styling - light gray box with rounded corners
 \usepackage{fancyvrb}
-\usepackage{framed}
+\usepackage[framemethod=tikz]{mdframed}
 
-%% Define shaded environment for code
-\definecolor{shadecolor}{RGB}{242,242,242}
+%% Define code block background color (20% gray = RGB 204,204,204)
+\definecolor{codebg}{RGB}{204,204,204}
+
+%% Configure mdframed style for code blocks with rounded corners
+\mdfdefinestyle{codeboxstyle}{
+    backgroundcolor=codebg,
+    linecolor=codebg,
+    linewidth=0pt,
+    innerleftmargin=8pt,
+    innerrightmargin=8pt,
+    innertopmargin=6pt,
+    innerbottommargin=6pt,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    roundcorner=4pt,
+    skipabove=\baselineskip,
+    skipbelow=\baselineskip
+}
+
+%% Wrap fancyvrb's Verbatim environment with mdframed
+%% mdframed has built-in support for fancyvrb environments
+\surroundwithmdframed[style=codeboxstyle]{Verbatim}
+
+%% Also handle standard verbatim environment
+\surroundwithmdframed[style=codeboxstyle]{verbatim}
 
 %% Link colors
 \AtBeginDocument{

@@ -269,8 +269,8 @@ Treat audio as two complementary control signals:
 
 ```
 AudioAnalyzer (volume/bass/mid/high)
-  |-─> Smooth (slow) -> Energy signal
-  `-─> Threshold -> (optional Delay/Interval gating) -> Transient trigger
+  +-> Smooth (slow) -> Energy signal
+  +-> Threshold -> (optional Delay/Interval gating) -> Transient trigger
 ```
 
 ### Technique: Log Frequency Mapping (Better Spectra)
@@ -492,7 +492,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 4. Create a beat-triggered strobe effect
 
 ---
-
-**Previous**: [<- JavaScript & Custom Ops](07-javascript-ops.md) | **Next**: [Animation & Timeline ->](09-animation-timeline.md)
-
 

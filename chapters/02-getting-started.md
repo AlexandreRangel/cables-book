@@ -12,18 +12,18 @@
 ### Main Areas
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                       TOOLBAR                                │
-|-──────────────────────┬──────────────────────────────────────┤
-│                      │                                       │
-│      OP LIBRARY      │           CANVAS (Preview)           │
-│                      │                                       │
-|-──────────────────────┤                                       │
-│                      │                                       │
-│    PATCH EDITOR      │                                       │
-│   (Node workspace)   │                                       │
-│                      │                                       │
-`-──────────────────────┴──────────────────────────────────────┘
++-------------------------------------------------------------+
+|                       TOOLBAR                                |
++----------------------+--------------------------------------+
+|                      |                                       |
+|      OP LIBRARY      |           CANVAS (Preview)           |
+|                      |                                       |
++----------------------+                                       |
+|                      |                                       |
+|    PATCH EDITOR      |                                       |
+|   (Node workspace)   |                                       |
+|                      |                                       |
++----------------------+--------------------------------------+
 ```
 
 ### Key Interface Elements
@@ -37,7 +37,7 @@
 ## Navigation Controls
 
 | Action | Control |
-|--------|---------|
+|-------|--------|
 | Pan the view | Middle mouse drag or Space + drag |
 | Zoom in/out | Mouse scroll wheel |
 | Select op | Left click |
@@ -53,7 +53,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Essential Shortcuts
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Tab** or **Double-click** | Add new op (opens search) |
 | **Delete** or **Backspace** | Delete selected op(s) |
 | **Ctrl + C** / **Cmd + C** | Copy selected op(s) |
@@ -66,7 +66,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Selection & Navigation
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Ctrl + A** / **Cmd + A** | Select all ops |
 | **Shift + Click** | Add to selection |
 | **Ctrl + Click** / **Cmd + Click** | Toggle selection |
@@ -79,7 +79,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Organizing & Aligning
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Ctrl + Shift + A** / **Cmd + Shift + A** | Align selected ops horizontally |
 | **Ctrl + Shift + D** / **Cmd + Shift + D** | Distribute selected ops evenly |
 | **Ctrl + G** / **Cmd + G** | Group selected ops |
@@ -89,7 +89,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Working with Ops
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Enter** | Open/edit selected op's parameters |
 | **Ctrl + E** / **Cmd + E** | Enable/disable selected op |
 | **Ctrl + M** / **Cmd + M** | Mute selected op |
@@ -100,7 +100,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Cables & Connections
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Drag from port** | Create connection |
 | **Click connection** | Select cable |
 | **Alt + Click connection** | Delete cable |
@@ -109,7 +109,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### View & Interface
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **T** | Toggle timeline |
 | **Ctrl + /** / **Cmd + /** | Toggle op library |
 | **H** | Toggle patch editor visibility |
@@ -120,7 +120,7 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### Performance & Debugging
 
 | Shortcut | Action |
-|----------|--------|
+|---------|-------|
 | **Ctrl + Shift + P** / **Cmd + Shift + P** | Performance monitor |
 | **Ctrl + Shift + L** / **Cmd + Shift + L** | Show patch loading info |
 | **Alt + Click op** | View op documentation |
@@ -256,7 +256,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 - Check that the animated value is actually changing (view the port value)
 
 ---
-
-**Previous**: [<- Introduction](01-introduction.md) | **Next**: [2D Graphics ->](03-2d-graphics.md)
-
 

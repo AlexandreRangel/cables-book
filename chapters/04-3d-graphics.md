@@ -9,34 +9,34 @@ Cables.gl provides powerful tools for creating real-time 3D graphics using WebGL
 A basic 3D setup requires:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    3D RENDERING PIPELINE                     │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  MainLoop (Frame Start)                                      │
-│    |                                                          │
-│  Camera (View Setup)                                          │
-│    |--> Position (X, Y, Z)                                     │
-│    |--> Rotation / LookAt                                      │
-│    `--> Projection (Perspective/Orthographic)                  │
-│    |                                                          │
-│  Lighting (Optional)                                          │
-│    |--> Directional Light                                      │
-│    |--> Point Light                                             │
-│    `--> Ambient Light                                           │
-│    |                                                          │
-│  Materials (Surface Properties)                               │
-│    |--> BasicMaterial / StandardMaterial                        │
-│    |--> Color / Texture                                         │
-│    `--> Shading Properties                                      │
-│    |                                                          │
-│  Mesh/Geometry (3D Shapes)                                   │
-│    |--> Box, Sphere, Plane, etc.                                │
-│    `--> Custom Models                                           │
-│    |                                                          │
-│  Rendered Output (Canvas)                                    │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    3D RENDERING PIPELINE                     |
++-------------------------------------------------------------+
+|                                                               |
+|  MainLoop (Frame Start)                                      |
+|    |                                                          |
+|  Camera (View Setup)                                          |
+|    +-> Position (X, Y, Z)                                     |
+|    +-> Rotation / LookAt                                      |
+|    +-> Projection (Perspective/Orthographic)                  |
+|    |                                                          |
+|  Lighting (Optional)                                          |
+|    +-> Directional Light                                      |
+|    +-> Point Light                                             |
+|    +-> Ambient Light                                           |
+|    |                                                          |
+|  Materials (Surface Properties)                               |
+|    +-> BasicMaterial / StandardMaterial                        |
+|    +-> Color / Texture                                         |
+|    +-> Shading Properties                                      |
+|    |                                                          |
+|  Mesh/Geometry (3D Shapes)                                   |
+|    +-> Box, Sphere, Plane, etc.                                |
+|    +-> Custom Models                                           |
+|    |                                                          |
+|  Rendered Output (Canvas)                                    |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ## Cameras
@@ -368,6 +368,652 @@ Mesh1 -> BooleanSubtract -> Mesh2
 Mesh1 -> BooleanIntersect -> Mesh2
 ```
 
+## Real-Time Mesh Distortion
+
+Real-time mesh distortion allows you to dynamically modify geometry vertices during rendering, creating effects like bending walls, scaling surfaces, and warping shapes. This is essential for architectural visualization, interactive installations, and dynamic 3D effects.
+
+### Understanding Vertex Manipulation
+
+Mesh distortion works by modifying vertex positions in real-time. Each vertex has:
+- **Position** (X, Y, Z) - Where the vertex is located
+- **Normal** (NX, NY, NZ) - Which direction the surface faces
+- **UV Coordinates** (U, V) - Texture mapping coordinates
+
+```
++-------------------------------------------------------------+
+|              MESH DISTORTION PIPELINE                         |
++-------------------------------------------------------------+
+|                                                               |
+|  Base Mesh (Plane, Box, etc.)                                 |
+|    |                                                          |
+|  Vertex Data Extraction                                      |
+|    +-> Positions Array                                       |
+|    +-> Normals Array                                         |
+|    +-> UVs Array                                             |
+|    |                                                          |
+|  Distortion Function                                          |
+|    +-> Calculate new positions                               |
+|    +-> Update normals (if needed)                            |
+|    +-> Preserve UVs                                          |
+|    |                                                          |
+|  CustomGeometry (with distorted vertices)                     |
+|    |                                                          |
+|  Material -> Render                                           |
+|                                                               |
++-------------------------------------------------------------+
+```
+
+### Method 1: Node-Based Distortion
+
+Using built-in cables.gl ops to distort meshes.
+
+#### Example 1: Scaling a Wall (Size Transformation)
+
+Transform a plain wall into different sizes using procedural scaling:
+
+```
++-------------------------------------------------------------+
+|              WALL SCALING SETUP                               |
++-------------------------------------------------------------+
+|                                                               |
+|  Plane (Base Wall)                                            |
+|    |                                                          |
+|  GetVertices -> Positions Array                              |
+|    |                                                          |
+|  Scale Factor (X, Y, Z)                                       |
+|    |                                                          |
+|  ArrayMap (multiply each vertex by scale)                    |
+|    |                                                          |
+|  GetNormals -> Normals Array                                  |
+|  GetUVs -> UVs Array                                          |
+|    |                                                          |
+|  CustomGeometry (new positions, normals, UVs)                |
+|    |                                                          |
+|  Material -> Render                                           |
+|                                                               |
++-------------------------------------------------------------+
+```
+
+**Step-by-Step Node Setup:**
+
+1. **Create Base Plane:**
+   - Add `Plane` op
+   - Set Width: 10, Height: 5
+   - Set Segments Width: 20, Segments Height: 10 (for smooth distortion)
+
+2. **Extract Vertex Data:**
+   - Add `GetVertices` op
+   - Connect Plane -> GetVertices
+   - Output: Array of vertex positions
+
+3. **Create Scale Controls:**
+   - Add `Slider` ops for X, Y, Z scale
+   - Or use `Number` ops with values
+
+4. **Apply Scaling:**
+   - Use `ArrayMap` or `ArrayIterator` to multiply each vertex
+   - For each vertex: `[x, y, z] * [scaleX, scaleY, scaleZ]`
+
+5. **Rebuild Geometry:**
+   - Get original normals and UVs from Plane
+   - Add `CustomGeometry` op
+   - Connect: Scaled Positions -> CustomGeometry
+   - Connect: Original Normals -> CustomGeometry
+   - Connect: Original UVs -> CustomGeometry
+
+#### Example 2: Bending a Wall (Curved Distortion)
+
+Bend a plain wall into a curved wall with controllable angle:
+
+```
++-------------------------------------------------------------+
+|              WALL BENDING SETUP                               |
++-------------------------------------------------------------+
+|                                                               |
+|  Plane (Base Wall)                                            |
+|    |                                                          |
+|  GetVertices -> Positions Array                              |
+|    |                                                          |
+|  Bend Angle (Slider/Number)                                   |
+|  Bend Center (X position where bend occurs)                   |
+|    |                                                          |
+|  ArrayMap (apply bend transformation)                        |
+|    |                                                          |
+|  Calculate New Normals (for proper lighting)                 |
+|    |                                                          |
+|  CustomGeometry -> Material -> Render                        |
+|                                                               |
++-------------------------------------------------------------+
+```
+
+**Bending Algorithm (Node-Based):**
+
+For each vertex:
+1. Calculate distance from bend center
+2. Calculate angle based on distance and bend amount
+3. Rotate vertex around bend axis
+4. Update position
+
+**Node Setup for Bending:**
+
+```
+Plane
+  |
+GetVertices -> ArrayIterator
+  |
+For each vertex:
+  |
+  Vertex X -> Subtract (Bend Center) -> Distance from center
+  |
+  Distance -> Multiply (Bend Angle) -> Rotation angle
+  |
+  Vertex Y -> Sin(Rotation) -> New Y position
+  Vertex Z -> Cos(Rotation) -> New Z position
+  Vertex X -> Keep original
+  |
+  Combine -> New Vertex Position
+  |
+ArrayCollect -> All Distorted Vertices
+  |
+CustomGeometry
+```
+
+### Method 2: JavaScript Custom Op for Mesh Distortion
+
+For more control and performance, use a JavaScript custom op to handle distortion.
+
+#### Custom Op: Wall Distorter
+
+Create a custom op that handles both scaling and bending:
+
+```javascript
+// Custom Op: WallDistorter
+// Distorts a plane mesh with scaling and bending
+
+const inVertices = op.inArray("Input Vertices");
+const inNormals = op.inArray("Input Normals");
+const inUVs = op.inArray("Input UVs");
+
+// Scale parameters
+const inScaleX = op.inFloat("Scale X", 1.0);
+const inScaleY = op.inFloat("Scale Y", 1.0);
+const inScaleZ = op.inFloat("Scale Z", 1.0);
+
+// Bend parameters
+const inBendAngle = op.inFloat("Bend Angle", 0.0); // in radians
+const inBendCenter = op.inFloat("Bend Center X", 0.0); // X position of bend
+const inBendAxis = op.inSwitch("Bend Axis", ["X", "Y", "Z"], "X");
+
+// Outputs
+const outVertices = op.outArray("Distorted Vertices");
+const outNormals = op.outArray("Distorted Normals");
+const outUVs = op.outArray("Output UVs");
+
+function distortVertices() {
+    const vertices = inVertices.get();
+    const normals = inNormals.get();
+    const uvs = inUVs.get();
+    
+    if (!vertices || vertices.length === 0) {
+        outVertices.set([]);
+        outNormals.set([]);
+        outUVs.set([]);
+        return;
+    }
+    
+    const scaleX = inScaleX.get();
+    const scaleY = inScaleY.get();
+    const scaleZ = inScaleZ.get();
+    const bendAngle = inBendAngle.get();
+    const bendCenter = inBendCenter.get();
+    const bendAxis = inBendAxis.get();
+    
+    const distortedVertices = [];
+    const distortedNormals = [];
+    
+    for (let i = 0; i < vertices.length; i += 3) {
+        let x = vertices[i];
+        let y = vertices[i + 1];
+        let z = vertices[i + 2];
+        
+        // Apply scaling first
+        x *= scaleX;
+        y *= scaleY;
+        z *= scaleZ;
+        
+        // Apply bending
+        if (Math.abs(bendAngle) > 0.001) {
+            if (bendAxis === "X") {
+                // Bend along X axis (curves in Y-Z plane)
+                const distanceFromCenter = x - bendCenter;
+                const angle = distanceFromCenter * bendAngle;
+                
+                // Rotate around X axis
+                const cosA = Math.cos(angle);
+                const sinA = Math.sin(angle);
+                const newY = y * cosA - z * sinA;
+                const newZ = y * sinA + z * cosA;
+                y = newY;
+                z = newZ;
+                
+                // Update normals
+                if (normals && normals.length > i + 2) {
+                    const nx = normals[i];
+                    const ny = normals[i + 1];
+                    const nz = normals[i + 2];
+                    distortedNormals.push(
+                        nx,
+                        ny * cosA - nz * sinA,
+                        ny * sinA + nz * cosA
+                    );
+                }
+            } else if (bendAxis === "Y") {
+                // Bend along Y axis (curves in X-Z plane)
+                const distanceFromCenter = y - bendCenter;
+                const angle = distanceFromCenter * bendAngle;
+                
+                const cosA = Math.cos(angle);
+                const sinA = Math.sin(angle);
+                const newX = x * cosA - z * sinA;
+                const newZ = x * sinA + z * cosA;
+                x = newX;
+                z = newZ;
+                
+                if (normals && normals.length > i + 2) {
+                    const nx = normals[i];
+                    const ny = normals[i + 1];
+                    const nz = normals[i + 2];
+                    distortedNormals.push(
+                        nx * cosA - nz * sinA,
+                        ny,
+                        nx * sinA + nz * cosA
+                    );
+                }
+            } else if (bendAxis === "Z") {
+                // Bend along Z axis (curves in X-Y plane)
+                const distanceFromCenter = z - bendCenter;
+                const angle = distanceFromCenter * bendAngle;
+                
+                const cosA = Math.cos(angle);
+                const sinA = Math.sin(angle);
+                const newX = x * cosA - y * sinA;
+                const newY = x * sinA + y * cosA;
+                x = newX;
+                y = newY;
+                
+                if (normals && normals.length > i + 2) {
+                    const nx = normals[i];
+                    const ny = normals[i + 1];
+                    const nz = normals[i + 2];
+                    distortedNormals.push(
+                        nx * cosA - ny * sinA,
+                        nx * sinA + ny * cosA,
+                        nz
+                    );
+                }
+            }
+        } else {
+            // No bending, just copy normals
+            if (normals && normals.length > i + 2) {
+                distortedNormals.push(
+                    normals[i],
+                    normals[i + 1],
+                    normals[i + 2]
+                );
+            }
+        }
+        
+        distortedVertices.push(x, y, z);
+    }
+    
+    outVertices.set(distortedVertices);
+    if (distortedNormals.length > 0) {
+        outNormals.set(distortedNormals);
+    } else if (normals) {
+        outNormals.set(normals);
+    }
+    if (uvs) {
+        outUVs.set(uvs);
+    }
+}
+
+// Update when inputs change
+inVertices.onChange = distortVertices;
+inNormals.onChange = distortVertices;
+inUVs.onChange = distortVertices;
+inScaleX.onChange = distortVertices;
+inScaleY.onChange = distortVertices;
+inScaleZ.onChange = distortVertices;
+inBendAngle.onChange = distortVertices;
+inBendCenter.onChange = distortVertices;
+inBendAxis.onChange = distortVertices;
+```
+
+#### Using the Wall Distorter Op
+
+**Setup:**
+
+```
+Plane (Base Wall)
+  |
+GetVertices -> WallDistorter (Input Vertices)
+GetNormals -> WallDistorter (Input Normals)
+GetUVs -> WallDistorter (Input UVs)
+  |
+WallDistorter (Distorted Vertices) -> CustomGeometry
+WallDistorter (Distorted Normals) -> CustomGeometry
+WallDistorter (Output UVs) -> CustomGeometry
+  |
+Material -> Render
+```
+
+**Controls:**
+- **Scale X/Y/Z**: Resize the wall
+- **Bend Angle**: Curvature amount (in radians, use Math.PI/4 for 45°)
+- **Bend Center X**: Where the bend occurs along the wall
+- **Bend Axis**: Which axis to bend around
+
+### Advanced: Animated Wall Distortion
+
+Combine distortion with animation for dynamic effects:
+
+```javascript
+// Custom Op: AnimatedWallDistorter
+// Adds time-based animation to distortion
+
+const inVertices = op.inArray("Input Vertices");
+const inNormals = op.inArray("Input Normals");
+const inUVs = op.inArray("Input UVs");
+
+// Animation parameters
+const inTime = op.inFloat("Time", 0.0);
+const inAnimationSpeed = op.inFloat("Animation Speed", 1.0);
+const inAnimationType = op.inSwitch("Animation Type", 
+    ["None", "Pulse", "Wave", "Oscillate"], "None");
+
+// Distortion parameters (same as before)
+const inScaleX = op.inFloat("Scale X", 1.0);
+const inScaleY = op.inFloat("Scale Y", 1.0);
+const inScaleZ = op.inFloat("Scale Z", 1.0);
+const inBendAngle = op.inFloat("Bend Angle", 0.0);
+const inBendCenter = op.inFloat("Bend Center X", 0.0);
+
+// Outputs
+const outVertices = op.outArray("Distorted Vertices");
+const outNormals = op.outArray("Distorted Normals");
+const outUVs = op.outArray("Output UVs");
+
+function getAnimatedBendAngle() {
+    const baseAngle = inBendAngle.get();
+    const time = inTime.get();
+    const speed = inAnimationSpeed.get();
+    const type = inAnimationType.get();
+    
+    if (type === "None") {
+        return baseAngle;
+    } else if (type === "Pulse") {
+        // Pulse between 0 and baseAngle
+        const pulse = (Math.sin(time * speed) + 1) / 2; // 0 to 1
+        return baseAngle * pulse;
+    } else if (type === "Wave") {
+        // Wave effect
+        return baseAngle * Math.sin(time * speed);
+    } else if (type === "Oscillate") {
+        // Oscillate around baseAngle
+        return baseAngle + Math.sin(time * speed) * (baseAngle * 0.5);
+    }
+    
+    return baseAngle;
+}
+
+function distortVertices() {
+    const vertices = inVertices.get();
+    const normals = inNormals.get();
+    const uvs = inUVs.get();
+    
+    if (!vertices || vertices.length === 0) {
+        outVertices.set([]);
+        outNormals.set([]);
+        outUVs.set([]);
+        return;
+    }
+    
+    const scaleX = inScaleX.get();
+    const scaleY = inScaleY.get();
+    const scaleZ = inScaleZ.get();
+    const bendAngle = getAnimatedBendAngle();
+    const bendCenter = inBendCenter.get();
+    
+    const distortedVertices = [];
+    const distortedNormals = [];
+    
+    for (let i = 0; i < vertices.length; i += 3) {
+        let x = vertices[i];
+        let y = vertices[i + 1];
+        let z = vertices[i + 2];
+        
+        // Apply scaling
+        x *= scaleX;
+        y *= scaleY;
+        z *= scaleZ;
+        
+        // Apply animated bending
+        if (Math.abs(bendAngle) > 0.001) {
+            const distanceFromCenter = x - bendCenter;
+            const angle = distanceFromCenter * bendAngle;
+            
+            const cosA = Math.cos(angle);
+            const sinA = Math.sin(angle);
+            const newY = y * cosA - z * sinA;
+            const newZ = y * sinA + z * cosA;
+            y = newY;
+            z = newZ;
+            
+            // Update normals
+            if (normals && normals.length > i + 2) {
+                const nx = normals[i];
+                const ny = normals[i + 1];
+                const nz = normals[i + 2];
+                distortedNormals.push(
+                    nx,
+                    ny * cosA - nz * sinA,
+                    ny * sinA + z * cosA
+                );
+            }
+        } else {
+            if (normals && normals.length > i + 2) {
+                distortedNormals.push(
+                    normals[i],
+                    normals[i + 1],
+                    normals[i + 2]
+                );
+            }
+        }
+        
+        distortedVertices.push(x, y, z);
+    }
+    
+    outVertices.set(distortedVertices);
+    if (distortedNormals.length > 0) {
+        outNormals.set(distortedNormals);
+    } else if (normals) {
+        outNormals.set(normals);
+    }
+    if (uvs) {
+        outUVs.set(uvs);
+    }
+}
+
+// Update on input changes
+inVertices.onChange = distortVertices;
+inNormals.onChange = distortVertices;
+inUVs.onChange = distortVertices;
+inTime.onChange = distortVertices;
+inAnimationSpeed.onChange = distortVertices;
+inAnimationType.onChange = distortVertices;
+inScaleX.onChange = distortVertices;
+inScaleY.onChange = distortVertices;
+inScaleZ.onChange = distortVertices;
+inBendAngle.onChange = distortVertices;
+inBendCenter.onChange = distortVertices;
+```
+
+### Practical Example: Interactive Curved Wall
+
+Complete setup for an interactive curved wall with real-time controls:
+
+```
++-------------------------------------------------------------+
+|              INTERACTIVE CURVED WALL SETUP                   |
++-------------------------------------------------------------+
+|                                                               |
+|  MainLoop                                                     |
+|    |                                                          |
+|  Plane (Base Wall)                                            |
+|    Width: 10, Height: 5                                       |
+|    Segments: 30x15 (for smooth curves)                       |
+|    |                                                          |
+|  GetVertices -> WallDistorter                                 |
+|  GetNormals -> WallDistorter                                  |
+|  GetUVs -> WallDistorter                                      |
+|    |                                                          |
+|  Slider (Bend Angle: 0 to PI/2) -> WallDistorter            |
+|  Slider (Bend Center: -5 to 5) -> WallDistorter             |
+|  Slider (Scale X: 0.5 to 2.0) -> WallDistorter              |
+|  Slider (Scale Y: 0.5 to 2.0) -> WallDistorter              |
+|    |                                                          |
+|  WallDistorter -> CustomGeometry                              |
+|    |                                                          |
+|  StandardMaterial -> Render                                   |
+|    |                                                          |
+|  Camera -> OrbitControls                                      |
+|                                                               |
++-------------------------------------------------------------+
+```
+
+### Performance Optimization
+
+For real-time distortion, optimize your setup:
+
+1. **Reduce Vertex Count When Possible:**
+   - Use fewer segments for static walls
+   - Increase segments only where distortion is visible
+
+2. **Cache Calculations:**
+   ```javascript
+   let cachedVertices = null;
+   let cachedBendAngle = null;
+   let cachedScale = null;
+   
+   function distortVertices() {
+       const bendAngle = inBendAngle.get();
+       const scale = inScaleX.get();
+       
+       // Only recalculate if inputs changed
+       if (cachedVertices && 
+           cachedBendAngle === bendAngle && 
+           cachedScale === scale) {
+           return; // Use cached result
+       }
+       
+       // Recalculate...
+       cachedVertices = distortedVertices;
+       cachedBendAngle = bendAngle;
+       cachedScale = scale;
+   }
+   ```
+
+3. **Use Instancing for Multiple Walls:**
+   - Create one distorted wall
+   - Use `InstancedMesh` to duplicate it
+   - Much faster than distorting each wall separately
+
+4. **Update Only When Needed:**
+   ```javascript
+   // Only update on frame if animation is active
+   const inRender = op.inTrigger("Render");
+   inRender.onTriggered = function() {
+       if (inAnimationType.get() !== "None") {
+           distortVertices();
+       }
+   };
+   ```
+
+### Advanced Techniques
+
+#### Multi-Axis Bending
+
+Bend along multiple axes simultaneously:
+
+```javascript
+// Bend along both X and Y axes
+const bendX = distanceFromCenterX * bendAngleX;
+const bendY = distanceFromCenterY * bendAngleY;
+
+// Apply rotations in sequence
+// First rotate around X, then around Y
+```
+
+#### Non-Linear Distortion
+
+Use easing functions for smooth transitions:
+
+```javascript
+function easeInOutCubic(t) {
+    return t < 0.5 
+        ? 4 * t * t * t 
+        : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
+const easedAngle = baseAngle * easeInOutCubic(progress);
+```
+
+#### Texture Coordinate Preservation
+
+When distorting, UVs should remain unchanged for proper texturing:
+
+```javascript
+// Always preserve original UVs
+outUVs.set(inUVs.get()); // Don't modify UVs during distortion
+```
+
+### Common Use Cases
+
+1. **Architectural Visualization:**
+   - Bend walls to show different room layouts
+   - Scale walls to demonstrate space variations
+
+2. **Interactive Installations:**
+   - User-controlled wall distortion
+   - Audio-reactive bending
+
+3. **Animation:**
+   - Morphing between straight and curved walls
+   - Dynamic space transformations
+
+4. **Game Mechanics:**
+   - Procedural level generation
+   - Dynamic environment changes
+
+### Troubleshooting
+
+**Problem: Normals look wrong after distortion**
+- Solution: Recalculate normals after distortion
+- Use `CalculateNormals` op or compute in JavaScript
+
+**Problem: Texture stretches or distorts**
+- Solution: Don't modify UV coordinates
+- Keep original UVs from the base mesh
+
+**Problem: Performance is slow**
+- Solution: Reduce vertex count
+- Cache calculations
+- Only update when parameters change
+
+**Problem: Bending looks jagged**
+- Solution: Increase mesh segments
+- Use smoother interpolation
+
 ## Materials
 
 Materials define how surfaces appear when lit.
@@ -459,9 +1105,9 @@ Same as 2D but with full 3D control:
 
 ```
 Transform
-|-── TranslateX, TranslateY, TranslateZ
-|-── RotateX, RotateY, RotateZ
-`-── ScaleX, ScaleY, ScaleZ (or uniform Scale)
++-- TranslateX, TranslateY, TranslateZ
++-- RotateX, RotateY, RotateZ
++-- ScaleX, ScaleY, ScaleZ (or uniform Scale)
 ```
 
 ### Matrix Operations
@@ -626,11 +1272,11 @@ Post-process color adjustments:
 
 ```
 Scene -> ColorCorrection
-    |-── Exposure
-    |-── Contrast
-    |-── Saturation
-    |-── Color temperature
-    `-── Tint
+    +-- Exposure
+    +-- Contrast
+    +-- Saturation
+    +-- Color temperature
+    +-- Tint
 ```
 
 ### Chromatic Aberration
@@ -681,20 +1327,20 @@ Organize complex scenes:
 MainLoop -> Camera
     |
 Scene (root)
-    |-── Environment
-    │   |-── Skybox
-    │   `-── Fog
-    |-── Lighting
-    │   |-── AmbientLight
-    │   |-── DirectionalLight
-    │   `-── PointLights (array)
-    |-── Static Objects
-    │   `-── [Buildings, terrain, etc.]
-    |-── Dynamic Objects
-    │   `-── [Characters, vehicles, etc.]
-    `-── Effects
-        |-── Particles
-        `-── Post-processing
+    +-- Environment
+    |   +-- Skybox
+    |   +-- Fog
+    +-- Lighting
+    |   +-- AmbientLight
+    |   +-- DirectionalLight
+    |   +-- PointLights (array)
+    +-- Static Objects
+    |   +-- [Buildings, terrain, etc.]
+    +-- Dynamic Objects
+    |   +-- [Characters, vehicles, etc.]
+    +-- Effects
+        +-- Particles
+        +-- Post-processing
 ```
 
 ### Object Grouping
@@ -703,9 +1349,9 @@ Group related objects:
 
 ```
 Group (name: "Characters")
-    |-── Character1
-    |-── Character2
-    `-── Character3
+    +-- Character1
+    +-- Character2
+    +-- Character3
 ```
 
 ### Layer System
@@ -798,12 +1444,12 @@ DirectionalLight (sun)
 [Sun] - Static sphere with emissive material
     |
 [Planet1] - Transform (orbit around sun)
-    │   |-── Time -> RotateY (orbit)
-    │   `-── Time -> RotateY (self-rotation)
-    │       `-── Sphere
+    |   +-- Time -> RotateY (orbit)
+    |   +-- Time -> RotateY (self-rotation)
+    |       +-- Sphere
     |
 [Planet2] - Different orbit speed
-    `-── [Moon] - Orbits planet
+    +-- [Moon] - Orbits planet
 ```
 
 ### Example 5: Procedural Terrain
@@ -878,10 +1524,10 @@ DirectionalLight
 CharacterModel
     |
 Timeline
-    |-── Frame 0: Idle pose
-    |-── Frame 30: Walk cycle start
-    |-── Frame 60: Walk cycle end
-    `-── [Loop]
+    +-- Frame 0: Idle pose
+    +-- Frame 30: Walk cycle start
+    +-- Frame 60: Walk cycle end
+    +-- [Loop]
     |
 Apply to skeleton
     |
@@ -898,10 +1544,10 @@ PerspectiveCamera
 ArrayIterator (particles)
     |
 Particle Data
-    |-── Position (update with velocity)
-    |-── Velocity (update with forces)
-    |-── Life (decrease over time)
-    `-── Size (scale with life)
+    +-- Position (update with velocity)
+    +-- Velocity (update with forces)
+    +-- Life (decrease over time)
+    +-- Size (scale with life)
     |
 Transform (position, scale)
     |
@@ -940,9 +1586,9 @@ Scene
 RenderToTexture (depth)
     |
 VolumetricFog
-    |-── Depth texture
-    |-── Noise texture (for variation)
-    `-── Light direction
+    +-- Depth texture
+    +-- Noise texture (for variation)
+    +-- Light direction
     |
 Blend with scene
 ```
@@ -959,11 +1605,11 @@ Time -> Sin -> Sun angle
 Sun angle -> Calculate direction
     |
 DirectionalLight (sun)
-    |-── Color (warm -> cool based on angle)
-    `-── Intensity (day -> night)
+    +-- Color (warm -> cool based on angle)
+    +-- Intensity (day -> night)
     |
 AmbientLight
-    `-── Intensity (complement sun)
+    +-- Intensity (complement sun)
     |
 [Scene]
 ```
@@ -990,13 +1636,13 @@ MainLoop
 PerspectiveCamera
     |
 PhysicsWorld
-    |-── Gravity
-    `-── Colliders
+    +-- Gravity
+    +-- Colliders
     |
 PhysicsBody (rigid body)
-    |-── Mass
-    |-── Forces
-    `-── Collisions
+    +-- Mass
+    +-- Forces
+    +-- Collisions
     |
 Transform (from physics)
     |
@@ -1023,9 +1669,9 @@ Blur (bloom)
 Add bloom back
     |
 ColorGrading
-    |-── Exposure
-    |-── Contrast
-    `-── Saturation
+    +-- Exposure
+    +-- Contrast
+    +-- Saturation
     |
 ChromaticAberration
     |
@@ -1087,10 +1733,10 @@ Plane (subdivided)
 Vertex shader (displace vertices)
     |
 WaterMaterial
-    |-── Normal map (animated)
-    |-── Reflection (scene)
-    |-── Refraction
-    `-── Foam (at edges)
+    +-- Normal map (animated)
+    +-- Reflection (scene)
+    +-- Refraction
+    +-- Foam (at edges)
 ```
 
 ### Example 19: Portal Effect
@@ -1238,11 +1884,11 @@ Track performance metrics:
 
 ```
 PerformanceMonitor
-    |-── FPS
-    |-── Draw calls
-    |-── Triangle count
-    |-── Texture memory
-    `-── Shader compilation time
+    +-- FPS
+    +-- Draw calls
+    +-- Triangle count
+    +-- Texture memory
+    +-- Shader compilation time
 ```
 
 ### Adaptive Quality
@@ -1251,9 +1897,9 @@ Adjust quality based on performance:
 
 ```
 FPS -> If < 30 -> Reduce quality
-    |-── Lower LOD
-    |-── Disable effects
-    `-── Reduce particle count
+    +-- Lower LOD
+    +-- Disable effects
+    +-- Reduce particle count
 ```
 
 ## Common Patterns and Workflows
@@ -1278,10 +1924,10 @@ Organize object behavior:
 
 ```
 GameObject
-    |-── Transform component
-    |-── Render component
-    |-── Physics component
-    `-── Script component
+    +-- Transform component
+    +-- Render component
+    +-- Physics component
+    +-- Script component
 ```
 
 ### Pattern: Event System
@@ -1290,8 +1936,8 @@ Decouple object interactions:
 
 ```
 EventEmitter
-    |-── Subscribe (listener)
-    `-── Emit (event)
+    +-- Subscribe (listener)
+    +-- Emit (event)
     |
 Objects react to events
 ```
@@ -1302,9 +1948,9 @@ Manage object states:
 
 ```
 StateMachine
-    |-── Idle state
-    |-── Active state
-    `-── Transition conditions
+    +-- Idle state
+    +-- Active state
+    +-- Transition conditions
 ```
 
 ## Debugging 3D Scenes
@@ -1434,7 +2080,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 10. **Physics Sandbox** - Interactive physics playground
 
 ---
-
-**Previous**: [<- 2D Graphics](03-2d-graphics.md) | **Next**: [Texturing ->](05-texturing.md)
-
 

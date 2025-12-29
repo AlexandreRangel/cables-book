@@ -1,6 +1,4 @@
-# The Cables.gl Book
-#### Alexandre Rangel, 2025
-
+# Introduction to Cables.gl
 
 ## What is Cables.gl?
 
@@ -111,7 +109,4 @@ AuthorUrl: https://www.youtube.com/@kirellbenzi
 - **Example Patches**: Browse public patches for inspiration
 
 ---
-
-**Next Chapter**: [Getting Started >>](02-getting-started.md)
-
 

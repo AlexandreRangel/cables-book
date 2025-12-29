@@ -72,17 +72,17 @@ You'll receive a ZIP file containing:
 
 ```
 exported-patch/
-|-── index.html          # Main HTML file
-|-── js/
-│   |-── cables.min.js   # Cables runtime
-│   |-── ops.js          # Your patch's operators
-│   `-── patch.js        # Patch configuration
-|-── assets/
-│   |-── textures/       # Image files
-│   |-── audio/          # Sound files
-│   `-── models/         # 3D models
-`-── css/
-    `-── style.css       # Optional styles
++-- index.html          # Main HTML file
++-- js/
+|   +-- cables.min.js   # Cables runtime
+|   +-- ops.js          # Your patch's operators
+|   +-- patch.js        # Patch configuration
++-- assets/
+|   +-- textures/       # Image files
+|   +-- audio/          # Sound files
+|   +-- models/         # 3D models
++-- css/
+    +-- style.css       # Optional styles
 ```
 
 ### Step 4: Test Locally
@@ -540,24 +540,24 @@ After exporting your cables.gl patch, set up an Electron project:
 
 ```
 electron-app/
-|-── package.json
-|-── main.js              # Main Electron process
-|-── preload.js           # Preload script (optional)
-|-── renderer/
-│   |-── index.html       # Your exported cables HTML
-│   |-── js/
-│   │   |-── cables.min.js
-│   │   |-── ops.js
-│   │   `-── patch.js
-│   `-── assets/          # Your exported assets
-|-── assets/
-│   |-── icon.ico         # Windows icon
-│   |-── icon.icns        # macOS icon
-│   `-── icon.png         # Linux icon
-`-── build/               # Build configuration
-    |-── mac/
-    |-── win/
-    `-── linux/
++-- package.json
++-- main.js              # Main Electron process
++-- preload.js           # Preload script (optional)
++-- renderer/
+|   +-- index.html       # Your exported cables HTML
+|   +-- js/
+|   |   +-- cables.min.js
+|   |   +-- ops.js
+|   |   +-- patch.js
+|   +-- assets/          # Your exported assets
++-- assets/
+|   +-- icon.ico         # Windows icon
+|   +-- icon.icns        # macOS icon
+|   +-- icon.png         # Linux icon
++-- build/               # Build configuration
+    +-- mac/
+    +-- win/
+    +-- linux/
 ```
 
 #### Initial Setup
@@ -2254,9 +2254,6 @@ AuthorUrl: https://www.youtube.com/@Decode_gl
 10. **Electron Exercise**: Add a system tray icon with context menu for your Electron app
 
 ---
-
-**Previous**: [<- Animation & Timeline](09-animation-timeline.md)
- | **Next**: [Interfaces ->](12-interfaces.md)
 
 ---
 

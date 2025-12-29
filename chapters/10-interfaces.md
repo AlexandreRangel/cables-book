@@ -7,27 +7,27 @@ Cables.gl provides multiple ways to create user interfaces for your patches. You
 ## Interface Approaches Overview
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    INTERFACE OPTIONS                         │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  1. HTML/CSS Interfaces                                      │
-│     ┌─────────────────────────────────────┐                  │
-│     │ Full DOM control                    │                  │
-│     │ Custom styling                      │                  │
-│     │ Overlay on canvas                   │                  │
-│     │ Complete flexibility                │                  │
-│     `-─────────────────────────────────────┘                  │
-│                                                               │
-│  2. Native Sidebar Interface Ops                            │
-│     ┌─────────────────────────────────────┐                  │
-│     │ Built-in UI elements                │                  │
-│     │ Integrated with patch               │                  │
-│     │ CSS-stylable                        │                  │
-│     │ Quick to implement                  │                  │
-│     `-─────────────────────────────────────┘                  │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    INTERFACE OPTIONS                        |
++-------------------------------------------------------------+
+|                                                             |
+|  1. HTML/CSS Interfaces                                     |
+|     +-------------------------------------+                 |
+|     | Full DOM control                    |                 |
+|     | Custom styling                      |                 |
+|     | Overlay on canvas                   |                 |
+|     | Complete flexibility                |                 |
+|     +-------------------------------------+                 |
+|                                                             |
+|  2. Native Sidebar Interface Ops                            |
+|     +-------------------------------------+                 |
+|     | Built-in UI elements                |                 |
+|     | Integrated with patch               |                 |
+|     | CSS-stylable                        |                 |
+|     | Quick to implement                  |                 |
+|     +-------------------------------------+                 |
+|                                                             |
++-------------------------------------------------------------+
 ```
 
 ## HTML/CSS Interfaces
@@ -43,22 +43,22 @@ The HTML op allows you to create and manipulate DOM elements directly within you
 #### Basic HTML Op Setup
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                      HTML OP FLOW                            │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  MainLoop                                                     │
-│    |                                                          │
-│  HTML Op                                                      │
-│    |--> HTML Content (string)                                  │
-│    |--> CSS Styles (string)                                    │
-│    |--> Position (x, y)                                        │
-│    |--> Size (width, height)                                   │
-│    `--> Visibility (bool)                                       │
-│    |                                                          │
-│  DOM Element (rendered on page)                              │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                      HTML OP FLOW                            |
++-------------------------------------------------------------+
+|                                                               |
+|  MainLoop                                                     |
+|    |                                                          |
+|  HTML Op                                                      |
+|    +-> HTML Content (string)                                  |
+|    +-> CSS Styles (string)                                    |
+|    +-> Position (x, y)                                        |
+|    +-> Size (width, height)                                   |
+|    +-> Visibility (bool)                                       |
+|    |                                                          |
+|  DOM Element (rendered on page)                              |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 #### Creating a Simple HTML Interface
@@ -182,23 +182,23 @@ inTrigger.onTriggered = function() {
 #### Complete Example: Interactive Control Panel
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    INTERACTIVE SETUP                          │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  MainLoop                                                     │
-│    |--> HTML Op (UI elements)                                  │
-│    `--> Custom Op (JavaScript controller)                      │
-│         |--> Reads DOM events                                  │
-│         |--> Outputs: Slider Value                            │
-│         |--> Outputs: Button Trigger                          │
-│         `--> Outputs: Text Input                              │
-│              |                                                │
-│         Patch Logic (uses values)                            │
-│              |                                                │
-│         Visual Output (canvas)                               │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    INTERACTIVE SETUP                          |
++-------------------------------------------------------------+
+|                                                               |
+|  MainLoop                                                     |
+|    +-> HTML Op (UI elements)                                  |
+|    +-> Custom Op (JavaScript controller)                      |
+|         +-> Reads DOM events                                  |
+|         +-> Outputs: Slider Value                            |
+|         +-> Outputs: Button Trigger                          |
+|         +-> Outputs: Text Input                              |
+|              |                                                |
+|         Patch Logic (uses values)                            |
+|              |                                                |
+|         Visual Output (canvas)                               |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 **HTML Content:**
@@ -454,20 +454,20 @@ Cables.gl provides native interface operators that create UI elements directly i
 ### Available Interface Ops
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              NATIVE INTERFACE OPS                            │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  • Slider        - Numeric input with range                 │
-│  • Button        - Clickable trigger                         │
-│  • Toggle        - Boolean on/off switch                     │
-│  • Text Input    - String input field                        │
-│  • Color Picker  - Color selection                           │
-│  • Dropdown      - Selection from options                    │
-│  • Number Input  - Direct numeric input                      │
-│  • Text Display  - Display text/values                       │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|              NATIVE INTERFACE OPS                            |
++-------------------------------------------------------------+
+|                                                               |
+|  • Slider        - Numeric input with range                 |
+|  • Button        - Clickable trigger                         |
+|  • Toggle        - Boolean on/off switch                     |
+|  • Text Input    - String input field                        |
+|  • Color Picker  - Color selection                           |
+|  • Dropdown      - Selection from options                    |
+|  • Number Input  - Direct numeric input                      |
+|  • Text Display  - Display text/values                       |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ### Basic Interface Op Setup
@@ -475,29 +475,29 @@ Cables.gl provides native interface operators that create UI elements directly i
 #### Example: Simple Control Panel
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    SIDEBAR INTERFACE                          │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Slider Op (Speed)                                           │
-│    |--> Min: 0.1                                               │
-│    |--> Max: 5.0                                               │
-│    |--> Default: 1.0                                           │
-│    `--> Output: Speed Value                                    │
-│         |                                                     │
-│    Patch Logic                                                │
-│                                                               │
-│  Button Op (Reset)                                            │
-│    `--> Output: Trigger                                        │
-│         |                                                     │
-│    Reset Logic                                                │
-│                                                               │
-│  Toggle Op (Enabled)                                         │
-│    `--> Output: Boolean                                         │
-│         |                                                     │
-│    Conditional Logic                                          │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    SIDEBAR INTERFACE                          |
++-------------------------------------------------------------+
+|                                                               |
+|  Slider Op (Speed)                                           |
+|    +-> Min: 0.1                                               |
+|    +-> Max: 5.0                                               |
+|    +-> Default: 1.0                                           |
+|    +-> Output: Speed Value                                    |
+|         |                                                     |
+|    Patch Logic                                                |
+|                                                               |
+|  Button Op (Reset)                                            |
+|    +-> Output: Trigger                                        |
+|         |                                                     |
+|    Reset Logic                                                |
+|                                                               |
+|  Toggle Op (Enabled)                                         |
+|    +-> Output: Boolean                                         |
+|         |                                                     |
+|    Conditional Logic                                          |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 #### Step-by-Step: Creating a Sidebar Interface
@@ -548,25 +548,25 @@ This is a powerful technique that allows you to customize the appearance of nati
 The sidebar interface ops render in a specific DOM structure that you can target with CSS:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              SIDEBAR DOM STRUCTURE                            │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  <div class="cables-sidebar">                                │
-│    <div class="cables-sidebar-content">                      │
-│      <div class="cables-op-slider" data-op-name="Speed">     │
-│        <label>Speed</label>                                  │
-│        <input type="range" ...>                               │
-│        <span class="value">1.0</span>                        │
-│      </div>                                                   │
-│      <div class="cables-op-button" data-op-name="Reset">     │
-│        <button>Reset</button>                                 │
-│      </div>                                                   │
-│      ...                                                      │
-│    </div>                                                     │
-│  </div>                                                       │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|              SIDEBAR DOM STRUCTURE                            |
++-------------------------------------------------------------+
+|                                                               |
+|  <div class="cables-sidebar">                                |
+|    <div class="cables-sidebar-content">                      |
+|      <div class="cables-op-slider" data-op-name="Speed">     |
+|        <label>Speed</label>                                  |
+|        <input type="range" ...>                               |
+|        <span class="value">1.0</span>                        |
+|      </div>                                                   |
+|      <div class="cables-op-button" data-op-name="Reset">     |
+|        <button>Reset</button>                                 |
+|      </div>                                                   |
+|      ...                                                      |
+|    </div>                                                     |
+|  </div>                                                       |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 #### Method 1: Global CSS Injection
@@ -1442,25 +1442,25 @@ Here's a complete example that styles all interface ops with a cohesive, profess
 You can combine both approaches for maximum flexibility:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              HYBRID INTERFACE APPROACH                       │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Native Sidebar Ops                                          │
-│    |--> Quick controls (sliders, buttons)                     │
-│    `--> Styled with CSS                                         │
-│                                                               │
-│  HTML Overlay                                                │
-│    |--> Complex UI elements                                    │
-│    |--> Custom layouts                                         │
-│    `--> Interactive components                                  │
-│                                                               │
-│  JavaScript Custom Op                                         │
-│    |--> Bridges both systems                                   │
-│    |--> Syncs values                                           │
-│    `--> Handles interactions                                   │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|              HYBRID INTERFACE APPROACH                       |
++-------------------------------------------------------------+
+|                                                               |
+|  Native Sidebar Ops                                          |
+|    +-> Quick controls (sliders, buttons)                     |
+|    +-> Styled with CSS                                         |
+|                                                               |
+|  HTML Overlay                                                |
+|    +-> Complex UI elements                                    |
+|    +-> Custom layouts                                         |
+|    +-> Interactive components                                  |
+|                                                               |
+|  JavaScript Custom Op                                         |
+|    +-> Bridges both systems                                   |
+|    +-> Syncs values                                           |
+|    +-> Handles interactions                                   |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ## Best Practices
@@ -1597,7 +1597,5 @@ observer.observe(document.querySelector('.cables-sidebar'), {
 6. **Advanced Styling**: Implement glassmorphism or other modern design trends in your sidebar
 
 ---
-
-**Previous**: [<- Export & Deployment](10-export-deployment.md) | **Next**: [Video Tutorials ->](11-video-tutorials.md)
 
 

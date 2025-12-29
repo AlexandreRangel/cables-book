@@ -633,6 +633,3 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 
 ---
 
-**Previous**: [<- Shaders & GLSL](06-shaders-glsl.md) | **Next**: [Audio & Sound ->](08-audio-sound.md)
-
-

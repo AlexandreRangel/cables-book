@@ -60,31 +60,31 @@ WebcamTexture -> Material (texture input)
 UV coordinates define how textures wrap onto geometry:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    UV COORDINATE SYSTEM                      │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Texture (Image)                                              │
-│  ┌─────────────────────────┐                                │
-│  │ U=0,V=0        U=1,V=0  │  <- Top edge                    │
-│  │                         │                                │
-│  │                         │                                │
-│  │                         │                                │
-│  │ U=0,V=1        U=1,V=1  │  <- Bottom edge                │
-│  `-─────────────────────────┘                                │
-│                                                               │
-│  Mapped to 3D Geometry:                                      │
-│                                                               │
-│        U=0,V=0 ──────────── U=1,V=0                         │
-│           │                      │                           │
-│           │     3D Surface      │                           │
-│           │                      │                           │
-│        U=0,V=1 ──────────── U=1,V=1                         │
-│                                                               │
-│  - U = Horizontal (0 to 1, left to right)                   │
-│  - V = Vertical (0 to 1, top to bottom)                    │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    UV COORDINATE SYSTEM                      |
++-------------------------------------------------------------+
+|                                                               |
+|  Texture (Image)                                              |
+|  +-------------------------+                                |
+|  | U=0,V=0        U=1,V=0  |  <- Top edge                    |
+|  |                         |                                |
+|  |                         |                                |
+|  |                         |                                |
+|  | U=0,V=1        U=1,V=1  |  <- Bottom edge                |
+|  +-------------------------+                                |
+|                                                               |
+|  Mapped to 3D Geometry:                                      |
+|                                                               |
+|        U=0,V=0 ------------ U=1,V=0                         |
+|           |                      |                           |
+|           |     3D Surface      |                           |
+|           |                      |                           |
+|        U=0,V=1 ------------ U=1,V=1                         |
+|                                                               |
+|  - U = Horizontal (0 to 1, left to right)                   |
+|  - V = Vertical (0 to 1, top to bottom)                    |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 - **U** = Horizontal position (0 to 1)
@@ -97,37 +97,37 @@ Most primitive shapes have automatic UV mapping.
 Modify texture coordinates:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                  UV TRANSFORM OPERATIONS                     │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Original Texture                                            │
-│  ┌─────────┐                                                 │
-│  │         │                                                 │
-│  │ Texture │                                                 │
-│  │         │                                                 │
-│  `-─────────┘                                                 │
-│                                                               │
-│  Offset U/V: Shift texture position                          │
-│  ┌─────────┐                                                 │
-│  │    ┌─────────┐                                           │
-│  │    │ Texture │  <- Moved right/up                        │
-│  │    `-─────────┘                                           │
-│  `-─────────┘                                                 │
-│                                                               │
-│  Scale U/V: Tile or shrink texture                           │
-│  ┌─────┬─────┬─────┐                                        │
-│  │Tex  │Tex  │Tex  │  <- Tiled horizontally                  │
-│  `-─────┴─────┴─────┘                                        │
-│                                                               │
-│  Rotate: Rotate texture around center                       │
-│      ┌─────┐                                                 │
-│     ╱       ╲                                                │
-│    ╱ Texture ╲  <- Rotated                                     │
-│     ╲       ╱                                                │
-│      `-─────┘                                                 │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                  UV TRANSFORM OPERATIONS                     |
++-------------------------------------------------------------+
+|                                                               |
+|  Original Texture                                            |
+|  +---------+                                                 |
+|  |         |                                                 |
+|  | Texture |                                                 |
+|  |         |                                                 |
+|  +---------+                                                 |
+|                                                               |
+|  Offset U/V: Shift texture position                          |
+|  +---------+                                                 |
+|  |    +---------+                                           |
+|  |    | Texture |  <- Moved right/up                        |
+|  |    +---------+                                           |
+|  +---------+                                                 |
+|                                                               |
+|  Scale U/V: Tile or shrink texture                           |
+|  +-----+-----+-----+                                        |
+|  |Tex  |Tex  |Tex  |  <- Tiled horizontally                  |
+|  +-----+-----+-----+                                        |
+|                                                               |
+|  Rotate: Rotate texture around center                       |
+|      +-----+                                                 |
+|     /       \                                                |
+|    / Texture \  <- Rotated                                     |
+|     \       /                                                |
+|      +-----+                                                 |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ```
@@ -220,9 +220,9 @@ Use a mask texture (black/white) to blend between two images.
 **Conceptual chain:**
 
 ```
-ImageTexture (A) ─┐
-                  |-─> (blend using mask) ─> Material ─> Mesh
-ImageTexture (B) ─┘
+ImageTexture (A) -+
+                  +-> (blend using mask) -> Material -> Mesh
+ImageTexture (B) -+
 ImageTexture (Mask)
 ```
 
@@ -285,8 +285,8 @@ To fake a mirror floor:
 
 ```
 MainLoop
-  |-─> Camera (main) -> [Scene]
-  `-─> Camera (reflected) -> RenderToTexture -> Plane Material -> Mirror Plane
+  +-> Camera (main) -> [Scene]
+  +-> Camera (reflected) -> RenderToTexture -> Plane Material -> Mirror Plane
 ```
 
 ### Recipe: Environment Reflections (Cubemap/HDRI)
@@ -474,7 +474,7 @@ HDRITexture -> IBL/Environment
 ### Memory Considerations:
 
 | Size | Approximate Memory |
-|------|-------------------|
+|-----|------------------|
 | 512x512 | ~1 MB |
 | 1024x1024 | ~4 MB |
 | 2048x2048 | ~16 MB |
@@ -554,7 +554,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 4. Apply PBR textures to a loaded 3D model
 
 ---
-
-**Previous**: [<- 3D Graphics](04-3d-graphics.md) | **Next**: [Shaders & GLSL ->](06-shaders-glsl.md)
-
 

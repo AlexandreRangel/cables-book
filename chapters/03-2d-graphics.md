@@ -91,22 +91,22 @@ Use texture-based gradients or shader-generated gradients for smooth color trans
 The `Transform` op modifies position, rotation, and scale of all following shapes.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    TRANSFORM PIPELINE                        │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  MainLoop                                                     │
-│    |                                                          │
-│  BasicMaterial                                               │
-│    |                                                          │
-│  Transform                                                    │
-│    |--> Position (X, Y, Z)                                    │
-│    |--> Rotation (X, Y, Z)                                    │
-│    `--> Scale                                                   │
-│    |                                                          │
-│  Shape (Circle, Rectangle, etc.)                            │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|                    TRANSFORM PIPELINE                        |
++-------------------------------------------------------------+
+|                                                               |
+|  MainLoop                                                     |
+|    |                                                          |
+|  BasicMaterial                                               |
+|    |                                                          |
+|  Transform                                                    |
+|    +-> Position (X, Y, Z)                                    |
+|    +-> Rotation (X, Y, Z)                                    |
+|    +-> Scale                                                   |
+|    |                                                          |
+|  Shape (Circle, Rectangle, etc.)                            |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 **Parameters:**
@@ -120,23 +120,23 @@ Transformations are applied in order. These produce different results:
 
 **Rotate then Translate:**
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              ROTATE THEN TRANSLATE                           │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Original Position                                            │
-│      ●                                                        │
-│                                                               │
-│  Step 1: Rotate 45°                                           │
-│      ●                                                        │
-│      ↻                                                        │
-│                                                               │
-│  Step 2: Translate Right                                      │
-│            -> ●                                                 │
-│                                                               │
-│  Result: Object rotates around origin, then moves            │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|              ROTATE THEN TRANSLATE                           |
++-------------------------------------------------------------+
+|                                                               |
+|  Original Position                                            |
+|      o                                                        |
+|                                                               |
+|  Step 1: Rotate 45 degrees                                    |
+|      o                                                        |
+|      (rotate)                                                 |
+|                                                               |
+|  Step 2: Translate Right                                      |
+|            -> o                                                 |
+|                                                               |
+|  Result: Object rotates around origin, then moves            |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ```
@@ -145,22 +145,22 @@ Transform (rotate) -> Transform (translate) -> Shape
 
 **Translate then Rotate:**
 ```
-┌─────────────────────────────────────────────────────────────┐
-│              TRANSLATE THEN ROTATE                          │
-|-─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  Original Position                                            │
-│      ●                                                        │
-│                                                               │
-│  Step 1: Translate Right                                      │
-│            -> ●                                                │
-│                                                               │
-│  Step 2: Rotate 45° (around new position)                   │
-│            ↻ ●                                                │
-│                                                               │
-│  Result: Object moves first, then rotates around new origin  │
-│                                                               │
-`-─────────────────────────────────────────────────────────────┘
++-------------------------------------------------------------+
+|              TRANSLATE THEN ROTATE                          |
++-------------------------------------------------------------+
+|                                                               |
+|  Original Position                                            |
+|      o                                                        |
+|                                                               |
+|  Step 1: Translate Right                                      |
+|            -> o                                                |
+|                                                               |
+|  Step 2: Rotate 45 degrees (around new position)              |
+|            (rotate) o                                         |
+|                                                               |
+|  Result: Object moves first, then rotates around new origin  |
+|                                                               |
++-------------------------------------------------------------+
 ```
 
 ```
@@ -1018,7 +1018,4 @@ AuthorUrl: https://www.youtube.com/@kirellbenzi
 10. **Meditation Visual** - Calming, slowly evolving patterns
 
 ---
-
-**Previous**: [<- Getting Started](02-getting-started.md) | **Next**: [3D Graphics ->](04-3d-graphics.md)
-
 

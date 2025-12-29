@@ -1872,10 +1872,10 @@ void main() {
 -  No JavaScript knowledge required
 
 **Custom JavaScript Ops:**
-- ⚠️ Requires JavaScript wrapper code
-- ⚠️ Shader code stored as string (less readable)
-- ⚠️ More complex file structure
-- ⚠️ Requires understanding of both GLSL and JavaScript
+- [!] Requires JavaScript wrapper code
+- [!] Shader code stored as string (less readable)
+- [!] More complex file structure
+- [!] Requires understanding of both GLSL and JavaScript
 -  Can organize shader code in separate files
 -  Can add pre/post processing logic
 
@@ -1889,14 +1889,14 @@ void main() {
 -  Immediate visual feedback
 -  No compilation step
 -  Works out of the box
-- ⚠️ Limited customization of port UI
-- ⚠️ Can't add custom logic around shader
+- [!] Limited customization of port UI
+- [!] Can't add custom logic around shader
 
 **Custom JavaScript Ops:**
-- ⚠️ Must create op, write wrapper code
-- ⚠️ Must manually create and configure ports
-- ⚠️ More setup time
-- ⚠️ Requires testing and debugging
+- [!] Must create op, write wrapper code
+- [!] Must manually create and configure ports
+- [!] More setup time
+- [!] Requires testing and debugging
 -  Full control over port organization
 -  Can add port groups, custom UI
 -  Can add validation, error handling
@@ -1915,10 +1915,10 @@ void main() {
 -  Automatic shader compilation caching
 
 **Custom JavaScript Ops:**
-- ⚠️ Potential JavaScript overhead per frame
-- ⚠️ Texture copying may be required
-- ⚠️ Render target management overhead
-- ⚠️ Uniform updates in JavaScript (CPU work)
+- [!] Potential JavaScript overhead per frame
+- [!] Texture copying may be required
+- [!] Render target management overhead
+- [!] Uniform updates in JavaScript (CPU work)
 -  Can optimize with dirty flags
 -  Can batch operations
 -  Can cache render targets
@@ -2141,7 +2141,4 @@ AuthorUrl: https://www.youtube.com/@Meletou1
 10. **Projection Mapping**: Implement projector stacking with additive and average blend modes
 
 ---
-
-**Previous**: [<- Texturing](05-texturing.md) | **Next**: [JavaScript & Custom Ops ->](07-javascript-ops.md)
-
 
