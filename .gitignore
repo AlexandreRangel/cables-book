@@ -1,0 +1,38 @@
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs
+temp_combined_book.md
+temp_combined_book2.md
+
+# PDF (if you want to exclude it from version control)
+# cables-gl-book.pdf
+

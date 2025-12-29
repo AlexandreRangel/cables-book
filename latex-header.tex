@@ -1,0 +1,104 @@
+%% Custom styling for Cables.gl Book
+
+%% Basic packages
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+%% Font fallbacks for symbols and emojis
+\usepackage{fontspec}
+
+%% Define fallback fonts
+\newfontfamily\symbolfont{Segoe UI Symbol}[Scale=MatchLowercase]
+\newfontfamily\emojifont{Segoe UI Emoji}[Scale=MatchLowercase]
+
+%% Use symbol font for arrows and symbols
+\usepackage{newunicodechar}
+\newunicodechar{→}{{\symbolfont →}}
+\newunicodechar{←}{{\symbolfont ←}}
+\newunicodechar{↓}{{\symbolfont ↓}}
+\newunicodechar{↑}{{\symbolfont ↑}}
+\newunicodechar{↔}{{\symbolfont ↔}}
+\newunicodechar{●}{{\symbolfont ●}}
+\newunicodechar{○}{{\symbolfont ○}}
+\newunicodechar{■}{{\symbolfont ■}}
+\newunicodechar{□}{{\symbolfont □}}
+\newunicodechar{▪}{{\symbolfont ▪}}
+\newunicodechar{▫}{{\symbolfont ▫}}
+\newunicodechar{◆}{{\symbolfont ◆}}
+\newunicodechar{◇}{{\symbolfont ◇}}
+\newunicodechar{★}{{\symbolfont ★}}
+\newunicodechar{☆}{{\symbolfont ☆}}
+\newunicodechar{•}{{\symbolfont •}}
+\newunicodechar{‣}{{\symbolfont ‣}}
+\newunicodechar{※}{{\symbolfont ※}}
+
+%% Common emojis
+\newunicodechar{🎨}{{\emojifont 🎨}}
+\newunicodechar{🌐}{{\emojifont 🌐}}
+\newunicodechar{⚡}{{\emojifont ⚡}}
+\newunicodechar{📦}{{\emojifont 📦}}
+\newunicodechar{✅}{{\emojifont ✅}}
+\newunicodechar{❌}{{\emojifont ❌}}
+\newunicodechar{⭐}{{\emojifont ⭐}}
+\newunicodechar{🔧}{{\emojifont 🔧}}
+\newunicodechar{📁}{{\emojifont 📁}}
+\newunicodechar{💡}{{\emojifont 💡}}
+\newunicodechar{🎯}{{\emojifont 🎯}}
+\newunicodechar{🚀}{{\emojifont 🚀}}
+\newunicodechar{⚠}{{\emojifont ⚠}}
+\newunicodechar{📝}{{\emojifont 📝}}
+\newunicodechar{🔗}{{\emojifont 🔗}}
+\newunicodechar{📊}{{\emojifont 📊}}
+\newunicodechar{🎵}{{\emojifont 🎵}}
+\newunicodechar{🎬}{{\emojifont 🎬}}
+\newunicodechar{💻}{{\emojifont 💻}}
+\newunicodechar{🖥}{{\emojifont 🖥}}
+\newunicodechar{📱}{{\emojifont 📱}}
+
+%% Define colors - simple dark gray palette
+\definecolor{headergray}{RGB}{51,51,51}
+\definecolor{codebg}{RGB}{242,242,242}
+\definecolor{codeborder}{RGB}{200,200,200}
+\definecolor{linkblue}{RGB}{0,102,204}
+
+%% Custom header styles - dark gray with size hierarchy
+\usepackage{titlesec}
+
+%% Section 1 - largest
+\titleformat{\section}
+  {\fontsize{24}{28}\bfseries\color{headergray}}
+  {\thesection}{1em}{}
+
+%% Section 2
+\titleformat{\subsection}
+  {\fontsize{18}{22}\bfseries\color{headergray}}
+  {\thesubsection}{1em}{}
+
+%% Section 3
+\titleformat{\subsubsection}
+  {\fontsize{14}{18}\bfseries\color{headergray}}
+  {\thesubsubsection}{1em}{}
+
+%% Section 4
+\titleformat{\paragraph}
+  {\fontsize{12}{16}\bfseries\color{headergray}}
+  {\theparagraph}{1em}{}
+
+%% Code block styling - light gray box
+\usepackage{fancyvrb}
+\usepackage{framed}
+
+%% Define shaded environment for code
+\definecolor{shadecolor}{RGB}{242,242,242}
+
+%% Link colors
+\AtBeginDocument{
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=headergray,
+    urlcolor=linkblue,
+    citecolor=headergray,
+    filecolor=headergray
+  }
+}
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cables.gl Render Chain</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #1a1a1a;
+      font-family: Arial, sans-serif;
+    }
+    
+    .patch-container {
+      width: 400px;
+      height: 450px;
+      position: relative;
+      background: #1a1a1a;
+    }
+    
+    .op {
+      position: absolute;
+      width: 160px;
+      height: 70px;
+      background: #2d2d2d;
+      border: 1.5px solid #4a4a4a;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e0e0e0;
+      font-size: 16px;
+      font-weight: 500;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    .op.mainloop {
+      left: 80px;
+      top: 50px;
+    }
+    
+    .op.basicmaterial {
+      left: 80px;
+      top: 180px;
+    }
+    
+    .op.circle {
+      left: 80px;
+      top: 310px;
+    }
+    
+    .port {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      background: #666666;
+      border: 1.5px solid #888888;
+      border-radius: 50%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* MainLoop ports */
+    .port.mainloop-out {
+      left: 238px;
+      top: 78px;
+    }
+    
+    /* BasicMaterial ports */
+    .port.basicmaterial-in {
+      left: 75px;
+      top: 208px;
+    }
+    
+    .port.basicmaterial-out {
+      left: 238px;
+      top: 208px;
+    }
+    
+    /* Circle ports */
+    .port.circle-in {
+      left: 75px;
+      top: 338px;
+    }
+    
+    /* Cables (connections) */
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    
+    .cable-label {
+      position: absolute;
+      color: #888888;
+      font-size: 12px;
+      font-style: italic;
+    }
+    
+    .label1 {
+      left: 290px;
+      top: 128px;
+    }
+    
+    .label2 {
+      left: 290px;
+      top: 258px;
+    }
+  </style>
+</head>
+<body>
+  <div class="patch-container">
+    <!-- Operators -->
+    <div class="op mainloop">MainLoop</div>
+    <div class="op basicmaterial">BasicMaterial</div>
+    <div class="op circle">Circle</div>
+    
+    <!-- Ports -->
+    <div class="port mainloop-out" title="MainLoop trigger out"></div>
+    <div class="port basicmaterial-in" title="BasicMaterial trigger in"></div>
+    <div class="port basicmaterial-out" title="BasicMaterial trigger out"></div>
+    <div class="port circle-in" title="Circle trigger in"></div>
+    
+    <!-- Cables -->
+    <svg>
+      <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+          <polygon points="0 0, 10 3, 0 6" fill="#888888"/>
+        </marker>
+      </defs>
+      <!-- MainLoop -> BasicMaterial -->
+      <path d="M 245 85 Q 287 85, 287 150 Q 287 215, 89 215" 
+            stroke="#888888" stroke-width="2.5" fill="none" 
+            marker-end="url(#arrowhead)"/>
+      <!-- BasicMaterial -> Circle -->
+      <path d="M 245 215 Q 287 215, 287 280 Q 287 345, 89 345" 
+            stroke="#888888" stroke-width="2.5" fill="none" 
+            marker-end="url(#arrowhead)"/>
+    </svg>
+    
+    <!-- Labels -->
+    <div class="cable-label label1">trigger</div>
+    <div class="cable-label label2">trigger</div>
+  </div>
+</body>
+</html>
+
