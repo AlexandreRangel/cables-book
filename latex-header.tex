@@ -38,10 +38,14 @@
   {\fontsize{14}{18}\bfseries\color{headergray}}
   {\thesubsubsection}{1em}{}
 
-%% Section 4
+%% Section 4 - not numbered
 \titleformat{\paragraph}
   {\fontsize{12}{16}\bfseries\color{headergray}}
-  {\theparagraph}{1em}{}
+  {}{0em}{}
+
+%% Set section numbering depth to 3 (sections, subsections, subsubsections only)
+%% This prevents paragraphs (level 4) from being numbered
+\setcounter{secnumdepth}{3}
 
 %% Code block styling - light gray box with rounded corners
 \usepackage{fancyvrb}

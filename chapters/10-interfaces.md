@@ -7,27 +7,27 @@ Cables.gl provides multiple ways to create user interfaces for your patches. You
 ## Interface Approaches Overview
 
 ```
++------------------------------------------------+
+|                    INTERFACE OPTIONS           |
 +-------------------------------------------------------------+
-|                    INTERFACE OPTIONS                        |
-+-------------------------------------------------------------+
-|                                                             |
-|  1. HTML/CSS Interfaces                                     |
-|     +-------------------------------------+                 |
-|     | Full DOM control                    |                 |
-|     | Custom styling                      |                 |
-|     | Overlay on canvas                   |                 |
-|     | Complete flexibility                |                 |
-|     +-------------------------------------+                 |
-|                                                             |
-|  2. Native Sidebar Interface Ops                            |
-|     +-------------------------------------+                 |
-|     | Built-in UI elements                |                 |
-|     | Integrated with patch               |                 |
-|     | CSS-stylable                        |                 |
-|     | Quick to implement                  |                 |
-|     +-------------------------------------+                 |
-|                                                             |
-+-------------------------------------------------------------+
+|                                                |
+|  1. HTML/CSS Interfaces                        |
+|     +-------------------------------------+    |
+|     | Full DOM control                    |    |
+|     | Custom styling                      |    |
+|     | Overlay on canvas                   |    |
+|     | Complete flexibility                |    |
+|     +-------------------------------------+    |
+|                                                |
+|  2. Native Sidebar Interface Ops               |
+|     +-------------------------------------+    |
+|     | Built-in UI elements                |    |
+|     | Integrated with patch               |    |
+|     | CSS-stylable                        |    |
+|     | Quick to implement                  |    |
+|     +-------------------------------------+    |
+|                                                |
++------------------------------------------------+
 ```
 
 ## HTML/CSS Interfaces
