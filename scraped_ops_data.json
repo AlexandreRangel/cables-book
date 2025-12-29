@@ -1,0 +1,5823 @@
+[
+  {
+    "full_name": "Ops.Anim.AnimNumber",
+    "namespace": "Ops.Anim",
+    "op_name": "AnimNumber",
+    "image_path": "images/ops\\Ops_Anim_AnimNumber.svg",
+    "url": "https://cables.gl/op/Ops.Anim.AnimNumber",
+    "description": "Always animates to the current value",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger in"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The value you want to alter"
+      },
+      {
+        "name": "duration",
+        "type": "Number",
+        "description": "How long it takes for the value to reach the current value"
+      },
+      {
+        "name": "easing index",
+        "type": "Number: integer",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": "Calculated result!"
+      },
+      {
+        "name": "Finished",
+        "type": "Trigger",
+        "description": "Sends a trigger out when the value is reached"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Bang",
+    "namespace": "Ops.Anim",
+    "op_name": "Bang",
+    "image_path": "images/ops\\Ops_Anim_Bang.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Bang",
+    "description": "Trigger a simple bang animation going from 1 to 0",
+    "input_ports": [
+      {
+        "name": "update",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Bang",
+        "type": "Trigger",
+        "description": "Trigger once to start animation from 1 to 0"
+      },
+      {
+        "name": "Duration",
+        "type": "Number",
+        "description": "The amount of time it takes to get from 1 to 0"
+      },
+      {
+        "name": "Invert",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Trigger Out",
+        "type": "Trigger",
+        "description": "Value (Number)The animated number"
+      },
+      {
+        "name": "Trigger Out",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The animated number"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger Out",
+        "type": "Trigger",
+        "description": "Value (Number)The animated number"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.BoolAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "BoolAnim",
+    "image_path": "images/ops\\Ops_Anim_BoolAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.BoolAnim",
+    "description": "Animate between two numbers based on a boolean value",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "bool",
+        "type": "Number: boolean",
+        "description": "Required to trigger an animation"
+      },
+      {
+        "name": "Animationeasing index",
+        "type": "Number: integer",
+        "description": "duration (Number)How long it takes for the animation to occur"
+      },
+      {
+        "name": "Direction index",
+        "type": "Number: integer",
+        "description": "Valuesvalue false (Number)The value to animate to when Bool input evaluates to false"
+      },
+      {
+        "name": "value true",
+        "type": "Number",
+        "description": "The value to animate to when Bool input evaluates to true"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "value",
+        "type": "Number",
+        "description": "The current value of the animation"
+      },
+      {
+        "name": "finished",
+        "type": "booleanNumber",
+        "description": "Finished Trigger (Trigger)Outputs a trigger when the animation has finished"
+      },
+      {
+        "name": "finished",
+        "type": "booleanNumber",
+        "description": ""
+      },
+      {
+        "name": "Finished Trigger",
+        "type": "Trigger",
+        "description": "Outputs a trigger when the animation has finished"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Crossfade",
+    "namespace": "Ops.Anim",
+    "op_name": "Crossfade",
+    "image_path": "images/ops\\Ops_Anim_Crossfade.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Crossfade",
+    "description": "Crossfade between 2 values",
+    "input_ports": [
+      {
+        "name": "Crossfade",
+        "type": "Number",
+        "description": "crossfade"
+      },
+      {
+        "name": "RangeOut Min",
+        "type": "Number",
+        "description": "minimum out value"
+      },
+      {
+        "name": "Out Max",
+        "type": "Number",
+        "description": "maximum out value"
+      },
+      {
+        "name": "EasingEasing index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Out Min",
+        "type": "Number",
+        "description": "minimum out value"
+      },
+      {
+        "name": "Easing index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "A",
+        "type": "Number",
+        "description": "A output"
+      },
+      {
+        "name": "B",
+        "type": "Number",
+        "description": "B output"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "A",
+        "type": "Number",
+        "description": "A output"
+      },
+      {
+        "name": "B",
+        "type": "Number",
+        "description": "B output"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.FrameRangeAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "FrameRangeAnim",
+    "image_path": "images/ops\\Ops_Anim_FrameRangeAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnim",
+    "description": "Parses string containing ranges of frames and play as coherent animation",
+    "input_ports": [
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": "Frames (String)frame range (ex. \"0-10\")"
+      },
+      {
+        "name": "Loop",
+        "type": "Number: boolean",
+        "description": "Rewind (Trigger)"
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Frames",
+        "type": "String",
+        "description": "frame range (ex. \"0-10\")"
+      },
+      {
+        "name": "frame range",
+        "type": "ex. \"0-10\"",
+        "description": ""
+      },
+      {
+        "name": "Loop",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Rewind",
+        "type": "Trigger",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "result time",
+        "type": "Number",
+        "description": "Expanded Frames (Array)Finished (booleanNumber)Finished Trigger (Trigger)Anim Length (Number)Progress (Number)"
+      },
+      {
+        "name": "result time",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Expanded Frames",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Finished",
+        "type": "booleanNumber",
+        "description": ""
+      },
+      {
+        "name": "Finished Trigger",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Anim Length",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Progress",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.FrameRangeAnimSwitcher",
+    "namespace": "Ops.Anim",
+    "op_name": "FrameRangeAnimSwitcher",
+    "image_path": "images/ops\\Ops_Anim_FrameRangeAnimSwitcher.svg",
+    "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher",
+    "description": "Switch between multiple anim ranges of a keyframed 3d scene",
+    "input_ports": [
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "Duration (Number)easing index (Number: integer)Value 0 (Number)Value 1 (Number)Value 2 (Number)Value 3 (Number)Value 4 (Number)Value 5 (Number)Value 6 (Number)Value 7 (Number)Value 8 (Number)Value 9 (Number)"
+      },
+      {
+        "name": "INPUT PORTSIndex",
+        "type": "Number: integer",
+        "description": "Duration (Number)easing index (Number: integer)Value 0 (Number)Value 1 (Number)Value 2 (Number)Value 3 (Number)Value 4 (Number)Value 5 (Number)Value 6 (Number)Value 7 (Number)Value 8 (Number)Value 9 (Number)"
+      },
+      {
+        "name": "Time 1",
+        "type": "Number",
+        "description": "Time Fade (Number)Time 2 (Number)"
+      },
+      {
+        "name": "Time 1",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Time Fade",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Time 2",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Time 1",
+        "type": "Number",
+        "description": "Time Fade (Number)Time 2 (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.InOutInAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "InOutInAnim",
+    "image_path": "images/ops\\Ops_Anim_InOutInAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.InOutInAnim",
+    "description": "Animates after a trigger from 1 to 0 to 1",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "In AnimDuration In (Number)Easing In index (Number: integer)Value In (Number)Hold duration (Number)Out AnimDuration Out (Number)Easing Out index (Number: integer)Value Out (Number)Start (Trigger)"
+      },
+      {
+        "name": "INPUT PORTSUpdate",
+        "type": "Trigger",
+        "description": "In AnimDuration In (Number)Easing In index (Number: integer)Value In (Number)Hold duration (Number)Out AnimDuration Out (Number)Easing Out index (Number: integer)Value Out (Number)Start (Trigger)"
+      },
+      {
+        "name": "OUTPUT PORTSNext",
+        "type": "Trigger",
+        "description": "Result (Number)Started (Trigger)Middle (Trigger)finished (Trigger)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result (Number)Started (Trigger)Middle (Trigger)finished (Trigger)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result (Number)Started (Trigger)Middle (Trigger)finished (Trigger)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Started",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Middle",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "finished",
+        "type": "Trigger",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.LFO",
+    "namespace": "Ops.Anim",
+    "op_name": "LFO",
+    "image_path": "images/ops\\Ops_Anim_LFO.svg",
+    "url": "https://cables.gl/op/Ops.Anim.LFO",
+    "description": "Low-frequency oscillation for animations",
+    "input_ports": [
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": "Frequency (Number)Type index (Number: integer)Phase (Number)Range Min (Number)Range Max (Number)"
+      },
+      {
+        "name": "INPUT PORTSTime",
+        "type": "Number",
+        "description": "Frequency (Number)Type index (Number: integer)Phase (Number)Range Min (Number)Range Max (Number)"
+      },
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Frequency",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Type index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Phase",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Range Min",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Range Max",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": "Use this op to generate different different oscillation patterns based upon a timer signal. Standard output is -1 to 1."
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSTime",
+        "type": "Number",
+        "description": "Frequency (Number)Type index (Number: integer)Phase (Number)Range Min (Number)Range Max (Number)OUTPUT PORTSResult (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.RandomAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "RandomAnim",
+    "image_path": "images/ops\\Ops_Anim_RandomAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.RandomAnim",
+    "description": "Animates between random values defined by a min and max value",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Valuemin",
+        "type": "Number",
+        "description": "Minimum random value that can be generated"
+      },
+      {
+        "name": "max",
+        "type": "Number",
+        "description": "Maximum random value that can be generated"
+      },
+      {
+        "name": "Timingduration",
+        "type": "Number",
+        "description": "How long it takes to animate from the random min and max values"
+      },
+      {
+        "name": "pause between",
+        "type": "Number",
+        "description": "Define a pause between each random animation cycle"
+      },
+      {
+        "name": "easing index",
+        "type": "Number: integer",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": "The random animated value"
+      },
+      {
+        "name": "Looped",
+        "type": "Trigger",
+        "description": "Trigger out each time the animation reaches its end"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.SimpleAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "SimpleAnim",
+    "image_path": "images/ops\\Ops_Anim_SimpleAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.SimpleAnim",
+    "description": "Simple animation between two values",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "reset",
+        "type": "Trigger",
+        "description": "Trigger the animation"
+      },
+      {
+        "name": "rewind",
+        "type": "Trigger",
+        "description": "Rewinds animation to start but only after its finished"
+      },
+      {
+        "name": "start",
+        "type": "Number",
+        "description": "starting animation value"
+      },
+      {
+        "name": "end",
+        "type": "Number",
+        "description": "ending animation value"
+      },
+      {
+        "name": "duration",
+        "type": "Number",
+        "description": "Duration to get from start to end value"
+      },
+      {
+        "name": "loop",
+        "type": "Number: boolean",
+        "description": "enable to loop animation back and forth"
+      },
+      {
+        "name": "Wait for Reset",
+        "type": "Number: boolean",
+        "description": "easing index (Number: integer)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": "The animated value out"
+      },
+      {
+        "name": "finished",
+        "type": "Number",
+        "description": "Outputs true when animation is finished"
+      },
+      {
+        "name": "Finished Trigger",
+        "type": "Trigger",
+        "description": "Outputs a trigger when animation is finished"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.SineAnim",
+    "namespace": "Ops.Anim",
+    "op_name": "SineAnim",
+    "image_path": "images/ops\\Ops_Anim_SineAnim.svg",
+    "url": "https://cables.gl/op/Ops.Anim.SineAnim",
+    "description": "Animation in the form of a sine/cosine curve (sinus/cos)",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Executes the op"
+      },
+      {
+        "name": "Mode index",
+        "type": "Number: integer",
+        "description": "phase (Number)Can be used to shift the animation, e.g. if you use two SineAnim-ops which should not be in sync. Should be an angle in radians."
+      },
+      {
+        "name": "frequency",
+        "type": "Number",
+        "description": "Make it bigger than 1 to speed the animation up"
+      },
+      {
+        "name": "amplitude",
+        "type": "Number",
+        "description": "How small / big the values can become, setting it to 2 e.g. results in an output between -2 and 2"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": "A value cycling between -Amplitude and Amplitude"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Smooth",
+    "namespace": "Ops.Anim",
+    "op_name": "Smooth",
+    "image_path": "images/ops\\Ops_Anim_Smooth.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Smooth",
+    "description": "Smooths out jumps in values (AverageInterpolation)",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The value to smooth"
+      },
+      {
+        "name": "Dec factor",
+        "type": "Number",
+        "description": "Amount of smoothing applied to values that increase from the previous number"
+      },
+      {
+        "name": "Dec factor",
+        "type": "Number",
+        "description": "Amount of smoothing applied to values that decrease from the previous number"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": "The smoothed result"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Snap",
+    "namespace": "Ops.Anim",
+    "op_name": "Snap",
+    "image_path": "images/ops\\Ops_Anim_Snap.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Snap",
+    "description": "Snap at certain points (e.g. while scrolling)",
+    "input_ports": [
+      {
+        "name": "Delta",
+        "type": "Number",
+        "description": "Snap at Values (Array)Snap Distance (Number)Snap Distance Release (Number)Slowdown (Number)slows down value increase while near a snappoint"
+      },
+      {
+        "name": "Block Input after snap",
+        "type": "Number",
+        "description": "will pause for x seconds when reached a snap point"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": "Min (Number)Max (Number)Value Mul (Number)Enabled (Number: boolean)"
+      },
+      {
+        "name": "Delta",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Snap Distance",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Slowdown",
+        "type": "Number",
+        "description": "slows down value increase while near a snappoint"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Min",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value Mul",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Enabled",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Number",
+        "description": "Distance (Number)Snapped (Number)was snapped (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": "Distance (Number)Snapped (Number)was snapped (Number)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": "Distance (Number)Snapped (Number)was snapped (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Distance",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Snapped",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "was snapped",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Spring",
+    "namespace": "Ops.Anim",
+    "op_name": "Spring",
+    "image_path": "images/ops\\Ops_Anim_Spring.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Spring",
+    "description": "Spring simulation based on input target value.",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "value (Number)damping (Number)stiffness (Number)"
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSexe",
+        "type": "Trigger",
+        "description": "value (Number)damping (Number)stiffness (Number)OUTPUT PORTStrigger (Trigger)result (Number)"
+      },
+      {
+        "name": "INPUT PORTSexe",
+        "type": "Trigger",
+        "description": "value (Number)damping (Number)stiffness (Number)"
+      },
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "damping",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "stiffness",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTStrigger",
+        "type": "Trigger",
+        "description": "result (Number)"
+      },
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "result (Number)"
+      },
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "result (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.StringTypeAnimation",
+    "namespace": "Ops.Anim",
+    "op_name": "StringTypeAnimation",
+    "image_path": "images/ops\\Ops_Anim_StringTypeAnimation.svg",
+    "url": "https://cables.gl/op/Ops.Anim.StringTypeAnimation",
+    "description": "Animates a text/string, like it is being typed out by a person",
+    "input_ports": [
+      {
+        "name": "text",
+        "type": "String",
+        "description": "The text/string which will typed out"
+      },
+      {
+        "name": "Restart",
+        "type": "Trigger",
+        "description": "When triggered causes the string to be typed out again"
+      },
+      {
+        "name": "Speed",
+        "type": "Number",
+        "description": "Determines the speed that the typing occurs at"
+      },
+      {
+        "name": "Speed Variation",
+        "type": "Number",
+        "description": "Creates variations in the typed speed"
+      },
+      {
+        "name": "Show Cursor",
+        "type": "Number: boolean",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "String",
+        "description": "The typed out string"
+      },
+      {
+        "name": "Changed",
+        "type": "Trigger",
+        "description": "Triggers out each time a letter is typed"
+      },
+      {
+        "name": "Finished",
+        "type": "Trigger",
+        "description": "Trigger out when animation is finished"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.TimeDelta",
+    "namespace": "Ops.Anim",
+    "op_name": "TimeDelta",
+    "image_path": "images/ops\\Ops_Anim_TimeDelta.svg",
+    "url": "https://cables.gl/op/Ops.Anim.TimeDelta",
+    "description": "Measure the time difference between two triggers",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Smooth",
+        "type": "Number: boolean",
+        "description": "Seconds (Number: boolean)See difference in time as seconds or milliseconds"
+      },
+      {
+        "name": "Smooth",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Seconds",
+        "type": "Number: boolean",
+        "description": "See difference in time as seconds or milliseconds"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "result",
+        "type": "Number",
+        "description": "The difference in time as a number"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Anim.Timer",
+    "namespace": "Ops.Anim",
+    "op_name": "Timer",
+    "image_path": "images/ops\\Ops_Anim_Timer.svg",
+    "url": "https://cables.gl/op/Ops.Anim.Timer",
+    "description": "A timer that can be started, paused and reset by triggering",
+    "input_ports": [
+      {
+        "name": "ControlsSpeed",
+        "type": "Number",
+        "description": "Multiply time by this amount"
+      },
+      {
+        "name": "Play",
+        "type": "Number: boolean",
+        "description": "Starts timer when set to true"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": "Resets timer to 0"
+      },
+      {
+        "name": "Sync to timeline",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Speed",
+        "type": "Number",
+        "description": "Multiply time by this amount"
+      },
+      {
+        "name": "OUTPUT PORTSTime",
+        "type": "Number",
+        "description": "Time elapsed"
+      },
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": "Time elapsed"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Time",
+        "type": "Number",
+        "description": "Time elapsed"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.AnglesBetweenPoints",
+    "namespace": "Ops.Array",
+    "op_name": "AnglesBetweenPoints",
+    "image_path": "images/ops\\Ops_Array_AnglesBetweenPoints.svg",
+    "url": "https://cables.gl/op/Ops.Array.AnglesBetweenPoints",
+    "description": "Outputs the angle between points in 3D space (degree)",
+    "input_ports": [
+      {
+        "name": "Points",
+        "type": "Array",
+        "description": "Theta (Number)Phi (Number)"
+      },
+      {
+        "name": "INPUT PORTSPoints",
+        "type": "Array",
+        "description": "Theta (Number)Phi (Number)"
+      },
+      {
+        "name": "Points",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Theta",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Phi",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSRotations",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Rotations",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Rotations",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": "This op will take an incoming array of point locations in 3D space (groups of X,Y,Z coordinates) and output an array of angles between the points."
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSPoints",
+        "type": "Array",
+        "description": "Theta (Number)Phi (Number)OUTPUT PORTSRotations (Array)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.AnimArray",
+    "namespace": "Ops.Array",
+    "op_name": "AnimArray",
+    "image_path": "images/ops\\Ops_Array_AnimArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.AnimArray",
+    "description": "Animate values in an array to another array",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "Next Array (Array)Duration (Number)easing index (Number: integer)"
+      },
+      {
+        "name": "INPUT PORTSUpdate",
+        "type": "Trigger",
+        "description": "Next Array (Array)Duration (Number)easing index (Number: integer)"
+      },
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Next Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Duration",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "easing index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSNext",
+        "type": "Trigger",
+        "description": "Matrix (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Matrix (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Matrix",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Matrix (Array)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array",
+    "namespace": "Ops.Array",
+    "op_name": "Array",
+    "image_path": "images/ops\\Ops_Array_Array.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array",
+    "description": "Can generate 3 kinds of arrays: Number - 1,2,3,4 - Normalized",
+    "input_ports": [
+      {
+        "name": "Array length",
+        "type": "Number: integer",
+        "description": "The length of the array"
+      },
+      {
+        "name": "Mode select index",
+        "type": "Number: integer",
+        "description": "Default Value (Number)Varies depending on selected mode - see docs for more details"
+      },
+      {
+        "name": "Reverse",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length out",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array1toX",
+    "namespace": "Ops.Array",
+    "op_name": "Array1toX",
+    "image_path": "images/ops\\Ops_Array_Array1toX.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array1toX",
+    "description": "Convert an array1 to array2,3,4 by choosing content for new axis",
+    "input_ports": [
+      {
+        "name": "Array1x",
+        "type": "Array",
+        "description": "Format index (Number: integer) AB  ABC  ABCD A index (Number: integer) Input  index  0-1  -1-1  0  1 B index (Number: integer) Input  index  0-1  -1-1  0  1 C index (Number: integer) Input  index  0-1  -1-1  0  1 D index (Number: integer) Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "INPUT PORTSArray1x",
+        "type": "Array",
+        "description": "Format index (Number: integer) AB  ABC  ABCD A index (Number: integer) Input  index  0-1  -1-1  0  1 B index (Number: integer) Input  index  0-1  -1-1  0  1 C index (Number: integer) Input  index  0-1  -1-1  0  1 D index (Number: integer) Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "Array1x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Format index",
+        "type": "Number: integer",
+        "description": "AB  ABC  ABCD"
+      },
+      {
+        "name": "A index",
+        "type": "Number: integer",
+        "description": "Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "B index",
+        "type": "Number: integer",
+        "description": "Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "C index",
+        "type": "Number: integer",
+        "description": "Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "D index",
+        "type": "Number: integer",
+        "description": "Input  index  0-1  -1-1  0  1"
+      },
+      {
+        "name": "OUTPUT PORTSArray3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array2To3",
+    "namespace": "Ops.Array",
+    "op_name": "Array2To3",
+    "image_path": "images/ops\\Ops_Array_Array2To3.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array2To3",
+    "description": "Inserts zeroes every third item",
+    "input_ports": [
+      {
+        "name": "Array2x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSArray2x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSArray3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3",
+    "namespace": "Ops.Array",
+    "op_name": "Array3",
+    "image_path": "images/ops\\Ops_Array_Array3.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3",
+    "description": "Create an array of num triplets set to default values xyz",
+    "input_ports": [
+      {
+        "name": "Num Triplets",
+        "type": "Number: integer",
+        "description": "X (Number)Y (Number)Z (Number)"
+      },
+      {
+        "name": "Num Triplets",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "X",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSArray",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3GetAverage",
+    "namespace": "Ops.Array",
+    "op_name": "Array3GetAverage",
+    "image_path": "images/ops\\Ops_Array_Array3GetAverage.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3GetAverage",
+    "description": "Average x,y,z values of an array3x",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The xyz array to analyze"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "The xyz array to analyze"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Average X",
+        "type": "Number",
+        "description": "The average of the x component"
+      },
+      {
+        "name": "Average Y",
+        "type": "Number",
+        "description": "The average of the y component"
+      },
+      {
+        "name": "Average Z",
+        "type": "Number",
+        "description": "The average of the z component"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3GetNumbers",
+    "namespace": "Ops.Array",
+    "op_name": "Array3GetNumbers",
+    "image_path": "images/ops\\Ops_Array_Array3GetNumbers.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3GetNumbers",
+    "description": "Get 3 values XYZ from an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The array to get the values from"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "The index to look up"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "X",
+        "type": "Number",
+        "description": "The X component from the index look up"
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": "The Y component from the index look up"
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": "The Z component from the index look up"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3InterpolateDistributed",
+    "namespace": "Ops.Array",
+    "op_name": "Array3InterpolateDistributed",
+    "image_path": "images/ops\\Ops_Array_Array3InterpolateDistributed.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3InterpolateDistributed",
+    "description": "Interpolate between two arrays",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "Array 1 (Array)Array 2 (Array)Progress (Number)"
+      },
+      {
+        "name": "INPUT PORTSUpdate",
+        "type": "Trigger",
+        "description": "Array 1 (Array)Array 2 (Array)Progress (Number)"
+      },
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Progress",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3Iterator",
+    "namespace": "Ops.Array",
+    "op_name": "Array3Iterator",
+    "image_path": "images/ops\\Ops_Array_Array3Iterator.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3Iterator",
+    "description": "Iterate over an array in steps of three and outputs three values",
+    "input_ports": [
+      {
+        "name": "Execute",
+        "type": "Trigger",
+        "description": "Starts the iteration"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The array to iterate over"
+      },
+      {
+        "name": "Step",
+        "type": "Number",
+        "description": "If bigger then 1, values will be skipped, e.g. when Step is 2 every other triplet will be skipped"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger",
+        "type": "Trigger",
+        "description": "Triggers for every iteration step (triplet in the array)"
+      },
+      {
+        "name": "Index",
+        "type": "Number",
+        "description": "The index of the triplet"
+      },
+      {
+        "name": "Value 1",
+        "type": "Number",
+        "description": "First value of the current triplet (e.g. x)"
+      },
+      {
+        "name": "Value 2",
+        "type": "Number",
+        "description": "Second value of the current triplet (e.g. y)"
+      },
+      {
+        "name": "Value 3",
+        "type": "Number",
+        "description": "Third value of the current triplet (e.g. z)"
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3Multiply",
+    "namespace": "Ops.Array",
+    "op_name": "Array3Multiply",
+    "image_path": "images/ops\\Ops_Array_Array3Multiply.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3Multiply",
+    "description": "Multiply every XYZ member of array3x",
+    "input_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "3x array in"
+      },
+      {
+        "name": "Mul X",
+        "type": "Number",
+        "description": "Multiply x component by this number"
+      },
+      {
+        "name": "Mul Y",
+        "type": "Number",
+        "description": "Multiply y component by this number"
+      },
+      {
+        "name": "Mul Z",
+        "type": "Number",
+        "description": "Multiply z component by this number"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Calculated array output"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Calculated array output"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Calculated array output"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3PushNumbers",
+    "namespace": "Ops.Array",
+    "op_name": "Array3PushNumbers",
+    "image_path": "images/ops\\Ops_Array_Array3PushNumbers.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3PushNumbers",
+    "description": "Push three numbers to the end of an array",
+    "input_ports": [
+      {
+        "name": "Execute",
+        "type": "Trigger",
+        "description": "Array (Array)Value 1 (Number)Value 2 (Number)Value 3 (Number)Reset (Trigger)"
+      },
+      {
+        "name": "INPUT PORTSExecute",
+        "type": "Trigger",
+        "description": "Array (Array)Value 1 (Number)Value 2 (Number)Value 3 (Number)Reset (Trigger)"
+      },
+      {
+        "name": "Execute",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Value 1",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value 2",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value 3",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSNext",
+        "type": "Trigger",
+        "description": "Result Array (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result Array (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result Array (Array)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3RandomSelection",
+    "namespace": "Ops.Array",
+    "op_name": "Array3RandomSelection",
+    "image_path": "images/ops\\Ops_Array_Array3RandomSelection.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3RandomSelection",
+    "description": "Extract definable amount of random xyz points from an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The array in to extract random values from"
+      },
+      {
+        "name": "Elements",
+        "type": "Number: integer",
+        "description": "How many xyz elements to extract"
+      },
+      {
+        "name": "Seed",
+        "type": "Number",
+        "description": "Random number seed. 0 is always different on a reload. Set to a number to keep a fixed seed."
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "A new array with a length determined by the elements paramater."
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3SetNumber",
+    "namespace": "Ops.Array",
+    "op_name": "Array3SetNumber",
+    "image_path": "images/ops\\Ops_Array_Array3SetNumber.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3SetNumber",
+    "description": "Set three numbers at index in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "index to update with the value"
+      },
+      {
+        "name": "Value X",
+        "type": "Number",
+        "description": "Value Y (Number)Value Z (Number)"
+      },
+      {
+        "name": "Value X",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value Y",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value Z",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Modified array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3Sum",
+    "namespace": "Ops.Array",
+    "op_name": "Array3Sum",
+    "image_path": "images/ops\\Ops_Array_Array3Sum.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3Sum",
+    "description": "Add number to every XYZ member of array3x",
+    "input_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "3x array in"
+      },
+      {
+        "name": "Add X",
+        "type": "Number",
+        "description": "Add Y (Number)Add Z (Number)"
+      },
+      {
+        "name": "Add X",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Add Y",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Add Z",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Calculated array output"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Calculated array output"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Calculated array output"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3To2",
+    "namespace": "Ops.Array",
+    "op_name": "Array3To2",
+    "image_path": "images/ops\\Ops_Array_Array3To2.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3To2",
+    "description": "Remove every 3rd item of an array",
+    "input_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": "The XYZ array in"
+      },
+      {
+        "name": "INPUT PORTSArray3x",
+        "type": "Array",
+        "description": "The XYZ array in"
+      },
+      {
+        "name": "OUTPUT PORTSArray2x",
+        "type": "Array",
+        "description": "the XY array out"
+      },
+      {
+        "name": "Array2x",
+        "type": "Array",
+        "description": "the XY array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array2x",
+        "type": "Array",
+        "description": "the XY array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3To4",
+    "namespace": "Ops.Array",
+    "op_name": "Array3To4",
+    "image_path": "images/ops\\Ops_Array_Array3To4.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3To4",
+    "description": "Convert an array3 to an array4 by filling it up with 1",
+    "input_ports": [
+      {
+        "name": "Array3x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSArray3x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSArray4x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array4x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array4x",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Total points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array4x",
+        "type": "Array",
+        "description": "Total points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array3VectorLength",
+    "namespace": "Ops.Array",
+    "op_name": "Array3VectorLength",
+    "image_path": "images/ops\\Ops_Array_Array3VectorLength.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array3VectorLength",
+    "description": "Return the length of a vector from an array 3",
+    "input_ports": [
+      {
+        "name": "Array in",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array4",
+    "namespace": "Ops.Array",
+    "op_name": "Array4",
+    "image_path": "images/ops\\Ops_Array_Array4.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array4",
+    "description": "Create an array of num quadruples set to default values xyz",
+    "input_ports": [
+      {
+        "name": "Num Quadruplets",
+        "type": "Number: integer",
+        "description": "X (Number)Y (Number)Z (Number)W (Number)"
+      },
+      {
+        "name": "Num Quadruplets",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "X",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "W",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSArray",
+        "type": "Array",
+        "description": "Total Quadruplets (Number)Array length (Number)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Total Quadruplets (Number)Array length (Number)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Total Quadruplets (Number)Array length (Number)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Total Quadruplets",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array4GetNumbers",
+    "namespace": "Ops.Array",
+    "op_name": "Array4GetNumbers",
+    "image_path": "images/ops\\Ops_Array_Array4GetNumbers.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array4GetNumbers",
+    "description": "Get 4 values from an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The array to get the values from"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "The index to look up"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "X",
+        "type": "Number",
+        "description": "The X component from the index look up"
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": "The Y component from the index look up"
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": "The Z component from the index look up"
+      },
+      {
+        "name": "W",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array4SetNumber",
+    "namespace": "Ops.Array",
+    "op_name": "Array4SetNumber",
+    "image_path": "images/ops\\Ops_Array_Array4SetNumber.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array4SetNumber",
+    "description": "Set four numbers at index in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "index to update with the value"
+      },
+      {
+        "name": "Value X",
+        "type": "Number",
+        "description": "Value Y (Number)Value Z (Number)Value W (Number)"
+      },
+      {
+        "name": "Value X",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value Y",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value Z",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Value W",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Modified array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.Array4toArray3",
+    "namespace": "Ops.Array",
+    "op_name": "Array4toArray3",
+    "image_path": "images/ops\\Ops_Array_Array4toArray3.svg",
+    "url": "https://cables.gl/op/Ops.Array.Array4toArray3",
+    "description": "Convert an array4 to array3 by dropping every 4th number",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayAbs",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayAbs",
+    "image_path": "images/ops\\Ops_Array_ArrayAbs.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayAbs",
+    "description": "Converts array contents to absolute values",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "The array to process"
+      },
+      {
+        "name": "INPUT PORTSIn",
+        "type": "Array",
+        "description": "The array to process"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "The modified array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "The modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "The modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayAppendArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayAppendArray",
+    "image_path": "images/ops\\Ops_Array_ArrayAppendArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayAppendArray",
+    "description": "Append an array to an existing array",
+    "input_ports": [
+      {
+        "name": "Join",
+        "type": "Trigger",
+        "description": "Append array to existing array"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "ArrayIn"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": "Reset the array"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayBuffer",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayBuffer",
+    "image_path": "images/ops\\Ops_Array_ArrayBuffer.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayBuffer",
+    "description": "Store values in an array / fifo array buffer",
+    "input_ports": [
+      {
+        "name": "exec",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The value to write into the new indexes of the array"
+      },
+      {
+        "name": "Max Length",
+        "type": "Number: integer",
+        "description": "The maximum length of the array"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Result (Array)The fifo array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "The fifo array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayBuffer3",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayBuffer3",
+    "image_path": "images/ops\\Ops_Array_ArrayBuffer3.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayBuffer3",
+    "description": "Circular buffer for xyz values",
+    "input_ports": [
+      {
+        "name": "exec",
+        "type": "Trigger",
+        "description": "Trigger in"
+      },
+      {
+        "name": "Max Num Elements",
+        "type": "Number",
+        "description": "Maximum length of array"
+      },
+      {
+        "name": "Value X",
+        "type": "Number",
+        "description": "Number 0 to write to X component of array"
+      },
+      {
+        "name": "Value Y",
+        "type": "Number",
+        "description": "Number 1 to write to Y component of array"
+      },
+      {
+        "name": "Value Z",
+        "type": "Number",
+        "description": "Number 2 to write to Z component of array"
+      },
+      {
+        "name": "Reset",
+        "type": "Trigger",
+        "description": "Reset array"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Result (Array)Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayCeil",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayCeil",
+    "image_path": "images/ops\\Ops_Array_ArrayCeil.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayCeil",
+    "description": "Round numbers up",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "INPUT PORTSIn",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayChunk",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayChunk",
+    "image_path": "images/ops\\Ops_Array_ArrayChunk.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayChunk",
+    "description": "Extracts x elements from an array",
+    "input_ports": [
+      {
+        "name": "Input Array",
+        "type": "Array",
+        "description": "The array to get a chunk out of"
+      },
+      {
+        "name": "Begin Index",
+        "type": "Number: integer",
+        "description": "The index where the chunk should begin"
+      },
+      {
+        "name": "Chunk Size",
+        "type": "Number: integer",
+        "description": "How big the chunk should be, if there are not enough elements at the end of the Input Array the chunk will be smaller"
+      },
+      {
+        "name": "Circular",
+        "type": "Number: boolean",
+        "description": "If true, values from the beginning will be taken when end reached"
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Output Array",
+        "type": "Array",
+        "description": "Included Chunk Size elements or less"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayChunkDuplicate",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayChunkDuplicate",
+    "image_path": "images/ops\\Ops_Array_ArrayChunkDuplicate.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayChunkDuplicate",
+    "description": "Repeat chunks of an array multiple times",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Chunk Size (Number: integer)Repeats (Number: integer)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Chunk Size (Number: integer)Repeats (Number: integer)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Chunk Size",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Repeats",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayClamp",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayClamp",
+    "image_path": "images/ops\\Ops_Array_ArrayClamp.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayClamp",
+    "description": "Clamp the values of an array to a min and max value",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Min",
+        "type": "Number",
+        "description": "Minimum value to clamp to"
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": "Maximum value to clamp to"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Clamped array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Clamped array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayContains",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayContains",
+    "image_path": "images/ops\\Ops_Array_ArrayContains.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayContains",
+    "description": "Check if an array contains a number",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array in that will be searched through"
+      },
+      {
+        "name": "SearchValue",
+        "type": "Number",
+        "description": "the string to look for"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Found",
+        "type": "booleanNumber",
+        "description": "Returns true if string is in array otherwise false"
+      },
+      {
+        "name": "Index",
+        "type": "Number",
+        "description": "The index number where the string was found in the array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayDivide",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayDivide",
+    "image_path": "images/ops\\Ops_Array_ArrayDivide.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayDivide",
+    "description": "Divide all values in an array by one number",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "The array to divide"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The number that all array values are divided by"
+      },
+      {
+        "name": "Mode index",
+        "type": "Number: integer",
+        "description": "Array/x  x/Array"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Divided array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Divided array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayFindStrings",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayFindStrings",
+    "image_path": "images/ops\\Ops_Array_ArrayFindStrings.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFindStrings",
+    "description": "Return all the indexes of a string in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array to search through"
+      },
+      {
+        "name": "SearchValue",
+        "type": "String",
+        "description": "value to find"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Index",
+        "type": "Array",
+        "description": "indexes that the string was found at"
+      },
+      {
+        "name": "Found",
+        "type": "booleanNumber",
+        "description": "outputs a boolean if found"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayFloor",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayFloor",
+    "image_path": "images/ops\\Ops_Array_ArrayFloor.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFloor",
+    "description": "Round numbers down",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Array In"
+      },
+      {
+        "name": "INPUT PORTSIn",
+        "type": "Array",
+        "description": "Array In"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayFract",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayFract",
+    "image_path": "images/ops\\Ops_Array_ArrayFract.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFract",
+    "description": "Return the fractional remainder of all values in an array",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "INPUT PORTSIn",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayFromNumbers",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayFromNumbers",
+    "image_path": "images/ops\\Ops_Array_ArrayFromNumbers.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFromNumbers",
+    "description": "Simple way to create small arrays of numbers",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "operator must be updated any time you change values in it, or connected to the mainloop op"
+      },
+      {
+        "name": "Limit",
+        "type": "Number: integer",
+        "description": "range is 1-30"
+      },
+      {
+        "name": "Slider",
+        "type": "Number: boolean",
+        "description": "Index 0 (Number)Index 1 (Number)Index 2 (Number)Index 3 (Number)Index 4 (Number)Index 5 (Number)Index 6 (Number)Index 7 (Number)Index 8 (Number)Index 9 (Number)Index 10 (Number)Index 11 (Number)Index 12 (Number)Index 13 (Number)Index 14 (Number)Index 15 (Number)Index 16 (Number)Index 17 (Number)Index 18 (Number)Index 19 (Number)Index 20 (Number)Index 21 (Number)Index 22 (Number)Index 23 (Number)Index 24 (Number)Index 25 (Number)Index 26 (Number)Index 27 (Number)Index 28 (Number)Index 29 (Number)"
+      },
+      {
+        "name": "OUTPUT PORTSNext",
+        "type": "Trigger",
+        "description": "Array (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Array (Array)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Array (Array)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetArray",
+    "image_path": "images/ops\\Ops_Array_ArrayGetArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetArray",
+    "description": "Get an array from an array of arrays",
+    "input_ports": [
+      {
+        "name": "Array of Arrays",
+        "type": "Array",
+        "description": "must contain an array of only arrays"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetNumber",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetNumber",
+    "image_path": "images/ops\\Ops_Array_ArrayGetNumber.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetNumber",
+    "description": "Return a value from an array",
+    "input_ports": [
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "The array-data, e.g. [100, 200, 300]"
+      },
+      {
+        "name": "index",
+        "type": "Number: integer",
+        "description": "The index of the array you want to get, 0 is the first element"
+      },
+      {
+        "name": "Value Invalid Index",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "value",
+        "type": "Number",
+        "description": "The value of the array at position Index"
+      },
+      {
+        "name": "Valid Index",
+        "type": "booleanNumber",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetObject",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetObject",
+    "image_path": "images/ops\\Ops_Array_ArrayGetObject.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetObject",
+    "description": "Get an object from an array",
+    "input_ports": [
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "must contain only objects"
+      },
+      {
+        "name": "index",
+        "type": "Number: integer",
+        "description": "The index of the array containing the object"
+      },
+      {
+        "name": "OUTPUT PORTSvalue",
+        "type": "Object",
+        "description": "The object out from the index"
+      },
+      {
+        "name": "value",
+        "type": "Object",
+        "description": "The object out from the index"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "value",
+        "type": "Object",
+        "description": "The object out from the index"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetString",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetString",
+    "image_path": "images/ops\\Ops_Array_ArrayGetString.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetString",
+    "description": "Get a string from an array at [index]",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Index (Number: integer)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Index (Number: integer)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "String",
+        "description": "Found (booleanNumber)"
+      },
+      {
+        "name": "Result",
+        "type": "String",
+        "description": "Found (booleanNumber)"
+      },
+      {
+        "name": "Result",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Found",
+        "type": "booleanNumber",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "String",
+        "description": "Found (booleanNumber)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetTexture",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetTexture",
+    "image_path": "images/ops\\Ops_Array_ArrayGetTexture.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetTexture",
+    "description": "Get texture from array at index",
+    "input_ports": [
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "index (Number: integer)"
+      },
+      {
+        "name": "INPUT PORTSarray",
+        "type": "Array",
+        "description": "index (Number: integer)"
+      },
+      {
+        "name": "array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSvalue",
+        "type": "Object",
+        "description": ""
+      },
+      {
+        "name": "value",
+        "type": "Object",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "value",
+        "type": "Object",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetValuesByIndexArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayGetValuesByIndexArray",
+    "image_path": "images/ops\\Ops_Array_ArrayGetValuesByIndexArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetValuesByIndexArray",
+    "description": "Pick values from input array at given indices and stride",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Input array with all values"
+      },
+      {
+        "name": "Array Stride index",
+        "type": "Number: integer",
+        "description": "1,2,3,4"
+      },
+      {
+        "name": "Indices",
+        "type": "Array",
+        "description": "List of indices to pick"
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResults",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Results",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Results",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIndexBetween",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIndexBetween",
+    "image_path": "images/ops\\Ops_Array_ArrayIndexBetween.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIndexBetween",
+    "description": "Output index where value is greater than number and smaller then next number",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Value (Number)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Value (Number)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSIndex",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Index",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Index",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Value (Number)OUTPUT PORTSIndex (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIndexMinMax",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIndexMinMax",
+    "image_path": "images/ops\\Ops_Array_ArrayIndexMinMax.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIndexMinMax",
+    "description": "Find lowest/highest numbers in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSMax",
+        "type": "Number",
+        "description": "Index Max (Number)Min (Number)Index Min (Number)"
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": "Index Max (Number)Min (Number)Index Min (Number)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": "Index Max (Number)Min (Number)Index Min (Number)"
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Index Max",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Min",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Index Min",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIteratorArray",
+    "image_path": "images/ops\\Ops_Array_ArrayIteratorArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorArray",
+    "description": "Iterate over an array of arrays",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "array (Array)"
+      },
+      {
+        "name": "INPUT PORTSexe",
+        "type": "Trigger",
+        "description": "array (Array)"
+      },
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTStrigger",
+        "type": "Trigger",
+        "description": "index (Number)Result (Array)"
+      },
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "index (Number)Result (Array)"
+      },
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "index",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "index (Number)Result (Array)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorNumbers",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIteratorNumbers",
+    "image_path": "images/ops\\Ops_Array_ArrayIteratorNumbers.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorNumbers",
+    "description": "Loop over every element of an array",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "The array to iterate over"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "Triggers all child ops array.length times"
+      },
+      {
+        "name": "index",
+        "type": "Number",
+        "description": "Index of the array 0 to array.length"
+      },
+      {
+        "name": "value",
+        "type": "Number",
+        "description": "Value of the current index in the array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorObjects",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIteratorObjects",
+    "image_path": "images/ops\\Ops_Array_ArrayIteratorObjects.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorObjects",
+    "description": "Iterate over an array of objects",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "Array in containing objects"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "finished",
+        "type": "Trigger",
+        "description": "index (Number)Index out of current object"
+      },
+      {
+        "name": "value",
+        "type": "Object",
+        "description": "The object out"
+      },
+      {
+        "name": "finished",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "index",
+        "type": "Number",
+        "description": "Index out of current object"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorStrings",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIteratorStrings",
+    "image_path": "images/ops\\Ops_Array_ArrayIteratorStrings.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorStrings",
+    "description": "Loop over every element of an array",
+    "input_ports": [
+      {
+        "name": "Exe",
+        "type": "Trigger",
+        "description": "trigger"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "the array to iteratie over"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger",
+        "type": "Trigger",
+        "description": "next trigger"
+      },
+      {
+        "name": "Index",
+        "type": "Number",
+        "description": "the index of the current element"
+      },
+      {
+        "name": "Value",
+        "type": "String",
+        "description": "the value of the current element"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorTextures",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayIteratorTextures",
+    "image_path": "images/ops\\Ops_Array_ArrayIteratorTextures.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorTextures",
+    "description": "Iterate over an array of objects",
+    "input_ports": [
+      {
+        "name": "exe",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "Array in containing objects"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "trigger",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "finished",
+        "type": "Trigger",
+        "description": "index (Number)Index out of current object"
+      },
+      {
+        "name": "value",
+        "type": "Object",
+        "description": "The object out"
+      },
+      {
+        "name": "finished",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "index",
+        "type": "Number",
+        "description": "Index out of current object"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayLength",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayLength",
+    "image_path": "images/ops\\Ops_Array_ArrayLength.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLength",
+    "description": "Number of items in an array",
+    "input_ports": [
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "INPUT PORTSarray",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "OUTPUT PORTSlength",
+        "type": "Number",
+        "description": "The length of the array/ amount of items in the array returned as a number"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "length",
+        "type": "Number",
+        "description": "The length of the array/ amount of items in the array returned as a number"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogic",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayLogic",
+    "image_path": "images/ops\\Ops_Array_ArrayLogic.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogic",
+    "description": "Performs logical comparison operations on a single array of numbers",
+    "input_ports": [
+      {
+        "name": "array 0",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Comparison mode index",
+        "type": "Number: integer",
+        "description": "Number for comparison (Number)The number used to apply a logical comparison operator to all the numbers in the array"
+      },
+      {
+        "name": "value if true",
+        "type": "Number",
+        "description": "value if false (Number)"
+      },
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogicArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayLogicArray",
+    "image_path": "images/ops\\Ops_Array_ArrayLogicArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogicArray",
+    "description": "Performs logical comparison operations on two arrays",
+    "input_ports": [
+      {
+        "name": "array 0",
+        "type": "Array",
+        "description": "Array 0 in"
+      },
+      {
+        "name": "array 1",
+        "type": "Array",
+        "description": "Array 1 in"
+      },
+      {
+        "name": "value if true",
+        "type": "Number",
+        "description": "default 1 - set your own value if it evaluates to true"
+      },
+      {
+        "name": "value if false",
+        "type": "Number",
+        "description": "default 0 - set your own value if it evaluates to false"
+      },
+      {
+        "name": "Comparison mode index",
+        "type": "Number: integer",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": "Length of array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogicBetween",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayLogicBetween",
+    "image_path": "images/ops\\Ops_Array_ArrayLogicBetween.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogicBetween",
+    "description": "If value of array is between min and max then the value is 1 else 0",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Min (Number)Max (Number)pass value when true (Number: boolean)When enabled values between are passed through instead of being 1"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Min (Number)Max (Number)pass value when true (Number: boolean)When enabled values between are passed through instead of being 1"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Min",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayLookup",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayLookup",
+    "image_path": "images/ops\\Ops_Array_ArrayLookup.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLookup",
+    "description": "Create an array that is filled with values looked up by index from another array",
+    "input_ports": [
+      {
+        "name": "Indices",
+        "type": "Array",
+        "description": "Values (Array)Stride (Number: integer)"
+      },
+      {
+        "name": "INPUT PORTSIndices",
+        "type": "Array",
+        "description": "Values (Array)Stride (Number: integer)"
+      },
+      {
+        "name": "Indices",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Values",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Stride",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMath",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMath",
+    "image_path": "images/ops\\Ops_Array_ArrayMath.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMath",
+    "description": "Pick from multiple mathematical modes which can all be applied to a single array",
+    "input_ports": [
+      {
+        "name": "array 0",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Number for math",
+        "type": "Number",
+        "description": "The number used for the math operation on all values in the array"
+      },
+      {
+        "name": "Math function index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathArray",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMathArray",
+    "image_path": "images/ops\\Ops_Array_ArrayMathArray.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathArray",
+    "description": "Perform a math operations on two arrays",
+    "input_ports": [
+      {
+        "name": "array 0",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "array 1",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Math function index",
+        "type": "Number: integer",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": "Calculated array out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathExpression",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMathExpression",
+    "image_path": "images/ops\\Ops_Array_ArrayMathExpression.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathExpression",
+    "description": "Calculate a user-defined mathematical expression",
+    "input_ports": [
+      {
+        "name": "ParametersA",
+        "type": "Array",
+        "description": "first input array - use a in your expression"
+      },
+      {
+        "name": "B",
+        "type": "Array",
+        "description": "second input array - use b in your expression"
+      },
+      {
+        "name": "C",
+        "type": "Array",
+        "description": "third input array - use c in your expression"
+      },
+      {
+        "name": "X",
+        "type": "Number",
+        "description": "first number input - use x in your expression"
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": "second number input - use y in your expression"
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": "third number input - use z in your expression"
+      },
+      {
+        "name": "ExpressionExpression",
+        "type": "String",
+        "description": "the mathematical expression to be calculated"
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "A",
+        "type": "Array",
+        "description": "first input array - use a in your expression"
+      },
+      {
+        "name": "Expression",
+        "type": "String",
+        "description": "the mathematical expression to be calculated"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": "the resulting array"
+      },
+      {
+        "name": "Array Length",
+        "type": "Number",
+        "description": "the resulting array's length"
+      },
+      {
+        "name": "Expression Valid",
+        "type": "booleanNumber",
+        "description": "true if the expression is valid, false otherwise"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathExpressionTrigger",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMathExpressionTrigger",
+    "image_path": "images/ops\\Ops_Array_ArrayMathExpressionTrigger.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathExpressionTrigger",
+    "description": "Calculate a user-defined mathematical expression",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "ParametersA (Array)first input array - use a in your expression"
+      },
+      {
+        "name": "B",
+        "type": "Array",
+        "description": "second input array - use b in your expression"
+      },
+      {
+        "name": "C",
+        "type": "Array",
+        "description": "third input array - use c in your expression"
+      },
+      {
+        "name": "X",
+        "type": "Number",
+        "description": "first number input - use x in your expression"
+      },
+      {
+        "name": "Y",
+        "type": "Number",
+        "description": "second number input - use y in your expression"
+      },
+      {
+        "name": "Z",
+        "type": "Number",
+        "description": "third number input - use z in your expression"
+      },
+      {
+        "name": "ExpressionExpression",
+        "type": "String",
+        "description": "the mathematical expression to be calculated"
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      },
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "A",
+        "type": "Array",
+        "description": "first input array - use a in your expression"
+      },
+      {
+        "name": "Expression",
+        "type": "String",
+        "description": "the mathematical expression to be calculated"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result Array (Array)the resulting array"
+      },
+      {
+        "name": "Array Length",
+        "type": "Number",
+        "description": "the resulting array's length"
+      },
+      {
+        "name": "Expression Valid",
+        "type": "booleanNumber",
+        "description": "true if the expression is valid, false otherwise"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": "the resulting array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMax",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMax",
+    "image_path": "images/ops\\Ops_Array_ArrayMax.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMax",
+    "description": "Apply a max operation to all values in an array",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The value to test"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMerge",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMerge",
+    "image_path": "images/ops\\Ops_Array_ArrayMerge.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMerge",
+    "description": "Merge multiple arrays - in consecutive order",
+    "input_ports": [
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": "Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)Array 5 (Array)Array 6 (Array)Array 7 (Array)"
+      },
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 4",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 5",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 6",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 7",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMergeTrigger",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMergeTrigger",
+    "image_path": "images/ops\\Ops_Array_ArrayMergeTrigger.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMergeTrigger",
+    "description": "Merge / concatenate arrays by trigger",
+    "input_ports": [
+      {
+        "name": "Merge",
+        "type": "Trigger",
+        "description": "Array 0 (Array)Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)Array 5 (Array)Array 6 (Array)Array 7 (Array)Array 8 (Array)Array 9 (Array)Array 10 (Array)Array 11 (Array)"
+      },
+      {
+        "name": "INPUT PORTSMerge",
+        "type": "Trigger",
+        "description": "Array 0 (Array)Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)Array 5 (Array)Array 6 (Array)Array 7 (Array)Array 8 (Array)Array 9 (Array)Array 10 (Array)Array 11 (Array)"
+      },
+      {
+        "name": "OUTPUT PORTSNext",
+        "type": "Trigger",
+        "description": "Result (Array)Array length (Number)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result (Array)Array length (Number)"
+      },
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Next",
+        "type": "Trigger",
+        "description": "Result (Array)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMin",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMin",
+    "image_path": "images/ops\\Ops_Array_ArrayMin.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMin",
+    "description": "Apply a min operation to all values in an array",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "The array in"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The value to test the min operation with"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out returning the minimum value"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out returning the minimum value"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayModulo",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayModulo",
+    "image_path": "images/ops\\Ops_Array_ArrayModulo.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayModulo",
+    "description": "Apply a modulo operation to all values in an array",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "Value (Number)"
+      },
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayMultiply",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayMultiply",
+    "image_path": "images/ops\\Ops_Array_ArrayMultiply.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMultiply",
+    "description": "Multiply every number in an array",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Value (Number)"
+      },
+      {
+        "name": "INPUT PORTSIn",
+        "type": "Array",
+        "description": "Value (Number)"
+      },
+      {
+        "name": "In",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayNumberRamp",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayNumberRamp",
+    "image_path": "images/ops\\Ops_Array_ArrayNumberRamp.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayNumberRamp",
+    "description": "Create an array that contains X numbers between start and end values",
+    "input_ports": [
+      {
+        "name": "Start Value",
+        "type": "Number",
+        "description": "End Value (Number)Entries (Number: integer)"
+      },
+      {
+        "name": "Start Value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "End Value",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Entries",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfArrays",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayOfArrays",
+    "image_path": "images/ops\\Ops_Array_ArrayOfArrays.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfArrays",
+    "description": "Create an array filled with other arrays",
+    "input_ports": [
+      {
+        "name": "Update",
+        "type": "Trigger",
+        "description": "combine all arrays"
+      },
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": "Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)Array 5 (Array)Array 6 (Array)Array 7 (Array)Array 8 (Array)Array 9 (Array)"
+      },
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 4",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 5",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 6",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 7",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 8",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 9",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "array of arrays out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "array of arrays out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "array of arrays out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsFilterByKeyValue",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayOfObjectsFilterByKeyValue",
+    "image_path": "images/ops\\Ops_Array_ArrayOfObjectsFilterByKeyValue.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterByKeyValue",
+    "description": "Filter key-value pairs in objects in an array of objects",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array input"
+      },
+      {
+        "name": "Filter Key",
+        "type": "String",
+        "description": "key to use"
+      },
+      {
+        "name": "Filter Value",
+        "type": "String",
+        "description": "value to use"
+      },
+      {
+        "name": "Method index",
+        "type": "Number: integer",
+        "description": "equals  startsWith  endsWith  includes Invert Filter (Number: boolean)invert result (discard all objects that have key-value pair)"
+      },
+      {
+        "name": "Method index",
+        "type": "Number: integer",
+        "description": "equals  startsWith  endsWith  includes"
+      },
+      {
+        "name": "Invert Filter",
+        "type": "Number: boolean",
+        "description": "invert result (discard all objects that have key-value pair)"
+      },
+      {
+        "name": "invert result",
+        "type": "discard all objects that have key-value pair",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSarrayOut",
+        "type": "Array",
+        "description": "output array"
+      },
+      {
+        "name": "arrayOut",
+        "type": "Array",
+        "description": "output array"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "arrayOut",
+        "type": "Array",
+        "description": "output array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsFilterKeys",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayOfObjectsFilterKeys",
+    "image_path": "images/ops\\Ops_Array_ArrayOfObjectsFilterKeys.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterKeys",
+    "description": "Remove key-value pairs from objects in an array of objects",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "array of objects input"
+      },
+      {
+        "name": "Keys",
+        "type": "String",
+        "description": "keys to keep in the objects"
+      },
+      {
+        "name": "Seperator",
+        "type": "String",
+        "description": "the character to seperate the keys"
+      },
+      {
+        "name": "Invert Filter",
+        "type": "Number: boolean",
+        "description": "inverts the operation, drops all specified keys"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "the resulting array of objects"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "the resulting array of objects"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsToString",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayOfObjectsToString",
+    "image_path": "images/ops\\Ops_Array_ArrayOfObjectsToString.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsToString",
+    "description": "Convert an array of objects into readable string format",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "array of objects input"
+      },
+      {
+        "name": "OUTPUT PORTSString",
+        "type": "String",
+        "description": "string output"
+      },
+      {
+        "name": "String",
+        "type": "String",
+        "description": "string output"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "String",
+        "type": "String",
+        "description": "string output"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack",
+    "image_path": "images/ops\\Ops_Array_ArrayPack.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack",
+    "description": "Pack multiple arrays into a new array",
+    "input_ports": [
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": "Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)Array 5 (Array)Array 6 (Array)Array 7 (Array)"
+      },
+      {
+        "name": "Array 0",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 4",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 5",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 6",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 7",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack2",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack2",
+    "image_path": "images/ops\\Ops_Array_ArrayPack2.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack2",
+    "description": "Pack two individual arrays into a new array",
+    "input_ports": [
+      {
+        "name": "Trigger in",
+        "type": "Trigger",
+        "description": "Trigger in"
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": "array 1 in"
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": "array 2 in"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Packed array"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": "Length of array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack2Simple",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack2Simple",
+    "image_path": "images/ops\\Ops_Array_ArrayPack2Simple.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack2Simple",
+    "description": "Pack 2 individual arrays into an array2",
+    "input_ports": [
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": "Array 2 (Array)"
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Num Points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack3",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack3",
+    "image_path": "images/ops\\Ops_Array_ArrayPack3.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack3",
+    "description": "Pack 3 individual arrays into a xyz array",
+    "input_ports": [
+      {
+        "name": "Trigger in",
+        "type": "Trigger",
+        "description": "Trigger the op"
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": "x array"
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": "y array"
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": "z array"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Trigger out"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "The combined xyz array"
+      },
+      {
+        "name": "Num Points",
+        "type": "Number",
+        "description": "Amount of xyz points in the array"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack3Simple",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack3Simple",
+    "image_path": "images/ops\\Ops_Array_ArrayPack3Simple.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack3Simple",
+    "description": "Pack 3 individual arrays into an array3",
+    "input_ports": [
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": "Array 2 (Array)Array 3 (Array)"
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Num Points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack4",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack4",
+    "image_path": "images/ops\\Ops_Array_ArrayPack4.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack4",
+    "description": "Pack 4 arrays into one array",
+    "input_ports": [
+      {
+        "name": "Trigger in",
+        "type": "Trigger",
+        "description": "Array 1 (Array)Array 2 (Array)Array 3 (Array)Array 4 (Array)"
+      },
+      {
+        "name": "Trigger in",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 4",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Array out (Array)Array length (Number)"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": "Array out (Array)Array length (Number)"
+      },
+      {
+        "name": "Trigger out",
+        "type": "Trigger",
+        "description": ""
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack4Simple",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPack4Simple",
+    "image_path": "images/ops\\Ops_Array_ArrayPack4Simple.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack4Simple",
+    "description": "Pack 3 individual arrays into an array3",
+    "input_ports": [
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": "Array 2 (Array)Array 3 (Array)Array 4 (Array)"
+      },
+      {
+        "name": "Array 1",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 2",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 3",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array 4",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Num Points",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "Num Points (Number)Array length (Number)"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPow",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPow",
+    "image_path": "images/ops\\Ops_Array_ArrayPow.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPow",
+    "description": "Apply a Pow function to an array",
+    "input_ports": [
+      {
+        "name": "Array in",
+        "type": "Array",
+        "description": "The array to apply the pow function to"
+      },
+      {
+        "name": "Pow factor",
+        "type": "Number",
+        "description": "Values below 0 are not accepted. 1 = Array in is unaltered"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "The modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "The modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayPushString",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayPushString",
+    "image_path": "images/ops\\Ops_Array_ArrayPushString.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPushString",
+    "description": "Push/Append a string to the end of an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "String (String)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "String (String)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "String",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayQuantizer",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayQuantizer",
+    "image_path": "images/ops\\Ops_Array_ArrayQuantizer.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayQuantizer",
+    "description": "Quantize input to nearest number in array",
+    "input_ports": [
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "input number"
+      },
+      {
+        "name": "Constraints Array Input",
+        "type": "Array",
+        "description": "array of numbers to which the input should be quantized (so called constraints)"
+      },
+      {
+        "name": "Summary",
+        "type": "oneliner",
+        "description": ""
+      },
+      {
+        "name": "Documentation",
+        "type": "markdown",
+        "description": ""
+      },
+      {
+        "name": "Youtube ids",
+        "type": "comma seperated",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Quantized Value",
+        "type": "Number",
+        "description": "the quantized number"
+      },
+      {
+        "name": "Quantization Error",
+        "type": "Number",
+        "description": "the difference between the quantized and unquantized number"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayRandomSelection",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayRandomSelection",
+    "image_path": "images/ops\\Ops_Array_ArrayRandomSelection.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRandomSelection",
+    "description": "Extract a definable amount of values from an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "The array in to extract random values from"
+      },
+      {
+        "name": "Elements",
+        "type": "Number: integer",
+        "description": "Amount of elements to extract"
+      },
+      {
+        "name": "Seed",
+        "type": "Number",
+        "description": "Random number seed. 0 is always different on a reload. Set to a number to keep a fixed seed."
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array Out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array Out"
+      },
+      {
+        "name": "Array length",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayRemoveFalsy",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayRemoveFalsy",
+    "image_path": "images/ops\\Ops_Array_ArrayRemoveFalsy.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRemoveFalsy",
+    "description": "Remove falsy items from an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Remove Falsy (Number: boolean)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Remove Falsy (Number: boolean)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Remove Falsy",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result Array",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayReverse",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayReverse",
+    "image_path": "images/ops\\Ops_Array_ArrayReverse.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayReverse",
+    "description": "Reverse an array",
+    "input_ports": [
+      {
+        "name": "Input",
+        "type": "Array",
+        "description": "Active (Number: boolean)"
+      },
+      {
+        "name": "INPUT PORTSInput",
+        "type": "Array",
+        "description": "Active (Number: boolean)"
+      },
+      {
+        "name": "Input",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Active",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayRound",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayRound",
+    "image_path": "images/ops\\Ops_Array_ArrayRound.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRound",
+    "description": "Round numbers up",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Method index",
+        "type": "Number: integer",
+        "description": "Decimal Places (Number: integer)"
+      },
+      {
+        "name": "Method index",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "Decimal Places",
+        "type": "Number: integer",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySetNumber",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySetNumber",
+    "image_path": "images/ops\\Ops_Array_ArraySetNumber.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySetNumber",
+    "description": "Set a number at index in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "index to update with the value"
+      },
+      {
+        "name": "Number",
+        "type": "Number",
+        "description": "number that will be set to the selected index"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Modified array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySetString",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySetString",
+    "image_path": "images/ops\\Ops_Array_ArraySetString.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySetString",
+    "description": "Set a string at index in an array",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Index",
+        "type": "Number: integer",
+        "description": "index to update with the value"
+      },
+      {
+        "name": "Value",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Modified array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Modified array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySin",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySin",
+    "image_path": "images/ops\\Ops_Array_ArraySin.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySin",
+    "description": "Perform a sin or cos operation on the contents of an array",
+    "input_ports": [
+      {
+        "name": "array in",
+        "type": "Array",
+        "description": "Math function index (Number: integer)Phase (Number)Frequency (Number)Amplitude (Number)"
+      },
+      {
+        "name": "array in",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Phase",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Frequency",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Amplitude",
+        "type": "Number",
+        "description": ""
+      },
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array result",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySmoothStep",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySmoothStep",
+    "image_path": "images/ops\\Ops_Array_ArraySmoothStep.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySmoothStep",
+    "description": "Apply a smoothstep function to the contents of an array",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "The array in to modify"
+      },
+      {
+        "name": "Min",
+        "type": "Number",
+        "description": "min interpolation point"
+      },
+      {
+        "name": "Max",
+        "type": "Number",
+        "description": "max interpolation point"
+      },
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "The modified array"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array out",
+        "type": "Array",
+        "description": "The modified array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySort",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySort",
+    "image_path": "images/ops\\Ops_Array_ArraySort.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySort",
+    "description": "Sort an array",
+    "input_ports": [
+      {
+        "name": "Colors",
+        "type": "Array",
+        "description": "Sort index (Number: integer) No  Luminance  Hue  Saturation  Lightness Input Format index (Number: integer) RGBA  RGB"
+      },
+      {
+        "name": "INPUT PORTSColors",
+        "type": "Array",
+        "description": "Sort index (Number: integer) No  Luminance  Hue  Saturation  Lightness Input Format index (Number: integer) RGBA  RGB"
+      },
+      {
+        "name": "Colors",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Sort index",
+        "type": "Number: integer",
+        "description": "No  Luminance  Hue  Saturation  Lightness"
+      },
+      {
+        "name": "New Colors",
+        "type": "Array",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "New Colors",
+        "type": "Array",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySplit",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySplit",
+    "image_path": "images/ops\\Ops_Array_ArraySplit.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySplit",
+    "description": "Split an array into multiple arrays",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Array.ArraySubtract",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySubtract",
+    "image_path": "images/ops\\Ops_Array_ArraySubtract.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySubtract",
+    "description": "Subtract a number from all values in an array",
+    "input_ports": [
+      {
+        "name": "Array In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The number to subtract from all numbers in the array"
+      },
+      {
+        "name": "Mode index",
+        "type": "Number: integer",
+        "description": "Array-x  x-Array"
+      },
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array Out",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArraySum",
+    "namespace": "Ops.Array",
+    "op_name": "ArraySum",
+    "image_path": "images/ops\\Ops_Array_ArraySum.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArraySum",
+    "description": "Sum all values in an array",
+    "input_ports": [
+      {
+        "name": "In",
+        "type": "Array",
+        "description": "Array in"
+      },
+      {
+        "name": "Value",
+        "type": "Number",
+        "description": "The number to add to all numbers in the array"
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "Array",
+        "description": "Array out"
+      },
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "Array",
+        "description": "Array out"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayToObject",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayToObject",
+    "image_path": "images/ops\\Ops_Array_ArrayToObject.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayToObject",
+    "description": "Convert an array to an object",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Array.ArrayToString",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayToString",
+    "image_path": "images/ops\\Ops_Array_ArrayToString.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayToString",
+    "description": "Convert an array to a string",
+    "input_ports": [
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": "Seperator (String)New Line (Number: boolean)"
+      },
+      {
+        "name": "INPUT PORTSArray",
+        "type": "Array",
+        "description": "Seperator (String)New Line (Number: boolean)"
+      },
+      {
+        "name": "Array",
+        "type": "Array",
+        "description": ""
+      },
+      {
+        "name": "Seperator",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "New Line",
+        "type": "Number: boolean",
+        "description": ""
+      },
+      {
+        "name": "OUTPUT PORTSResult",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Result",
+        "type": "String",
+        "description": ""
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Result",
+        "type": "String",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnique",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayUnique",
+    "image_path": "images/ops\\Ops_Array_ArrayUnique.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnique",
+    "description": "Remove duplicate values from an array",
+    "input_ports": [
+      {
+        "name": "array",
+        "type": "Array",
+        "description": "input array"
+      },
+      {
+        "name": "Format index",
+        "type": "Number: integer",
+        "description": "choose between 3 different unique modes: x, xy, xyz"
+      },
+      {
+        "name": "Format",
+        "type": "String",
+        "description": "choose between 3 different unique modes: x, xy, xyz"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "arrayOut",
+        "type": "Array",
+        "description": "deduped array output"
+      },
+      {
+        "name": "Array Length Out",
+        "type": "Number",
+        "description": "length of the new array"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayUnpack",
+    "image_path": "images/ops\\Ops_Array_ArrayUnpack.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack",
+    "description": "Unpack an array into multiple arrays",
+    "input_ports": [
+      {
+        "name": "Array in xyz",
+        "type": "Array",
+        "description": "Array in"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array 1 out",
+        "type": "Array",
+        "description": "X component out"
+      },
+      {
+        "name": "Array 2 out",
+        "type": "Array",
+        "description": "Y component out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": "Length of arrays"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack2",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayUnpack2",
+    "image_path": "images/ops\\Ops_Array_ArrayUnpack2.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack2",
+    "description": "Unpack an array2 into two individual arrays",
+    "input_ports": [
+      {
+        "name": "Array in xyz",
+        "type": "Array",
+        "description": "Array in"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array 1 out",
+        "type": "Array",
+        "description": "X component out"
+      },
+      {
+        "name": "Array 2 out",
+        "type": "Array",
+        "description": "Y component out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": "Length of arrays"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack3",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayUnpack3",
+    "image_path": "images/ops\\Ops_Array_ArrayUnpack3.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack3",
+    "description": "Unpack an array3 into three individual arrays",
+    "input_ports": [
+      {
+        "name": "Array in xyz",
+        "type": "Array",
+        "description": "The array to unpack"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array 1 out",
+        "type": "Array",
+        "description": "array x out"
+      },
+      {
+        "name": "Array 2 out",
+        "type": "Array",
+        "description": "array y out"
+      },
+      {
+        "name": "Array 3 out",
+        "type": "Array",
+        "description": "array z out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack4",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayUnpack4",
+    "image_path": "images/ops\\Ops_Array_ArrayUnpack4.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack4",
+    "description": "Unpack an array4 into four individual arrays",
+    "input_ports": [
+      {
+        "name": "Array in xyzw",
+        "type": "Array",
+        "description": "Array in xyzw"
+      }
+    ],
+    "output_ports": [
+      {
+        "name": "Array 1 out",
+        "type": "Array",
+        "description": "array x out"
+      },
+      {
+        "name": "Array 2 out",
+        "type": "Array",
+        "description": "array y out"
+      },
+      {
+        "name": "Array 3 out",
+        "type": "Array",
+        "description": "array z out"
+      },
+      {
+        "name": "Array 4 out",
+        "type": "Array",
+        "description": "array w out"
+      },
+      {
+        "name": "Array lengths",
+        "type": "Number",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Array.ArrayZip",
+    "namespace": "Ops.Array",
+    "op_name": "ArrayZip",
+    "image_path": "images/ops\\Ops_Array_ArrayZip.svg",
+    "url": "https://cables.gl/op/Ops.Array.ArrayZip",
+    "description": "Zip two arrays together",
+    "input_ports": [],
+    "output_ports": []
+  }
+]
