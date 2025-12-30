@@ -17,6 +17,7 @@ chapters = [
     'chapters/10-interfaces.md',
     'chapters/11-export-deployment.md',
     'chapters/12-video-tutorials.md',
+    'chapters/13-AllOps.md',
 ]
 
 # Start with title page

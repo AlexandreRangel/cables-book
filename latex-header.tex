@@ -4,6 +4,27 @@
 \usepackage{graphicx}
 \usepackage{xcolor}
 
+%% Image handling - ensure images don't overflow page width
+\usepackage{adjustbox}
+\usepackage{float}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+%% Left-align images (no centering) and remove figure captions
+\usepackage{caption}
+\captionsetup{labelformat=empty,textformat=empty}
+\makeatletter
+\renewenvironment{figure}[1][htbp]{%
+  \def\@captype{figure}%
+  \noindent\minipage{\linewidth}%
+}{%
+  \endminipage\par\addvspace{\medskipamount}%
+}
+\makeatother
+
 %% TOC spacing - add small space between section numbers and titles
 \usepackage{tocloft}
 \setlength{\cftsecnumwidth}{2.5em}

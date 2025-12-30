@@ -1,0 +1,1238 @@
+[
+  {
+    "full_name": "Ops.Anim.AnimNumberVisibilityCore",
+    "short_name": "AnimNumberVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Anim.AnimNumber",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Anim.BangVisibilityCore",
+    "short_name": "BangVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Anim.Bang",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Anim.BoolAnimVisibilityCore",
+    "short_name": "BoolAnimVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Anim.BoolAnim",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Anim.Crossfade",
+    "short_name": "Crossfade",
+    "url": "https://cables.gl/op/Ops.Anim.Crossfade"
+  },
+  {
+    "full_name": "Ops.Anim.FrameRangeAnim_v2",
+    "short_name": "FrameRangeAnim_v2",
+    "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2"
+  },
+  {
+    "full_name": "Ops.Anim.FrameRangeAnimSwitcher",
+    "short_name": "FrameRangeAnimSwitcher",
+    "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher"
+  },
+  {
+    "full_name": "Ops.Anim.InOutInAnim",
+    "short_name": "InOutInAnim",
+    "url": "https://cables.gl/op/Ops.Anim.InOutInAnim"
+  },
+  {
+    "full_name": "Ops.Anim.LFO_v3",
+    "short_name": "LFO_v3",
+    "url": "https://cables.gl/op/Ops.Anim.LFO_v3"
+  },
+  {
+    "full_name": "Ops.Anim.RandomAnim_v2",
+    "short_name": "RandomAnim_v2",
+    "url": "https://cables.gl/op/Ops.Anim.RandomAnim_v2"
+  },
+  {
+    "full_name": "Ops.Anim.SimpleAnim",
+    "short_name": "SimpleAnim",
+    "url": "https://cables.gl/op/Ops.Anim.SimpleAnim"
+  },
+  {
+    "full_name": "Ops.Anim.SineAnim",
+    "short_name": "SineAnim",
+    "url": "https://cables.gl/op/Ops.Anim.SineAnim"
+  },
+  {
+    "full_name": "Ops.Anim.Smooth",
+    "short_name": "Smooth",
+    "url": "https://cables.gl/op/Ops.Anim.Smooth"
+  },
+  {
+    "full_name": "Ops.Anim.Snap",
+    "short_name": "Snap",
+    "url": "https://cables.gl/op/Ops.Anim.Snap"
+  },
+  {
+    "full_name": "Ops.Anim.Spring",
+    "short_name": "Spring",
+    "url": "https://cables.gl/op/Ops.Anim.Spring"
+  },
+  {
+    "full_name": "Ops.Anim.StringTypeAnimation_v2",
+    "short_name": "StringTypeAnimation_v2",
+    "url": "https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2"
+  },
+  {
+    "full_name": "Ops.Anim.TimeDelta",
+    "short_name": "TimeDelta",
+    "url": "https://cables.gl/op/Ops.Anim.TimeDelta"
+  },
+  {
+    "full_name": "Ops.Anim.Timer_v2",
+    "short_name": "Timer_v2",
+    "url": "https://cables.gl/op/Ops.Anim.Timer_v2"
+  },
+  {
+    "full_name": "Ops.Array.AnglesBetweenPointsVisibilityCore",
+    "short_name": "AnglesBetweenPointsVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Array.AnglesBetweenPoints",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Array.AnimArray_v2VisibilityCore",
+    "short_name": "AnimArray_v2VisibilityCore",
+    "url": "https://cables.gl/op/Ops.Array.AnimArray_v2",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Array.Array_v3VisibilityCore",
+    "short_name": "Array_v3VisibilityCore",
+    "url": "https://cables.gl/op/Ops.Array.Array_v3",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Array.Array1toX_v2",
+    "short_name": "Array1toX_v2",
+    "url": "https://cables.gl/op/Ops.Array.Array1toX_v2"
+  },
+  {
+    "full_name": "Ops.Array.Array2To3",
+    "short_name": "Array2To3",
+    "url": "https://cables.gl/op/Ops.Array.Array2To3"
+  },
+  {
+    "full_name": "Ops.Array.Array3",
+    "short_name": "Array3",
+    "url": "https://cables.gl/op/Ops.Array.Array3"
+  },
+  {
+    "full_name": "Ops.Array.Array3GetAverage",
+    "short_name": "Array3GetAverage",
+    "url": "https://cables.gl/op/Ops.Array.Array3GetAverage"
+  },
+  {
+    "full_name": "Ops.Array.Array3GetNumbers",
+    "short_name": "Array3GetNumbers",
+    "url": "https://cables.gl/op/Ops.Array.Array3GetNumbers"
+  },
+  {
+    "full_name": "Ops.Array.Array3InterpolateDistributed",
+    "short_name": "Array3InterpolateDistributed",
+    "url": "https://cables.gl/op/Ops.Array.Array3InterpolateDistributed"
+  },
+  {
+    "full_name": "Ops.Array.Array3Iterator",
+    "short_name": "Array3Iterator",
+    "url": "https://cables.gl/op/Ops.Array.Array3Iterator"
+  },
+  {
+    "full_name": "Ops.Array.Array3Multiply",
+    "short_name": "Array3Multiply",
+    "url": "https://cables.gl/op/Ops.Array.Array3Multiply"
+  },
+  {
+    "full_name": "Ops.Array.Array3PushNumbers_v2",
+    "short_name": "Array3PushNumbers_v2",
+    "url": "https://cables.gl/op/Ops.Array.Array3PushNumbers_v2"
+  },
+  {
+    "full_name": "Ops.Array.Array3RandomSelection",
+    "short_name": "Array3RandomSelection",
+    "url": "https://cables.gl/op/Ops.Array.Array3RandomSelection"
+  },
+  {
+    "full_name": "Ops.Array.Array3SetNumber",
+    "short_name": "Array3SetNumber",
+    "url": "https://cables.gl/op/Ops.Array.Array3SetNumber"
+  },
+  {
+    "full_name": "Ops.Array.Array3Sum",
+    "short_name": "Array3Sum",
+    "url": "https://cables.gl/op/Ops.Array.Array3Sum"
+  },
+  {
+    "full_name": "Ops.Array.Array3To2",
+    "short_name": "Array3To2",
+    "url": "https://cables.gl/op/Ops.Array.Array3To2"
+  },
+  {
+    "full_name": "Ops.Array.Array3To4",
+    "short_name": "Array3To4",
+    "url": "https://cables.gl/op/Ops.Array.Array3To4"
+  },
+  {
+    "full_name": "Ops.Array.Array3VectorLength",
+    "short_name": "Array3VectorLength",
+    "url": "https://cables.gl/op/Ops.Array.Array3VectorLength"
+  },
+  {
+    "full_name": "Ops.Array.Array4",
+    "short_name": "Array4",
+    "url": "https://cables.gl/op/Ops.Array.Array4"
+  },
+  {
+    "full_name": "Ops.Array.Array4GetNumbers",
+    "short_name": "Array4GetNumbers",
+    "url": "https://cables.gl/op/Ops.Array.Array4GetNumbers"
+  },
+  {
+    "full_name": "Ops.Array.Array4SetNumber",
+    "short_name": "Array4SetNumber",
+    "url": "https://cables.gl/op/Ops.Array.Array4SetNumber"
+  },
+  {
+    "full_name": "Ops.Array.Array4toArray3",
+    "short_name": "Array4toArray3",
+    "url": "https://cables.gl/op/Ops.Array.Array4toArray3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayAbs",
+    "short_name": "ArrayAbs",
+    "url": "https://cables.gl/op/Ops.Array.ArrayAbs"
+  },
+  {
+    "full_name": "Ops.Array.ArrayAppendArray",
+    "short_name": "ArrayAppendArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayAppendArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayBuffer",
+    "short_name": "ArrayBuffer",
+    "url": "https://cables.gl/op/Ops.Array.ArrayBuffer"
+  },
+  {
+    "full_name": "Ops.Array.ArrayBuffer3",
+    "short_name": "ArrayBuffer3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayBuffer3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayCeil",
+    "short_name": "ArrayCeil",
+    "url": "https://cables.gl/op/Ops.Array.ArrayCeil"
+  },
+  {
+    "full_name": "Ops.Array.ArrayChunk",
+    "short_name": "ArrayChunk",
+    "url": "https://cables.gl/op/Ops.Array.ArrayChunk"
+  },
+  {
+    "full_name": "Ops.Array.ArrayChunkDuplicate",
+    "short_name": "ArrayChunkDuplicate",
+    "url": "https://cables.gl/op/Ops.Array.ArrayChunkDuplicate"
+  },
+  {
+    "full_name": "Ops.Array.ArrayClamp",
+    "short_name": "ArrayClamp",
+    "url": "https://cables.gl/op/Ops.Array.ArrayClamp"
+  },
+  {
+    "full_name": "Ops.Array.ArrayContains_v2",
+    "short_name": "ArrayContains_v2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayContains_v2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayDivide",
+    "short_name": "ArrayDivide",
+    "url": "https://cables.gl/op/Ops.Array.ArrayDivide"
+  },
+  {
+    "full_name": "Ops.Array.ArrayFindStrings",
+    "short_name": "ArrayFindStrings",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFindStrings"
+  },
+  {
+    "full_name": "Ops.Array.ArrayFloor",
+    "short_name": "ArrayFloor",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFloor"
+  },
+  {
+    "full_name": "Ops.Array.ArrayFract",
+    "short_name": "ArrayFract",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFract"
+  },
+  {
+    "full_name": "Ops.Array.ArrayFromNumbers",
+    "short_name": "ArrayFromNumbers",
+    "url": "https://cables.gl/op/Ops.Array.ArrayFromNumbers"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetArray",
+    "short_name": "ArrayGetArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetNumber",
+    "short_name": "ArrayGetNumber",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetNumber"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetObject",
+    "short_name": "ArrayGetObject",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetObject"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetString_v2",
+    "short_name": "ArrayGetString_v2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetString_v2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetTexture",
+    "short_name": "ArrayGetTexture",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetTexture"
+  },
+  {
+    "full_name": "Ops.Array.ArrayGetValuesByIndexArray",
+    "short_name": "ArrayGetValuesByIndexArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayGetValuesByIndexArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIndexBetween",
+    "short_name": "ArrayIndexBetween",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIndexBetween"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIndexMinMax",
+    "short_name": "ArrayIndexMinMax",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIndexMinMax"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorArray",
+    "short_name": "ArrayIteratorArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorNumbers",
+    "short_name": "ArrayIteratorNumbers",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorNumbers"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorObjects",
+    "short_name": "ArrayIteratorObjects",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorObjects"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorStrings",
+    "short_name": "ArrayIteratorStrings",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorStrings"
+  },
+  {
+    "full_name": "Ops.Array.ArrayIteratorTextures",
+    "short_name": "ArrayIteratorTextures",
+    "url": "https://cables.gl/op/Ops.Array.ArrayIteratorTextures"
+  },
+  {
+    "full_name": "Ops.Array.ArrayLength_v2",
+    "short_name": "ArrayLength_v2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLength_v2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogic",
+    "short_name": "ArrayLogic",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogic"
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogicArray",
+    "short_name": "ArrayLogicArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogicArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayLogicBetween_v2",
+    "short_name": "ArrayLogicBetween_v2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLogicBetween_v2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayLookup",
+    "short_name": "ArrayLookup",
+    "url": "https://cables.gl/op/Ops.Array.ArrayLookup"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMath",
+    "short_name": "ArrayMath",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMath"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathArray",
+    "short_name": "ArrayMathArray",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathArray"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathExpression",
+    "short_name": "ArrayMathExpression",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathExpression"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMathExpressionTrigger",
+    "short_name": "ArrayMathExpressionTrigger",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMathExpressionTrigger"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMax",
+    "short_name": "ArrayMax",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMax"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMerge_v3",
+    "short_name": "ArrayMerge_v3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMerge_v3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMergeTrigger",
+    "short_name": "ArrayMergeTrigger",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMergeTrigger"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMin",
+    "short_name": "ArrayMin",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMin"
+  },
+  {
+    "full_name": "Ops.Array.ArrayModulo",
+    "short_name": "ArrayModulo",
+    "url": "https://cables.gl/op/Ops.Array.ArrayModulo"
+  },
+  {
+    "full_name": "Ops.Array.ArrayMultiply",
+    "short_name": "ArrayMultiply",
+    "url": "https://cables.gl/op/Ops.Array.ArrayMultiply"
+  },
+  {
+    "full_name": "Ops.Array.ArrayNumberRamp_v2",
+    "short_name": "ArrayNumberRamp_v2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayNumberRamp_v2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfArrays",
+    "short_name": "ArrayOfArrays",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfArrays"
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsFilterByKeyValue_v3",
+    "short_name": "ArrayOfObjectsFilterByKeyValue_v3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterByKeyValue_v3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsFilterKeys",
+    "short_name": "ArrayOfObjectsFilterKeys",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterKeys"
+  },
+  {
+    "full_name": "Ops.Array.ArrayOfObjectsToString",
+    "short_name": "ArrayOfObjectsToString",
+    "url": "https://cables.gl/op/Ops.Array.ArrayOfObjectsToString"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack",
+    "short_name": "ArrayPack",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack2",
+    "short_name": "ArrayPack2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack2Simple",
+    "short_name": "ArrayPack2Simple",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack2Simple"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack3",
+    "short_name": "ArrayPack3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack3Simple",
+    "short_name": "ArrayPack3Simple",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack3Simple"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack4",
+    "short_name": "ArrayPack4",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack4"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPack4Simple",
+    "short_name": "ArrayPack4Simple",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPack4Simple"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPow",
+    "short_name": "ArrayPow",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPow"
+  },
+  {
+    "full_name": "Ops.Array.ArrayPushString",
+    "short_name": "ArrayPushString",
+    "url": "https://cables.gl/op/Ops.Array.ArrayPushString"
+  },
+  {
+    "full_name": "Ops.Array.ArrayQuantizer",
+    "short_name": "ArrayQuantizer",
+    "url": "https://cables.gl/op/Ops.Array.ArrayQuantizer"
+  },
+  {
+    "full_name": "Ops.Array.ArrayRandomSelection",
+    "short_name": "ArrayRandomSelection",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRandomSelection"
+  },
+  {
+    "full_name": "Ops.Array.ArrayRemoveFalsy",
+    "short_name": "ArrayRemoveFalsy",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRemoveFalsy"
+  },
+  {
+    "full_name": "Ops.Array.ArrayReverse",
+    "short_name": "ArrayReverse",
+    "url": "https://cables.gl/op/Ops.Array.ArrayReverse"
+  },
+  {
+    "full_name": "Ops.Array.ArrayRound",
+    "short_name": "ArrayRound",
+    "url": "https://cables.gl/op/Ops.Array.ArrayRound"
+  },
+  {
+    "full_name": "Ops.Array.ArraySetNumber_v3",
+    "short_name": "ArraySetNumber_v3",
+    "url": "https://cables.gl/op/Ops.Array.ArraySetNumber_v3"
+  },
+  {
+    "full_name": "Ops.Array.ArraySetString",
+    "short_name": "ArraySetString",
+    "url": "https://cables.gl/op/Ops.Array.ArraySetString"
+  },
+  {
+    "full_name": "Ops.Array.ArraySin",
+    "short_name": "ArraySin",
+    "url": "https://cables.gl/op/Ops.Array.ArraySin"
+  },
+  {
+    "full_name": "Ops.Array.ArraySmoothStep",
+    "short_name": "ArraySmoothStep",
+    "url": "https://cables.gl/op/Ops.Array.ArraySmoothStep"
+  },
+  {
+    "full_name": "Ops.Array.ArraySqrt",
+    "short_name": "ArraySqrt",
+    "url": "https://cables.gl/op/Ops.Array.ArraySqrt"
+  },
+  {
+    "full_name": "Ops.Array.ArraysToArrayMultiPort",
+    "short_name": "ArraysToArrayMultiPort",
+    "url": "https://cables.gl/op/Ops.Array.ArraysToArrayMultiPort"
+  },
+  {
+    "full_name": "Ops.Array.ArraySubtract",
+    "short_name": "ArraySubtract",
+    "url": "https://cables.gl/op/Ops.Array.ArraySubtract"
+  },
+  {
+    "full_name": "Ops.Array.ArraySum",
+    "short_name": "ArraySum",
+    "url": "https://cables.gl/op/Ops.Array.ArraySum"
+  },
+  {
+    "full_name": "Ops.Array.ArraySumPrevious",
+    "short_name": "ArraySumPrevious",
+    "url": "https://cables.gl/op/Ops.Array.ArraySumPrevious"
+  },
+  {
+    "full_name": "Ops.Array.ArraySumUp",
+    "short_name": "ArraySumUp",
+    "url": "https://cables.gl/op/Ops.Array.ArraySumUp"
+  },
+  {
+    "full_name": "Ops.Array.ArraySwizzle",
+    "short_name": "ArraySwizzle",
+    "url": "https://cables.gl/op/Ops.Array.ArraySwizzle"
+  },
+  {
+    "full_name": "Ops.Array.ArrayToArrays",
+    "short_name": "ArrayToArrays",
+    "url": "https://cables.gl/op/Ops.Array.ArrayToArrays"
+  },
+  {
+    "full_name": "Ops.Array.ArrayToByteBuffer",
+    "short_name": "ArrayToByteBuffer",
+    "url": "https://cables.gl/op/Ops.Array.ArrayToByteBuffer"
+  },
+  {
+    "full_name": "Ops.Array.ArrayToString_v3",
+    "short_name": "ArrayToString_v3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayToString_v3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayTrigger",
+    "short_name": "ArrayTrigger",
+    "url": "https://cables.gl/op/Ops.Array.ArrayTrigger"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnique",
+    "short_name": "ArrayUnique",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnique"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUniqueItemInfo",
+    "short_name": "ArrayUniqueItemInfo",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUniqueItemInfo"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack2",
+    "short_name": "ArrayUnpack2",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack2"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack3",
+    "short_name": "ArrayUnpack3",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack3"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnpack4",
+    "short_name": "ArrayUnpack4",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnpack4"
+  },
+  {
+    "full_name": "Ops.Array.ArrayUnshiftString",
+    "short_name": "ArrayUnshiftString",
+    "url": "https://cables.gl/op/Ops.Array.ArrayUnshiftString"
+  },
+  {
+    "full_name": "Ops.Array.AverageArray",
+    "short_name": "AverageArray",
+    "url": "https://cables.gl/op/Ops.Array.AverageArray"
+  },
+  {
+    "full_name": "Ops.Array.BoolStateArray",
+    "short_name": "BoolStateArray",
+    "url": "https://cables.gl/op/Ops.Array.BoolStateArray"
+  },
+  {
+    "full_name": "Ops.Array.CopyArray",
+    "short_name": "CopyArray",
+    "url": "https://cables.gl/op/Ops.Array.CopyArray"
+  },
+  {
+    "full_name": "Ops.Array.CopyArraySimple",
+    "short_name": "CopyArraySimple",
+    "url": "https://cables.gl/op/Ops.Array.CopyArraySimple"
+  },
+  {
+    "full_name": "Ops.Array.CropArray",
+    "short_name": "CropArray",
+    "url": "https://cables.gl/op/Ops.Array.CropArray"
+  },
+  {
+    "full_name": "Ops.Array.CutArray",
+    "short_name": "CutArray",
+    "url": "https://cables.gl/op/Ops.Array.CutArray"
+  },
+  {
+    "full_name": "Ops.Array.EaseArray",
+    "short_name": "EaseArray",
+    "url": "https://cables.gl/op/Ops.Array.EaseArray"
+  },
+  {
+    "full_name": "Ops.Array.EmptyArray",
+    "short_name": "EmptyArray",
+    "url": "https://cables.gl/op/Ops.Array.EmptyArray"
+  },
+  {
+    "full_name": "Ops.Array.FillArrayRandomDuplicates_v2",
+    "short_name": "FillArrayRandomDuplicates_v2",
+    "url": "https://cables.gl/op/Ops.Array.FillArrayRandomDuplicates_v2"
+  },
+  {
+    "full_name": "Ops.Array.FilterArray",
+    "short_name": "FilterArray",
+    "url": "https://cables.gl/op/Ops.Array.FilterArray"
+  },
+  {
+    "full_name": "Ops.Array.FilterValidArray",
+    "short_name": "FilterValidArray",
+    "url": "https://cables.gl/op/Ops.Array.FilterValidArray"
+  },
+  {
+    "full_name": "Ops.Array.FlattenArray",
+    "short_name": "FlattenArray",
+    "url": "https://cables.gl/op/Ops.Array.FlattenArray"
+  },
+  {
+    "full_name": "Ops.Array.FreezeArray",
+    "short_name": "FreezeArray",
+    "url": "https://cables.gl/op/Ops.Array.FreezeArray"
+  },
+  {
+    "full_name": "Ops.Array.GateArray_v2",
+    "short_name": "GateArray_v2",
+    "url": "https://cables.gl/op/Ops.Array.GateArray_v2"
+  },
+  {
+    "full_name": "Ops.Array.GetValuesFromArrayOfObjects",
+    "short_name": "GetValuesFromArrayOfObjects",
+    "url": "https://cables.gl/op/Ops.Array.GetValuesFromArrayOfObjects"
+  },
+  {
+    "full_name": "Ops.Array.HSBtoRGBArray",
+    "short_name": "HSBtoRGBArray",
+    "url": "https://cables.gl/op/Ops.Array.HSBtoRGBArray"
+  },
+  {
+    "full_name": "Ops.Array.InfoArray",
+    "short_name": "InfoArray",
+    "url": "https://cables.gl/op/Ops.Array.InfoArray"
+  },
+  {
+    "full_name": "Ops.Array.InfoArray2",
+    "short_name": "InfoArray2",
+    "url": "https://cables.gl/op/Ops.Array.InfoArray2"
+  },
+  {
+    "full_name": "Ops.Array.InfoArray3",
+    "short_name": "InfoArray3",
+    "url": "https://cables.gl/op/Ops.Array.InfoArray3"
+  },
+  {
+    "full_name": "Ops.Array.InterpolateArrays",
+    "short_name": "InterpolateArrays",
+    "url": "https://cables.gl/op/Ops.Array.InterpolateArrays"
+  },
+  {
+    "full_name": "Ops.Array.InterpolateArraysRange",
+    "short_name": "InterpolateArraysRange",
+    "url": "https://cables.gl/op/Ops.Array.InterpolateArraysRange"
+  },
+  {
+    "full_name": "Ops.Array.InterpolateNumbersArray",
+    "short_name": "InterpolateNumbersArray",
+    "url": "https://cables.gl/op/Ops.Array.InterpolateNumbersArray"
+  },
+  {
+    "full_name": "Ops.Array.InterpolateNumbersArray3",
+    "short_name": "InterpolateNumbersArray3",
+    "url": "https://cables.gl/op/Ops.Array.InterpolateNumbersArray3"
+  },
+  {
+    "full_name": "Ops.Array.LissajouseSpline",
+    "short_name": "LissajouseSpline",
+    "url": "https://cables.gl/op/Ops.Array.LissajouseSpline"
+  },
+  {
+    "full_name": "Ops.Array.LoopArray3",
+    "short_name": "LoopArray3",
+    "url": "https://cables.gl/op/Ops.Array.LoopArray3"
+  },
+  {
+    "full_name": "Ops.Array.MapRangeArray",
+    "short_name": "MapRangeArray",
+    "url": "https://cables.gl/op/Ops.Array.MapRangeArray"
+  },
+  {
+    "full_name": "Ops.Array.NumbersToArrayMultiPort_v2",
+    "short_name": "NumbersToArrayMultiPort_v2",
+    "url": "https://cables.gl/op/Ops.Array.NumbersToArrayMultiPort_v2"
+  },
+  {
+    "full_name": "Ops.Array.ObjectIteratorKeys",
+    "short_name": "ObjectIteratorKeys",
+    "url": "https://cables.gl/op/Ops.Array.ObjectIteratorKeys"
+  },
+  {
+    "full_name": "Ops.Array.PaletteLibrary",
+    "short_name": "PaletteLibrary",
+    "url": "https://cables.gl/op/Ops.Array.PaletteLibrary"
+  },
+  {
+    "full_name": "Ops.Array.PerlinArray",
+    "short_name": "PerlinArray",
+    "url": "https://cables.gl/op/Ops.Array.PerlinArray"
+  },
+  {
+    "full_name": "Ops.Array.Phyllotaxis",
+    "short_name": "Phyllotaxis",
+    "url": "https://cables.gl/op/Ops.Array.Phyllotaxis"
+  },
+  {
+    "full_name": "Ops.Array.RandomNumbersArray_v4",
+    "short_name": "RandomNumbersArray_v4",
+    "url": "https://cables.gl/op/Ops.Array.RandomNumbersArray_v4"
+  },
+  {
+    "full_name": "Ops.Array.RandomWordsArray",
+    "short_name": "RandomWordsArray",
+    "url": "https://cables.gl/op/Ops.Array.RandomWordsArray"
+  },
+  {
+    "full_name": "Ops.Array.ReduceArray3_v3",
+    "short_name": "ReduceArray3_v3",
+    "url": "https://cables.gl/op/Ops.Array.ReduceArray3_v3"
+  },
+  {
+    "full_name": "Ops.Array.ReverseArray3",
+    "short_name": "ReverseArray3",
+    "url": "https://cables.gl/op/Ops.Array.ReverseArray3"
+  },
+  {
+    "full_name": "Ops.Array.RingBuffer",
+    "short_name": "RingBuffer",
+    "url": "https://cables.gl/op/Ops.Array.RingBuffer"
+  },
+  {
+    "full_name": "Ops.Array.RotateArray",
+    "short_name": "RotateArray",
+    "url": "https://cables.gl/op/Ops.Array.RotateArray"
+  },
+  {
+    "full_name": "Ops.Array.RouteArray",
+    "short_name": "RouteArray",
+    "url": "https://cables.gl/op/Ops.Array.RouteArray"
+  },
+  {
+    "full_name": "Ops.Array.SetNumberArray",
+    "short_name": "SetNumberArray",
+    "url": "https://cables.gl/op/Ops.Array.SetNumberArray"
+  },
+  {
+    "full_name": "Ops.Array.SetNumbersArray3",
+    "short_name": "SetNumbersArray3",
+    "url": "https://cables.gl/op/Ops.Array.SetNumbersArray3"
+  },
+  {
+    "full_name": "Ops.Array.ShuffleArray_v3",
+    "short_name": "ShuffleArray_v3",
+    "url": "https://cables.gl/op/Ops.Array.ShuffleArray_v3"
+  },
+  {
+    "full_name": "Ops.Array.ShuffleArray3_v3",
+    "short_name": "ShuffleArray3_v3",
+    "url": "https://cables.gl/op/Ops.Array.ShuffleArray3_v3"
+  },
+  {
+    "full_name": "Ops.Array.SimplexArray",
+    "short_name": "SimplexArray",
+    "url": "https://cables.gl/op/Ops.Array.SimplexArray"
+  },
+  {
+    "full_name": "Ops.Array.SmoothArray",
+    "short_name": "SmoothArray",
+    "url": "https://cables.gl/op/Ops.Array.SmoothArray"
+  },
+  {
+    "full_name": "Ops.Array.SortArray",
+    "short_name": "SortArray",
+    "url": "https://cables.gl/op/Ops.Array.SortArray"
+  },
+  {
+    "full_name": "Ops.Array.SortArray3",
+    "short_name": "SortArray3",
+    "url": "https://cables.gl/op/Ops.Array.SortArray3"
+  },
+  {
+    "full_name": "Ops.Array.SortArrayOfOjects",
+    "short_name": "SortArrayOfOjects",
+    "url": "https://cables.gl/op/Ops.Array.SortArrayOfOjects"
+  },
+  {
+    "full_name": "Ops.Array.SortArrayWithIndices_v2",
+    "short_name": "SortArrayWithIndices_v2",
+    "url": "https://cables.gl/op/Ops.Array.SortArrayWithIndices_v2"
+  },
+  {
+    "full_name": "Ops.Array.SplineLengthArray3",
+    "short_name": "SplineLengthArray3",
+    "url": "https://cables.gl/op/Ops.Array.SplineLengthArray3"
+  },
+  {
+    "full_name": "Ops.Array.SplinesToLineStripArray",
+    "short_name": "SplinesToLineStripArray",
+    "url": "https://cables.gl/op/Ops.Array.SplinesToLineStripArray"
+  },
+  {
+    "full_name": "Ops.Array.StringToArray_v2",
+    "short_name": "StringToArray_v2",
+    "url": "https://cables.gl/op/Ops.Array.StringToArray_v2"
+  },
+  {
+    "full_name": "Ops.Array.StringToCharArray",
+    "short_name": "StringToCharArray",
+    "url": "https://cables.gl/op/Ops.Array.StringToCharArray"
+  },
+  {
+    "full_name": "Ops.Array.StringToLineNumberArray",
+    "short_name": "StringToLineNumberArray",
+    "url": "https://cables.gl/op/Ops.Array.StringToLineNumberArray"
+  },
+  {
+    "full_name": "Ops.Array.SubdivideArray1",
+    "short_name": "SubdivideArray1",
+    "url": "https://cables.gl/op/Ops.Array.SubdivideArray1"
+  },
+  {
+    "full_name": "Ops.Array.SwitchArray",
+    "short_name": "SwitchArray",
+    "url": "https://cables.gl/op/Ops.Array.SwitchArray"
+  },
+  {
+    "full_name": "Ops.Array.SwitchArrayMultiPort_v2",
+    "short_name": "SwitchArrayMultiPort_v2",
+    "url": "https://cables.gl/op/Ops.Array.SwitchArrayMultiPort_v2"
+  },
+  {
+    "full_name": "Ops.Array.SwitchArrayOnTrigger",
+    "short_name": "SwitchArrayOnTrigger",
+    "url": "https://cables.gl/op/Ops.Array.SwitchArrayOnTrigger"
+  },
+  {
+    "full_name": "Ops.Array.TextureBufferArray",
+    "short_name": "TextureBufferArray",
+    "url": "https://cables.gl/op/Ops.Array.TextureBufferArray"
+  },
+  {
+    "full_name": "Ops.Array.WeaveArrays",
+    "short_name": "WeaveArrays",
+    "url": "https://cables.gl/op/Ops.Array.WeaveArrays"
+  },
+  {
+    "full_name": "Ops.Array.PointArray",
+    "short_name": "PointArray",
+    "url": "https://cables.gl/op/Ops.Array.PointArray"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.Array3AreaRemove",
+    "short_name": "Array3AreaRemove",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.Array3AreaRemove"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.Array3PointEditor",
+    "short_name": "Array3PointEditor",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.Array3PointEditor"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.Array3RepeatTransform",
+    "short_name": "Array3RepeatTransform",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.Array3RepeatTransform"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.Array3VectorDistance",
+    "short_name": "Array3VectorDistance",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.Array3VectorDistance"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.ArraySpray",
+    "short_name": "ArraySpray",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.ArraySpray"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.CircularPoints_v2",
+    "short_name": "CircularPoints_v2",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.CircularPoints_v2"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.FillPointArrayDuplicates",
+    "short_name": "FillPointArrayDuplicates",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsCube",
+    "short_name": "PointsCube",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsCube"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsHexagonGrid",
+    "short_name": "PointsHexagonGrid",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsHexagonGrid"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsPlane_v2",
+    "short_name": "PointsPlane_v2",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsPlane_v2"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsRectangle_v2",
+    "short_name": "PointsRectangle_v2",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsRectangle_v2"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsRectangleRounded_v2",
+    "short_name": "PointsRectangleRounded_v2",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsRectangleRounded_v2"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.PointsSphereRandom",
+    "short_name": "PointsSphereRandom",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.PointsSphereRandom"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.RedistributeSplinePoints",
+    "short_name": "RedistributeSplinePoints",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.RedistributeSplinePoints"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.SortArray3ByDistance",
+    "short_name": "SortArray3ByDistance",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.SortArray3ByDistance"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.SplinePositionAtDistanceArray3",
+    "short_name": "SplinePositionAtDistanceArray3",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.SplinePositionAtDistanceArray3"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.SubdivideArray3_v2",
+    "short_name": "SubdivideArray3_v2",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.SubdivideArray3_v2"
+  },
+  {
+    "full_name": "Ops.Array.PointArray.TransformArray3",
+    "short_name": "TransformArray3",
+    "url": "https://cables.gl/op/Ops.Array.PointArray.TransformArray3"
+  },
+  {
+    "full_name": "Ops.Audio.BpmTapVisibilityCore",
+    "short_name": "BpmTapVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Audio.BpmTap",
+    "description": null,
+    "input_ports": [],
+    "output_ports": [
+      {
+        "name": "The resulting BPM",
+        "type": "beats per minute",
+        "description": "States (Array)An array of length 4, e.g. [1, 0, 0, 0] —> first beat"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Audio.MidiJsonVisibilityCore",
+    "short_name": "MidiJsonVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Audio.MidiJson",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Audio.MidiJsonNote_v2VisibilityCore",
+    "short_name": "MidiJsonNote_v2VisibilityCore",
+    "url": "https://cables.gl/op/Ops.Audio.MidiJsonNote_v2",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.AndVisibilityCore",
+    "short_name": "AndVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Boolean.And",
+    "description": "Bool1",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.AndMultiPort_v2VisibilityCore",
+    "short_name": "AndMultiPort_v2VisibilityCore",
+    "url": "https://cables.gl/op/Ops.Boolean.AndMultiPort_v2",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.BoolByTriggerVisibilityCore",
+    "short_name": "BoolByTriggerVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Boolean.BoolByTrigger",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.Boolean",
+    "short_name": "Boolean",
+    "url": "https://cables.gl/op/Ops.Boolean.Boolean"
+  },
+  {
+    "full_name": "Ops.Boolean.BoolToColor",
+    "short_name": "BoolToColor",
+    "url": "https://cables.gl/op/Ops.Boolean.BoolToColor"
+  },
+  {
+    "full_name": "Ops.Boolean.BoolToNumber_v2",
+    "short_name": "BoolToNumber_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.BoolToNumber_v2"
+  },
+  {
+    "full_name": "Ops.Boolean.BoolToString",
+    "short_name": "BoolToString",
+    "url": "https://cables.gl/op/Ops.Boolean.BoolToString"
+  },
+  {
+    "full_name": "Ops.Boolean.DelayBooleanSimple",
+    "short_name": "DelayBooleanSimple",
+    "url": "https://cables.gl/op/Ops.Boolean.DelayBooleanSimple"
+  },
+  {
+    "full_name": "Ops.Boolean.IfFalseThen",
+    "short_name": "IfFalseThen",
+    "url": "https://cables.gl/op/Ops.Boolean.IfFalseThen"
+  },
+  {
+    "full_name": "Ops.Boolean.IfTrueThen_v2",
+    "short_name": "IfTrueThen_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.IfTrueThen_v2"
+  },
+  {
+    "full_name": "Ops.Boolean.IsOne",
+    "short_name": "IsOne",
+    "url": "https://cables.gl/op/Ops.Boolean.IsOne"
+  },
+  {
+    "full_name": "Ops.Boolean.IsZero",
+    "short_name": "IsZero",
+    "url": "https://cables.gl/op/Ops.Boolean.IsZero"
+  },
+  {
+    "full_name": "Ops.Boolean.MonoFlop",
+    "short_name": "MonoFlop",
+    "url": "https://cables.gl/op/Ops.Boolean.MonoFlop"
+  },
+  {
+    "full_name": "Ops.Boolean.Not",
+    "short_name": "Not",
+    "url": "https://cables.gl/op/Ops.Boolean.Not"
+  },
+  {
+    "full_name": "Ops.Boolean.Or",
+    "short_name": "Or",
+    "url": "https://cables.gl/op/Ops.Boolean.Or"
+  },
+  {
+    "full_name": "Ops.Boolean.OrNumber_v2",
+    "short_name": "OrNumber_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.OrNumber_v2"
+  },
+  {
+    "full_name": "Ops.Boolean.ParseBoolean_v2",
+    "short_name": "ParseBoolean_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.ParseBoolean_v2"
+  },
+  {
+    "full_name": "Ops.Boolean.RouteBoolean",
+    "short_name": "RouteBoolean",
+    "url": "https://cables.gl/op/Ops.Boolean.RouteBoolean"
+  },
+  {
+    "full_name": "Ops.Boolean.ToggleBool_v2",
+    "short_name": "ToggleBool_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.ToggleBool_v2"
+  },
+  {
+    "full_name": "Ops.Boolean.TriggerChangedFalse",
+    "short_name": "TriggerChangedFalse",
+    "url": "https://cables.gl/op/Ops.Boolean.TriggerChangedFalse"
+  },
+  {
+    "full_name": "Ops.Boolean.TriggerChangedTrue",
+    "short_name": "TriggerChangedTrue",
+    "url": "https://cables.gl/op/Ops.Boolean.TriggerChangedTrue"
+  },
+  {
+    "full_name": "Ops.Boolean.TriggerOnChangeBoolean_v2",
+    "short_name": "TriggerOnChangeBoolean_v2",
+    "url": "https://cables.gl/op/Ops.Boolean.TriggerOnChangeBoolean_v2"
+  },
+  {
+    "full_name": "Ops.Cables.AssetPathURLVisibilityCore",
+    "short_name": "AssetPathURLVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Cables.AssetPathURL",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Cables.CablesInfoVisibilityCore",
+    "short_name": "CablesInfoVisibilityCore",
+    "url": "https://cables.gl/op/Ops.Cables.CablesInfo",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Cables.CallBack_v2VisibilityCore",
+    "short_name": "CallBack_v2VisibilityCore",
+    "url": "https://cables.gl/op/Ops.Cables.CallBack_v2",
+    "description": null,
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Cables.FPS_v2",
+    "short_name": "FPS_v2",
+    "url": "https://cables.gl/op/Ops.Cables.FPS_v2"
+  },
+  {
+    "full_name": "Ops.Cables.Function_v2",
+    "short_name": "Function_v2",
+    "url": "https://cables.gl/op/Ops.Cables.Function_v2"
+  },
+  {
+    "full_name": "Ops.Cables.GetOpName",
+    "short_name": "GetOpName",
+    "url": "https://cables.gl/op/Ops.Cables.GetOpName"
+  },
+  {
+    "full_name": "Ops.Cables.GetSubPatchName",
+    "short_name": "GetSubPatchName",
+    "url": "https://cables.gl/op/Ops.Cables.GetSubPatchName"
+  },
+  {
+    "full_name": "Ops.Cables.LoadingJob",
+    "short_name": "LoadingJob",
+    "url": "https://cables.gl/op/Ops.Cables.LoadingJob"
+  },
+  {
+    "full_name": "Ops.Cables.LoadingStatus_v2",
+    "short_name": "LoadingStatus_v2",
+    "url": "https://cables.gl/op/Ops.Cables.LoadingStatus_v2"
+  },
+  {
+    "full_name": "Ops.Cables.PatchInfo_v2",
+    "short_name": "PatchInfo_v2",
+    "url": "https://cables.gl/op/Ops.Cables.PatchInfo_v2"
+  },
+  {
+    "full_name": "Ops.Cables.UIMode",
+    "short_name": "UIMode",
+    "url": "https://cables.gl/op/Ops.Cables.UIMode"
+  },
+  {
+    "full_name": "Ops.Cables.UploadAsset",
+    "short_name": "UploadAsset",
+    "url": "https://cables.gl/op/Ops.Cables.UploadAsset"
+  },
+  {
+    "full_name": "Ops.Cables.UploadScreenshot",
+    "short_name": "UploadScreenshot",
+    "url": "https://cables.gl/op/Ops.Cables.UploadScreenshot"
+  }
+]

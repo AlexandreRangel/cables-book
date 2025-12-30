@@ -1,0 +1,70 @@
+{
+  "Ops.Anim": [
+    {
+      "full_name": "Ops.Anim.FrameRangeAnim_v2",
+      "short_name": "FrameRangeAnim_v2",
+      "namespace": "Ops.Anim",
+      "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2",
+      "description": "",
+      "input_ports": [
+        {
+          "name": "frame range",
+          "type": "ex. \"0-10\"",
+          "description": "Loop (Number: boolean)Rewind (Trigger)"
+        }
+      ],
+      "output_ports": [],
+      "scraped_at": "2025-12-29T13:36:13.187643",
+      "scrape_status": "success",
+      "image_downloaded": true
+    },
+    {
+      "full_name": "Ops.Anim.Snap",
+      "short_name": "Snap",
+      "namespace": "Ops.Anim",
+      "url": "https://cables.gl/op/Ops.Anim.Snap",
+      "description": "",
+      "input_ports": [],
+      "output_ports": [],
+      "scraped_at": "2025-12-29T13:36:14.301285",
+      "scrape_status": "success",
+      "image_downloaded": true
+    },
+    {
+      "full_name": "Ops.Anim.AnimNumber",
+      "short_name": "AnimNumber",
+      "namespace": "Ops.Anim",
+      "url": "https://cables.gl/op/Ops.Anim.AnimNumber",
+      "description": "",
+      "input_ports": [],
+      "output_ports": [],
+      "scraped_at": "2025-12-29T13:36:15.463223",
+      "scrape_status": "success",
+      "image_downloaded": true
+    },
+    {
+      "full_name": "Ops.Anim.SineAnim",
+      "short_name": "SineAnim",
+      "namespace": "Ops.Anim",
+      "url": "https://cables.gl/op/Ops.Anim.SineAnim",
+      "description": "",
+      "input_ports": [],
+      "output_ports": [],
+      "scraped_at": "2025-12-29T13:36:16.613849",
+      "scrape_status": "success",
+      "image_downloaded": true
+    },
+    {
+      "full_name": "Ops.Anim.FrameRangeAnimSwitcher",
+      "short_name": "FrameRangeAnimSwitcher",
+      "namespace": "Ops.Anim",
+      "url": "https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher",
+      "description": "",
+      "input_ports": [],
+      "output_ports": [],
+      "scraped_at": "2025-12-29T13:36:17.766405",
+      "scrape_status": "success",
+      "image_downloaded": true
+    }
+  ]
+}

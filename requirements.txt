@@ -1,0 +1,16 @@
+# Cables.gl Book - Python Dependencies
+# Install with: pip install -r requirements.txt
+# Or run: ./install-requirements.bat
+# Last updated: December 29, 2025
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Browser automation for scraping dynamic content
+playwright>=1.40.0
+
+# SVG to PDF conversion (required for XeLaTeX)
+svglib>=1.6.0
+reportlab>=4.0.0
+

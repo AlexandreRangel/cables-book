@@ -1,0 +1,51 @@
+# Ops.Extension.GlParticles
+
+*Part of the [All Operators Reference](13-_AllOps.md)*
+
+---
+
+## Ops.Extension.GlParticles
+
+### VelocityBoundaries
+![VelocityBoundaries op](images/ops/Ops_Extension_GlParticles_VelocityBoundaries.svg)
+
+**Full Name:** `Ops.Extension.GlParticles.VelocityBoundaries`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*
+
+**> Input Ports:**
+- **Render** (Trigger)
+- **Area Index** (Number: Integer)
+- **Method Index** (Number: Integer)
+- **Invert Area** (Number: Boolean)
+- **Strength** (Number)
+- **Size** (Number)
+- **Falloff** (Number)
+- **Boncyness** (Number)
+- **Collision Fade** (Number)
+- **Dir Randomness** (Number)
+- **InForceOutwards** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Velocity Dir X** (Number)
+- **Velocity Dir Y** (Number)
+- **Velocity Dir Z** (Number)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Multiply** (Object:Texture)
+- **Age Start** (Number)
+- **Age End** (Number)
+- **Age Fade** (Number)
+
+**< Output Ports:**
+- **Trigger** (Trigger)
+- **Velocity** (Object)
+- **Collision** (Object)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VelocityBoundaries"*
+**Docs:** [https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries)
+
+---
+

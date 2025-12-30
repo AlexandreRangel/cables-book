@@ -1,0 +1,36 @@
+# Ops.Extension.FxHash
+
+*Part of the [All Operators Reference](13-_AllOps.md)*
+
+---
+
+## Ops.Extension.FxHash
+
+### FxHash
+![FxHash op](images/ops/Ops_Extension_FxHash_FxHash.svg)
+
+**Full Name:** `Ops.Extension.FxHash.FxHash`
+
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.FxHash.FxHash) for details*
+
+**> Input Ports:**
+- **Hash** (String)
+- **Randomize Hash** (Trigger)
+
+**< Output Ports:**
+- **Fxhash** (String)
+- **Fxrand 1** (Number)
+- **Fxrand 2** (Number)
+- **Fxrand 3** (Number)
+- **Fxrand 4** (Number)
+- **Random Numbers** (Array)
+- **Fxhash Environment** (booleanNumber)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.FxHash.FxHash#example)
+
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FxHash"*
+
+**Docs:** [https://cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
+
+---
+

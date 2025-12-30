@@ -1,0 +1,186 @@
+==========================================================================================
+RENAMING PLAN FOR SECTION 13 FILES
+==========================================================================================
+
+Pattern: First letter = major namespace group, Second letter = subsections
+
+NOTE: Your examples suggest Extension uses 'b' (13ba) and Gl uses 'c' (13ca)
+This conflicts with Array which also starts with 'b'. Showing logical grouping:
+
+
+Group 'A':
+------------------------------------------------------------------------------------------
+  13a-OpsAnim.md                                  -> 13a-OpsAnim.md                                   (Ops.Anim)
+  13cn-OpsWebsite.md                              -> 13aa-OpsWebsite.md                               (Ops.Website)
+
+Group 'B':
+------------------------------------------------------------------------------------------
+  13b-OpsArray.md                                 -> 13ba-OpsArray.md                                 (Ops.Array)
+  13c-OpsArrayPointArray.md                       -> 13bb-OpsArrayPointArray.md                       (Ops.Array.PointArray)
+
+Group 'C':
+------------------------------------------------------------------------------------------
+  13d-OpsAudio.md                                 -> 13c-OpsAudio.md                                  (Ops.Audio)
+
+Group 'D':
+------------------------------------------------------------------------------------------
+  13e-OpsBoolean.md                               -> 13d-OpsBoolean.md                                (Ops.Boolean)
+
+Group 'E':
+------------------------------------------------------------------------------------------
+  13f-OpsCables.md                                -> 13e-OpsCables.md                                 (Ops.Cables)
+
+Group 'F':
+------------------------------------------------------------------------------------------
+  13g-OpsColor.md                                 -> 13f-OpsColor.md                                  (Ops.Color)
+
+Group 'G':
+------------------------------------------------------------------------------------------
+  13h-OpsData.md                                  -> 13ga-OpsData.md                                  (Ops.Data)
+  13i-OpsDataComposeArray.md                      -> 13gb-OpsDataComposeArray.md                      (Ops.Data.Compose.Array)
+  13j-OpsDataComposeObject.md                     -> 13gc-OpsDataComposeObject.md                     (Ops.Data.Compose.Object)
+  13k-OpsDataComposeString.md                     -> 13gd-OpsDataComposeString.md                     (Ops.Data.Compose.String)
+  13l-OpsDataJsonPath.md                          -> 13ge-OpsDataJsonPath.md                          (Ops.Data.JsonPath)
+  13m-OpsDataStackValues.md                       -> 13gf-OpsDataStackValues.md                       (Ops.Data.StackValues)
+
+Group 'H':
+------------------------------------------------------------------------------------------
+  13n-OpsDate.md                                  -> 13h-OpsDate.md                                   (Ops.Date)
+
+Group 'I':
+------------------------------------------------------------------------------------------
+  13o-OpsDebug.md                                 -> 13i-OpsDebug.md                                  (Ops.Debug)
+
+Group 'J':
+------------------------------------------------------------------------------------------
+  13p-OpsDevices.md                               -> 13ja-OpsDevices.md                               (Ops.Devices)
+  13q-OpsDevicesBrowser.md                        -> 13jb-OpsDevicesBrowser.md                        (Ops.Devices.Browser)
+  13r-OpsDevicesGamePad.md                        -> 13jc-OpsDevicesGamePad.md                        (Ops.Devices.GamePad)
+  13s-OpsDevicesKeyboard.md                       -> 13jd-OpsDevicesKeyboard.md                       (Ops.Devices.Keyboard)
+  13t-OpsDevicesMidi.md                           -> 13je-OpsDevicesMidi.md                           (Ops.Devices.Midi)
+  13u-OpsDevicesMobile.md                         -> 13jf-OpsDevicesMobile.md                         (Ops.Devices.Mobile)
+  13v-OpsDevicesMouse.md                          -> 13jg-OpsDevicesMouse.md                          (Ops.Devices.Mouse)
+  13w-OpsDevicesWebXrVr.md                        -> 13jh-OpsDevicesWebXrVr.md                        (Ops.Devices.WebXr.Vr)
+
+Group 'K':
+------------------------------------------------------------------------------------------
+  13x-OpsExtensionAi.md                           -> 13ka-OpsExtensionAi.md                           (Ops.Extension.Ai)
+  13y-OpsExtensionAmmoPhysics.md                  -> 13kb-OpsExtensionAmmoPhysics.md                  (Ops.Extension.AmmoPhysics)
+  13z-OpsExtensionDetectGpu.md                    -> 13kc-OpsExtensionDetectGpu.md                    (Ops.Extension.DetectGpu)
+  13aa-OpsExtensionECharts.md                     -> 13kd-OpsExtensionECharts.md                      (Ops.Extension.ECharts)
+  13ab-OpsExtensionFxHash.md                      -> 13ke-OpsExtensionFxHash.md                       (Ops.Extension.FxHash)
+  13ac-OpsExtensionGlParticles.md                 -> 13kf-OpsExtensionGlParticles.md                  (Ops.Extension.GlParticles)
+  13ad-OpsExtensionHtmlElementArray.md            -> 13kg-OpsExtensionHtmlElementArray.md             (Ops.Extension.HtmlElementArray)
+  13ae-OpsExtensionHtmlToTexture.md               -> 13kh-OpsExtensionHtmlToTexture.md                (Ops.Extension.HtmlToTexture)
+  13af-OpsExtensionLSystem.md                     -> 13ki-OpsExtensionLSystem.md                      (Ops.Extension.LSystem)
+  13ag-OpsExtensionLottie.md                      -> 13kj-OpsExtensionLottie.md                       (Ops.Extension.Lottie)
+  13ah-OpsExtensionMediapipe.md                   -> 13kk-OpsExtensionMediapipe.md                    (Ops.Extension.Mediapipe)
+  13ai-OpsExtensionOpenType.md                    -> 13kl-OpsExtensionOpenType.md                     (Ops.Extension.OpenType)
+  13aj-OpsExtensionOsc2Ws.md                      -> 13km-OpsExtensionOsc2Ws.md                       (Ops.Extension.Osc2Ws)
+  13ak-OpsExtensionReactionDiffusion.md           -> 13kn-OpsExtensionReactionDiffusion.md            (Ops.Extension.ReactionDiffusion)
+  13al-OpsExtensionSocketCluster.md               -> 13ko-OpsExtensionSocketCluster.md                (Ops.Extension.SocketCluster)
+  13am-OpsExtensionSocketClusterDeprecated.md     -> 13kp-OpsExtensionSocketClusterDeprecated.md      (Ops.Extension.SocketCluster.Deprecated)
+  13an-OpsExtensionStandalone.md                  -> 13kq-OpsExtensionStandalone.md                   (Ops.Extension.Standalone)
+  13ao-OpsExtensionStandaloneFiles.md             -> 13kr-OpsExtensionStandaloneFiles.md              (Ops.Extension.Standalone.Files)
+  13ap-OpsExtensionStandaloneNet.md               -> 13ks-OpsExtensionStandaloneNet.md                (Ops.Extension.Standalone.Net)
+  13aq-OpsExtensionSuperShapes.md                 -> 13kt-OpsExtensionSuperShapes.md                  (Ops.Extension.SuperShapes)
+  13ar-OpsExtensionTeachableMachines.md           -> 13ku-OpsExtensionTeachableMachines.md            (Ops.Extension.TeachableMachines)
+  13as-OpsExtensionTrackingjs.md                  -> 13kv-OpsExtensionTrackingjs.md                   (Ops.Extension.Trackingjs)
+  13at-OpsExtensionVoice.md                       -> 13kw-OpsExtensionVoice.md                        (Ops.Extension.Voice)
+  13au-OpsExtensionWebGpu.md                      -> 13kx-OpsExtensionWebGpu.md                       (Ops.Extension.WebGpu)
+
+Group 'L':
+------------------------------------------------------------------------------------------
+  13av-OpsGl.md                                   -> 13la-OpsGl.md                                    (Ops.Gl)
+  13aw-OpsGlCubeMap.md                            -> 13lb-OpsGlCubeMap.md                             (Ops.Gl.CubeMap)
+  13ax-OpsGlGLTF.md                               -> 13lc-OpsGlGLTF.md                                (Ops.Gl.GLTF)
+  13ay-OpsGlGeometry.md                           -> 13ld-OpsGlGeometry.md                            (Ops.Gl.Geometry)
+  13az-OpsGlImageCompose.md                       -> 13le-OpsGlImageCompose.md                        (Ops.Gl.ImageCompose)
+  13ba-OpsGlImageComposeMath.md                   -> 13lf-OpsGlImageComposeMath.md                    (Ops.Gl.ImageCompose.Math)
+  13bb-OpsGlImageComposeNoise.md                  -> 13lg-OpsGlImageComposeNoise.md                   (Ops.Gl.ImageCompose.Noise)
+  13bc-OpsGlMatrix.md                             -> 13lh-OpsGlMatrix.md                              (Ops.Gl.Matrix)
+  13bd-OpsGlMeshes.md                             -> 13li-OpsGlMeshes.md                              (Ops.Gl.Meshes)
+  13be-OpsGlPbr.md                                -> 13lj-OpsGlPbr.md                                 (Ops.Gl.Pbr)
+  13bf-OpsGlPhong.md                              -> 13lk-OpsGlPhong.md                               (Ops.Gl.Phong)
+  13bg-OpsGlShader.md                             -> 13ll-OpsGlShader.md                              (Ops.Gl.Shader)
+  13bh-OpsGlShaderEffects.md                      -> 13lm-OpsGlShaderEffects.md                       (Ops.Gl.ShaderEffects)
+  13bi-OpsGlTextures.md                           -> 13ln-OpsGlTextures.md                            (Ops.Gl.Textures)
+
+Group 'M':
+------------------------------------------------------------------------------------------
+  13bj-OpsGraphics.md                             -> 13ma-OpsGraphics.md                              (Ops.Graphics)
+  13bk-OpsGraphicsGeometry.md                     -> 13mb-OpsGraphicsGeometry.md                      (Ops.Graphics.Geometry)
+  13bl-OpsGraphicsIntersection.md                 -> 13mc-OpsGraphicsIntersection.md                  (Ops.Graphics.Intersection)
+  13bm-OpsGraphicsMeshes.md                       -> 13md-OpsGraphicsMeshes.md                        (Ops.Graphics.Meshes)
+
+Group 'N':
+------------------------------------------------------------------------------------------
+  13bn-OpsHtml.md                                 -> 13na-OpsHtml.md                                  (Ops.Html)
+  13bo-OpsHtmlAttributes.md                       -> 13nb-OpsHtmlAttributes.md                        (Ops.Html.Attributes)
+  13bp-OpsHtmlCSS.md                              -> 13nc-OpsHtmlCSS.md                               (Ops.Html.CSS)
+  13bq-OpsHtmlCss.md                              -> 13nd-OpsHtmlCss.md                               (Ops.Html.Css)
+  13br-OpsHtmlElements.md                         -> 13ne-OpsHtmlElements.md                          (Ops.Html.Elements)
+  13bs-OpsHtmlEvent.md                            -> 13nf-OpsHtmlEvent.md                             (Ops.Html.Event)
+  13bt-OpsHtmlUtils.md                            -> 13ng-OpsHtmlUtils.md                             (Ops.Html.Utils)
+
+Group 'O':
+------------------------------------------------------------------------------------------
+  13bu-OpsJson.md                                 -> 13o-OpsJson.md                                   (Ops.Json)
+
+Group 'P':
+------------------------------------------------------------------------------------------
+  13bv-OpsMath.md                                 -> 13pa-OpsMath.md                                  (Ops.Math)
+  13bw-OpsMathCompare.md                          -> 13pb-OpsMathCompare.md                           (Ops.Math.Compare)
+
+Group 'Q':
+------------------------------------------------------------------------------------------
+  13bx-OpsNet.md                                  -> 13qa-OpsNet.md                                   (Ops.Net)
+  13by-OpsNetWebSocket.md                         -> 13qb-OpsNetWebSocket.md                          (Ops.Net.WebSocket)
+
+Group 'R':
+------------------------------------------------------------------------------------------
+  13bz-OpsNumber.md                               -> 13r-OpsNumber.md                                 (Ops.Number)
+
+Group 'S':
+------------------------------------------------------------------------------------------
+  13ca-OpsSidebar.md                              -> 13s-OpsSidebar.md                                (Ops.Sidebar)
+
+Group 'T':
+------------------------------------------------------------------------------------------
+  13cb-OpsString.md                               -> 13ta-OpsString.md                                (Ops.String)
+  13cc-OpsStringBase64.md                         -> 13tb-OpsStringBase64.md                          (Ops.String.Base64)
+  13cd-OpsStringFile.md                           -> 13tc-OpsStringFile.md                            (Ops.String.File)
+
+Group 'U':
+------------------------------------------------------------------------------------------
+  13ce-OpsTemplates.md                            -> 13u-OpsTemplates.md                              (Ops.Templates)
+
+Group 'V':
+------------------------------------------------------------------------------------------
+  13cf-OpsTimeLine.md                             -> 13va-OpsTimeLine.md                              (Ops.TimeLine)
+  13cg-OpsTimeLineViz.md                          -> 13vb-OpsTimeLineViz.md                           (Ops.TimeLine.Viz)
+
+Group 'W':
+------------------------------------------------------------------------------------------
+  13ch-OpsTrigger.md                              -> 13w-OpsTrigger.md                                (Ops.Trigger)
+
+Group 'X':
+------------------------------------------------------------------------------------------
+  13ci-OpsUi.md                                   -> 13xa-OpsUi.md                                    (Ops.Ui)
+  13cj-OpsUiDebug.md                              -> 13xb-OpsUiDebug.md                               (Ops.Ui.Debug)
+  13ck-OpsUiRouting.md                            -> 13xc-OpsUiRouting.md                             (Ops.Ui.Routing)
+
+Group 'Y':
+------------------------------------------------------------------------------------------
+  13cl-OpsVars.md                                 -> 13y-OpsVars.md                                   (Ops.Vars)
+
+Group 'Z':
+------------------------------------------------------------------------------------------
+  13cm-OpsWebAudio.md                             -> 13z-OpsWebAudio.md                               (Ops.WebAudio)
+
+==========================================================================================
+Total: 92 files
+==========================================================================================
+
+Please review and confirm if this grouping matches your intent, or specify
+the exact grouping you'd like (especially for Array vs Extension conflict)

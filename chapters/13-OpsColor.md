@@ -1,0 +1,320 @@
+# Ops.Color
+
+*Part of the [All Operators Reference](13-_AllOps.md)*
+
+---
+
+## Ops.Color
+
+### ColorArraySort
+![ColorArraySort op](images/ops/Ops_Color_ColorArraySort.svg)
+
+**Full Name:** `Ops.Color.ColorArraySort`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorArraySort) for details*
+
+**> Input Ports:**
+- **Colors** (Array)
+
+**< Output Ports:**
+- **New Colors** (Array)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.ColorArraySort#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorArraySort"*
+**Docs:** [https://cables.gl/op/Ops.Color.ColorArraySort](https://cables.gl/op/Ops.Color.ColorArraySort)
+
+---
+
+### ColorPalettes
+![ColorPalettes op](images/ops/Ops_Color_ColorPalettes.svg)
+
+**Full Name:** `Ops.Color.ColorPalettes`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorPalettes) for details*
+
+**> Input Ports:**
+- **Index** (Number: Integer)
+- **Smooth** (Number: Boolean)
+
+**< Output Ports:**
+- **Texture** (Object)
+- **Color Array** (Array)
+- **The color array containing 5 colors** (15 values in total, 3 values per color – r, g and b)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.ColorPalettes#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPalettes"*
+**Docs:** [https://cables.gl/op/Ops.Color.ColorPalettes](https://cables.gl/op/Ops.Color.ColorPalettes)
+
+---
+
+### ColorValue
+![ColorValue op](images/ops/Ops_Color_ColorValue.svg)
+
+**Full Name:** `Ops.Color.ColorValue`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.ColorValue) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+
+**< Output Ports:**
+- **Outr** (Number)
+- **Outg** (Number)
+- **Outb** (Number)
+- **Outa** (Number)
+- **Hex** (Number)
+- **Array** (Array)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.ColorValue#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorValue"*
+**Docs:** [https://cables.gl/op/Ops.Color.ColorValue](https://cables.gl/op/Ops.Color.ColorValue)
+
+---
+
+### EyeDropper
+![EyeDropper op](images/ops/Ops_Color_EyeDropper.svg)
+
+**Full Name:** `Ops.Color.EyeDropper`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.EyeDropper) for details*
+
+**> Input Ports:**
+- **Open** (Trigger)
+
+**< Output Ports:**
+- **Hex** (String)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Supported** (booleanNumber)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.EyeDropper#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EyeDropper"*
+**Docs:** [https://cables.gl/op/Ops.Color.EyeDropper](https://cables.gl/op/Ops.Color.EyeDropper)
+
+---
+
+### Gradient
+![Gradient op](images/ops/Ops_Color_Gradient.svg)
+
+**Full Name:** `Ops.Color.Gradient`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.Gradient) for details*
+
+**> Input Ports:**
+- **Gradient** (Number)
+- **Randomize Colors** (Trigger)
+
+**< Output Ports:**
+- **Gradient Object** (Object)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.Gradient#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Gradient"*
+**Docs:** [https://cables.gl/op/Ops.Color.Gradient](https://cables.gl/op/Ops.Color.Gradient)
+
+---
+
+### GradientColorArray
+![GradientColorArray op](images/ops/Ops_Color_GradientColorArray.svg)
+
+**Full Name:** `Ops.Color.GradientColorArray`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.GradientColorArray) for details*
+
+**> Input Ports:**
+- **Gradient** (Number)
+- **Direction Index** (Number: Integer)
+- **Smoothstep** (Number: Boolean)
+- **Step** (Number: Boolean)
+- **Flip** (Number: Boolean)
+- **SRGB** (Number: Boolean)
+- **Oklab** (Number: Boolean)
+- **Size** (Number: Integer)
+- **Dither** (Number)
+- **Gradient Array** (Array)
+- **Randomize Colors** (Trigger)
+
+**< Output Ports:**
+- **Color Array** (Array)
+- **Width** (Number)
+- **Height** (Number)
+- **Colors** (Array)
+- **Colors Pos** (Array)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.GradientColorArray#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GradientColorArray"*
+**Docs:** [https://cables.gl/op/Ops.Color.GradientColorArray](https://cables.gl/op/Ops.Color.GradientColorArray)
+
+---
+
+### HexToRGB_v2
+![HexToRGB_v2 op](images/ops/Ops_Color_HexToRGB_v2.svg)
+
+**Full Name:** `Ops.Color.HexToRGB_v2`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.HexToRGB_v2) for details*
+
+**> Input Ports:**
+- **Hex** (String)
+- **Bytes** (Number: Boolean)
+
+**< Output Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **RGB Array** (Array)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.HexToRGB_v2#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HexToRGB_v2"*
+**Docs:** [https://cables.gl/op/Ops.Color.HexToRGB_v2](https://cables.gl/op/Ops.Color.HexToRGB_v2)
+
+---
+
+### HSLtoRGB
+![HSLtoRGB op](images/ops/Ops_Color_HSLtoRGB.svg)
+
+**Full Name:** `Ops.Color.HSLtoRGB`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.HSLtoRGB) for details*
+
+**> Input Ports:**
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Lightness** (Number)
+
+**< Output Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.HSLtoRGB#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HSLtoRGB"*
+**Docs:** [https://cables.gl/op/Ops.Color.HSLtoRGB](https://cables.gl/op/Ops.Color.HSLtoRGB)
+
+---
+
+### LuminanceContrast
+![LuminanceContrast op](images/ops/Ops_Color_LuminanceContrast.svg)
+
+**Full Name:** `Ops.Color.LuminanceContrast`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.LuminanceContrast) for details*
+
+**> Input Ports:**
+- **R 1** (Number)
+- **G 1** (Number)
+- **B 1** (Number)
+- **R 2** (Number)
+- **G 2** (Number)
+- **B 2** (Number)
+
+**< Output Ports:**
+- **Contrast** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.LuminanceContrast#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LuminanceContrast"*
+**Docs:** [https://cables.gl/op/Ops.Color.LuminanceContrast](https://cables.gl/op/Ops.Color.LuminanceContrast)
+
+---
+
+### RGBLuminance
+![RGBLuminance op](images/ops/Ops_Color_RGBLuminance.svg)
+
+**Full Name:** `Ops.Color.RGBLuminance`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RGBLuminance) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**< Output Ports:**
+- **Luminance** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.RGBLuminance#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBLuminance"*
+**Docs:** [https://cables.gl/op/Ops.Color.RGBLuminance](https://cables.gl/op/Ops.Color.RGBLuminance)
+
+---
+
+### RGBToCMYK
+![RGBToCMYK op](images/ops/Ops_Color_RGBToCMYK.svg)
+
+**Full Name:** `Ops.Color.RGBToCMYK`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RGBToCMYK) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**< Output Ports:**
+- **C** (Number)
+- **M** (Number)
+- **Y** (Number)
+- **K** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.RGBToCMYK#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBToCMYK"*
+**Docs:** [https://cables.gl/op/Ops.Color.RGBToCMYK](https://cables.gl/op/Ops.Color.RGBToCMYK)
+
+---
+
+### RgbToHex
+![RgbToHex op](images/ops/Ops_Color_RgbToHex.svg)
+
+**Full Name:** `Ops.Color.RgbToHex`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RgbToHex) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**< Output Ports:**
+- **Result** (String)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.RgbToHex#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RgbToHex"*
+**Docs:** [https://cables.gl/op/Ops.Color.RgbToHex](https://cables.gl/op/Ops.Color.RgbToHex)
+
+---
+
+### RGBtoHSB
+![RGBtoHSB op](images/ops/Ops_Color_RGBtoHSB.svg)
+
+**Full Name:** `Ops.Color.RGBtoHSB`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RGBtoHSB) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**< Output Ports:**
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Brightness** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.RGBtoHSB#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSB"*
+**Docs:** [https://cables.gl/op/Ops.Color.RGBtoHSB](https://cables.gl/op/Ops.Color.RGBtoHSB)
+
+---
+
+### RGBtoHSL
+![RGBtoHSL op](images/ops/Ops_Color_RGBtoHSL.svg)
+
+**Full Name:** `Ops.Color.RGBtoHSL`
+**Description:** *Visit [documentation](https://cables.gl/op/Ops.Color.RGBtoHSL) for details*
+
+**> Input Ports:**
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+
+**< Output Ports:**
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Lightness** (Number)
+
+**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Color.RGBtoHSL#example)
+**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSL"*
+**Docs:** [https://cables.gl/op/Ops.Color.RGBtoHSL](https://cables.gl/op/Ops.Color.RGBtoHSL)
+
+---
+
