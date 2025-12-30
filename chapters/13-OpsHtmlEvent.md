@@ -13,16 +13,16 @@
 **Description:** Add a custom event listener
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Event Name** (String): *See documentation*
-- **Use Capture** (Number: Boolean): *See documentation*
-- **Prevent Default** (Number: Boolean): *See documentation*
-- **Stop Propagation** (Number: Boolean): *See documentation*
+- **Element** (Object)
+- **Event Name** (String)
+- **Use Capture** (Number: Boolean)
+- **Prevent Default** (Number: Boolean)
+- **Stop Propagation** (Number: Boolean)
 
 **< Output Ports:**
-- **Element Passthrough** (Object): *See documentation*
-- **Event Trigger** (Trigger): *See documentation*
-- **Event Object** (Object): *See documentation*
+- **Element Passthrough** (Object)
+- **Event Trigger** (Trigger)
+- **Event Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9ixt13)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementEventListener_v2"*
@@ -37,27 +37,27 @@
 **Description:** Listen to events of an element
 
 **> Input Ports:**
-- **Dom Element** (Object): *See documentation*
-- **Mouse Down Active** (Number: Boolean): *See documentation*
-- **Mouse Up Active** (Number: Boolean): *See documentation*
-- **Click Active** (Number: Boolean): *See documentation*
-- **Mouse Move Active** (Number: Boolean): *See documentation*
-- **Touch Start Active** (Number: Boolean): *See documentation*
-- **Touch Move Active** (Number: Boolean): *See documentation*
-- **Touch End Active** (Number: Boolean): *See documentation*
-- **Touch Cancel Active** (Number: Boolean): *See documentation*
+- **Dom Element** (Object)
+- **Mouse Down Active** (Number: Boolean)
+- **Mouse Up Active** (Number: Boolean)
+- **Click Active** (Number: Boolean)
+- **Mouse Move Active** (Number: Boolean)
+- **Touch Start Active** (Number: Boolean)
+- **Touch Move Active** (Number: Boolean)
+- **Touch End Active** (Number: Boolean)
+- **Touch Cancel Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Event Object** (Object): *See documentation*
-- **Mouse Down** (Trigger): *See documentation*
-- **Mouse Up** (Trigger): *See documentation*
-- **Click** (Trigger): *See documentation*
-- **Mouse Move** (Trigger): *See documentation*
-- **Touch Start** (Trigger): *See documentation*
-- **Touch Move** (Trigger): *See documentation*
-- **Touch End** (Trigger): *See documentation*
-- **Touch Cancel** (Trigger): *See documentation*
-- **Event Name** (Number): *See documentation*
+- **Event Object** (Object)
+- **Mouse Down** (Trigger)
+- **Mouse Up** (Trigger)
+- **Click** (Trigger)
+- **Mouse Move** (Trigger)
+- **Touch Start** (Trigger)
+- **Touch Move** (Trigger)
+- **Touch End** (Trigger)
+- **Touch Cancel** (Trigger)
+- **Event Name** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementPointerEvents"*
@@ -72,17 +72,17 @@
 **Description:** listen to events on multiple html elements
 
 **> Input Ports:**
-- **Elements** (Array): *See documentation*
-- **Event Name** (String): *See documentation*
-- **Use Capture** (Number: Boolean): *See documentation*
-- **Prevent Default** (Number: Boolean): *See documentation*
-- **Stop Propagation** (Number: Boolean): *See documentation*
+- **Elements** (Array)
+- **Event Name** (String)
+- **Use Capture** (Number: Boolean)
+- **Prevent Default** (Number: Boolean)
+- **Stop Propagation** (Number: Boolean)
 
 **< Output Ports:**
-- **Event Trigger** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Event Object** (Object): *See documentation*
-- **Event Element** (Object): *See documentation*
+- **Event Trigger** (Trigger)
+- **Index** (Number)
+- **Event Object** (Object)
+- **Event Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4rKHP0)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementsArrayEventListener"*
@@ -97,12 +97,12 @@
 **Description:** Prevents the default on a JavaScript event
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Event In** (Object): *See documentation*
+- **Execute** (Trigger)
+- **Event In** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Event Out** (Object): *See documentation*
+- **Next** (Trigger)
+- **Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PreventDefault"*
@@ -117,12 +117,12 @@
 **Description:** Stop a JavaScript event (bubbling / capturing)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Event In** (Object): *See documentation*
+- **Execute** (Trigger)
+- **Event In** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Event Out** (Object): *See documentation*
+- **Next** (Trigger)
+- **Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StopPropagation"*

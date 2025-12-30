@@ -13,10 +13,10 @@
 **Description:** Upload an array to the GPU as a GpuBuffer
 
 **> Input Ports:**
-- **Arr** (Array): *See documentation*
+- **Arr** (Array)
 
 **< Output Ports:**
-- **GPUBuffer** (Object): *See documentation*
+- **GPUBuffer** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VShX3I)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToGpuBuffer"*
@@ -31,15 +31,15 @@
 **Description:** Convert an array of numbers to a webgpu texture
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Array** (Array)
+- **Wrap Index** (Number: Integer)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Next** (Trigger)
+- **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hYt34I)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToTexture"*
@@ -54,10 +54,10 @@
 **Description:** Render mesh attribultes as color
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FM4hQB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AttributeAsColorMaterial"*
@@ -72,21 +72,21 @@
 **Description:** A simple material without shading
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **Colorize Texture** (Number: Boolean): *See documentation*
-- **DiffuseRepeatX** (Number): *See documentation*
-- **DiffuseRepeatY** (Number): *See documentation*
-- **Tex Offset X** (Number): *See documentation*
-- **Tex Offset Y** (Number): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Mask** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **Colorize Texture** (Number: Boolean)
+- **DiffuseRepeatX** (Number)
+- **DiffuseRepeatY** (Number)
+- **Tex Offset X** (Number)
+- **Tex Offset Y** (Number)
+- **Texture** (Object:Texture)
+- **Mask** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J0HjQB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BasicMaterial"*
@@ -101,15 +101,15 @@
 **Description:** A texture containing only one color
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture_out** (Object): *See documentation*
+- **Next** (Trigger)
+- **Texture_out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/13IW3I)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorTexture"*
@@ -124,18 +124,18 @@
 **Description:** Compose a compute shader
 
 **> Input Ports:**
-- **Compute** (Trigger): *See documentation*
-- **Source** (String): *See documentation*
-- **Workgroups 1** (Number: Integer): *See documentation*
-- **Workgroups 2** (Number: Integer): *See documentation*
-- **Workgroups 3** (Number: Integer): *See documentation*
-- **Force Update** (Trigger): *See documentation*
+- **Compute** (Trigger)
+- **Source** (String)
+- **Workgroups 1** (Number: Integer)
+- **Workgroups 2** (Number: Integer)
+- **Workgroups 3** (Number: Integer)
+- **Force Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Code** (String): *See documentation*
-- **Buffer** (Object): *See documentation*
-- **Length** (Number): *See documentation*
+- **Next** (Trigger)
+- **Code** (String)
+- **Buffer** (Object)
+- **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1ff0dH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompCompute"*
@@ -150,12 +150,12 @@
 **Description:** Compute shader GPU buffer storage input
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Buffer** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **Buffer** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeStorageInput"*
@@ -170,14 +170,14 @@
 **Description:** Compute shader GPU buffer storage output
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Length** (Number: Integer): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **Length** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Buffer** (Object): *See documentation*
-- **Buffer Length** (Number): *See documentation*
+- **Next** (Trigger)
+- **Buffer** (Object)
+- **Buffer Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1ff0dH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeStorageOutput"*
@@ -192,15 +192,15 @@
 **Description:** Add a uniform input to a compute shader composition
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeUniform"*
@@ -218,7 +218,7 @@
 - *Visit [Ops.Extension.WebGpu.DefaultTextures documentation](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures) for input port details*
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nQEVKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DefaultTextures"*
@@ -233,10 +233,10 @@
 **Description:** cull (do not draw) back or front facing faces/triangles
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKLQ3I)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceCulling"*
@@ -251,18 +251,18 @@
 **Description:** Show direction of faces as color
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **R 2** (Number): *See documentation*
-- **G 2** (Number): *See documentation*
-- **B 2** (Number): *See documentation*
-- **A 2** (Number): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **R 2** (Number)
+- **G 2** (Number)
+- **B 2** (Number)
+- **A 2** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1Jm1LB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrontBacksideMaterial"*
@@ -277,13 +277,13 @@
 **Description:** Render a rectangle that fills the whole canvas
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **Flip Y** (Number: Boolean)
+- **Flip X** (Number: Boolean)
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PNx2LB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FullScreenRect"*
@@ -298,11 +298,11 @@
 **Description:** Convert a GpuBuffer to a CPU Array
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Pos Buffer** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Pos Buffer** (Object)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQQYKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GpuBufferToArray"*
@@ -317,21 +317,21 @@
 **Description:** Image based material that uses a matcap environment texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **Colorize Texture** (Number: Boolean): *See documentation*
-- **DiffuseRepeatX** (Number): *See documentation*
-- **DiffuseRepeatY** (Number): *See documentation*
-- **Tex Offset X** (Number): *See documentation*
-- **Tex Offset Y** (Number): *See documentation*
-- **Matcap** (Object:Texture): *See documentation*
-- **Diffuse** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **Colorize Texture** (Number: Boolean)
+- **DiffuseRepeatX** (Number)
+- **DiffuseRepeatY** (Number)
+- **Tex Offset X** (Number)
+- **Tex Offset Y** (Number)
+- **Matcap** (Object:Texture)
+- **Diffuse** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WwXZKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MatCapMaterial"*
@@ -346,17 +346,17 @@
 **Description:** Draw the same mesh many times very fast
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Pos Buffer** (Object): *See documentation*
-- **Scale Buffer** (Object): *See documentation*
-- **Num Instances** (Number: Integer): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Test** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Object:Geometry)
+- **Pos Buffer** (Object)
+- **Scale Buffer** (Object)
+- **Num Instances** (Number: Integer)
+- **Reset** (Trigger)
+- **Test** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Total Instances** (Number): *See documentation*
+- **Next** (Trigger)
+- **Total Instances** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQQYKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancer"*
@@ -371,17 +371,17 @@
 **Description:** show content of last used pipeline for debugging
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Force Rebuild** (Trigger): *See documentation*
+- **Trigger** (Trigger)
+- **Force Rebuild** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Pipeline** (Object): *See documentation*
-- **Shader Info** (Object): *See documentation*
-- **Shader Source** (String): *See documentation*
-- **Compile Count** (Number): *See documentation*
-- **Shader Id** (String): *See documentation*
-- **Defines** (Array): *See documentation*
+- **Next** (Trigger)
+- **Pipeline** (Object)
+- **Shader Info** (Object)
+- **Shader Source** (String)
+- **Compile Count** (Number)
+- **Shader Id** (String)
+- **Defines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Pipeline"*
@@ -396,14 +396,14 @@
 **Description:** render into a texture
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture Width** (Number: Integer): *See documentation*
-- **Texture Height** (Number: Integer): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Texture Width** (Number: Integer)
+- **Texture Height** (Number: Integer)
+- **Clear** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Next** (Trigger)
+- **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pyXXKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTexture"*
@@ -439,14 +439,14 @@
 **Description:** Load an image file as a texture
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
+- **File** (String)
+- **Wrap Index** (Number: Integer)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Pixelformat** (Number): *See documentation*
+- **Texture** (Object)
+- **Width** (Number)
+- **Height** (Number)
+- **Pixelformat** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/08iWKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Texture"*
@@ -461,7 +461,7 @@
 **Description:** Vizualize a webgpu texture on the patchfield
 
 **> Input Ports:**
-- **Texture In** (Object:Texture): *See documentation*
+- **Texture In** (Object:Texture)
 
 **< Output Ports:**
 - *Visit [Ops.Extension.WebGpu.VizTexture documentation](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture) for output port details*
@@ -479,19 +479,19 @@
 **Description:** Create a canvas for WebGPU
 
 **> Input Ports:**
-- **Active** (Number: Boolean): *See documentation*
-- **Catch Errors** (Number: Boolean): *See documentation*
-- **Stop On Errors** (Number: Boolean): *See documentation*
-- **Profile** (Number: Boolean): *See documentation*
+- **Active** (Number: Boolean)
+- **Catch Errors** (Number: Boolean)
+- **Stop On Errors** (Number: Boolean)
+- **Profile** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Next2** (Trigger): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
-- **MS Frame** (Number): *See documentation*
-- **Canvas** (Object): *See documentation*
-- **Canvas Prev** (Object): *See documentation*
-- **Profiler Data** (Object): *See documentation*
+- **Next** (Trigger)
+- **Next2** (Trigger)
+- **Supported** (booleanNumber)
+- **MS Frame** (Number)
+- **Canvas** (Object)
+- **Canvas Prev** (Object)
+- **Profiler Data** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ALyYKB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebGpuCanvas"*
@@ -506,14 +506,14 @@
 **Description:** Output information about WebGPU adapter and implementation
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Limits** (Object): *See documentation*
-- **Vendor** (String): *See documentation*
-- **Architecture** (String): *See documentation*
-- **Presentation Format** (String): *See documentation*
+- **Next** (Trigger)
+- **Limits** (Object)
+- **Vendor** (String)
+- **Architecture** (String)
+- **Presentation Format** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UTES3I)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebGpuInfo"*

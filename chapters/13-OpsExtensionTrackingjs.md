@@ -13,17 +13,17 @@
 **Description:** Track a position of a specific color in the current webcam stream
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Video Element** (Object): *See documentation*
-- **Threshold** (Number): *See documentation*
-- **Resize Video** (Number): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **Update** (Trigger)
+- **Video Element** (Object)
+- **Threshold** (Number)
+- **Resize Video** (Number)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Positions** (Array): *See documentation*
-- **Sizes** (Array): *See documentation*
+- **Positions** (Array)
+- **Sizes** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vSwLsT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TrackWebcamColor"*

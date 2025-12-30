@@ -13,13 +13,13 @@
 **Description:** Compose a string
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Update** (Trigger)
+- **Clear** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (String): *See documentation*
+- **Next** (Trigger)
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GUpzJB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompString"*
@@ -34,12 +34,12 @@
 **Description:** Append a string to a string
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **String** (String): *See documentation*
-- **Add Break** (Number: Boolean): *See documentation*
+- **Update** (Trigger)
+- **String** (String)
+- **Add Break** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompStringAppend"*
@@ -54,12 +54,12 @@
 **Description:** Remove characters from the beginning or end of a string
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Direction Index** (Number: Integer): *See documentation*
-- **Num Chars** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Direction Index** (Number: Integer)
+- **Num Chars** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompStringShorten"*

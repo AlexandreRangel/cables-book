@@ -13,11 +13,11 @@
 **Description:** Get an array variable value at time of trigger
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Value** (Array): *See documentation*
+- **Next** (Trigger)
+- **Value** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Vars.TriggerVarGetArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerVarGetArray"*
@@ -32,11 +32,11 @@
 **Description:** Get a number variable value at time of trigger
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Value** (Number): *See documentation*
+- **Next** (Trigger)
+- **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yNCGmy)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerVarGetNumber"*
@@ -51,11 +51,11 @@
 **Description:** Get an object variable value at time of trigger
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Value** (Object): *See documentation*
+- **Next** (Trigger)
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Vars.TriggerVarGetObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerVarGetObject"*
@@ -70,11 +70,11 @@
 **Description:** Get a string variable value at time of trigger
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Value** (String): *See documentation*
+- **Next** (Trigger)
+- **Value** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/elyQeG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerVarGetString"*
@@ -92,7 +92,7 @@
 - *Visit [Ops.Vars.VarGetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetArray_v2) for input port details*
 
 **< Output Ports:**
-- **Value** (Array): *See documentation*
+- **Value** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3LkNp6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarGetArray_v2"*
@@ -110,7 +110,7 @@
 - *Visit [Ops.Vars.VarGetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetNumber_v2) for input port details*
 
 **< Output Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1tfFT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarGetNumber_v2"*
@@ -125,10 +125,10 @@
 **Description:** Get a variable object
 
 **> Input Ports:**
-- **Variable** (Number: String): *See documentation*
+- **Variable** (Number: String)
 
 **< Output Ports:**
-- **Value** (Object): *See documentation*
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0pVTp6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarGetObject_v2"*
@@ -146,7 +146,7 @@
 - *Visit [Ops.Vars.VarGetString documentation](https://cables.gl/op/Ops.Vars.VarGetString) for input port details*
 
 **< Output Ports:**
-- **Value** (String): *See documentation*
+- **Value** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/W14clJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarGetString"*
@@ -164,7 +164,7 @@
 - *Visit [Ops.Vars.VarGetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetTexture_v2) for input port details*
 
 **< Output Ports:**
-- **Value** (Object): *See documentation*
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lkS998)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarGetTexture_v2"*
@@ -179,11 +179,11 @@
 **Description:** outputs an object containing all variables
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Filter Prefix** (String): *See documentation*
+- **Execute** (Trigger)
+- **Filter Prefix** (String)
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Vars.VariablesAsObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VariablesAsObject"*
@@ -198,7 +198,7 @@
 **Description:** Set a variable array
 
 **> Input Ports:**
-- **Value** (Array): *See documentation*
+- **Value** (Array)
 
 **< Output Ports:**
 - *Visit [Ops.Vars.VarSetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetArray_v2) for output port details*
@@ -216,7 +216,7 @@
 **Description:** set a variable number
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.Vars.VarSetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetNumber_v2) for output port details*
@@ -234,7 +234,7 @@
 **Description:** Set a variable object
 
 **> Input Ports:**
-- **Value** (Object): *See documentation*
+- **Value** (Object)
 
 **< Output Ports:**
 - *Visit [Ops.Vars.VarSetObject_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetObject_v2) for output port details*
@@ -252,7 +252,7 @@
 **Description:** Set string variable
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
+- **Value** (String)
 
 **< Output Ports:**
 - *Visit [Ops.Vars.VarSetString_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetString_v2) for output port details*
@@ -270,7 +270,7 @@
 **Description:** set a texture variable
 
 **> Input Ports:**
-- **Value** (Object:Texture): *See documentation*
+- **Value** (Object:Texture)
 
 **< Output Ports:**
 - *Visit [Ops.Vars.VarSetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetTexture_v2) for output port details*
@@ -288,11 +288,11 @@
 **Description:** Set an array variable by a trigger
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Value** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Value** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8WWthI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarTriggerArray"*
@@ -307,11 +307,11 @@
 **Description:** set number variable by trigger
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Value** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JEYSfE)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarTriggerNumber"*
@@ -326,11 +326,11 @@
 **Description:** Set an object variable by trigger
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Value** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Value** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Vars.VarTriggerObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarTriggerObject"*
@@ -345,11 +345,11 @@
 **Description:** set string variable by trigger
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Value** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Value** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PlLFcI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarTriggerString"*
@@ -364,11 +364,11 @@
 **Description:** Set an object variable by trigger
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Value** (Object:Texture): *See documentation*
+- **Trigger** (Trigger)
+- **Value** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Vars.VarTriggerTexture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VarTriggerTexture"*

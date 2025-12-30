@@ -13,17 +13,17 @@
 **Description:** FxHash simulator / generator of seeded random numbers
 
 **> Input Ports:**
-- **Hash** (String): *See documentation*
-- **Randomize Hash** (Trigger): *See documentation*
+- **Hash** (String)
+- **Randomize Hash** (Trigger)
 
 **< Output Ports:**
-- **Fxhash** (String): *See documentation*
-- **Fxrand 1** (Number): *See documentation*
-- **Fxrand 2** (Number): *See documentation*
-- **Fxrand 3** (Number): *See documentation*
-- **Fxrand 4** (Number): *See documentation*
-- **Random Numbers** (Array): *See documentation*
-- **Fxhash Environment** (booleanNumber): *See documentation*
+- **Fxhash** (String)
+- **Fxrand 1** (Number)
+- **Fxrand 2** (Number)
+- **Fxrand 3** (Number)
+- **Fxrand 4** (Number)
+- **Random Numbers** (Array)
+- **Fxhash Environment** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dnDl82)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FxHash"*

@@ -13,12 +13,12 @@
 **Description:** create a cables.gl CORS proxy URL
 
 **> Input Ports:**
-- **URL** (String): *See documentation*
-- **Use In Export** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **URL** (String)
+- **Use In Export** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **CORS URL** (String): *See documentation*
+- **CORS URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PAedBi)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CorsProxy_v3"*

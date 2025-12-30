@@ -13,20 +13,20 @@
 **Description:** create a texture from an array of number values
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **Fill Up** (Number: Boolean): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Array** (Array)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **Fill Up** (Number: Boolean)
+- **Flip** (Number: Boolean)
+- **Pixel Format Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture Out** (Object): *See documentation*
-- **Tex Width** (Number): *See documentation*
-- **Tex Height** (Number): *See documentation*
+- **Next** (Trigger)
+- **Texture Out** (Object)
+- **Tex Width** (Number)
+- **Tex Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cOlh_C)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToTexture_v2"*
@@ -41,12 +41,12 @@
 **Description:** change how colors are mixed (blending/mixing modes)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blendmode Index** (Number: Integer): *See documentation*
-- **Premultiplied** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Blendmode Index** (Number: Integer)
+- **Premultiplied** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x1-Fvc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BlendMode"*
@@ -61,10 +61,10 @@
 **Description:** is canvas focussed ?
 
 **> Input Ports:**
-- **Focus** (Trigger): *See documentation*
+- **Focus** (Trigger)
 
 **< Output Ports:**
-- **Has Focus** (booleanNumber): *See documentation*
+- **Has Focus** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vGwM7f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasFocus"*
@@ -82,16 +82,16 @@
 - *Visit [Ops.Gl.CanvasInfo_v3 documentation](https://cables.gl/op/Ops.Gl.CanvasInfo_v3) for input port details*
 
 **< Output Ports:**
-- **CSS Width** (Number): *See documentation*
-- **CSS Height** (Number): *See documentation*
-- **Pixel Ratio** (Number): *See documentation*
-- **Pixel Width** (Number): *See documentation*
-- **Pixel Height** (Number): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
-- **Landscape** (booleanNumber): *See documentation*
-- **Canvas** (Object): *See documentation*
-- **Canvas Parent** (Object): *See documentation*
-- **Resized** (Trigger): *See documentation*
+- **CSS Width** (Number)
+- **CSS Height** (Number)
+- **Pixel Ratio** (Number)
+- **Pixel Width** (Number)
+- **Pixel Height** (Number)
+- **Aspect Ratio** (Number)
+- **Landscape** (booleanNumber)
+- **Canvas** (Object)
+- **Canvas Parent** (Object)
+- **Resized** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2yaD8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasInfo_v3"*
@@ -106,15 +106,15 @@
 **Description:** convert a canvas to texture
 
 **> Input Ports:**
-- **Canvas** (Object): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Force Update** (Trigger): *See documentation*
+- **Canvas** (Object)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Force Update** (Trigger)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Texture** (Object)
+- **Width** (Number)
+- **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QjlEo-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasToTexture"*
@@ -129,14 +129,14 @@
 **Description:** sets all cleared pixels to one colour. Use to change the background colour.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UEjvr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClearColor"*
@@ -151,10 +151,10 @@
 **Description:** Clears the depth buffer (zbuffer, z buffer)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rEesag)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClearDepth"*
@@ -169,14 +169,14 @@
 **Description:** enable/disable RGBA color channels of your entire scene
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Red** (Number: Boolean): *See documentation*
-- **Green** (Number: Boolean): *See documentation*
-- **Blue** (Number: Boolean): *See documentation*
-- **Alpha** (Number: Boolean): *See documentation*
+- **Execute** (Trigger)
+- **Red** (Number: Boolean)
+- **Green** (Number: Boolean)
+- **Blue** (Number: Boolean)
+- **Alpha** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqQSR7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorMask"*
@@ -191,15 +191,15 @@
 **Description:** pick a color at x,y coordinates of canvas
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **Render** (Trigger)
+- **X** (Number)
+- **Y** (Number)
 
 **< Output Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YEjkgg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPick"*
@@ -214,12 +214,12 @@
 **Description:** translate away from a point in space
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Center Model Matrix** (Array): *See documentation*
-- **Amount** (Number): *See documentation*
+- **Exec** (Trigger)
+- **Center Model Matrix** (Array)
+- **Amount** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5gL9On)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DirectionalTranslate"*
@@ -234,13 +234,13 @@
 **Description:** Download a texture as an image file
 
 **> Input Ports:**
-- **Texture** (Object:Texture): *See documentation*
-- **Quality** (Number): *See documentation*
-- **Filename** (String): *See documentation*
-- **Download** (Trigger): *See documentation*
+- **Texture** (Object:Texture)
+- **Quality** (Number)
+- **Filename** (String)
+- **Download** (Trigger)
 
 **< Output Ports:**
-- **Jcrmz8mnz** (Trigger): *See documentation*
+- **Jcrmz8mnz** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/15LaTs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DownloadTexture_v3"*
@@ -255,12 +255,12 @@
 **Description:** draw texture mapping coordinates
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Num Points** (Number): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Object:Geometry)
+- **Num Points** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Nu7dJ5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DrawTextureMapping"*
@@ -275,13 +275,13 @@
 **Description:** check if webgl canvas element is in the current browser viewport
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Element** (Object:Element): *See documentation*
+- **Update** (Trigger)
+- **Element** (Object:Element)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Fully Visible** (booleanNumber): *See documentation*
-- **Partly Visible** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Fully Visible** (booleanNumber)
+- **Partly Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementInBrowserViewport"*
@@ -296,21 +296,21 @@
 **Description:** Open a new window that shows a copy of the patch canvas
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Pos X** (Number: Integer): *See documentation*
-- **Pos Y** (Number: Integer): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **Smoothing** (Number: Boolean): *See documentation*
-- **Stretch** (Number: Boolean): *See documentation*
-- **Title** (String): *See documentation*
-- **Open Window** (Trigger): *See documentation*
-- **Fullscreen** (Trigger): *See documentation*
-- **Close** (Trigger): *See documentation*
+- **Update** (Trigger)
+- **Pos X** (Number: Integer)
+- **Pos Y** (Number: Integer)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **Smoothing** (Number: Boolean)
+- **Stretch** (Number: Boolean)
+- **Title** (String)
+- **Open Window** (Trigger)
+- **Fullscreen** (Trigger)
+- **Close** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Element** (Object): *See documentation*
+- **Next** (Trigger)
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HnG3fB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ExternalCanvas"*
@@ -325,11 +325,11 @@
 **Description:** Disable the rendering of front or back facing triangles with culling
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mPwnD-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceCulling_v2"*
@@ -344,17 +344,17 @@
 **Description:** Load MSDF Font data and texture to use
 
 **> Input Ports:**
-- **Font Name** (String): *See documentation*
-- **Font Data** (String): *See documentation*
-- **Font Image** (String): *See documentation*
-- **Font Image 1** (String): *See documentation*
-- **Font Image 2** (String): *See documentation*
-- **Font Image 3** (String): *See documentation*
+- **Font Name** (String)
+- **Font Data** (String)
+- **Font Image** (String)
+- **Font Image 1** (String)
+- **Font Image 2** (String)
+- **Font Image 3** (String)
 
 **< Output Ports:**
-- **Loaded** (booleanNumber): *See documentation*
-- **Total Chars** (Number): *See documentation*
-- **Chars** (String): *See documentation*
+- **Loaded** (booleanNumber)
+- **Total Chars** (Number)
+- **Chars** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FontMSDF_v2"*
@@ -369,22 +369,22 @@
 **Description:** Resize canvas element to a specific pixel size or aspect ratio
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Center In Parent** (Number: Boolean): *See documentation*
-- **Scale To Fit Parent** (Number: Boolean): *See documentation*
-- **Set Width** (Number: Integer): *See documentation*
-- **Set Height** (Number: Integer): *See documentation*
-- **Aspect Ratio Index** (Number: Integer): *See documentation*
-- **Ratio** (Number): *See documentation*
-- **Fill Parent Index** (Number: Integer): *See documentation*
+- **Trigger** (Trigger)
+- **Active** (Number: Boolean)
+- **Center In Parent** (Number: Boolean)
+- **Scale To Fit Parent** (Number: Boolean)
+- **Set Width** (Number: Integer)
+- **Set Height** (Number: Integer)
+- **Aspect Ratio Index** (Number: Integer)
+- **Ratio** (Number)
+- **Fill Parent Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Margin Left** (Number): *See documentation*
-- **Margin Top** (Number): *See documentation*
+- **Next** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Margin Left** (Number)
+- **Margin Top** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/f9UbD-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ForceCanvasSize"*
@@ -399,12 +399,12 @@
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
 **> Input Ports:**
-- **Object In** (Object:Texture): *See documentation*
-- **Pass Through** (Number: Boolean): *See documentation*
-- **Only Valid Textures** (Number: Boolean): *See documentation*
+- **Object In** (Object:Texture)
+- **Pass Through** (Number: Boolean)
+- **Only Valid Textures** (Number: Boolean)
 
 **< Output Ports:**
-- **Object Out** (Object): *See documentation*
+- **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GateTexture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateTexture"*
@@ -419,15 +419,15 @@
 **Description:** set gl blendmodes directly
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Src RGB Index** (Number: Integer): *See documentation*
-- **Dst RGB Index** (Number: Integer): *See documentation*
-- **Src Alpha Index** (Number: Integer): *See documentation*
-- **Dst Alpha Index** (Number: Integer): *See documentation*
-- **Blend Equation Index** (Number: Integer): *See documentation*
+- **Exec** (Trigger)
+- **Src RGB Index** (Number: Integer)
+- **Dst RGB Index** (Number: Integer)
+- **Src Alpha Index** (Number: Integer)
+- **Dst Alpha Index** (Number: Integer)
+- **Blend Equation Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/24qZz7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlBlendFunc"*
@@ -445,18 +445,18 @@
 - *Visit [Ops.Gl.GlInfo_v2 documentation](https://cables.gl/op/Ops.Gl.GlInfo_v2) for input port details*
 
 **< Output Ports:**
-- **WebGl Version Short** (Number): *See documentation*
-- **WebGl Version** (String): *See documentation*
-- **GLSL Version** (String): *See documentation*
-- **Max Frag Uniforms** (Number): *See documentation*
-- **Max Vert Uniforms** (Number): *See documentation*
-- **Max Texture Size** (Number): *See documentation*
-- **Max Texture Units** (Number): *See documentation*
-- **Max Varying Vectors** (Number): *See documentation*
-- **Max MSAA Samples** (Number): *See documentation*
-- **Extensions** (Array): *See documentation*
-- **Vendor** (String): *See documentation*
-- **Renderer** (String): *See documentation*
+- **WebGl Version Short** (Number)
+- **WebGl Version** (String)
+- **GLSL Version** (String)
+- **Max Frag Uniforms** (Number)
+- **Max Vert Uniforms** (Number)
+- **Max Texture Size** (Number)
+- **Max Texture Units** (Number)
+- **Max Varying Vectors** (Number)
+- **Max MSAA Samples** (Number)
+- **Extensions** (Array)
+- **Vendor** (String)
+- **Renderer** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0zHu8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlInfo_v2"*
@@ -471,11 +471,11 @@
 **Description:** force rendering of meshes using points,lines or triangles
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Primitive Index** (Number: Integer): *See documentation*
+- **Execute** (Trigger)
+- **Primitive Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5Mz8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlPrimitive"*
@@ -490,24 +490,24 @@
 **Description:** texture containing a colour gradient that can be altered with an editor
 
 **> Input Ports:**
-- **Gradient** (Number): *See documentation*
-- **Direction Index** (Number: Integer): *See documentation*
-- **Smoothstep** (Number: Boolean): *See documentation*
-- **Step** (Number: Boolean): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **SRGB** (Number: Boolean): *See documentation*
-- **Oklab** (Number: Boolean): *See documentation*
-- **Size** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Dither** (Number): *See documentation*
-- **Gradient Array** (Array): *See documentation*
-- **Randomize Colors** (Trigger): *See documentation*
+- **Gradient** (Number)
+- **Direction Index** (Number: Integer)
+- **Smoothstep** (Number: Boolean)
+- **Step** (Number: Boolean)
+- **Flip** (Number: Boolean)
+- **SRGB** (Number: Boolean)
+- **Oklab** (Number: Boolean)
+- **Size** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Dither** (Number)
+- **Gradient Array** (Array)
+- **Randomize Colors** (Trigger)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Alpha Mask** (Object): *See documentation*
-- **Colors** (Array): *See documentation*
-- **Colors Pos** (Array): *See documentation*
+- **Texture** (Object)
+- **Alpha Mask** (Object)
+- **Colors** (Array)
+- **Colors Pos** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_wQNDW)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GradientTexture"*
@@ -522,17 +522,17 @@
 **Description:** transform and arrange elements into a grid
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num X** (Number: Integer): *See documentation*
-- **Num Y** (Number: Integer): *See documentation*
-- **Space X** (Number): *See documentation*
-- **Space Y** (Number): *See documentation*
+- **Render** (Trigger)
+- **Num X** (Number: Integer)
+- **Num Y** (Number: Integer)
+- **Space X** (Number)
+- **Space Y** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **X Index** (Number): *See documentation*
-- **Y Index** (Number): *See documentation*
+- **Next** (Trigger)
+- **Index** (Number)
+- **X Index** (Number)
+- **Y Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J-XMNQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GridTransform"*
@@ -547,10 +547,10 @@
 **Description:** reset all transforms (modelmatrix)
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
+- **Exe** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KUVJ8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Identity"*
@@ -565,10 +565,10 @@
 **Description:** reset the view matrix (cameras etc.)
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
+- **Exe** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H01Ici)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IdentityViewMatrix"*
@@ -583,20 +583,20 @@
 **Description:** play a image sprite animation
 
 **> Input Ports:**
-- **Time** (Number): *See documentation*
-- **FPS** (Number): *See documentation*
-- **Num X** (Number): *See documentation*
-- **Num Y** (Number): *See documentation*
-- **Max Frames** (Number: Integer): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
+- **Time** (Number)
+- **FPS** (Number)
+- **Num X** (Number)
+- **Num Y** (Number)
+- **Max Frames** (Number: Integer)
+- **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
-- **Repeat X** (Number): *See documentation*
-- **Repeat Y** (Number): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
-- **Frame** (Number): *See documentation*
-- **Progress** (Number): *See documentation*
+- **Repeat X** (Number)
+- **Repeat Y** (Number)
+- **Offset X** (Number)
+- **Offset Y** (Number)
+- **Frame** (Number)
+- **Progress** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/n0iMSq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ImageSequenceAnim_v2"*
@@ -611,33 +611,33 @@
 **Description:** An area which is interactive
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **ID** (String): *See documentation*
-- **Class** (String): *See documentation*
-- **Pivot X Index** (Number: Integer): *See documentation*
-- **Pivot Y Index** (Number: Integer): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Is Interactive** (Number: Boolean): *See documentation*
-- **Render Rectangle** (Number: Boolean): *See documentation*
-- **Show Boundings** (Number: Boolean): *See documentation*
-- **Cursor Index** (Number: Integer): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Trigger In** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **ID** (String)
+- **Class** (String)
+- **Pivot X Index** (Number: Integer)
+- **Pivot Y Index** (Number: Integer)
+- **Axis Index** (Number: Integer)
+- **Is Interactive** (Number: Boolean)
+- **Render Rectangle** (Number: Boolean)
+- **Show Boundings** (Number: Boolean)
+- **Cursor Index** (Number: Integer)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
-- **Pointer Hover** (booleanNumber): *See documentation*
-- **Pointer Down** (booleanNumber): *See documentation*
-- **Pointer X** (Number): *See documentation*
-- **Pointer Y** (Number): *See documentation*
-- **Top** (Number): *See documentation*
-- **Left** (Number): *See documentation*
-- **Right** (Number): *See documentation*
-- **Bottom** (Number): *See documentation*
-- **Left Click** (Trigger): *See documentation*
-- **Dom Element** (Object): *See documentation*
+- **Trigger Out** (Trigger)
+- **Geometry** (Object)
+- **Pointer Hover** (booleanNumber)
+- **Pointer Down** (booleanNumber)
+- **Pointer X** (Number)
+- **Pointer Y** (Number)
+- **Top** (Number)
+- **Left** (Number)
+- **Right** (Number)
+- **Bottom** (Number)
+- **Left Click** (Trigger)
+- **Dom Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P_SED0)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InteractiveRectangle_v2"*
@@ -652,25 +652,25 @@
 **Description:** Render Multiple Layers in a specific order
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
+- **Exe** (Trigger)
 
 **< Output Ports:**
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VH4Oxj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LayerSequence"*
@@ -685,12 +685,12 @@
 **Description:** A Simple way to write text on the screen.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Letter Spacing** (Number): *See documentation*
+- **Render** (Trigger)
+- **Text** (String)
+- **Letter Spacing** (Number)
 
 **< Output Ports:**
-- **Lines** (Array): *See documentation*
+- **Lines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1JzPLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LineFont_v2"*
@@ -705,17 +705,17 @@
 **Description:** Trigger other ops once every frame to create smooth animations
 
 **> Input Ports:**
-- **FPS Limit** (Number): *See documentation*
-- **Reduce FPS Unfocussed** (Number: Boolean): *See documentation*
-- **Transparent** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Focus Canvas** (Number: Boolean): *See documentation*
+- **FPS Limit** (Number)
+- **Reduce FPS Unfocussed** (Number: Boolean)
+- **Transparent** (Number: Boolean)
+- **Active** (Number: Boolean)
+- **Focus Canvas** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Pixel Density** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Pixel Density** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uZxfQc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MainLoop_v2"*
@@ -730,24 +730,24 @@
 **Description:** Record the renderer-output to video
 
 **> Input Ports:**
-- **Recording** (Number: Boolean): *See documentation*
-- **Filename** (String): *See documentation*
-- **Download Video** (Number: Boolean): *See documentation*
-- **Mimetype Index** (Number: Integer): *See documentation*
-- **MBit** (Number): *See documentation*
-- **Max FPS** (Number): *See documentation*
-- **Force FPS** (Number): *See documentation*
-- **Audio In** (Object:AudioNode): *See documentation*
-- **Video Canvas Id** (String): *See documentation*
+- **Recording** (Number: Boolean)
+- **Filename** (String)
+- **Download Video** (Number: Boolean)
+- **Mimetype Index** (Number: Integer)
+- **MBit** (Number)
+- **Max FPS** (Number)
+- **Force FPS** (Number)
+- **Audio In** (Object:AudioNode)
+- **Video Canvas Id** (String)
 
 **< Output Ports:**
-- **State** (String): *See documentation*
-- **Error** (String): *See documentation*
-- **Final Mimetype** (String): *See documentation*
-- **Valid Mimetypes** (Array): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Finished Recording** (Trigger): *See documentation*
-- **Video DataUrl** (String): *See documentation*
+- **State** (String)
+- **Error** (String)
+- **Final Mimetype** (String)
+- **Valid Mimetypes** (Array)
+- **Duration** (Number)
+- **Finished Recording** (Trigger)
+- **Video DataUrl** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ioiDIR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MediaRecorder_v2"*
@@ -762,20 +762,20 @@
 **Description:** Draw the same mesh multiple times on the GPU
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Geom** (Object:Geometry): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Limit Instances** (Number: Boolean): *See documentation*
-- **Limit** (Number: Integer): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Scale Array** (Array): *See documentation*
-- **Rotations** (Array): *See documentation*
-- **Colors** (Array): *See documentation*
-- **TexCoords** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Geom** (Object:Geometry)
+- **Scale** (Number)
+- **Limit Instances** (Number: Boolean)
+- **Limit** (Number: Integer)
+- **Positions** (Array)
+- **Scale Array** (Array)
+- **Rotations** (Array)
+- **Colors** (Array)
+- **TexCoords** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Num** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Num** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oOsjJ5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancer_v4"*
@@ -790,33 +790,33 @@
 **Description:** morph from one geometry to another
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Number: Integer): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Index** (Number): *See documentation*
-- **Index 2** (Number): *See documentation*
-- **Fade** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
-- **Geometry 0** (Object): *See documentation*
-- **Geometry 1** (Object): *See documentation*
-- **Geometry 2** (Object): *See documentation*
-- **Geometry 3** (Object): *See documentation*
-- **Geometry 4** (Object): *See documentation*
-- **Geometry 5** (Object): *See documentation*
-- **Geometry 6** (Object): *See documentation*
-- **Geometry 7** (Object): *See documentation*
-- **Geometry 8** (Object): *See documentation*
-- **Geometry 9** (Object): *See documentation*
-- **Geometry 10** (Object): *See documentation*
-- **Geometry 11** (Object): *See documentation*
-- **Geometry 12** (Object): *See documentation*
-- **Geometry 13** (Object): *See documentation*
-- **Geometry 14** (Object): *See documentation*
-- **Geometry 15** (Object): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Number: Integer)
+- **Duration** (Number)
+- **Index** (Number)
+- **Index 2** (Number)
+- **Fade** (Number)
+- **Easing Index** (Number: Integer)
+- **Geometry 0** (Object)
+- **Geometry 1** (Object)
+- **Geometry 2** (Object)
+- **Geometry 3** (Object)
+- **Geometry 4** (Object)
+- **Geometry 5** (Object)
+- **Geometry 6** (Object)
+- **Geometry 7** (Object)
+- **Geometry 8** (Object)
+- **Geometry 9** (Object)
+- **Geometry 10** (Object)
+- **Geometry 11** (Object)
+- **Geometry 12** (Object)
+- **Geometry 13** (Object)
+- **Geometry 14** (Object)
+- **Geometry 15** (Object)
 
 **< Output Ports:**
-- **Finished** (booleanNumber): *See documentation*
-- **Trigger** (Trigger): *See documentation*
+- **Finished** (booleanNumber)
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PdhglN)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshMorph"*
@@ -831,12 +831,12 @@
 **Description:** convert screen pixel coordinates to range 0-1
 
 **> Input Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
 
 **< Output Ports:**
-- **Result X** (Number): *See documentation*
-- **Result Y** (Number): *See documentation*
+- **Result X** (Number)
+- **Result Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NormalizeScreenCoordinates"*
@@ -851,17 +851,17 @@
 **Description:** outputs the first valid texture of the
 
 **> Input Ports:**
-- **Texture 1** (Object:Texture): *See documentation*
-- **Texture 2** (Object:Texture): *See documentation*
-- **Texture 3** (Object:Texture): *See documentation*
-- **Texture 4** (Object:Texture): *See documentation*
-- **Texture 5** (Object:Texture): *See documentation*
-- **Texture 6** (Object:Texture): *See documentation*
-- **Texture 7** (Object:Texture): *See documentation*
-- **Texture 8** (Object:Texture): *See documentation*
+- **Texture 1** (Object:Texture)
+- **Texture 2** (Object:Texture)
+- **Texture 3** (Object:Texture)
+- **Texture 4** (Object:Texture)
+- **Texture 5** (Object:Texture)
+- **Texture 6** (Object:Texture)
+- **Texture 7** (Object:Texture)
+- **Texture 8** (Object:Texture)
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oKRY7i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrTexture"*
@@ -876,17 +876,17 @@
 **Description:** Orthogonal projection / objects in distance don't appear smaller (isometric)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Bounds** (Number): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Frustum Near** (Number): *See documentation*
-- **Frustum Far** (Number): *See documentation*
+- **Render** (Trigger)
+- **Bounds** (Number)
+- **Axis Index** (Number: Integer)
+- **Frustum Near** (Number)
+- **Frustum Far** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Ratio** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Ratio** (Number)
+- **Width** (Number)
+- **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/94Aycg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Orthogonal_v2"*
@@ -901,12 +901,12 @@
 **Description:** Force a manually set viewport size for connected ops
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
+- **Exec** (Trigger)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OverwriteViewportSize"*
@@ -921,19 +921,19 @@
 **Description:** Show WebGl Performance Statistics
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Visible** (Number: Boolean): *See documentation*
-- **Measure GPU** (Number: Boolean): *See documentation*
-- **Open** (Number: Boolean): *See documentation*
-- **Smooth Graph** (Number: Boolean): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Size** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Active** (Number: Boolean)
+- **Visible** (Number: Boolean)
+- **Measure GPU** (Number: Boolean)
+- **Open** (Number: Boolean)
+- **Smooth Graph** (Number: Boolean)
+- **Scale** (Number)
+- **Size** (Number)
 
 **< Output Ports:**
-- **Childs** (Trigger): *See documentation*
-- **Canvas** (Object): *See documentation*
-- **FPS** (Number): *See documentation*
+- **Childs** (Trigger)
+- **Canvas** (Object)
+- **FPS** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zFR8z5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Performance"*
@@ -948,12 +948,12 @@
 **Description:** Measure the time used to execute all child ops
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
+- **Execute** (Trigger)
+- **Name** (String)
 
 **< Output Ports:**
-- **Childs** (Trigger): *See documentation*
-- **Time Used** (Number): *See documentation*
+- **Childs** (Trigger)
+- **Time Used** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerformanceMeasure"*
@@ -968,16 +968,16 @@
 **Description:** Adjust FOV, field of view, and frustum clipping
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **FOV Degrees** (Number): *See documentation*
-- **Frustum Near** (Number): *See documentation*
-- **Frustum Far** (Number): *See documentation*
-- **Auto Aspect Ratio** (Number: Boolean): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
+- **Render** (Trigger)
+- **FOV Degrees** (Number)
+- **Frustum Near** (Number)
+- **Frustum Far** (Number)
+- **Auto Aspect Ratio** (Number: Boolean)
+- **Aspect Ratio** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Aspect** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Aspect** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RJXV7i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Perspective"*
@@ -992,19 +992,19 @@
 **Description:** Remaps world co-ordinates to a pixel co-ordinate system
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Frustum Near** (Number): *See documentation*
-- **Frustum Far** (Number): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Zero Y** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Frustum Near** (Number)
+- **Frustum Far** (Number)
+- **Flip X** (Number: Boolean)
+- **Flip Y** (Number: Boolean)
+- **Zero Y** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Size Width** (Number): *See documentation*
-- **Size Height** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Size Width** (Number)
+- **Size Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fsOPNS)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PixelProjection_v3"*
@@ -1019,12 +1019,12 @@
 **Description:** save points/coordinates in an array
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Absolute** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Absolute** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollector#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollector"*
@@ -1039,10 +1039,10 @@
 **Description:** collect world space coordinates into an array
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollectorCollect"*
@@ -1057,10 +1057,10 @@
 **Description:** collect screen pixel coordinates into an array
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollectorScreenCoords"*
@@ -1075,23 +1075,23 @@
 **Description:** Transforms objects randomly in space
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **Random Seed** (Number): *See documentation*
-- **Round** (Number: Boolean): *See documentation*
-- **Size** (Number): *See documentation*
-- **ScaleX** (Number): *See documentation*
-- **ScaleY** (Number): *See documentation*
-- **ScaleZ** (Number): *See documentation*
-- **Rotate X** (Number): *See documentation*
-- **Rotate Y** (Number): *See documentation*
-- **Rotate Z** (Number): *See documentation*
-- **Scroll X** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Num** (Number: Integer)
+- **Random Seed** (Number)
+- **Round** (Number: Boolean)
+- **Size** (Number)
+- **ScaleX** (Number)
+- **ScaleY** (Number)
+- **ScaleZ** (Number)
+- **Rotate X** (Number)
+- **Rotate Y** (Number)
+- **Rotate Z** (Number)
+- **Scroll X** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Rnd** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Index** (Number)
+- **Rnd** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ah6Rj6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomCluster"*
@@ -1106,28 +1106,28 @@
 **Description:** record, render an animation and save as webm video file or png image sequence
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **File Type Index** (Number: Integer): *See documentation*
-- **ZIP Multiple Files** (Number: Boolean): *See documentation*
-- **Download Files** (Number: Boolean): *See documentation*
-- **Filename** (String): *See documentation*
-- **Quality** (Number): *See documentation*
-- **Duration** (Number: Integer): *See documentation*
-- **FPS** (Number: Integer): *See documentation*
-- **Transparency** (Number: Boolean): *See documentation*
-- **Use Canvas Size** (Number: Boolean): *See documentation*
-- **Texture Width** (Number: Integer): *See documentation*
-- **Texture Height** (Number: Integer): *See documentation*
-- **Start** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **File Type Index** (Number: Integer)
+- **ZIP Multiple Files** (Number: Boolean)
+- **Download Files** (Number: Boolean)
+- **Filename** (String)
+- **Quality** (Number)
+- **Duration** (Number: Integer)
+- **FPS** (Number: Integer)
+- **Transparency** (Number: Boolean)
+- **Use Canvas Size** (Number: Boolean)
+- **Texture Width** (Number: Integer)
+- **Texture Height** (Number: Integer)
+- **Start** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Progress** (Number): *See documentation*
-- **Frame** (Number): *See documentation*
-- **Status** (String): *See documentation*
-- **Started** (booleanNumber): *See documentation*
-- **Data URL** (String): *See documentation*
-- **Finished** (Trigger): *See documentation*
+- **Next** (Trigger)
+- **Progress** (Number)
+- **Frame** (Number)
+- **Status** (String)
+- **Started** (booleanNumber)
+- **Data URL** (String)
+- **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQhm8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderAnim_v2"*
@@ -1142,13 +1142,13 @@
 **Description:** Render a geometry as mesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Add Vertex Numbers** (Number: Boolean): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Object:Geometry)
+- **Add Vertex Numbers** (Number: Boolean)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w6QYlH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderGeometry_v2"*
@@ -1163,18 +1163,18 @@
 **Description:** Render into an Image
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Texture Width** (Number: Integer): *See documentation*
-- **Texture Height** (Number: Integer): *See documentation*
-- **Auto Aspect** (Number: Boolean): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
-- **Depth** (Number: Boolean): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Texture Width** (Number: Integer)
+- **Texture Height** (Number: Integer)
+- **Auto Aspect** (Number: Boolean)
+- **Pixel Format Index** (Number: Integer)
+- **Depth** (Number: Boolean)
+- **Clear** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
-- **TextureDepth** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Texture** (Object)
+- **TextureDepth** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G2_my7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTexture_v3"*
@@ -1189,33 +1189,33 @@
 **Description:** render to multiple textures at the same time
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Texture Width** (Number: Integer): *See documentation*
-- **Texture Height** (Number: Integer): *See documentation*
-- **Auto Aspect** (Number: Boolean): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
-- **Texture 0 Index** (Number: Integer): *See documentation*
-- **Texture 1 Index** (Number: Integer): *See documentation*
-- **Texture 2 Index** (Number: Integer): *See documentation*
-- **Texture 3 Index** (Number: Integer): *See documentation*
-- **Texture 4 Index** (Number: Integer): *See documentation*
-- **Texture 5 Index** (Number: Integer): *See documentation*
-- **Texture 6 Index** (Number: Integer): *See documentation*
-- **Texture 7 Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Texture Width** (Number: Integer)
+- **Texture Height** (Number: Integer)
+- **Auto Aspect** (Number: Boolean)
+- **Pixel Format Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Clear** (Number: Boolean)
+- **Texture 0 Index** (Number: Integer)
+- **Texture 1 Index** (Number: Integer)
+- **Texture 2 Index** (Number: Integer)
+- **Texture 3 Index** (Number: Integer)
+- **Texture 4 Index** (Number: Integer)
+- **Texture 5 Index** (Number: Integer)
+- **Texture 6 Index** (Number: Integer)
+- **Texture 7 Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result Texture 0** (Object): *See documentation*
-- **Result Texture 1** (Object): *See documentation*
-- **Result Texture 2** (Object): *See documentation*
-- **Result Texture 3** (Object): *See documentation*
-- **Result Texture 4** (Object): *See documentation*
-- **Result Texture 5** (Object): *See documentation*
-- **Result Texture 6** (Object): *See documentation*
-- **Result Texture 7** (Object): *See documentation*
-- **TextureDepth** (Object): *See documentation*
+- **Next** (Trigger)
+- **Result Texture 0** (Object)
+- **Result Texture 1** (Object)
+- **Result Texture 2** (Object)
+- **Result Texture 3** (Object)
+- **Result Texture 4** (Object)
+- **Result Texture 5** (Object)
+- **Result Texture 6** (Object)
+- **Result Texture 7** (Object)
+- **TextureDepth** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/muH2jG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTextures_v3"*
@@ -1230,13 +1230,13 @@
 **Description:** reset current transforms to initial value (identity)
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Reset Model Transform** (Number: Boolean): *See documentation*
-- **Reset View Transform** (Number: Boolean): *See documentation*
-- **Default View** (Number: Boolean): *See documentation*
+- **Exe** (Trigger)
+- **Reset Model Transform** (Number: Boolean)
+- **Reset View Transform** (Number: Boolean)
+- **Default View** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kY3J8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ResetTransform"*
@@ -1251,14 +1251,14 @@
 **Description:** Download the current screen content as png file
 
 **> Input Ports:**
-- **Filename** (String): *See documentation*
-- **Use Canvas Size** (Number: Boolean): *See documentation*
-- **Screenshot** (Trigger): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
+- **Filename** (String)
+- **Use Canvas Size** (Number: Boolean)
+- **Screenshot** (Trigger)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
 
 **< Output Ports:**
-- **Finished** (Trigger): *See documentation*
+- **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OB0Qmi)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SaveScreenShot_v3"*
@@ -1273,19 +1273,19 @@
 **Description:** visualize normals, tangents or bitangents
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Length** (Number): *See documentation*
-- **Colorize** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **Render** (Trigger)
+- **Draw** (Number: Boolean)
+- **Geometry** (Object:Geometry)
+- **Length** (Number)
+- **Colorize** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Line Geom** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Line Geom** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4NeG02)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShowNormals_v2"*
@@ -1300,24 +1300,24 @@
 **Description:** Scatter an object on the surface of a mesh with different distribution methods
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **Geom Surface** (Object): *See documentation*
-- **Distribution Index** (Number: Integer): *See documentation*
-- **Selection Index** (Number: Integer): *See documentation*
-- **Random Seed** (Number): *See documentation*
-- **Size Min** (Number): *See documentation*
-- **Size Max** (Number): *See documentation*
-- **Limit** (Number: Boolean): *See documentation*
-- **Limit Num** (Number: Integer): *See documentation*
-- **Random Rotate** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Draw** (Number: Boolean)
+- **Num** (Number: Integer)
+- **Geom Surface** (Object)
+- **Distribution Index** (Number: Integer)
+- **Selection Index** (Number: Integer)
+- **Random Seed** (Number)
+- **Size Min** (Number)
+- **Size Max** (Number)
+- **Limit** (Number: Boolean)
+- **Limit Num** (Number: Integer)
+- **Random Rotate** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Scale** (Array): *See documentation*
-- **Quaternions** (Array): *See documentation*
+- **Next** (Trigger)
+- **Positions** (Array)
+- **Scale** (Array)
+- **Quaternions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cfUzre)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SurfaceScatter_v2"*
@@ -1332,41 +1332,41 @@
 **Description:** draw text using the FontMSDF operator
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Letter Spacing** (Number): *See documentation*
-- **Line Height** (Number): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **SDF** (Number: Boolean): *See documentation*
-- **Smoothing** (Number): *See documentation*
-- **Border** (Number: Boolean): *See documentation*
-- **Border Width** (Number): *See documentation*
-- **Smoothness** (Number): *See documentation*
-- **Border R** (Number): *See documentation*
-- **Border G** (Number): *See documentation*
-- **Border B** (Number): *See documentation*
-- **Shadow** (Number: Boolean): *See documentation*
-- **Texture Color** (Object:Texture): *See documentation*
-- **Texture Mask** (Object:Texture): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Scalings** (Array): *See documentation*
-- **Rotations** (Array): *See documentation*
-- **Colors** (Array): *See documentation*
-- **Premultiply** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Text** (String)
+- **Scale** (Number)
+- **Letter Spacing** (Number)
+- **Line Height** (Number)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **SDF** (Number: Boolean)
+- **Smoothing** (Number)
+- **Border** (Number: Boolean)
+- **Border Width** (Number)
+- **Smoothness** (Number)
+- **Border R** (Number)
+- **Border G** (Number)
+- **Border B** (Number)
+- **Shadow** (Number: Boolean)
+- **Texture Color** (Object:Texture)
+- **Texture Mask** (Object:Texture)
+- **Positions** (Array)
+- **Scalings** (Array)
+- **Rotations** (Array)
+- **Colors** (Array)
+- **Premultiply** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Positions Original** (Array): *See documentation*
-- **Scales** (Array): *See documentation*
-- **Num Lines** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Start Y** (Number): *See documentation*
-- **Num Chars** (Number): *See documentation*
+- **Next** (Trigger)
+- **Positions Original** (Array)
+- **Scales** (Array)
+- **Num Lines** (Number)
+- **Width** (Number)
+- **Height** (Number)
+- **Start Y** (Number)
+- **Num Chars** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextMeshMSDF_v2"*
@@ -1381,21 +1381,21 @@
 **Description:** Load an image as a texture
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Save Memory** (Number: Boolean): *See documentation*
-- **Add Cachebuster** (Number: Boolean): *See documentation*
-- **Reload** (Trigger): *See documentation*
+- **File** (String)
+- **Wrap Index** (Number: Integer)
+- **Flip** (Number: Boolean)
+- **Active** (Number: Boolean)
+- **Save Memory** (Number: Boolean)
+- **Add Cachebuster** (Number: Boolean)
+- **Reload** (Trigger)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
-- **Loaded** (booleanNumber): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
+- **Texture** (Object)
+- **Width** (Number)
+- **Height** (Number)
+- **Aspect Ratio** (Number)
+- **Loaded** (booleanNumber)
+- **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iRKrD-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Texture_v2"*
@@ -1410,25 +1410,25 @@
 **Description:** create an array of textures
 
 **> Input Ports:**
-- **Texture 0** (Object:Texture): *See documentation*
-- **Texture 1** (Object:Texture): *See documentation*
-- **Texture 2** (Object:Texture): *See documentation*
-- **Texture 3** (Object:Texture): *See documentation*
-- **Texture 4** (Object:Texture): *See documentation*
-- **Texture 5** (Object:Texture): *See documentation*
-- **Texture 6** (Object:Texture): *See documentation*
-- **Texture 7** (Object:Texture): *See documentation*
-- **Texture 8** (Object:Texture): *See documentation*
-- **Texture 9** (Object:Texture): *See documentation*
-- **Texture 10** (Object:Texture): *See documentation*
-- **Texture 11** (Object:Texture): *See documentation*
-- **Texture 12** (Object:Texture): *See documentation*
-- **Texture 13** (Object:Texture): *See documentation*
-- **Texture 14** (Object:Texture): *See documentation*
+- **Texture 0** (Object:Texture)
+- **Texture 1** (Object:Texture)
+- **Texture 2** (Object:Texture)
+- **Texture 3** (Object:Texture)
+- **Texture 4** (Object:Texture)
+- **Texture 5** (Object:Texture)
+- **Texture 6** (Object:Texture)
+- **Texture 7** (Object:Texture)
+- **Texture 8** (Object:Texture)
+- **Texture 9** (Object:Texture)
+- **Texture 10** (Object:Texture)
+- **Texture 11** (Object:Texture)
+- **Texture 12** (Object:Texture)
+- **Texture 13** (Object:Texture)
+- **Texture 14** (Object:Texture)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Count** (Number): *See documentation*
+- **Array** (Array)
+- **Count** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vS5fjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArray"*
@@ -1443,21 +1443,21 @@
 **Description:** load multiple images into an array
 
 **> Input Ports:**
-- **Url** (String): *See documentation*
-- **Left Pad** (Number: Boolean): *See documentation*
-- **Index Start** (Number: Integer): *See documentation*
-- **Index End** (Number: Integer): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **UnpackPreMultipliedAlpha** (Number: Boolean): *See documentation*
+- **Url** (String)
+- **Left Pad** (Number: Boolean)
+- **Index Start** (Number: Integer)
+- **Index End** (Number: Integer)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Flip** (Number: Boolean)
+- **UnpackPreMultipliedAlpha** (Number: Boolean)
 
 **< Output Ports:**
-- **TextureArray** (Array): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
+- **TextureArray** (Array)
+- **Width** (Number)
+- **Height** (Number)
+- **Loading** (booleanNumber)
+- **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OeGdjT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArrayLoader_v2"*
@@ -1472,20 +1472,20 @@
 **Description:** load multiple texture from filenames given as an array
 
 **> Input Ports:**
-- **Urls** (Array): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **UnpackPreMultipliedAlpha** (Number: Boolean): *See documentation*
-- **Caching** (Number: Boolean): *See documentation*
-- **Asset In Patch** (Number: Boolean): *See documentation*
+- **Urls** (Array)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Flip** (Number: Boolean)
+- **UnpackPreMultipliedAlpha** (Number: Boolean)
+- **Caching** (Number: Boolean)
+- **Asset In Patch** (Number: Boolean)
 
 **< Output Ports:**
-- **TextureArray** (Array): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
+- **TextureArray** (Array)
+- **Width** (Number)
+- **Height** (Number)
+- **Loading** (booleanNumber)
+- **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jFv097)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArrayLoaderFromArray_v3"*
@@ -1500,18 +1500,18 @@
 **Description:** get the color of a pixel in a texture
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **X** (Number: Integer): *See documentation*
-- **Y** (Number: Integer): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Update** (Trigger)
+- **X** (Number: Integer)
+- **Y** (Number: Integer)
+- **Texture** (Object:Texture)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Red** (Number): *See documentation*
-- **Green** (Number): *See documentation*
-- **Blue** (Number): *See documentation*
-- **Alpha** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Red** (Number)
+- **Green** (Number)
+- **Blue** (Number)
+- **Alpha** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bzVSwn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureColorPick"*
@@ -1526,14 +1526,14 @@
 **Description:** extract colors from a texture
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Update** (Trigger)
+- **Texture** (Object)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Colors** (Array): *See documentation*
-- **Floating Point** (booleanNumber): *See documentation*
-- **Num Pixel** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Colors** (Array)
+- **Floating Point** (booleanNumber)
+- **Num Pixel** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uZkd3x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToArray_v4"*
@@ -1548,20 +1548,20 @@
 **Description:** generate an array3 of grid positions from a texture
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
-- **Threshold Remove** (Number): *See documentation*
-- **Z Multiply** (Number): *See documentation*
-- **Texture** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Update** (Trigger)
+- **Center** (Number: Boolean)
+- **Threshold Remove** (Number)
+- **Z Multiply** (Number)
+- **Texture** (Object)
+- **Width** (Number)
+- **Height** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Min Z** (Number): *See documentation*
-- **Max Z** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Points** (Array)
+- **Total Points** (Number)
+- **Min Z** (Number)
+- **Max Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U8IO1k)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToPointArray3"*
@@ -1576,17 +1576,17 @@
 **Description:** Create points by sampling texture
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Num Points** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Z Position Index** (Number: Integer): *See documentation*
-- **Z Multiply** (Number): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Update** (Trigger)
+- **Num Points** (Number: Integer)
+- **Seed** (Number)
+- **Z Position Index** (Number: Integer)
+- **Z Multiply** (Number)
+- **Texture** (Object)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
-- **NumPoints** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Points** (Array)
+- **NumPoints** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LAoKVJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToRandomPoints"*
@@ -1604,7 +1604,7 @@
 - *Visit [Ops.Gl.TriggerOnCanvasResize documentation](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize) for input port details*
 
 **< Output Ports:**
-- **Resized** (Trigger): *See documentation*
+- **Resized** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnCanvasResize"*
@@ -1619,10 +1619,10 @@
 **Description:** output current input texture or a default texture
 
 **> Input Ports:**
-- **Texture** (Object:Texture): *See documentation*
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ValidTexture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValidTexture"*
@@ -1637,14 +1637,14 @@
 **Description:** Outputs current viewport size
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
+- **Exec** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Next** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Width** (Number)
+- **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ViewPortSize"*

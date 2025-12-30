@@ -13,24 +13,24 @@
 **Description:** Outputs the button states of a gamepad
 
 **> Input Ports:**
-- **GamePad Data** (Object): *See documentation*
-- **Analog To Digital** (Number: Boolean): *See documentation*
+- **GamePad Data** (Object)
+- **Analog To Digital** (Number: Boolean)
 
 **< Output Ports:**
-- **ID** (String): *See documentation*
-- **Axes** (Array): *See documentation*
-- **Pad Left** (booleanNumber): *See documentation*
-- **Pad Right** (booleanNumber): *See documentation*
-- **Pad Up** (booleanNumber): *See documentation*
-- **Pad Down** (booleanNumber): *See documentation*
-- **Button 1** (booleanNumber): *See documentation*
-- **Button 2** (booleanNumber): *See documentation*
-- **Button 3** (booleanNumber): *See documentation*
-- **Button 4** (booleanNumber): *See documentation*
-- **Left Shoulder** (Number): *See documentation*
-- **Left Shoulder Bottom** (Number): *See documentation*
-- **Right Shoulder** (Number): *See documentation*
-- **Right Shoulder Bottom** (Number): *See documentation*
+- **ID** (String)
+- **Axes** (Array)
+- **Pad Left** (booleanNumber)
+- **Pad Right** (booleanNumber)
+- **Pad Up** (booleanNumber)
+- **Pad Down** (booleanNumber)
+- **Button 1** (booleanNumber)
+- **Button 2** (booleanNumber)
+- **Button 3** (booleanNumber)
+- **Button 4** (booleanNumber)
+- **Left Shoulder** (Number)
+- **Left Shoulder Bottom** (Number)
+- **Right Shoulder** (Number)
+- **Right Shoulder Bottom** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePad"*
@@ -45,14 +45,14 @@
 **Description:** get axis and angle of a joystick/thumbstick
 
 **> Input Ports:**
-- **Axis** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Axis** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **DeadZone** (Number): *See documentation*
-- **Angle** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **DeadZone** (Number)
+- **Angle** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bDqHdN)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePadJoystickAxis"*
@@ -67,14 +67,14 @@
 **Description:** list connected gamepads - press a button to connect
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
+- **Exe** (Trigger)
 
 **< Output Ports:**
-- **Num Gamepads** (Number): *See documentation*
-- **Pad 0** (Object): *See documentation*
-- **Pad 1** (Object): *See documentation*
-- **Pad 2** (Object): *See documentation*
-- **Pad 3** (Object): *See documentation*
+- **Num Gamepads** (Number)
+- **Pad 0** (Object)
+- **Pad 1** (Object)
+- **Pad 2** (Object)
+- **Pad 3** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePads"*

@@ -13,12 +13,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Next** (Trigger)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetArray"*
@@ -33,12 +33,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
+- **Exec** (Trigger)
+- **Name** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Value** (Number): *See documentation*
+- **Next** (Trigger)
+- **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetNumber"*
@@ -53,12 +53,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
+- **Exec** (Trigger)
+- **Name** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Next** (Trigger)
+- **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetTexture"*
@@ -73,11 +73,11 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushArray"*
@@ -92,12 +92,12 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Value** (Number): *See documentation*
+- **Exec** (Trigger)
+- **Name** (String)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushNumber"*
@@ -112,12 +112,12 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushTexture"*

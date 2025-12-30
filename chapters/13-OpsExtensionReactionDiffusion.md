@@ -13,28 +13,28 @@
 **Description:** Cellular automata system as feedback loop texture.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Use Viewport Size** (Number: Boolean): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **Texture In** (Object:Texture): *See documentation*
-- **Speed** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Presets Index** (Number: Integer): *See documentation*
-- **Feed** (Number): *See documentation*
-- **Feed Variation** (Number): *See documentation*
-- **Kill** (Number): *See documentation*
-- **Kill Variation** (Number): *See documentation*
-- **Diffusion Scale** (Number): *See documentation*
-- **Diffusion Scale Variation** (Number): *See documentation*
-- **Anisotropy** (Number): *See documentation*
-- **Noise Scale** (Number): *See documentation*
-- **Separate Fields** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Reset** (Trigger)
+- **Use Viewport Size** (Number: Boolean)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **Texture In** (Object:Texture)
+- **Speed** (Number: Integer)
+- **Seed** (Number)
+- **Presets Index** (Number: Integer)
+- **Feed** (Number)
+- **Feed Variation** (Number)
+- **Kill** (Number)
+- **Kill Variation** (Number)
+- **Diffusion Scale** (Number)
+- **Diffusion Scale Variation** (Number)
+- **Anisotropy** (Number)
+- **Noise Scale** (Number)
+- **Separate Fields** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture Out** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Texture Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XLCybk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReactionDiffusionSystem_v2"*

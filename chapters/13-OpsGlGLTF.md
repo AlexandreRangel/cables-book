@@ -13,17 +13,17 @@
 **Description:** Convert an animation into an array of coordinates
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Steps** (Number: Integer): *See documentation*
-- **Full Animation** (Number: Boolean): *See documentation*
-- **Start** (Number): *See documentation*
-- **Length** (Number): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Steps** (Number: Integer)
+- **Full Animation** (Number: Boolean)
+- **Start** (Number)
+- **Length** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (booleanNumber): *See documentation*
-- **Positions** (Array): *See documentation*
+- **Next** (Trigger)
+- **Found** (booleanNumber)
+- **Positions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/py-JK0)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfAnimationArray"*
@@ -38,12 +38,12 @@
 **Description:** get view matrix from a gltf camera
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
+- **Update** (Trigger)
+- **Node Name** (String)
 
 **< Output Ports:**
-- **Matrix** (Array): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Matrix** (Array)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/klpdcI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfCameraViewMatrix"*
@@ -76,14 +76,14 @@
 **Description:** expose geometry from gltf meshes, also possible to expose submaterial geometries
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Submesh** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Name** (String)
+- **Submesh** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XKXmf6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfGeometry"*
@@ -98,12 +98,12 @@
 **Description:** export array of positions from a hierarchy of a branch structure in a gltf, e.g. a skeleton bones
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Node Name** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Bones Lines** (Array): *See documentation*
+- **Next** (Trigger)
+- **Bones Lines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3t_mJR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfHierarchy"*
@@ -118,14 +118,14 @@
 **Description:** output some infos about the current parent GLTF scene
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
+- **Exec** (Trigger)
 
 **< Output Ports:**
-- **Num Nodes** (Number): *See documentation*
-- **Num Cams** (Number): *See documentation*
-- **FileUrl** (String): *See documentation*
-- **FileName** (String): *See documentation*
-- **Camera Names** (Array): *See documentation*
+- **Num Nodes** (Number)
+- **Num Cams** (Number)
+- **FileUrl** (String)
+- **FileName** (String)
+- **Camera Names** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z7tacy)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfInfo"*
@@ -140,16 +140,16 @@
 **Description:** switch between meshes e.g. like a stop motion animation
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Transformation** (Number: Boolean): *See documentation*
-- **Ignore Material** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Index** (Number: Integer)
+- **Node Name** (String)
+- **Transformation** (Number: Boolean)
+- **Ignore Material** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (Number): *See documentation*
-- **Current Index** (Number): *See documentation*
+- **Next** (Trigger)
+- **Found** (Number)
+- **Current Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FiJsxn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfMeshSequence_v2"*
@@ -164,19 +164,19 @@
 **Description:** render weighted morph targets/shape keys from a gltf file
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Scene Time** (Number: Boolean): *See documentation*
-- **Time** (Number): *See documentation*
-- **Submesh** (Number: Integer): *See documentation*
-- **Target Weights** (Array): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Scene Time** (Number: Boolean)
+- **Time** (Number)
+- **Submesh** (Number: Integer)
+- **Target Weights** (Array)
 
 **< Output Ports:**
-- **Found Node** (booleanNumber): *See documentation*
-- **Found Skin** (booleanNumber): *See documentation*
-- **Target Names** (Array): *See documentation*
-- **MorphTargets Tex** (Object): *See documentation*
-- **Next** (Trigger): *See documentation*
+- **Found Node** (booleanNumber)
+- **Found Skin** (booleanNumber)
+- **Target Names** (Array)
+- **MorphTargets Tex** (Object)
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zon4xF)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfMorphTargets"*
@@ -191,19 +191,19 @@
 **Description:** Control a single node from the GLTFscene op
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Transformation** (Number: Boolean): *See documentation*
-- **Draw Mesh** (Number: Boolean): *See documentation*
-- **Draw Childs** (Number: Boolean): *See documentation*
-- **Ignore Material** (Number: Boolean): *See documentation*
-- **Use Scene Time** (Number: Boolean): *See documentation*
-- **Time** (Number): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Transformation** (Number: Boolean)
+- **Draw Mesh** (Number: Boolean)
+- **Draw Childs** (Number: Boolean)
+- **Ignore Material** (Number: Boolean)
+- **Use Scene Time** (Number: Boolean)
+- **Time** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNode_v2"*
@@ -218,18 +218,18 @@
 **Description:** sine animate gltf nodes by a filter
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Filter** (String): *See documentation*
-- **Time** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Amplitude** (Number): *See documentation*
-- **Axis X** (Number): *See documentation*
-- **Axis Y** (Number): *See documentation*
-- **Axis Z** (Number): *See documentation*
+- **Update** (Trigger)
+- **Filter** (String)
+- **Time** (Number)
+- **Offset** (Number)
+- **Amplitude** (Number)
+- **Axis X** (Number)
+- **Axis Y** (Number)
+- **Axis Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (Number): *See documentation*
+- **Next** (Trigger)
+- **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w1SPcI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeSineAnim"*
@@ -244,14 +244,14 @@
 **Description:** Get the transform from the GLTFscene op
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Set Matrix** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Set Matrix** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (booleanNumber): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Next** (Trigger)
+- **Found** (booleanNumber)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yrOJve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeTransform_v2"*
@@ -266,18 +266,18 @@
 **Description:** output all transformations of nodes starting with [search]
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Search** (String): *See documentation*
-- **Order Index** (Number: Integer): *See documentation*
-- **Space Index** (Number: Integer): *See documentation*
-- **Time** (Number): *See documentation*
+- **Render** (Trigger)
+- **Search** (String)
+- **Order Index** (Number: Integer)
+- **Space Index** (Number: Integer)
+- **Time** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Scale** (Array): *See documentation*
-- **Rotation** (Array): *See documentation*
-- **Names** (Array): *See documentation*
+- **Next** (Trigger)
+- **Positions** (Array)
+- **Scale** (Array)
+- **Rotation** (Array)
+- **Names** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeTransforms_v3"*
@@ -292,36 +292,36 @@
 **Description:** Load GLTF/GLB 3d files
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Glb File** (String): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Camera Index** (Number: Integer): *See documentation*
-- **Animation** (String): *See documentation*
-- **Show Structure** (Trigger): *See documentation*
-- **Rescale** (Number: Boolean): *See documentation*
-- **Rescale Size** (Number): *See documentation*
-- **Time** (Number): *See documentation*
-- **Sync To Timeline** (Number: Boolean): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **Materials** (Object): *See documentation*
-- **Hide Nodes** (Array): *See documentation*
-- **Use Material Properties** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Glb File** (String)
+- **Draw** (Number: Boolean)
+- **Camera Index** (Number: Integer)
+- **Animation** (String)
+- **Show Structure** (Trigger)
+- **Rescale** (Number: Boolean)
+- **Rescale Size** (Number)
+- **Time** (Number)
+- **Sync To Timeline** (Number: Boolean)
+- **Loop** (Number: Boolean)
+- **Materials** (Object)
+- **Hide Nodes** (Array)
+- **Use Material Properties** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Render Before** (Trigger): *See documentation*
-- **Next** (Trigger): *See documentation*
-- **Generator** (String): *See documentation*
-- **GLTF Version** (Number): *See documentation*
-- **GLTF Extensions Used** (Array): *See documentation*
-- **Anim Length** (Number): *See documentation*
-- **Anim Time** (Number): *See documentation*
-- **Json** (Object): *See documentation*
-- **Anims** (Array): *See documentation*
-- **BoundingPoints** (Array): *See documentation*
-- **Bounds** (Object): *See documentation*
-- **Finished** (Trigger): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
+- **Render Before** (Trigger)
+- **Next** (Trigger)
+- **Generator** (String)
+- **GLTF Version** (Number)
+- **GLTF Extensions Used** (Array)
+- **Anim Length** (Number)
+- **Anim Time** (Number)
+- **Json** (Object)
+- **Anims** (Array)
+- **BoundingPoints** (Array)
+- **Bounds** (Object)
+- **Finished** (Trigger)
+- **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XmL8GY)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfScene_v4"*
@@ -336,11 +336,11 @@
 **Description:** Assigns a material to a node inside of the gltfScene op
 
 **> Input Ports:**
-- **Shader** (Object:Shader): *See documentation*
-- **Material Name** (String): *See documentation*
+- **Shader** (Object:Shader)
+- **Material Name** (String)
 
 **< Output Ports:**
-- **Material** (Object): *See documentation*
+- **Material** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Mk3Dv2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfSetMaterial"*
@@ -355,16 +355,16 @@
 **Description:** render a skinned mesh (bone/rigging/rigged animation)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Scene Time** (Number: Boolean): *See documentation*
-- **Time** (Number): *See documentation*
-- **Blend Anims** (Array): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Scene Time** (Number: Boolean)
+- **Time** (Number)
+- **Blend Anims** (Array)
 
 **< Output Ports:**
-- **Found Node** (booleanNumber): *See documentation*
-- **Found Skin** (booleanNumber): *See documentation*
-- **Next** (Trigger): *See documentation*
+- **Found Node** (booleanNumber)
+- **Found Skin** (booleanNumber)
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TWBC-N)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfSkin"*
@@ -379,20 +379,20 @@
 **Description:** Load textures from inside a .glb file
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Anisotropic Index** (Number: Integer): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **Pre Multiplied Alpha** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Name** (String)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Anisotropic Index** (Number: Integer)
+- **Flip** (Number: Boolean)
+- **Pre Multiplied Alpha** (Number: Boolean)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Type** (String): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Texture** (Object)
+- **Width** (Number)
+- **Height** (Number)
+- **Type** (String)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PBGKve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfTexture"*
@@ -407,18 +407,18 @@
 **Description:** set transformation of a gltf node
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Rotation X** (Number): *See documentation*
-- **Rotation Y** (Number): *See documentation*
-- **Rotation Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Rotation X** (Number)
+- **Rotation Y** (Number)
+- **Rotation Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfTransformNode"*
@@ -433,14 +433,14 @@
 **Description:** play gltf vertex anim directly with its own timing
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Node Name** (String): *See documentation*
-- **Scene Time** (Number: Boolean): *See documentation*
-- **Time** (Number): *See documentation*
+- **Render** (Trigger)
+- **Node Name** (String)
+- **Scene Time** (Number: Boolean)
+- **Time** (Number)
 
 **< Output Ports:**
-- **Found Node** (Number): *See documentation*
-- **Next** (Trigger): *See documentation*
+- **Found Node** (Number)
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfVertexAnim"*

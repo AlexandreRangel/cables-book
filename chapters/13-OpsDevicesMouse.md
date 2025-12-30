@@ -13,23 +13,23 @@
 **Description:** Get mouse/touchscreen/pointer coordinates and events
 
 **> Input Ports:**
-- **Area Index** (Number: Integer): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Right Click Prevent Default** (Number: Boolean): *See documentation*
-- **Passive Events** (Number: Boolean): *See documentation*
-- **Element** (Object): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Area Index** (Number: Integer)
+- **Flip Y** (Number: Boolean)
+- **Right Click Prevent Default** (Number: Boolean)
+- **Passive Events** (Number: Boolean)
+- **Element** (Object)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Click** (Trigger): *See documentation*
-- **Click Right** (Trigger): *See documentation*
-- **Button Is Down** (booleanNumber): *See documentation*
-- **Mouse Is Hovering** (booleanNumber): *See documentation*
-- **Movement X** (Number): *See documentation*
-- **Movement Y** (Number): *See documentation*
-- **Event** (Object): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Click** (Trigger)
+- **Click Right** (Trigger)
+- **Button Is Down** (booleanNumber)
+- **Mouse Is Hovering** (booleanNumber)
+- **Movement X** (Number)
+- **Movement Y** (Number)
+- **Event** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Mouse_v4"*
@@ -44,22 +44,22 @@
 **Description:** Get the state of mouse buttons
 
 **> Input Ports:**
-- **Area Index** (Number: Integer): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Area Index** (Number: Integer)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Click Left** (Trigger): *See documentation*
-- **Click Right** (Trigger): *See documentation*
-- **Double Click** (Trigger): *See documentation*
-- **Button Pressed Left** (Number): *See documentation*
-- **Button Pressed Middle** (Number): *See documentation*
-- **Button Pressed Right** (Number): *See documentation*
-- **Mouse Down Left** (Trigger): *See documentation*
-- **Mouse Down Middle** (Trigger): *See documentation*
-- **Mouse Down Right** (Trigger): *See documentation*
-- **Mouse Up Left** (Trigger): *See documentation*
-- **Mouse Up Middle** (Trigger): *See documentation*
-- **Mouse Up Right** (Trigger): *See documentation*
+- **Click Left** (Trigger)
+- **Click Right** (Trigger)
+- **Double Click** (Trigger)
+- **Button Pressed Left** (Number)
+- **Button Pressed Middle** (Number)
+- **Button Pressed Right** (Number)
+- **Mouse Down Left** (Trigger)
+- **Mouse Down Middle** (Trigger)
+- **Mouse Down Right** (Trigger)
+- **Mouse Up Left** (Trigger)
+- **Mouse Up Middle** (Trigger)
+- **Mouse Up Right** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cLtJLO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MouseButtons"*
@@ -74,15 +74,15 @@
 **Description:** get delta of mouse position while dragging
 
 **> Input Ports:**
-- **Active** (Number: Boolean): *See documentation*
-- **Speed** (Number): *See documentation*
-- **Input Type Index** (Number: Integer): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
+- **Active** (Number: Boolean)
+- **Speed** (Number)
+- **Input Type Index** (Number: Integer)
+- **Area Index** (Number: Integer)
 
 **< Output Ports:**
-- **Delta X** (Number): *See documentation*
-- **Delta Y** (Number): *See documentation*
-- **Is Dragging** (Number): *See documentation*
+- **Delta X** (Number)
+- **Delta Y** (Number)
+- **Is Dragging** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MouseDrag"*
@@ -97,17 +97,17 @@
 **Description:** outputs delta values controlled by the mousewheel (scroll, zoom)
 
 **> Input Ports:**
-- **Speed** (Number): *See documentation*
-- **Prevent Scroll** (Number: Boolean): *See documentation*
-- **Flip Direction** (Number: Boolean): *See documentation*
-- **Simple Delta** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Speed** (Number)
+- **Prevent Scroll** (Number: Boolean)
+- **Flip Direction** (Number: Boolean)
+- **Simple Delta** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Delta** (Number): *See documentation*
-- **Delta X** (Number): *See documentation*
-- **Browser Event Delta** (Number): *See documentation*
-- **Wheel Action** (Trigger): *See documentation*
+- **Delta** (Number)
+- **Delta X** (Number)
+- **Browser Event Delta** (Number)
+- **Wheel Action** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MouseWheel_v2"*
@@ -122,13 +122,13 @@
 **Description:** locks the pointer to the canvas and hides the cursor
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Start** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **Start** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
-- **Is Locked** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Supported** (booleanNumber)
+- **Is Locked** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ds6IV2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointerLock"*

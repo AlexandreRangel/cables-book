@@ -13,10 +13,10 @@
 **Description:** Patchfield cable routing helper for array cables
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
+- **Array In** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteArray"*
@@ -31,10 +31,10 @@
 **Description:** Patchfield cable routing helper for number cables
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteNumber"*
@@ -49,10 +49,10 @@
 **Description:** Patchfield cable routing helper for object cables
 
 **> Input Ports:**
-- **Array In** (Object): *See documentation*
+- **Array In** (Object)
 
 **< Output Ports:**
-- **Array Out** (Object): *See documentation*
+- **Array Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteObject"*
@@ -67,10 +67,10 @@
 **Description:** Patchfield cable routing helper for string cables
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
+- **Value** (String)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteString"*
@@ -85,10 +85,10 @@
 **Description:** Routing Helper for trigger cables
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTrigger"*

@@ -16,10 +16,10 @@
 - *Visit [Ops.Data.SpreadSheetArray documentation](https://cables.gl/op/Ops.Data.SpreadSheetArray) for input port details*
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Column Names** (Array): *See documentation*
+- **Array** (Array)
+- **Width** (Number)
+- **Height** (Number)
+- **Column Names** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wDITt1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SpreadSheetArray"*

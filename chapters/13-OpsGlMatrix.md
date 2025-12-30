@@ -13,14 +13,14 @@
 **Description:** animate values in a matrix to a new matrix
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Next Matrix** (Array): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Next Matrix** (Array)
+- **Duration** (Number)
+- **Easing Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Next** (Trigger)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/99cg1x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimMatrix"*
@@ -35,17 +35,17 @@
 **Description:** interpolate position on a spline/array3x
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Time** (Number): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Look Ahead** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
+- **Time** (Number)
+- **Duration** (Number)
+- **Offset** (Number)
+- **Look Ahead** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Transform Lookat** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Transform Lookat** (Trigger)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lL9_EF)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPathFollow"*
@@ -60,17 +60,17 @@
 **Description:** render lots of particles following a path/spline/array3x
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
-- **Num Particles** (Number): *See documentation*
-- **Length** (Number): *See documentation*
-- **Spread** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Max Distance** (Number): *See documentation*
-- **RandomSpeed** (Number: Boolean): *See documentation*
+- **Exec** (Trigger)
+- **Points** (Array)
+- **Num Particles** (Number)
+- **Length** (Number)
+- **Spread** (Number)
+- **Offset** (Number)
+- **Max Distance** (Number)
+- **RandomSpeed** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4wT0J6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPathFollowParticles_v2"*
@@ -85,10 +85,10 @@
 **Description:** rotate an object to always face the camera
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
+- **Exec** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GVpkrq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Billboard"*
@@ -103,32 +103,32 @@
 **Description:** Transforms and projects the scene from the point of view of the camera.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Identity** (Number: Boolean): *See documentation*
-- **Projection Mode Index** (Number: Integer): *See documentation*
-- **Frustum Near** (Number): *See documentation*
-- **Frustum Far** (Number): *See documentation*
-- **Fov** (Number): *See documentation*
-- **Auto Aspect Ratio** (Number: Boolean): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
-- **Eye X** (Number): *See documentation*
-- **Eye Y** (Number): *See documentation*
-- **Eye Z** (Number): *See documentation*
-- **Center X** (Number): *See documentation*
-- **Center Y** (Number): *See documentation*
-- **Center Z** (Number): *See documentation*
-- **Truck** (Number): *See documentation*
-- **Move sideways** (in local x axis): *See documentation*
-- **Boom** (Number): *See documentation*
-- **Dolly** (Number): *See documentation*
-- **Tilt** (Number): *See documentation*
-- **Pan** (Number): *See documentation*
-- **Roll** (Number): *See documentation*
+- **Render** (Trigger)
+- **Identity** (Number: Boolean)
+- **Projection Mode Index** (Number: Integer)
+- **Frustum Near** (Number)
+- **Frustum Far** (Number)
+- **Fov** (Number)
+- **Auto Aspect Ratio** (Number: Boolean)
+- **Aspect Ratio** (Number)
+- **Eye X** (Number)
+- **Eye Y** (Number)
+- **Eye Z** (Number)
+- **Center X** (Number)
+- **Center Y** (Number)
+- **Center Z** (Number)
+- **Truck** (Number)
+- **Move sideways** (in local x axis)
+- **Boom** (Number)
+- **Dolly** (Number)
+- **Tilt** (Number)
+- **Pan** (Number)
+- **Roll** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Aspect** (Number): *See documentation*
-- **Look At Array** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Aspect** (Number)
+- **Look At Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PSw73e)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Camera_v2"*
@@ -143,31 +143,31 @@
 **Description:** get camera attributes from current camera/orbit controls
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Camera Type Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Camera Type Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Right X** (Number): *See documentation*
-- **Right Y** (Number): *See documentation*
-- **Right Z** (Number): *See documentation*
-- **Up X** (Number): *See documentation*
-- **Up Y** (Number): *See documentation*
-- **Up Z** (Number): *See documentation*
-- **Forward X** (Number): *See documentation*
-- **Forward Y** (Number): *See documentation*
-- **Forward Z** (Number): *See documentation*
-- **Near Frustum** (Number): *See documentation*
-- **Far Frustum** (Number): *See documentation*
-- **Bottom Frustum** (Number): *See documentation*
-- **Top Frustum** (Number): *See documentation*
-- **Left Frustum** (Number): *See documentation*
-- **Right Frustum** (Number): *See documentation*
-- **FOV** (Number): *See documentation*
-- **Aspect Ratio** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Right X** (Number)
+- **Right Y** (Number)
+- **Right Z** (Number)
+- **Up X** (Number)
+- **Up Y** (Number)
+- **Up Z** (Number)
+- **Forward X** (Number)
+- **Forward Y** (Number)
+- **Forward Z** (Number)
+- **Near Frustum** (Number)
+- **Far Frustum** (Number)
+- **Bottom Frustum** (Number)
+- **Top Frustum** (Number)
+- **Left Frustum** (Number)
+- **Right Frustum** (Number)
+- **FOV** (Number)
+- **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YfJ4S-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CameraInfo"*
@@ -182,13 +182,13 @@
 **Description:** get the current position of viewmatrix/camera eye
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JwL86R)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CameraPosition"*
@@ -203,13 +203,13 @@
 **Description:** current xyz coordinates (modelmatrix)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2AtI98)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Coordinates"*
@@ -224,11 +224,11 @@
 **Description:** gyroscope motionsensor camera
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Window Orientation** (Number): *See documentation*
+- **Next** (Trigger)
+- **Window Orientation** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dZ8wQ0)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeviceOrientationCamera"*
@@ -243,12 +243,12 @@
 **Description:** Get the scalar scaling of a matrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Render** (Trigger)
+- **Matrix** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Scaling** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Scaling** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetMatrixScaling"*
@@ -263,11 +263,11 @@
 **Description:** Get current modelmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HkYpci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetModelMatrix"*
@@ -282,11 +282,11 @@
 **Description:** get current projectionmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/573_4S)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetProjectionMatrix"*
@@ -301,11 +301,11 @@
 **Description:** get current viewmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDWuci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetViewMatrix"*
@@ -320,14 +320,14 @@
 **Description:** interpolate between two matrices
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Perc** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Perc** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InterpolateMatrix"*
@@ -342,10 +342,10 @@
 **Description:** outputs an inverted matrix
 
 **> Input Ports:**
-- **Matrix** (Array): *See documentation*
+- **Matrix** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G51FhI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InvertMatrix"*
@@ -360,20 +360,20 @@
 **Description:** transforms view to look from eye to center
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **EyeX** (Number): *See documentation*
-- **EyeY** (Number): *See documentation*
-- **EyeZ** (Number): *See documentation*
-- **CenterX** (Number): *See documentation*
-- **CenterY** (Number): *See documentation*
-- **CenterZ** (Number): *See documentation*
-- **UpX** (Number): *See documentation*
-- **UpY** (Number): *See documentation*
-- **UpZ** (Number): *See documentation*
+- **Render** (Trigger)
+- **EyeX** (Number)
+- **EyeY** (Number)
+- **EyeZ** (Number)
+- **CenterX** (Number)
+- **CenterY** (Number)
+- **CenterZ** (Number)
+- **UpX** (Number)
+- **UpY** (Number)
+- **UpZ** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_JlGz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LookatCamera"*
@@ -388,14 +388,14 @@
 **Description:** get translation of a matrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Render** (Trigger)
+- **Matrix** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Zz52On)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MatrixTranslation"*
@@ -410,12 +410,12 @@
 **Description:** multiply model matrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Identity** (Number: Boolean): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Render** (Trigger)
+- **Identity** (Number: Boolean)
+- **Matrix** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HkYpci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MultiplyModelMatrix"*
@@ -430,12 +430,12 @@
 **Description:** multiply view matrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
-- **Identity** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Matrix** (Array)
+- **Identity** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDWuci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MulViewMatrix"*
@@ -450,14 +450,14 @@
 **Description:** multiplies current modelmatrix with a quaternion
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **Render** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Quaternion"*
@@ -472,20 +472,20 @@
 **Description:** Set up a camera, rotated by a quaternion
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **EyeX** (Number): *See documentation*
-- **EyeY** (Number): *See documentation*
-- **EyeZ** (Number): *See documentation*
-- **QuatX** (Number): *See documentation*
-- **QuatY** (Number): *See documentation*
-- **QuatZ** (Number): *See documentation*
-- **QuatW** (Number): *See documentation*
-- **UpX** (Number): *See documentation*
-- **UpY** (Number): *See documentation*
-- **UpZ** (Number): *See documentation*
+- **Render** (Trigger)
+- **EyeX** (Number)
+- **EyeY** (Number)
+- **EyeZ** (Number)
+- **QuatX** (Number)
+- **QuatY** (Number)
+- **QuatZ** (Number)
+- **QuatW** (Number)
+- **UpX** (Number)
+- **UpY** (Number)
+- **UpZ** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QuaternionCamera"*
@@ -500,18 +500,18 @@
 **Description:** place random objects on a grid
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Max Depth** (Number): *See documentation*
-- **Possibility** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Max Depth** (Number)
+- **Possibility** (Number)
+- **Seed** (Number)
+- **Scale** (Number)
+- **Width** (Number)
+- **Height** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Depth** (Number): *See documentation*
+- **Next** (Trigger)
+- **Index** (Number)
+- **Depth** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FsZFVB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomGridPlacement"*
@@ -526,19 +526,19 @@
 **Description:** Place random objects on a grid
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Max Depth** (Number): *See documentation*
-- **Possibility** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Max Depth** (Number)
+- **Possibility** (Number)
+- **Seed** (Number)
+- **Scale** (Number)
+- **Width** (Number)
+- **Height** (Number)
 
 **< Output Ports:**
-- **Positions** (Array): *See documentation*
-- **Scalings** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Total Points** (Number): *See documentation*
+- **Positions** (Array)
+- **Scalings** (Array)
+- **Array Length** (Number)
+- **Total Points** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PYUHNP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomGridPlacementArrays"*
@@ -553,14 +553,14 @@
 **Description:** Scale all child objects (scaleXYZ)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Scale** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Scale** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/au9U7i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Scale"*
@@ -575,13 +575,13 @@
 **Description:** scale xyz of viewmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aSB6On)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScaleXYZViewMatrix"*
@@ -596,14 +596,14 @@
 **Description:** screen/pixel coordinates of the current transform
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Pixel Unit Index** (Number: Integer): *See documentation*
+- **Execute** (Trigger)
+- **Pixel Unit Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Visible** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Visible** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-GNBD-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScreenCoordinates_v2"*
@@ -618,15 +618,15 @@
 **Description:** convert screen coordinates to a 3d position
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Input Type Index** (Number: Integer): *See documentation*
+- **Exec** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Input Type Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Result X** (Number): *See documentation*
-- **Result Y** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Result X** (Number)
+- **Result Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScreenPosTo3d_v3"*
@@ -641,11 +641,11 @@
 **Description:** set a projection matrix
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Matrix** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/573_4S)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetProjectionMatrix"*
@@ -660,12 +660,12 @@
 **Description:** displaces each point of a mesh in fixed direction
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **ShearX** (Number): *See documentation*
-- **ShearY** (Number): *See documentation*
+- **Render** (Trigger)
+- **ShearX** (Number)
+- **ShearY** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PmTYnO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Shear"*
@@ -680,21 +680,21 @@
 **Description:** transform a matrix (mat4)
 
 **> Input Ports:**
-- **Transform** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
-- **Rotation X** (Number): *See documentation*
-- **Rotation Y** (Number): *See documentation*
-- **Rotation Z** (Number): *See documentation*
+- **Transform** (Trigger)
+- **Matrix** (Array)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
+- **Rotation X** (Number)
+- **Rotation Y** (Number)
+- **Rotation Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A0W1Jx)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformMatrix"*
@@ -709,11 +709,11 @@
 **Description:** multiply current modelmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mul** (Number): *See documentation*
+- **Render** (Trigger)
+- **Mul** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformMul"*
@@ -728,13 +728,13 @@
 **Description:** Translate objects (move / position in 3D space)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Translate"*
@@ -749,13 +749,13 @@
 **Description:** translate the view/camera matrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TranslateView"*
@@ -770,19 +770,19 @@
 **Description:** Translate any geometry underneath it using vectors and speed.
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Speed** (Number): *See documentation*
-- **Vector X** (Number): *See documentation*
-- **Vector Y** (Number): *See documentation*
-- **Vector Z** (Number): *See documentation*
-- **Reset Position X** (Number): *See documentation*
-- **Reset Position Y** (Number): *See documentation*
-- **Reset Position Z** (Number): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Max** (Number): *See documentation*
+- **Exec** (Trigger)
+- **Speed** (Number)
+- **Vector X** (Number)
+- **Vector Y** (Number)
+- **Vector Z** (Number)
+- **Reset Position X** (Number)
+- **Reset Position Y** (Number)
+- **Reset Position Z** (Number)
+- **Reset** (Trigger)
+- **Max** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VectorTranslate"*
@@ -797,27 +797,27 @@
 **Description:** simple camera you control with W,A,S,D keys like in a FPS game
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Enable Pointer Lock** (Number: Boolean): *See documentation*
-- **Speed** (Number): *See documentation*
-- **Mouse Speed** (Number): *See documentation*
-- **Allow Flying** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Move X-** (Number: Boolean): *See documentation*
-- **Move Y-** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **Enable Pointer Lock** (Number: Boolean)
+- **Speed** (Number)
+- **Mouse Speed** (Number)
+- **Allow Flying** (Number: Boolean)
+- **Active** (Number: Boolean)
+- **Move X-** (Number: Boolean)
+- **Move Y-** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **IsLocked** (booleanNumber): *See documentation*
-- **PosX** (Number): *See documentation*
-- **PosY** (Number): *See documentation*
-- **PosZ** (Number): *See documentation*
-- **Mouse Left** (Trigger): *See documentation*
-- **Mouse Right** (Trigger): *See documentation*
-- **Dir X** (Number): *See documentation*
-- **Dir Y** (Number): *See documentation*
-- **Dir Z** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **IsLocked** (booleanNumber)
+- **PosX** (Number)
+- **PosY** (Number)
+- **PosZ** (Number)
+- **Mouse Left** (Trigger)
+- **Mouse Right** (Trigger)
+- **Dir X** (Number)
+- **Dir Y** (Number)
+- **Dir Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oLCaao)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WASDCamera_v2"*

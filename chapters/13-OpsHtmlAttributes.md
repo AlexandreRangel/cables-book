@@ -13,13 +13,13 @@
 **Description:** Element Accessibility properties for screen reader
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Aria Label** (String): *See documentation*
-- **Aria Labeled By** (String): *See documentation*
-- **Aria Hidden** (Number: Boolean): *See documentation*
+- **Element** (Object)
+- **Aria Label** (String)
+- **Aria Labeled By** (String)
+- **Aria Hidden** (Number: Boolean)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/R5XS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAccessibility"*
@@ -34,10 +34,10 @@
 **Description:** Get all attributes from an element an object
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
+- **Element** (Object)
 
 **< Output Ports:**
-- **Attribs** (Object): *See documentation*
+- **Attribs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gflosw)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAttributes"*
@@ -52,12 +52,12 @@
 **Description:** Read or Get the value of an HTML element Attribute
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Attribute Name** (String): *See documentation*
+- **Element** (Object)
+- **Attribute Name** (String)
 
 **< Output Ports:**
-- **Value** (String): *See documentation*
-- **Has Attribute** (booleanNumber): *See documentation*
+- **Value** (String)
+- **Has Attribute** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementGetAttribute"*
@@ -72,13 +72,13 @@
 **Description:** Write or Set the value of an HTML element Attribute
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Attribute** (String): *See documentation*
-- **Value** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Element** (Object)
+- **Attribute** (String)
+- **Value** (String)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementSetAttribute"*

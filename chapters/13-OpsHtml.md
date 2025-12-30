@@ -13,10 +13,10 @@
 **Description:** Outputs the currently active/focused element
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Active Element** (Object): *See documentation*
+- **Active Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0iRDu1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ActiveElement"*
@@ -31,15 +31,15 @@
 **Description:** Align a HTML element to another, keep positioning
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Align Element** (Object:Element): *See documentation*
-- **Force Update** (Trigger): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
+- **Element** (Object:Element)
+- **Align Element** (Object:Element)
+- **Force Update** (Trigger)
+- **Offset X** (Number)
+- **Offset Y** (Number)
 
 **< Output Ports:**
-- **Element Passthrough** (Object): *See documentation*
-- **Aligned Element** (Object): *See documentation*
+- **Element Passthrough** (Object)
+- **Aligned Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jKcTdv)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AlignElement"*
@@ -54,12 +54,12 @@
 **Description:** Appends a HTML DOM Element to another
 
 **> Input Ports:**
-- **Parent** (Object:Element): *See documentation*
-- **Child** (Object:Element): *See documentation*
+- **Parent** (Object:Element)
+- **Child** (Object:Element)
 
 **< Output Ports:**
-- **Parent Out** (Object): *See documentation*
-- **Child Out** (Object): *See documentation*
+- **Parent Out** (Object)
+- **Child Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PakK8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AppendChild_v2"*
@@ -74,16 +74,16 @@
 **Description:** set file dependant on browser
 
 **> Input Ports:**
-- **Chrome File** (String): *See documentation*
-- **Firefox File** (String): *See documentation*
-- **Safari File** (String): *See documentation*
-- **Edge File** (String): *See documentation*
-- **Opera File** (String): *See documentation*
-- **Default File** (String): *See documentation*
+- **Chrome File** (String)
+- **Firefox File** (String)
+- **Safari File** (String)
+- **Edge File** (String)
+- **Opera File** (String)
+- **Default File** (String)
 
 **< Output Ports:**
-- **Browser Specific File** (String): *See documentation*
-- **Detected Browser** (String): *See documentation*
+- **Browser Specific File** (String)
+- **Detected Browser** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CfJkIk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BrowserSpecificFile_v2"*
@@ -98,17 +98,17 @@
 **Description:** Create an image file from a canvas
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
-- **Quality** (Number): *See documentation*
-- **Output DataUrl** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Texture** (Object)
+- **Quality** (Number)
+- **Output DataUrl** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Binary Size** (Number): *See documentation*
-- **Base64 String** (String): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
-- **Finished** (Trigger): *See documentation*
+- **Next** (Trigger)
+- **Binary Size** (Number)
+- **Base64 String** (String)
+- **Loading** (booleanNumber)
+- **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.CanvasToBase64#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasToBase64"*
@@ -123,16 +123,16 @@
 **Description:** compares two images and shows the difference as a pink color
 
 **> Input Ports:**
-- **Image 1** (String): *See documentation*
-- **Image 2** (String): *See documentation*
-- **Start** (Trigger): *See documentation*
+- **Image 1** (String)
+- **Image 2** (String)
+- **Start** (Trigger)
 
 **< Output Ports:**
-- **Difference Image** (String): *See documentation*
-- **Mismatch Percentage** (Number): *See documentation*
-- **Same Dimensions** (booleanNumber): *See documentation*
-- **Resemble Data** (Object): *See documentation*
-- **Finished** (Trigger): *See documentation*
+- **Difference Image** (String)
+- **Mismatch Percentage** (Number)
+- **Same Dimensions** (booleanNumber)
+- **Resemble Data** (Object)
+- **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1xkRN8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompareImages_v2"*
@@ -150,7 +150,7 @@
 - *Visit [Ops.Html.DocumentBody documentation](https://cables.gl/op/Ops.Html.DocumentBody) for input port details*
 
 **< Output Ports:**
-- **Body** (Object): *See documentation*
+- **Body** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.DocumentBody#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DocumentBody"*
@@ -165,12 +165,12 @@
 **Description:** Make a HTML element draggable to move it around with the mouse
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
+- **Element** (Object:Element)
 
 **< Output Ports:**
-- **Element Out** (Object): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **Element Out** (Object)
+- **X** (Number)
+- **Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WSi9iO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DraggableElement"*
@@ -185,10 +185,10 @@
 **Description:** Serialize HTML/SVG elements to a string
 
 **> Input Ports:**
-- **Parent** (Object:Element): *See documentation*
+- **Parent** (Object:Element)
 
 **< Output Ports:**
-- **HTML String** (String): *See documentation*
+- **HTML String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3kGgr5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAsHtmlString"*
@@ -203,20 +203,20 @@
 **Description:** Set childs of a HTML Element
 
 **> Input Ports:**
-- **Parent** (Object:Element): *See documentation*
-- **Child 1** (Object:Element): *See documentation*
-- **Child 2** (Object:Element): *See documentation*
-- **Child 3** (Object:Element): *See documentation*
-- **Child 4** (Object:Element): *See documentation*
-- **Child 5** (Object:Element): *See documentation*
-- **Child 6** (Object:Element): *See documentation*
-- **Child 7** (Object:Element): *See documentation*
-- **Child 8** (Object:Element): *See documentation*
-- **Child 9** (Object:Element): *See documentation*
-- **Child 10** (Object:Element): *See documentation*
+- **Parent** (Object:Element)
+- **Child 1** (Object:Element)
+- **Child 2** (Object:Element)
+- **Child 3** (Object:Element)
+- **Child 4** (Object:Element)
+- **Child 5** (Object:Element)
+- **Child 6** (Object:Element)
+- **Child 7** (Object:Element)
+- **Child 8** (Object:Element)
+- **Child 9** (Object:Element)
+- **Child 10** (Object:Element)
 
 **< Output Ports:**
-- **Parent Out** (Object): *See documentation*
+- **Parent Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S4VD0H)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementChilds_v2"*
@@ -231,13 +231,13 @@
 **Description:** add child elements to another HTML Element
 
 **> Input Ports:**
-- **Parent** (Object:Element): *See documentation*
-- **Childs_0** (Object): *See documentation*
-- **Add Port** (Object): *See documentation*
+- **Parent** (Object:Element)
+- **Childs_0** (Object)
+- **Add Port** (Object)
 
 **< Output Ports:**
-- **Parent Out** (Object): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Parent Out** (Object)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zC9iWh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementChildsMultiPort_v2"*
@@ -252,14 +252,14 @@
 **Description:** get html element absolute position and size in pixels on screen
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Element** (Object:Element): *See documentation*
+- **Update** (Trigger)
+- **Element** (Object:Element)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Width** (Number)
+- **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1Z8oLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementClientRect"*
@@ -274,14 +274,14 @@
 **Description:** Set the mouse cursor
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **CSS Cursors Index** (Number: Integer): *See documentation*
-- **File** (String): *See documentation*
-- **Offset X** (Number: Integer): *See documentation*
-- **Offset Y** (Number: Integer): *See documentation*
+- **Element** (Object:Element)
+- **CSS Cursors Index** (Number: Integer)
+- **File** (String)
+- **Offset X** (Number: Integer)
+- **Offset Y** (Number: Integer)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_f5W8s)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementCssCursor_v3"*
@@ -296,10 +296,10 @@
 **Description:** Output css attributes of an element as a string
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
+- **Element** (Object:Element)
 
 **< Output Ports:**
-- **CSS** (String): *See documentation*
+- **CSS** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8JmrBZ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementCssString"*
@@ -314,10 +314,10 @@
 **Description:** Get the data-attributes and values of an HTML element
 
 **> Input Ports:**
-- **HTML Element** (Object:Element): *See documentation*
+- **HTML Element** (Object:Element)
 
 **< Output Ports:**
-- **Dataset** (Object): *See documentation*
+- **Dataset** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MgdKjH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementDataSet"*
@@ -332,11 +332,11 @@
 **Description:** Check if two HTML element objects are equal
 
 **> Input Ports:**
-- **HTML Element** (Object:Element): *See documentation*
-- **HTML Element 2** (Object:Element): *See documentation*
+- **HTML Element** (Object:Element)
+- **HTML Element 2** (Object:Element)
 
 **< Output Ports:**
-- **Equal** (booleanNumber): *See documentation*
+- **Equal** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LZSRjH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementEquals"*
@@ -351,14 +351,14 @@
 **Description:** fade html elements in or out
 
 **> Input Ports:**
-- **HTML Element** (Object): *See documentation*
-- **Visible** (Number: Boolean): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Opacity** (Number): *See documentation*
+- **HTML Element** (Object)
+- **Visible** (Number: Boolean)
+- **Duration** (Number)
+- **Opacity** (Number)
 
 **< Output Ports:**
-- **PassThrough** (Object): *See documentation*
-- **Is Showing** (booleanNumber): *See documentation*
+- **PassThrough** (Object)
+- **Is Showing** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Whj018)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementFadeInOut_v2"*
@@ -373,11 +373,11 @@
 **Description:** get the closest parent element matching the query selector
 
 **> Input Ports:**
-- **HTML Element** (Object:Element): *See documentation*
-- **Query** (String): *See documentation*
+- **HTML Element** (Object:Element)
+- **Query** (String)
 
 **< Output Ports:**
-- **Element** (Object): *See documentation*
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ojHGjH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementGetClosest"*
@@ -392,14 +392,14 @@
 **Description:** Use a cables gradient as HTML element background
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Rect Color Space Index** (Number: Integer): *See documentation*
-- **Angle** (Number): *See documentation*
-- **Gradient Object** (Object:Gradient): *See documentation*
+- **Element** (Object:Element)
+- **Rect Color Space Index** (Number: Integer)
+- **Angle** (Number)
+- **Gradient Object** (Object:Gradient)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
-- **CSS String** (String): *See documentation*
+- **HTML Element** (Object)
+- **CSS String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QB7br5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementGradientBg"*
@@ -414,12 +414,12 @@
 **Description:** Does the element currenty have a specific class set
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Classname** (String): *See documentation*
-- **Update** (Trigger): *See documentation*
+- **Element** (Object:Element)
+- **Classname** (String)
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Has Class** (booleanNumber): *See documentation*
+- **Has Class** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ElementHasClass#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementHasClass"*
@@ -434,11 +434,11 @@
 **Description:** Get information about an element
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
+- **Element** (Object)
 
 **< Output Ports:**
-- **Tagname** (String): *See documentation*
-- **Id** (String): *See documentation*
+- **Tagname** (String)
+- **Id** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0iRDu1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementInfo"*
@@ -453,11 +453,11 @@
 **Description:** Is the connected element currently focused
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Update** (Trigger): *See documentation*
+- **Element** (Object:Element)
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Has Focus** (booleanNumber): *See documentation*
+- **Has Focus** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9jTwz1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementIsFocused"*
@@ -472,13 +472,13 @@
 **Description:** get html element absolute positions and sizes by classname
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Classname** (String): *See documentation*
+- **Update** (Trigger)
+- **Classname** (String)
 
 **< Output Ports:**
-- **Position** (Array): *See documentation*
-- **Size** (Array): *See documentation*
-- **Total Elements** (Number): *See documentation*
+- **Position** (Array)
+- **Size** (Array)
+- **Total Elements** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ElementsPositionsByClass#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementsPositionsByClass"*
@@ -493,13 +493,13 @@
 **Description:** Load a font file like .otf, .ttf, .woff via css
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Family** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **File** (String)
+- **Family** (String)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Loaded** (booleanNumber): *See documentation*
-- **Loaded Trigger** (Trigger): *See documentation*
+- **Loaded** (booleanNumber)
+- **Loaded Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xR9zIR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FontFile_v2"*
@@ -517,7 +517,7 @@
 - *Visit [Ops.Html.FontsLoaded documentation](https://cables.gl/op/Ops.Html.FontsLoaded) for input port details*
 
 **< Output Ports:**
-- **Font Loaded** (Trigger): *See documentation*
+- **Font Loaded** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xP04r1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FontsLoaded"*
@@ -532,12 +532,12 @@
 **Description:** Switch webgl to fullscreen
 
 **> Input Ports:**
-- **Request Fullscreen** (Trigger): *See documentation*
-- **Exit Fullscreen** (Trigger): *See documentation*
+- **Request Fullscreen** (Trigger)
+- **Exit Fullscreen** (Trigger)
 
 **< Output Ports:**
-- **Is Fullscreen** (booleanNumber): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
+- **Is Fullscreen** (booleanNumber)
+- **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CCoJji)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FullscreenMode"*
@@ -552,12 +552,12 @@
 **Description:** Copy GL canvas content to another canvas
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Canvas** (Object:Element): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Canvas** (Object:Element)
+- **Smooth** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u2vAu1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlCopyToCanvas"*
@@ -572,11 +572,11 @@
 **Description:** Open another website
 
 **> Input Ports:**
-- **Open** (Trigger): *See documentation*
-- **URL** (String): *See documentation*
-- **Frame Name** (String): *See documentation*
-- **Win Specs** (String): *See documentation*
-- **Rel Attribute** (String): *See documentation*
+- **Open** (Trigger)
+- **URL** (String)
+- **Frame Name** (String)
+- **Win Specs** (String)
+- **Rel Attribute** (String)
 
 **< Output Ports:**
 - *Visit [Ops.Html.HyperLink_v3 documentation](https://cables.gl/op/Ops.Html.HyperLink_v3) for output port details*
@@ -594,13 +594,13 @@
 **Description:** Set innerHTML or innerTEXT of an HTML element
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Value** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Clear** (Trigger): *See documentation*
+- **Element** (Object)
+- **Value** (String)
+- **Active** (Number: Boolean)
+- **Clear** (Trigger)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jgArsw)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InnerHTML"*
@@ -615,12 +615,12 @@
 **Description:** Append string to the inner html or an element
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Html** (String): *See documentation*
-- **Trigger** (Trigger): *See documentation*
+- **Element** (Object:Element)
+- **Html** (String)
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hmTiu1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InnerHtmlAppend"*
@@ -635,9 +635,9 @@
 **Description:** creates a mailto: link to open the default email app
 
 **> Input Ports:**
-- **Email** (String): *See documentation*
-- **Subject** (String): *See documentation*
-- **Execute** (Trigger): *See documentation*
+- **Email** (String)
+- **Subject** (String)
+- **Execute** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Html.MailtoLink documentation](https://cables.gl/op/Ops.Html.MailtoLink) for output port details*
@@ -655,11 +655,11 @@
 **Description:** markdown markup language to html parser
 
 **> Input Ports:**
-- **Markdown** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Markdown** (String)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Html** (String): *See documentation*
+- **Html** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/52Zlij)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MarkdownToHtml"*
@@ -674,16 +674,16 @@
 **Description:** create a modal HTML overlay with a darkened background
 
 **> Input Ports:**
-- **Content Element** (Object): *See documentation*
-- **Show** (Trigger): *See documentation*
-- **Close** (Trigger): *See documentation*
-- **Show Closebutton** (Number: Boolean): *See documentation*
-- **Opacity** (Number): *See documentation*
+- **Content Element** (Object)
+- **Show** (Trigger)
+- **Close** (Trigger)
+- **Show Closebutton** (Number: Boolean)
+- **Opacity** (Number)
 
 **< Output Ports:**
-- **Visible** (booleanNumber): *See documentation*
-- **Closed** (Trigger): *See documentation*
-- **Element** (Object): *See documentation*
+- **Visible** (booleanNumber)
+- **Closed** (Trigger)
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RXU-K2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ModalOverlay"*
@@ -698,14 +698,14 @@
 **Description:** Selects an element in the DOM
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Query** (String): *See documentation*
-- **Type Index** (Number: Integer): *See documentation*
-- **Document** (String): *See documentation*
-- **Input Element** (Object:Element): *See documentation*
+- **Update** (Trigger)
+- **Query** (String)
+- **Type Index** (Number: Integer)
+- **Document** (String)
+- **Input Element** (Object:Element)
 
 **< Output Ports:**
-- **Element** (Object): *See documentation*
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/C6z3GH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QuerySelector_v3"*
@@ -720,15 +720,15 @@
 **Description:** Selects all matching elements in the DOM
 
 **> Input Ports:**
-- **Query** (String): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Type Index** (Number: Integer): *See documentation*
-- **Document** (String): *See documentation*
-- **Element** (Object:Element): *See documentation*
-- **Update** (Trigger): *See documentation*
+- **Query** (String)
+- **Mode Index** (Number: Integer)
+- **Type Index** (Number: Integer)
+- **Document** (String)
+- **Element** (Object:Element)
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Elements** (Array): *See documentation*
+- **Elements** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QTs5GH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QuerySelectorAll_v2"*
@@ -743,7 +743,7 @@
 **Description:** reload the website
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
+- **Exec** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Html.ReloadPage documentation](https://cables.gl/op/Ops.Html.ReloadPage) for output port details*
@@ -761,11 +761,11 @@
 **Description:** Scroll an area, so the html element is visible/in view
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Scroll Into View** (Trigger): *See documentation*
+- **Element** (Object:Element)
+- **Scroll Into View** (Trigger)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScrollIntoView"*
@@ -780,16 +780,16 @@
 **Description:** the current x y top left scrolling position of html page or element
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Element** (Object:Element): *See documentation*
-- **Scroll To Top** (Trigger): *See documentation*
+- **Update** (Trigger)
+- **Element** (Object:Element)
+- **Scroll To Top** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Left** (Number): *See documentation*
-- **Top** (Number): *See documentation*
-- **Percentage X** (Number): *See documentation*
-- **Percentage Y** (Number): *See documentation*
+- **Next** (Trigger)
+- **Left** (Number)
+- **Top** (Number)
+- **Percentage X** (Number)
+- **Percentage Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ScrollPosition_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScrollPosition_v2"*
@@ -804,9 +804,9 @@
 **Description:** Trigger the browser to scroll to top or bottom of an element
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Scroll To Top** (Trigger): *See documentation*
-- **Scroll To Bottom** (Trigger): *See documentation*
+- **Element** (Object:Element)
+- **Scroll To Top** (Trigger)
+- **Scroll To Bottom** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Html.ScrollTo documentation](https://cables.gl/op/Ops.Html.ScrollTo) for output port details*
@@ -824,7 +824,7 @@
 **Description:** close current window
 
 **> Input Ports:**
-- **Close** (Trigger): *See documentation*
+- **Close** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Html.WindowClose documentation](https://cables.gl/op/Ops.Html.WindowClose) for output port details*
@@ -845,8 +845,8 @@
 - *Visit [Ops.Html.WindowHasFocus documentation](https://cables.gl/op/Ops.Html.WindowHasFocus) for input port details*
 
 **< Output Ports:**
-- **Has Focus** (booleanNumber): *See documentation*
-- **Tab Visible** (booleanNumber): *See documentation*
+- **Has Focus** (booleanNumber)
+- **Tab Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uI9yOg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WindowHasFocus"*
@@ -864,13 +864,13 @@
 - *Visit [Ops.Html.WindowInfo documentation](https://cables.gl/op/Ops.Html.WindowInfo) for input port details*
 
 **< Output Ports:**
-- **ClientWidth** (Number): *See documentation*
-- **ClientHeight** (Number): *See documentation*
-- **Body Scroll Height** (Number): *See documentation*
-- **Device Pixel Ratio** (Number): *See documentation*
-- **Iframe Parent** (booleanNumber): *See documentation*
-- **Orientation Angle** (Number): *See documentation*
-- **Orientation Type** (String): *See documentation*
+- **ClientWidth** (Number)
+- **ClientHeight** (Number)
+- **Body Scroll Height** (Number)
+- **Device Pixel Ratio** (Number)
+- **Iframe Parent** (booleanNumber)
+- **Orientation Angle** (Number)
+- **Orientation Type** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DyHxSP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WindowInfo"*
@@ -885,11 +885,11 @@
 **Description:** Get the current scroll position of the window
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Scoll X** (Number): *See documentation*
-- **Scoll Y** (Number): *See documentation*
+- **Scoll X** (Number)
+- **Scoll Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.WindowScroll#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WindowScroll"*

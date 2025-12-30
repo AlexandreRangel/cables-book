@@ -13,19 +13,19 @@
 **Description:** create an array of div elements
 
 **> Input Ports:**
-- **Class** (String): *See documentation*
-- **Parent** (Object:Element): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Text** (Array): *See documentation*
-- **Reset Hover** (Trigger): *See documentation*
+- **Class** (String)
+- **Parent** (Object:Element)
+- **Num** (Number: Integer)
+- **Active** (Number: Boolean)
+- **Text** (Array)
+- **Reset Hover** (Trigger)
 
 **< Output Ports:**
-- **Elements** (Array): *See documentation*
-- **Index Clicked** (Number): *See documentation*
-- **Element Clicked** (Trigger): *See documentation*
-- **Pointer Up** (Trigger): *See documentation*
-- **Index Hovered** (Number): *See documentation*
+- **Elements** (Array)
+- **Index Clicked** (Number)
+- **Element Clicked** (Trigger)
+- **Pointer Up** (Trigger)
+- **Index Hovered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lYLMwk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DivElements"*
@@ -40,14 +40,14 @@
 **Description:** Set css style properties of a html element
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Update** (Trigger): *See documentation*
-- **Property** (String): *See documentation*
-- **Value** (Number): *See documentation*
-- **Value Suffix** (String): *See documentation*
+- **Element** (Object)
+- **Update** (Trigger)
+- **Property** (String)
+- **Value** (Number)
+- **Value Suffix** (String)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementArrayCssPropertyNumber"*
@@ -62,14 +62,14 @@
 **Description:** set css properties
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Update** (Trigger): *See documentation*
-- **Property** (String): *See documentation*
-- **Value** (String): *See documentation*
-- **Value Suffix** (String): *See documentation*
+- **Element** (Object)
+- **Update** (Trigger)
+- **Property** (String)
+- **Value** (String)
+- **Value Suffix** (String)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementArrayCssPropertyString"*

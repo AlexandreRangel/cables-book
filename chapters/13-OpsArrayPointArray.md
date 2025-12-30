@@ -13,22 +13,22 @@
 **Description:** Remove points from an array3 with different shapes
 
 **> Input Ports:**
-- **In Trigger** (Trigger): *See documentation*
-- **In Array** (Array): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Size** (Number): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **In Trigger** (Trigger)
+- **In Array** (Array)
+- **Mode Index** (Number: Integer)
+- **Size** (Number)
+- **Invert** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Out Trigger** (Trigger): *See documentation*
-- **Out Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Out X** (Number): *See documentation*
-- **Out Y** (Number): *See documentation*
-- **Out Z** (Number): *See documentation*
+- **Out Trigger** (Trigger)
+- **Out Array** (Array)
+- **Array Length** (Number)
+- **Out X** (Number)
+- **Out Y** (Number)
+- **Out Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sfikWi)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3AreaRemove"*
@@ -43,17 +43,17 @@
 **Description:** Visually edit positions in an array of point coordinates
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Total Points** (Number: Integer): *See documentation*
-- **Edit** (Number: Boolean): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Copy From Index** (Number: Integer): *See documentation*
-- **Copy Coordinates** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Execute** (Trigger)
+- **Total Points** (Number: Integer)
+- **Edit** (Number: Boolean)
+- **Index** (Number: Integer)
+- **Copy From Index** (Number: Integer)
+- **Copy Coordinates** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Coordinates** (Array): *See documentation*
+- **Next** (Trigger)
+- **Coordinates** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2Bhet7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3PointEditor"*
@@ -68,23 +68,23 @@
 **Description:** Repeat an array by transforming it x times
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Times** (Number: Integer): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
-- **Rotation X** (Number): *See documentation*
-- **Rotation Y** (Number): *See documentation*
-- **Rotation Z** (Number): *See documentation*
-- **Position Array** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Array** (Array)
+- **Times** (Number: Integer)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
+- **Rotation X** (Number)
+- **Rotation Y** (Number)
+- **Rotation Z** (Number)
+- **Position Array** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9nSWVj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3RepeatTransform"*
@@ -99,11 +99,11 @@
 **Description:** Return the distance between 2 points from an array
 
 **> Input Ports:**
-- **Array In 1** (Array): *See documentation*
-- **Array In 2** (Array): *See documentation*
+- **Array In 1** (Array)
+- **Array In 2** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tbb8xN)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3VectorDistance"*
@@ -118,26 +118,26 @@
 **Description:** Particle spray simulation
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Time** (Number): *See documentation*
-- **Num** (Number): *See documentation*
-- **Size X** (Number): *See documentation*
-- **Size Y** (Number): *See documentation*
-- **Size Z** (Number): *See documentation*
-- **Movement X** (Number): *See documentation*
-- **Movement Y** (Number): *See documentation*
-- **Movement Z** (Number): *See documentation*
-- **Center X** (Number: Boolean): *See documentation*
-- **Center Y** (Number: Boolean): *See documentation*
-- **Center Z** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Lifetime** (Number): *See documentation*
-- **Lifetime Minimum** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Time** (Number)
+- **Num** (Number)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Movement X** (Number)
+- **Movement Y** (Number)
+- **Movement Z** (Number)
+- **Center X** (Number: Boolean)
+- **Center Y** (Number: Boolean)
+- **Center Z** (Number: Boolean)
+- **Reset** (Trigger)
+- **Lifetime** (Number)
+- **Lifetime Minimum** (Number)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Lifetime** (Array): *See documentation*
+- **Trigger Out** (Trigger)
+- **Positions** (Array)
+- **Lifetime** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hY5lAw)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySpray"*
@@ -152,22 +152,22 @@
 **Description:** Create arrays for circular shapes, helix, circle, etc.
 
 **> Input Ports:**
-- **Radius** (Number): *See documentation*
-- **Round Segments** (Number): *See documentation*
-- **Rounds** (Number): *See documentation*
-- **Radius Add Round** (Number): *See documentation*
-- **Radius Add Point** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Point Offset XY** (Number): *See documentation*
-- **Point Offset Z** (Number): *See documentation*
-- **Offset Rotation** (Number): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
+- **Radius** (Number)
+- **Round Segments** (Number)
+- **Rounds** (Number)
+- **Radius Add Round** (Number)
+- **Radius Add Point** (Number)
+- **Offset** (Number)
+- **Point Offset XY** (Number)
+- **Point Offset Z** (Number)
+- **Offset Rotation** (Number)
+- **Loop** (Number: Boolean)
 
 **< Output Ports:**
-- **Points** (Array): *See documentation*
-- **Rotation** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Lengths** (Number): *See documentation*
+- **Points** (Array)
+- **Rotation** (Array)
+- **Total Points** (Number)
+- **Array Lengths** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V34dYh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CircularPoints_v2"*
@@ -182,12 +182,12 @@
 **Description:** Fill an XYZ array with existing duplicate points until it reaches the length
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Num Elements** (Number: Integer): *See documentation*
-- **Calculate** (Trigger): *See documentation*
+- **Array** (Array)
+- **Num Elements** (Number: Integer)
+- **Calculate** (Trigger)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FillPointArrayDuplicates"*
@@ -202,16 +202,16 @@
 **Description:** Generate a 3d point field with controllable amount of xyz points (was PointsField3d)
 
 **> Input Ports:**
-- **Num X** (Number: Integer): *See documentation*
-- **Num Y** (Number: Integer): *See documentation*
-- **Num Z** (Number: Integer): *See documentation*
-- **Mul** (Number): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
+- **Num X** (Number: Integer)
+- **Num Y** (Number: Integer)
+- **Num Z** (Number: Integer)
+- **Mul** (Number)
+- **Center** (Number: Boolean)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_SC2JB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsCube"*
@@ -226,17 +226,17 @@
 **Description:** Generate coordinates for a hexagon grid, outputs array3x
 
 **> Input Ports:**
-- **Rows** (Number: Integer): *See documentation*
-- **Colums** (Number: Integer): *See documentation*
-- **Hex Facing Index** (Number: Integer): *See documentation*
-- **Hex Facing** (String): *See documentation*
-- **Flip Corners** (Number: Boolean): *See documentation*
-- **Tile X Offset** (Number): *See documentation*
-- **Tile Y Offset** (Number): *See documentation*
-- **Multiplier** (Number): *See documentation*
+- **Rows** (Number: Integer)
+- **Colums** (Number: Integer)
+- **Hex Facing Index** (Number: Integer)
+- **Hex Facing** (String)
+- **Flip Corners** (Number: Boolean)
+- **Tile X Offset** (Number)
+- **Tile Y Offset** (Number)
+- **Multiplier** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GLLdrn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsHexagonGrid"*
@@ -251,19 +251,19 @@
 **Description:** Generate coordinates for a rectangular field / grid of points
 
 **> Input Ports:**
-- **Rows** (Number: Integer): *See documentation*
-- **Columns** (Number: Integer): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Row Offset** (Number): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
+- **Rows** (Number: Integer)
+- **Columns** (Number: Integer)
+- **Width** (Number)
+- **Height** (Number)
+- **Row Offset** (Number)
+- **Center** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Row Numbers** (Array): *See documentation*
-- **Column Numbers** (Array): *See documentation*
+- **Result** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
+- **Row Numbers** (Array)
+- **Column Numbers** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/icchV5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsPlane_v2"*
@@ -278,19 +278,19 @@
 **Description:** Generate an array of XYZ coordinates of an rectangle
 
 **> Input Ports:**
-- **Line Strip** (Number: Boolean): *See documentation*
-- **Segments** (Number: Integer): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Border Radius** (Number): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **Top Left** (Number: Boolean): *See documentation*
-- **Top Right** (Number: Boolean): *See documentation*
-- **Bottom Left** (Number: Boolean): *See documentation*
-- **Bottom Right** (Number: Boolean): *See documentation*
+- **Line Strip** (Number: Boolean)
+- **Segments** (Number: Integer)
+- **Width** (Number)
+- **Height** (Number)
+- **Border Radius** (Number)
+- **Loop** (Number: Boolean)
+- **Top Left** (Number: Boolean)
+- **Top Right** (Number: Boolean)
+- **Bottom Left** (Number: Boolean)
+- **Bottom Right** (Number: Boolean)
 
 **< Output Ports:**
-- **Points** (Array): *See documentation*
+- **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/l1KQN8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsRectangle_v2"*
@@ -305,20 +305,20 @@
 **Description:** Generate an array of points of a rectangle with rounded corners
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Segments** (Number: Integer): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Border Radius** (Number): *See documentation*
-- **Top Left** (Number: Boolean): *See documentation*
-- **Top Right** (Number: Boolean): *See documentation*
-- **Bottom Left** (Number: Boolean): *See documentation*
-- **Bottom Right** (Number: Boolean): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Segments** (Number: Integer)
+- **Width** (Number)
+- **Height** (Number)
+- **Border Radius** (Number)
+- **Top Left** (Number: Boolean)
+- **Top Right** (Number: Boolean)
+- **Bottom Left** (Number: Boolean)
+- **Bottom Right** (Number: Boolean)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A7nLgQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsRectangleRounded_v2"*
@@ -333,16 +333,16 @@
 **Description:** Generate a point field mapped to the surface of a sphere
 
 **> Input Ports:**
-- **Amount Of Points** (Number: Integer): *See documentation*
-- **Sphere Size** (Number): *See documentation*
-- **Random Seed** (Number): *See documentation*
-- **Random Distance From Sphere** (Number): *See documentation*
-- **Distribution Index** (Number: Integer): *See documentation*
+- **Amount Of Points** (Number: Integer)
+- **Sphere Size** (Number)
+- **Random Seed** (Number)
+- **Random Distance From Sphere** (Number)
+- **Distribution Index** (Number: Integer)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yBeQUy)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsSphereRandom"*
@@ -357,14 +357,14 @@
 **Description:** Recalculate a spline / change number of points of a spline
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
-- **Num Points** (Number: Integer): *See documentation*
-- **Calculate** (Trigger): *See documentation*
-- **Normalized** (Number: Boolean): *See documentation*
+- **Array3x** (Array)
+- **Num Points** (Number: Integer)
+- **Calculate** (Trigger)
+- **Normalized** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Spline Length** (Number): *See documentation*
+- **Result** (Array)
+- **Spline Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.PointArray.RedistributeSplinePoints#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RedistributeSplinePoints"*
@@ -379,11 +379,11 @@
 **Description:** Sort an array3, by the distance of each point to the previous point
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Result Index** (Array): *See documentation*
+- **Result** (Array)
+- **Result Index** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7C6DlJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArray3ByDistance"*
@@ -398,17 +398,17 @@
 **Description:** Get position in array3/spline at distance from start
 
 **> Input Ports:**
-- **Calculate** (Trigger): *See documentation*
-- **Array3x** (Array): *See documentation*
-- **Distance** (Number): *See documentation*
-- **Normalized** (Number: Boolean): *See documentation*
+- **Calculate** (Trigger)
+- **Array3x** (Array)
+- **Distance** (Number)
+- **Normalized** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Spline Length** (Number): *See documentation*
+- **Next** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Spline Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6XhHR7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplinePositionAtDistanceArray3"*
@@ -423,13 +423,13 @@
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
 **> Input Ports:**
-- **Points** (Array): *See documentation*
-- **Num Subdivs** (Number: Integer): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
+- **Points** (Array)
+- **Num Subdivs** (Number: Integer)
+- **Smooth** (Number: Boolean)
+- **Loop** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uywtvc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubdivideArray3_v2"*
@@ -444,21 +444,21 @@
 **Description:** Transform (translate, rotate, scale) positions in an array3x
 
 **> Input Ports:**
-- **Transform** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
-- **Rotation X** (Number): *See documentation*
-- **Rotation Y** (Number): *See documentation*
-- **Rotation Z** (Number): *See documentation*
+- **Transform** (Trigger)
+- **Array** (Array)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
+- **Rotation X** (Number)
+- **Rotation Y** (Number)
+- **Rotation Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NenSet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformArray3"*

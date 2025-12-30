@@ -16,8 +16,8 @@
 - *Visit [Ops.Ui.Debug.PatchUiCoords documentation](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords) for input port details*
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PatchUiCoords"*

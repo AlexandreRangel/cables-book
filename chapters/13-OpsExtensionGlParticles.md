@@ -13,35 +13,35 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
-- **Method Index** (Number: Integer): *See documentation*
-- **Invert Area** (Number: Boolean): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Size** (Number): *See documentation*
-- **Falloff** (Number): *See documentation*
-- **Boncyness** (Number): *See documentation*
-- **Collision Fade** (Number): *See documentation*
-- **Dir Randomness** (Number): *See documentation*
-- **InForceOutwards** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Velocity Dir X** (Number): *See documentation*
-- **Velocity Dir Y** (Number): *See documentation*
-- **Velocity Dir Z** (Number): *See documentation*
-- **Size X** (Number): *See documentation*
-- **Size Y** (Number): *See documentation*
-- **Size Z** (Number): *See documentation*
-- **Multiply** (Object:Texture): *See documentation*
-- **Age Start** (Number): *See documentation*
-- **Age End** (Number): *See documentation*
-- **Age Fade** (Number): *See documentation*
+- **Render** (Trigger)
+- **Area Index** (Number: Integer)
+- **Method Index** (Number: Integer)
+- **Invert Area** (Number: Boolean)
+- **Strength** (Number)
+- **Size** (Number)
+- **Falloff** (Number)
+- **Boncyness** (Number)
+- **Collision Fade** (Number)
+- **Dir Randomness** (Number)
+- **InForceOutwards** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Velocity Dir X** (Number)
+- **Velocity Dir Y** (Number)
+- **Velocity Dir Z** (Number)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Multiply** (Object:Texture)
+- **Age Start** (Number)
+- **Age End** (Number)
+- **Age Fade** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Velocity** (Object): *See documentation*
-- **Collision** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Velocity** (Object)
+- **Collision** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VelocityBoundaries"*

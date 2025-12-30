@@ -13,13 +13,13 @@
 **Description:** cables logo mesh/geometry
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Scale** (Number)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xUMq3j)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CablesLogo"*
@@ -34,19 +34,19 @@
 **Description:** Draws a circle to the canvas.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Radius** (Number): *See documentation*
-- **InnerRadius** (Number): *See documentation*
-- **Segments** (Number: Integer): *See documentation*
-- **Percent** (Number): *See documentation*
-- **Steps** (Number): *See documentation*
-- **InvertSteps** (Number: Boolean): *See documentation*
-- **Spline** (Number: Boolean): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Radius** (Number)
+- **InnerRadius** (Number)
+- **Segments** (Number: Integer)
+- **Percent** (Number)
+- **Steps** (Number)
+- **InvertSteps** (Number: Boolean)
+- **Spline** (Number: Boolean)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DAAkQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Circle_v3"*
@@ -61,19 +61,19 @@
 **Description:** Draws a cross with controllable thickness and length.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size** (Number): *See documentation*
-- **Thickness** (Number): *See documentation*
-- **Crosshair** (Number: Boolean): *See documentation*
-- **Left** (Number: Boolean): *See documentation*
-- **Right** (Number: Boolean): *See documentation*
-- **Top** (Number: Boolean): *See documentation*
-- **Bottom** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Size** (Number)
+- **Thickness** (Number)
+- **Crosshair** (Number: Boolean)
+- **Left** (Number: Boolean)
+- **Right** (Number: Boolean)
+- **Top** (Number: Boolean)
+- **Bottom** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ojTS_o)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cross"*
@@ -88,24 +88,24 @@
 **Description:** Draws a cube to the canvas. Please note that without doing a rotation you will only see a rectangle.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
-- **Width** (Number): *See documentation*
-- **Length** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
-- **Bias** (Number): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Top** (Number: Boolean): *See documentation*
-- **Bottom** (Number: Boolean): *See documentation*
-- **Left** (Number: Boolean): *See documentation*
-- **Right** (Number: Boolean): *See documentation*
-- **Front** (Number: Boolean): *See documentation*
-- **Back** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Render Mesh** (Number: Boolean)
+- **Width** (Number)
+- **Length** (Number)
+- **Height** (Number)
+- **Center** (Number: Boolean)
+- **Bias** (Number)
+- **Flip X** (Number: Boolean)
+- **Top** (Number: Boolean)
+- **Bottom** (Number: Boolean)
+- **Left** (Number: Boolean)
+- **Right** (Number: Boolean)
+- **Front** (Number: Boolean)
+- **Back** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0ghhQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cube_v2"*
@@ -120,18 +120,18 @@
 **Description:** draw a rectangle (plane, square)
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Render** (Number: Boolean): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Flip TexCoord X** (Number: Boolean): *See documentation*
-- **Flip TexCoord Y** (Number: Boolean): *See documentation*
-- **Num Columns** (Number: Integer): *See documentation*
-- **Num Rows** (Number: Integer): *See documentation*
+- **Trigger** (Trigger)
+- **Render** (Number: Boolean)
+- **Width** (Number)
+- **Height** (Number)
+- **Flip TexCoord X** (Number: Boolean)
+- **Flip TexCoord Y** (Number: Boolean)
+- **Num Columns** (Number: Integer)
+- **Num Rows** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/M3QiQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Rectangle_v4"*
@@ -146,15 +146,15 @@
 **Description:** Draw parameterizable sphere
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Stacks** (Number): *See documentation*
-- **Slices** (Number): *See documentation*
-- **Filloffset** (Number): *See documentation*
+- **Render** (Trigger)
+- **Radius** (Number)
+- **Stacks** (Number)
+- **Slices** (Number)
+- **Filloffset** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HvxfQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Sphere_v3"*
@@ -169,19 +169,19 @@
 **Description:** draw a star mesh (saw,gear)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Segments** (Number): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Shape Index** (Number: Integer): *See documentation*
-- **Length** (Number): *See documentation*
-- **Peak Z Pos** (Number): *See documentation*
-- **Percent** (Number): *See documentation*
-- **Fill** (Number: Boolean): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Segments** (Number)
+- **Radius** (Number)
+- **Shape Index** (Number: Integer)
+- **Length** (Number)
+- **Peak Z Pos** (Number)
+- **Percent** (Number)
+- **Fill** (Number: Boolean)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eXhAY4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Star_v2"*
@@ -196,14 +196,14 @@
 **Description:** Renders a triangle to the canvas.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RnNiQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Triangle_v2"*

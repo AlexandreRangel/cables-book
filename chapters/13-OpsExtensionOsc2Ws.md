@@ -13,15 +13,15 @@
 **Description:** Outputs an array of data from a user defined OSC address
 
 **> Input Ports:**
-- **Message** (Object): *See documentation*
-- **Address** (String): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **Message** (Object)
+- **Address** (String)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **Result Message** (Object): *See documentation*
-- **Array Out** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Received** (Trigger): *See documentation*
+- **Result Message** (Object)
+- **Array Out** (Array)
+- **Array Length** (Number)
+- **Received** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc2WsArray"*
@@ -36,12 +36,12 @@
 **Description:** Shows the current active address of an incoming OSC message
 
 **> Input Ports:**
-- **Message** (Object): *See documentation*
+- **Message** (Object)
 
 **< Output Ports:**
-- **Adress** (String): *See documentation*
-- **Arguments** (Array): *See documentation*
-- **Total Arguments** (Number): *See documentation*
+- **Adress** (String)
+- **Arguments** (Array)
+- **Total Arguments** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc2WsMessage"*
@@ -56,14 +56,14 @@
 **Description:** Outputs a single number from a user defined OSC address
 
 **> Input Ports:**
-- **Message** (Object): *See documentation*
-- **Address** (String): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **Message** (Object)
+- **Address** (String)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **Result Message** (Object): *See documentation*
-- **Value** (Number): *See documentation*
-- **Received** (Trigger): *See documentation*
+- **Result Message** (Object)
+- **Value** (Number)
+- **Received** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc2WsNumber"*
@@ -78,17 +78,17 @@
 **Description:** Outputs up to 4 numbers from a user defined OSC address
 
 **> Input Ports:**
-- **Message In** (Object): *See documentation*
-- **Osc Address** (String): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **Message In** (Object)
+- **Osc Address** (String)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **Message Through** (Object): *See documentation*
-- **Received** (Trigger): *See documentation*
-- **Number 0** (Number): *See documentation*
-- **Number 1** (Number): *See documentation*
-- **Number 2** (Number): *See documentation*
-- **Number 3** (Number): *See documentation*
+- **Message Through** (Object)
+- **Received** (Trigger)
+- **Number 0** (Number)
+- **Number 1** (Number)
+- **Number 2** (Number)
+- **Number 3** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc2WsNumbers"*

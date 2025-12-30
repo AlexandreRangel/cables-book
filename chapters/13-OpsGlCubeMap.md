@@ -13,16 +13,16 @@
 **Description:** generate a cubemap from 6 textures
 
 **> Input Ports:**
-- **Posx** (String): *See documentation*
-- **Negx** (String): *See documentation*
-- **Posy** (String): *See documentation*
-- **Negy** (String): *See documentation*
-- **Posz** (String): *See documentation*
-- **Negz** (String): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
+- **Posx** (String)
+- **Negx** (String)
+- **Posy** (String)
+- **Negy** (String)
+- **Posz** (String)
+- **Negz** (String)
+- **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
-- **Cubemap** (Object): *See documentation*
+- **Cubemap** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-QPf26)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CubeMapFromTextures_v2"*
@@ -37,21 +37,21 @@
 **Description:** use a cubemap or equirectangular texture as a material
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Cubemap** (Object): *See documentation*
-- **Use Reflection** (Number: Boolean): *See documentation*
-- **Blur** (Number): *See documentation*
-- **Rotation** (Number): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Flip Z** (Number: Boolean): *See documentation*
-- **Colorize** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **Render** (Trigger)
+- **Cubemap** (Object)
+- **Use Reflection** (Number: Boolean)
+- **Blur** (Number)
+- **Rotation** (Number)
+- **Flip X** (Number: Boolean)
+- **Flip Y** (Number: Boolean)
+- **Flip Z** (Number: Boolean)
+- **Colorize** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u5y0Z5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CubeMapMaterial_v2"*
@@ -66,17 +66,17 @@
 **Description:** visualize cubemap as folded texture or equirectangular texture
 
 **> Input Ports:**
-- **In Trigger** (Trigger): *See documentation*
-- **Cubemap** (Object): *See documentation*
-- **Projection Index** (Number: Integer): *See documentation*
-- **Format Index** (Number: Integer): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
+- **In Trigger** (Trigger)
+- **Cubemap** (Object)
+- **Projection Index** (Number: Integer)
+- **Format Index** (Number: Integer)
+- **Filter Index** (Number: Integer)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
 
 **< Output Ports:**
-- **Out Trigger** (Trigger): *See documentation*
-- **Result** (Object): *See documentation*
+- **Out Trigger** (Trigger)
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pNZHYa)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CubemapToEquirectangularTexture_v2"*
@@ -91,15 +91,15 @@
 **Description:** convert an equirectangular map to a cubemap
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Equirectangular Map** (Object:Texture): *See documentation*
-- **Cubemap Size Index** (Number: Integer): *See documentation*
-- **Advanced** (Number: Boolean): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
+- **Trigger In** (Trigger)
+- **Equirectangular Map** (Object:Texture)
+- **Cubemap Size Index** (Number: Integer)
+- **Advanced** (Number: Boolean)
+- **Filter Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Cubemap Projection** (Object): *See documentation*
+- **Trigger Out** (Trigger)
+- **Cubemap Projection** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/O1NBYa)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EquirectangularTextureToCubemap"*
@@ -114,14 +114,14 @@
 **Description:** render a scene into a cubemap
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size Index** (Number: Integer): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
-- **MSAA Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Size Index** (Number: Integer)
+- **Pixel Format Index** (Number: Integer)
+- **MSAA Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Cubemap** (Object): *See documentation*
+- **Next** (Trigger)
+- **Cubemap** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z3KuUQ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToCubemap_v3"*
@@ -136,16 +136,16 @@
 **Description:** render an equirectangular map or a cubemap as scene background
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Render** (Number: Boolean): *See documentation*
-- **Skybox** (Object:Texture): *See documentation*
-- **Rotate** (Number): *See documentation*
-- **RGBE Format** (Number: Boolean): *See documentation*
-- **Exposure** (Number): *See documentation*
-- **Gamma** (Number): *See documentation*
+- **Trigger In** (Trigger)
+- **Render** (Number: Boolean)
+- **Skybox** (Object:Texture)
+- **Rotate** (Number)
+- **RGBE Format** (Number: Boolean)
+- **Exposure** (Number)
+- **Gamma** (Number)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/40hoYa)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Skybox"*

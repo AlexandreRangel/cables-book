@@ -13,12 +13,12 @@
 **Description:** returns the array at the position defined by a path
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Path** (String): *See documentation*
-- **path to array** (i.e. data.numbers): *See documentation*
+- **Array** (Array)
+- **Path** (String)
+- **path to array** (i.e. data.numbers)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uqXSWr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetArrayByPath"*
@@ -33,12 +33,12 @@
 **Description:** Outputs all the values of the properties of an array of objects given a path
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Path** (String): *See documentation*
-- **path to first array field** (i.e. "data.0.firstName"): *See documentation*
+- **Array** (Array)
+- **Path** (String)
+- **path to first array field** (i.e. "data.0.firstName")
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Y3pXWr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetArrayValuesByPath"*
@@ -53,12 +53,12 @@
 **Description:** finds a number at a position in an array defined by path
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Path** (String): *See documentation*
-- **the past** (i.e. person.age): *See documentation*
+- **Array** (Array)
+- **Path** (String)
+- **the past** (i.e. person.age)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7kSVWr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetNumberByPath"*
@@ -73,11 +73,11 @@
 **Description:** Returns the object at the position defined by a path
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Path** (String): *See documentation*
+- **Array** (Array)
+- **Path** (String)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AapUWr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetObjectByPath"*
@@ -92,13 +92,13 @@
 **Description:** Finds a string at a position in an array defined by path
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Path** (String): *See documentation*
-- **the path** (i.e. data.names): *See documentation*
-- **Return Path If Missing** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Path** (String)
+- **the path** (i.e. data.names)
+- **Return Path If Missing** (Number: Boolean)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rs0XWr)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetStringByPath_v2"*
@@ -113,12 +113,12 @@
 **Description:** returns the array at the position defined by a path
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **Path** (String): *See documentation*
-- **path to array** (i.e. data.numbers): *See documentation*
+- **Object** (Object)
+- **Path** (String)
+- **path to array** (i.e. data.numbers)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oghmln)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetArrayByPath"*
@@ -133,12 +133,12 @@
 **Description:** Outputs all the values of the properties of an array of objects given a path
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **Path** (String): *See documentation*
-- **path to first array field** (i.e. "data.0.firstName"): *See documentation*
+- **Object** (Object)
+- **Path** (String)
+- **path to first array field** (i.e. "data.0.firstName")
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fBcgln)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetArrayValuesByPath"*
@@ -153,12 +153,12 @@
 **Description:** finds a number at a position in an object defined by path
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **Path** (String): *See documentation*
-- **the past** (i.e. person.age): *See documentation*
+- **Object** (Object)
+- **Path** (String)
+- **the past** (i.e. person.age)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RrYnln)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetNumberByPath"*
@@ -173,11 +173,11 @@
 **Description:** Returns the object at the position defined by a path
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **Path** (String): *See documentation*
+- **Object** (Object)
+- **Path** (String)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-Zlrln)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetObjectByPath"*
@@ -192,13 +192,13 @@
 **Description:** Finds a string at a position in an object defined by path
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **Path** (String): *See documentation*
-- **the path** (i.e. data.names): *See documentation*
-- **Output Path If Missing** (Number: Boolean): *See documentation*
+- **Object** (Object)
+- **Path** (String)
+- **the path** (i.e. data.names)
+- **Output Path If Missing** (Number: Boolean)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eJIqln)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetStringByPath_v2"*

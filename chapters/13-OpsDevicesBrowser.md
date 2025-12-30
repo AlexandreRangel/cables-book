@@ -16,28 +16,28 @@
 - *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
 
 **< Output Ports:**
-- **Is Mobile** (booleanNumber): *See documentation*
-- **Is Touchscreen** (booleanNumber): *See documentation*
-- **Is IE** (booleanNumber): *See documentation*
-- **Is Edge** (booleanNumber): *See documentation*
-- **Is Chrome** (booleanNumber): *See documentation*
-- **Is Firefox** (booleanNumber): *See documentation*
-- **Is Opera** (booleanNumber): *See documentation*
-- **Is Safari** (booleanNumber): *See documentation*
-- **True if the browser is Safari** (iOS & macOS & OS X): *See documentation*
-- **Is Windows** (booleanNumber): *See documentation*
-- **Is Linux** (booleanNumber): *See documentation*
-- **Is Mac** (booleanNumber): *See documentation*
-- **Is IOS** (booleanNumber): *See documentation*
-- **Is Android** (booleanNumber): *See documentation*
-- **Is Electron** (booleanNumber): *See documentation*
-- **Operating System** (String): *See documentation*
-- **Browser Name** (String): *See documentation*
-- **Browser Version** (String): *See documentation*
-- **OS Version** (String): *See documentation*
-- **Language** (String): *See documentation*
-- **User Agent** (String): *See documentation*
-- **Platform Object** (Object): *See documentation*
+- **Is Mobile** (booleanNumber)
+- **Is Touchscreen** (booleanNumber)
+- **Is IE** (booleanNumber)
+- **Is Edge** (booleanNumber)
+- **Is Chrome** (booleanNumber)
+- **Is Firefox** (booleanNumber)
+- **Is Opera** (booleanNumber)
+- **Is Safari** (booleanNumber)
+- **True if the browser is Safari** (iOS & macOS & OS X)
+- **Is Windows** (booleanNumber)
+- **Is Linux** (booleanNumber)
+- **Is Mac** (booleanNumber)
+- **Is IOS** (booleanNumber)
+- **Is Android** (booleanNumber)
+- **Is Electron** (booleanNumber)
+- **Operating System** (String)
+- **Browser Name** (String)
+- **Browser Version** (String)
+- **OS Version** (String)
+- **Language** (String)
+- **User Agent** (String)
+- **Platform Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YOJiIk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BrowserInfo_v3"*
@@ -55,10 +55,10 @@
 - *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
 
 **< Output Ports:**
-- **Color Scheme** (String): *See documentation*
-- **Dark Mode** (booleanNumber): *See documentation*
-- **Light Mode** (booleanNumber): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
+- **Color Scheme** (String)
+- **Dark Mode** (booleanNumber)
+- **Light Mode** (booleanNumber)
+- **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/An48HJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorScheme"*
@@ -73,8 +73,8 @@
 **Description:** Move back or forward in the browser navigation history
 
 **> Input Ports:**
-- **Back** (Trigger): *See documentation*
-- **Forward** (Trigger): *See documentation*
+- **Back** (Trigger)
+- **Forward** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
@@ -92,14 +92,14 @@
 **Description:** evaluate a javascript expression
 
 **> Input Ports:**
-- **JS Expression** (String): *See documentation*
+- **JS Expression** (String)
 
 **< Output Ports:**
-- **Result String** (String): *See documentation*
-- **Result Number** (Number): *See documentation*
-- **Result Array** (Array): *See documentation*
-- **Result Object** (Object): *See documentation*
-- **Error** (booleanNumber): *See documentation*
+- **Result String** (String)
+- **Result Number** (Number)
+- **Result Array** (Array)
+- **Result Object** (Object)
+- **Error** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gpp4O8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsExpression"*
@@ -114,11 +114,11 @@
 **Description:** browser js memory consumption
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Used Heap Size** (Number): *See documentation*
-- **Total Heap Size** (Number): *See documentation*
+- **Used Heap Size** (Number)
+- **Total Heap Size** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UyS0f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsMemory"*
@@ -133,14 +133,14 @@
 **Description:** detect if the user interacted with or activated the page
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **User Is Or Was Active** (booleanNumber): *See documentation*
-- **User Has Been Active** (booleanNumber): *See documentation*
-- **User Is Active** (booleanNumber): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **User Is Or Was Active** (booleanNumber)
+- **User Has Been Active** (booleanNumber)
+- **User Is Active** (booleanNumber)
+- **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3S26Qc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UserActivation"*
@@ -155,17 +155,17 @@
 **Description:** Opens a sharing dialog to share text and images
 
 **> Input Ports:**
-- **Text** (String): *See documentation*
-- **URL** (String): *See documentation*
-- **Base64 File** (String): *See documentation*
-- **Data URL** (String): *See documentation*
-- **Filetype** (String): *See documentation*
-- **Filename** (String): *See documentation*
-- **Share** (Trigger): *See documentation*
+- **Text** (String)
+- **URL** (String)
+- **Base64 File** (String)
+- **Data URL** (String)
+- **Filetype** (String)
+- **Filename** (String)
+- **Share** (Trigger)
 
 **< Output Ports:**
-- **Status** (String): *See documentation*
-- **Supported** (Number): *See documentation*
+- **Status** (String)
+- **Supported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pQ49m4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebShare"*

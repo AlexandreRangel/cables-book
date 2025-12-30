@@ -13,25 +13,25 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mask** (Object:Texture): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Harmonics Index** (Number: Integer): *See documentation*
-- **Tileable** (Number: Boolean): *See documentation*
-- **Offset** (Object:Texture): *See documentation*
-- **Offset Multiply** (Number): *See documentation*
-- **Offset X Index** (Number: Integer): *See documentation*
-- **Offset Y Index** (Number: Integer): *See documentation*
-- **Offset Z Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Mask** (Object:Texture)
+- **Blend Mode Index** (Number: Integer)
+- **Alpha Mask Index** (Number: Integer)
+- **Amount** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Scale** (Number)
+- **Harmonics Index** (Number: Integer)
+- **Tileable** (Number: Boolean)
+- **Offset** (Object:Texture)
+- **Offset Multiply** (Number)
+- **Offset X Index** (Number: Integer)
+- **Offset Y Index** (Number: Integer)
+- **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9DZmT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CellularNoise_v2"*
@@ -46,27 +46,27 @@
 **Description:** fractional brownian motion noise
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Anim** (Number): *See documentation*
-- **ScrollX** (Number): *See documentation*
-- **ScrollY** (Number): *See documentation*
-- **Repeat** (Number): *See documentation*
-- **Aspect** (Number): *See documentation*
-- **Layer 1** (Number: Boolean): *See documentation*
-- **Layer 2** (Number: Boolean): *See documentation*
-- **Layer 3** (Number: Boolean): *See documentation*
-- **Layer 4** (Number: Boolean): *See documentation*
-- **Tileable** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Scale** (Number)
+- **Anim** (Number)
+- **ScrollX** (Number)
+- **ScrollY** (Number)
+- **Repeat** (Number)
+- **Aspect** (Number)
+- **Layer 1** (Number: Boolean)
+- **Layer 2** (Number: Boolean)
+- **Layer 3** (Number: Boolean)
+- **Layer 4** (Number: Boolean)
+- **Tileable** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DmWmT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FBMNoise_v2"*
@@ -81,16 +81,16 @@
 **Description:** Render "gabor noise" into a texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Phase** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Phase** (Number)
+- **Scale** (Number)
+- **X** (Number)
+- **Y** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PWDdQm)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GaborNoise"*
@@ -105,22 +105,22 @@
 **Description:** Creates a black and white glitched texture to use for displacement
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Frequency** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Block Size Small X** (Number): *See documentation*
-- **Block Size Small Y** (Number): *See documentation*
-- **Block Size Large X** (Number): *See documentation*
-- **Block Size Large Y** (Number): *See documentation*
-- **Scroll X** (Number): *See documentation*
-- **Scroll Y** (Number): *See documentation*
+- **Render** (Trigger)
+- **Amount** (Number)
+- **Blend Mode Index** (Number: Integer)
+- **Alpha Mask Index** (Number: Integer)
+- **Seed** (Number)
+- **Frequency** (Number)
+- **Strength** (Number)
+- **Block Size Small X** (Number)
+- **Block Size Small Y** (Number)
+- **Block Size Large X** (Number)
+- **Block Size Large Y** (Number)
+- **Scroll X** (Number)
+- **Scroll Y** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cknm0r)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlitchNoise_v2"*
@@ -135,23 +135,23 @@
 **Description:** Creates a hexagonal noise
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **RGB** (Number: Boolean): *See documentation*
-- **Minimum Value** (Number): *See documentation*
-- **Maximum Value** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Orientation** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Loop** (Number: Boolean)
+- **RGB** (Number: Boolean)
+- **Minimum Value** (Number)
+- **Maximum Value** (Number)
+- **Scale** (Number)
+- **Orientation** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/plbB53)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HexagonNoise_v2"*
@@ -166,23 +166,23 @@
 **Description:** Multilayer perlin noise variation
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **RGBA** (Number: Boolean): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Layers** (Number: Integer): *See documentation*
-- **Factor** (Number): *See documentation*
-- **Exponent** (Number): *See documentation*
-- **ScrollX** (Number): *See documentation*
-- **ScrollY** (Number): *See documentation*
-- **ScrollZ** (Number): *See documentation*
-- **Tileable** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Mode Index** (Number: Integer)
+- **RGBA** (Number: Boolean)
+- **Scale** (Number)
+- **Layers** (Number: Integer)
+- **Factor** (Number)
+- **Exponent** (Number)
+- **ScrollX** (Number)
+- **ScrollY** (Number)
+- **ScrollZ** (Number)
+- **Tileable** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NSYy0t)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LayerNoise_v3"*
@@ -197,17 +197,17 @@
 **Description:** White noise pixel effect
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Threshold** (Number): *See documentation*
-- **Animated** (Number: Boolean): *See documentation*
-- **RGB** (Number: Boolean): *See documentation*
-- **Normalize** (Number: Boolean): *See documentation*
-- **Multiply** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Threshold** (Number)
+- **Animated** (Number: Boolean)
+- **RGB** (Number: Boolean)
+- **Normalize** (Number: Boolean)
+- **Multiply** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PdHmT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Noise_v2"*
@@ -222,26 +222,26 @@
 **Description:** Draw perlin noise into an image
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mask** (Object:Texture): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Color Index** (Number: Integer): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Multiply** (Number): *See documentation*
-- **Harmonics Index** (Number: Integer): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Offset** (Object:Texture): *See documentation*
-- **Offset Multiply** (Number): *See documentation*
-- **Offset X Index** (Number: Integer): *See documentation*
-- **Offset Y Index** (Number: Integer): *See documentation*
-- **Offset Z Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Mask** (Object:Texture)
+- **Blend Mode Index** (Number: Integer)
+- **Alpha Mask Index** (Number: Integer)
+- **Amount** (Number)
+- **Color Index** (Number: Integer)
+- **Scale** (Number)
+- **Multiply** (Number)
+- **Harmonics Index** (Number: Integer)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Offset** (Object:Texture)
+- **Offset Multiply** (Number)
+- **Offset X Index** (Number: Integer)
+- **Offset Y Index** (Number: Integer)
+- **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zfzmT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerlinNoise_v2"*
@@ -256,24 +256,24 @@
 **Description:** Amount of blend mode to apply
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **RGB** (Number: Boolean): *See documentation*
-- **Minimum Value** (Number): *See documentation*
-- **Maximum Value** (Number): *See documentation*
-- **Num X** (Number): *See documentation*
-- **Num Y** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Centered** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Alpha Mask Index** (Number: Integer)
+- **Amount** (Number)
+- **Loop** (Number: Boolean)
+- **RGB** (Number: Boolean)
+- **Minimum Value** (Number)
+- **Maximum Value** (Number)
+- **Num X** (Number)
+- **Num Y** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Seed** (Number)
+- **Centered** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pdjoOb)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PixelNoise_v3"*
@@ -288,21 +288,21 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Square Look** (Number: Boolean): *See documentation*
-- **Threshold** (Number): *See documentation*
-- **Radius Low** (Number): *See documentation*
-- **Radius High** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Square Look** (Number: Boolean)
+- **Threshold** (Number)
+- **Radius Low** (Number)
+- **Radius High** (Number)
+- **Scale** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pKNTub)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PolkaDotNoise_v2"*
@@ -317,18 +317,18 @@
 **Description:** Render "shard noise" into a texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Sharpness** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Round** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Sharpness** (Number)
+- **Scale** (Number)
+- **Round** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GSZtvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Shardnoise"*
@@ -343,25 +343,25 @@
 **Description:** simplex noise generator
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mask** (Object:Texture): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Smoothness** (Number): *See documentation*
-- **Harmonics Index** (Number: Integer): *See documentation*
-- **Scale** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Time** (Number): *See documentation*
-- **Offset** (Object:Texture): *See documentation*
-- **Offset Multiply** (Number): *See documentation*
-- **Offset X Index** (Number: Integer): *See documentation*
-- **Offset Y Index** (Number: Integer): *See documentation*
-- **Offset Z Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Mask** (Object:Texture)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Smoothness** (Number)
+- **Harmonics Index** (Number: Integer)
+- **Scale** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Time** (Number)
+- **Offset** (Object:Texture)
+- **Offset Multiply** (Number)
+- **Offset X Index** (Number: Integer)
+- **Offset Y Index** (Number: Integer)
+- **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c3vmUf)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimplexNoise_v2"*
@@ -376,16 +376,16 @@
 **Description:** noise made from triangles
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Angle** (Number): *See documentation*
-- **Add** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Scale** (Number)
+- **Angle** (Number)
+- **Add** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wvkJyC)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriangleNoise_v2"*
@@ -400,16 +400,16 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Scale** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SgTmT6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValueNoise_v2"*
@@ -424,21 +424,21 @@
 **Description:** Voronoi Noise function
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Time** (Number): *See documentation*
-- **Movement** (Number): *See documentation*
-- **Num** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Fill Index** (Number: Integer): *See documentation*
-- **Draw Isolines** (Number: Boolean): *See documentation*
-- **Draw Distance** (Number: Boolean): *See documentation*
-- **Draw Center** (Number): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Amount** (Number)
+- **Alpha Mask Index** (Number: Integer)
+- **Time** (Number)
+- **Movement** (Number)
+- **Num** (Number)
+- **Seed** (Number)
+- **Fill Index** (Number: Integer)
+- **Draw Isolines** (Number: Boolean)
+- **Draw Distance** (Number: Boolean)
+- **Draw Center** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3zb6Us)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Voronoise_v2"*
@@ -453,30 +453,30 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Blend Mode Index** (Number: Integer): *See documentation*
-- **Alpha Mask Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Harmonics Index** (Number: Integer): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
-- **RangeA** (Number): *See documentation*
-- **RangeB** (Number): *See documentation*
-- **Tileable** (Number: Boolean): *See documentation*
-- **Amount Map** (Object:Texture): *See documentation*
-- **Source Strength Map Index** (Number: Integer): *See documentation*
-- **Invert Strength Map** (Number: Boolean): *See documentation*
-- **Offset** (Object:Texture): *See documentation*
-- **Offset Multiply** (Number): *See documentation*
-- **Offset X Index** (Number: Integer): *See documentation*
-- **Offset Y Index** (Number: Integer): *See documentation*
-- **Offset Z Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Blend Mode Index** (Number: Integer)
+- **Alpha Mask Index** (Number: Integer)
+- **Amount** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Scale** (Number)
+- **Harmonics Index** (Number: Integer)
+- **Invert** (Number: Boolean)
+- **RangeA** (Number)
+- **RangeB** (Number)
+- **Tileable** (Number: Boolean)
+- **Amount Map** (Object:Texture)
+- **Source Strength Map Index** (Number: Integer)
+- **Invert Strength Map** (Number: Boolean)
+- **Offset** (Object:Texture)
+- **Offset Multiply** (Number)
+- **Offset X Index** (Number: Integer)
+- **Offset Y Index** (Number: Integer)
+- **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sivDJd)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WorleyNoise_v2"*

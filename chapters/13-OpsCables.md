@@ -13,10 +13,10 @@
 **Description:** outputs the path to the assets
 
 **> Input Ports:**
-- **Filename** (String): *See documentation*
+- **Filename** (String)
 
 **< Output Ports:**
-- **Path** (String): *See documentation*
+- **Path** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mwhthf)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AssetPathURL"*
@@ -34,7 +34,7 @@
 - *Visit [Ops.Cables.CablesInfo documentation](https://cables.gl/op/Ops.Cables.CablesInfo) for input port details*
 
 **< Output Ports:**
-- **URL** (String): *See documentation*
+- **URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vaK7iO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CablesInfo"*
@@ -49,11 +49,11 @@
 **Description:** Useful when a cables patch is embedded into a website. All parameters (`Value 1`, `Value 2`, `Value 3` will be send as a parameter array. So e.g. if `Callback Name` is `foo` cables would call: ``` CABLES.patch.config.foo([Value 1, Value 2, Value 3]) ```
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Callback Name** (String): *See documentation*
-- **Parameter 1** (String): *See documentation*
-- **Parameter 2** (String): *See documentation*
-- **Parameter 3** (String): *See documentation*
+- **Exe** (Trigger)
+- **Callback Name** (String)
+- **Parameter 1** (String)
+- **Parameter 2** (String)
+- **Parameter 3** (String)
 - **Public** (7): LANDINGPORTAFOLIO
 - **LOGICX BED** (PUBLIC): wirmachenbunt - Published Sep 30, 2021 at 12:25
 
@@ -76,8 +76,8 @@
 - *Visit [Ops.Cables.FPS_v2 documentation](https://cables.gl/op/Ops.Cables.FPS_v2) for input port details*
 
 **< Output Ports:**
-- **FPS** (Number): *See documentation*
-- **MS** (Number): *See documentation*
+- **FPS** (Number)
+- **MS** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KhFA8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FPS_v2"*
@@ -92,17 +92,17 @@
 **Description:** trigger from external function when embedded into a website
 
 **> Input Ports:**
-- **Function Name** (String): *See documentation*
-- **Trigger** (Trigger): *See documentation*
-- **Default Parameter 1** (String): *See documentation*
-- **Default Parameter 2** (String): *See documentation*
-- **Default Parameter 3** (String): *See documentation*
+- **Function Name** (String)
+- **Trigger** (Trigger)
+- **Default Parameter 1** (String)
+- **Default Parameter 2** (String)
+- **Default Parameter 3** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Parameter 1** (String): *See documentation*
-- **Parameter 2** (String): *See documentation*
-- **Parameter 3** (String): *See documentation*
+- **Next** (Trigger)
+- **Parameter 1** (String)
+- **Parameter 2** (String)
+- **Parameter 3** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Cables.Function_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Function_v2"*
@@ -117,13 +117,13 @@
 **Description:** Get op name by id
 
 **> Input Ports:**
-- **OpId** (String): *See documentation*
+- **OpId** (String)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
-- **Name** (String): *See documentation*
-- **Shortname** (String): *See documentation*
-- **Version** (Number): *See documentation*
+- **Found** (booleanNumber)
+- **Name** (String)
+- **Shortname** (String)
+- **Version** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hmk7iO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetOpName"*
@@ -141,8 +141,8 @@
 - *Visit [Ops.Cables.GetSubPatchName documentation](https://cables.gl/op/Ops.Cables.GetSubPatchName) for input port details*
 
 **< Output Ports:**
-- **Name** (String): *See documentation*
-- **ShortName** (String): *See documentation*
+- **Name** (String)
+- **ShortName** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/20tMrh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetSubPatchName"*
@@ -157,7 +157,7 @@
 **Description:** Create a loading job while input is true
 
 **> Input Ports:**
-- **Loading Active** (Number: Boolean): *See documentation*
+- **Loading Active** (Number: Boolean)
 
 **< Output Ports:**
 - *Visit [Ops.Cables.LoadingJob documentation](https://cables.gl/op/Ops.Cables.LoadingJob) for output port details*
@@ -175,16 +175,16 @@
 **Description:** trigger events / get information about asset-loading status
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Play Timeline** (Number: Boolean): *See documentation*
+- **Exe** (Trigger)
+- **Play Timeline** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Finished Initial Loading** (booleanNumber): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
-- **Progress** (Number): *See documentation*
-- **Jobs** (Array): *See documentation*
-- **Trigger Loading Finished** (Trigger): *See documentation*
+- **Next** (Trigger)
+- **Finished Initial Loading** (booleanNumber)
+- **Loading** (booleanNumber)
+- **Progress** (Number)
+- **Jobs** (Array)
+- **Trigger Loading Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5FQ08W)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LoadingStatus_v2"*
@@ -202,12 +202,12 @@
 - *Visit [Ops.Cables.PatchInfo_v2 documentation](https://cables.gl/op/Ops.Cables.PatchInfo_v2) for input port details*
 
 **< Output Ports:**
-- **Config** (Object): *See documentation*
-- **Name** (String): *See documentation*
-- **Patch Id** (String): *See documentation*
-- **Namespace** (String): *See documentation*
-- **Last Saved** (Number): *See documentation*
-- **Last Exported** (Number): *See documentation*
+- **Config** (Object)
+- **Name** (String)
+- **Patch Id** (String)
+- **Namespace** (String)
+- **Last Saved** (Number)
+- **Last Exported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3hkdqX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PatchInfo_v2"*
@@ -225,12 +225,12 @@
 - *Visit [Ops.Cables.UIMode documentation](https://cables.gl/op/Ops.Cables.UIMode) for input port details*
 
 **< Output Ports:**
-- **UI** (booleanNumber): *See documentation*
-- **Overlay Mode** (booleanNumber): *See documentation*
-- **Remote Viewer** (booleanNumber): *See documentation*
-- **Is Standalone** (booleanNumber): *See documentation*
-- **Canvas Mode** (Number): *See documentation*
-- **Patch Field Visible** (booleanNumber): *See documentation*
+- **UI** (booleanNumber)
+- **Overlay Mode** (booleanNumber)
+- **Remote Viewer** (booleanNumber)
+- **Is Standalone** (booleanNumber)
+- **Canvas Mode** (Number)
+- **Patch Field Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vyqgR3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UIMode"*
@@ -245,14 +245,14 @@
 **Description:** Upload a file into the cables patch assets using a base64 string
 
 **> Input Ports:**
-- **Filename** (String): *See documentation*
-- **Base64 String** (String): *See documentation*
-- **Upload** (Trigger): *See documentation*
+- **Filename** (String)
+- **Base64 String** (String)
+- **Upload** (Trigger)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
-- **Error** (booleanNumber): *See documentation*
-- **Finished** (Trigger): *See documentation*
+- **Result** (String)
+- **Error** (booleanNumber)
+- **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6vDCsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UploadAsset"*
@@ -267,11 +267,11 @@
 **Description:** Upload an image as screentshot in cables
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **DataUrl** (String): *See documentation*
+- **Trigger** (Trigger)
+- **DataUrl** (String)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Cables.UploadScreenshot#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UploadScreenshot"*

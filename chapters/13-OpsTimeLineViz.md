@@ -13,8 +13,8 @@
 **Description:** Display current Beat index and BPM timing information as beat rectangles on the timeline
 
 **> Input Ports:**
-- **BPM** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
+- **BPM** (Number)
+- **Offset** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.TimeLine.Viz.TimeLineBPM documentation](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM) for output port details*
@@ -32,11 +32,11 @@
 **Description:** Display an image on the timeline
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Slot** (Number: Integer): *See documentation*
-- **Opacity** (Number): *See documentation*
-- **Start** (Number): *See documentation*
-- **End** (Number): *See documentation*
+- **File** (String)
+- **Slot** (Number: Integer)
+- **Opacity** (Number)
+- **Start** (Number)
+- **End** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.TimeLine.Viz.TimeLineImage documentation](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineImage) for output port details*

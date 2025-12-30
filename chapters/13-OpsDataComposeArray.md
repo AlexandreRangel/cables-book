@@ -13,14 +13,14 @@
 **Description:** Compose an Array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Update** (Trigger)
+- **Active** (Number: Boolean)
+- **Clear** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RLvmjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArray"*
@@ -35,11 +35,11 @@
 **Description:** pop/remove the last number from an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Number): *See documentation*
+- **Next** (Trigger)
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPopNumber"*
@@ -54,11 +54,11 @@
 **Description:** push/append an array to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Update** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushArray"*
@@ -73,11 +73,11 @@
 **Description:** push/append an array to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Update** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ADSKWn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushArrayItems"*
@@ -92,11 +92,11 @@
 **Description:** push/append a number to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Number** (Number): *See documentation*
+- **Update** (Trigger)
+- **Number** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RLvmjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushNumber"*
@@ -111,14 +111,14 @@
 **Description:** push/append multiple numbers to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **Update** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushNumbers"*
@@ -133,11 +133,11 @@
 **Description:** push/append an object to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Object** (Object): *See documentation*
+- **Update** (Trigger)
+- **Object** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SCFZJK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushObject"*
@@ -152,11 +152,11 @@
 **Description:** push/append a string to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **String** (String): *See documentation*
+- **Update** (Trigger)
+- **String** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushString"*
@@ -171,11 +171,11 @@
 **Description:** push/append a texture to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Object** (Object): *See documentation*
+- **Update** (Trigger)
+- **Object** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayPushTexture"*
@@ -190,12 +190,12 @@
 **Description:** set a number to an array at index
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Number** (Number): *See documentation*
+- **Update** (Trigger)
+- **Index** (Number)
+- **Number** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArraySetNumber"*
@@ -210,12 +210,12 @@
 **Description:** push/append a number to an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Object** (Object): *See documentation*
+- **Update** (Trigger)
+- **Index** (Number)
+- **Object** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArraySetObject"*
@@ -230,11 +230,11 @@
 **Description:** shift/remove the first number from an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Number): *See documentation*
+- **Next** (Trigger)
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArrayShiftNumber"*
@@ -249,11 +249,11 @@
 **Description:** get a copy of the current state of an array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompArraySnapshot"*

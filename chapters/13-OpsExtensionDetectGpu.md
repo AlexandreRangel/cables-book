@@ -13,14 +13,14 @@
 **Description:** Use the detect-gpu library to assess performance of the client running the patch
 
 **> Input Ports:**
-- **Run** (Trigger): *See documentation*
+- **Run** (Trigger)
 
 **< Output Ports:**
-- **Finished** (Trigger): *See documentation*
-- **Tier** (Number): *See documentation*
-- **Is Mobile** (booleanNumber): *See documentation*
-- **GPU Name** (String): *See documentation*
-- **FPS** (Number): *See documentation*
+- **Finished** (Trigger)
+- **Tier** (Number)
+- **Is Mobile** (booleanNumber)
+- **GPU Name** (String)
+- **FPS** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DetectGPU"*

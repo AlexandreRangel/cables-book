@@ -13,15 +13,15 @@
 **Description:** Create a Web/Http server locally
 
 **> Input Ports:**
-- **Hostname** (String): *See documentation*
-- **Port** (Number: Integer): *See documentation*
+- **Hostname** (String)
+- **Port** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger Request** (Trigger): *See documentation*
-- **Response** (Object): *See documentation*
-- **Request URL** (String): *See documentation*
-- **Request** (Object): *See documentation*
-- **Running** (booleanNumber): *See documentation*
+- **Trigger Request** (Trigger)
+- **Response** (Object)
+- **Request URL** (String)
+- **Request** (Object)
+- **Running** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lke9pn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HttpServer"*
@@ -36,9 +36,9 @@
 **Description:** Answer http requests by sending string to the browser/client
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Response** (Object): *See documentation*
-- **Body** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Response** (Object)
+- **Body** (String)
 
 **< Output Ports:**
 - *Visit [Ops.Extension.Standalone.Net.HttpServerResponse documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse) for output port details*
@@ -59,9 +59,9 @@
 - *Visit [Ops.Extension.Standalone.Net.IpAddress documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress) for input port details*
 
 **< Output Ports:**
-- **Local IP** (String): *See documentation*
-- **Interface** (String): *See documentation*
-- **Data** (Object): *See documentation*
+- **Local IP** (String)
+- **Interface** (String)
+- **Data** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lCYxun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IpAddress"*
@@ -76,13 +76,13 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2) for details*
 
 **> Input Ports:**
-- **Port** (Number: Integer): *See documentation*
+- **Port** (Number: Integer)
 
 **< Output Ports:**
-- **Message Received** (Trigger): *See documentation*
-- **Message** (Object): *See documentation*
-- **Connection** (Object): *See documentation*
-- **Status** (String): *See documentation*
+- **Message Received** (Trigger)
+- **Message** (Object)
+- **Connection** (Object)
+- **Status** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PCZCun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc_v2"*
@@ -97,12 +97,12 @@
 **Description:** send data to a OSC device
 
 **> Input Ports:**
-- **Connection** (Object): *See documentation*
-- **Net Address** (String): *See documentation*
-- **Port** (Number: Integer): *See documentation*
-- **OSC Address** (String): *See documentation*
-- **Number** (Number): *See documentation*
-- **Send** (Trigger): *See documentation*
+- **Connection** (Object)
+- **Net Address** (String)
+- **Port** (Number: Integer)
+- **OSC Address** (String)
+- **Number** (Number)
+- **Send** (Trigger)
 - **Public** (1): OSC: READ / SEND
 
 **< Output Ports:**
@@ -121,14 +121,14 @@
 **Description:** Read a text file as string from the local file system
 
 **> Input Ports:**
-- **Filename** (String): *See documentation*
-- **Read** (Trigger): *See documentation*
+- **Filename** (String)
+- **Read** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Content** (String): *See documentation*
-- **Has Error** (booleanNumber): *See documentation*
-- **Error** (String): *See documentation*
+- **Next** (Trigger)
+- **Content** (String)
+- **Has Error** (booleanNumber)
+- **Error** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReadTextFile"*
@@ -143,17 +143,17 @@
 **Description:** start a socketcluster server
 
 **> Input Ports:**
-- **Active** (Number: Boolean): *See documentation*
-- **Hostname** (String): *See documentation*
-- **Port** (Number: Integer): *See documentation*
-- **Path** (String): *See documentation*
+- **Active** (Number: Boolean)
+- **Hostname** (String)
+- **Port** (Number: Integer)
+- **Path** (String)
 
 **< Output Ports:**
-- **Receiving** (Trigger): *See documentation*
-- **Data** (Object): *See documentation*
-- **Listening** (booleanNumber): *See documentation*
-- **Clients** (Number): *See documentation*
-- **Error** (String): *See documentation*
+- **Receiving** (Trigger)
+- **Data** (Object)
+- **Listening** (booleanNumber)
+- **Clients** (Number)
+- **Error** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterServer"*

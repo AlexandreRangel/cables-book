@@ -13,10 +13,10 @@
 **Description:** decode a string to base64
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.Base64.Base64Decode_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Base64Decode_v2"*
@@ -31,11 +31,11 @@
 **Description:** encode a string to base64
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **MimeType** (String): *See documentation*
+- **String** (String)
+- **MimeType** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.Base64.Base64Encode_v3#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Base64Encode_v3"*
@@ -50,12 +50,12 @@
 **Description:** trigger a download of a base64 binary file
 
 **> Input Ports:**
-- **Data URL** (String): *See documentation*
-- **Filename** (String): *See documentation*
-- **Download** (Trigger): *See documentation*
+- **Data URL** (String)
+- **Filename** (String)
+- **Download** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jE9zO8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DownloadBase64File"*

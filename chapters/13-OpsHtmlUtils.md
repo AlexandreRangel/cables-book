@@ -13,8 +13,8 @@
 **Description:** create a cables logo which links to cables gl
 
 **> Input Ports:**
-- **Size** (Number): *See documentation*
-- **Opacity** (Number): *See documentation*
+- **Size** (Number)
+- **Opacity** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.Html.Utils.CablesLink documentation](https://cables.gl/op/Ops.Html.Utils.CablesLink) for output port details*
@@ -32,11 +32,11 @@
 **Description:** show a typical web loading/progress indicator animation
 
 **> Input Ports:**
-- **Center Position** (Number: Boolean): *See documentation*
+- **Center Position** (Number: Boolean)
 
 **< Output Ports:**
-- **Elment** (Object): *See documentation*
-- **Requests** (Array): *See documentation*
+- **Elment** (Object)
+- **Requests** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EsV74q)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LoadingIndicator_v2"*
@@ -51,24 +51,24 @@
 **Description:** Trigger a simple pop up notification on the screen
 
 **> Input Ports:**
-- **Trigger Animation** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Class** (String): *See documentation*
-- **Style** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Convert Line Breaks** (Number: Boolean): *See documentation*
-- **Fade In** (Number): *See documentation*
-- **Hold** (Number): *See documentation*
-- **Fade Out** (Number): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Side Index** (Number: Integer): *See documentation*
-- **Starting Position** (Number): *See documentation*
-- **Ending Position** (Number): *See documentation*
+- **Trigger Animation** (Trigger)
+- **Text** (String)
+- **Class** (String)
+- **Style** (String)
+- **Active** (Number: Boolean)
+- **Convert Line Breaks** (Number: Boolean)
+- **Fade In** (Number)
+- **Hold** (Number)
+- **Fade Out** (Number)
+- **Mode Index** (Number: Integer)
+- **Side Index** (Number: Integer)
+- **Starting Position** (Number)
+- **Ending Position** (Number)
 
 **< Output Ports:**
-- **Finished Trigger** (Trigger): *See documentation*
-- **Finished** (booleanNumber): *See documentation*
-- **DOM Element** (Object): *See documentation*
+- **Finished Trigger** (Trigger)
+- **Finished** (booleanNumber)
+- **DOM Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2Rue0j)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Notification"*
@@ -83,20 +83,20 @@
 **Description:** shows a playbutton for forcing a simple user interaction
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Only If Audio Suspended** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Style Outer** (String): *See documentation*
-- **Style Inner** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Only If Audio Suspended** (Number: Boolean)
+- **Reset** (Trigger)
+- **Style Outer** (String)
+- **Style Inner** (String)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Not Clicked** (Trigger): *See documentation*
-- **Audiocontext State** (String): *See documentation*
-- **Element** (Object): *See documentation*
-- **Clicked** (booleanNumber): *See documentation*
-- **Clicked Trigger** (Trigger): *See documentation*
+- **Next** (Trigger)
+- **Not Clicked** (Trigger)
+- **Audiocontext State** (String)
+- **Element** (Object)
+- **Clicked** (booleanNumber)
+- **Clicked Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WoGy8s)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PlayButton"*
@@ -111,24 +111,24 @@
 **Description:** simple html ui for timeline/mediaplayers (was: TimeLineUI)
 
 **> Input Ports:**
-- **Length** (Number): *See documentation*
-- **Current** (Number): *See documentation*
-- **Clamp** (Number: Boolean): *See documentation*
-- **Is Playing** (Number: Boolean): *See documentation*
-- **Visible** (Number: Boolean): *See documentation*
-- **Show Time** (Number: Boolean): *See documentation*
-- **Show Skip Buttons** (Number: Boolean): *See documentation*
+- **Length** (Number)
+- **Current** (Number)
+- **Clamp** (Number: Boolean)
+- **Is Playing** (Number: Boolean)
+- **Visible** (Number: Boolean)
+- **Show Time** (Number: Boolean)
+- **Show Skip Buttons** (Number: Boolean)
 
 **< Output Ports:**
-- **Play Clicked** (Trigger): *See documentation*
-- **Pause Clicked** (Trigger): *See documentation*
-- **Rewind Clicked** (Trigger): *See documentation*
-- **Skip Back Clicked** (Trigger): *See documentation*
-- **Skip Forward Clicked** (Trigger): *See documentation*
-- **Dragged** (Trigger): *See documentation*
-- **Current Value** (Number): *See documentation*
-- **Dragging** (booleanNumber): *See documentation*
-- **DOM Element** (Object): *See documentation*
+- **Play Clicked** (Trigger)
+- **Pause Clicked** (Trigger)
+- **Rewind Clicked** (Trigger)
+- **Skip Back Clicked** (Trigger)
+- **Skip Forward Clicked** (Trigger)
+- **Dragged** (Trigger)
+- **Current Value** (Number)
+- **Dragging** (booleanNumber)
+- **DOM Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PlayerControlPanel_v2"*
@@ -143,11 +143,11 @@
 **Description:** Generate a qr code as a texture
 
 **> Input Ports:**
-- **Text** (String): *See documentation*
+- **Text** (String)
 
 **< Output Ports:**
-- **Image DataUrl** (String): *See documentation*
-- **Element** (Object): *See documentation*
+- **Image DataUrl** (String)
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QjlEo-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QrCode"*
@@ -162,20 +162,20 @@
 **Description:** play a youtube video in a HTML element
 
 **> Input Ports:**
-- **Video Id** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Style** (String): *See documentation*
-- **ElementID** (String): *See documentation*
-- **Autoplay** (Number: Boolean): *See documentation*
-- **Display Captions** (Number: Boolean): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **Allow Fullscreen** (Number: Boolean): *See documentation*
-- **Hide Controls** (Number: Boolean): *See documentation*
-- **Start At Second** (Number: Integer): *See documentation*
+- **Video Id** (String)
+- **Active** (Number: Boolean)
+- **Style** (String)
+- **ElementID** (String)
+- **Autoplay** (Number: Boolean)
+- **Display Captions** (Number: Boolean)
+- **Loop** (Number: Boolean)
+- **Allow Fullscreen** (Number: Boolean)
+- **Hide Controls** (Number: Boolean)
+- **Start At Second** (Number: Integer)
 
 **< Output Ports:**
-- **Element** (Object): *See documentation*
-- **Direct Link** (String): *See documentation*
+- **Element** (Object)
+- **Direct Link** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aMkD16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "YoutubePlayer"*

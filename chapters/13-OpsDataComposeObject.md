@@ -13,13 +13,13 @@
 **Description:** Compose an Object
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Update** (Trigger)
+- **Clear** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Object): *See documentation*
+- **Next** (Trigger)
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObject"*
@@ -34,11 +34,11 @@
 **Description:** Set key/values to the current ObjectCompose from an existing object
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Object** (Object): *See documentation*
+- **Update** (Trigger)
+- **Object** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9ORqOg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectFromObject"*
@@ -53,12 +53,12 @@
 **Description:** set array as object property
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Key** (String): *See documentation*
-- **Array** (Array): *See documentation*
+- **Update** (Trigger)
+- **Key** (String)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetArray"*
@@ -73,12 +73,12 @@
 **Description:** set a boolean as object property
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Key** (String): *See documentation*
-- **Boolean** (Number: Boolean): *See documentation*
+- **Update** (Trigger)
+- **Key** (String)
+- **Boolean** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ggd-JK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetBool"*
@@ -93,12 +93,12 @@
 **Description:** set number as object property
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Key** (String): *See documentation*
-- **Number** (Number): *See documentation*
+- **Update** (Trigger)
+- **Key** (String)
+- **Number** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetNumber"*
@@ -113,12 +113,12 @@
 **Description:** set object as object property
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Key** (String): *See documentation*
-- **Object** (Object): *See documentation*
+- **Update** (Trigger)
+- **Key** (String)
+- **Object** (Object)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetObject"*
@@ -133,12 +133,12 @@
 **Description:** set string as object property
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Key** (String): *See documentation*
-- **String** (String): *See documentation*
+- **Update** (Trigger)
+- **Key** (String)
+- **String** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetString"*

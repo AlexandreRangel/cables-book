@@ -16,8 +16,8 @@
 - *Visit [Ops.Website.Cookie documentation](https://cables.gl/op/Ops.Website.Cookie) for input port details*
 
 **< Output Ports:**
-- **Cookie** (Object): *See documentation*
-- **Cookie String** (String): *See documentation*
+- **Cookie** (Object)
+- **Cookie String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oNMzci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cookie"*
@@ -32,17 +32,17 @@
 **Description:** information about a filename, like url protocol, suffix etc
 
 **> Input Ports:**
-- **URL** (String): *See documentation*
+- **URL** (String)
 
 **< Output Ports:**
-- **Protocol** (String): *See documentation*
-- **Host** (String): *See documentation*
-- **Full Path** (String): *See documentation*
-- **Filename** (String): *See documentation*
-- **Basename** (String): *See documentation*
-- **Suffix** (String): *See documentation*
-- **Is URL** (String): *See documentation*
-- **QueryParams** (String): *See documentation*
+- **Protocol** (String)
+- **Host** (String)
+- **Full Path** (String)
+- **Filename** (String)
+- **Basename** (String)
+- **Suffix** (String)
+- **Is URL** (String)
+- **QueryParams** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RyrLMg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilenameInfo"*
@@ -78,13 +78,13 @@
 - *Visit [Ops.Website.InfoURL documentation](https://cables.gl/op/Ops.Website.InfoURL) for input port details*
 
 **< Output Ports:**
-- **URL** (String): *See documentation*
-- **Host** (String): *See documentation*
-- **Hash** (String): *See documentation*
-- **Pathname** (String): *See documentation*
-- **Protocol** (String): *See documentation*
-- **Port** (String): *See documentation*
-- **Hash Changed** (Trigger): *See documentation*
+- **URL** (String)
+- **Host** (String)
+- **Hash** (String)
+- **Pathname** (String)
+- **Protocol** (String)
+- **Port** (String)
+- **Hash Changed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9UM2YG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InfoURL"*
@@ -102,7 +102,7 @@
 - *Visit [Ops.Website.InIframe documentation](https://cables.gl/op/Ops.Website.InIframe) for input port details*
 
 **< Output Ports:**
-- **In Iframe** (booleanNumber): *See documentation*
+- **In Iframe** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qWDDci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InIframe"*
@@ -117,13 +117,13 @@
 **Description:** Store and retreive a number in browser localstorage
 
 **> Input Ports:**
-- **Key** (String): *See documentation*
-- **Number** (Number): *See documentation*
-- **Store** (Trigger): *See documentation*
+- **Key** (String)
+- **Number** (Number)
+- **Store** (Trigger)
 
 **< Output Ports:**
-- **Stored Number** (Number): *See documentation*
-- **Storage Support** (Number): *See documentation*
+- **Stored Number** (Number)
+- **Storage Support** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9di48i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LocalStorageNumber"*
@@ -138,13 +138,13 @@
 **Description:** Store and retreive a string in browser localstorage
 
 **> Input Ports:**
-- **Key** (String): *See documentation*
-- **String** (String): *See documentation*
-- **Store** (Trigger): *See documentation*
+- **Key** (String)
+- **String** (String)
+- **Store** (Trigger)
 
 **< Output Ports:**
-- **Stored String** (String): *See documentation*
-- **Storage Support** (booleanNumber): *See documentation*
+- **Stored String** (String)
+- **Storage Support** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QKe58i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LocalStorageString"*
@@ -159,13 +159,13 @@
 **Description:** gives updated information about window.location.hash
 
 **> Input Ports:**
-- **Route** (String): *See documentation*
-- **pattern for url and variables** (i.e. /scene/:id): *See documentation*
+- **Route** (String)
+- **pattern for url and variables** (i.e. /scene/:id)
 
 **< Output Ports:**
-- **Values** (Object): *See documentation*
-- **Changed** (Trigger): *See documentation*
-- **Matching** (booleanNumber): *See documentation*
+- **Values** (Object)
+- **Changed** (Trigger)
+- **Matching** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EfiWpG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LocationHashRoute"*
@@ -180,11 +180,11 @@
 **Description:** sets window.location.hash to the specified value(s)
 
 **> Input Ports:**
-- **Hash** (String): *See documentation*
-- **Update** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Silent** (Number: Boolean): *See documentation*
-- **Allow Empty** (Number: Boolean): *See documentation*
+- **Hash** (String)
+- **Update** (Trigger)
+- **Active** (Number: Boolean)
+- **Silent** (Number: Boolean)
+- **Allow Empty** (Number: Boolean)
 
 **< Output Ports:**
 - *Visit [Ops.Website.SetLocationHash documentation](https://cables.gl/op/Ops.Website.SetLocationHash) for output port details*
@@ -202,11 +202,11 @@
 **Description:** Returns a URL query parameter
 
 **> Input Ports:**
-- **Parameter** (String): *See documentation*
-- **Default** (String): *See documentation*
+- **Parameter** (String)
+- **Default** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2SE58i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UrlQueryParams_v2"*

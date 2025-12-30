@@ -13,13 +13,13 @@
 **Description:** render mesh normals as colors
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Absolute** (Number: Boolean): *See documentation*
-- **World Space** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Absolute** (Number: Boolean)
+- **World Space** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bZEZGc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AttributeAsColorMaterial"*
@@ -34,27 +34,27 @@
 **Description:** A material without shading
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **ColorizeTexture** (Number: Boolean): *See documentation*
-- **Vertex Colors** (Number: Boolean): *See documentation*
-- **TextureOpacity** (Object:Texture): *See documentation*
-- **Opacity TexCoords Transform** (Number: Boolean): *See documentation*
-- **Discard Transparent Pixels** (Number: Boolean): *See documentation*
-- **DiffuseRepeatX** (Number): *See documentation*
-- **DiffuseRepeatY** (Number): *See documentation*
-- **Tex Offset X** (Number): *See documentation*
-- **Tex Offset Y** (Number): *See documentation*
-- **Crop TexCoords** (Number: Boolean): *See documentation*
-- **Billboard** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **Texture** (Object:Texture)
+- **ColorizeTexture** (Number: Boolean)
+- **Vertex Colors** (Number: Boolean)
+- **TextureOpacity** (Object:Texture)
+- **Opacity TexCoords Transform** (Number: Boolean)
+- **Discard Transparent Pixels** (Number: Boolean)
+- **DiffuseRepeatX** (Number)
+- **DiffuseRepeatY** (Number)
+- **Tex Offset X** (Number)
+- **Tex Offset Y** (Number)
+- **Crop TexCoords** (Number: Boolean)
+- **Billboard** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SKCL88)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BasicMaterial_v3"*
@@ -69,21 +69,21 @@
 **Description:** display texture and replace a color with transparency
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **WeightMul** (Number): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **White** (Number): *See documentation*
-- **DiffuseRepeatX** (Number): *See documentation*
-- **DiffuseRepeatY** (Number): *See documentation*
-- **Tex Offset X** (Number): *See documentation*
-- **Tex Offset Y** (Number): *See documentation*
+- **Render** (Trigger)
+- **Texture** (Object)
+- **Mode Index** (Number: Integer)
+- **WeightMul** (Number)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **White** (Number)
+- **DiffuseRepeatX** (Number)
+- **DiffuseRepeatY** (Number)
+- **Tex Offset X** (Number)
+- **Tex Offset Y** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDqoTq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ChromaKeyMaterial"*
@@ -98,22 +98,22 @@
 **Description:** Write your own custom shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Fragment Code** (String): *See documentation*
-- **Vertex Code** (String): *See documentation*
-- **Use As Material** (Number: Boolean): *See documentation*
-- **W** (Number): *See documentation*
-- **H** (Number): *See documentation*
-- **GPosition** (Object): *See documentation*
-- **GNormal** (Object): *See documentation*
-- **TexNoise** (Object): *See documentation*
-- **Samples** (Array): *See documentation*
-- **Projection** (Array): *See documentation*
+- **Render** (Trigger)
+- **Fragment Code** (String)
+- **Vertex Code** (String)
+- **Use As Material** (Number: Boolean)
+- **W** (Number)
+- **H** (Number)
+- **GPosition** (Object)
+- **GNormal** (Object)
+- **TexNoise** (Object)
+- **Samples** (Array)
+- **Projection** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
-- **Has Errors** (booleanNumber): *See documentation*
+- **Trigger** (Trigger)
+- **Shader** (Object)
+- **Has Errors** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vWyGud)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CustomShader_v2"*
@@ -128,10 +128,10 @@
 **Description:** draw meshes using the cables error material shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ErrorMaterial"*
@@ -146,10 +146,10 @@
 **Description:** visualize which faces are facing the camera
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Lm6p9r)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrontBacksideMaterial"*
@@ -164,11 +164,11 @@
 **Description:** get current set shader
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Next** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BweOVl)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetShader"*
@@ -183,34 +183,34 @@
 **Description:** Easy to use image based lighting Material
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **MatCap** (Object:Texture): *See documentation*
-- **Diffuse** (Object:Texture): *See documentation*
-- **Normal** (Object:Texture): *See documentation*
-- **Specular Mask** (Object:Texture): *See documentation*
-- **Specular MatCap** (Object:Texture): *See documentation*
-- **AO Texture** (Object:Texture): *See documentation*
-- **Opacity Texture** (Object:Texture): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **Opacity** (Number): *See documentation*
-- **AO Intensity** (Number): *See documentation*
-- **Normal Map Intensity** (Number): *See documentation*
-- **Repeat X** (Number): *See documentation*
-- **Repeat Y** (Number): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
-- **Double Sided** (Number: Boolean): *See documentation*
-- **Screen Space Normals** (Number: Boolean): *See documentation*
-- **check to use screen space normals** (flat shading): *See documentation*
-- **Calc Normal Tangents** (Number: Boolean): *See documentation*
-- **Opacity TexCoords Transform** (Number: Boolean): *See documentation*
-- **Discard Transparent Pixels** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **MatCap** (Object:Texture)
+- **Diffuse** (Object:Texture)
+- **Normal** (Object:Texture)
+- **Specular Mask** (Object:Texture)
+- **Specular MatCap** (Object:Texture)
+- **AO Texture** (Object:Texture)
+- **Opacity Texture** (Object:Texture)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Opacity** (Number)
+- **AO Intensity** (Number)
+- **Normal Map Intensity** (Number)
+- **Repeat X** (Number)
+- **Repeat Y** (Number)
+- **Offset X** (Number)
+- **Offset Y** (Number)
+- **Double Sided** (Number: Boolean)
+- **Screen Space Normals** (Number: Boolean)
+- **check to use screen space normals** (flat shading)
+- **Calc Normal Tangents** (Number: Boolean)
+- **Opacity TexCoords Transform** (Number: Boolean)
+- **Discard Transparent Pixels** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Next** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gWkghi)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MatCapMaterial_v3"*
@@ -225,10 +225,10 @@
 **Description:** Minify GLSL shader source code
 
 **> Input Ports:**
-- **Shader Source** (String): *See documentation*
+- **Shader Source** (String)
 
 **< Output Ports:**
-- **Minified Shader Source** (String): *See documentation*
+- **Minified Shader Source** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/t5H1Qc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MinifyGlsl"*
@@ -243,36 +243,36 @@
 **Description:** Draw all vertices as points / circles
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **PointSize** (Number): *See documentation*
-- **Size In Pixels** (Number: Boolean): *See documentation*
-- **Random Size** (Number): *See documentation*
-- **Round** (Number: Boolean): *See documentation*
-- **Round Antialias** (Number: Boolean): *See documentation*
-- **Scale By Distance** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
-- **Vertex Colors** (Number: Boolean): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Colorize Texture** (Number: Boolean): *See documentation*
-- **Texture Mask** (Object:Texture): *See documentation*
-- **Texture Colorize** (Object:Texture): *See documentation*
-- **Colorize Randomize** (Number: Boolean): *See documentation*
-- **Texture Opacity** (Object:Texture): *See documentation*
-- **Texture Point Size** (Object:Texture): *See documentation*
-- **Texture Point Size Mul** (Number): *See documentation*
-- **Flip Texture** (Number: Boolean): *See documentation*
-- **Atlas Cross Fade** (Number: Boolean): *See documentation*
-- **Atlas Repeat X** (Number): *See documentation*
-- **Atlas Lookup** (Object:Texture): *See documentation*
-- **Rotate Texture** (Object:Texture): *See documentation*
-- **Min Point Size** (Number): *See documentation*
+- **Render** (Trigger)
+- **PointSize** (Number)
+- **Size In Pixels** (Number: Boolean)
+- **Random Size** (Number)
+- **Round** (Number: Boolean)
+- **Round Antialias** (Number: Boolean)
+- **Scale By Distance** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
+- **Vertex Colors** (Number: Boolean)
+- **Texture** (Object:Texture)
+- **Colorize Texture** (Number: Boolean)
+- **Texture Mask** (Object:Texture)
+- **Texture Colorize** (Object:Texture)
+- **Colorize Randomize** (Number: Boolean)
+- **Texture Opacity** (Object:Texture)
+- **Texture Point Size** (Object:Texture)
+- **Texture Point Size Mul** (Number)
+- **Flip Texture** (Number: Boolean)
+- **Atlas Cross Fade** (Number: Boolean)
+- **Atlas Repeat X** (Number)
+- **Atlas Lookup** (Object:Texture)
+- **Rotate Texture** (Object:Texture)
+- **Min Point Size** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/O9yRO6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointMaterial_v6"*
@@ -287,10 +287,10 @@
 **Description:** draw meshes using XYZ position coordinates as RGB color
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qbiIbk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PositionAsColorMaterial"*
@@ -305,11 +305,11 @@
 **Description:** Reuse another shader at different points in the patch.
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Render** (Trigger)
+- **Shader** (Object)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BweOVl)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetShader"*
@@ -324,17 +324,17 @@
 **Description:** set a uniform value of the current shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Uniform Index** (Number: Integer): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **Render** (Trigger)
+- **Uniform Index** (Number: Integer)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Type** (String): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Type** (String)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5W7X2f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetUniformFloat_v2"*
@@ -349,13 +349,13 @@
 **Description:** set a uniform value of the current shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Uniform Index** (Number: Integer): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **Uniform Index** (Number: Integer)
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5W7X2f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetUniformTexture_v2"*
@@ -370,10 +370,10 @@
 **Description:** Set shader defines
 
 **> Input Ports:**
-- **Shader** (Object): *See documentation*
-- **Name** (String): *See documentation*
-- **Value** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Shader** (Object)
+- **Name** (String)
+- **Value** (String)
+- **Active** (Number: Boolean)
 - **Public** (4): 1
 
 **< Output Ports:**
@@ -392,24 +392,24 @@
 **Description:** view current shader source code
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Show Fragment** (Trigger): *See documentation*
-- **Show Vertex** (Trigger): *See documentation*
-- **Show Modules** (Trigger): *See documentation*
-- **Show Uniforms** (Trigger): *See documentation*
-- **State Info** (Trigger): *See documentation*
+- **Exec** (Trigger)
+- **Show Fragment** (Trigger)
+- **Show Vertex** (Trigger)
+- **Show Modules** (Trigger)
+- **Show Uniforms** (Trigger)
+- **State Info** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Source Frag** (String): *See documentation*
-- **Source Vert** (String): *See documentation*
-- **Name** (String): *See documentation*
-- **Id** (String): *See documentation*
-- **NeedsBarycentric** (booleanNumber): *See documentation*
-- **Num Uniforms** (Number): *See documentation*
-- **Num Attributes** (Number): *See documentation*
-- **Arributes Names** (Array): *See documentation*
-- **Num Defines** (Array): *See documentation*
+- **Next** (Trigger)
+- **Source Frag** (String)
+- **Source Vert** (String)
+- **Name** (String)
+- **Id** (String)
+- **NeedsBarycentric** (booleanNumber)
+- **Num Uniforms** (Number)
+- **Num Attributes** (Number)
+- **Arributes Names** (Array)
+- **Num Defines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShaderInfo"*
@@ -424,11 +424,11 @@
 **Description:** read back all uniforms values of the current bound shader
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
+- **Exec** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Uniforms** (Array): *See documentation*
+- **Next** (Trigger)
+- **Uniforms** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShaderInfoUniforms_v2"*
@@ -443,20 +443,20 @@
 **Description:** render a shader into a texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Shader** (Object:Shader): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Shader** (Object:Shader)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Pixel Format Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Texture** (Object): *See documentation*
-- **Texture 2** (Object): *See documentation*
-- **Texture 3** (Object): *See documentation*
-- **Texture 4** (Object): *See documentation*
+- **Next** (Trigger)
+- **Texture** (Object)
+- **Texture 2** (Object)
+- **Texture 3** (Object)
+- **Texture 4** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vWyGud)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShaderToTexture_v2"*
@@ -471,11 +471,11 @@
 **Description:** Draw a mesh, showing only its vertex colors
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Opacity** (Number): *See documentation*
+- **Render** (Trigger)
+- **Opacity** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6MsLhR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexColorMaterial"*
@@ -490,10 +490,10 @@
 **Description:** visually debug vertices of your 3D geometry
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x2PmHf)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexNumberMaterial"*
@@ -508,22 +508,22 @@
 **Description:** Renders following meshes as wireframes
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Enable Depth Testing** (Number: Boolean): *See documentation*
-- **Width** (Number): *See documentation*
-- **AntiAlias** (Number): *See documentation*
-- **Diffuse R** (Number): *See documentation*
-- **Diffuse G** (Number): *See documentation*
-- **Diffuse B** (Number): *See documentation*
-- **Diffuse A** (Number): *See documentation*
-- **Fill** (Number: Boolean): *See documentation*
-- **Fill R** (Number): *See documentation*
-- **Fill G** (Number): *See documentation*
-- **Fill B** (Number): *See documentation*
-- **Fill A** (Number): *See documentation*
+- **Render** (Trigger)
+- **Enable Depth Testing** (Number: Boolean)
+- **Width** (Number)
+- **AntiAlias** (Number)
+- **Diffuse R** (Number)
+- **Diffuse G** (Number)
+- **Diffuse B** (Number)
+- **Diffuse A** (Number)
+- **Fill** (Number: Boolean)
+- **Fill R** (Number)
+- **Fill G** (Number)
+- **Fill B** (Number)
+- **Fill A** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bRlSDe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WireframeMaterial_v2"*

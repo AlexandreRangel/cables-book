@@ -13,24 +13,24 @@
 **Description:** connect to a socketcluster server and manage the connection
 
 **> Input Ports:**
-- **Channel** (String): *See documentation*
-- **Server Hostname** (String): *See documentation*
-- **Server Port** (Number): *See documentation*
-- **Use SSL** (Number: Boolean): *See documentation*
-- **enable encryption** (needs to be supported by server): *See documentation*
-- **Server Path** (String): *See documentation*
-- **Allow Send** (Number: Boolean): *See documentation*
-- **Allow Multiple Senders** (Number: Boolean): *See documentation*
-- **Additional Serverdata** (Object): *See documentation*
-- **additional data send with every message** (can be used for auth-token): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Channel** (String)
+- **Server Hostname** (String)
+- **Server Port** (Number)
+- **Use SSL** (Number: Boolean)
+- **enable encryption** (needs to be supported by server)
+- **Server Path** (String)
+- **Allow Send** (Number: Boolean)
+- **Allow Multiple Senders** (Number: Boolean)
+- **Additional Serverdata** (Object)
+- **additional data send with every message** (can be used for auth-token)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Ready** (booleanNumber): *See documentation*
-- **Socket** (Object): *See documentation*
-- **Own Client Id** (String): *See documentation*
-- **Can Send** (booleanNumber): *See documentation*
-- **Error** (String): *See documentation*
+- **Ready** (booleanNumber)
+- **Socket** (Object)
+- **Own Client Id** (String)
+- **Can Send** (booleanNumber)
+- **Error** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterClient_v2"*
@@ -45,14 +45,14 @@
 **Description:** Receives object from the socketcluster socket/topic
 
 **> Input Ports:**
-- **Socket** (Object:Socketcluster): *See documentation*
-- **Topic** (String): *See documentation*
-- **Receive Own Data** (Number: Boolean): *See documentation*
+- **Socket** (Object:Socketcluster)
+- **Topic** (String)
+- **Receive Own Data** (Number: Boolean)
 
 **< Output Ports:**
-- **Client Id** (String): *See documentation*
-- **Data** (Object): *See documentation*
-- **Received** (Trigger): *See documentation*
+- **Client Id** (String)
+- **Data** (Object)
+- **Received** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveObject"*
@@ -67,15 +67,15 @@
 **Description:** Receives trigger from the socketcluster socket/topic
 
 **> Input Ports:**
-- **Socket** (Object:Socketcluster): *See documentation*
-- **Topic** (String): *See documentation*
-- **Receive Own Data** (Number: Boolean): *See documentation*
-- **Use Named Trigger** (Number: Boolean): *See documentation*
+- **Socket** (Object:Socketcluster)
+- **Topic** (String)
+- **Receive Own Data** (Number: Boolean)
+- **Use Named Trigger** (Number: Boolean)
 
 **< Output Ports:**
-- **Client Id** (String): *See documentation*
-- **Trigger Name** (String): *See documentation*
-- **Received** (Trigger): *See documentation*
+- **Client Id** (String)
+- **Trigger Name** (String)
+- **Received** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mecjP3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveTrigger"*
@@ -90,13 +90,13 @@
 **Description:** sends an object via socketcluster/websocket
 
 **> Input Ports:**
-- **Socket** (Object:Socketcluster): *See documentation*
-- **Topic** (String): *See documentation*
-- **Data** (Object): *See documentation*
-- **Send** (Trigger): *See documentation*
+- **Socket** (Object:Socketcluster)
+- **Topic** (String)
+- **Data** (Object)
+- **Send** (Trigger)
 
 **< Output Ports:**
-- **Sent Data** (Trigger): *See documentation*
+- **Sent Data** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterSendObject"*
@@ -111,11 +111,11 @@
 **Description:** sends a trigger via socketcluster/websocket
 
 **> Input Ports:**
-- **Data** (Trigger): *See documentation*
-- **Socket** (Object:Socketcluster): *See documentation*
-- **Topic** (String): *See documentation*
-- **Trigger Name** (String): *See documentation*
-- **the name of the trigger** (created with TriggerSend): *See documentation*
+- **Data** (Trigger)
+- **Socket** (Object:Socketcluster)
+- **Topic** (String)
+- **Trigger Name** (String)
+- **the name of the trigger** (created with TriggerSend)
 
 **< Output Ports:**
 - *Visit [Ops.Extension.SocketCluster.SocketClusterSendTrigger documentation](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger) for output port details*
@@ -133,20 +133,20 @@
 **Description:** get info for clients listening on a socketcluster topic
 
 **> Input Ports:**
-- **Socket** (Object:Socketcluster): *See documentation*
-- **Topic** (String): *See documentation*
-- **Timeout Seconds** (Number: Integer): *See documentation*
-- **Soft Timeout Seconds** (Number: Integer): *See documentation*
-- **Retain Messages** (Number: Integer): *See documentation*
-- **Update** (Trigger): *See documentation*
-- **Receive My Data** (Number: Boolean): *See documentation*
+- **Socket** (Object:Socketcluster)
+- **Topic** (String)
+- **Timeout Seconds** (Number: Integer)
+- **Soft Timeout Seconds** (Number: Integer)
+- **Retain Messages** (Number: Integer)
+- **Update** (Trigger)
+- **Receive My Data** (Number: Boolean)
 
 **< Output Ports:**
-- **Active Clients** (Array): *See documentation*
-- **Will Time Out** (Object): *See documentation*
-- **Timed Out Clients** (Array): *See documentation*
-- **Messages** (Object): *See documentation*
-- **Updated** (Trigger): *See documentation*
+- **Active Clients** (Array)
+- **Will Time Out** (Object)
+- **Timed Out Clients** (Array)
+- **Messages** (Object)
+- **Updated** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterTopicInfo_v2"*

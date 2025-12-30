@@ -16,9 +16,9 @@
 - *Visit [Ops.Devices.Midi.DeviceList documentation](https://cables.gl/op/Ops.Devices.Midi.DeviceList) for input port details*
 
 **< Output Ports:**
-- **Num Devices** (Number): *See documentation*
-- **Midi Support** (booleanNumber): *See documentation*
-- **Device Names** (Array): *See documentation*
+- **Num Devices** (Number)
+- **Midi Support** (booleanNumber)
+- **Device Names** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EEHSl5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeviceList"*
@@ -33,18 +33,18 @@
 **Description:** read CC value from Midi controller
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **CC Index** (Number: Integer): *See documentation*
-- **Speed** (Number): *See documentation*
-- **Learn** (Trigger): *See documentation*
-- **Clear** (Trigger): *See documentation*
+- **MIDI Event In** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **CC Index** (Number: Integer)
+- **Speed** (Number)
+- **Learn** (Trigger)
+- **Clear** (Trigger)
 
 **< Output Ports:**
-- **CC Value Out** (Number): *See documentation*
-- **Event** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **CC Index Out** (Number): *See documentation*
+- **CC Value Out** (Number)
+- **Event** (Object)
+- **Trigger Out** (Trigger)
+- **CC Index Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiCC_v3"*
@@ -59,14 +59,14 @@
 **Description:** send MIDI CC data to a midi output
 
 **> Input Ports:**
-- **Send** (Trigger): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **CC Index** (Number: Integer): *See documentation*
-- **CC Value** (Number: Integer): *See documentation*
-- **Auto Send Value Change** (Number: Boolean): *See documentation*
+- **Send** (Trigger)
+- **MIDI Channel Index** (Number: Integer)
+- **CC Index** (Number: Integer)
+- **CC Value** (Number: Integer)
+- **Auto Send Value Change** (Number: Boolean)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
+- **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiCCOut_v2"*
@@ -81,27 +81,27 @@
 **Description:** Map 3 midi notes to values
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **Note 1 Index** (Number: Integer): *See documentation*
-- **Note 2 Index** (Number: Integer): *See documentation*
-- **Note 3 Index** (Number: Integer): *See documentation*
-- **Normalize Velocity Index** (Number: Integer): *See documentation*
-- **Learn** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **MIDI Event In** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **Note 1 Index** (Number: Integer)
+- **Note 2 Index** (Number: Integer)
+- **Note 3 Index** (Number: Integer)
+- **Normalize Velocity Index** (Number: Integer)
+- **Learn** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **Note Out 1** (Number): *See documentation*
-- **Velocity 1** (Number): *See documentation*
-- **Gate 1** (booleanNumber): *See documentation*
-- **Note Out 2** (Number): *See documentation*
-- **Velocity 2** (Number): *See documentation*
-- **Gate 2** (booleanNumber): *See documentation*
-- **Note Out 3** (Number): *See documentation*
-- **Velocity 3** (Number): *See documentation*
-- **Gate 3** (booleanNumber): *See documentation*
+- **MIDI Event Out** (Object)
+- **Trigger Out** (Trigger)
+- **Note Out 1** (Number)
+- **Velocity 1** (Number)
+- **Gate 1** (booleanNumber)
+- **Note Out 2** (Number)
+- **Velocity 2** (Number)
+- **Gate 2** (booleanNumber)
+- **Note Out 3** (Number)
+- **Velocity 3** (Number)
+- **Gate 3** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiChord3"*
@@ -116,24 +116,24 @@
 **Description:** sends out midi clock signals as triggers
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **Timing Index** (Number: Integer): *See documentation*
+- **MIDI Event In** (Object)
+- **Timing Index** (Number: Integer)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Tick Out** (Trigger): *See documentation*
-- **Clock Start** (Trigger): *See documentation*
-- **Clock Stop** (Trigger): *See documentation*
-- **Clock Continue** (Trigger): *See documentation*
-- **BPM** (Number): *See documentation*
-- **Tick Duration** (Number): *See documentation*
-- **Sub Tick** (Number): *See documentation*
-- **current subtick** (value between 0 - 24): *See documentation*
-- **outputs a trigger every bar** (dotted: 1.5 bars, triplet: full-note triplet): *See documentation*
-- **outputs a trigger every half note** (dotted: trigger every 3/4, triplet: half-note triplet): *See documentation*
-- **outputs a trigger every quarter note** (dotted: trigger every 3/8, triplet: quarter-note triplet): *See documentation*
-- **outputs a trigger every eigth note** (dotted: trigger every 3/16, triplet: eigth-note triplet): *See documentation*
-- **outputs a trigger every sixteenth note** (dotted: trigger every 3/32, triplet: sixteenth-note triplet): *See documentation*
+- **MIDI Event Out** (Object)
+- **Tick Out** (Trigger)
+- **Clock Start** (Trigger)
+- **Clock Stop** (Trigger)
+- **Clock Continue** (Trigger)
+- **BPM** (Number)
+- **Tick Duration** (Number)
+- **Sub Tick** (Number)
+- **current subtick** (value between 0 - 24)
+- **outputs a trigger every bar** (dotted: 1.5 bars, triplet: full-note triplet)
+- **outputs a trigger every half note** (dotted: trigger every 3/4, triplet: half-note triplet)
+- **outputs a trigger every quarter note** (dotted: trigger every 3/8, triplet: quarter-note triplet)
+- **outputs a trigger every eigth note** (dotted: trigger every 3/16, triplet: eigth-note triplet)
+- **outputs a trigger every sixteenth note** (dotted: trigger every 3/32, triplet: sixteenth-note triplet)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiClock"*
@@ -148,16 +148,16 @@
 **Description:** connect to MIDI device output port
 
 **> Input Ports:**
-- **Device Index** (Number: Integer): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **Device Index** (Number: Integer)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **Event** (Object): *See documentation*
-- **Note** (Object): *See documentation*
-- **CC** (Object): *See documentation*
-- **NRPN** (Object): *See documentation*
-- **Program Change** (Object): *See documentation*
-- **Clock** (Object): *See documentation*
+- **Event** (Object)
+- **Note** (Object)
+- **CC** (Object)
+- **NRPN** (Object)
+- **Program Change** (Object)
+- **Clock** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiInputDevice_v2"*
@@ -172,23 +172,23 @@
 **Description:** detailed information about Midi events being sent
 
 **> Input Ports:**
-- **Event** (Object): *See documentation*
+- **Event** (Object)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **Device** (Number): *See documentation*
-- **MIDI Channel** (Number): *See documentation*
-- **Message Type** (Number): *See documentation*
-- **the type of the message** (CC, Note, NRPN, Clock, ...): *See documentation*
-- **Note** (Number): *See documentation*
-- **Note Velocity** (Number): *See documentation*
-- **CC Number** (Number): *See documentation*
-- **CC Value** (Number): *See documentation*
-- **Pitch Bend Value** (Number): *See documentation*
-- **NRPN Number** (Number): *See documentation*
-- **NRPN Value** (Number): *See documentation*
-- **Program Change Value** (Number): *See documentation*
+- **MIDI Event Out** (Object)
+- **Trigger Out** (Trigger)
+- **Device** (Number)
+- **MIDI Channel** (Number)
+- **Message Type** (Number)
+- **the type of the message** (CC, Note, NRPN, Clock, ...)
+- **Note** (Number)
+- **Note Velocity** (Number)
+- **CC Number** (Number)
+- **CC Value** (Number)
+- **Pitch Bend Value** (Number)
+- **NRPN Number** (Number)
+- **NRPN Value** (Number)
+- **Program Change Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiMonitor"*
@@ -203,21 +203,21 @@
 **Description:** Read a single midi note
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **Note Index** (Number: Integer): *See documentation*
-- **Normalize Velocity Index** (Number: Integer): *See documentation*
-- **Toggle Gate** (Number: Boolean): *See documentation*
-- **Learn** (Trigger): *See documentation*
-- **Clear** (Trigger): *See documentation*
+- **MIDI Event In** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **Note Index** (Number: Integer)
+- **Normalize Velocity Index** (Number: Integer)
+- **Toggle Gate** (Number: Boolean)
+- **Learn** (Trigger)
+- **Clear** (Trigger)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **Current Note** (Number): *See documentation*
-- **Velocity** (Number): *See documentation*
-- **Gate** (booleanNumber): *See documentation*
-- **Velocity Array** (Array): *See documentation*
+- **MIDI Event Out** (Object)
+- **Trigger Out** (Trigger)
+- **Current Note** (Number)
+- **Velocity** (Number)
+- **Gate** (booleanNumber)
+- **Velocity Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNote"*
@@ -232,20 +232,20 @@
 **Description:** Only read a range of notes (e.g. C1 to C2)
 
 **> Input Ports:**
-- **MIDI Event** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **Note Start Index** (Number: Integer): *See documentation*
-- **Note End Index** (Number: Integer): *See documentation*
-- **Normalize Velocity Index** (Number: Integer): *See documentation*
-- **Learn** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **MIDI Event** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **Note Start Index** (Number: Integer)
+- **Note End Index** (Number: Integer)
+- **Normalize Velocity Index** (Number: Integer)
+- **Learn** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Event** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **Current Note** (Number): *See documentation*
-- **Velocity** (Number): *See documentation*
-- **Gate** (booleanNumber): *See documentation*
+- **Event** (Object)
+- **Trigger Out** (Trigger)
+- **Current Note** (Number)
+- **Velocity** (Number)
+- **Gate** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNoteFilter"*
@@ -260,16 +260,16 @@
 **Description:** send midi note data to a midi output
 
 **> Input Ports:**
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **Note Index** (Number: Integer): *See documentation*
-- **Note Number** (Number: Integer): *See documentation*
-- **Velocity** (Number: Integer): *See documentation*
-- **Min In Velocity** (Number): *See documentation*
-- **Max In Velocity** (Number): *See documentation*
-- **Velocity Array In** (Array): *See documentation*
+- **MIDI Channel Index** (Number: Integer)
+- **Note Index** (Number: Integer)
+- **Note Number** (Number: Integer)
+- **Velocity** (Number: Integer)
+- **Min In Velocity** (Number)
+- **Max In Velocity** (Number)
+- **Velocity Array In** (Array)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
+- **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNoteOut"*
@@ -284,18 +284,18 @@
 **Description:** read NRPN value from controller
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **NRPN Index** (Number: Integer): *See documentation*
-- **Normalize Index** (Number: Integer): *See documentation*
-- **Learn** (Trigger): *See documentation*
-- **Clear** (Trigger): *See documentation*
+- **MIDI Event In** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **NRPN Index** (Number: Integer)
+- **Normalize Index** (Number: Integer)
+- **Learn** (Trigger)
+- **Clear** (Trigger)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
-- **NRPN Index Out** (Number): *See documentation*
-- **NRPN Value** (Number): *See documentation*
+- **MIDI Event Out** (Object)
+- **Trigger Out** (Trigger)
+- **NRPN Index Out** (Number)
+- **NRPN Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNRPN"*
@@ -310,14 +310,14 @@
 **Description:** send midi NRPN data to a midi output
 
 **> Input Ports:**
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **NRPN Index** (Number: Integer): *See documentation*
-- **NRPN Value** (Number: Integer): *See documentation*
-- **Min In Value** (Number): *See documentation*
-- **Max In Value** (Number): *See documentation*
+- **MIDI Channel Index** (Number: Integer)
+- **NRPN Index** (Number: Integer)
+- **NRPN Value** (Number: Integer)
+- **Min In Value** (Number)
+- **Max In Value** (Number)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
+- **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNRPNOut"*
@@ -332,10 +332,10 @@
 **Description:** Connect to MIDI device input port
 
 **> Input Ports:**
-- **Device Index** (Number: Integer): *See documentation*
-- **Note** (Object): *See documentation*
-- **CC** (Object): *See documentation*
-- **NRPN** (Object): *See documentation*
+- **Device Index** (Number: Integer)
+- **Note** (Object)
+- **CC** (Object)
+- **NRPN** (Object)
 
 **< Output Ports:**
 - *Visit [Ops.Devices.Midi.MidiOutputDevice documentation](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice) for output port details*
@@ -353,14 +353,14 @@
 **Description:** transpose incoming midi notes
 
 **> Input Ports:**
-- **MIDI Event In** (Object): *See documentation*
-- **MIDI Channel Index** (Number: Integer): *See documentation*
-- **Transpose Amount** (Number: Integer): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **MIDI Event In** (Object)
+- **MIDI Channel Index** (Number: Integer)
+- **Transpose Amount** (Number: Integer)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **MIDI Event Out** (Object): *See documentation*
-- **Trigger Out** (Trigger): *See documentation*
+- **MIDI Event Out** (Object)
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiTranspose"*
@@ -375,10 +375,10 @@
 **Description:** Converts a MIDI value to a note string
 
 **> Input Ports:**
-- **Midi Value** (Number): *See documentation*
+- **Midi Value** (Number)
 
 **< Output Ports:**
-- **Note** (String): *See documentation*
+- **Note** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiValueToNote_v2"*

@@ -13,11 +13,11 @@
 **Description:** Generate an animated geometry from MpFaceTracking Point Coordinates
 
 **> Input Ports:**
-- **Geom** (Object): *See documentation*
-- **Points** (Array): *See documentation*
+- **Geom** (Object)
+- **Points** (Array)
 
 **< Output Ports:**
-- **Result Geom** (Object): *See documentation*
+- **Result Geom** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/by9Tq4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceMesh"*
@@ -32,13 +32,13 @@
 **Description:** Get face mesh from webcam/video using mediapipe library
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Refine LandMarks** (Number: Boolean): *See documentation*
+- **Element** (Object)
+- **Refine LandMarks** (Number: Boolean)
 
 **< Output Ports:**
-- **Points** (Array): *See documentation*
-- **Found** (Number): *See documentation*
-- **Result** (Object): *See documentation*
+- **Points** (Array)
+- **Found** (Number)
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wznlp4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpFaceTracking"*
@@ -53,16 +53,16 @@
 **Description:** Get points and lines for left/right hand from mediapipe
 
 **> Input Ports:**
-- **Hands Result** (Object): *See documentation*
-- **Hand Index** (Number: Integer): *See documentation*
-- **Min Score** (Number): *See documentation*
+- **Hands Result** (Object)
+- **Hand Index** (Number: Integer)
+- **Min Score** (Number)
 
 **< Output Ports:**
-- **Points** (Array): *See documentation*
-- **Lines** (Array): *See documentation*
-- **Data** (Object): *See documentation*
-- **Found Hand** (Number): *See documentation*
-- **Score** (Number): *See documentation*
+- **Points** (Array)
+- **Lines** (Array)
+- **Data** (Object)
+- **Found Hand** (Number)
+- **Score** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHand"*
@@ -77,13 +77,13 @@
 **Description:** Get individual coordinates of fingers or wrist from an array of mediapipe data
 
 **> Input Ports:**
-- **Hand Points** (Array): *See documentation*
-- **Joint Index** (Number: Integer): *See documentation*
+- **Hand Points** (Array)
+- **Joint Index** (Number: Integer)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHandCoordinate"*
@@ -98,13 +98,13 @@
 **Description:** Get hand data from mediapipe library, use with MpHand
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Min Confidence Detect** (Number): *See documentation*
-- **Min Confidence Tracking** (Number): *See documentation*
+- **Element** (Object:Element)
+- **Min Confidence Detect** (Number)
+- **Min Confidence Tracking** (Number)
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
-- **Found Hands** (Number): *See documentation*
+- **Result** (Object)
+- **Found Hands** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHandTracking"*
@@ -119,13 +119,13 @@
 **Description:** Get coordinates of specific body parts from mediapipe data
 
 **> Input Ports:**
-- **Landmarks** (Array): *See documentation*
-- **Landmark Index** (Number: Integer): *See documentation*
+- **Landmarks** (Array)
+- **Landmark Index** (Number: Integer)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uepop4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpPoseGetCoordinate"*
@@ -140,22 +140,22 @@
 **Description:** Get pose-data (points/landmarks/lines) from webcam using mediapipe library
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Smooth Landmarks** (Number: Boolean): *See documentation*
-- **Min Detection Confidence** (Number): *See documentation*
-- **Min Tracking Confidence** (Number): *See documentation*
-- **Enable Segmentation** (Number: Boolean): *See documentation*
-- **Update Texture** (Trigger): *See documentation*
-- **Smooth Segmentation** (Number: Boolean): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
+- **Element** (Object:Element)
+- **Smooth Landmarks** (Number: Boolean)
+- **Min Detection Confidence** (Number)
+- **Min Tracking Confidence** (Number)
+- **Enable Segmentation** (Number: Boolean)
+- **Update Texture** (Trigger)
+- **Smooth Segmentation** (Number: Boolean)
+- **Flip X** (Number: Boolean)
+- **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
-- **Points** (Array): *See documentation*
-- **Segmentation Mask** (Object): *See documentation*
-- **Landmarks** (Array): *See documentation*
-- **Lines** (Array): *See documentation*
-- **Found** (Number): *See documentation*
+- **Points** (Array)
+- **Segmentation Mask** (Object)
+- **Landmarks** (Array)
+- **Lines** (Array)
+- **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uepop4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpPoseTracking"*

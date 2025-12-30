@@ -13,19 +13,19 @@
 **Description:** Let’s you tap in a beat, useful to synchronise visuals to music (VJ, sync, sound)
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Tap** (Trigger): *See documentation*
-- **Sync** (Trigger): *See documentation*
-- **NudgeLeft** (Trigger): *See documentation*
-- **NudgeRight** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Exe** (Trigger)
+- **Tap** (Trigger)
+- **Sync** (Trigger)
+- **NudgeLeft** (Trigger)
+- **NudgeRight** (Trigger)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Beat** (Trigger): *See documentation*
-- **Bpm** (Number): *See documentation*
-- **The resulting BPM** (beats per minute): *See documentation*
-- **States** (Array): *See documentation*
-- **Beat Index** (Number): *See documentation*
+- **Beat** (Trigger)
+- **Bpm** (Number)
+- **The resulting BPM** (beats per minute)
+- **States** (Array)
+- **Beat Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vwdfqX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BpmTap"*
@@ -40,18 +40,18 @@
 **Description:** read MIDI information at time x
 
 **> Input Ports:**
-- **MidiJson** (Object): *See documentation*
-- **Time** (Number): *See documentation*
+- **MidiJson** (Object)
+- **Time** (Number)
 
 **< Output Ports:**
-- **Beat** (Number): *See documentation*
-- **Track Names** (Array): *See documentation*
-- **Names** (Array): *See documentation*
-- **Progress** (Array): *See documentation*
-- **Velocity** (Array): *See documentation*
-- **Num Tracks** (Number): *See documentation*
-- **BPM** (Number): *See documentation*
-- **Data** (Object): *See documentation*
+- **Beat** (Number)
+- **Track Names** (Array)
+- **Names** (Array)
+- **Progress** (Array)
+- **Velocity** (Array)
+- **Num Tracks** (Number)
+- **BPM** (Number)
+- **Data** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yJPMCV)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiJson"*
@@ -66,18 +66,18 @@
 **Description:** Filter MidiJson for notes
 
 **> Input Ports:**
-- **Data** (Object): *See documentation*
-- **Note** (String): *See documentation*
-- **Channel** (Number: String): *See documentation*
-- **Beat Start** (Number: Integer): *See documentation*
-- **Beat End** (Number: Integer): *See documentation*
+- **Data** (Object)
+- **Note** (String)
+- **Channel** (Number: String)
+- **Beat Start** (Number: Integer)
+- **Beat End** (Number: Integer)
 
 **< Output Ports:**
-- **Count** (Number): *See documentation*
-- **Progress** (Number): *See documentation*
-- **Time Since Last** (Number): *See documentation*
-- **Trigger** (Trigger): *See documentation*
-- **Reseted** (Trigger): *See documentation*
+- **Count** (Number)
+- **Progress** (Number)
+- **Time Since Last** (Number)
+- **Trigger** (Trigger)
+- **Reseted** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiJsonNote_v2"*

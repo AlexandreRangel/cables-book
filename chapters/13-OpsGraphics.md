@@ -13,12 +13,12 @@
 **Description:** convert and download an array of numbers as an .exr image file
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **ZIP Compression** (Number: Boolean): *See documentation*
-- **Filename** (String): *See documentation*
-- **Download** (Trigger): *See documentation*
+- **Array** (Array)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **ZIP Compression** (Number: Boolean)
+- **Filename** (String)
+- **Download** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
@@ -36,13 +36,13 @@
 **Description:** change depth testing method (depthMask,depthWrite,depthFunc)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Enable Depth Testing** (Number: Boolean): *See documentation*
-- **Depth Test Method Index** (Number: Integer): *See documentation*
-- **Write To Depth Buffer** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Enable Depth Testing** (Number: Boolean)
+- **Depth Test Method Index** (Number: Integer)
+- **Write To Depth Buffer** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A9PD8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DepthTest"*
@@ -57,11 +57,11 @@
 **Description:** merge two geometries into one
 
 **> Input Ports:**
-- **Geometry** (Object): *See documentation*
-- **Geometry 2** (Object): *See documentation*
+- **Geometry** (Object)
+- **Geometry 2** (Object)
 
 **< Output Ports:**
-- **Geometry Result** (Object): *See documentation*
+- **Geometry Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4gsNve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryMergeSimple"*
@@ -76,11 +76,11 @@
 **Description:** get the id/index of the current set material
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Material Id** (Number): *See documentation*
+- **Next** (Trigger)
+- **Material Id** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PYpQit)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetMaterialId"*
@@ -95,11 +95,11 @@
 **Description:** get the id/index of the current object/mesh
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Material Id** (Number): *See documentation*
+- **Next** (Trigger)
+- **Material Id** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetObjectId"*
@@ -114,30 +114,30 @@
 **Description:** rotate your object by clicking and dragging the mouse
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Min Distance** (Number): *See documentation*
-- **Max Distance** (Number): *See documentation*
-- **Min Rot Y** (Number): *See documentation*
-- **Max Rot Y** (Number): *See documentation*
-- **Initial Radius** (Number): *See documentation*
-- **Initial Axis Y** (Number): *See documentation*
-- **Initial Axis X** (Number): *See documentation*
-- **Smoothness** (Number): *See documentation*
-- **Speed X** (Number): *See documentation*
-- **Speed Y** (Number): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Allow Panning** (Number: Boolean): *See documentation*
-- **Allow Zooming** (Number: Boolean): *See documentation*
-- **Allow Rotation** (Number: Boolean): *See documentation*
-- **Restricted** (Number: Boolean): *See documentation*
-- **Identity** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **Min Distance** (Number)
+- **Max Distance** (Number)
+- **Min Rot Y** (Number)
+- **Max Rot Y** (Number)
+- **Initial Radius** (Number)
+- **Initial Axis Y** (Number)
+- **Initial Axis X** (Number)
+- **Smoothness** (Number)
+- **Speed X** (Number)
+- **Speed Y** (Number)
+- **Active** (Number: Boolean)
+- **Allow Panning** (Number: Boolean)
+- **Allow Zooming** (Number: Boolean)
+- **Allow Rotation** (Number: Boolean)
+- **Restricted** (Number: Boolean)
+- **Identity** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Rot X** (Number): *See documentation*
-- **Rot Y** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Radius** (Number)
+- **Rot X** (Number)
+- **Rot Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Krorsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrbitControls_v3"*
@@ -152,17 +152,17 @@
 **Description:** Transform objects in 3d space (rotate, translate, scale)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **PosX** (Number): *See documentation*
-- **PosY** (Number): *See documentation*
-- **PosZ** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **RotX** (Number): *See documentation*
-- **RotY** (Number): *See documentation*
-- **RotZ** (Number): *See documentation*
+- **Render** (Trigger)
+- **PosX** (Number)
+- **PosY** (Number)
+- **PosZ** (Number)
+- **Scale** (Number)
+- **RotX** (Number)
+- **RotY** (Number)
+- **RotZ** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/o741ft)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Transform"*
@@ -177,17 +177,17 @@
 **Description:** the most simple camera op / transform the viewmatrix
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **PosX** (Number): *See documentation*
-- **PosY** (Number): *See documentation*
-- **PosZ** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **RotX** (Number): *See documentation*
-- **RotY** (Number): *See documentation*
-- **RotZ** (Number): *See documentation*
+- **Render** (Trigger)
+- **PosX** (Number)
+- **PosY** (Number)
+- **PosZ** (Number)
+- **Scale** (Number)
+- **RotX** (Number)
+- **RotY** (Number)
+- **RotZ** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0GAv8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformView"*

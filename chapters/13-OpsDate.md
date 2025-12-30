@@ -13,17 +13,17 @@
 **Description:** Returns current date and time and timestamp
 
 **> Input Ports:**
-- **Update Rate** (Number): *See documentation*
-- **How often the op should update the output** (in milliseconds): *See documentation*
+- **Update Rate** (Number)
+- **How often the op should update the output** (in milliseconds)
 
 **< Output Ports:**
-- **Year** (Number): *See documentation*
-- **Month** (Number): *See documentation*
-- **Day** (Number): *See documentation*
-- **Hours** (Number): *See documentation*
-- **Minutes** (Number): *See documentation*
-- **Seconds** (Number): *See documentation*
-- **Timestamp** (Number): *See documentation*
+- **Year** (Number)
+- **Month** (Number)
+- **Day** (Number)
+- **Hours** (Number)
+- **Minutes** (Number)
+- **Seconds** (Number)
+- **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GuzKSD)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateAndTime"*
@@ -38,15 +38,15 @@
 **Description:** Perform date calculations
 
 **> Input Ports:**
-- **Timestamp** (Number): *See documentation*
-- **Difference** (Number: Integer): *See documentation*
-- **Type Index** (Number: Integer): *See documentation*
-- **Update** (Trigger): *See documentation*
-- **Update time value** (not needed if an timestamp input is used): *See documentation*
+- **Timestamp** (Number)
+- **Difference** (Number: Integer)
+- **Type Index** (Number: Integer)
+- **Update** (Trigger)
+- **Update time value** (not needed if an timestamp input is used)
 
 **< Output Ports:**
-- **Date** (Object): *See documentation*
-- **Timestamp** (Number): *See documentation*
+- **Date** (Object)
+- **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateCalc"*
@@ -61,19 +61,19 @@
 **Description:** Calculates the difference between two timestamps
 
 **> Input Ports:**
-- **Timestamp 1** (Number): *See documentation*
-- **Timestamp 2** (Number): *See documentation*
-- **Stop At 0** (Number: Boolean): *See documentation*
+- **Timestamp 1** (Number)
+- **Timestamp 2** (Number)
+- **Stop At 0** (Number: Boolean)
 
 **< Output Ports:**
-- **Year** (Number): *See documentation*
-- **Month** (Number): *See documentation*
-- **Day** (Number): *See documentation*
-- **Hours** (Number): *See documentation*
-- **Minutes** (Number): *See documentation*
-- **Seconds** (Number): *See documentation*
-- **Milliseconds** (Number): *See documentation*
-- **Diff** (Number): *See documentation*
+- **Year** (Number)
+- **Month** (Number)
+- **Day** (Number)
+- **Hours** (Number)
+- **Minutes** (Number)
+- **Seconds** (Number)
+- **Milliseconds** (Number)
+- **Diff** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/d1NUet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateDifference"*
@@ -88,12 +88,12 @@
 **Description:** String representation of a date
 
 **> Input Ports:**
-- **Timestamp** (Number): *See documentation*
-- **Date** (Object): *See documentation*
-- **Format** (String): *See documentation*
+- **Timestamp** (Number)
+- **Date** (Object)
+- **Format** (String)
 
 **< Output Ports:**
-- **StringDate** (String): *See documentation*
+- **StringDate** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateFormatter"*
@@ -108,10 +108,10 @@
 **Description:** parses a date and time in iso format and outputs a millisecond timestamp
 
 **> Input Ports:**
-- **Datetime** (String): *See documentation*
+- **Datetime** (String)
 
 **< Output Ports:**
-- **Timestamp** (Number): *See documentation*
+- **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nsSRrU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateIsoToTimestamp"*
@@ -126,14 +126,14 @@
 **Description:** Calculates the timestamp of a date by year / month / day / hour / minute
 
 **> Input Ports:**
-- **Year** (Number: Integer): *See documentation*
-- **Month** (Number: Integer): *See documentation*
-- **Day** (Number: Integer): *See documentation*
-- **Hour** (Number: Integer): *See documentation*
-- **Minute** (Number: Integer): *See documentation*
+- **Year** (Number: Integer)
+- **Month** (Number: Integer)
+- **Day** (Number: Integer)
+- **Hour** (Number: Integer)
+- **Minute** (Number: Integer)
 
 **< Output Ports:**
-- **Timestamp** (Number): *See documentation*
+- **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Date.DateTimestamp#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateTimestamp"*
@@ -148,10 +148,10 @@
 **Description:** Value since the time origin in milliseconds (performance.now())
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
+- **Update** (Trigger)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dJzVbI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Milliseconds"*
@@ -166,10 +166,10 @@
 **Description:** convert a timestamp to an ISO date string
 
 **> Input Ports:**
-- **Timestamp** (Number): *See documentation*
+- **Timestamp** (Number)
 
 **< Output Ports:**
-- **ISO Date** (String): *See documentation*
+- **ISO Date** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqNl8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimestampToIsoDate"*

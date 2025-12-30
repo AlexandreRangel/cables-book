@@ -13,15 +13,15 @@
 **Description:** Simple Audio Player, using HTML5 Audio, does not need WebAudio
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Play** (Number: Boolean): *See documentation*
-- **Volume** (Number): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
+- **File** (String)
+- **Play** (Number: Boolean)
+- **Volume** (Number)
+- **Loop** (Number: Boolean)
 
 **< Output Ports:**
-- **Playing** (Number): *See documentation*
-- **Element** (Object): *See documentation*
-- **Has Ended** (Trigger): *See documentation*
+- **Playing** (Number)
+- **Element** (Object)
+- **Has Ended** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ftHtx3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioMediaElement"*
@@ -36,23 +36,23 @@
 **Description:** A more convinient version of div element op, that can be used for creating html without writing much css code
 
 **> Input Ports:**
-- **Text** (String): *See documentation*
-- **Set Size** (Number: Boolean): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Inline Style** (String): *See documentation*
-- **CSS Class** (String): *See documentation*
-- **Disable CSS Props** (String): *See documentation*
-- **Display Index** (Number: Integer): *See documentation*
-- **Tag Name** (String): *See documentation*
-- **Opacity** (Number): *See documentation*
-- **Propagate Click-Events** (Number: Boolean): *See documentation*
-- **Add To DOM** (Number: Boolean): *See documentation*
+- **Text** (String)
+- **Set Size** (Number: Boolean)
+- **Width** (Number)
+- **Height** (Number)
+- **Inline Style** (String)
+- **CSS Class** (String)
+- **Disable CSS Props** (String)
+- **Display Index** (Number: Integer)
+- **Tag Name** (String)
+- **Opacity** (Number)
+- **Propagate Click-Events** (Number: Boolean)
+- **Add To DOM** (Number: Boolean)
 
 **< Output Ports:**
-- **DOM Element** (Object): *See documentation*
-- **Hovering** (booleanNumber): *See documentation*
-- **Clicked** (Trigger): *See documentation*
+- **DOM Element** (Object)
+- **Hovering** (booleanNumber)
+- **Clicked** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Element_v2"*
@@ -67,13 +67,13 @@
 **Description:** Show another website in an iframe element
 
 **> Input Ports:**
-- **URL** (String): *See documentation*
-- **ID** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Style** (String): *See documentation*
+- **URL** (String)
+- **ID** (String)
+- **Active** (Number: Boolean)
+- **Style** (String)
 
 **< Output Ports:**
-- **Element** (Object): *See documentation*
+- **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SLesr2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IFrame_v3"*
@@ -88,18 +88,18 @@
 **Description:** create an image(img) html element
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **Class** (String): *See documentation*
-- **Style** (String): *See documentation*
-- **Alt Text** (String): *See documentation*
+- **File** (String)
+- **Class** (String)
+- **Style** (String)
+- **Alt Text** (String)
 
 **< Output Ports:**
-- **Image Element** (Object): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
-- **Error** (booleanNumber): *See documentation*
-- **Loaded** (Trigger): *See documentation*
+- **Image Element** (Object)
+- **Width** (Number)
+- **Height** (Number)
+- **Loading** (booleanNumber)
+- **Error** (booleanNumber)
+- **Loaded** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OZaVN8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ImageElement_v3"*
@@ -114,26 +114,26 @@
 **Description:** HTML input/textarea element to allow the user to enter text
 
 **> Input Ports:**
-- **Default Value** (String): *See documentation*
-- **Placeholder** (String): *See documentation*
-- **Id** (String): *See documentation*
-- **Class** (String): *See documentation*
-- **Style** (String): *See documentation*
-- **Autocomplete** (Number: Boolean): *See documentation*
-- **Max Length** (Number: Integer): *See documentation*
-- **Enter Key Prevent Default** (Number: Boolean): *See documentation*
-- **Visible** (Number: Boolean): *See documentation*
-- **Focus** (Trigger): *See documentation*
-- **Blur** (Trigger): *See documentation*
-- **Clear** (Trigger): *See documentation*
-- **Select** (Trigger): *See documentation*
+- **Default Value** (String)
+- **Placeholder** (String)
+- **Id** (String)
+- **Class** (String)
+- **Style** (String)
+- **Autocomplete** (Number: Boolean)
+- **Max Length** (Number: Integer)
+- **Enter Key Prevent Default** (Number: Boolean)
+- **Visible** (Number: Boolean)
+- **Focus** (Trigger)
+- **Blur** (Trigger)
+- **Clear** (Trigger)
+- **Select** (Trigger)
 
 **< Output Ports:**
-- **DOM Element** (Object): *See documentation*
-- **Value** (String): *See documentation*
-- **Hover** (booleanNumber): *See documentation*
-- **Enter Pressed** (Trigger): *See documentation*
-- **Escape Pressed** (Trigger): *See documentation*
+- **DOM Element** (Object)
+- **Value** (String)
+- **Hover** (booleanNumber)
+- **Enter Pressed** (Trigger)
+- **Escape Pressed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L83aeG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InputElement"*
@@ -148,27 +148,27 @@
 **Description:** html video player element
 
 **> Input Ports:**
-- **File** (String): *See documentation*
-- **ID** (String): *See documentation*
-- **Play** (Number: Boolean): *See documentation*
-- **Autoplay** (Number: Boolean): *See documentation*
-- **Controls** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **Muted** (Number: Boolean): *See documentation*
-- **Style** (String): *See documentation*
-- **Rewind** (Trigger): *See documentation*
+- **File** (String)
+- **ID** (String)
+- **Play** (Number: Boolean)
+- **Autoplay** (Number: Boolean)
+- **Controls** (Number: Boolean)
+- **Active** (Number: Boolean)
+- **Loop** (Number: Boolean)
+- **Muted** (Number: Boolean)
+- **Style** (String)
+- **Rewind** (Trigger)
 
 **< Output Ports:**
-- **Element** (Object): *See documentation*
-- **Playing** (booleanNumber): *See documentation*
-- **Can Play Through** (booleanNumber): *See documentation*
-- **Time** (Number): *See documentation*
-- **Ended** (Trigger): *See documentation*
-- **Has Error** (booleanNumber): *See documentation*
-- **Error Message** (String): *See documentation*
-- **Video Width** (Number): *See documentation*
-- **Video Height** (Number): *See documentation*
+- **Element** (Object)
+- **Playing** (booleanNumber)
+- **Can Play Through** (booleanNumber)
+- **Time** (Number)
+- **Ended** (Trigger)
+- **Has Error** (booleanNumber)
+- **Error Message** (String)
+- **Video Width** (Number)
+- **Video Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1QTBve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VideoElement"*

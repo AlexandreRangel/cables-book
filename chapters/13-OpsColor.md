@@ -13,10 +13,10 @@
 **Description:** Sort an array of colors by saturation/lightness etc.
 
 **> Input Ports:**
-- **Colors** (Array): *See documentation*
+- **Colors** (Array)
 
 **< Output Ports:**
-- **New Colors** (Array): *See documentation*
+- **New Colors** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKfluu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorArraySort"*
@@ -31,13 +31,13 @@
 **Description:** Contains a collection of nice color palettes output to texture or array via index
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
+- **Index** (Number: Integer)
+- **Smooth** (Number: Boolean)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Color Array** (Array): *See documentation*
-- **The color array containing 5 colors** (15 values in total, 3 values per color – r, g and b): *See documentation*
+- **Texture** (Object)
+- **Color Array** (Array)
+- **The color array containing 5 colors** (15 values in total, 3 values per color – r, g and b)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xRvD98)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPalettes"*
@@ -52,18 +52,18 @@
 **Description:** Use a color value on multiple places
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Outr** (Number): *See documentation*
-- **Outg** (Number): *See documentation*
-- **Outb** (Number): *See documentation*
-- **Outa** (Number): *See documentation*
-- **Hex** (Number): *See documentation*
-- **Array** (Array): *See documentation*
+- **Outr** (Number)
+- **Outg** (Number)
+- **Outb** (Number)
+- **Outa** (Number)
+- **Hex** (Number)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/19KZet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorValue"*
@@ -78,14 +78,14 @@
 **Description:** Native color picker
 
 **> Input Ports:**
-- **Open** (Trigger): *See documentation*
+- **Open** (Trigger)
 
 **< Output Ports:**
-- **Hex** (String): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
+- **Hex** (String)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kYsAkv)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EyeDropper"*
@@ -100,11 +100,11 @@
 **Description:** gradient editor,outputs an objects with gradient information
 
 **> Input Ports:**
-- **Gradient** (Number): *See documentation*
-- **Randomize Colors** (Trigger): *See documentation*
+- **Gradient** (Number)
+- **Randomize Colors** (Trigger)
 
 **< Output Ports:**
-- **Gradient Object** (Object): *See documentation*
+- **Gradient Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QB7br5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Gradient"*
@@ -119,24 +119,24 @@
 **Description:** texture containing a colour gradient that can be altered with an editor
 
 **> Input Ports:**
-- **Gradient** (Number): *See documentation*
-- **Direction Index** (Number: Integer): *See documentation*
-- **Smoothstep** (Number: Boolean): *See documentation*
-- **Step** (Number: Boolean): *See documentation*
-- **Flip** (Number: Boolean): *See documentation*
-- **SRGB** (Number: Boolean): *See documentation*
-- **Oklab** (Number: Boolean): *See documentation*
-- **Size** (Number: Integer): *See documentation*
-- **Dither** (Number): *See documentation*
-- **Gradient Array** (Array): *See documentation*
-- **Randomize Colors** (Trigger): *See documentation*
+- **Gradient** (Number)
+- **Direction Index** (Number: Integer)
+- **Smoothstep** (Number: Boolean)
+- **Step** (Number: Boolean)
+- **Flip** (Number: Boolean)
+- **SRGB** (Number: Boolean)
+- **Oklab** (Number: Boolean)
+- **Size** (Number: Integer)
+- **Dither** (Number)
+- **Gradient Array** (Array)
+- **Randomize Colors** (Trigger)
 
 **< Output Ports:**
-- **Color Array** (Array): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Colors** (Array): *See documentation*
-- **Colors Pos** (Array): *See documentation*
+- **Color Array** (Array)
+- **Width** (Number)
+- **Height** (Number)
+- **Colors** (Array)
+- **Colors Pos** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xAdV8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GradientColorArray"*
@@ -151,14 +151,14 @@
 **Description:** Converts a hex color like `#ff0000` to number values
 
 **> Input Ports:**
-- **Hex** (String): *See documentation*
-- **Bytes** (Number: Boolean): *See documentation*
+- **Hex** (String)
+- **Bytes** (Number: Boolean)
 
 **< Output Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **RGB Array** (Array): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **RGB Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IBX1ft)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HexToRGB_v2"*
@@ -173,14 +173,14 @@
 **Description:** Convert HSL to RGB
 
 **> Input Ports:**
-- **Hue** (Number): *See documentation*
-- **Saturation** (Number): *See documentation*
-- **Lightness** (Number): *See documentation*
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Lightness** (Number)
 
 **< Output Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3fOpvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HSLtoRGB"*
@@ -195,15 +195,15 @@
 **Description:** Calculate the luminance contrast between two colors
 
 **> Input Ports:**
-- **R 1** (Number): *See documentation*
-- **G 1** (Number): *See documentation*
-- **B 1** (Number): *See documentation*
-- **R 2** (Number): *See documentation*
-- **G 2** (Number): *See documentation*
-- **B 2** (Number): *See documentation*
+- **R 1** (Number)
+- **G 1** (Number)
+- **B 1** (Number)
+- **R 2** (Number)
+- **G 2** (Number)
+- **B 2** (Number)
 
 **< Output Ports:**
-- **Contrast** (Number): *See documentation*
+- **Contrast** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lFzrvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LuminanceContrast"*
@@ -218,12 +218,12 @@
 **Description:** Calculate the luminance of a RGB color
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Luminance** (Number): *See documentation*
+- **Luminance** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBLuminance"*
@@ -238,15 +238,15 @@
 **Description:** Output the CMYK value of a RGB color
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **C** (Number): *See documentation*
-- **M** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **K** (Number): *See documentation*
+- **C** (Number)
+- **M** (Number)
+- **Y** (Number)
+- **K** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBToCMYK"*
@@ -261,12 +261,12 @@
 **Description:** convert RGB float values to HEX color String
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Up7r8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RgbToHex"*
@@ -281,14 +281,14 @@
 **Description:** convert RGB color to HSB Hue, Saturation, Brightness
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Hue** (Number): *See documentation*
-- **Saturation** (Number): *See documentation*
-- **Brightness** (Number): *See documentation*
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Brightness** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Up7r8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSB"*
@@ -303,14 +303,14 @@
 **Description:** Convert RGB color to HSL values
 
 **> Input Ports:**
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Hue** (Number): *See documentation*
-- **Saturation** (Number): *See documentation*
-- **Lightness** (Number): *See documentation*
+- **Hue** (Number)
+- **Saturation** (Number)
+- **Lightness** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSL"*

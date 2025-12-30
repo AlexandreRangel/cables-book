@@ -13,9 +13,9 @@
 **Description:** Rule of thirds image composition helper
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Show Center** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Scale** (Number)
+- **Show Center** (Number: Boolean)
 
 **< Output Ports:**
 - *Visit [Ops.Gl.Meshes.ComposingGridOverlay documentation](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay) for output port details*
@@ -33,16 +33,16 @@
 **Description:** number of horizontal segments
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Slices** (Number): *See documentation*
-- **Stacks** (Number): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Slices** (Number)
+- **Stacks** (Number)
+- **Radius** (Number)
+- **Height** (Number)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fGA7W6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cone"*
@@ -57,17 +57,17 @@
 **Description:** render a rectangular corner
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Thickness** (Number): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Pivot X Index** (Number: Integer): *See documentation*
-- **Pivot Y Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Thickness** (Number)
+- **Draw** (Number: Boolean)
+- **Pivot X Index** (Number: Integer)
+- **Pivot Y Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KWolQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Corner"*
@@ -82,20 +82,20 @@
 **Description:** draw parameterizable cylinder (aka tube,pipe,round,circle)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
-- **Segments** (Number: Integer): *See documentation*
-- **Stacks** (Number: Integer): *See documentation*
-- **Length** (Number): *See documentation*
-- **Outer Radius** (Number): *See documentation*
-- **Inner Radius** (Number): *See documentation*
-- **Flip Mapping** (Number: Boolean): *See documentation*
-- **Caps** (Number: Boolean): *See documentation*
-- **Flat Normals** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Render Mesh** (Number: Boolean)
+- **Segments** (Number: Integer)
+- **Stacks** (Number: Integer)
+- **Length** (Number)
+- **Outer Radius** (Number)
+- **Inner Radius** (Number)
+- **Flip Mapping** (Number: Boolean)
+- **Caps** (Number: Boolean)
+- **Flat Normals** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GxagQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cylinder_v2"*
@@ -110,11 +110,11 @@
 **Description:** draw a grid on the floor
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LiwB16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FloorGrid"*
@@ -129,31 +129,31 @@
 **Description:** A freely deformable plane, rectangle, polygon
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X 1** (Number): *See documentation*
-- **Y 1** (Number): *See documentation*
-- **Z 1** (Number): *See documentation*
-- **X 2** (Number): *See documentation*
-- **Y 2** (Number): *See documentation*
-- **Z 2** (Number): *See documentation*
-- **X 3** (Number): *See documentation*
-- **Y 3** (Number): *See documentation*
-- **Z 3** (Number): *See documentation*
-- **X 4** (Number): *See documentation*
-- **Y 4** (Number): *See documentation*
-- **Z 4** (Number): *See documentation*
-- **Tc X 1** (Number): *See documentation*
-- **Tc Y 1** (Number): *See documentation*
-- **Tc X 2** (Number): *See documentation*
-- **Tc Y 2** (Number): *See documentation*
-- **Tc X 3** (Number): *See documentation*
-- **Tc Y 3** (Number): *See documentation*
-- **Tc X 4** (Number): *See documentation*
-- **Tc Y 4** (Number): *See documentation*
+- **Render** (Trigger)
+- **X 1** (Number)
+- **Y 1** (Number)
+- **Z 1** (Number)
+- **X 2** (Number)
+- **Y 2** (Number)
+- **Z 2** (Number)
+- **X 3** (Number)
+- **Y 3** (Number)
+- **Z 3** (Number)
+- **X 4** (Number)
+- **Y 4** (Number)
+- **Z 4** (Number)
+- **Tc X 1** (Number)
+- **Tc Y 1** (Number)
+- **Tc X 2** (Number)
+- **Tc Y 2** (Number)
+- **Tc X 3** (Number)
+- **Tc Y 3** (Number)
+- **Tc X 4** (Number)
+- **Tc Y 4** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Q92nQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FreeFormPlane"*
@@ -168,13 +168,13 @@
 **Description:** Draws a rectangle using the full WebGL canvas size
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **Flip Y** (Number: Boolean)
+- **Flip X** (Number: Boolean)
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uKkIeG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FullscreenRectangle_v2"*
@@ -189,22 +189,22 @@
 **Description:** Convert vertices of a geometry to a data texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Continously Update** (Number: Boolean): *See documentation*
-- **Order Index** (Number: Integer): *See documentation*
-- **Content Index** (Number: Integer): *See documentation*
-- **New Size** (Number): *See documentation*
-- **Tex Width** (Number: Integer): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Pixel Format Index** (Number: Integer): *See documentation*
-- **Color Texture** (Object:Texture): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Object:Geometry)
+- **Continously Update** (Number: Boolean)
+- **Order Index** (Number: Integer)
+- **Content Index** (Number: Integer)
+- **New Size** (Number)
+- **Tex Width** (Number: Integer)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Pixel Format Index** (Number: Integer)
+- **Color Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Total Vertices** (Number): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Next** (Trigger)
+- **Total Vertices** (Number)
+- **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bhWkpX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryToTexture_v3"*
@@ -219,14 +219,14 @@
 **Description:** Draw a simple grid of lines
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **Spacing** (Number): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Num** (Number: Integer)
+- **Spacing** (Number)
+- **Center** (Number: Boolean)
+- **Axis Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VxPlQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Grid"*
@@ -241,19 +241,19 @@
 **Description:** generate a rectangular mesh where the height is defined by the luminance of an image
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **File** (String): *See documentation*
-- **Extrude** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Rows** (Number: Integer): *See documentation*
-- **Columns** (Number: Integer): *See documentation*
-- **TexCoords Slice** (Number: Boolean): *See documentation*
-- **Flat** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **File** (String)
+- **Extrude** (Number)
+- **Width** (Number)
+- **Height** (Number)
+- **Rows** (Number: Integer)
+- **Columns** (Number: Integer)
+- **TexCoords Slice** (Number: Boolean)
+- **Flat** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bRlSDe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HeightMap"*
@@ -268,17 +268,17 @@
 **Description:** generates a helix, spiral spline
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Segments** (Number): *See documentation*
-- **Frequency** (Number): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Radius End** (Number): *See documentation*
-- **Height** (Number): *See documentation*
+- **Render** (Trigger)
+- **Draw** (Number: Boolean)
+- **Segments** (Number)
+- **Frequency** (Number)
+- **Radius** (Number)
+- **Radius End** (Number)
+- **Height** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
+- **Next** (Trigger)
+- **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CW8-I6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Helix"*
@@ -293,13 +293,13 @@
 **Description:** Renders a icosahedron (polyhedron with 20 faces)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Smooth** (Number: Boolean)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ie6iQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Icosahedron_v2"*
@@ -314,17 +314,17 @@
 **Description:** Draw a line between two points
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **X 1** (Number): *See documentation*
-- **Y 1** (Number): *See documentation*
-- **Z 1** (Number): *See documentation*
-- **X 2** (Number): *See documentation*
-- **Y 2** (Number): *See documentation*
-- **Z 2** (Number): *See documentation*
+- **Render** (Trigger)
+- **X 1** (Number)
+- **Y 1** (Number)
+- **Z 1** (Number)
+- **X 2** (Number)
+- **Y 2** (Number)
+- **Z 2** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Next** (Trigger)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/D_eE98)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Line"*
@@ -339,19 +339,19 @@
 **Description:** an array of lines
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Logarithmic** (Number: Boolean): *See documentation*
-- **Pivot X Index** (Number: Integer): *See documentation*
-- **Pivot Y Index** (Number: Integer): *See documentation*
-- **Num Columns** (Number: Integer): *See documentation*
-- **Num Rows** (Number: Integer): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Logarithmic** (Number: Boolean)
+- **Pivot X Index** (Number: Integer)
+- **Pivot Y Index** (Number: Integer)
+- **Num Columns** (Number: Integer)
+- **Num Rows** (Number: Integer)
+- **Axis Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Point Arrays** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Point Arrays** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oXke6r)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LinesArray"*
@@ -366,24 +366,24 @@
 **Description:** Draw the same mesh multiple times on the GPU
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Limit Instances** (Number: Boolean): *See documentation*
-- **Num Instances** (Number: Integer): *See documentation*
-- **Position Texture** (Object:Texture): *See documentation*
-- **Rotation Texture** (Object:Texture): *See documentation*
-- **Scale Texture** (Object:Texture): *See documentation*
-- **Color Texture** (Object:Texture): *See documentation*
-- **TexCoord Texture** (Object:Texture): *See documentation*
-- **Ignore Alpha Less Than** (Number): *See documentation*
-- **Multiply Pos X** (Number): *See documentation*
-- **Multiply Pos Y** (Number): *See documentation*
-- **Multiply Pos Z** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Geometry** (Object:Geometry)
+- **Scale** (Number)
+- **Limit Instances** (Number: Boolean)
+- **Num Instances** (Number: Integer)
+- **Position Texture** (Object:Texture)
+- **Rotation Texture** (Object:Texture)
+- **Scale Texture** (Object:Texture)
+- **Color Texture** (Object:Texture)
+- **TexCoord Texture** (Object:Texture)
+- **Ignore Alpha Less Than** (Number)
+- **Multiply Pos X** (Number)
+- **Multiply Pos Y** (Number)
+- **Multiply Pos Z** (Number)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Num** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Num** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H3cEpX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancerFromTexture_v3"*
@@ -398,32 +398,32 @@
 **Description:** Creates a 3d mesh from a 2d area expressions
 
 **> Input Ports:**
-- **Shapes Index** (Number: Integer): *See documentation*
-- **Render** (Trigger): *See documentation*
-- **U Segments** (Number: Integer): *See documentation*
-- **V Segments** (Number: Integer): *See documentation*
-- **Multiple Of PI - U** (Number: Boolean): *See documentation*
-- **UMin** (Number): *See documentation*
-- **UMax** (Number): *See documentation*
-- **Displace U** (Number): *See documentation*
-- **Multiple Of PI - V** (Number: Boolean): *See documentation*
-- **VMin** (Number): *See documentation*
-- **VMax** (Number): *See documentation*
-- **Displace V** (Number): *See documentation*
-- **X Function** (String): *See documentation*
-- **Y Function** (String): *See documentation*
-- **Z Function** (String): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Shapes Index** (Number: Integer)
+- **Render** (Trigger)
+- **U Segments** (Number: Integer)
+- **V Segments** (Number: Integer)
+- **Multiple Of PI - U** (Number: Boolean)
+- **UMin** (Number)
+- **UMax** (Number)
+- **Displace U** (Number)
+- **Multiple Of PI - V** (Number: Boolean)
+- **VMin** (Number)
+- **VMax** (Number)
+- **Displace V** (Number)
+- **X Function** (String)
+- **Y Function** (String)
+- **Z Function** (String)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
-- **Position** (Array): *See documentation*
-- **outputs the vertices of the surface** (as an xyz-Array): *See documentation*
-- **Position Amount** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
+- **Position** (Array)
+- **outputs the vertices of the surface** (as an xyz-Array)
+- **Position Amount** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TnUBsL)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ParametricSurface"*
@@ -438,18 +438,18 @@
 **Description:** visualize an array of coordinates as points
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Num Points** (Number: Integer): *See documentation*
-- **Scramble Texcoords** (Number: Boolean): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Texture Coordinates** (Array): *See documentation*
-- **Point Sizes** (Array): *See documentation*
-- **Vertex Colors** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Positions** (Array)
+- **Num Points** (Number: Integer)
+- **Scramble Texcoords** (Number: Boolean)
+- **Seed** (Number)
+- **Texture Coordinates** (Array)
+- **Point Sizes** (Array)
+- **Vertex Colors** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger Out** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/v8G4Wz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCloudFromArray_v2"*
@@ -464,17 +464,17 @@
 **Description:** Visualize a RGB texture as XYZ coordinates as points
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num Points** (Number: Integer): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Point Size** (Object:Texture): *See documentation*
-- **Normalize** (Number: Boolean): *See documentation*
-- **Remove Point At 0** (Number: Boolean): *See documentation*
-- **Ignore Alpha 0** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Num Points** (Number: Integer)
+- **Texture** (Object:Texture)
+- **Point Size** (Object:Texture)
+- **Normalize** (Number: Boolean)
+- **Remove Point At 0** (Number: Boolean)
+- **Ignore Alpha 0** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Total Points** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Total Points** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bhWkpX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCloudFromTexture"*
@@ -489,10 +489,10 @@
 **Description:** Generate polyhedron meshes
 
 **> Input Ports:**
-- **Receipt** (String): *See documentation*
+- **Receipt** (String)
 
 **< Output Ports:**
-- **Geometry** (Object): *See documentation*
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VRG6Q6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Polyhedron_v2"*
@@ -507,16 +507,16 @@
 **Description:** render a pyramid mesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Length** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Length** (Number)
+- **Height** (Number)
+- **Smooth** (Number: Boolean)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Y09mQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Pyramid_v2"*
@@ -531,21 +531,21 @@
 **Description:** Warp a texture mapped quad (projection mapping)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **A X** (Number): *See documentation*
-- **A Y** (Number): *See documentation*
-- **B X** (Number): *See documentation*
-- **B Y** (Number): *See documentation*
-- **C X** (Number): *See documentation*
-- **C Y** (Number): *See documentation*
-- **D X** (Number): *See documentation*
-- **D Y** (Number): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Texture** (Object): *See documentation*
+- **Render** (Trigger)
+- **A X** (Number)
+- **A Y** (Number)
+- **B X** (Number)
+- **B Y** (Number)
+- **C X** (Number)
+- **C Y** (Number)
+- **D X** (Number)
+- **D Y** (Number)
+- **Flip Y** (Number: Boolean)
+- **Flip X** (Number: Boolean)
+- **Texture** (Object)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T2A7zp)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QuadWarpTexture"*
@@ -560,19 +560,19 @@
 **Description:** nine slice image format texture mapped rectangle
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Border Width** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Pivot X Index** (Number: Integer): *See documentation*
-- **Pivot Y Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Border Width** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Draw** (Number: Boolean)
+- **Pivot X Index** (Number: Integer)
+- **Pivot Y Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WkQpIG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Rectangle9Slice"*
@@ -587,19 +587,19 @@
 **Description:** Draws a rectangle frame
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Thickness** (Number): *See documentation*
-- **Draw Top** (Number: Boolean): *See documentation*
-- **Draw Bottom** (Number: Boolean): *See documentation*
-- **Draw Left** (Number: Boolean): *See documentation*
-- **Draw Right** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Height** (Number)
+- **Thickness** (Number)
+- **Draw Top** (Number: Boolean)
+- **Draw Bottom** (Number: Boolean)
+- **Draw Left** (Number: Boolean)
+- **Draw Right** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HLViQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RectangleFrame_v2"*
@@ -614,20 +614,20 @@
 **Description:** Draws a rectangle with rounded corners
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Segments** (Number: Integer): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Border Radius** (Number): *See documentation*
-- **Top Left** (Number: Boolean): *See documentation*
-- **Top Right** (Number: Boolean): *See documentation*
-- **Bottom Left** (Number: Boolean): *See documentation*
-- **Bottom Right** (Number: Boolean): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Segments** (Number: Integer)
+- **Width** (Number)
+- **Height** (Number)
+- **Border Radius** (Number)
+- **Top Left** (Number: Boolean)
+- **Top Right** (Number: Boolean)
+- **Bottom Left** (Number: Boolean)
+- **Bottom Right** (Number: Boolean)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1la6mJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RectangleRounded_v2"*
@@ -642,16 +642,16 @@
 **Description:** Draws a simple spline only one pixel wide
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
-- **Num Points** (Number: Integer): *See documentation*
-- **Line Strip** (Number: Boolean): *See documentation*
-- **TexCoords Array** (Array): *See documentation*
-- **Vertex Colors** (Array): *See documentation*
+- **Render** (Trigger)
+- **Points** (Array)
+- **Num Points** (Number: Integer)
+- **Line Strip** (Number: Boolean)
+- **TexCoords Array** (Array)
+- **Vertex Colors** (Array)
 
 **< Output Ports:**
-- **Geometry** (Object): *See documentation*
-- **Next** (Trigger): *See documentation*
+- **Geometry** (Object)
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qRD7W6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleSpline_v2"*
@@ -666,11 +666,11 @@
 **Description:** Simple Wireframe Line Renderer
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Geometry** (Object:Geometry): *See documentation*
+- **Render** (Trigger)
+- **Geometry** (Object:Geometry)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gt0cay)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleWireframe"*
@@ -685,13 +685,13 @@
 **Description:** draw splines/lines
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Points** (Array): *See documentation*
-- **Tesselate Edges** (Number: Boolean): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Points** (Array)
+- **Tesselate Edges** (Number: Boolean)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3l5Uu-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineMesh_v2"*
@@ -706,23 +706,23 @@
 **Description:** material for splinemesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
-- **Width Perspective** (Number: Boolean): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Texture Mask** (Object:Texture): *See documentation*
-- **Mapping Index** (Number: Integer): *See documentation*
-- **Mapping** (String): *See documentation*
-- **Colorize Texture** (Number: Boolean): *See documentation*
-- **Offset** (Number): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
+- **Width Perspective** (Number: Boolean)
+- **Texture** (Object:Texture)
+- **Texture Mask** (Object:Texture)
+- **Mapping Index** (Number: Integer)
+- **Mapping** (String)
+- **Colorize Texture** (Number: Boolean)
+- **Offset** (Number)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Shader** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tnUJta)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineMeshMaterial_v2"*
@@ -737,27 +737,27 @@
 **Description:** Draws text in 3d space using one of the font ops
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Scale Text** (Number): *See documentation*
-- **Line Scale** (Number): *See documentation*
-- **Font** (String): *See documentation*
-- **Align Index** (Number: Integer): *See documentation*
-- **Vertical Align Index** (Number: Integer): *See documentation*
-- **Line Height** (Number): *See documentation*
-- **Letter Spacing** (Number): *See documentation*
-- **Texture Color** (Object:Texture): *See documentation*
-- **Texture Mask** (Object:Texture): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **A** (Number): *See documentation*
+- **Render** (Trigger)
+- **Text** (String)
+- **Scale Text** (Number)
+- **Line Scale** (Number)
+- **Font** (String)
+- **Align Index** (Number: Integer)
+- **Vertical Align Index** (Number: Integer)
+- **Line Height** (Number)
+- **Letter Spacing** (Number)
+- **Texture Color** (Object:Texture)
+- **Texture Mask** (Object:Texture)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **A** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Total Lines** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Font Available** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Total Lines** (Number)
+- **Width** (Number)
+- **Font Available** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LzDnH-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextMesh_v2"*
@@ -772,16 +772,16 @@
 **Description:** Draw a torus (doughnut, donut, ring mesh)
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Sides** (Number): *See documentation*
-- **Rings** (Number): *See documentation*
-- **InnerRadius** (Number): *See documentation*
-- **OuterRadius** (Number): *See documentation*
-- **Render Mesh** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Sides** (Number)
+- **Rings** (Number)
+- **InnerRadius** (Number)
+- **OuterRadius** (Number)
+- **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ECMhQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Torus_v3"*
@@ -796,14 +796,14 @@
 **Description:** A sphere mesh with uniform distributed vertices
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Iterations** (Number): *See documentation*
-- **Flat** (Number: Boolean): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Iterations** (Number)
+- **Flat** (Number: Boolean)
+- **Draw** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Geometry** (Object): *See documentation*
+- **Next** (Trigger)
+- **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T43V0D)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriangleSphere"*

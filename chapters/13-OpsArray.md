@@ -13,12 +13,12 @@
 **Description:** Outputs the angle between points in 3D space (degree)
 
 **> Input Ports:**
-- **Points** (Array): *See documentation*
-- **Theta** (Number): *See documentation*
-- **Phi** (Number): *See documentation*
+- **Points** (Array)
+- **Theta** (Number)
+- **Phi** (Number)
 
 **< Output Ports:**
-- **Rotations** (Array): *See documentation*
+- **Rotations** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Y2_BIR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnglesBetweenPoints"*
@@ -33,14 +33,14 @@
 **Description:** Animate values in an array to another array
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Next Array** (Array): *See documentation*
-- **Duration** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
+- **Update** (Trigger)
+- **Next Array** (Array)
+- **Duration** (Number)
+- **Easing Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Matrix** (Array): *See documentation*
+- **Next** (Trigger)
+- **Matrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OwvgkJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimArray_v2"*
@@ -55,12 +55,12 @@
 **Description:** convert an array1 to array2,3,4 by choosing content for new axis
 
 **> Input Ports:**
-- **Array1x** (Array): *See documentation*
+- **Array1x** (Array)
 
 **< Output Ports:**
-- **Array3x** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array3x** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/omZrLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array1toX_v2"*
@@ -75,12 +75,12 @@
 **Description:** Inserts zeroes every third item
 
 **> Input Ports:**
-- **Array2x** (Array): *See documentation*
+- **Array2x** (Array)
 
 **< Output Ports:**
-- **Array3x** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array3x** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xAg8P6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array2To3"*
@@ -95,15 +95,15 @@
 **Description:** Create an array of num triplets set to default values xyz
 
 **> Input Ports:**
-- **Num Triplets** (Number: Integer): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Num Triplets** (Number: Integer)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmn5Og)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3"*
@@ -118,12 +118,12 @@
 **Description:** Average x,y,z values of an array3x
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Average X** (Number): *See documentation*
-- **Average Y** (Number): *See documentation*
-- **Average Z** (Number): *See documentation*
+- **Average X** (Number)
+- **Average Y** (Number)
+- **Average Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmn5Og)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3GetAverage"*
@@ -138,13 +138,13 @@
 **Description:** Get 3 values XYZ from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5LhTLJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3GetNumbers"*
@@ -159,14 +159,14 @@
 **Description:** Interpolate between two arrays
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Progress** (Number): *See documentation*
+- **Update** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Progress** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2UuCa6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3InterpolateDistributed"*
@@ -181,20 +181,20 @@
 **Description:** Iterate over an array in steps of three and outputs three values
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Step** (Number): *See documentation*
+- **Execute** (Trigger)
+- **Array** (Array)
+- **Step** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Triggers for every iteration step** (triplet in the array): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value 1** (Number): *See documentation*
-- **First value of the current triplet** (e.g. x): *See documentation*
-- **Value 2** (Number): *See documentation*
-- **Second value of the current triplet** (e.g. y): *See documentation*
-- **Value 3** (Number): *See documentation*
-- **Third value of the current triplet** (e.g. z): *See documentation*
+- **Trigger** (Trigger)
+- **Triggers for every iteration step** (triplet in the array)
+- **Index** (Number)
+- **Value 1** (Number)
+- **First value of the current triplet** (e.g. x)
+- **Value 2** (Number)
+- **Second value of the current triplet** (e.g. y)
+- **Value 3** (Number)
+- **Third value of the current triplet** (e.g. z)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ubwk3u)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3Iterator"*
@@ -209,13 +209,13 @@
 **Description:** Multiply every XYZ member of array3x
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
-- **Mul X** (Number): *See documentation*
-- **Mul Y** (Number): *See documentation*
-- **Mul Z** (Number): *See documentation*
+- **Array3x** (Array)
+- **Mul X** (Number)
+- **Mul Y** (Number)
+- **Mul Z** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8FxmVJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3Multiply"*
@@ -230,16 +230,16 @@
 **Description:** Push three numbers to the end of an array (was ArrayPushValue3x)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Value 1** (Number): *See documentation*
-- **Value 2** (Number): *See documentation*
-- **Value 3** (Number): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Execute** (Trigger)
+- **Array** (Array)
+- **Value 1** (Number)
+- **Value 2** (Number)
+- **Value 3** (Number)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result Array** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uOzMH7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3PushNumbers_v2"*
@@ -254,14 +254,14 @@
 **Description:** Extract definable amount of random xyz points from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Elements** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Array** (Array)
+- **Elements** (Number: Integer)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1qNz98)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3RandomSelection"*
@@ -276,14 +276,14 @@
 **Description:** Set three numbers at index in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value X** (Number): *See documentation*
-- **Value Y** (Number): *See documentation*
-- **Value Z** (Number): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value X** (Number)
+- **Value Y** (Number)
+- **Value Z** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/t44fQc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3SetNumber"*
@@ -298,13 +298,13 @@
 **Description:** Add number to every XYZ member of array3x
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
-- **Add X** (Number): *See documentation*
-- **Add Y** (Number): *See documentation*
-- **Add Z** (Number): *See documentation*
+- **Array3x** (Array)
+- **Add X** (Number)
+- **Add Y** (Number)
+- **Add Z** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/D-pQHj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3Sum"*
@@ -319,10 +319,10 @@
 **Description:** Remove every 3rd item of an array - changes array length
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
+- **Array3x** (Array)
 
 **< Output Ports:**
-- **Array2x** (Array): *See documentation*
+- **Array2x** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmn5Og)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3To2"*
@@ -337,12 +337,12 @@
 **Description:** Convert an array3 to an array4 by filling it up with 1
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
+- **Array3x** (Array)
 
 **< Output Ports:**
-- **Array4x** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array4x** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/h_Dbm4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3To4"*
@@ -357,11 +357,11 @@
 **Description:** Return the length of a vector from an array 3
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
+- **Array In** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Array Lengths** (Number): *See documentation*
+- **Array Out** (Array)
+- **Array Lengths** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L9tsRJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3VectorLength"*
@@ -376,16 +376,16 @@
 **Description:** Create an array of num quadruples set to default values xyz
 
 **> Input Ports:**
-- **Num Quadruplets** (Number: Integer): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **Num Quadruplets** (Number: Integer)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Total Quadruplets** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array** (Array)
+- **Total Quadruplets** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HjHdQc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array4"*
@@ -400,14 +400,14 @@
 **Description:** Get 4 values from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **W** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **W** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tI0COg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array4GetNumbers"*
@@ -422,15 +422,15 @@
 **Description:** Set four numbers at index in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value X** (Number): *See documentation*
-- **Value Y** (Number): *See documentation*
-- **Value Z** (Number): *See documentation*
-- **Value W** (Number): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value X** (Number)
+- **Value Y** (Number)
+- **Value Z** (Number)
+- **Value W** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HjHdQc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array4SetNumber"*
@@ -445,11 +445,11 @@
 **Description:** Convert an array4 to array3 by dropping every 4th number
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SZdOet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array4toArray3"*
@@ -464,14 +464,14 @@
 **Description:** Can generate 3 kinds of arrays: Number - 1,2,3,4 - Normalized - (ContinuousNumberArray)
 
 **> Input Ports:**
-- **Array Length** (Number: Integer): *See documentation*
-- **Mode Select Index** (Number: Integer): *See documentation*
-- **Default Value** (Number): *See documentation*
-- **Reverse** (Number: Boolean): *See documentation*
+- **Array Length** (Number: Integer)
+- **Mode Select Index** (Number: Integer)
+- **Default Value** (Number)
+- **Reverse** (Number: Boolean)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Array Length Out** (Number): *See documentation*
+- **Array** (Array)
+- **Array Length Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P4qAz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array_v3"*
@@ -486,10 +486,10 @@
 **Description:** Converts array contents to absolute values - converts all negative numbers to positive numbers
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
+- **In** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Jdij7z)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayAbs"*
@@ -504,13 +504,13 @@
 **Description:** Append an array to an existing array
 
 **> Input Ports:**
-- **Join** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Join** (Trigger)
+- **Array** (Array)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/quYUvH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayAppendArray"*
@@ -525,15 +525,15 @@
 **Description:** Store values in an array / fifo array buffer
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Value** (Number): *See documentation*
-- **Max Length** (Number: Integer): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exec** (Trigger)
+- **Value** (Number)
+- **Max Length** (Number: Integer)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_ZPEnB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayBuffer"*
@@ -548,17 +548,17 @@
 **Description:** Circular buffer for xyz values
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Max Num Elements** (Number): *See documentation*
-- **Value X** (Number): *See documentation*
-- **Value Y** (Number): *See documentation*
-- **Value Z** (Number): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exec** (Trigger)
+- **Max Num Elements** (Number)
+- **Value X** (Number)
+- **Value Y** (Number)
+- **Value Z** (Number)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TNwIZC)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayBuffer3"*
@@ -573,10 +573,10 @@
 **Description:** Round numbers up
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
+- **In** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7xdJrG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayCeil"*
@@ -591,14 +591,14 @@
 **Description:** Extracts x elements from an array
 
 **> Input Ports:**
-- **Input Array** (Array): *See documentation*
-- **Begin Index** (Number: Integer): *See documentation*
-- **Chunk Size** (Number: Integer): *See documentation*
-- **Circular** (Number: Boolean): *See documentation*
+- **Input Array** (Array)
+- **Begin Index** (Number: Integer)
+- **Chunk Size** (Number: Integer)
+- **Circular** (Number: Boolean)
 
 **< Output Ports:**
-- **Output Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Output Array** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yGR5GA)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayChunk"*
@@ -613,12 +613,12 @@
 **Description:** Repeat chunks of an array multiple times
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Chunk Size** (Number: Integer): *See documentation*
-- **Repeats** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Chunk Size** (Number: Integer)
+- **Repeats** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Vu22bf)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayChunkDuplicate"*
@@ -633,12 +633,12 @@
 **Description:** Clamp the values of an array to a min and max value
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
+- **Array In** (Array)
+- **Min** (Number)
+- **Max** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tyxvSP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayClamp"*
@@ -653,12 +653,12 @@
 **Description:** Check if an array contains a number (find,search,indexOf)
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **SearchValue** (Number): *See documentation*
+- **Array** (Array)
+- **SearchValue** (Number)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
-- **Index** (Number): *See documentation*
+- **Found** (booleanNumber)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8pZ8GA)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayContains_v2"*
@@ -673,11 +673,11 @@
 **Description:** Divide all values in an array by one number
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uIYNcn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayDivide"*
@@ -692,12 +692,12 @@
 **Description:** Return all the indexes of a string in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **SearchValue** (String): *See documentation*
+- **Array** (Array)
+- **SearchValue** (String)
 
 **< Output Ports:**
-- **Index** (Array): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Index** (Array)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/p9sBjH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayFindStrings"*
@@ -712,10 +712,10 @@
 **Description:** Round numbers down
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
+- **In** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7xdJrG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayFloor"*
@@ -730,10 +730,10 @@
 **Description:** Return the fractional remainder of all values in an array
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
+- **In** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uVzImG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayFract"*
@@ -748,43 +748,43 @@
 **Description:** Simple way to create small arrays of numbers
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Limit** (Number: Integer): *See documentation*
-- **Slider** (Number: Boolean): *See documentation*
-- **Index 0** (Number): *See documentation*
-- **Index 1** (Number): *See documentation*
-- **Index 2** (Number): *See documentation*
-- **Index 3** (Number): *See documentation*
-- **Index 4** (Number): *See documentation*
-- **Index 5** (Number): *See documentation*
-- **Index 6** (Number): *See documentation*
-- **Index 7** (Number): *See documentation*
-- **Index 8** (Number): *See documentation*
-- **Index 9** (Number): *See documentation*
-- **Index 10** (Number): *See documentation*
-- **Index 11** (Number): *See documentation*
-- **Index 12** (Number): *See documentation*
-- **Index 13** (Number): *See documentation*
-- **Index 14** (Number): *See documentation*
-- **Index 15** (Number): *See documentation*
-- **Index 16** (Number): *See documentation*
-- **Index 17** (Number): *See documentation*
-- **Index 18** (Number): *See documentation*
-- **Index 19** (Number): *See documentation*
-- **Index 20** (Number): *See documentation*
-- **Index 21** (Number): *See documentation*
-- **Index 22** (Number): *See documentation*
-- **Index 23** (Number): *See documentation*
-- **Index 24** (Number): *See documentation*
-- **Index 25** (Number): *See documentation*
-- **Index 26** (Number): *See documentation*
-- **Index 27** (Number): *See documentation*
-- **Index 28** (Number): *See documentation*
-- **Index 29** (Number): *See documentation*
+- **Update** (Trigger)
+- **Limit** (Number: Integer)
+- **Slider** (Number: Boolean)
+- **Index 0** (Number)
+- **Index 1** (Number)
+- **Index 2** (Number)
+- **Index 3** (Number)
+- **Index 4** (Number)
+- **Index 5** (Number)
+- **Index 6** (Number)
+- **Index 7** (Number)
+- **Index 8** (Number)
+- **Index 9** (Number)
+- **Index 10** (Number)
+- **Index 11** (Number)
+- **Index 12** (Number)
+- **Index 13** (Number)
+- **Index 14** (Number)
+- **Index 15** (Number)
+- **Index 16** (Number)
+- **Index 17** (Number)
+- **Index 18** (Number)
+- **Index 19** (Number)
+- **Index 20** (Number)
+- **Index 21** (Number)
+- **Index 22** (Number)
+- **Index 23** (Number)
+- **Index 24** (Number)
+- **Index 25** (Number)
+- **Index 26** (Number)
+- **Index 27** (Number)
+- **Index 28** (Number)
+- **Index 29** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Next** (Trigger)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZNPh2B)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayFromNumbers"*
@@ -799,11 +799,11 @@
 **Description:** Get an array from an array of arrays
 
 **> Input Ports:**
-- **Array Of Arrays** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array Of Arrays** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result Array** (Array): *See documentation*
+- **Result Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yU2Pet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetArray"*
@@ -818,13 +818,13 @@
 **Description:** Return a value from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value Invalid Index** (Number): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value Invalid Index** (Number)
 
 **< Output Ports:**
-- **Value** (Number): *See documentation*
-- **Valid Index** (booleanNumber): *See documentation*
+- **Value** (Number)
+- **Valid Index** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/38AIji)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetNumber"*
@@ -839,11 +839,11 @@
 **Description:** Get an object from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **Value** (Object): *See documentation*
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7npL_M)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetObject"*
@@ -858,12 +858,12 @@
 **Description:** Get a string from an array at [index]
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
-- **Found** (booleanNumber): *See documentation*
+- **Result** (String)
+- **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aHNk8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetString_v2"*
@@ -878,11 +878,11 @@
 **Description:** Get texture from array at index
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **Value** (Object): *See documentation*
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jFv097)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetTexture"*
@@ -897,12 +897,12 @@
 **Description:** Pick values from input array at given indices and stride
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Array Stride Index** (Number: Integer): *See documentation*
-- **Indices** (Array): *See documentation*
+- **Array** (Array)
+- **Array Stride Index** (Number: Integer)
+- **Indices** (Array)
 
 **< Output Ports:**
-- **Results** (Array): *See documentation*
+- **Results** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bOBgTq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayGetValuesByIndexArray"*
@@ -917,11 +917,11 @@
 **Description:** Output index where value is greater than number and smaller then next number
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Index** (Number): *See documentation*
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kH4xLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIndexBetween"*
@@ -936,13 +936,13 @@
 **Description:** Find lowest/highest numbers in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Max** (Number): *See documentation*
-- **Index Max** (Number): *See documentation*
-- **Min** (Number): *See documentation*
-- **Index Min** (Number): *See documentation*
+- **Max** (Number)
+- **Index Max** (Number)
+- **Min** (Number)
+- **Index Min** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gamucI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIndexMinMax"*
@@ -957,13 +957,13 @@
 **Description:** Iterate over an array of arrays
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Result** (Array): *See documentation*
+- **Trigger** (Trigger)
+- **Index** (Number)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xFKQet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIteratorArray"*
@@ -978,13 +978,13 @@
 **Description:** Loop over every element of an array
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **Index** (Number)
+- **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ubwk3u)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIteratorNumbers"*
@@ -999,14 +999,14 @@
 **Description:** Iterate over an array of objects
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Finished** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Finished** (Trigger)
+- **Index** (Number)
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UlL2G1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIteratorObjects"*
@@ -1021,13 +1021,13 @@
 **Description:** Loop over every element of an array
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Index** (Number)
+- **Value** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/53WCcI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIteratorStrings"*
@@ -1042,14 +1042,14 @@
 **Description:** Iterate over an array of objects
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Finished** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Finished** (Trigger)
+- **Index** (Number)
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vS5fjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayIteratorTextures"*
@@ -1064,10 +1064,10 @@
 **Description:** Number of items in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Length** (Number): *See documentation*
+- **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P4qAz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayLength_v2"*
@@ -1082,15 +1082,15 @@
 **Description:** Performs logical comparison operations on a single array of numbers
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Comparison Mode Index** (Number: Integer): *See documentation*
-- **Number For Comparison** (Number): *See documentation*
-- **Value If True** (Number): *See documentation*
-- **Value If False** (Number): *See documentation*
+- **Array 0** (Array)
+- **Comparison Mode Index** (Number: Integer)
+- **Number For Comparison** (Number)
+- **Value If True** (Number)
+- **Value If False** (Number)
 
 **< Output Ports:**
-- **Array Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/D3DmbJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayLogic"*
@@ -1105,15 +1105,15 @@
 **Description:** Performs logical comparison operations on two arrays
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Value If True** (Number): *See documentation*
-- **Value If False** (Number): *See documentation*
-- **Comparison Mode Index** (Number: Integer): *See documentation*
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Value If True** (Number)
+- **Value If False** (Number)
+- **Comparison Mode Index** (Number: Integer)
 
 **< Output Ports:**
-- **Array Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T_-NmJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayLogicArray"*
@@ -1128,13 +1128,13 @@
 **Description:** If value of array is between min and max then the value is 1 else 0
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
-- **Pass Value When True** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Min** (Number)
+- **Max** (Number)
+- **Pass Value When True** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jTqRet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayLogicBetween_v2"*
@@ -1149,12 +1149,12 @@
 **Description:** Create an array that is filled with values looked up by index from another array
 
 **> Input Ports:**
-- **Indices** (Array): *See documentation*
-- **Values** (Array): *See documentation*
-- **Stride** (Number: Integer): *See documentation*
+- **Indices** (Array)
+- **Values** (Array)
+- **Stride** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cwJBEe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayLookup"*
@@ -1169,13 +1169,13 @@
 **Description:** Pick from multiple mathematical modes which can all be applied to a single array
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Number For Math** (Number): *See documentation*
-- **Math Function Index** (Number: Integer): *See documentation*
+- **Array 0** (Array)
+- **Number For Math** (Number)
+- **Math Function Index** (Number: Integer)
 
 **< Output Ports:**
-- **Array Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7E1hqH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMath"*
@@ -1190,13 +1190,13 @@
 **Description:** Perform a math operations on two arrays
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Math Function Index** (Number: Integer): *See documentation*
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Math Function Index** (Number: Integer)
 
 **< Output Ports:**
-- **Array Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uIYNcn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMathArray"*
@@ -1211,18 +1211,18 @@
 **Description:** Calculate a user-defined mathematical expression
 
 **> Input Ports:**
-- **A** (Array): *See documentation*
-- **B** (Array): *See documentation*
-- **C** (Array): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Expression** (String): *See documentation*
+- **A** (Array)
+- **B** (Array)
+- **C** (Array)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Expression** (String)
 
 **< Output Ports:**
-- **Result Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Expression Valid** (booleanNumber): *See documentation*
+- **Result Array** (Array)
+- **Array Length** (Number)
+- **Expression Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_o2Mue)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMathExpression"*
@@ -1237,20 +1237,20 @@
 **Description:** Calculate a user-defined mathematical expression
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **A** (Array): *See documentation*
-- **B** (Array): *See documentation*
-- **C** (Array): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Expression** (String): *See documentation*
+- **Update** (Trigger)
+- **A** (Array)
+- **B** (Array)
+- **C** (Array)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Expression** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **Expression Valid** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Result Array** (Array)
+- **Array Length** (Number)
+- **Expression Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_o2Mue)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMathExpressionTrigger"*
@@ -1265,11 +1265,11 @@
 **Description:** Apply a max operation to all values in an array
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bc0xTn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMax"*
@@ -1284,18 +1284,18 @@
 **Description:** Merge multiple arrays - in consecutive order
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Array 7** (Array): *See documentation*
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
+- **Array 5** (Array)
+- **Array 6** (Array)
+- **Array 7** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P7siGA)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMerge_v3"*
@@ -1310,24 +1310,24 @@
 **Description:** Merge / concatenate arrays by trigger
 
 **> Input Ports:**
-- **Merge** (Trigger): *See documentation*
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Array 7** (Array): *See documentation*
-- **Array 8** (Array): *See documentation*
-- **Array 9** (Array): *See documentation*
-- **Array 10** (Array): *See documentation*
-- **Array 11** (Array): *See documentation*
+- **Merge** (Trigger)
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
+- **Array 5** (Array)
+- **Array 6** (Array)
+- **Array 7** (Array)
+- **Array 8** (Array)
+- **Array 9** (Array)
+- **Array 10** (Array)
+- **Array 11** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ArrayMergeTrigger#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMergeTrigger"*
@@ -1342,11 +1342,11 @@
 **Description:** Apply a min operation to all values in an array
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bc0xTn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMin"*
@@ -1361,11 +1361,11 @@
 **Description:** Apply a modulo operation to all values in an array
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uIYNcn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayModulo"*
@@ -1380,11 +1380,11 @@
 **Description:** Multiply every number in an array
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xmNqci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayMultiply"*
@@ -1399,12 +1399,12 @@
 **Description:** Create an array that contains X numbers between start and end values
 
 **> Input Ports:**
-- **Start Value** (Number): *See documentation*
-- **End Value** (Number): *See documentation*
-- **Entries** (Number: Integer): *See documentation*
+- **Start Value** (Number)
+- **End Value** (Number)
+- **Entries** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LfNG9t)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayNumberRamp_v2"*
@@ -1419,20 +1419,20 @@
 **Description:** Create an array filled with other arrays
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Array 7** (Array): *See documentation*
-- **Array 8** (Array): *See documentation*
-- **Array 9** (Array): *See documentation*
+- **Update** (Trigger)
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
+- **Array 5** (Array)
+- **Array 6** (Array)
+- **Array 7** (Array)
+- **Array 8** (Array)
+- **Array 9** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iId8ve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfArrays"*
@@ -1447,14 +1447,14 @@
 **Description:** Filter key-value pairs in objects in an array of objects
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Filter Key** (String): *See documentation*
-- **Filter Value** (String): *See documentation*
-- **Invert Filter** (Number: Boolean): *See documentation*
-- **invert result** (discard all objects that have key-value pair): *See documentation*
+- **Array** (Array)
+- **Filter Key** (String)
+- **Filter Value** (String)
+- **Invert Filter** (Number: Boolean)
+- **invert result** (discard all objects that have key-value pair)
 
 **< Output Ports:**
-- **ArrayOut** (Array): *See documentation*
+- **ArrayOut** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HFRsU5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfObjectsFilterByKeyValue_v3"*
@@ -1469,13 +1469,13 @@
 **Description:** Remove key-value pairs from objects in an array of objects
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Keys** (String): *See documentation*
-- **Seperator** (String): *See documentation*
-- **Invert Filter** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Keys** (String)
+- **Seperator** (String)
+- **Invert Filter** (Number: Boolean)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HFRsU5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfObjectsFilterKeys"*
@@ -1490,10 +1490,10 @@
 **Description:** Convert an array of objects into readable string format
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
+- **Array In** (Array)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HFRsU5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfObjectsToString"*
@@ -1508,17 +1508,17 @@
 **Description:** Pack multiple arrays into a new array
 
 **> Input Ports:**
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Array 7** (Array): *See documentation*
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
+- **Array 5** (Array)
+- **Array 6** (Array)
+- **Array 7** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fT3AeT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack"*
@@ -1533,14 +1533,14 @@
 **Description:** Pack two individual arrays into a new array
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
+- **Trigger In** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Array Out** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Array Out** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WaPiSP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack2"*
@@ -1555,13 +1555,13 @@
 **Description:** Pack 2 individual arrays into an array2 - without needing a trigger
 
 **> Input Ports:**
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
+- **Array 1** (Array)
+- **Array 2** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Num Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Num Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Udb6eG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack2Simple"*
@@ -1576,16 +1576,16 @@
 **Description:** Pack 3 individual arrays into a xyz array
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
+- **Trigger In** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Array Out** (Array): *See documentation*
-- **Num Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Array Out** (Array)
+- **Num Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/As6p8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack3"*
@@ -1600,14 +1600,14 @@
 **Description:** Pack 3 individual arrays into an array3 - without needing a trigger
 
 **> Input Ports:**
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Num Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Num Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hx09v4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack3Simple"*
@@ -1622,16 +1622,16 @@
 **Description:** Pack 4 arrays into one array
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
+- **Trigger In** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Array Out** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Array Out** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zgbOqH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack4"*
@@ -1646,15 +1646,15 @@
 **Description:** Pack 3 individual arrays into an array3 - without needing a trigger
 
 **> Input Ports:**
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Num Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Num Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hx09v4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPack4Simple"*
@@ -1669,11 +1669,11 @@
 **Description:** Values below 0 are not accepted. 1 = Array in is unaltered
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Pow Factor** (Number): *See documentation*
+- **Array In** (Array)
+- **Pow Factor** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nakc7z)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPow"*
@@ -1688,11 +1688,11 @@
 **Description:** Push/Append a string to the end of an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **String** (String): *See documentation*
+- **Array** (Array)
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ArrayPushString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayPushString"*
@@ -1707,12 +1707,12 @@
 **Description:** Quantize input to nearest number in array
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
-- **Constraints Array Input** (Array): *See documentation*
+- **Value** (Number)
+- **Constraints Array Input** (Array)
 
 **< Output Ports:**
-- **Quantized Value** (Number): *See documentation*
-- **Quantization Error** (Number): *See documentation*
+- **Quantized Value** (Number)
+- **Quantization Error** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0yr3cu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayQuantizer"*
@@ -1727,13 +1727,13 @@
 **Description:** Extract a definable amount of values from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Elements** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Array** (Array)
+- **Elements** (Number: Integer)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZYDYpH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayRandomSelection"*
@@ -1748,11 +1748,11 @@
 **Description:** Remove falsy items from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Remove Falsy** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Remove Falsy** (Number: Boolean)
 
 **< Output Ports:**
-- **Result Array** (Array): *See documentation*
+- **Result Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/s6p6iO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayRemoveFalsy"*
@@ -1767,10 +1767,10 @@
 **Description:** Reverse an array
 
 **> Input Ports:**
-- **Active** (Number: Boolean): *See documentation*
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UGUp8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayReverse"*
@@ -1785,12 +1785,12 @@
 **Description:** Round numbers up
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
-- **Method Index** (Number: Integer): *See documentation*
-- **Decimal Places** (Number: Integer): *See documentation*
+- **In** (Array)
+- **Method Index** (Number: Integer)
+- **Decimal Places** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7xdJrG)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayRound"*
@@ -1805,12 +1805,12 @@
 **Description:** Set a number at index in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Number** (Number): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Number** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bJrH16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySetNumber_v3"*
@@ -1825,12 +1825,12 @@
 **Description:** Set a string at index in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value** (String): *See documentation*
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/b0vNrh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySetString"*
@@ -1845,14 +1845,14 @@
 **Description:** Perform a sin or cos operation on the contents of an array
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Math Function Index** (Number: Integer): *See documentation*
-- **Phase** (Number): *See documentation*
-- **Frequency** (Number): *See documentation*
-- **Amplitude** (Number): *See documentation*
+- **Array In** (Array)
+- **Math Function Index** (Number: Integer)
+- **Phase** (Number)
+- **Frequency** (Number)
+- **Amplitude** (Number)
 
 **< Output Ports:**
-- **Array Result** (Array): *See documentation*
+- **Array Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x1Hqrq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySin"*
@@ -1867,12 +1867,12 @@
 **Description:** The fancy way of saying it is Perform Hermite interpolation between two values
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
+- **Array In** (Array)
+- **Min** (Number)
+- **Max** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cyvm7z)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySmoothStep"*
@@ -1887,10 +1887,10 @@
 **Description:** Return the square root of all values in the array
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
+- **In** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/g7ulSP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySqrt"*
@@ -1905,13 +1905,13 @@
 **Description:** Create an array from multiple string
 
 **> Input Ports:**
-- **Arrays_0** (Array): *See documentation*
-- **Arrays_1** (Array): *See documentation*
-- **Add Port** (Array): *See documentation*
+- **Arrays_0** (Array)
+- **Arrays_1** (Array)
+- **Add Port** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Result** (Array)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ArraysToArrayMultiPort#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraysToArrayMultiPort"*
@@ -1926,11 +1926,11 @@
 **Description:** Subtract one number from all values in an array
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **Array In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uIYNcn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySubtract"*
@@ -1945,11 +1945,11 @@
 **Description:** Add one number to all values in an array
 
 **> Input Ports:**
-- **In** (Array): *See documentation*
-- **Value** (Number): *See documentation*
+- **In** (Array)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uIYNcn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySum"*
@@ -1964,11 +1964,11 @@
 **Description:** Sum up every number in an array with the sum of the previous
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Padding** (Number): *See documentation*
+- **Array** (Array)
+- **Padding** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/udsvLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySumPrevious"*
@@ -1983,10 +1983,10 @@
 **Description:** Sum of every number in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Sum** (Number): *See documentation*
+- **Sum** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U4M4J5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySumUp"*
@@ -2001,10 +2001,10 @@
 **Description:** Manage/re-order components of an array (stride)
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MFv6cy)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySwizzle"*
@@ -2019,11 +2019,11 @@
 **Description:** Split an array up into an array of arrays
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Stride** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Stride** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Bpx7ck)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToArrays"*
@@ -2038,10 +2038,10 @@
 **Description:** Convert an array to a byte buffer (Uint8ClampedArray)
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Buffer** (Object): *See documentation*
+- **Buffer** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ArrayToByteBuffer#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToByteBuffer"*
@@ -2056,12 +2056,12 @@
 **Description:** Join array values to a string (concat)
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Seperator** (String): *See documentation*
-- **New Line** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Seperator** (String)
+- **New Line** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U4M4J5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToString_v3"*
@@ -2076,12 +2076,12 @@
 **Description:** Trigger an array
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exec** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Trigger Out** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ArrayTrigger#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayTrigger"*
@@ -2096,13 +2096,13 @@
 **Description:** Filter an array for duplicate items and returns all unique items in a new array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Format Index** (Number: Integer): *See documentation*
-- **Format** (String): *See documentation*
+- **Array** (Array)
+- **Format Index** (Number: Integer)
+- **Format** (String)
 
 **< Output Ports:**
-- **ArrayOut** (Array): *See documentation*
-- **Array Length Out** (Number): *See documentation*
+- **ArrayOut** (Array)
+- **Array Length Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vIQlS-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUnique"*
@@ -2117,10 +2117,10 @@
 **Description:** Return information about the count of "duplicates" in an array, as an object
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **ObjectOut** (Object): *See documentation*
+- **ObjectOut** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/72VpS-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUniqueItemInfo"*
@@ -2135,12 +2135,12 @@
 **Description:** Unpack an xy array into separate arrays
 
 **> Input Ports:**
-- **Array In Xyz** (Array): *See documentation*
+- **Array In Xyz** (Array)
 
 **< Output Ports:**
-- **Array 1 Out** (Array): *See documentation*
-- **Array 2 Out** (Array): *See documentation*
-- **Array Lengths** (Number): *See documentation*
+- **Array 1 Out** (Array)
+- **Array 2 Out** (Array)
+- **Array Lengths** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/N00tci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUnpack2"*
@@ -2155,13 +2155,13 @@
 **Description:** Split an xyz array into 3 individual arrays
 
 **> Input Ports:**
-- **Array In Xyz** (Array): *See documentation*
+- **Array In Xyz** (Array)
 
 **< Output Ports:**
-- **Array 1 Out** (Array): *See documentation*
-- **Array 2 Out** (Array): *See documentation*
-- **Array 3 Out** (Array): *See documentation*
-- **Array Lengths** (Number): *See documentation*
+- **Array 1 Out** (Array)
+- **Array 2 Out** (Array)
+- **Array 3 Out** (Array)
+- **Array Lengths** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmn5Og)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUnpack3"*
@@ -2176,14 +2176,14 @@
 **Description:** Split an xyzw array into 4 individual arrays
 
 **> Input Ports:**
-- **Array In Xyzw** (Array): *See documentation*
+- **Array In Xyzw** (Array)
 
 **< Output Ports:**
-- **Array 1 Out** (Array): *See documentation*
-- **Array 2 Out** (Array): *See documentation*
-- **Array 3 Out** (Array): *See documentation*
-- **Array 4 Out** (Array): *See documentation*
-- **Array Lengths** (Number): *See documentation*
+- **Array 1 Out** (Array)
+- **Array 2 Out** (Array)
+- **Array 3 Out** (Array)
+- **Array 4 Out** (Array)
+- **Array Lengths** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vl1N_M)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUnpack4"*
@@ -2198,11 +2198,11 @@
 **Description:** Insert/add/unshift a string to the beginning of an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **String** (String): *See documentation*
+- **Array** (Array)
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ckkk7M)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayUnshiftString"*
@@ -2217,13 +2217,13 @@
 **Description:** Smooth/average values in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Iterations** (Number: Integer): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Iterations** (Number: Integer)
+- **Mode Index** (Number: Integer)
 
 **< Output Ports:**
-- **Smoothed Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Smoothed Array** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/t8uSdn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AverageArray"*
@@ -2238,13 +2238,13 @@
 **Description:** Array filled with `0`, only one can be `1`
 
 **> Input Ports:**
-- **Array Length** (Number): *See documentation*
-- **Active Index** (Number): *See documentation*
-- **Inactive Value** (Number): *See documentation*
-- **Active Value** (Number): *See documentation*
+- **Array Length** (Number)
+- **Active Index** (Number)
+- **Inactive Value** (Number)
+- **Active Value** (Number)
 
 **< Output Ports:**
-- **State Array** (Array): *See documentation*
+- **State Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9oowlJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolStateArray"*
@@ -2259,13 +2259,13 @@
 **Description:** Copy an array with a trigger, reset to use a default array
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Default** (Array): *See documentation*
+- **Exec** (Trigger)
+- **Array** (Array)
+- **Reset** (Trigger)
+- **Default** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JqSoH-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CopyArray"*
@@ -2283,7 +2283,7 @@
 - *Visit [Ops.Array.CopyArraySimple documentation](https://cables.gl/op/Ops.Array.CopyArraySimple) for input port details*
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.CopyArraySimple#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CopyArraySimple"*
@@ -2298,13 +2298,13 @@
 **Description:** The array to crop
 
 **> Input Ports:**
-- **Source Array** (Array): *See documentation*
-- **Start Index** (Number: Integer): *See documentation*
-- **New Length** (Number: Integer): *See documentation*
+- **Source Array** (Array)
+- **Start Index** (Number: Integer)
+- **New Length** (Number: Integer)
 
 **< Output Ports:**
-- **Cropped Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Cropped Array** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UuuJH-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CropArray"*
@@ -2319,13 +2319,13 @@
 **Description:** Remove elements from an array from the beginning and/or the end
 
 **> Input Ports:**
-- **Source Array** (Array): *See documentation*
-- **Remove From Start** (Number: Integer): *See documentation*
-- **Remove From End** (Number: Integer): *See documentation*
+- **Source Array** (Array)
+- **Remove From Start** (Number: Integer)
+- **Remove From End** (Number: Integer)
 
 **< Output Ports:**
-- **Cut Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Cut Array** (Array)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbqZTh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CutArray"*
@@ -2340,13 +2340,13 @@
 **Description:** Apply easing curve to numbers in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Min** (Number)
+- **Max** (Number)
+- **Easing Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result Array** (Array): *See documentation*
+- **Result Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Mbwkf6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EaseArray"*
@@ -2364,7 +2364,7 @@
 - *Visit [Ops.Array.EmptyArray documentation](https://cables.gl/op/Ops.Array.EmptyArray) for input port details*
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.EmptyArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EmptyArray"*
@@ -2379,12 +2379,12 @@
 **Description:** Fill an array with random duplicates
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Num Elements** (Number: Integer): *See documentation*
-- **Random Seed** (Number): *See documentation*
+- **Array** (Array)
+- **Num Elements** (Number: Integer)
+- **Random Seed** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/z4S3dz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FillArrayRandomDuplicates_v2"*
@@ -2399,16 +2399,16 @@
 **Description:** Compare elements from an array and remove not matching ones
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Stride Index** (Number: Integer): *See documentation*
-- **the type of the array** (Array3, Array2, ...): *See documentation*
-- **Compare Element Index** (Number: Integer): *See documentation*
-- **which element to compare** (see stride): *See documentation*
-- **Filter Method Index** (Number: Integer): *See documentation*
-- **Compare To** (Number): *See documentation*
+- **Array** (Array)
+- **Stride Index** (Number: Integer)
+- **the type of the array** (Array3, Array2, ...)
+- **Compare Element Index** (Number: Integer)
+- **which element to compare** (see stride)
+- **Filter Method Index** (Number: Integer)
+- **Compare To** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z2dVoX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterArray"*
@@ -2423,12 +2423,12 @@
 **Description:** Filter valid arrays
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Invalid When Length Is 0** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Invalid When Length Is 0** (Number: Boolean)
 
 **< Output Ports:**
-- **Last Valid Array** (Array): *See documentation*
-- **Is Valid** (booleanNumber): *See documentation*
+- **Last Valid Array** (Array)
+- **Is Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.FilterValidArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterValidArray"*
@@ -2443,10 +2443,10 @@
 **Description:** Create a new array with all sub-array elements concatenated into it
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x6HFeT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FlattenArray"*
@@ -2461,11 +2461,11 @@
 **Description:** Capture the current input and copy it to the output, even after a reload
 
 **> Input Ports:**
-- **Number** (Array): *See documentation*
-- **Button** (Trigger): *See documentation*
+- **Number** (Array)
+- **Button** (Trigger)
 
 **< Output Ports:**
-- **Frozen Array** (Array): *See documentation*
+- **Frozen Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FreezeArray"*
@@ -2480,11 +2480,11 @@
 **Description:** Only allow an array through if pass through is true
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Pass Through** (Number: Boolean): *See documentation*
+- **Array In** (Array)
+- **Pass Through** (Number: Boolean)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gOaDAH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateArray_v2"*
@@ -2499,12 +2499,12 @@
 **Description:** Get an array of values by key of objects in an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Key** (String): *See documentation*
-- **Numbers Only** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Key** (String)
+- **Numbers Only** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KQGGeT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetValuesFromArrayOfObjects"*
@@ -2519,17 +2519,17 @@
 **Description:** Generate an RGBA array from up to 4 arrays (HSBA)
 
 **> Input Ports:**
-- **Trigger Input** (Trigger): *See documentation*
-- **In Hue Array** (Array): *See documentation*
-- **In Saturation Array** (Array): *See documentation*
-- **In Brightness Array** (Array): *See documentation*
-- **In Alpha Array** (Array): *See documentation*
+- **Trigger Input** (Trigger)
+- **In Hue Array** (Array)
+- **In Saturation Array** (Array)
+- **In Brightness Array** (Array)
+- **In Alpha Array** (Array)
 
 **< Output Ports:**
-- **Trigger Output** (Trigger): *See documentation*
-- **Result Array** (Array): *See documentation*
-- **Array Length** (Number): *See documentation*
-- **RGBA Tuple Length** (Number): *See documentation*
+- **Trigger Output** (Trigger)
+- **Result Array** (Array)
+- **Array Length** (Number)
+- **RGBA Tuple Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jFyRM-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HSBtoRGBArray"*
@@ -2544,12 +2544,12 @@
 **Description:** Min, Max and Average value from an array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
-- **Average** (Number): *See documentation*
+- **Min** (Number)
+- **Max** (Number)
+- **Average** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qySZQx)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InfoArray"*
@@ -2564,16 +2564,16 @@
 **Description:** Min, Max and Average values of an array2
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Num Items** (Number): *See documentation*
-- **Min X** (Number): *See documentation*
-- **Max X** (Number): *See documentation*
-- **Average X** (Number): *See documentation*
-- **Min Y** (Number): *See documentation*
-- **Max Y** (Number): *See documentation*
-- **Average Y** (Number): *See documentation*
+- **Num Items** (Number)
+- **Min X** (Number)
+- **Max X** (Number)
+- **Average X** (Number)
+- **Min Y** (Number)
+- **Max Y** (Number)
+- **Average Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.InfoArray2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InfoArray2"*
@@ -2588,22 +2588,22 @@
 **Description:** Min, Max and Average values of an array3
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Num Items** (Number): *See documentation*
-- **Min X** (Number): *See documentation*
-- **Min Y** (Number): *See documentation*
-- **Min Z** (Number): *See documentation*
-- **Max X** (Number): *See documentation*
-- **Max Y** (Number): *See documentation*
-- **Max Z** (Number): *See documentation*
-- **Average X** (Number): *See documentation*
-- **Average Y** (Number): *See documentation*
-- **Average Z** (Number): *See documentation*
-- **Center X** (Number): *See documentation*
-- **Center Y** (Number): *See documentation*
-- **Center Z** (Number): *See documentation*
+- **Num Items** (Number)
+- **Min X** (Number)
+- **Min Y** (Number)
+- **Min Z** (Number)
+- **Max X** (Number)
+- **Max Y** (Number)
+- **Max Z** (Number)
+- **Average X** (Number)
+- **Average Y** (Number)
+- **Average Z** (Number)
+- **Center X** (Number)
+- **Center Y** (Number)
+- **Center Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tg7cRx)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InfoArray3"*
@@ -2618,14 +2618,14 @@
 **Description:** Interpolate between two arrays (lerp) - linear interpolation
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Perc** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Perc** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qU2GB3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InterpolateArrays"*
@@ -2640,17 +2640,17 @@
 **Description:** Interpolate between two arrays, only a few numbers at the same time
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Pos** (Number): *See documentation*
-- **Width** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
-- **Reverse** (Number: Boolean): *See documentation*
+- **Exe** (Trigger)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Pos** (Number)
+- **Width** (Number)
+- **Easing Index** (Number: Integer)
+- **Reverse** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Next** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3GIOe6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InterpolateArraysRange"*
@@ -2665,11 +2665,11 @@
 **Description:** Interpolate between all values of an array
 
 **> Input Ports:**
-- **Index Position** (Number): *See documentation*
-- **Array** (Array): *See documentation*
+- **Index Position** (Number)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dbUc-L)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InterpolateNumbersArray"*
@@ -2684,13 +2684,13 @@
 **Description:** Get interpolated values between the indices of an array3x
 
 **> Input Ports:**
-- **Index Position** (Number): *See documentation*
-- **Array** (Array): *See documentation*
+- **Index Position** (Number)
+- **Array** (Array)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Oqy2n7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InterpolateNumbersArray3"*
@@ -2705,16 +2705,16 @@
 **Description:** Generate spline using lissajous formulas
 
 **> Input Ports:**
-- **Formula Index** (Number: Integer): *See documentation*
-- **A** (Number: Integer): *See documentation*
-- **B** (Number: Integer): *See documentation*
-- **C** (Number: Integer): *See documentation*
-- **D** (Number: Integer): *See documentation*
+- **Formula Index** (Number: Integer)
+- **A** (Number: Integer)
+- **B** (Number: Integer)
+- **C** (Number: Integer)
+- **D** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Total Points** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Result** (Array)
+- **Total Points** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Wa8TS3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LissajouseSpline"*
@@ -2729,10 +2729,10 @@
 **Description:** Make the 1st and last point of an array the same, good for closing splines and shapes
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
+- **Array In** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-x_dxN)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LoopArray3"*
@@ -2747,15 +2747,15 @@
 **Description:** Map values in an array from one range into another.
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Old Min** (Number): *See documentation*
-- **Old Max** (Number): *See documentation*
-- **New Min** (Number): *See documentation*
-- **New Max** (Number): *See documentation*
-- **Easing Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **Old Min** (Number)
+- **Old Max** (Number)
+- **New Min** (Number)
+- **New Max** (Number)
+- **Easing Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZQI6sU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MapRangeArray"*
@@ -2770,12 +2770,12 @@
 **Description:** Create an array from multiple number inputs
 
 **> Input Ports:**
-- **Numbers_0** (Number): *See documentation*
-- **Add Port** (Number): *See documentation*
+- **Numbers_0** (Number)
+- **Add Port** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Result** (Array)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mCTLrh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumbersToArrayMultiPort_v2"*
@@ -2790,14 +2790,14 @@
 **Description:** Iterate over an array of objects
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Finished** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
-- **Value** (Object): *See documentation*
+- **Trigger** (Trigger)
+- **Finished** (Trigger)
+- **Index** (Number)
+- **Value** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.ObjectIteratorKeys#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectIteratorKeys"*
@@ -2815,7 +2815,7 @@
 - *Visit [Ops.Array.PaletteLibrary documentation](https://cables.gl/op/Ops.Array.PaletteLibrary) for input port details*
 
 **< Output Ports:**
-- **Palette Array Out** (Array): *See documentation*
+- **Palette Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zpLrSP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PaletteLibrary"*
@@ -2830,15 +2830,15 @@
 **Description:** Create an array filled with Perlin noise values
 
 **> Input Ports:**
-- **Array In X** (Array): *See documentation*
-- **Array Time** (Array): *See documentation*
-- **Time In Y** (Number): *See documentation*
-- **Seed 0-1** (Number): *See documentation*
-- **Frequency** (Number): *See documentation*
+- **Array In X** (Array)
+- **Array Time** (Array)
+- **Time In Y** (Number)
+- **Seed 0-1** (Number)
+- **Frequency** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Array Length Out** (Number): *See documentation*
+- **Array Out** (Array)
+- **Array Length Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Vm8fhL)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerlinArray"*
@@ -2853,13 +2853,13 @@
 **Description:** Coordinate generation like arrangement of leaves in some plants
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Param** (Number): *See documentation*
+- **Render** (Trigger)
+- **Num** (Number: Integer)
+- **Scale** (Number)
+- **Param** (Number)
 
 **< Output Ports:**
-- **Coordinates** (Array): *See documentation*
+- **Coordinates** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1Pu9Tb)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Phyllotaxis"*
@@ -2874,23 +2874,23 @@
 **Description:** Create a random array of 1 to 4 dimensions
 
 **> Input Ports:**
-- **Num Values** (Number: Integer): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Random Seed** (Number): *See documentation*
-- **Integer** (Number: Boolean): *See documentation*
-- **Min A** (Number): *See documentation*
-- **Max A** (Number): *See documentation*
-- **Min B** (Number): *See documentation*
-- **Max B** (Number): *See documentation*
-- **Min C** (Number): *See documentation*
-- **Max C** (Number): *See documentation*
-- **Min D** (Number): *See documentation*
-- **Max D** (Number): *See documentation*
+- **Num Values** (Number: Integer)
+- **Mode Index** (Number: Integer)
+- **Random Seed** (Number)
+- **Integer** (Number: Boolean)
+- **Min A** (Number)
+- **Max A** (Number)
+- **Min B** (Number)
+- **Max B** (Number)
+- **Min C** (Number)
+- **Max C** (Number)
+- **Min D** (Number)
+- **Max D** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Chunks Amount** (Number): *See documentation*
-- **Array Length** (Number): *See documentation*
+- **Array Out** (Array)
+- **Chunks Amount** (Number)
+- **Array Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jmm7N-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomNumbersArray_v4"*
@@ -2905,11 +2905,11 @@
 **Description:** Generate an array filled with random english words
 
 **> Input Ports:**
-- **Random Seed** (Number): *See documentation*
-- **Content Index** (Number: Integer): *See documentation*
+- **Random Seed** (Number)
+- **Content Index** (Number: Integer)
 
 **< Output Ports:**
-- **Words** (Array): *See documentation*
+- **Words** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VHW78i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomWordsArray"*
@@ -2924,14 +2924,14 @@
 **Description:** Remove points from an array, e.g. xth points, random, duplicates
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Remove Index** (Number: Integer): *See documentation*
-- **Every Xth Item** (Number: Integer): *See documentation*
-- **Threshold** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Array** (Array)
+- **Remove Index** (Number: Integer)
+- **Every Xth Item** (Number: Integer)
+- **Threshold** (Number)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result Array** (Array): *See documentation*
+- **Result Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vgRDeT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReduceArray3_v3"*
@@ -2946,11 +2946,11 @@
 **Description:** Reverse an array with value triplets [x, y, z, ...]
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **The Array you want to reverse** (containing triplets): *See documentation*
+- **Array** (Array)
+- **The Array you want to reverse** (containing triplets)
 
 **< Output Ports:**
-- **Reversed Array** (Array): *See documentation*
+- **Reversed Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1QJiVJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReverseArray3"*
@@ -2965,14 +2965,14 @@
 **Description:** Array of fixed size, index is automatically incremented and restarts after reaching the end
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
-- **Write** (Trigger): *See documentation*
-- **Length** (Number: Integer): *See documentation*
-- **Reset Index** (Trigger): *See documentation*
+- **Value** (Number)
+- **Write** (Trigger)
+- **Length** (Number: Integer)
+- **Reset Index** (Trigger)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Index** (Number): *See documentation*
+- **Result** (Array)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NwwS97)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RingBuffer"*
@@ -2987,11 +2987,11 @@
 **Description:** Shift array contents based upon rotate amount
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
-- **Rotate Amount** (Number: Integer): *See documentation*
+- **Array In** (Array)
+- **Rotate Amount** (Number: Integer)
 
 **< Output Ports:**
-- **ArrayOut** (Array): *See documentation*
+- **ArrayOut** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/r7Av7z)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RotateArray"*
@@ -3006,21 +3006,21 @@
 **Description:** Route an array to an output port
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Array In** (Array): *See documentation*
-- **Default Array** (Array): *See documentation*
+- **Index** (Number: Integer)
+- **Array In** (Array)
+- **Default Array** (Array)
 
 **< Output Ports:**
-- **Index 0 Array** (Array): *See documentation*
-- **Index 1 Array** (Array): *See documentation*
-- **Index 2 Array** (Array): *See documentation*
-- **Index 3 Array** (Array): *See documentation*
-- **Index 4 Array** (Array): *See documentation*
-- **Index 5 Array** (Array): *See documentation*
-- **Index 6 Array** (Array): *See documentation*
-- **Index 7 Array** (Array): *See documentation*
-- **Index 8 Array** (Array): *See documentation*
-- **Index 9 Array** (Array): *See documentation*
+- **Index 0 Array** (Array)
+- **Index 1 Array** (Array)
+- **Index 2 Array** (Array)
+- **Index 3 Array** (Array)
+- **Index 4 Array** (Array)
+- **Index 5 Array** (Array)
+- **Index 6 Array** (Array)
+- **Index 7 Array** (Array)
+- **Index 8 Array** (Array)
+- **Index 9 Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pDYxX8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteArray"*
@@ -3035,14 +3035,14 @@
 **Description:** Change the number of an array at an index
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Values** (Array): *See documentation*
+- **Next** (Trigger)
+- **Values** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WRrXSn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetNumberArray"*
@@ -3057,15 +3057,15 @@
 **Description:** Set three values at position index in an array
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Array** (Array): *See documentation*
-- **Index** (Number: Integer): *See documentation*
-- **Value 1** (Number): *See documentation*
-- **Value 2** (Number): *See documentation*
-- **Value 3** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Array** (Array)
+- **Index** (Number: Integer)
+- **Value 1** (Number)
+- **Value 2** (Number)
+- **Value 3** (Number)
 
 **< Output Ports:**
-- **Values** (Array): *See documentation*
+- **Values** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/El3nlJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetNumbersArray3"*
@@ -3080,11 +3080,11 @@
 **Description:** Shuffle/Randomize the order of an array of triplets
 
 **> Input Ports:**
-- **Array3** (Array): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Array3** (Array)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tbdwsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShuffleArray3_v3"*
@@ -3099,11 +3099,11 @@
 **Description:** Randomize the order of elements inside an array
 
 **> Input Ports:**
-- **Array3** (Array): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Array3** (Array)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/doUssh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShuffleArray_v3"*
@@ -3118,15 +3118,15 @@
 **Description:** Create an array filled with Simplex noise values (Range: -1, 1)
 
 **> Input Ports:**
-- **Array In X** (Array): *See documentation*
-- **Array Time** (Array): *See documentation*
-- **Time In Y** (Number): *See documentation*
-- **Seed 0-1** (Number): *See documentation*
-- **Frequency** (Number): *See documentation*
+- **Array In X** (Array)
+- **Array Time** (Array)
+- **Time In Y** (Number)
+- **Seed 0-1** (Number)
+- **Frequency** (Number)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
-- **Array Length Out** (Number): *See documentation*
+- **Array Out** (Array)
+- **Array Length Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rNAlhL)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimplexArray"*
@@ -3141,14 +3141,14 @@
 **Description:** Smooth out changes in values of an array
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Array In** (Array): *See documentation*
-- **Inc Factor** (Number): *See documentation*
-- **Dec Factor** (Number): *See documentation*
+- **Execute** (Trigger)
+- **Array In** (Array)
+- **Inc Factor** (Number)
+- **Dec Factor** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Array Out** (Array): *See documentation*
+- **Next** (Trigger)
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BgtGZK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SmoothArray"*
@@ -3163,10 +3163,10 @@
 **Description:** Sort an array of numbers with one of two modes - ascending or descending
 
 **> Input Ports:**
-- **Array To Sort** (Array): *See documentation*
+- **Array To Sort** (Array)
 
 **< Output Ports:**
-- **Sorted Array** (Array): *See documentation*
+- **Sorted Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/M2f7RJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArray"*
@@ -3181,12 +3181,12 @@
 **Description:** Sort an array with the lowest values of the selected component.
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **What Index** (Number: Integer): *See documentation*
+- **Array** (Array)
+- **What Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **The sorted array** (new array): *See documentation*
+- **Result** (Array)
+- **The sorted array** (new array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QS8qVJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArray3"*
@@ -3201,12 +3201,12 @@
 **Description:** Sort an array of objects by the values of a key
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Key** (String): *See documentation*
-- **Reverse** (Number: Boolean): *See documentation*
+- **Array** (Array)
+- **Key** (String)
+- **Reverse** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/shtaz1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArrayOfOjects"*
@@ -3221,12 +3221,12 @@
 **Description:** Sort an array of numbers and also get sorted indices
 
 **> Input Ports:**
-- **Array To Sort** (Array): *See documentation*
-- **Sorting Mode Index** (Number: Integer): *See documentation*
+- **Array To Sort** (Array)
+- **Sorting Mode Index** (Number: Integer)
 
 **< Output Ports:**
-- **Sorted Array** (Array): *See documentation*
-- **Sorted Indices** (Array): *See documentation*
+- **Sorted Array** (Array)
+- **Sorted Indices** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.SortArrayWithIndices_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArrayWithIndices_v2"*
@@ -3241,11 +3241,11 @@
 **Description:** Return a number with the total distance between the points/items in an array3
 
 **> Input Ports:**
-- **Array3x** (Array): *See documentation*
-- **Calculate** (Trigger): *See documentation*
+- **Array3x** (Array)
+- **Calculate** (Trigger)
 
 **< Output Ports:**
-- **Length** (Number): *See documentation*
+- **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uOzMH7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineLengthArray3"*
@@ -3260,10 +3260,10 @@
 **Description:** Convert an array of splines to one "line stripped" array
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UiSmX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplinesToLineStripArray"*
@@ -3278,16 +3278,16 @@
 **Description:** Parse a string into an array (create, split string, stringToArray)
 
 **> Input Ports:**
-- **Text** (String): *See documentation*
-- **Separator** (String): *See documentation*
-- **Numbers** (Number: Boolean): *See documentation*
-- **Trim** (Number: Boolean): *See documentation*
-- **Split Lines** (Number: Boolean): *See documentation*
+- **Text** (String)
+- **Separator** (String)
+- **Numbers** (Number: Boolean)
+- **Trim** (Number: Boolean)
+- **Split Lines** (Number: Boolean)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
-- **Parsed** (Trigger): *See documentation*
-- **Length** (Number): *See documentation*
+- **Array** (Array)
+- **Parsed** (Trigger)
+- **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U4M4J5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringToArray_v2"*
@@ -3302,11 +3302,11 @@
 **Description:** Turn a string into an array of single characters or ASCII numbers
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Convert To Numbers** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Convert To Numbers** (Number: Boolean)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/30a1rn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringToCharArray"*
@@ -3321,10 +3321,10 @@
 **Description:** Output an array containing a line number for every character
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.StringToLineNumberArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringToLineNumberArray"*
@@ -3339,12 +3339,12 @@
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
 **> Input Ports:**
-- **Points** (Array): *See documentation*
-- **Num Subdivs** (Number: Integer): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
+- **Points** (Array)
+- **Num Subdivs** (Number: Integer)
+- **Smooth** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RJiCqH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubdivideArray1"*
@@ -3359,20 +3359,20 @@
 **Description:** Switch between multiple arrays
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Array 0** (Array): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Array 7** (Array): *See documentation*
-- **Array 8** (Array): *See documentation*
-- **Array 9** (Array): *See documentation*
+- **Index** (Number: Integer)
+- **Array 0** (Array)
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Array 3** (Array)
+- **Array 4** (Array)
+- **Array 5** (Array)
+- **Array 6** (Array)
+- **Array 7** (Array)
+- **Array 8** (Array)
+- **Array 9** (Array)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4J2o8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchArray"*
@@ -3387,13 +3387,13 @@
 **Description:** Switch between multiple input arrays
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Arrays_0** (Array): *See documentation*
-- **Add Port** (Array): *See documentation*
+- **Index** (Number: Integer)
+- **Arrays_0** (Array)
+- **Add Port** (Array)
 
 **< Output Ports:**
-- **Number** (Array): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Number** (Array)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L7sKrh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchArrayMultiPort_v2"*
@@ -3408,25 +3408,25 @@
 **Description:** Switch between multiple arrays on trigger
 
 **> Input Ports:**
-- **Trigger 1** (Trigger): *See documentation*
-- **Array 1** (Array): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Array 3** (Array): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Array 4** (Array): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Array 5** (Array): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Array 6** (Array): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Array 7** (Array): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Array 8** (Array): *See documentation*
+- **Trigger 1** (Trigger)
+- **Array 1** (Array)
+- **Trigger 2** (Trigger)
+- **Array 2** (Array)
+- **Trigger 3** (Trigger)
+- **Array 3** (Array)
+- **Trigger 4** (Trigger)
+- **Array 4** (Array)
+- **Trigger 5** (Trigger)
+- **Array 5** (Array)
+- **Trigger 6** (Trigger)
+- **Array 6** (Array)
+- **Trigger 7** (Trigger)
+- **Array 7** (Array)
+- **Trigger 8** (Trigger)
+- **Array 8** (Array)
 
 **< Output Ports:**
-- **Out Array** (Array): *See documentation*
+- **Out Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.SwitchArrayOnTrigger#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchArrayOnTrigger"*
@@ -3441,15 +3441,15 @@
 **Description:** Store various textures in an array, starts at the beginning again when end reached
 
 **> Input Ports:**
-- **Write** (Trigger): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Num** (Number: Integer): *See documentation*
-- **The size of the ring buffer** (how many textures it can hold): *See documentation*
-- **Order** (Number: Boolean): *See documentation*
-- **Clear** (Number: Boolean): *See documentation*
+- **Write** (Trigger)
+- **Texture** (Object:Texture)
+- **Num** (Number: Integer)
+- **The size of the ring buffer** (how many textures it can hold)
+- **Order** (Number: Boolean)
+- **Clear** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.TextureBufferArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureBufferArray"*
@@ -3464,12 +3464,12 @@
 **Description:** Weave two arrays together (combine, join, merge)
 
 **> Input Ports:**
-- **Array 1** (Array): *See documentation*
-- **Array 2** (Array): *See documentation*
-- **Chunk Size** (Number): *See documentation*
+- **Array 1** (Array)
+- **Array 2** (Array)
+- **Chunk Size** (Number)
 
 **< Output Ports:**
-- **Combined Array** (Array): *See documentation*
+- **Combined Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HSGq8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WeaveArrays"*

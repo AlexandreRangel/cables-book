@@ -13,17 +13,17 @@
 **Description:** Set CSS backdrop filter like blur, contrast, brightness, saturation
 
 **> Input Ports:**
-- **Element** (Object): *See documentation*
-- **Blur** (Number): *See documentation*
-- **Contrast** (Number): *See documentation*
-- **Brightness** (Number): *See documentation*
-- **Hue** (Number): *See documentation*
-- **Invert** (Number): *See documentation*
-- **Saturate** (Number): *See documentation*
-- **Sepia** (Number): *See documentation*
+- **Element** (Object)
+- **Blur** (Number)
+- **Contrast** (Number)
+- **Brightness** (Number)
+- **Hue** (Number)
+- **Invert** (Number)
+- **Saturate** (Number)
+- **Sepia** (Number)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tem67C)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementBackDropFilter"*
@@ -38,15 +38,15 @@
 **Description:** Set CSS margins of a html element
 
 **> Input Ports:**
-- **Element** (Object:Element): *See documentation*
-- **Margin** (Number): *See documentation*
-- **Margin Top** (Number): *See documentation*
-- **Margin Bottom** (Number): *See documentation*
-- **Margin Left** (Number): *See documentation*
-- **Margin Right** (Number): *See documentation*
+- **Element** (Object:Element)
+- **Margin** (Number)
+- **Margin Top** (Number)
+- **Margin Bottom** (Number)
+- **Margin Left** (Number)
+- **Margin Right** (Number)
 
 **< Output Ports:**
-- **HTML Element** (Object): *See documentation*
+- **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Css.ElementMargin#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementMargin"*

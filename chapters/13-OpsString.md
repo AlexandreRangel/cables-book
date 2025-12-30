@@ -13,11 +13,11 @@
 **Description:** Insert a line break in a string of words
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Max Characters Per Line** (Number: Integer): *See documentation*
+- **String** (String)
+- **Max Characters Per Line** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4f-D16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AddLineBreaks_v2"*
@@ -32,12 +32,12 @@
 **Description:** Check if an array contains a string which can also be a number (find,search,indexOf)
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **SearchValue** (String): *See documentation*
+- **Array** (Array)
+- **SearchValue** (String)
 
 **< Output Ports:**
-- **Found** (booleanNumber): *See documentation*
-- **Index** (Number): *See documentation*
+- **Found** (booleanNumber)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VuK4ve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayContainsString"*
@@ -52,12 +52,12 @@
 **Description:** Create an array of strings and optionally attach index-number
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Length** (Number: Integer): *See documentation*
-- **Attach Number** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Length** (Number: Integer)
+- **Attach Number** (Number: Boolean)
 
 **< Output Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/haeXx3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfStrings"*
@@ -72,14 +72,14 @@
 **Description:** String rotate characters like a split-flap display
 
 **> Input Ports:**
-- **Update** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Random Seed** (Number): *See documentation*
-- **Characters** (String): *See documentation*
+- **Update** (Trigger)
+- **Reset** (Trigger)
+- **Text** (String)
+- **Random Seed** (Number)
+- **Characters** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-IuM8S)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CharacterRotate"*
@@ -94,13 +94,13 @@
 **Description:** Joins two strings together
 
 **> Input Ports:**
-- **String1** (String): *See documentation*
-- **String2** (String): *See documentation*
-- **New Line** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **String1** (String)
+- **String2** (String)
+- **New Line** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Concat_v2"*
@@ -115,17 +115,17 @@
 **Description:** Joins multiple strings together
 
 **> Input Ports:**
-- **String 0** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
+- **String 0** (String)
+- **String 1** (String)
+- **String 2** (String)
+- **String 3** (String)
+- **String 4** (String)
+- **String 5** (String)
+- **String 6** (String)
+- **String 7** (String)
 
 **< Output Ports:**
-- **Concat String** (String): *See documentation*
+- **Concat String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DNW-QJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ConcatMulti_v2"*
@@ -140,12 +140,12 @@
 **Description:** concatinate/join multiple string inputs
 
 **> Input Ports:**
-- **Strings_0** (String): *See documentation*
-- **Add Port** (String): *See documentation*
+- **Strings_0** (String)
+- **Add Port** (String)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
-- **Num Strings** (Number): *See documentation*
+- **String** (String)
+- **Num Strings** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PBHPrh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ConcatMultiPort_v2"*
@@ -160,11 +160,11 @@
 **Description:** Copy string to clipboard on trigger
 
 **> Input Ports:**
-- **Copy** (Trigger): *See documentation*
-- **String** (String): *See documentation*
+- **Copy** (Trigger)
+- **String** (String)
 
 **< Output Ports:**
-- **Success** (booleanNumber): *See documentation*
+- **Success** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Rquam4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CopyToClipboard"*
@@ -179,11 +179,11 @@
 **Description:** delay the output of a string by n seconds
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
-- **Delay** (Number): *See documentation*
+- **Value** (String)
+- **Delay** (Number)
 
 **< Output Ports:**
-- **Out Value** (String): *See documentation*
+- **Out Value** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kqtJkE)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayStringSimple"*
@@ -198,11 +198,11 @@
 **Description:** does a string starts with another string?
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Search** (String): *See documentation*
+- **String** (String)
+- **Search** (String)
 
 **< Output Ports:**
-- **Ends With** (booleanNumber): *See documentation*
+- **Ends With** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/X0EBz1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EndsWith"*
@@ -217,12 +217,12 @@
 **Description:** create an array from multiple string
 
 **> Input Ports:**
-- **Strings_0** (String): *See documentation*
-- **Add Port** (String): *See documentation*
+- **Strings_0** (String)
+- **Add Port** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Result** (Array)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uoPbz1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FileUrlsToArrayMultiPort_v2"*
@@ -237,15 +237,15 @@
 **Description:** filter valid strings (not null,undefined or empty)
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Invalid If Null** (Number: Boolean): *See documentation*
-- **Invalid If Undefined** (Number: Boolean): *See documentation*
-- **Invalid If Empty** (Number: Boolean): *See documentation*
-- **Invalid If 0** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Invalid If Null** (Number: Boolean)
+- **Invalid If Undefined** (Number: Boolean)
+- **Invalid If Empty** (Number: Boolean)
+- **Invalid If 0** (Number: Boolean)
 
 **< Output Ports:**
-- **Last Valid String** (String): *See documentation*
-- **Is Valid** (Number): *See documentation*
+- **Last Valid String** (String)
+- **Is Valid** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.FilterValidString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterValidString"*
@@ -260,11 +260,11 @@
 **Description:** capture the current input and copy it to the output, even after a reload
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Button** (Trigger): *See documentation*
+- **String** (String)
+- **Button** (Trigger)
 
 **< Output Ports:**
-- **Frozen String** (String): *See documentation*
+- **Frozen String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FreezeString"*
@@ -279,12 +279,12 @@
 **Description:** Output string if pass through is true
 
 **> Input Ports:**
-- **String In** (String): *See documentation*
-- **Pass Through** (Number: Boolean): *See documentation*
-- **Custom Value** (String): *See documentation*
+- **String In** (String)
+- **Pass Through** (Number: Boolean)
+- **Custom Value** (String)
 
 **< Output Ports:**
-- **String Out** (String): *See documentation*
+- **String Out** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.GateString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateString"*
@@ -299,13 +299,13 @@
 **Description:** string conversion using handlebars template engine
 
 **> Input Ports:**
-- **Template** (String): *See documentation*
-- **Data** (Object): *See documentation*
-- **Array** (Array): *See documentation*
+- **Template** (String)
+- **Data** (Object)
+- **Array** (Array)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
-- **Errors** (String): *See documentation*
+- **Result** (String)
+- **Errors** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TKQIs7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HandleBarsHtml_v2"*
@@ -320,10 +320,10 @@
 **Description:** convert a html encoded string to a normal UTF8 string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jVwciO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HtmlDecode"*
@@ -338,10 +338,10 @@
 **Description:** encode a string to html
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jVwciO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HtmlEncode"*
@@ -356,12 +356,12 @@
 **Description:** create a fixed length string from a number 1 -> 0001
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
-- **Char** (String): *See documentation*
-- **Num** (Number: Integer): *See documentation*
+- **Value** (String)
+- **Char** (String)
+- **Num** (Number: Integer)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8LJxz7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LeftPad_v2"*
@@ -376,13 +376,13 @@
 **Description:** Limit number of lines in a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Num Lines** (Number: Integer): *See documentation*
-- **Reverse** (Number: Boolean): *See documentation*
-- **Force Num Lines** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Num Lines** (Number: Integer)
+- **Reverse** (Number: Boolean)
+- **Force Num Lines** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZCUND-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LimitLineBreaks_v2"*
@@ -397,10 +397,10 @@
 **Description:** Outputs a linebreak, or adds a linebreak to a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U7PniO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LineBreak"*
@@ -415,11 +415,11 @@
 **Description:** Convert linebreaks to html breaks
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Add Num Breaks** (Number: Integer): *See documentation*
+- **String** (String)
+- **Add Num Breaks** (Number: Integer)
 
 **< Output Ports:**
-- **HTML** (String): *See documentation*
+- **HTML** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/M0BG16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LineBreaksHtml"*
@@ -437,9 +437,9 @@
 - *Visit [Ops.String.LoremIpsum documentation](https://cables.gl/op/Ops.String.LoremIpsum) for input port details*
 
 **< Output Ports:**
-- **String** (String): *See documentation*
-- **HTML String** (String): *See documentation*
-- **Array** (Array): *See documentation*
+- **String** (String)
+- **HTML String** (String)
+- **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4f-D16)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LoremIpsum"*
@@ -454,10 +454,10 @@
 **Description:** convert all characters to small letters
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Lowercase_v2"*
@@ -472,10 +472,10 @@
 **Description:** Create a md5 hash of a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **MD5 Hash** (String): *See documentation*
+- **MD5 Hash** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IyC0O8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Md5"*
@@ -490,19 +490,19 @@
 **Description:** Format a number to a string in the given locale and format
 
 **> Input Ports:**
-- **Input Number** (Number): *See documentation*
-- **Locale String** (String): *See documentation*
-- **Minimum Integer Digits** (Number: Integer): *See documentation*
-- **Minimum Fraction Digits** (Number: Integer): *See documentation*
-- **Maximum Fraction Digits** (Number: Integer): *See documentation*
-- **Minimum Significant Digits** (Number: Integer): *See documentation*
-- **Maximum Significant Digits** (Number: Integer): *See documentation*
-- **Use Grouping** (Number: Boolean): *See documentation*
-- **Currency Name** (String): *See documentation*
+- **Input Number** (Number)
+- **Locale String** (String)
+- **Minimum Integer Digits** (Number: Integer)
+- **Minimum Fraction Digits** (Number: Integer)
+- **Maximum Fraction Digits** (Number: Integer)
+- **Minimum Significant Digits** (Number: Integer)
+- **Maximum Significant Digits** (Number: Integer)
+- **Use Grouping** (Number: Boolean)
+- **Currency Name** (String)
 
 **< Output Ports:**
-- **Formatted Number** (String): *See documentation*
-- **Has Error** (booleanNumber): *See documentation*
+- **Formatted Number** (String)
+- **Has Error** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-h-Rx3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberFormatter"*
@@ -517,30 +517,30 @@
 **Description:** associate numbers by strings
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **Number 1** (Number): *See documentation*
-- **String 2** (String): *See documentation*
-- **Number 2** (Number): *See documentation*
-- **String 3** (String): *See documentation*
-- **Number 3** (Number): *See documentation*
-- **String 4** (String): *See documentation*
-- **Number 4** (Number): *See documentation*
-- **String 5** (String): *See documentation*
-- **Number 5** (Number): *See documentation*
-- **String 6** (String): *See documentation*
-- **Number 6** (Number): *See documentation*
-- **String 7** (String): *See documentation*
-- **Number 7** (Number): *See documentation*
-- **String 8** (String): *See documentation*
-- **Number 8** (Number): *See documentation*
-- **String 9** (String): *See documentation*
-- **Number 9** (Number): *See documentation*
-- **String 10** (String): *See documentation*
-- **Number 10** (Number): *See documentation*
+- **String** (String)
+- **String 1** (String)
+- **Number 1** (Number)
+- **String 2** (String)
+- **Number 2** (Number)
+- **String 3** (String)
+- **Number 3** (Number)
+- **String 4** (String)
+- **Number 4** (Number)
+- **String 5** (String)
+- **Number 5** (Number)
+- **String 6** (String)
+- **Number 6** (Number)
+- **String 7** (String)
+- **Number 7** (Number)
+- **String 8** (String)
+- **Number 8** (Number)
+- **String 9** (String)
+- **Number 9** (Number)
+- **String 10** (String)
+- **Number 10** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CWSBeE)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberSwitchByString"*
@@ -555,11 +555,11 @@
 **Description:** Convert a number to a string
 
 **> Input Ports:**
-- **Number** (Number): *See documentation*
-- **Decimal Places** (Number: Integer): *See documentation*
+- **Number** (Number)
+- **Decimal Places** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fo6nci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberToString_v2"*
@@ -574,10 +574,10 @@
 **Description:** Count number of line breaks in a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Total Lines** (Number): *See documentation*
+- **Total Lines** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lkDCeT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumTotalLineBreaks"*
@@ -592,17 +592,17 @@
 **Description:** outputs the first valid string
 
 **> Input Ports:**
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
-- **String 8** (String): *See documentation*
+- **String 1** (String)
+- **String 2** (String)
+- **String 3** (String)
+- **String 4** (String)
+- **String 5** (String)
+- **String 6** (String)
+- **String 7** (String)
+- **String 8** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.OrString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrString"*
@@ -617,10 +617,10 @@
 **Description:** Parse a string to a integer number / string to number
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Number** (Number): *See documentation*
+- **Number** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.ParseInt_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ParseInt_v2"*
@@ -635,12 +635,12 @@
 **Description:** Generate a random string of given characters
 
 **> Input Ports:**
-- **Chars** (String): *See documentation*
-- **Length** (Number: Integer): *See documentation*
-- **Seed** (Number): *See documentation*
+- **Chars** (String)
+- **Length** (Number: Integer)
+- **Seed** (Number)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HqmXN8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomString_v3"*
@@ -655,12 +655,12 @@
 **Description:** create a string with a fixed length filling the space with a character
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
-- **Char** (String): *See documentation*
-- **Num** (Number: Integer): *See documentation*
+- **Value** (String)
+- **Char** (String)
+- **Num** (Number: Integer)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8LJxz7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RightPad_v2"*
@@ -675,11 +675,11 @@
 **Description:** Converts a number to a string with num decimal places, adds 0's
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
-- **Num** (Number: Integer): *See documentation*
+- **Value** (Number)
+- **Num** (Number: Integer)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ps8ZHq)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RightPadNumber_v2"*
@@ -694,22 +694,22 @@
 **Description:** Route a string to an output port
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **String In** (String): *See documentation*
-- **Default String** (String): *See documentation*
-- **Set Inactive To Default** (Number: Boolean): *See documentation*
+- **Index** (Number: Integer)
+- **String In** (String)
+- **Default String** (String)
+- **Set Inactive To Default** (Number: Boolean)
 
 **< Output Ports:**
-- **Index 0 String** (String): *See documentation*
-- **Index 1 String** (String): *See documentation*
-- **Index 2 String** (String): *See documentation*
-- **Index 3 String** (String): *See documentation*
-- **Index 4 String** (String): *See documentation*
-- **Index 5 String** (String): *See documentation*
-- **Index 6 String** (String): *See documentation*
-- **Index 7 String** (String): *See documentation*
-- **Index 8 String** (String): *See documentation*
-- **Index 9 String** (String): *See documentation*
+- **Index 0 String** (String)
+- **Index 1 String** (String)
+- **Index 2 String** (String)
+- **Index 3 String** (String)
+- **Index 4 String** (String)
+- **Index 5 String** (String)
+- **Index 6 String** (String)
+- **Index 7 String** (String)
+- **Index 8 String** (String)
+- **Index 9 String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WDoBX8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteString"*
@@ -724,9 +724,9 @@
 **Description:** download a textfile containing the input string
 
 **> Input Ports:**
-- **Download** (Trigger): *See documentation*
-- **Filename** (String): *See documentation*
-- **Content String** (String): *See documentation*
+- **Download** (Trigger)
+- **Filename** (String)
+- **Content String** (String)
 
 **< Output Ports:**
 - *Visit [Ops.String.SaveTextFile documentation](https://cables.gl/op/Ops.String.SaveTextFile) for output port details*
@@ -744,40 +744,40 @@
 **Description:** control order and flow of strings
 
 **> Input Ports:**
-- **String 0** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
-- **String 8** (String): *See documentation*
-- **String 9** (String): *See documentation*
-- **String 10** (String): *See documentation*
-- **String 11** (String): *See documentation*
-- **String 12** (String): *See documentation*
-- **String 13** (String): *See documentation*
-- **String 14** (String): *See documentation*
-- **String 15** (String): *See documentation*
+- **String 0** (String)
+- **String 1** (String)
+- **String 2** (String)
+- **String 3** (String)
+- **String 4** (String)
+- **String 5** (String)
+- **String 6** (String)
+- **String 7** (String)
+- **String 8** (String)
+- **String 9** (String)
+- **String 10** (String)
+- **String 11** (String)
+- **String 12** (String)
+- **String 13** (String)
+- **String 14** (String)
+- **String 15** (String)
 
 **< Output Ports:**
-- **Output 0** (String): *See documentation*
-- **Output 1** (String): *See documentation*
-- **Output 2** (String): *See documentation*
-- **Output 3** (String): *See documentation*
-- **Output 4** (String): *See documentation*
-- **Output 5** (String): *See documentation*
-- **Output 6** (String): *See documentation*
-- **Output 7** (String): *See documentation*
-- **Output 8** (String): *See documentation*
-- **Output 9** (String): *See documentation*
-- **Output 10** (String): *See documentation*
-- **Output 11** (String): *See documentation*
-- **Output 12** (String): *See documentation*
-- **Output 13** (String): *See documentation*
-- **Output 14** (String): *See documentation*
-- **Output 15** (String): *See documentation*
+- **Output 0** (String)
+- **Output 1** (String)
+- **Output 2** (String)
+- **Output 3** (String)
+- **Output 4** (String)
+- **Output 5** (String)
+- **Output 6** (String)
+- **Output 7** (String)
+- **Output 8** (String)
+- **Output 9** (String)
+- **Output 10** (String)
+- **Output 11** (String)
+- **Output 12** (String)
+- **Output 13** (String)
+- **Output 14** (String)
+- **Output 15** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.SequenceStrings#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceStrings"*
@@ -792,11 +792,11 @@
 **Description:** does a string starts with another string?
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Search** (String): *See documentation*
+- **String** (String)
+- **Search** (String)
 
 **< Output Ports:**
-- **Starts With** (booleanNumber): *See documentation*
+- **Starts With** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hht1O8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StartsWith"*
@@ -811,10 +811,10 @@
 **Description:** String input/output
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
+- **Value** (String)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FXRsii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "String_v3"*
@@ -829,16 +829,16 @@
 **Description:** Combine multiple Values to a new String
 
 **> Input Ports:**
-- **Format** (String): *See documentation*
-- **String A** (String): *See documentation*
-- **String B** (String): *See documentation*
-- **String C** (String): *See documentation*
-- **String D** (String): *See documentation*
-- **String E** (String): *See documentation*
-- **String F** (String): *See documentation*
+- **Format** (String)
+- **String A** (String)
+- **String B** (String)
+- **String C** (String)
+- **String D** (String)
+- **String E** (String)
+- **String F** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U4M4J5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringCompose_v3"*
@@ -853,12 +853,12 @@
 **Description:** check if string contains another string (find,search,indexOf)
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **SearchValue** (String): *See documentation*
+- **String** (String)
+- **SearchValue** (String)
 
 **< Output Ports:**
-- **Found** (Number): *See documentation*
-- **Index** (Number): *See documentation*
+- **Found** (Number)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.StringContains_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringContains_v2"*
@@ -873,11 +873,11 @@
 **Description:** string text editor
 
 **> Input Ports:**
-- **Value** (String): *See documentation*
-- **Syntax Index** (Number: Integer): *See documentation*
+- **Value** (String)
+- **Syntax Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Jhvn8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringEditor"*
@@ -892,11 +892,11 @@
 **Description:** check if content of two strings is the same
 
 **> Input Ports:**
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
+- **String 1** (String)
+- **String 2** (String)
 
 **< Output Ports:**
-- **Result** (booleanNumber): *See documentation*
+- **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Nx2zci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringEquals_v2"*
@@ -911,12 +911,12 @@
 **Description:** output the line number at the character index
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Index** (Number: Integer): *See documentation*
+- **String** (String)
+- **Index** (Number: Integer)
 
 **< Output Ports:**
-- **Line** (Number): *See documentation*
-- **Found** (Number): *See documentation*
+- **Line** (Number)
+- **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.StringGetLineNumAtIndex#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringGetLineNumAtIndex"*
@@ -931,14 +931,14 @@
 **Description:** iterate over every character of a string
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **String** (String): *See documentation*
+- **Exec** (Trigger)
+- **String** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Character** (String): *See documentation*
-- **Index** (Number): *See documentation*
-- **Length** (Number): *See documentation*
+- **Next** (Trigger)
+- **Character** (String)
+- **Index** (Number)
+- **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.StringIterator_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringIterator_v2"*
@@ -953,10 +953,10 @@
 **Description:** number of characters in a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/v9GLji)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringLength_v2"*
@@ -971,12 +971,12 @@
 **Description:** Remove every occurances of given characters from a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Characters** (String): *See documentation*
-- **Replace** (String): *See documentation*
+- **String** (String)
+- **Characters** (String)
+- **Replace** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ls8ciO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringRemoveCharacters"*
@@ -991,13 +991,13 @@
 **Description:** replace occurrences of a string with another string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Search For** (String): *See documentation*
-- **Replace** (String): *See documentation*
-- **Replace What Index** (Number: Integer): *See documentation*
+- **String** (String)
+- **Search For** (String)
+- **Replace** (String)
+- **Replace What Index** (Number: Integer)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/q0iLkE)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringReplace"*
@@ -1012,11 +1012,11 @@
 **Description:** sort each line of a string alphabetically
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Reverse** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Reverse** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MMS2O8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringSortLines"*
@@ -1031,12 +1031,12 @@
 **Description:** create an array from multiple string
 
 **> Input Ports:**
-- **Strings_0** (String): *See documentation*
-- **Add Port** (String): *See documentation*
+- **Strings_0** (String)
+- **Add Port** (String)
 
 **< Output Ports:**
-- **Result** (Array): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **Result** (Array)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oBPhsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringsToArrayMultiPort_v2"*
@@ -1051,31 +1051,31 @@
 **Description:** Switch between multiple strings by a string index
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Default** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **Result String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **Result String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **Result String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **Result String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **Result String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **Result String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
-- **Result String 7** (String): *See documentation*
-- **String 8** (String): *See documentation*
-- **Result String 8** (String): *See documentation*
-- **String 9** (String): *See documentation*
-- **Result String 9** (String): *See documentation*
-- **String 10** (String): *See documentation*
-- **Result String 10** (String): *See documentation*
+- **String** (String)
+- **Default** (String)
+- **String 1** (String)
+- **Result String 1** (String)
+- **String 2** (String)
+- **Result String 2** (String)
+- **String 3** (String)
+- **Result String 3** (String)
+- **String 4** (String)
+- **Result String 4** (String)
+- **String 5** (String)
+- **Result String 5** (String)
+- **String 6** (String)
+- **Result String 6** (String)
+- **String 7** (String)
+- **Result String 7** (String)
+- **String 8** (String)
+- **Result String 8** (String)
+- **String 9** (String)
+- **Result String 9** (String)
+- **String 10** (String)
+- **Result String 10** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.StringSwitchByString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringSwitchByString"*
@@ -1090,11 +1090,11 @@
 **Description:** Parses a string and returns a floating point number / string to number
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Number** (Number): *See documentation*
-- **Not A Number** (booleanNumber): *See documentation*
+- **Number** (Number)
+- **Not A Number** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XMEwci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringToNumber"*
@@ -1109,10 +1109,10 @@
 **Description:** Remove whitespace from both ends of a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ddmsii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringTrim_v2"*
@@ -1127,10 +1127,10 @@
 **Description:** remove html tags from a string
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5NsMve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StripHtml"*
@@ -1145,13 +1145,13 @@
 **Description:** Subset of a string between one index and another
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **Start** (Number: Integer): *See documentation*
-- **End** (Number: Integer): *See documentation*
-- **End Of String** (Number: Boolean): *See documentation*
+- **String** (String)
+- **Start** (Number: Integer)
+- **End** (Number: Integer)
+- **End Of String** (Number: Boolean)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FvIvci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubString_v2"*
@@ -1166,20 +1166,20 @@
 **Description:** Switch between multiple strings with an index
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **String 0** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
-- **String 8** (String): *See documentation*
-- **String 9** (String): *See documentation*
+- **Index** (Number: Integer)
+- **String 0** (String)
+- **String 1** (String)
+- **String 2** (String)
+- **String 3** (String)
+- **String 4** (String)
+- **String 5** (String)
+- **String 6** (String)
+- **String 7** (String)
+- **String 8** (String)
+- **String 9** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2uRAci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchString"*
@@ -1194,13 +1194,13 @@
 **Description:** switch between multiple string inputs
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Strings_0** (String): *See documentation*
-- **Add Port** (String): *See documentation*
+- **Index** (Number: Integer)
+- **Strings_0** (String)
+- **Add Port** (String)
 
 **< Output Ports:**
-- **String** (String): *See documentation*
-- **Num Values** (Number): *See documentation*
+- **String** (String)
+- **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TwZ1sh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchStringMultiPort_v2"*
@@ -1215,10 +1215,10 @@
 **Description:** Convert all characters in a string to upperase
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Uppercase_v2"*
@@ -1233,10 +1233,10 @@
 **Description:** outputs a unique identifier string
 
 **> Input Ports:**
-- **Generate** (Trigger): *See documentation*
+- **Generate** (Trigger)
 
 **< Output Ports:**
-- **Id** (String): *See documentation*
+- **Id** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ryYQwn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UUID"*

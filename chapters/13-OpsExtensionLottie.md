@@ -13,19 +13,19 @@
 **Description:** Play Bodymovin/Lottie animations as SVG in a HTML element
 
 **> Input Ports:**
-- **HTML Element** (Object:Element): *See documentation*
-- **JSON Data** (Object): *See documentation*
-- **Render Frame** (Number): *See documentation*
-- **Loop** (Number: Boolean): *See documentation*
-- **Play** (Number: Boolean): *See documentation*
-- **Play Backward** (Number: Boolean): *See documentation*
-- **Rewind** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **HTML Element** (Object:Element)
+- **JSON Data** (Object)
+- **Render Frame** (Number)
+- **Loop** (Number: Boolean)
+- **Play** (Number: Boolean)
+- **Play Backward** (Number: Boolean)
+- **Rewind** (Trigger)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Completed** (booleanNumber): *See documentation*
-- **Progress** (Number): *See documentation*
-- **Total Frames** (Number): *See documentation*
+- **Completed** (booleanNumber)
+- **Progress** (Number)
+- **Total Frames** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3ezRZH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LottieSVGPlayer"*
@@ -40,22 +40,22 @@
 **Description:** Play a Lottie animation in a texture
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **JSON Data** (Object): *See documentation*
-- **Play Mode Index** (Number: Integer): *See documentation*
-- **Frame** (Number): *See documentation*
-- **Play** (Number: Boolean): *See documentation*
-- **Rewind** (Trigger): *See documentation*
-- **Speed** (Number): *See documentation*
-- **Texture Width** (Number: Integer): *See documentation*
-- **Texture Height** (Number: Integer): *See documentation*
-- **Filter Index** (Number: Integer): *See documentation*
-- **Wrap Index** (Number: Integer): *See documentation*
-- **Scale Index** (Number: Integer): *See documentation*
+- **Exe** (Trigger)
+- **JSON Data** (Object)
+- **Play Mode Index** (Number: Integer)
+- **Frame** (Number)
+- **Play** (Number: Boolean)
+- **Rewind** (Trigger)
+- **Speed** (Number)
+- **Texture Width** (Number: Integer)
+- **Texture Height** (Number: Integer)
+- **Filter Index** (Number: Integer)
+- **Wrap Index** (Number: Integer)
+- **Scale Index** (Number: Integer)
 
 **< Output Ports:**
-- **Texture** (Object): *See documentation*
-- **Total Frames** (Number): *See documentation*
+- **Texture** (Object)
+- **Total Frames** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zW0RFn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LottieTexturePlayer_v2"*

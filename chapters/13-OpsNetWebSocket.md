@@ -13,15 +13,15 @@
 **Description:** Create a websocket connection and receive data from it
 
 **> Input Ports:**
-- **URL** (String): *See documentation*
+- **URL** (String)
 
 **< Output Ports:**
-- **Result** (Object): *See documentation*
-- **Valid JSON** (booleanNumber): *See documentation*
-- **Connection** (Object): *See documentation*
-- **Connected** (booleanNumber): *See documentation*
-- **Received Data** (Trigger): *See documentation*
-- **Raw Data** (String): *See documentation*
+- **Result** (Object)
+- **Valid JSON** (booleanNumber)
+- **Connection** (Object)
+- **Connected** (booleanNumber)
+- **Received Data** (Trigger)
+- **Raw Data** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gu7DBo)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebSocket_v2"*
@@ -36,13 +36,13 @@
 **Description:** send an object to a websocket connection
 
 **> Input Ports:**
-- **Connection** (Object:Websocket): *See documentation*
-- **Object** (Object): *See documentation*
-- **Send** (Trigger): *See documentation*
-- **Send String** (Number: Boolean): *See documentation*
+- **Connection** (Object:Websocket)
+- **Object** (Object)
+- **Send** (Trigger)
+- **Send String** (Number: Boolean)
 
 **< Output Ports:**
-- **Sent** (Number): *See documentation*
+- **Sent** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gu7DBo)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebSocketSend"*

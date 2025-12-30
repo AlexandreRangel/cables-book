@@ -13,16 +13,16 @@
 **Description:** Define filters to get colliding and intersecting bodies
 
 **> Input Ports:**
-- **Collisions** (Array): *See documentation*
-- **Name 1** (String): *See documentation*
-- **Match Name 1 Index** (Number: Integer): *See documentation*
-- **Name 2** (String): *See documentation*
-- **Match Name 2 Index** (Number: Integer): *See documentation*
+- **Collisions** (Array)
+- **Name 1** (String)
+- **Match Name 1 Index** (Number: Integer)
+- **Name 2** (String)
+- **Match Name 2 Index** (Number: Integer)
 
 **< Output Ports:**
-- **Colliding** (booleanNumber): *See documentation*
-- **Num Collisions** (Number): *See documentation*
-- **Result Collisions** (Array): *See documentation*
+- **Colliding** (booleanNumber)
+- **Num Collisions** (Number)
+- **Result Collisions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterIntersections"*
@@ -37,17 +37,17 @@
 **Description:** Add Bodies and check if they intersect/collide with each other
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Size X** (Number): *See documentation*
-- **Size Y** (Number): *See documentation*
-- **Size Z** (Number): *See documentation*
-- **Positions** (Array): *See documentation*
-- **Append Index To Name** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **Radius** (Number)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Positions** (Array)
+- **Append Index To Name** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IntersectBody"*
@@ -62,14 +62,14 @@
 **Description:** test one body against all bodies in the world
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Name** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Name** (String)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Has Hit** (booleanNumber): *See documentation*
-- **Hit Body Name** (String): *See documentation*
+- **Next** (Trigger)
+- **Has Hit** (booleanNumber)
+- **Hit Body Name** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bg73Qc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IntersectTestBody"*
@@ -84,19 +84,19 @@
 **Description:** test intersect bodies collision against a point/coordinate
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Has Hit** (booleanNumber): *See documentation*
-- **Hit Body Name** (String): *See documentation*
-- **Hit X** (Number): *See documentation*
-- **Hit Y** (Number): *See documentation*
-- **Hit Z** (Number): *See documentation*
+- **Next** (Trigger)
+- **Has Hit** (booleanNumber)
+- **Hit Body Name** (String)
+- **Hit X** (Number)
+- **Hit Y** (Number)
+- **Hit Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c2DAO8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IntersectTestPoint"*
@@ -111,23 +111,23 @@
 **Description:** Cast a ray and check if it intersect/collide with bodies
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **To X** (Number): *See documentation*
-- **To Y** (Number): *See documentation*
-- **To Z** (Number): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Change Cursor** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **To X** (Number)
+- **To Y** (Number)
+- **To Z** (Number)
+- **Active** (Number: Boolean)
+- **Change Cursor** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Has Hit** (booleanNumber): *See documentation*
-- **Hit Body Name** (String): *See documentation*
-- **Hit X** (Number): *See documentation*
-- **Hit Y** (Number): *See documentation*
-- **Hit Z** (Number): *See documentation*
+- **Next** (Trigger)
+- **Has Hit** (booleanNumber)
+- **Hit Body Name** (String)
+- **Hit X** (Number)
+- **Hit Y** (Number)
+- **Hit Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IntersectTestRaycast"*
@@ -142,13 +142,13 @@
 **Description:** Define a world to check for intersections and collisions
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Check Body Collisions** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Check Body Collisions** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Total Bodies** (Number): *See documentation*
-- **Collisions** (Array): *See documentation*
+- **Next** (Trigger)
+- **Total Bodies** (Number)
+- **Collisions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IntersectWorld"*

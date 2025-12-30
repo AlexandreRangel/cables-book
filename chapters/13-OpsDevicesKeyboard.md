@@ -13,22 +13,22 @@
 **Description:** get the state of your keyboards arrow keys
 
 **> Input Ports:**
-- **Canvas Only** (Number: Boolean): *See documentation*
-- **Cursor Keys** (Number: Boolean): *See documentation*
-- **WASD** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Canvas Only** (Number: Boolean)
+- **Cursor Keys** (Number: Boolean)
+- **WASD** (Number: Boolean)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Degree** (Number): *See documentation*
-- **Up** (booleanNumber): *See documentation*
-- **Up Pressed** (Trigger): *See documentation*
-- **Down** (booleanNumber): *See documentation*
-- **Down Pressed** (Trigger): *See documentation*
-- **Left** (booleanNumber): *See documentation*
-- **Left Pressed** (Trigger): *See documentation*
-- **Right** (booleanNumber): *See documentation*
-- **Right Pressed** (Trigger): *See documentation*
-- **Any Button Pressed** (Number): *See documentation*
+- **Degree** (Number)
+- **Up** (booleanNumber)
+- **Up Pressed** (Trigger)
+- **Down** (booleanNumber)
+- **Down Pressed** (Trigger)
+- **Left** (booleanNumber)
+- **Left Pressed** (Trigger)
+- **Right** (booleanNumber)
+- **Right Pressed** (Trigger)
+- **Any Button Pressed** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CursorKeys"*
@@ -43,14 +43,14 @@
 **Description:** Triggers when a key is pressed
 
 **> Input Ports:**
-- **Area Index** (Number: Integer): *See documentation*
-- **Prevent Default** (Number: Boolean): *See documentation*
-- **Enabled** (Number: Boolean): *See documentation*
+- **Area Index** (Number: Integer)
+- **Prevent Default** (Number: Boolean)
+- **Enabled** (Number: Boolean)
 
 **< Output Ports:**
-- **On Press** (Trigger): *See documentation*
-- **Key Code** (Number): *See documentation*
-- **Key** (String): *See documentation*
+- **On Press** (Trigger)
+- **Key Code** (Number)
+- **Key** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmGgPZ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "KeyPress_v2"*
@@ -65,18 +65,18 @@
 **Description:** Triggers when certain key is pressed or released
 
 **> Input Ports:**
-- **Key Code** (Number: Integer): *See documentation*
-- **Canvas Only** (Number: Boolean): *See documentation*
-- **Mod Key Index** (Number: Integer): *See documentation*
-- **Enabled** (Number: Boolean): *See documentation*
-- **Prevent Default** (Number: Boolean): *See documentation*
-- **Learn** (Trigger): *See documentation*
+- **Key Code** (Number: Integer)
+- **Canvas Only** (Number: Boolean)
+- **Mod Key Index** (Number: Integer)
+- **Enabled** (Number: Boolean)
+- **Prevent Default** (Number: Boolean)
+- **Learn** (Trigger)
 
 **< Output Ports:**
-- **On Press** (Trigger): *See documentation*
-- **On Release** (Trigger): *See documentation*
-- **Pressed** (booleanNumber): *See documentation*
-- **Key** (String): *See documentation*
+- **On Press** (Trigger)
+- **On Release** (Trigger)
+- **Pressed** (booleanNumber)
+- **Key** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZRY-x3)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "KeyPressLearn"*
@@ -91,18 +91,18 @@
 **Description:** simple controller example op for game characters
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Speed** (Number): *See documentation*
-- **North** (Number: Boolean): *See documentation*
-- **East** (Number: Boolean): *See documentation*
-- **South** (Number: Boolean): *See documentation*
-- **West** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exe** (Trigger)
+- **Speed** (Number)
+- **North** (Number: Boolean)
+- **East** (Number: Boolean)
+- **South** (Number: Boolean)
+- **West** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Dir** (Number): *See documentation*
+- **X** (Number)
+- **Y** (Number)
+- **Dir** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PersonController"*
@@ -117,13 +117,13 @@
 **Description:** Emulates a MIDI keyboard using your regular keyboard
 
 **> Input Ports:**
-- **Canvas Only** (Number: Boolean): *See documentation*
+- **Canvas Only** (Number: Boolean)
 
 **< Output Ports:**
-- **Note Number** (Number): *See documentation*
-- **Velocity** (Number): *See documentation*
-- **Channel** (Number): *See documentation*
-- **Command** (Number): *See documentation*
+- **Note Number** (Number)
+- **Velocity** (Number)
+- **Channel** (Number)
+- **Command** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QWERTYtoMidi"*

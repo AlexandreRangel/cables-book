@@ -13,27 +13,27 @@
 **Description:** wrapper for echarts-library
 
 **> Input Ports:**
-- **Create** (Trigger): *See documentation*
-- **Parent DOM Element** (Object): *See documentation*
-- **Id** (String): *See documentation*
-- **Width** (Number: Integer): *See documentation*
-- **Height** (Number: Integer): *See documentation*
-- **Chart Object** (Object): *See documentation*
-- **Merge Options** (Object): *See documentation*
-- **Renderer Index** (Number: Integer): *See documentation*
-- **Renderer** (String): *See documentation*
-- **Theme Index** (Number: Integer): *See documentation*
-- **Theme** (String): *See documentation*
-- **Custom Theme Obj** (Object): *See documentation*
-- **Init Extra Options** (Object): *See documentation*
-- **Style** (Number: String): *See documentation*
-- **Visible** (Number: Boolean): *See documentation*
+- **Create** (Trigger)
+- **Parent DOM Element** (Object)
+- **Id** (String)
+- **Width** (Number: Integer)
+- **Height** (Number: Integer)
+- **Chart Object** (Object)
+- **Merge Options** (Object)
+- **Renderer Index** (Number: Integer)
+- **Renderer** (String)
+- **Theme Index** (Number: Integer)
+- **Theme** (String)
+- **Custom Theme Obj** (Object)
+- **Init Extra Options** (Object)
+- **Style** (Number: String)
+- **Visible** (Number: Boolean)
 
 **< Output Ports:**
-- **DOM Element** (Object): *See documentation*
-- **ECharts Instance** (Object): *See documentation*
-- **Chart Updated** (Trigger): *See documentation*
-- **Theme Changed** (Trigger): *See documentation*
+- **DOM Element** (Object)
+- **ECharts Instance** (Object)
+- **Chart Updated** (Trigger)
+- **Theme Changed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ECharts"*
@@ -48,16 +48,16 @@
 **Description:** capture echart-library-events
 
 **> Input Ports:**
-- **ECharts Instance** (Object): *See documentation*
-- **Event Name** (String): *See documentation*
-- **Query String** (String): *See documentation*
-- **Query Object** (Object): *See documentation*
-- **Refresh Event Binding** (Trigger): *See documentation*
+- **ECharts Instance** (Object)
+- **Event Name** (String)
+- **Query String** (String)
+- **Query Object** (Object)
+- **Refresh Event Binding** (Trigger)
 
 **< Output Ports:**
-- **Out Chart** (Object): *See documentation*
-- **Trigger** (Trigger): *See documentation*
-- **Event Params** (Object): *See documentation*
+- **Out Chart** (Object)
+- **Trigger** (Trigger)
+- **Event Params** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EChartsEvent"*

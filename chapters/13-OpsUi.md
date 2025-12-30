@@ -13,7 +13,7 @@
 **Description:** Organize and group your patch operators
 
 **> Input Ports:**
-- **Delete** (Trigger): *See documentation*
+- **Delete** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.Area documentation](https://cables.gl/op/Ops.Ui.Area) for output port details*
@@ -31,11 +31,11 @@
 **Description:** Cables UI Event Triggers
 
 **> Input Ports:**
-- **Set Changed Patch** (Trigger): *See documentation*
+- **Set Changed Patch** (Trigger)
 
 **< Output Ports:**
-- **Saving Patch** (Trigger): *See documentation*
-- **PortValueEdited** (Trigger): *See documentation*
+- **Saving Patch** (Trigger)
+- **PortValueEdited** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gdbdQc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CablesEditorEvents"*
@@ -71,7 +71,7 @@
 - *Visit [Ops.Ui.GetCablesDefaultTheme documentation](https://cables.gl/op/Ops.Ui.GetCablesDefaultTheme) for input port details*
 
 **< Output Ports:**
-- **Theme** (Object): *See documentation*
+- **Theme** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Kq8Pq1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetCablesDefaultTheme"*
@@ -86,10 +86,10 @@
 **Description:** maximize renderer to window size
 
 **> Input Ports:**
-- **Toggle Maximized** (Trigger): *See documentation*
+- **Toggle Maximized** (Trigger)
 
 **< Output Ports:**
-- **Maximized** (booleanNumber): *See documentation*
+- **Maximized** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BaFBnO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MaximizeRenderer"*
@@ -107,7 +107,7 @@
 - *Visit [Ops.Ui.PatchInput documentation](https://cables.gl/op/Ops.Ui.PatchInput) for input port details*
 
 **< Output Ports:**
-- **Create Port** (Dynamic): *See documentation*
+- **Create Port** (Dynamic)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.PatchInput#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PatchInput"*
@@ -122,7 +122,7 @@
 **Description:** Helper op for sub-patches
 
 **> Input Ports:**
-- **Create Port** (Dynamic): *See documentation*
+- **Create Port** (Dynamic)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.PatchOutput documentation](https://cables.gl/op/Ops.Ui.PatchOutput) for output port details*
@@ -140,10 +140,10 @@
 **Description:** Set cables editor colors
 
 **> Input Ports:**
-- **Theme** (Object): *See documentation*
+- **Theme** (Object)
 
 **< Output Ports:**
-- **Missing** (Object): *See documentation*
+- **Missing** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Kq8Pq1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SetCablesTheme"*
@@ -158,12 +158,12 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatch) for details*
 
 **> Input Ports:**
-- **Create Port** (Dynamic): *See documentation*
-- **DataStr** (Number): *See documentation*
-- **PatchId** (Number): *See documentation*
+- **Create Port** (Dynamic)
+- **DataStr** (Number)
+- **PatchId** (Number)
 
 **< Output Ports:**
-- **Create Port Out** (Dynamic): *See documentation*
+- **Create Port Out** (Dynamic)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.SubPatch#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubPatch"*
@@ -178,7 +178,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Subpatch2Template) for details*
 
 **> Input Ports:**
-- **PatchId** (String): *See documentation*
+- **PatchId** (String)
 - **Public** (3): 1
 
 **< Output Ports:**
@@ -200,7 +200,7 @@
 - *Visit [Ops.Ui.SubPatchInput documentation](https://cables.gl/op/Ops.Ui.SubPatchInput) for input port details*
 
 **< Output Ports:**
-- **A1jf8yr1w** (Number): *See documentation*
+- **A1jf8yr1w** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.SubPatchInput#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubPatchInput"*
@@ -236,8 +236,8 @@
 **Description:** Displays information of the distribution of numerical values in an array
 
 **> Input Ports:**
-- **Array Numbers** (Array): *See documentation*
-- **Titles** (Array): *See documentation*
+- **Array Numbers** (Array)
+- **Titles** (Array)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.VizArrayChart documentation](https://cables.gl/op/Ops.Ui.VizArrayChart) for output port details*
@@ -255,11 +255,11 @@
 **Description:** Visualize Array as line graph
 
 **> Input Ports:**
-- **Array Numbers** (Array): *See documentation*
-- **Curve** (Number: Boolean): *See documentation*
+- **Array Numbers** (Array)
+- **Curve** (Number: Boolean)
 
 **< Output Ports:**
-- **Passthrough Array** (Array): *See documentation*
+- **Passthrough Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gCl1ws)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizArrayGraph"*
@@ -274,12 +274,12 @@
 **Description:** Show the contents of the input array in a table in the patch, useful for debugging
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
-- **Stride** (Number: Integer): *See documentation*
-- **Scroll** (Number): *See documentation*
+- **Array** (Array)
+- **Stride** (Number: Integer)
+- **Scroll** (Number)
 
 **< Output Ports:**
-- **Passthrough Array** (Array): *See documentation*
+- **Passthrough Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/g8Qfq4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizArrayTable_v2"*
@@ -294,10 +294,10 @@
 **Description:** Visualize the state of a boolean input in the patch, useful for debugging
 
 **> Input Ports:**
-- **Boolean** (Number: Boolean): *See documentation*
+- **Boolean** (Number: Boolean)
 
 **< Output Ports:**
-- **Bool** (booleanNumber): *See documentation*
+- **Bool** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9SHiq4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizBool"*
@@ -312,16 +312,16 @@
 **Description:** Displays graphs for the numbers on the input port in the patchfield
 
 **> Input Ports:**
-- **Number 1** (Number): *See documentation*
-- **Number 2** (Number): *See documentation*
-- **Number 3** (Number): *See documentation*
-- **Number 4** (Number): *See documentation*
-- **Number 5** (Number): *See documentation*
-- **Number 6** (Number): *See documentation*
-- **Number 7** (Number): *See documentation*
-- **Number 8** (Number): *See documentation*
-- **Fill Graph** (Number: Boolean): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Number 1** (Number)
+- **Number 2** (Number)
+- **Number 3** (Number)
+- **Number 4** (Number)
+- **Number 5** (Number)
+- **Number 6** (Number)
+- **Number 7** (Number)
+- **Number 8** (Number)
+- **Fill Graph** (Number: Boolean)
+- **Reset** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.VizGraph documentation](https://cables.gl/op/Ops.Ui.VizGraph) for output port details*
@@ -339,12 +339,12 @@
 **Description:** preview an image URL or a data/base64 URL
 
 **> Input Ports:**
-- **File** (String): *See documentation*
+- **File** (String)
 
 **< Output Ports:**
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Loading** (booleanNumber): *See documentation*
+- **Width** (Number)
+- **Height** (Number)
+- **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gsP8hO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizImageUrl"*
@@ -359,10 +359,10 @@
 **Description:** Log changes of input values line by line, use like a logfile for debugging
 
 **> Input Ports:**
-- **Number** (Number): *See documentation*
-- **String** (String): *See documentation*
-- **Object** (Object): *See documentation*
-- **Clear** (Trigger): *See documentation*
+- **Number** (Number)
+- **String** (String)
+- **Object** (Object)
+- **Clear** (Trigger)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.VizLogger documentation](https://cables.gl/op/Ops.Ui.VizLogger) for output port details*
@@ -380,10 +380,10 @@
 **Description:** Displays input string on the patchfield
 
 **> Input Ports:**
-- **Number** (Number): *See documentation*
+- **Number** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gkySnR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizNumber"*
@@ -398,10 +398,10 @@
 **Description:** Visualize numbers as a bar in patch, useful for debugging
 
 **> Input Ports:**
-- **Number** (Number): *See documentation*
+- **Number** (Number)
 
 **< Output Ports:**
-- **Passthrough** (Number): *See documentation*
+- **Passthrough** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-yFlq4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizNumberBar"*
@@ -416,13 +416,13 @@
 **Description:** Show information about any object for patch debugging
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
-- **ZoomText** (Number: Boolean): *See documentation*
-- **Line Numbers** (Number: Boolean): *See documentation*
-- **Experimental Stringify** (Number: Boolean): *See documentation*
-- **Sort Keys** (Number: Boolean): *See documentation*
-- **Font Size** (Number): *See documentation*
-- **Scroll** (Number): *See documentation*
+- **Object** (Object)
+- **ZoomText** (Number: Boolean)
+- **Line Numbers** (Number: Boolean)
+- **Experimental Stringify** (Number: Boolean)
+- **Sort Keys** (Number: Boolean)
+- **Font Size** (Number)
+- **Scroll** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.VizObject documentation](https://cables.gl/op/Ops.Ui.VizObject) for output port details*
@@ -440,17 +440,17 @@
 **Description:** Displays long input string on the patchfield
 
 **> Input Ports:**
-- **String** (String): *See documentation*
-- **ZoomText** (Number: Boolean): *See documentation*
-- **Line Numbers** (Number: Boolean): *See documentation*
-- **Whitespace** (Number: Boolean): *See documentation*
-- **Wrap Lines** (Number: Boolean): *See documentation*
-- **Syntax Index** (Number: Integer): *See documentation*
-- **Font Size** (Number): *See documentation*
-- **Scroll** (Number): *See documentation*
+- **String** (String)
+- **ZoomText** (Number: Boolean)
+- **Line Numbers** (Number: Boolean)
+- **Whitespace** (Number: Boolean)
+- **Wrap Lines** (Number: Boolean)
+- **Syntax Index** (Number: Integer)
+- **Font Size** (Number)
+- **Scroll** (Number)
 
 **< Output Ports:**
-- **Passthrough String** (String): *See documentation*
+- **Passthrough String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tRmy5f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizString"*
@@ -465,15 +465,15 @@
 **Description:** Displays texture at input port
 
 **> Input Ports:**
-- **Texture In** (Object:Texture): *See documentation*
-- **Show Info** (Number: Boolean): *See documentation*
-- **Show Color** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
+- **Texture In** (Object:Texture)
+- **Show Info** (Number: Boolean)
+- **Show Color** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
 
 **< Output Ports:**
-- **Texture Out** (Object): *See documentation*
-- **Info** (String): *See documentation*
+- **Texture Out** (Object)
+- **Info** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HOVjnR)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizTexture"*
@@ -488,8 +488,8 @@
 **Description:** Show pixel colors of connected texture as a table, useful for debugging
 
 **> Input Ports:**
-- **Texture** (Object:Texture): *See documentation*
-- **Row Start** (Number: Integer): *See documentation*
+- **Texture** (Object:Texture)
+- **Row Start** (Number: Integer)
 
 **< Output Ports:**
 - *Visit [Ops.Ui.VizTextureTable documentation](https://cables.gl/op/Ops.Ui.VizTextureTable) for output port details*
@@ -507,13 +507,13 @@
 **Description:** Visualize triggering for debugging reasons
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Count Overlay** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Reset** (Trigger)
+- **Count Overlay** (Number: Boolean)
 
 **< Output Ports:**
-- **Count** (Number): *See documentation*
-- **Next** (Trigger): *See documentation*
+- **Count** (Number)
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ROKBEe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizTrigger"*

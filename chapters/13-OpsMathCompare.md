@@ -13,12 +13,12 @@
 **Description:** result is true if value is between number1 and number2
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
-- **Number1** (Number): *See documentation*
-- **Number2** (Number): *See documentation*
+- **Value** (Number)
+- **Number1** (Number)
+- **Number2** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Between"*
@@ -33,12 +33,12 @@
 **Description:** result is true if value is between or equal number1 and number2
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
-- **Range 1** (Number): *See documentation*
-- **Range 2** (Number): *See documentation*
+- **Value** (Number)
+- **Range 1** (Number)
+- **Range 2** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BetweenEquals"*
@@ -53,13 +53,13 @@
 **Description:** Performs logical comparisons on numbers (compare, operators)
 
 **> Input Ports:**
-- **Value In** (Number): *See documentation*
-- **Comparison Mode Index** (Number: Integer): *See documentation*
-- **Condition Value** (Number): *See documentation*
-- **Max** (Number): *See documentation*
+- **Value In** (Number)
+- **Comparison Mode Index** (Number: Integer)
+- **Condition Value** (Number)
+- **Max** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/54YpN-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompareNumbers"*
@@ -74,11 +74,11 @@
 **Description:** result is true if number1 and number2 are equal
 
 **> Input Ports:**
-- **Number1** (Number): *See documentation*
-- **Number2** (Number): *See documentation*
+- **Number1** (Number)
+- **Number2** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Compare.Equals#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Equals"*
@@ -93,11 +93,11 @@
 **Description:** result is true if number 1 is greater or equals number 2
 
 **> Input Ports:**
-- **Number1** (Number): *See documentation*
-- **Number2** (Number): *See documentation*
+- **Number1** (Number)
+- **Number2** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Compare.GreaterOrEquals#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GreaterOrEquals"*
@@ -112,11 +112,11 @@
 **Description:** result is true if number1 is greater than number2
 
 **> Input Ports:**
-- **Number1** (Number): *See documentation*
-- **Number2** (Number): *See documentation*
+- **Number1** (Number)
+- **Number2** (Number)
 
 **< Output Ports:**
-- **Result** (booleanNumber): *See documentation*
+- **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GreaterThan"*
@@ -131,15 +131,15 @@
 **Description:** triggers when value is between min and max
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Number** (Number): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Number** (Number)
+- **Min** (Number)
+- **Max** (Number)
 
 **< Output Ports:**
-- **Then** (Trigger): *See documentation*
-- **Else** (Trigger): *See documentation*
-- **Bs Between** (Number): *See documentation*
+- **Then** (Trigger)
+- **Else** (Trigger)
+- **Bs Between** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Compare.IfBetweenThen#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IfBetweenThen"*
@@ -154,10 +154,10 @@
 **Description:** Checks if Value is even or not
 
 **> Input Ports:**
-- **Number1** (Number): *See documentation*
+- **Number1** (Number)
 
 **< Output Ports:**
-- **Result** (Number): *See documentation*
+- **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Compare.IsEven#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IsEven"*
@@ -172,11 +172,11 @@
 **Description:** Is n1 smaller than n2? (lesser, less)
 
 **> Input Ports:**
-- **Number1** (Number): *See documentation*
-- **Number2** (Number): *See documentation*
+- **Number1** (Number)
+- **Number2** (Number)
 
 **< Output Ports:**
-- **Result** (booleanNumber): *See documentation*
+- **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LessThan"*

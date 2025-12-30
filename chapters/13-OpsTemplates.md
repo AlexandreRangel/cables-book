@@ -13,7 +13,7 @@
 **Description:** example how to code a viz layer op
 
 **> Input Ports:**
-- **Number** (Number): *See documentation*
+- **Number** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.Templates.ExampleVizOp documentation](https://cables.gl/op/Ops.Templates.ExampleVizOp) for output port details*
@@ -31,11 +31,11 @@
 **Description:** Material Example Template
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Red** (Number): *See documentation*
+- **Render** (Trigger)
+- **Red** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aySyci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MinimalMaterial"*
@@ -50,10 +50,10 @@
 **Description:** Is a template for creating Array ports
 
 **> Input Ports:**
-- **Array In** (Array): *See documentation*
+- **Array In** (Array)
 
 **< Output Ports:**
-- **Array Out** (Array): *See documentation*
+- **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsArrayExample"*
@@ -68,10 +68,10 @@
 **Description:** Is a template for creating Boolean ports
 
 **> Input Ports:**
-- **Boolean In** (Number: Boolean): *See documentation*
+- **Boolean In** (Number: Boolean)
 
 **< Output Ports:**
-- **Boolean Out** (Number): *See documentation*
+- **Boolean Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsBooleanExample"*
@@ -86,10 +86,10 @@
 **Description:** Is a template for creating Object ports
 
 **> Input Ports:**
-- **Object In** (Object): *See documentation*
+- **Object In** (Object)
 
 **< Output Ports:**
-- **Object Out** (Object): *See documentation*
+- **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsObjectExample"*
@@ -104,10 +104,10 @@
 **Description:** Is a template for creating String ports
 
 **> Input Ports:**
-- **String In** (String): *See documentation*
+- **String In** (String)
 
 **< Output Ports:**
-- **String Out** (String): *See documentation*
+- **String Out** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsStringExample"*
@@ -122,11 +122,11 @@
 **Description:** Is a template for creating Trigger ports
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Press Me** (Trigger): *See documentation*
+- **Trigger In** (Trigger)
+- **Press Me** (Trigger)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsTriggerExample"*
@@ -141,10 +141,10 @@
 **Description:** Is a template for creating Value ports
 
 **> Input Ports:**
-- **Number In** (Number): *See documentation*
+- **Number In** (Number)
 
 **< Output Ports:**
-- **Value Out** (Number): *See documentation*
+- **Value Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PortsValueExample"*
@@ -159,11 +159,11 @@
 **Description:** shader effect example template
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Width** (Number): *See documentation*
+- **Render** (Trigger)
+- **Width** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Templates.ShaderEffectExample#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShaderEffectExample"*
@@ -178,24 +178,24 @@
 **Description:** UI indicators example op
 
 **> Input Ports:**
-- **Loading Task** (Number: Boolean): *See documentation*
-- **Loading** (Number: Boolean): *See documentation*
-- **Warning** (Number: Boolean): *See documentation*
-- **Error** (Number: Boolean): *See documentation*
-- **Hint** (Number: Boolean): *See documentation*
-- **Not Working** (Number: Boolean): *See documentation*
-- **Slider** (Number): *See documentation*
-- **Gradient** (Number): *See documentation*
-- **Resizable** (Number: Boolean): *See documentation*
-- **Trigger** (Trigger): *See documentation*
-- **Greyout** (Number: Boolean): *See documentation*
-- **This Will Greyout** (Number): *See documentation*
-- **Open Prompt** (Trigger): *See documentation*
-- **Open Modal** (Trigger): *See documentation*
-- **Open New Tab** (Trigger): *See documentation*
+- **Loading Task** (Number: Boolean)
+- **Loading** (Number: Boolean)
+- **Warning** (Number: Boolean)
+- **Error** (Number: Boolean)
+- **Hint** (Number: Boolean)
+- **Not Working** (Number: Boolean)
+- **Slider** (Number)
+- **Gradient** (Number)
+- **Resizable** (Number: Boolean)
+- **Trigger** (Trigger)
+- **Greyout** (Number: Boolean)
+- **This Will Greyout** (Number)
+- **Open Prompt** (Trigger)
+- **Open Modal** (Trigger)
+- **Open New Tab** (Trigger)
 
 **< Output Ports:**
-- **Something** (Number): *See documentation*
+- **Something** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RUUacI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UiTestOp"*

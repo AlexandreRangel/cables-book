@@ -13,26 +13,26 @@
 **Description:** uses mespeak.js to convert text-to-speech
 
 **> Input Ports:**
-- **Text** (String): *See documentation*
-- **Say** (Trigger): *See documentation*
-- **Amplitude** (Number): *See documentation*
-- **Pitch** (Number): *See documentation*
-- **Voice Index** (Number: Integer): *See documentation*
-- **Word Gap** (Number: Integer): *See documentation*
-- **Variants Index** (Number: Integer): *See documentation*
-- **Line-Break Length** (Number: Integer): *See documentation*
-- **Capitals** (Number: Integer): *See documentation*
-- **Punctuation** (String): *See documentation*
-- **No Stop** (Number: Boolean): *See documentation*
-- **UTF16** (Number: Boolean): *See documentation*
-- **SSML** (Number: Boolean): *See documentation*
-- **Log Console** (Number: Boolean): *See documentation*
-- **Pan** (Number): *See documentation*
+- **Text** (String)
+- **Say** (Trigger)
+- **Amplitude** (Number)
+- **Pitch** (Number)
+- **Voice Index** (Number: Integer)
+- **Word Gap** (Number: Integer)
+- **Variants Index** (Number: Integer)
+- **Line-Break Length** (Number: Integer)
+- **Capitals** (Number: Integer)
+- **Punctuation** (String)
+- **No Stop** (Number: Boolean)
+- **UTF16** (Number: Boolean)
+- **SSML** (Number: Boolean)
+- **Log Console** (Number: Boolean)
+- **Pan** (Number)
 
 **< Output Ports:**
-- **Audio Out** (Object): *See documentation*
-- **Speaking** (booleanNumber): *See documentation*
-- **Voice Loaded** (booleanNumber): *See documentation*
+- **Audio Out** (Object)
+- **Speaking** (booleanNumber)
+- **Voice Loaded** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeSpeak"*
@@ -47,23 +47,23 @@
 **Description:** Text-to-Speech, speaks different languages (speech synthesis)
 
 **> Input Ports:**
-- **Update State** (Trigger): *See documentation*
-- **Text** (String): *See documentation*
-- **Say** (Trigger): *See documentation*
-- **Voice** (Number: Select Box): *See documentation*
-- **Pitch** (Number): *See documentation*
-- **Rate** (Number): *See documentation*
-- **Volume** (Number): *See documentation*
-- **Say On Text Change** (Number: Boolean): *See documentation*
-- **Pause** (Trigger): *See documentation*
-- **Resume** (Trigger): *See documentation*
-- **Cancel** (Trigger): *See documentation*
+- **Update State** (Trigger)
+- **Text** (String)
+- **Say** (Trigger)
+- **Voice** (Number: Select Box)
+- **Pitch** (Number)
+- **Rate** (Number)
+- **Volume** (Number)
+- **Say On Text Change** (Number: Boolean)
+- **Pause** (Trigger)
+- **Resume** (Trigger)
+- **Cancel** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Speaking** (Number): *See documentation*
-- **Pending** (Number): *See documentation*
-- **Paused** (Number): *See documentation*
+- **Next** (Trigger)
+- **Speaking** (Number)
+- **Pending** (Number)
+- **Paused** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WubOWc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Say_v2"*
@@ -78,16 +78,16 @@
 **Description:** speech to text recognition
 
 **> Input Ports:**
-- **Language** (String): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Start** (Trigger): *See documentation*
+- **Language** (String)
+- **Active** (Number: Boolean)
+- **Start** (Trigger)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
-- **Confidence** (Number): *See documentation*
-- **Supported** (booleanNumber): *See documentation*
-- **New Result** (Trigger): *See documentation*
-- **Started** (booleanNumber): *See documentation*
+- **Result** (String)
+- **Confidence** (Number)
+- **Supported** (booleanNumber)
+- **New Result** (Trigger)
+- **Started** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9p7kw4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SpeechRecognition"*

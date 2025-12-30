@@ -13,17 +13,17 @@
 **Description:** Test if a boundingbox could be visible in the current viewport
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Boundings** (Object): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Draw** (Number: Boolean): *See documentation*
-- **Width** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Length** (Number): *See documentation*
+- **Exec** (Trigger)
+- **Boundings** (Object)
+- **Active** (Number: Boolean)
+- **Draw** (Number: Boolean)
+- **Width** (Number)
+- **Height** (Number)
+- **Length** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Visible** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoundingBoxVisible"*
@@ -38,17 +38,17 @@
 **Description:** Calculate a bounding box from a geometry
 
 **> Input Ports:**
-- **Geometry** (Object): *See documentation*
+- **Geometry** (Object)
 
 **< Output Ports:**
-- **Boundings** (Object): *See documentation*
-- **Min X** (Number): *See documentation*
-- **Min Y** (Number): *See documentation*
-- **Min Z** (Number): *See documentation*
-- **Max X** (Number): *See documentation*
-- **Max Y** (Number): *See documentation*
-- **Max Z** (Number): *See documentation*
-- **MaxMin Points** (Array): *See documentation*
+- **Boundings** (Object)
+- **Min X** (Number)
+- **Min Y** (Number)
+- **Min Z** (Number)
+- **Max X** (Number)
+- **Max Y** (Number)
+- **Max Z** (Number)
+- **MaxMin Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryBoundingBox"*

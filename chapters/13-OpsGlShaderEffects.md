@@ -13,23 +13,23 @@
 **Description:** do not draw pixels inside a defined 3d area
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
-- **Area** (Number: String): *See documentation*
-- **Size** (Number): *See documentation*
-- **Size X** (Number): *See documentation*
-- **Size Y** (Number): *See documentation*
-- **Size Z** (Number): *See documentation*
-- **Repeat** (Number: Boolean): *See documentation*
-- **Repeat Distance** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Invert** (Number: Boolean)
+- **Area Index** (Number: Integer)
+- **Area** (Number: String)
+- **Size** (Number)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Repeat** (Number: Boolean)
+- **Repeat Distance** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GQiw18)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaDiscardPixel_v2"*
@@ -44,16 +44,16 @@
 **Description:** rotate vertices in an area around a center point
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Size** (Number)
+- **Strength** (Number)
+- **Smooth** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7mss1Q)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaRotate_v2"*
@@ -68,21 +68,21 @@
 **Description:** Scales the size of meshes within the area of influence
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Area Size** (Number): *See documentation*
-- **Source Index** (Number: Integer): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Smoothstep** (Number: Boolean): *See documentation*
-- **Min Size Original** (Number: Boolean): *See documentation*
-- **Clamp Size** (Number: Boolean): *See documentation*
-- **Clamp Min** (Number): *See documentation*
-- **Clamp Max** (Number): *See documentation*
-- **Pos X** (Number): *See documentation*
-- **Pos Y** (Number): *See documentation*
-- **Pos Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Area Size** (Number)
+- **Source Index** (Number: Integer)
+- **Strength** (Number)
+- **Smoothstep** (Number: Boolean)
+- **Min Size Original** (Number: Boolean)
+- **Clamp Size** (Number: Boolean)
+- **Clamp Min** (Number)
+- **Clamp Max** (Number)
+- **Pos X** (Number)
+- **Pos Y** (Number)
+- **Pos Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LXN7D-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaScaler_v3"*
@@ -97,21 +97,21 @@
 **Description:** Area size of noise
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Size** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Noise Scale** (Number): *See documentation*
-- **Noise X** (Number): *See documentation*
-- **Noise Y** (Number): *See documentation*
-- **Noise Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Mode Index** (Number: Integer)
+- **Size** (Number)
+- **Strength** (Number)
+- **Smooth** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Noise Scale** (Number)
+- **Noise X** (Number)
+- **Noise Y** (Number)
+- **Noise Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDcUC-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaTranslateFBMNoise"*
@@ -126,18 +126,18 @@
 **Description:** Change the position of all meshes inside of the area of influence
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Multiply X** (Number): *See documentation*
-- **Multiply Y** (Number): *See documentation*
-- **Multiply Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Size** (Number)
+- **Strength** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Multiply X** (Number)
+- **Multiply Y** (Number)
+- **Multiply Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yWVQC-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaTranslateMeshes_v3"*
@@ -152,17 +152,17 @@
 **Description:** bend objects along an axis
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Amount** (Number): *See documentation*
-- **RotX** (Number): *See documentation*
-- **RotY** (Number): *See documentation*
-- **RotZ** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Limited** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Amount** (Number)
+- **RotX** (Number)
+- **RotY** (Number)
+- **RotZ** (Number)
+- **Scale** (Number)
+- **Offset** (Number)
+- **Limited** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HtcN9Z)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Bend_v2"*
@@ -177,14 +177,14 @@
 **Description:** clamp/restrict the vertex position to min/max values per axis
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Min** (Number): *See documentation*
-- **Max** (Number): *See documentation*
-- **Update Normals** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Axis Index** (Number: Integer)
+- **Min** (Number)
+- **Max** (Number)
+- **Update Normals** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RP4O73)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClampVertexPosition_v2"*
@@ -199,28 +199,28 @@
 **Description:** Colorize all meshes around current position
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
-- **Size** (Number): *See documentation*
-- **Roundness** (Number): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Falloff** (Number): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Change Size** (Number: Boolean): *See documentation*
-- **Size X** (Number): *See documentation*
-- **Size Y** (Number): *See documentation*
-- **Size Z** (Number): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Priority** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Area Index** (Number: Integer)
+- **Size** (Number)
+- **Roundness** (Number)
+- **Amount** (Number)
+- **Falloff** (Number)
+- **Invert** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Change Size** (Number: Boolean)
+- **Size X** (Number)
+- **Size Y** (Number)
+- **Size Z** (Number)
+- **Texture** (Object:Texture)
+- **Priority** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0Ti2gT)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorArea_v5"*
@@ -235,17 +235,17 @@
 **Description:** deform a spherical area of a mesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Smooth** (Number: Boolean): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Size** (Number)
+- **Strength** (Number)
+- **Smooth** (Number: Boolean)
+- **WorldSpace** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CQ0wmo)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeformArea"*
@@ -260,12 +260,12 @@
 **Description:** discard transparent pixels in material textures
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Method Index** (Number: Integer): *See documentation*
-- **Threshold** (Number): *See documentation*
+- **Render** (Trigger)
+- **Method Index** (Number: Integer)
+- **Threshold** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3r_lf6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DiscardMaterialAlpha"*
@@ -280,22 +280,22 @@
 **Description:** explode a (divided) mesh in the direction of faces normals
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Distance** (Number): *See documentation*
-- **Size** (Number): *See documentation*
-- **Absolute** (Number: Boolean): *See documentation*
-- **Add X** (Number): *See documentation*
-- **Add Y** (Number): *See documentation*
-- **Add Z** (Number): *See documentation*
-- **Mul X** (Number): *See documentation*
-- **Mul Y** (Number): *See documentation*
-- **Mul Z** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Distance** (Number)
+- **Size** (Number)
+- **Absolute** (Number: Boolean)
+- **Add X** (Number)
+- **Add Y** (Number)
+- **Add Z** (Number)
+- **Mul X** (Number)
+- **Mul Y** (Number)
+- **Mul Z** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sYIxm1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ExplodeDividedMesh_v2"*
@@ -310,17 +310,17 @@
 **Description:** Fog as a shadereffect applied to a material
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Start** (Number): *See documentation*
-- **End** (Number): *See documentation*
-- **Amount** (Number): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
+- **Render** (Trigger)
+- **Mode Index** (Number: Integer)
+- **Start** (Number)
+- **End** (Number)
+- **Amount** (Number)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3L3of6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FogEffect"*
@@ -335,16 +335,16 @@
 **Description:** add fresnel glow to any material
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **Fresnel Intensity** (Number): *See documentation*
-- **Fresnel Exponent** (Number): *See documentation*
+- **Trigger In** (Trigger)
+- **Active** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Fresnel Intensity** (Number)
+- **Fresnel Exponent** (Number)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/e02kYa)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FresnelGlow"*
@@ -359,27 +359,27 @@
 **Description:** displace positions of instanced meshes using a texture
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Source Index** (Number: Integer): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Min** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Clamp** (Number: Boolean): *See documentation*
-- **Colorize** (Number: Boolean): *See documentation*
-- **Debug Bounds** (Number: Boolean): *See documentation*
-- **Normalize** (Number: Boolean): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
-- **Abs** (Number: Boolean): *See documentation*
-- **Channel Index** (Number: Integer): *See documentation*
-- **X** (Number: Boolean): *See documentation*
-- **Y** (Number: Boolean): *See documentation*
-- **Z** (Number: Boolean): *See documentation*
+- **Trigger** (Trigger)
+- **Texture** (Object:Texture)
+- **Source Index** (Number: Integer)
+- **Mode Index** (Number: Integer)
+- **Strength** (Number)
+- **Min** (Number)
+- **Scale** (Number)
+- **Clamp** (Number: Boolean)
+- **Colorize** (Number: Boolean)
+- **Debug Bounds** (Number: Boolean)
+- **Normalize** (Number: Boolean)
+- **Offset X** (Number)
+- **Offset Y** (Number)
+- **Abs** (Number: Boolean)
+- **Channel Index** (Number: Integer)
+- **X** (Number: Boolean)
+- **Y** (Number: Boolean)
+- **Z** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedDisplacementMap_v2"*
@@ -394,22 +394,22 @@
 **Description:** displace position of instanced object by perlin noise value
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Scroll X** (Number): *See documentation*
-- **Scroll Y** (Number): *See documentation*
-- **Scroll Z** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Method Index** (Number: Integer): *See documentation*
-- **Method** (String): *See documentation*
-- **Mul X** (Number): *See documentation*
-- **Mul Y** (Number): *See documentation*
-- **Mul Z** (Number): *See documentation*
-- **Min Scale** (Number): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Strength** (Number)
+- **Scroll X** (Number)
+- **Scroll Y** (Number)
+- **Scroll Z** (Number)
+- **Scale** (Number)
+- **Method Index** (Number: Integer)
+- **Method** (String)
+- **Mul X** (Number)
+- **Mul Y** (Number)
+- **Mul Z** (Number)
+- **Min Scale** (Number)
+- **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/33bSY7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedPerlinPosition_v2"*
@@ -424,18 +424,18 @@
 **Description:** colorize instanced meshes using a texture
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Clamp** (Number: Boolean): *See documentation*
-- **Debug Bounds** (Number: Boolean): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
-- **Method Index** (Number: Integer): *See documentation*
+- **Trigger** (Trigger)
+- **Texture** (Object:Texture)
+- **Strength** (Number)
+- **Scale** (Number)
+- **Clamp** (Number: Boolean)
+- **Debug Bounds** (Number: Boolean)
+- **Offset X** (Number)
+- **Offset Y** (Number)
+- **Method Index** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedTextureColorize"*
@@ -450,17 +450,17 @@
 **Description:** discard pixel if texture coordinate is below threshold
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Treshhold** (Number): *See documentation*
-- **Sine Animation** (Number: Boolean): *See documentation*
-- **Time** (Number): *See documentation*
-- **Sine Source Index** (Number: Integer): *See documentation*
-- **Frequency** (Number): *See documentation*
-- **Amplitude** (Number): *See documentation*
+- **Render** (Trigger)
+- **Axis Index** (Number: Integer)
+- **Treshhold** (Number)
+- **Sine Animation** (Number: Boolean)
+- **Time** (Number)
+- **Sine Source Index** (Number: Integer)
+- **Frequency** (Number)
+- **Amplitude** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pHfgJ5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LimitMeshByTexCoord"*
@@ -475,21 +475,21 @@
 **Description:** 3d space noise for mesh materials
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Blendmode Index** (Number: Integer): *See documentation*
-- **Blendmode** (String): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Scale** (Number)
+- **Amount** (Number)
+- **Blendmode Index** (Number: Integer)
+- **Blendmode** (String)
+- **WorldSpace** (Number: Boolean)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V7rjQ6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshPixelNoise_v2"*
@@ -504,12 +504,12 @@
 **Description:** vertex shader modulo operation on vertex position
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Modulo** (Number): *See documentation*
+- **Render** (Trigger)
+- **Axis Index** (Number: Integer)
+- **Modulo** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lMCl_8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ModuloVertexPosition"*
@@ -524,25 +524,25 @@
 **Description:** Displace vertices using perlin noise animation
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Size** (Number): *See documentation*
-- **Strength** (Number): *See documentation*
-- **Calc Normals** (Number: Boolean): *See documentation*
-- **Flip Normals** (Number: Boolean): *See documentation*
-- **Falloff** (Number): *See documentation*
-- **Output Index** (Number: Integer): *See documentation*
-- **Source Index** (Number: Integer): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Scroll X** (Number): *See documentation*
-- **Scroll Y** (Number): *See documentation*
-- **Scroll Z** (Number): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Scale** (Number)
+- **Size** (Number)
+- **Strength** (Number)
+- **Calc Normals** (Number: Boolean)
+- **Flip Normals** (Number: Boolean)
+- **Falloff** (Number)
+- **Output Index** (Number: Integer)
+- **Source Index** (Number: Integer)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Scroll X** (Number)
+- **Scroll Y** (Number)
+- **Scroll Z** (Number)
+- **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8RexP8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerlinAreaDeform_v4"*
@@ -557,11 +557,11 @@
 **Description:** Scale vertices of an object in the direction of face normals
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Strength** (Number): *See documentation*
+- **Render** (Trigger)
+- **Strength** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ft2xm1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScaleByNormal_v2"*
@@ -576,20 +576,20 @@
 **Description:** add shadow capabilities to any material
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Cast Shadow** (Number: Boolean): *See documentation*
-- **Receive Shadow** (Number: Boolean): *See documentation*
-- **Sample Distribution** (Number: Integer): *See documentation*
-- **R** (Number): *See documentation*
-- **G** (Number): *See documentation*
-- **B** (Number): *See documentation*
-- **Discard Transparent** (Number: Boolean): *See documentation*
-- **Opacity Threshold** (Number): *See documentation*
-- **Opacity Texture** (Object:Texture): *See documentation*
-- **Cull Backfacing** (Number: Boolean): *See documentation*
+- **Trigger In** (Trigger)
+- **Cast Shadow** (Number: Boolean)
+- **Receive Shadow** (Number: Boolean)
+- **Sample Distribution** (Number: Integer)
+- **R** (Number)
+- **G** (Number)
+- **B** (Number)
+- **Discard Transparent** (Number: Boolean)
+- **Opacity Threshold** (Number)
+- **Opacity Texture** (Object:Texture)
+- **Cull Backfacing** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/auVl18)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Shadow_v3"*
@@ -604,13 +604,13 @@
 **Description:** Deform a mesh along a spline
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Size** (Number): *See documentation*
-- **Offset** (Number): *See documentation*
-- **Points** (Array): *See documentation*
+- **Render** (Trigger)
+- **Size** (Number)
+- **Offset** (Number)
+- **Points** (Array)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F-UNZ4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineDeform_v2"*
@@ -625,23 +625,23 @@
 **Description:** texture projection on meshes
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **BlendMode Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Use Texture Alpha** (Number: Boolean): *See documentation*
-- **Pos X** (Number): *See documentation*
-- **Pos Y** (Number): *See documentation*
-- **Rot X** (Number): *See documentation*
-- **Rot Y** (Number): *See documentation*
-- **Rot Z** (Number): *See documentation*
-- **Mapping Index** (Number: Integer): *See documentation*
-- **Discard** (Number: Boolean): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Texture** (Object:Texture)
+- **BlendMode Index** (Number: Integer)
+- **Amount** (Number)
+- **Scale** (Number)
+- **Use Texture Alpha** (Number: Boolean)
+- **Pos X** (Number)
+- **Pos Y** (Number)
+- **Rot X** (Number)
+- **Rot Y** (Number)
+- **Rot Z** (Number)
+- **Mapping Index** (Number: Integer)
+- **Discard** (Number: Boolean)
+- **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fJHt0e)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureProjection_v2"*
@@ -656,17 +656,17 @@
 **Description:** Transform and repeat texture coordinates of a mesh via vertex shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Repeat X** (Number): *See documentation*
-- **Repeat Y** (Number): *See documentation*
-- **Flip X** (Number: Boolean): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
-- **Rotation** (Number): *See documentation*
+- **Render** (Trigger)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Repeat X** (Number)
+- **Repeat Y** (Number)
+- **Flip X** (Number: Boolean)
+- **Flip Y** (Number: Boolean)
+- **Rotation** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YzNrx8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformTextureCoordinates"*
@@ -681,20 +681,20 @@
 **Description:** transform vertices of a mesh via vertex shader
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
-- **Rotation X** (Number): *See documentation*
-- **Rotation Y** (Number): *See documentation*
-- **Rotation Z** (Number): *See documentation*
-- **Transform Normals** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
+- **Rotation X** (Number)
+- **Rotation Y** (Number)
+- **Rotation Z** (Number)
+- **Transform Normals** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u1iOhI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformVertex"*
@@ -709,14 +709,14 @@
 **Description:** twist a mesh around an axis
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Degree** (Number): *See documentation*
-- **Height** (Number): *See documentation*
-- **Axis Index** (Number: Integer): *See documentation*
-- **Axis** (Number: String): *See documentation*
+- **Render** (Trigger)
+- **Degree** (Number)
+- **Height** (Number)
+- **Axis Index** (Number: Integer)
+- **Axis** (Number: String)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VYPlJ5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Twist_v3"*
@@ -731,10 +731,10 @@
 **Description:** Use vertex color as basecolor/diffuse color
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
+- **Render** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ep1Umu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UseVertexColor"*
@@ -749,26 +749,26 @@
 **Description:** transform an area of a mesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
-- **Visualize Area** (Number: Boolean): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **Radius** (Number): *See documentation*
-- **Area Size X** (Number): *See documentation*
-- **Area Size Y** (Number): *See documentation*
-- **Area Size Z** (Number): *See documentation*
-- **Translate X** (Number): *See documentation*
-- **Translate Y** (Number): *See documentation*
-- **Translate Z** (Number): *See documentation*
-- **Scale X** (Number): *See documentation*
-- **Scale Y** (Number): *See documentation*
-- **Scale Z** (Number): *See documentation*
+- **Render** (Trigger)
+- **Area Index** (Number: Integer)
+- **Visualize Area** (Number: Boolean)
+- **WorldSpace** (Number: Boolean)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **Radius** (Number)
+- **Area Size X** (Number)
+- **Area Size Y** (Number)
+- **Area Size Z** (Number)
+- **Translate X** (Number)
+- **Translate Y** (Number)
+- **Translate Z** (Number)
+- **Scale X** (Number)
+- **Scale Y** (Number)
+- **Scale Z** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexArea"*
@@ -783,12 +783,12 @@
 **Description:** Use mesh vertexcolor as Alpha/Opacity
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Input Index** (Number: Integer): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Input Index** (Number: Integer)
+- **Invert** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ChcFXk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexColorAsAlpha"*
@@ -803,20 +803,20 @@
 **Description:** Displace the vertices of a mesh with the pixels brightness values from a texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Extrude** (Number): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Offset X** (Number): *See documentation*
-- **Offset Y** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **Calc Normals** (Number: Boolean): *See documentation*
-- **Discard Zero Values** (Number: Boolean): *See documentation*
-- **Colorize** (Number: Boolean): *See documentation*
-- **Colorize Min** (Number): *See documentation*
-- **Colorize Max** (Number): *See documentation*
+- **Render** (Trigger)
+- **Extrude** (Number)
+- **Texture** (Object:Texture)
+- **Offset X** (Number)
+- **Offset Y** (Number)
+- **Scale** (Number)
+- **Calc Normals** (Number: Boolean)
+- **Discard Zero Values** (Number: Boolean)
+- **Colorize** (Number: Boolean)
+- **Colorize Min** (Number)
+- **Colorize Max** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aSWlLu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexDisplacementMap_v5"*
@@ -831,13 +831,13 @@
 **Description:** only draw the first X vertices of a mesh
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Min** (Number: Integer): *See documentation*
-- **Max** (Number: Integer): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Min** (Number: Integer)
+- **Max** (Number: Integer)
+- **Invert** (Number: Boolean)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gLrrJV)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexNumberLimit_v2"*
@@ -852,12 +852,12 @@
 **Description:** set vertex positions of a mesh from a texture
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Texture** (Object:Texture): *See documentation*
-- **Mode Index** (Number: Integer): *See documentation*
+- **Render** (Trigger)
+- **Texture** (Object:Texture)
+- **Mode Index** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LDfZgL)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexPositionFromTexture_v2"*
@@ -872,25 +872,25 @@
 **Description:** sine wave vertex displacement
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Source Index** (Number: Integer): *See documentation*
-- **Amount** (Number): *See documentation*
-- **Time** (Number): *See documentation*
-- **Scale** (Number): *See documentation*
-- **AxisX** (Number: Boolean): *See documentation*
-- **AxisY** (Number: Boolean): *See documentation*
-- **AxisZ** (Number: Boolean): *See documentation*
-- **Area Index** (Number: Integer): *See documentation*
-- **Size** (Number): *See documentation*
-- **Falloff** (Number): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Z** (Number): *See documentation*
-- **WorldSpace** (Number: Boolean): *See documentation*
-- **Invert** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Source Index** (Number: Integer)
+- **Amount** (Number)
+- **Time** (Number)
+- **Scale** (Number)
+- **AxisX** (Number: Boolean)
+- **AxisY** (Number: Boolean)
+- **AxisZ** (Number: Boolean)
+- **Area Index** (Number: Integer)
+- **Size** (Number)
+- **Falloff** (Number)
+- **X** (Number)
+- **Y** (Number)
+- **Z** (Number)
+- **WorldSpace** (Number: Boolean)
+- **Invert** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0PxhuO)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexWobble_v2"*

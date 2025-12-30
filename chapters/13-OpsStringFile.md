@@ -13,10 +13,10 @@
 **Description:** get URL of a file
 
 **> Input Ports:**
-- **File** (String): *See documentation*
+- **File** (String)
 
 **< Output Ports:**
-- **URL** (String): *See documentation*
+- **URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FileInput_v2"*
@@ -31,26 +31,26 @@
 **Description:** switch between filenames
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **File 0** (String): *See documentation*
-- **File 1** (String): *See documentation*
-- **File 2** (String): *See documentation*
-- **File 3** (String): *See documentation*
-- **File 4** (String): *See documentation*
-- **File 5** (String): *See documentation*
-- **File 6** (String): *See documentation*
-- **File 7** (String): *See documentation*
-- **File 8** (String): *See documentation*
-- **File 9** (String): *See documentation*
-- **File 10** (String): *See documentation*
-- **File 11** (String): *See documentation*
-- **File 12** (String): *See documentation*
-- **File 13** (String): *See documentation*
-- **File 14** (String): *See documentation*
-- **File 15** (String): *See documentation*
+- **Index** (Number: Integer)
+- **File 0** (String)
+- **File 1** (String)
+- **File 2** (String)
+- **File 3** (String)
+- **File 4** (String)
+- **File 5** (String)
+- **File 6** (String)
+- **File 7** (String)
+- **File 8** (String)
+- **File 9** (String)
+- **File 10** (String)
+- **File 11** (String)
+- **File 12** (String)
+- **File 13** (String)
+- **File 14** (String)
+- **File 15** (String)
 
 **< Output Ports:**
-- **Result** (String): *See documentation*
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/unutii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchFile_v2"*

@@ -13,10 +13,10 @@
 **Description:** vibrating a mobile device
 
 **> Input Ports:**
-- **Vibrate** (Trigger): *See documentation*
+- **Vibrate** (Trigger)
 
 **< Output Ports:**
-- **Supported** (Number): *See documentation*
+- **Supported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H4NGFU)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeviceVibrate"*
@@ -34,10 +34,10 @@
 - *Visit [Ops.Devices.Mobile.GeoLocation documentation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation) for input port details*
 
 **< Output Ports:**
-- **Browser Support** (booleanNumber): *See documentation*
-- **Latitude** (Number): *See documentation*
-- **Longitude** (Number): *See documentation*
-- **Data** (Object): *See documentation*
+- **Browser Support** (booleanNumber)
+- **Latitude** (Number)
+- **Longitude** (Number)
+- **Data** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kIZ3Ms)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeoLocation"*
@@ -52,12 +52,12 @@
 **Description:** locks orientation to landscape or portrait mode
 
 **> Input Ports:**
-- **Portrait** (Number: Boolean): *See documentation*
-- **Landscape** (Number: Boolean): *See documentation*
+- **Portrait** (Number: Boolean)
+- **Landscape** (Number: Boolean)
 
 **< Output Ports:**
-- **Supported** (Number): *See documentation*
-- **Locked** (Number): *See documentation*
+- **Supported** (Number)
+- **Locked** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LockOrientation"*
@@ -72,24 +72,24 @@
 **Description:** get values from the device motion sensor mobile
 
 **> Input Ports:**
-- **Mul Orientation** (Number): *See documentation*
-- **Request Permissions** (Trigger): *See documentation*
+- **Mul Orientation** (Number)
+- **Request Permissions** (Trigger)
 
 **< Output Ports:**
-- **Orientation Alpha** (Number): *See documentation*
-- **Orientation Beta** (Number): *See documentation*
-- **Orientation Gamma** (Number): *See documentation*
-- **Acceleration X** (Number): *See documentation*
-- **Acceleration Y** (Number): *See documentation*
-- **Acceleration Z** (Number): *See documentation*
-- **Acceleration X No Gravity** (Number): *See documentation*
-- **Acceleration Y No Gravity** (Number): *See documentation*
-- **Acceleration Z No Gravity** (Number): *See documentation*
-- **Rotation Rate Alpha** (Number): *See documentation*
-- **Rotation Rate Beta** (Number): *See documentation*
-- **Rotation Rate Gamma** (Number): *See documentation*
-- **Permissions** (String): *See documentation*
-- **Object** (Object): *See documentation*
+- **Orientation Alpha** (Number)
+- **Orientation Beta** (Number)
+- **Orientation Gamma** (Number)
+- **Acceleration X** (Number)
+- **Acceleration Y** (Number)
+- **Acceleration Z** (Number)
+- **Acceleration X No Gravity** (Number)
+- **Acceleration Y No Gravity** (Number)
+- **Acceleration Z No Gravity** (Number)
+- **Rotation Rate Alpha** (Number)
+- **Rotation Rate Beta** (Number)
+- **Rotation Rate Gamma** (Number)
+- **Permissions** (String)
+- **Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dZ8wQ0)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MotionSensor_v2"*
@@ -104,16 +104,16 @@
 **Description:** detect two finger pinch gestures on touchscreens
 
 **> Input Ports:**
-- **Enabled** (Number: Boolean): *See documentation*
-- **Min Scale** (Number): *See documentation*
-- **Max Scale** (Number): *See documentation*
-- **Reset Scale** (Trigger): *See documentation*
-- **Limit** (Number: Boolean): *See documentation*
+- **Enabled** (Number: Boolean)
+- **Min Scale** (Number)
+- **Max Scale** (Number)
+- **Reset Scale** (Trigger)
+- **Limit** (Number: Boolean)
 
 **< Output Ports:**
-- **Scale** (Number): *See documentation*
-- **Event Details** (Object): *See documentation*
-- **Delta** (Number): *See documentation*
+- **Scale** (Number)
+- **Event Details** (Object)
+- **Delta** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.Pinch#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Pinch"*
@@ -131,8 +131,8 @@
 - *Visit [Ops.Devices.Mobile.ScreenOrientation_v2 documentation](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2) for input port details*
 
 **< Output Ports:**
-- **Angle** (Number): *See documentation*
-- **Type** (String): *See documentation*
+- **Angle** (Number)
+- **Type** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Zc398i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScreenOrientation_v2"*
@@ -150,9 +150,9 @@
 - *Visit [Ops.Devices.Mobile.ShakeGesture documentation](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture) for input port details*
 
 **< Output Ports:**
-- **Acceleration X** (Number): *See documentation*
-- **Acceleration Y** (Number): *See documentation*
-- **Acceleration Z** (Number): *See documentation*
+- **Acceleration X** (Number)
+- **Acceleration Y** (Number)
+- **Acceleration Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShakeGesture"*

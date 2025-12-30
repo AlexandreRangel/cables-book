@@ -13,20 +13,20 @@
 **Description:** detect touch gestures like swipe and pan
 
 **> Input Ports:**
-- **Active** (Number: Boolean): *See documentation*
-- **Vertical Swipe** (Number: Boolean): *See documentation*
-- **Vertical Pan** (Number: Boolean): *See documentation*
+- **Active** (Number: Boolean)
+- **Vertical Swipe** (Number: Boolean)
+- **Vertical Pan** (Number: Boolean)
 
 **< Output Ports:**
-- **Press** (Trigger): *See documentation*
-- **Press Up** (Trigger): *See documentation*
-- **Pan Left** (Trigger): *See documentation*
-- **Pan Right** (Trigger): *See documentation*
-- **Swipe Left** (Trigger): *See documentation*
-- **Swipe Right** (Trigger): *See documentation*
-- **Swipe Up** (Trigger): *See documentation*
-- **Swipe Down** (Trigger): *See documentation*
-- **Event** (Object): *See documentation*
+- **Press** (Trigger)
+- **Press Up** (Trigger)
+- **Pan Left** (Trigger)
+- **Pan Right** (Trigger)
+- **Swipe Left** (Trigger)
+- **Swipe Right** (Trigger)
+- **Swipe Up** (Trigger)
+- **Swipe Down** (Trigger)
+- **Event** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchGesture#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchGesture"*
@@ -41,25 +41,25 @@
 **Description:** touch screen input: e.g. position of fingers
 
 **> Input Ports:**
-- **Disable Scaling** (Number: Boolean): *See documentation*
-- **Disable Scroll** (Number: Boolean): *See documentation*
-- **HDPI Coordinates** (Number: Boolean): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
-- **Normalize Coordinates** (Number: Boolean): *See documentation*
-- **Flip Y** (Number: Boolean): *See documentation*
+- **Disable Scaling** (Number: Boolean)
+- **Disable Scroll** (Number: Boolean)
+- **HDPI Coordinates** (Number: Boolean)
+- **Active** (Number: Boolean)
+- **Normalize Coordinates** (Number: Boolean)
+- **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
-- **Touched** (Number): *See documentation*
-- **Fingers** (Number): *See documentation*
-- **Finger 1 X** (Number): *See documentation*
-- **Finger 1 Y** (Number): *See documentation*
-- **Finger 1 Force** (Number): *See documentation*
-- **Finger 2 X** (Number): *See documentation*
-- **Finger 2 Y** (Number): *See documentation*
-- **Finger 2 Force** (Number): *See documentation*
-- **Events** (Array): *See documentation*
-- **Touch Start** (Trigger): *See documentation*
-- **Touch End** (Trigger): *See documentation*
+- **Touched** (Number)
+- **Fingers** (Number)
+- **Finger 1 X** (Number)
+- **Finger 1 Y** (Number)
+- **Finger 1 Force** (Number)
+- **Finger 2 X** (Number)
+- **Finger 2 Y** (Number)
+- **Finger 2 Force** (Number)
+- **Events** (Array)
+- **Touch Start** (Trigger)
+- **Touch End** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchScreen#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchScreen"*

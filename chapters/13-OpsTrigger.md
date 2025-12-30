@@ -13,13 +13,13 @@
 **Description:** delay triggering next port by x seconds
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Delay** (Number): *See documentation*
-- **Cancel** (Trigger): *See documentation*
+- **Exe** (Trigger)
+- **Delay** (Number)
+- **Cancel** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Delaying** (booleanNumber): *See documentation*
+- **Next** (Trigger)
+- **Delaying** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VgtMji)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayedTrigger"*
@@ -34,11 +34,11 @@
 **Description:** Allows a trigger to pass only if the gate is open
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Pass Through** (Number: Boolean): *See documentation*
+- **Execute** (Trigger)
+- **Pass Through** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xotJAH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateTrigger"*
@@ -53,11 +53,11 @@
 **Description:** Timed Trigger every x ms
 
 **> Input Ports:**
-- **Interval** (Number): *See documentation*
-- **Active** (Number: Boolean): *See documentation*
+- **Interval** (Number)
+- **Active** (Number: Boolean)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZdvX7i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Interval"*
@@ -72,11 +72,11 @@
 **Description:** outputs true if being triggered last frame
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Was Triggered** (Number): *See documentation*
+- **Next** (Trigger)
+- **Was Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kmXCm6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IsTriggered"*
@@ -91,11 +91,11 @@
 **Description:** Lets a trigger through every nth time (trigger limiter)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Nth** (Number): *See documentation*
+- **Execute** (Trigger)
+- **Nth** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cnVqii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NthTrigger_v2"*
@@ -113,8 +113,8 @@
 - *Visit [Ops.Trigger.NumberByTrigger documentation](https://cables.gl/op/Ops.Trigger.NumberByTrigger) for input port details*
 
 **< Output Ports:**
-- **Number** (Number): *See documentation*
-- **Triggered** (Trigger): *See documentation*
+- **Number** (Number)
+- **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kzTxsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberByTrigger"*
@@ -129,12 +129,12 @@
 **Description:** output a number by triggering an index port
 
 **> Input Ports:**
-- **Trigger_0** (Trigger): *See documentation*
-- **Add Port** (Trigger): *See documentation*
+- **Trigger_0** (Trigger)
+- **Add Port** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Number Triggered** (Number): *See documentation*
+- **Next** (Trigger)
+- **Number Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ubuysh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberByTriggerMultiPort_v2"*
@@ -149,12 +149,12 @@
 **Description:** trigger by chance
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Probability** (Number): *See documentation*
+- **Trigger In** (Trigger)
+- **Probability** (Number)
 
 **< Output Ports:**
-- **Trigger Output** (Trigger): *See documentation*
-- **Inverse Trigger Output** (Trigger): *See documentation*
+- **Trigger Output** (Trigger)
+- **Inverse Trigger Output** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/I61CCu)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ProbabilityTrigger"*
@@ -169,25 +169,25 @@
 **Description:** randomly trigger
 
 **> Input Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num Times** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Only Once** (Number: Boolean): *See documentation*
+- **Render** (Trigger)
+- **Num Times** (Number)
+- **Seed** (Number)
+- **Only Once** (Number: Boolean)
 
 **< Output Ports:**
-- **Render** (Trigger): *See documentation*
-- **Num Times** (Number): *See documentation*
-- **Seed** (Number): *See documentation*
-- **Only Once** (Number: Boolean): *See documentation*
-- **Index** (Number): *See documentation*
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
+- **Render** (Trigger)
+- **Num Times** (Number)
+- **Seed** (Number)
+- **Only Once** (Number: Boolean)
+- **Index** (Number)
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3P54t7)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomTrigger"*
@@ -202,19 +202,19 @@
 **Description:** Triggers all ops underneath Num X * Num Y times
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Num X** (Number: Integer): *See documentation*
-- **Num Y** (Number: Integer): *See documentation*
-- **Mul** (Number): *See documentation*
-- **Center** (Number: Boolean): *See documentation*
-- **Centers X and Y around the origin** (0/0): *See documentation*
+- **Exe** (Trigger)
+- **Num X** (Number: Integer)
+- **Num Y** (Number: Integer)
+- **Mul** (Number)
+- **Center** (Number: Boolean)
+- **Centers X and Y around the origin** (0/0)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **X** (Number): *See documentation*
-- **Y** (Number): *See documentation*
-- **Index** (Number): *See documentation*
-- **Total Iterations** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **X** (Number)
+- **Y** (Number)
+- **Index** (Number)
+- **Total Iterations** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lPZfgg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Repeat2d"*
@@ -229,12 +229,12 @@
 **Description:** Triggers all ops below x times (for loop / while)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Repeats** (Number: Integer): *See documentation*
+- **Execute** (Trigger)
+- **Repeats** (Number: Integer)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Index** (Number): *See documentation*
+- **Next** (Trigger)
+- **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VFAfgg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Repeat_v2"*
@@ -249,38 +249,38 @@
 **Description:** Triggers one of the out ports - value index switch case (was SwitchTrigger)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Switch Value** (Number: Integer): *See documentation*
+- **Execute** (Trigger)
+- **Switch Value** (Number: Integer)
 
 **< Output Ports:**
-- **Next Trigger** (Trigger): *See documentation*
-- **Switched Value** (Number): *See documentation*
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
-- **Trigger 16** (Trigger): *See documentation*
-- **Trigger 17** (Trigger): *See documentation*
-- **Trigger 18** (Trigger): *See documentation*
-- **Trigger 19** (Trigger): *See documentation*
-- **Trigger 20** (Trigger): *See documentation*
-- **Trigger 21** (Trigger): *See documentation*
-- **Trigger 22** (Trigger): *See documentation*
-- **Trigger 23** (Trigger): *See documentation*
-- **Default Trigger** (Trigger): *See documentation*
-- **Highest Index** (Number): *See documentation*
+- **Next Trigger** (Trigger)
+- **Switched Value** (Number)
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
+- **Trigger 16** (Trigger)
+- **Trigger 17** (Trigger)
+- **Trigger 18** (Trigger)
+- **Trigger 19** (Trigger)
+- **Trigger 20** (Trigger)
+- **Trigger 21** (Trigger)
+- **Trigger 22** (Trigger)
+- **Trigger 23** (Trigger)
+- **Default Trigger** (Trigger)
+- **Highest Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DzH9S5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTrigger"*
@@ -295,17 +295,17 @@
 **Description:** animated switching between things
 
 **> Input Ports:**
-- **Index** (Number: Integer): *See documentation*
-- **Exe** (Trigger): *See documentation*
-- **Duration** (Number): *See documentation*
+- **Index** (Number: Integer)
+- **Exe** (Trigger)
+- **Duration** (Number)
 
 **< Output Ports:**
-- **Qutsn94pc** (Trigger): *See documentation*
-- **Hvyzlh9o8** (Trigger): *See documentation*
-- **T8dvyjuoq** (Trigger): *See documentation*
-- **A0w7orgi8** (Trigger): *See documentation*
-- **R8h4qx4z8** (Trigger): *See documentation*
-- **Cr80a86xi** (Trigger): *See documentation*
+- **Qutsn94pc** (Trigger)
+- **Hvyzlh9o8** (Trigger)
+- **T8dvyjuoq** (Trigger)
+- **A0w7orgi8** (Trigger)
+- **R8h4qx4z8** (Trigger)
+- **Cr80a86xi** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pUtH15)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerAnimated"*
@@ -320,32 +320,32 @@
 **Description:** Triggers one of the - value index switch case
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Switch Value** (Number: Integer): *See documentation*
+- **Execute** (Trigger)
+- **Switch Value** (Number: Integer)
 
 **< Output Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Switch Value** (Number: Integer): *See documentation*
-- **Total Connections** (Number): *See documentation*
-- **Connected Op Names** (Array): *See documentation*
-- **Trigger_0** (Trigger): *See documentation*
-- **Trigger_1** (Trigger): *See documentation*
-- **Trigger_2** (Trigger): *See documentation*
-- **Trigger_3** (Trigger): *See documentation*
-- **Trigger_4** (Trigger): *See documentation*
-- **Trigger_5** (Trigger): *See documentation*
-- **Trigger_6** (Trigger): *See documentation*
-- **Trigger_7** (Trigger): *See documentation*
-- **Trigger_8** (Trigger): *See documentation*
-- **Trigger_9** (Trigger): *See documentation*
-- **Trigger_10** (Trigger): *See documentation*
-- **Trigger_11** (Trigger): *See documentation*
-- **Trigger_12** (Trigger): *See documentation*
-- **Trigger_13** (Trigger): *See documentation*
-- **Trigger_14** (Trigger): *See documentation*
-- **Trigger_15** (Trigger): *See documentation*
-- **Trigger_16** (Trigger): *See documentation*
-- **Trigger_17** (Trigger): *See documentation*
+- **Execute** (Trigger)
+- **Switch Value** (Number: Integer)
+- **Total Connections** (Number)
+- **Connected Op Names** (Array)
+- **Trigger_0** (Trigger)
+- **Trigger_1** (Trigger)
+- **Trigger_2** (Trigger)
+- **Trigger_3** (Trigger)
+- **Trigger_4** (Trigger)
+- **Trigger_5** (Trigger)
+- **Trigger_6** (Trigger)
+- **Trigger_7** (Trigger)
+- **Trigger_8** (Trigger)
+- **Trigger_9** (Trigger)
+- **Trigger_10** (Trigger)
+- **Trigger_11** (Trigger)
+- **Trigger_12** (Trigger)
+- **Trigger_13** (Trigger)
+- **Trigger_14** (Trigger)
+- **Trigger_15** (Trigger)
+- **Trigger_16** (Trigger)
+- **Trigger_17** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NxGysh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerMultiPort_v2"*
@@ -360,60 +360,60 @@
 **Description:** route trigger output by string
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
-- **Switch Value** (String): *See documentation*
-- **String 0** (String): *See documentation*
-- **String 1** (String): *See documentation*
-- **String 2** (String): *See documentation*
-- **String 3** (String): *See documentation*
-- **String 4** (String): *See documentation*
-- **String 5** (String): *See documentation*
-- **String 6** (String): *See documentation*
-- **String 7** (String): *See documentation*
-- **String 8** (String): *See documentation*
-- **String 9** (String): *See documentation*
-- **String 10** (String): *See documentation*
-- **String 11** (String): *See documentation*
-- **String 12** (String): *See documentation*
-- **String 13** (String): *See documentation*
-- **String 14** (String): *See documentation*
-- **String 15** (String): *See documentation*
-- **String 16** (String): *See documentation*
-- **String 17** (String): *See documentation*
-- **String 18** (String): *See documentation*
-- **String 19** (String): *See documentation*
-- **String 20** (String): *See documentation*
-- **String 21** (String): *See documentation*
-- **String 22** (String): *See documentation*
-- **String 23** (String): *See documentation*
+- **Execute** (Trigger)
+- **Switch Value** (String)
+- **String 0** (String)
+- **String 1** (String)
+- **String 2** (String)
+- **String 3** (String)
+- **String 4** (String)
+- **String 5** (String)
+- **String 6** (String)
+- **String 7** (String)
+- **String 8** (String)
+- **String 9** (String)
+- **String 10** (String)
+- **String 11** (String)
+- **String 12** (String)
+- **String 13** (String)
+- **String 14** (String)
+- **String 15** (String)
+- **String 16** (String)
+- **String 17** (String)
+- **String 18** (String)
+- **String 19** (String)
+- **String 20** (String)
+- **String 21** (String)
+- **String 22** (String)
+- **String 23** (String)
 
 **< Output Ports:**
-- **Next Trigger** (Trigger): *See documentation*
-- **Switched Index** (Number): *See documentation*
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
-- **Trigger 16** (Trigger): *See documentation*
-- **Trigger 17** (Trigger): *See documentation*
-- **Trigger 18** (Trigger): *See documentation*
-- **Trigger 19** (Trigger): *See documentation*
-- **Trigger 20** (Trigger): *See documentation*
-- **Trigger 21** (Trigger): *See documentation*
-- **Trigger 22** (Trigger): *See documentation*
-- **Trigger 23** (Trigger): *See documentation*
+- **Next Trigger** (Trigger)
+- **Switched Index** (Number)
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
+- **Trigger 16** (Trigger)
+- **Trigger 17** (Trigger)
+- **Trigger 18** (Trigger)
+- **Trigger 19** (Trigger)
+- **Trigger 20** (Trigger)
+- **Trigger 21** (Trigger)
+- **Trigger 22** (Trigger)
+- **Trigger 23** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8uTjhI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerString_v2"*
@@ -428,40 +428,40 @@
 **Description:** control the order of execution/triggering
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Exe 0** (Trigger): *See documentation*
-- **Exe 1** (Trigger): *See documentation*
-- **Exe 2** (Trigger): *See documentation*
-- **Exe 3** (Trigger): *See documentation*
-- **Exe 4** (Trigger): *See documentation*
-- **Exe 5** (Trigger): *See documentation*
-- **Exe 6** (Trigger): *See documentation*
-- **Exe 7** (Trigger): *See documentation*
-- **Exe 8** (Trigger): *See documentation*
-- **Exe 9** (Trigger): *See documentation*
-- **Exe 10** (Trigger): *See documentation*
-- **Exe 11** (Trigger): *See documentation*
-- **Exe 12** (Trigger): *See documentation*
-- **Exe 13** (Trigger): *See documentation*
-- **Exe 14** (Trigger): *See documentation*
+- **Exe** (Trigger)
+- **Exe 0** (Trigger)
+- **Exe 1** (Trigger)
+- **Exe 2** (Trigger)
+- **Exe 3** (Trigger)
+- **Exe 4** (Trigger)
+- **Exe 5** (Trigger)
+- **Exe 6** (Trigger)
+- **Exe 7** (Trigger)
+- **Exe 8** (Trigger)
+- **Exe 9** (Trigger)
+- **Exe 10** (Trigger)
+- **Exe 11** (Trigger)
+- **Exe 12** (Trigger)
+- **Exe 13** (Trigger)
+- **Exe 14** (Trigger)
 
 **< Output Ports:**
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0bQrii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Sequence"*
@@ -476,12 +476,12 @@
 **Description:** sequence trigger
 
 **> Input Ports:**
-- **Input_0** (Trigger): *See documentation*
-- **Add Port** (Trigger): *See documentation*
+- **Input_0** (Trigger)
+- **Add Port** (Trigger)
 
 **< Output Ports:**
-- **Output_0** (Trigger): *See documentation*
-- **Output_1** (Trigger): *See documentation*
+- **Output_0** (Trigger)
+- **Output_1** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F5L0sh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceMultiPort_v2"*
@@ -496,26 +496,26 @@
 **Description:** route input triggers by index to one output
 
 **> Input Ports:**
-- **Trigger Index** (Number: Integer): *See documentation*
-- **Trigger In 0** (Trigger): *See documentation*
-- **Trigger In 1** (Trigger): *See documentation*
-- **Trigger In 2** (Trigger): *See documentation*
-- **Trigger In 3** (Trigger): *See documentation*
-- **Trigger In 4** (Trigger): *See documentation*
-- **Trigger In 5** (Trigger): *See documentation*
-- **Trigger In 6** (Trigger): *See documentation*
-- **Trigger In 7** (Trigger): *See documentation*
-- **Trigger In 8** (Trigger): *See documentation*
-- **Trigger In 9** (Trigger): *See documentation*
-- **Trigger In 10** (Trigger): *See documentation*
-- **Trigger In 11** (Trigger): *See documentation*
-- **Trigger In 12** (Trigger): *See documentation*
-- **Trigger In 13** (Trigger): *See documentation*
-- **Trigger In 14** (Trigger): *See documentation*
-- **Trigger In 15** (Trigger): *See documentation*
+- **Trigger Index** (Number: Integer)
+- **Trigger In 0** (Trigger)
+- **Trigger In 1** (Trigger)
+- **Trigger In 2** (Trigger)
+- **Trigger In 3** (Trigger)
+- **Trigger In 4** (Trigger)
+- **Trigger In 5** (Trigger)
+- **Trigger In 6** (Trigger)
+- **Trigger In 7** (Trigger)
+- **Trigger In 8** (Trigger)
+- **Trigger In 9** (Trigger)
+- **Trigger In 10** (Trigger)
+- **Trigger In 11** (Trigger)
+- **Trigger In 12** (Trigger)
+- **Trigger In 13** (Trigger)
+- **Trigger In 14** (Trigger)
+- **Trigger In 15** (Trigger)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
+- **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/upF4rn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchTrigger"*
@@ -530,7 +530,7 @@
 **Description:** Triggers only once when threshold is crossed
 
 **> Input Ports:**
-- **Threshold** (Number): *See documentation*
+- **Threshold** (Number)
 
 **< Output Ports:**
 - *Visit [Ops.Trigger.Threshold documentation](https://cables.gl/op/Ops.Trigger.Threshold) for output port details*
@@ -548,48 +548,48 @@
 **Description:** timed switching of trigger
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Current** (Number: Integer): *See documentation*
-- **OverwriteTime** (Number: Boolean): *See documentation*
-- **IgnoreInSubPatch** (Number: Boolean): *See documentation*
+- **Exe** (Trigger)
+- **Current** (Number: Integer)
+- **OverwriteTime** (Number: Boolean)
+- **IgnoreInSubPatch** (Number: Boolean)
 
 **< Output Ports:**
-- **TriggerAlways** (Trigger): *See documentation*
-- **Names** (Array): *See documentation*
-- **CurrentKeyTime** (Number): *See documentation*
-- **Current** (Number): *See documentation*
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
-- **Trigger 16** (Trigger): *See documentation*
-- **Trigger 17** (Trigger): *See documentation*
-- **Trigger 18** (Trigger): *See documentation*
-- **Trigger 19** (Trigger): *See documentation*
-- **Trigger 20** (Trigger): *See documentation*
-- **Trigger 21** (Trigger): *See documentation*
-- **Trigger 22** (Trigger): *See documentation*
-- **Trigger 23** (Trigger): *See documentation*
-- **Trigger 24** (Trigger): *See documentation*
-- **Trigger 25** (Trigger): *See documentation*
-- **Trigger 26** (Trigger): *See documentation*
-- **Trigger 27** (Trigger): *See documentation*
-- **Trigger 28** (Trigger): *See documentation*
-- **Trigger 29** (Trigger): *See documentation*
-- **Trigger 30** (Trigger): *See documentation*
-- **Trigger 31** (Trigger): *See documentation*
+- **TriggerAlways** (Trigger)
+- **Names** (Array)
+- **CurrentKeyTime** (Number)
+- **Current** (Number)
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
+- **Trigger 16** (Trigger)
+- **Trigger 17** (Trigger)
+- **Trigger 18** (Trigger)
+- **Trigger 19** (Trigger)
+- **Trigger 20** (Trigger)
+- **Trigger 21** (Trigger)
+- **Trigger 22** (Trigger)
+- **Trigger 23** (Trigger)
+- **Trigger 24** (Trigger)
+- **Trigger 25** (Trigger)
+- **Trigger 26** (Trigger)
+- **Trigger 27** (Trigger)
+- **Trigger 28** (Trigger)
+- **Trigger 29** (Trigger)
+- **Trigger 30** (Trigger)
+- **Trigger 31** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GbEqL-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimedSequence"*
@@ -604,13 +604,13 @@
 **Description:** Get the time since last trigger
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Trigger** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exe** (Trigger)
+- **Trigger** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Time** (Number): *See documentation*
+- **Next** (Trigger)
+- **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fCN_98)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeSinceTrigger"*
@@ -625,10 +625,10 @@
 **Description:** simple button to trigger manually
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/05Arii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerButton"*
@@ -643,12 +643,12 @@
 **Description:** Counts how often the port was triggered
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exe** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **TimesTriggered** (Number): *See documentation*
+- **Trigger** (Trigger)
+- **TimesTriggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WNh8pc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerCounter"*
@@ -663,14 +663,14 @@
 **Description:** Increments with each trigger and loops depending on min and max loop values.
 
 **> Input Ports:**
-- **Trigger In** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
-- **Loop Min** (Number: Integer): *See documentation*
-- **Loop Max** (Number: Integer): *See documentation*
+- **Trigger In** (Trigger)
+- **Reset** (Trigger)
+- **Loop Min** (Number: Integer)
+- **Loop Max** (Number: Integer)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Current Count** (Number): *See documentation*
+- **Trigger Out** (Trigger)
+- **Current Count** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V8TekF)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerCounterLoop"*
@@ -685,33 +685,33 @@
 **Description:** triggers evenly distributed by value
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
-- **Number** (Number): *See documentation*
-- **Max** (Number): *See documentation*
-- **Num Outputs** (Number): *See documentation*
+- **Exe** (Trigger)
+- **Number** (Number)
+- **Max** (Number)
+- **Num Outputs** (Number)
 
 **< Output Ports:**
-- **Num** (Number): *See documentation*
-- **Trigger 0** (Trigger): *See documentation*
-- **Trigger 1** (Trigger): *See documentation*
-- **Trigger 2** (Trigger): *See documentation*
-- **Trigger 3** (Trigger): *See documentation*
-- **Trigger 4** (Trigger): *See documentation*
-- **Trigger 5** (Trigger): *See documentation*
-- **Trigger 6** (Trigger): *See documentation*
-- **Trigger 7** (Trigger): *See documentation*
-- **Trigger 8** (Trigger): *See documentation*
-- **Trigger 9** (Trigger): *See documentation*
-- **Trigger 10** (Trigger): *See documentation*
-- **Trigger 11** (Trigger): *See documentation*
-- **Trigger 12** (Trigger): *See documentation*
-- **Trigger 13** (Trigger): *See documentation*
-- **Trigger 14** (Trigger): *See documentation*
-- **Trigger 15** (Trigger): *See documentation*
-- **Trigger 16** (Trigger): *See documentation*
-- **Trigger 17** (Trigger): *See documentation*
-- **Trigger 18** (Trigger): *See documentation*
-- **Trigger 19** (Trigger): *See documentation*
+- **Num** (Number)
+- **Trigger 0** (Trigger)
+- **Trigger 1** (Trigger)
+- **Trigger 2** (Trigger)
+- **Trigger 3** (Trigger)
+- **Trigger 4** (Trigger)
+- **Trigger 5** (Trigger)
+- **Trigger 6** (Trigger)
+- **Trigger 7** (Trigger)
+- **Trigger 8** (Trigger)
+- **Trigger 9** (Trigger)
+- **Trigger 10** (Trigger)
+- **Trigger 11** (Trigger)
+- **Trigger 12** (Trigger)
+- **Trigger 13** (Trigger)
+- **Trigger 14** (Trigger)
+- **Trigger 15** (Trigger)
+- **Trigger 16** (Trigger)
+- **Trigger 17** (Trigger)
+- **Trigger 18** (Trigger)
+- **Trigger 19** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FsZFVB)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerDistributeByValue"*
@@ -726,10 +726,10 @@
 **Description:** Extends a trigger (useful in big patches for better overview)
 
 **> Input Ports:**
-- **Execute** (Trigger): *See documentation*
+- **Execute** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerExtender"*
@@ -744,10 +744,10 @@
 **Description:** trigger if a value decreases / gets smaller
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerIfDecreased"*
@@ -762,10 +762,10 @@
 **Description:** Outputs a trigger if the value of a number increases
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **< Output Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerIfIncreased"*
@@ -780,12 +780,12 @@
 **Description:** Limits how often a trigger goes through to x ms
 
 **> Input Ports:**
-- **In Trigger** (Trigger): *See documentation*
-- **Milliseconds** (Number): *See documentation*
+- **In Trigger** (Trigger)
+- **Milliseconds** (Number)
 
 **< Output Ports:**
-- **Out Trigger** (Trigger): *See documentation*
-- **Progress** (Number): *See documentation*
+- **Out Trigger** (Trigger)
+- **Progress** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dS8EQm)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerLimiter"*
@@ -800,12 +800,12 @@
 **Description:** Outputs a number when triggered
 
 **> Input Ports:**
-- **Set** (Trigger): *See documentation*
-- **Number** (Number): *See documentation*
+- **Set** (Trigger)
+- **Number** (Number)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Out Value** (Number): *See documentation*
+- **Next** (Trigger)
+- **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Qq3Y7i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerNumber"*
@@ -820,12 +820,12 @@
 **Description:** Trigger the following children once
 
 **> Input Ports:**
-- **Exec** (Trigger): *See documentation*
-- **Reset** (Trigger): *See documentation*
+- **Exec** (Trigger)
+- **Reset** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Was Triggered** (Number): *See documentation*
+- **Next** (Trigger)
+- **Was Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9Eiyci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnce"*
@@ -840,11 +840,11 @@
 **Description:** triggers when array has changed
 
 **> Input Ports:**
-- **Array** (Array): *See documentation*
+- **Array** (Array)
 
 **< Output Ports:**
-- **Changed** (Trigger): *See documentation*
-- **Result** (Array): *See documentation*
+- **Changed** (Trigger)
+- **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeArray_v2"*
@@ -859,11 +859,11 @@
 **Description:** triggers when Object has changed
 
 **> Input Ports:**
-- **Object** (Object): *See documentation*
+- **Object** (Object)
 
 **< Output Ports:**
-- **Changed** (Trigger): *See documentation*
-- **Result** (Object): *See documentation*
+- **Changed** (Trigger)
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeObject_v2"*
@@ -878,11 +878,11 @@
 **Description:** triggers when string has changed
 
 **> Input Ports:**
-- **String** (String): *See documentation*
+- **String** (String)
 
 **< Output Ports:**
-- **Changed** (Trigger): *See documentation*
-- **Result** (String): *See documentation*
+- **Changed** (Trigger)
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ohxBci)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeString_v2"*
@@ -897,11 +897,11 @@
 **Description:** triggers when texture has changed
 
 **> Input Ports:**
-- **Texture** (Object:Texture): *See documentation*
+- **Texture** (Object:Texture)
 
 **< Output Ports:**
-- **Changed** (Trigger): *See documentation*
-- **Result** (Object): *See documentation*
+- **Changed** (Trigger)
+- **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QGqQ7f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeTexture"*
@@ -919,7 +919,7 @@
 - *Visit [Ops.Trigger.TriggerReceive documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for input port details*
 
 **< Output Ports:**
-- **Triggered** (Trigger): *See documentation*
+- **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerReceive"*
@@ -934,11 +934,11 @@
 **Description:** receives all named trigges and relays them, optionally using a filter-prefix on the name
 
 **> Input Ports:**
-- **Prefix** (String): *See documentation*
+- **Prefix** (String)
 
 **< Output Ports:**
-- **Trigger Out** (Trigger): *See documentation*
-- **Trigger Name** (String): *See documentation*
+- **Trigger Out** (Trigger)
+- **Trigger Name** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/niHmJt)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerReceiveFilter"*
@@ -953,10 +953,10 @@
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
+- **Trigger** (Trigger)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
+- **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerSend"*
@@ -971,8 +971,8 @@
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **Named Trigger** (String): *See documentation*
+- **Trigger** (Trigger)
+- **Named Trigger** (String)
 
 **< Output Ports:**
 - *Visit [Ops.Trigger.TriggerSendNamed documentation](https://cables.gl/op/Ops.Trigger.TriggerSendNamed) for output port details*
@@ -990,10 +990,10 @@
 **Description:** Counts how often the port is triggered per second
 
 **> Input Ports:**
-- **Exe** (Trigger): *See documentation*
+- **Exe** (Trigger)
 
 **< Output Ports:**
-- **Cps** (Number): *See documentation*
+- **Cps** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JCkpVJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggersPerSecond"*
@@ -1008,12 +1008,12 @@
 **Description:** trigger a string
 
 **> Input Ports:**
-- **Trigger** (Trigger): *See documentation*
-- **String** (String): *See documentation*
+- **Trigger** (Trigger)
+- **String** (String)
 
 **< Output Ports:**
-- **Next** (Trigger): *See documentation*
-- **Result** (String): *See documentation*
+- **Next** (Trigger)
+- **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VHsHue)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerString"*
@@ -1028,10 +1028,10 @@
 **Description:** Triggers when the input value became zero
 
 **> Input Ports:**
-- **Value** (Number): *See documentation*
+- **Value** (Number)
 
 **< Output Ports:**
-- **Became Zero Trigger** (Trigger): *See documentation*
+- **Became Zero Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValueBecameZeroTrigger"*
