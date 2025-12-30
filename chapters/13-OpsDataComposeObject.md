@@ -10,18 +10,18 @@
 ![CompObject op](images/ops/Ops_Data_Compose_Object_CompObject.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObject`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObject) for details*
+**Description:** Compose an Object
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Clear** (Number: Boolean)
-- **Reset** (Trigger)
+- **Update** (Trigger): *See documentation*
+- **Clear** (Number: Boolean): *See documentation*
+- **Reset** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Result** (Object)
+- **Next** (Trigger): *See documentation*
+- **Result** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObject#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObject"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObject](https://cables.gl/op/Ops.Data.Compose.Object.CompObject)
 
@@ -31,16 +31,16 @@
 ![CompObjectFromObject op](images/ops/Ops_Data_Compose_Object_CompObjectFromObject.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectFromObject`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject) for details*
+**Description:** Set key/values to the current ObjectCompose from an existing object
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Object** (Object)
+- **Update** (Trigger): *See documentation*
+- **Object** (Object): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/9ORqOg)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectFromObject"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject)
 
@@ -50,17 +50,17 @@
 ![CompObjectSetArray op](images/ops/Ops_Data_Compose_Object_CompObjectSetArray.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectSetArray`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray) for details*
+**Description:** set array as object property
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Key** (String)
-- **Array** (Array)
+- **Update** (Trigger): *See documentation*
+- **Key** (String): *See documentation*
+- **Array** (Array): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetArray"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray)
 
@@ -70,17 +70,17 @@
 ![CompObjectSetBool op](images/ops/Ops_Data_Compose_Object_CompObjectSetBool.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectSetBool`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool) for details*
+**Description:** set a boolean as object property
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Key** (String)
-- **Boolean** (Number: Boolean)
+- **Update** (Trigger): *See documentation*
+- **Key** (String): *See documentation*
+- **Boolean** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/ggd-JK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetBool"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool)
 
@@ -90,17 +90,17 @@
 ![CompObjectSetNumber op](images/ops/Ops_Data_Compose_Object_CompObjectSetNumber.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectSetNumber`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber) for details*
+**Description:** set number as object property
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Key** (String)
-- **Number** (Number)
+- **Update** (Trigger): *See documentation*
+- **Key** (String): *See documentation*
+- **Number** (Number): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetNumber"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber)
 
@@ -110,15 +110,15 @@
 ![CompObjectSetObject op](images/ops/Ops_Data_Compose_Object_CompObjectSetObject.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectSetObject`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject) for details*
+**Description:** set object as object property
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Key** (String)
-- **Object** (Object)
+- **Update** (Trigger): *See documentation*
+- **Key** (String): *See documentation*
+- **Object** (Object): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetObject"*
@@ -130,17 +130,17 @@
 ![CompObjectSetString op](images/ops/Ops_Data_Compose_Object_CompObjectSetString.svg)
 
 **Full Name:** `Ops.Data.Compose.Object.CompObjectSetString`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString) for details*
+**Description:** set string as object property
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Key** (String)
-- **String** (String)
+- **Update** (Trigger): *See documentation*
+- **Key** (String): *See documentation*
+- **String** (String): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Theojz)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompObjectSetString"*
 **Docs:** [https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString)
 

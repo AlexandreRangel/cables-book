@@ -10,32 +10,32 @@
 ![ECharts op](images/ops/Ops_Extension_ECharts_ECharts.svg)
 
 **Full Name:** `Ops.Extension.ECharts.ECharts`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.ECharts.ECharts) for details*
+**Description:** wrapper for echarts-library
 
 **> Input Ports:**
-- **Create** (Trigger)
-- **Parent DOM Element** (Object)
-- **Id** (String)
-- **Width** (Number: Integer)
-- **Height** (Number: Integer)
-- **Chart Object** (Object)
-- **Merge Options** (Object)
-- **Renderer Index** (Number: Integer)
-- **Renderer** (String)
-- **Theme Index** (Number: Integer)
-- **Theme** (String)
-- **Custom Theme Obj** (Object)
-- **Init Extra Options** (Object)
-- **Style** (Number: String)
-- **Visible** (Number: Boolean)
+- **Create** (Trigger): *See documentation*
+- **Parent DOM Element** (Object): *See documentation*
+- **Id** (String): *See documentation*
+- **Width** (Number: Integer): *See documentation*
+- **Height** (Number: Integer): *See documentation*
+- **Chart Object** (Object): *See documentation*
+- **Merge Options** (Object): *See documentation*
+- **Renderer Index** (Number: Integer): *See documentation*
+- **Renderer** (String): *See documentation*
+- **Theme Index** (Number: Integer): *See documentation*
+- **Theme** (String): *See documentation*
+- **Custom Theme Obj** (Object): *See documentation*
+- **Init Extra Options** (Object): *See documentation*
+- **Style** (Number: String): *See documentation*
+- **Visible** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **DOM Element** (Object)
-- **ECharts Instance** (Object)
-- **Chart Updated** (Trigger)
-- **Theme Changed** (Trigger)
+- **DOM Element** (Object): *See documentation*
+- **ECharts Instance** (Object): *See documentation*
+- **Chart Updated** (Trigger): *See documentation*
+- **Theme Changed** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.ECharts.ECharts#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ECharts"*
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
 
@@ -45,21 +45,21 @@
 ![EChartsEvent op](images/ops/Ops_Extension_ECharts_EChartsEvent.svg)
 
 **Full Name:** `Ops.Extension.ECharts.EChartsEvent`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent) for details*
+**Description:** capture echart-library-events
 
 **> Input Ports:**
-- **ECharts Instance** (Object)
-- **Event Name** (String)
-- **Query String** (String)
-- **Query Object** (Object)
-- **Refresh Event Binding** (Trigger)
+- **ECharts Instance** (Object): *See documentation*
+- **Event Name** (String): *See documentation*
+- **Query String** (String): *See documentation*
+- **Query Object** (Object): *See documentation*
+- **Refresh Event Binding** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Out Chart** (Object)
-- **Trigger** (Trigger)
-- **Event Params** (Object)
+- **Out Chart** (Object): *See documentation*
+- **Trigger** (Trigger): *See documentation*
+- **Event Params** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EChartsEvent"*
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
 

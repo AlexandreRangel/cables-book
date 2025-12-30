@@ -10,26 +10,23 @@
 ![FxHash op](images/ops/Ops_Extension_FxHash_FxHash.svg)
 
 **Full Name:** `Ops.Extension.FxHash.FxHash`
-
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.FxHash.FxHash) for details*
+**Description:** FxHash simulator / generator of seeded random numbers
 
 **> Input Ports:**
-- **Hash** (String)
-- **Randomize Hash** (Trigger)
+- **Hash** (String): *See documentation*
+- **Randomize Hash** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Fxhash** (String)
-- **Fxrand 1** (Number)
-- **Fxrand 2** (Number)
-- **Fxrand 3** (Number)
-- **Fxrand 4** (Number)
-- **Random Numbers** (Array)
-- **Fxhash Environment** (booleanNumber)
+- **Fxhash** (String): *See documentation*
+- **Fxrand 1** (Number): *See documentation*
+- **Fxrand 2** (Number): *See documentation*
+- **Fxrand 3** (Number): *See documentation*
+- **Fxrand 4** (Number): *See documentation*
+- **Random Numbers** (Array): *See documentation*
+- **Fxhash Environment** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.FxHash.FxHash#example)
-
+**Example Patch:** [Open in Editor](https://cables.gl/edit/dnDl82)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FxHash"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
 
 ---

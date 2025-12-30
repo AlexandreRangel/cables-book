@@ -10,33 +10,33 @@
 ![ReactionDiffusionSystem_v2 op](images/ops/Ops_Extension_ReactionDiffusion_ReactionDiffusionSystem_v2.svg)
 
 **Full Name:** `Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2) for details*
+**Description:** Cellular automata system as feedback loop texture.
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Reset** (Trigger)
-- **Use Viewport Size** (Number: Boolean)
-- **Width** (Number: Integer)
-- **Height** (Number: Integer)
-- **Texture In** (Object:Texture)
-- **Speed** (Number: Integer)
-- **Seed** (Number)
-- **Presets Index** (Number: Integer)
-- **Feed** (Number)
-- **Feed Variation** (Number)
-- **Kill** (Number)
-- **Kill Variation** (Number)
-- **Diffusion Scale** (Number)
-- **Diffusion Scale Variation** (Number)
-- **Anisotropy** (Number)
-- **Noise Scale** (Number)
-- **Separate Fields** (Number: Boolean)
+- **Render** (Trigger): *See documentation*
+- **Reset** (Trigger): *See documentation*
+- **Use Viewport Size** (Number: Boolean): *See documentation*
+- **Width** (Number: Integer): *See documentation*
+- **Height** (Number: Integer): *See documentation*
+- **Texture In** (Object:Texture): *See documentation*
+- **Speed** (Number: Integer): *See documentation*
+- **Seed** (Number): *See documentation*
+- **Presets Index** (Number: Integer): *See documentation*
+- **Feed** (Number): *See documentation*
+- **Feed Variation** (Number): *See documentation*
+- **Kill** (Number): *See documentation*
+- **Kill Variation** (Number): *See documentation*
+- **Diffusion Scale** (Number): *See documentation*
+- **Diffusion Scale Variation** (Number): *See documentation*
+- **Anisotropy** (Number): *See documentation*
+- **Noise Scale** (Number): *See documentation*
+- **Separate Fields** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
-- **Texture Out** (Object)
+- **Trigger** (Trigger): *See documentation*
+- **Texture Out** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/XLCybk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReactionDiffusionSystem_v2"*
 **Docs:** [https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
 

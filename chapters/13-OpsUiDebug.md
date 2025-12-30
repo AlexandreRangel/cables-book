@@ -10,14 +10,14 @@
 ![PatchUiCoords op](images/ops/Ops_Ui_Debug_PatchUiCoords.svg)
 
 **Full Name:** `Ops.Ui.Debug.PatchUiCoords`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords) for details*
+**Description:** Output the current patch coordinates
 
 **> Input Ports:**
 - *Visit [Ops.Ui.Debug.PatchUiCoords documentation](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords) for input port details*
 
 **< Output Ports:**
-- **X** (Number)
-- **Y** (Number)
+- **X** (Number): *See documentation*
+- **Y** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PatchUiCoords"*

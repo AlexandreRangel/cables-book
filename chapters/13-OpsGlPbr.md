@@ -10,53 +10,53 @@
 ![PbrEnvironmentLight op](images/ops/Ops_Gl_Pbr_PbrEnvironmentLight.svg)
 
 **Full Name:** `Ops.Gl.Pbr.PbrEnvironmentLight`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight) for details*
+**Description:** PBR image based lighting setup
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Intensity** (Number)
-- **RGBE Environment Map** (Object:Texture)
-- **Size Irradiance Map Index** (Number: Integer)
-- **Size Pre-Filtered Environment Index** (Number: Integer)
-- **Size IBL LUT Index** (Number: Integer)
-- **Force 8bit IBL** (Number: Boolean)
-- **Rotation** (Number)
-- **Use Parallax Correction** (Number: Boolean)
-- **Center X** (Number)
-- **Center Y** (Number)
-- **Center Z** (Number)
-- **Box Min X** (Number)
-- **Box Min Y** (Number)
-- **Box Min Z** (Number)
-- **Box Max X** (Number)
-- **Box Max Y** (Number)
-- **Box Max Z** (Number)
+- **Render** (Trigger): *See documentation*
+- **Intensity** (Number): *See documentation*
+- **RGBE Environment Map** (Object:Texture): *See documentation*
+- **Size Irradiance Map Index** (Number: Integer): *See documentation*
+- **Size Pre-Filtered Environment Index** (Number: Integer): *See documentation*
+- **Size IBL LUT Index** (Number: Integer): *See documentation*
+- **Force 8bit IBL** (Number: Boolean): *See documentation*
+- **Rotation** (Number): *See documentation*
+- **Use Parallax Correction** (Number: Boolean): *See documentation*
+- **Center X** (Number): *See documentation*
+- **Center Y** (Number): *See documentation*
+- **Center Z** (Number): *See documentation*
+- **Box Min X** (Number): *See documentation*
+- **Box Min Y** (Number): *See documentation*
+- **Box Min Z** (Number): *See documentation*
+- **Box Max X** (Number): *See documentation*
+- **Box Max Y** (Number): *See documentation*
+- **Box Max Z** (Number): *See documentation*
 
 **< Output Ports:**
-- **Render** (Trigger)
-- **Intensity** (Number)
-- **RGBE Environment Map** (Object:Texture)
-- **Size Irradiance Map Index** (Number: Integer)
-- **Size Pre-Filtered Environment Index** (Number: Integer)
-- **Size IBL LUT Index** (Number: Integer)
-- **Force 8bit IBL** (Number: Boolean)
-- **Rotation** (Number)
-- **Use Parallax Correction** (Number: Boolean)
-- **Center X** (Number)
-- **Center Y** (Number)
-- **Center Z** (Number)
-- **Box Min X** (Number)
-- **Box Min Y** (Number)
-- **Box Min Z** (Number)
-- **Box Max X** (Number)
-- **Box Max Y** (Number)
-- **Box Max Z** (Number)
-- **Next** (Trigger)
-- **IBL LUT** (Object)
-- **for PBR Material** (not required)
-- **Number Of Pre-Filtered Mip Levels** (Number)
+- **Render** (Trigger): *See documentation*
+- **Intensity** (Number): *See documentation*
+- **RGBE Environment Map** (Object:Texture): *See documentation*
+- **Size Irradiance Map Index** (Number: Integer): *See documentation*
+- **Size Pre-Filtered Environment Index** (Number: Integer): *See documentation*
+- **Size IBL LUT Index** (Number: Integer): *See documentation*
+- **Force 8bit IBL** (Number: Boolean): *See documentation*
+- **Rotation** (Number): *See documentation*
+- **Use Parallax Correction** (Number: Boolean): *See documentation*
+- **Center X** (Number): *See documentation*
+- **Center Y** (Number): *See documentation*
+- **Center Z** (Number): *See documentation*
+- **Box Min X** (Number): *See documentation*
+- **Box Min Y** (Number): *See documentation*
+- **Box Min Z** (Number): *See documentation*
+- **Box Max X** (Number): *See documentation*
+- **Box Max Y** (Number): *See documentation*
+- **Box Max Z** (Number): *See documentation*
+- **Next** (Trigger): *See documentation*
+- **IBL LUT** (Object): *See documentation*
+- **for PBR Material** (not required): *See documentation*
+- **Number Of Pre-Filtered Mip Levels** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrEnvironmentLight"*
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
 
@@ -66,55 +66,55 @@
 ![PbrMaterial op](images/ops/Ops_Gl_Pbr_PbrMaterial.svg)
 
 **Full Name:** `Ops.Gl.Pbr.PbrMaterial`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial) for details*
+**Description:** PBR/Physical Based Rendering Material for realistic materials
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **R** (Number)
-- **G** (Number)
-- **B** (Number)
-- **A** (Number)
-- **Roughness** (Number)
-- **Metalness** (Number)
-- **Use Clear Coat** (Number: Boolean)
-- **Clear Coat Intensity** (Number)
-- **Clear Coat Roughness** (Number)
-- **Use Normal Map For Clear Coat** (Number: Boolean)
-- **Clear Coat Normal Map** (Object:Texture)
-- **Use Thin Film** (Number: Boolean)
-- **Thin Film Intensity** (Number)
-- **Thin Film IOR** (Number)
-- **Thickness Tex Min** (Number)
-- **Thickness Tex Max** (Number)
-- **Exposure** (Number)
-- **Emission Intensity** (Number)
-- **Disable Geometric Roughness** (Number: Boolean)
-- **Use Roughness From Normal Map** (Number: Boolean)
-- **Use Vertex Colours** (Number: Boolean)
-- **Height Intensity** (Number)
-- **Faster Heightmapping** (Number: Boolean)
-- **Double Sided** (Number: Boolean)
-- **IBL LUT** (Object:Texture)
-- **Diffuse Irradiance** (Object:Texture)
-- **Pre-Filtered Envmap** (Object:Texture)
-- **Num Mip Levels** (Number: Integer)
-- **Albedo** (Object:Texture)
-- **AORM** (Object:Texture)
-- **Normal Map** (Object:Texture)
-- **Emission** (Object:Texture)
-- **Height** (Object:Texture)
-- **Lightmap** (Object:Texture)
-- **Thin Film** (Object:Texture)
-- **Diffuse Intensity** (Number)
-- **Specular Intensity** (Number)
-- **Lightmap Is RGBE** (Number: Boolean)
-- **Lightmap Intensity** (Number)
+- **Render** (Trigger): *See documentation*
+- **R** (Number): *See documentation*
+- **G** (Number): *See documentation*
+- **B** (Number): *See documentation*
+- **A** (Number): *See documentation*
+- **Roughness** (Number): *See documentation*
+- **Metalness** (Number): *See documentation*
+- **Use Clear Coat** (Number: Boolean): *See documentation*
+- **Clear Coat Intensity** (Number): *See documentation*
+- **Clear Coat Roughness** (Number): *See documentation*
+- **Use Normal Map For Clear Coat** (Number: Boolean): *See documentation*
+- **Clear Coat Normal Map** (Object:Texture): *See documentation*
+- **Use Thin Film** (Number: Boolean): *See documentation*
+- **Thin Film Intensity** (Number): *See documentation*
+- **Thin Film IOR** (Number): *See documentation*
+- **Thickness Tex Min** (Number): *See documentation*
+- **Thickness Tex Max** (Number): *See documentation*
+- **Exposure** (Number): *See documentation*
+- **Emission Intensity** (Number): *See documentation*
+- **Disable Geometric Roughness** (Number: Boolean): *See documentation*
+- **Use Roughness From Normal Map** (Number: Boolean): *See documentation*
+- **Use Vertex Colours** (Number: Boolean): *See documentation*
+- **Height Intensity** (Number): *See documentation*
+- **Faster Heightmapping** (Number: Boolean): *See documentation*
+- **Double Sided** (Number: Boolean): *See documentation*
+- **IBL LUT** (Object:Texture): *See documentation*
+- **Diffuse Irradiance** (Object:Texture): *See documentation*
+- **Pre-Filtered Envmap** (Object:Texture): *See documentation*
+- **Num Mip Levels** (Number: Integer): *See documentation*
+- **Albedo** (Object:Texture): *See documentation*
+- **AORM** (Object:Texture): *See documentation*
+- **Normal Map** (Object:Texture): *See documentation*
+- **Emission** (Object:Texture): *See documentation*
+- **Height** (Object:Texture): *See documentation*
+- **Lightmap** (Object:Texture): *See documentation*
+- **Thin Film** (Object:Texture): *See documentation*
+- **Diffuse Intensity** (Number): *See documentation*
+- **Specular Intensity** (Number): *See documentation*
+- **Lightmap Is RGBE** (Number: Boolean): *See documentation*
+- **Lightmap Intensity** (Number): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Shader** (Object)
+- **Next** (Trigger): *See documentation*
+- **Shader** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrMaterial"*
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
 

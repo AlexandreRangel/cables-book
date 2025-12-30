@@ -10,19 +10,19 @@
 ![Anim op](images/ops/Ops_TimeLine_Anim.svg)
 
 **Full Name:** `Ops.TimeLine.Anim`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.Anim) for details*
+**Description:** timeline keyframable animation object
 
 **> Input Ports:**
-- **Value** (Number)
-- **Clip** (Number: Boolean)
-- **Clip Name** (String)
+- **Value** (Number): *See documentation*
+- **Clip** (Number: Boolean): *See documentation*
+- **Clip Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Anim** (Object)
-- **Loop Length** (Number)
-- **Length** (Number)
+- **Anim** (Object): *See documentation*
+- **Loop Length** (Number): *See documentation*
+- **Length** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.Anim#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/sKguKJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Anim"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.Anim](https://cables.gl/op/Ops.TimeLine.Anim)
 
@@ -32,18 +32,18 @@
 ![AnimGetKey op](images/ops/Ops_TimeLine_AnimGetKey.svg)
 
 **Full Name:** `Ops.TimeLine.AnimGetKey`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.AnimGetKey) for details*
+**Description:** Get data from a single key in an animation
 
 **> Input Ports:**
-- **Anim** (Object)
-- **Time** (Number)
+- **Anim** (Object): *See documentation*
+- **Time** (Number): *See documentation*
 
 **< Output Ports:**
-- **Index** (Number)
-- **Key Value** (Number)
-- **Key Time** (Number)
+- **Index** (Number): *See documentation*
+- **Key Value** (Number): *See documentation*
+- **Key Time** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AnimGetKey#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/gXgDz1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimGetKey"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.AnimGetKey](https://cables.gl/op/Ops.TimeLine.AnimGetKey)
 
@@ -53,17 +53,17 @@
 ![AnimGetValue op](images/ops/Ops_TimeLine_AnimGetValue.svg)
 
 **Full Name:** `Ops.TimeLine.AnimGetValue`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.AnimGetValue) for details*
+**Description:** get the animated value at time x of an animation object
 
 **> Input Ports:**
-- **Anim** (Object)
-- **Time** (Number)
+- **Anim** (Object): *See documentation*
+- **Time** (Number): *See documentation*
 
 **< Output Ports:**
-- **Value** (Number)
-- **Loop** (Number)
+- **Value** (Number): *See documentation*
+- **Loop** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AnimGetValue#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/yEIpR1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimGetValue"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.AnimGetValue](https://cables.gl/op/Ops.TimeLine.AnimGetValue)
 
@@ -73,14 +73,14 @@
 ![AnimInfo op](images/ops/Ops_TimeLine_AnimInfo.svg)
 
 **Full Name:** `Ops.TimeLine.AnimInfo`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.AnimInfo) for details*
+**Description:** Get information about an anim object
 
 **> Input Ports:**
-- **Anim** (Object)
+- **Anim** (Object): *See documentation*
 
 **< Output Ports:**
-- **Total Keys** (Number)
-- **Length Seconds** (Number)
+- **Total Keys** (Number): *See documentation*
+- **Length Seconds** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AnimInfo#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimInfo"*
@@ -92,8 +92,7 @@
 ![AutoPlay op](images/ops/Ops_TimeLine_AutoPlay.svg)
 
 **Full Name:** `Ops.TimeLine.AutoPlay`
-
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for details*
+**Description:** Automatically starts the timeline playback when opening patch
 
 **> Input Ports:**
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for input port details*
@@ -102,9 +101,7 @@
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
-
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AutoPlay"*
-
 **Docs:** [https://cables.gl/op/Ops.TimeLine.AutoPlay](https://cables.gl/op/Ops.TimeLine.AutoPlay)
 
 ---
@@ -113,23 +110,23 @@
 ![DemoPrerender op](images/ops/Ops_TimeLine_DemoPrerender.svg)
 
 **Full Name:** `Ops.TimeLine.DemoPrerender`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.DemoPrerender) for details*
+**Description:** Prerenderer based on timeline progress
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Manual Timestamps** (Array)
-- **Record Events** (Number: Boolean)
-- **Reset** (Trigger)
-- **Clear** (Trigger)
-- **ReRender On Resize** (Number: Boolean)
+- **Render** (Trigger): *See documentation*
+- **Manual Timestamps** (Array): *See documentation*
+- **Record Events** (Number: Boolean): *See documentation*
+- **Reset** (Trigger): *See documentation*
+- **Clear** (Trigger): *See documentation*
+- **ReRender On Resize** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Prerendered Frame** (Trigger)
-- **Progress** (Number)
-- **Num Events** (Number)
+- **Next** (Trigger): *See documentation*
+- **Prerendered Frame** (Trigger): *See documentation*
+- **Progress** (Number): *See documentation*
+- **Num Events** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.DemoPrerender#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/sewM2h)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DemoPrerender"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.DemoPrerender](https://cables.gl/op/Ops.TimeLine.DemoPrerender)
 
@@ -139,10 +136,10 @@
 ![GotoFrame op](images/ops/Ops_TimeLine_GotoFrame.svg)
 
 **Full Name:** `Ops.TimeLine.GotoFrame`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for details*
+**Description:** jump to a key in the timeline
 
 **> Input Ports:**
-- **Frame** (Number)
+- **Frame** (Number): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.TimeLine.GotoFrame documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for output port details*
@@ -157,19 +154,19 @@
 ![PreRender op](images/ops/Ops_TimeLine_PreRender.svg)
 
 **Full Name:** `Ops.TimeLine.PreRender`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.PreRender) for details*
+**Description:** Render the patch at certain times
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Max Time** (Number: Integer)
-- **Step** (Number: Integer)
-- **Reset** (Trigger)
+- **Render** (Trigger): *See documentation*
+- **Max Time** (Number: Integer): *See documentation*
+- **Step** (Number: Integer): *See documentation*
+- **Reset** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Render Progress** (Trigger)
-- **Done** (Trigger)
-- **Progress** (Number)
+- **Next** (Trigger): *See documentation*
+- **Render Progress** (Trigger): *See documentation*
+- **Done** (Trigger): *See documentation*
+- **Progress** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.PreRender#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PreRender"*
@@ -181,15 +178,15 @@
 ![TimelineConfig op](images/ops/Ops_TimeLine_TimelineConfig.svg)
 
 **Full Name:** `Ops.TimeLine.TimelineConfig`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineConfig) for details*
+**Description:** configure the timeline for the current patch
 
 **> Input Ports:**
-- **FPS** (Number: Integer)
-- **Restrict To Frames** (Number: Boolean)
-- **Fade In Frames** (Number: Boolean)
+- **FPS** (Number: Integer): *See documentation*
+- **Restrict To Frames** (Number: Boolean): *See documentation*
+- **Fade In Frames** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Duration Seconds** (Number)
+- **Duration Seconds** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimelineConfig"*
@@ -201,13 +198,13 @@
 ![TimeLineControls op](images/ops/Ops_TimeLine_TimeLineControls.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineControls`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineControls) for details*
+**Description:** use position and play pause state of cables timeline
 
 **> Input Ports:**
 - *Visit [Ops.TimeLine.TimeLineControls documentation](https://cables.gl/op/Ops.TimeLine.TimeLineControls) for input port details*
 
 **< Output Ports:**
-- **Time** (Number)
+- **Time** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineControls"*
@@ -222,21 +219,21 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineDebug) for details*
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Data** (Object)
-- **Time Cursor** (Number)
-- **Visible Duration** (Number)
-- **Visible Time Start** (Number)
-- **Loop Start** (Number)
-- **Loop End** (Number)
-- **Num Selected Keys** (Number)
-- **Selected Values Min** (Number)
-- **Selected Values Max** (Number)
-- **Selected Times Min** (Number)
-- **Selected Times Max** (Number)
-- **Selected Keys** (Array)
+- **Data** (Object): *See documentation*
+- **Time Cursor** (Number): *See documentation*
+- **Visible Duration** (Number): *See documentation*
+- **Visible Time Start** (Number): *See documentation*
+- **Loop Start** (Number): *See documentation*
+- **Loop End** (Number): *See documentation*
+- **Num Selected Keys** (Number): *See documentation*
+- **Selected Values Min** (Number): *See documentation*
+- **Selected Values Max** (Number): *See documentation*
+- **Selected Times Min** (Number): *See documentation*
+- **Selected Times Max** (Number): *See documentation*
+- **Selected Keys** (Array): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineDebug#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimelineDebug"*
@@ -248,13 +245,13 @@
 ![TimeLineFrame op](images/ops/Ops_TimeLine_TimeLineFrame.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineFrame`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineFrame) for details*
+**Description:** Returns the current frame number of the timeline
 
 **> Input Ports:**
 - *Visit [Ops.TimeLine.TimeLineFrame documentation](https://cables.gl/op/Ops.TimeLine.TimeLineFrame) for input port details*
 
 **< Output Ports:**
-- **Time** (Number)
+- **Time** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineFrame"*
@@ -266,15 +263,15 @@
 ![TimeLineLength op](images/ops/Ops_TimeLine_TimeLineLength.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineLength`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineLength) for details*
+**Description:** current set length of the timeline
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Length** (Number)
+- **Length** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineLength#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/qSMdck)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineLength"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineLength](https://cables.gl/op/Ops.TimeLine.TimeLineLength)
 
@@ -284,17 +281,17 @@
 ![TimeLineLoop op](images/ops/Ops_TimeLine_TimeLineLoop.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineLoop`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineLoop) for details*
+**Description:** Automatic rewind of timeline at a certain time
 
 **> Input Ports:**
-- **Execute** (Trigger)
-- **Duration** (Number)
-- **How long the loop should be** (in seconds)
+- **Execute** (Trigger): *See documentation*
+- **Duration** (Number): *See documentation*
+- **How long the loop should be** (in seconds): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
+- **Trigger** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineLoop#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/GbEqL-)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineLoop"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineLoop](https://cables.gl/op/Ops.TimeLine.TimeLineLoop)
 
@@ -304,14 +301,14 @@
 ![TimeLineOverwrite op](images/ops/Ops_TimeLine_TimeLineOverwrite.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineOverwrite`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite) for details*
+**Description:** overwrite timeline time value
 
 **> Input Ports:**
-- **Exe** (Trigger)
-- **New Time** (Number)
+- **Exe** (Trigger): *See documentation*
+- **New Time** (Number): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
+- **Trigger** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineOverwrite"*
@@ -326,13 +323,13 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlay) for details*
 
 **> Input Ports:**
-- **Play** (Trigger)
-- **Pause** (Trigger)
+- **Play** (Trigger): *See documentation*
+- **Pause** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLinePlay#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLinePlay"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLinePlay](https://cables.gl/op/Ops.TimeLine.TimeLinePlay)
 
@@ -342,22 +339,22 @@
 ![TimeLinePlayer op](images/ops/Ops_TimeLine_TimeLinePlayer.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLinePlayer`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer) for details*
+**Description:** Player controls for the timeline
 
 **> Input Ports:**
-- **Play** (Trigger)
-- **Pause** (Trigger)
-- **Rewind** (Trigger)
-- **Set Current Time** (Number)
+- **Play** (Trigger): *See documentation*
+- **Pause** (Trigger): *See documentation*
+- **Rewind** (Trigger): *See documentation*
+- **Set Current Time** (Number): *See documentation*
 
 **< Output Ports:**
-- **Play Trigger** (Trigger)
-- **Pause Trigger** (Trigger)
-- **Rewind Trigger** (Trigger)
-- **Is Playing** (booleanNumber)
-- **Current Time** (Number)
-- **Current Frame** (Number)
-- **Current time in frames** (30fps)
+- **Play Trigger** (Trigger): *See documentation*
+- **Pause Trigger** (Trigger): *See documentation*
+- **Rewind Trigger** (Trigger): *See documentation*
+- **Is Playing** (booleanNumber): *See documentation*
+- **Current Time** (Number): *See documentation*
+- **Current Frame** (Number): *See documentation*
+- **Current time in frames** (30fps): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLinePlayer"*
@@ -369,15 +366,15 @@
 ![TimeLineRewind op](images/ops/Ops_TimeLine_TimeLineRewind.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineRewind`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineRewind) for details*
+**Description:** set time of timeline to 0 (rewind, restart)
 
 **> Input Ports:**
-- **Exe** (Trigger)
+- **Exe** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineRewind#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineRewind"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineRewind](https://cables.gl/op/Ops.TimeLine.TimeLineRewind)
 
@@ -387,16 +384,16 @@
 ![TimeLineSetTime op](images/ops/Ops_TimeLine_TimeLineSetTime.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineSetTime`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime) for details*
+**Description:** set current time of timeline
 
 **> Input Ports:**
-- **Update** (Trigger)
-- **Time** (Number)
+- **Update** (Trigger): *See documentation*
+- **Time** (Number): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineSetTime"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineSetTime](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime)
 
@@ -406,14 +403,14 @@
 ![TimeLineTime op](images/ops/Ops_TimeLine_TimeLineTime.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineTime`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTime) for details*
+**Description:** Returns the current time of the timeline
 
 **> Input Ports:**
 - *Visit [Ops.TimeLine.TimeLineTime documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTime) for input port details*
 
 **< Output Ports:**
-- **Time** (Number)
-- **The current time of the timeline** (in seconds)
+- **Time** (Number): *See documentation*
+- **The current time of the timeline** (in seconds): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineTime#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineTime"*
@@ -425,10 +422,10 @@
 ![TimeLineTogglePlay op](images/ops/Ops_TimeLine_TimeLineTogglePlay.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineTogglePlay`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay) for details*
+**Description:** toggle between timeline playing and being paused
 
 **> Input Ports:**
-- **Play** (Number: Boolean)
+- **Play** (Number: Boolean): *See documentation*
 - **Public** (20): MY IDENTITY PATTERN
 
 **< Output Ports:**
@@ -444,19 +441,19 @@
 ![TimelineValue op](images/ops/Ops_TimeLine_TimelineValue.svg)
 
 **Full Name:** `Ops.TimeLine.TimelineValue`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineValue) for details*
+**Description:** Animate and get value at "time" of timeline
 
 **> Input Ports:**
-- **Time** (Number)
-- **Value** (Number)
-- **Unit Index** (Number: Integer)
+- **Time** (Number): *See documentation*
+- **Value** (Number): *See documentation*
+- **Unit Index** (Number: Integer): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
-- **Anim Array** (Array)
-- **Anim Finished** (booleanNumber)
+- **Result** (Number): *See documentation*
+- **Anim Array** (Array): *See documentation*
+- **Anim Finished** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineValue#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/xAg8P6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimelineValue"*
 **Docs:** [https://cables.gl/op/Ops.TimeLine.TimelineValue](https://cables.gl/op/Ops.TimeLine.TimelineValue)
 

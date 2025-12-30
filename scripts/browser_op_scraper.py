@@ -65,10 +65,10 @@ SLOW_MODE_DELAY = 3  # Extra wait in slow mode
 PAGE_TIMEOUT = 60000  # Page load timeout (ms)
 
 
-def log(msg: str, level: str = "INFO"):
+def log(msg: str, level: str = "INFO", flush: bool = False):
     """Log a message with timestamp"""
     timestamp = datetime.now().strftime("%H:%M:%S")
-    print(f"[{timestamp}] [{level}] {msg}")
+    print(f"[{timestamp}] [{level}] {msg}", flush=flush)
 
 
 def save_progress(data: Dict, filename: str = PROGRESS_FILE):
@@ -176,6 +176,7 @@ def scrape_op_with_browser(page, full_name: str, url: str, slow_mode: bool = Fal
         'short_name': full_name.split('.')[-1],
         'namespace': '.'.join(full_name.split('.')[:-1]),
         'url': url,
+        'editor_url': '',  # "Open in Editor" link
         'description': '',
         'input_ports': [],
         'output_ports': [],
@@ -202,13 +203,104 @@ def scrape_op_with_browser(page, full_name: str, url: str, slow_mode: bool = Fal
         # Get the rendered page content
         page_text = page.inner_text('body')
         
+        # ===== EXTRACT "OPEN IN EDITOR" LINK =====
+        # Look for links containing "/edit/" in their href
+        try:
+            # Find all links on the page
+            links = page.query_selector_all('a[href]')
+            for link in links:
+                href = link.get_attribute('href') or ''
+                # Check if it's an editor link (pattern: /edit/[alphanumeric])
+                if '/edit/' in href:
+                    # Make it absolute if relative
+                    if href.startswith('/'):
+                        editor_url = f"{BASE_URL}{href}"
+                    elif not href.startswith('http'):
+                        editor_url = f"{BASE_URL}/{href}"
+                    else:
+                        editor_url = href
+                    op_info['editor_url'] = editor_url
+                    break
+        except Exception as e:
+            # If we can't find the link, that's ok - we'll use the fallback
+            pass
+        
         # ===== EXTRACT DESCRIPTION =====
-        # Look for Summary section
-        summary_match = re.search(r'Summary \(oneliner\)\s*\n\s*([^\n]+)', page_text)
-        if summary_match:
-            desc = summary_match.group(1).strip()
-            if desc and len(desc) > 3 and not desc.lower().startswith('issues'):
-                op_info['description'] = desc
+        # cables.gl stores descriptions in textarea/input elements!
+        # Method 1: Extract from textarea/input elements (MOST RELIABLE)
+        try:
+            # Get all textareas and text inputs
+            inputs = page.query_selector_all('textarea, input[type="text"]')
+            
+            for inp in inputs:
+                try:
+                    # Get value from the element
+                    value = inp.get_attribute('value') or ''
+                    if not value:
+                        value = inp.inner_text() or ''
+                    value = value.strip()
+                    
+                    # Check if this looks like a description (not too short, not too long, no HTML tags)
+                    if value and len(value) > 15 and len(value) < 500:
+                        # Skip if it looks like code or metadata
+                        if not any(x in value.lower() for x in ['function', 'const ', 'var ', 'let ', '<script', '<div', 'http://', 'https://']):
+                            # Skip if it's clearly junk
+                            if not any(x in value for x in ['INPUT PORTS', 'OUTPUT PORTS', 'SaveCancel']):
+                                # Clean up HTML entities
+                                value = value.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&')
+                                # Normalize whitespace
+                                value = re.sub(r'\s+', ' ', value).strip()
+                                op_info['description'] = value
+                                break
+                except:
+                    continue
+        except Exception as e:
+            pass
+        
+        # Method 2: Look for parent of "Summary (oneliner)" element
+        if not op_info['description']:
+            try:
+                summary_el = page.query_selector('text=/Summary.*oneliner/i')
+                if summary_el:
+                    # Get the parent container and look for nearby input/textarea
+                    parent = summary_el.evaluate('el => el.parentElement')
+                    if parent:
+                        # Look for sibling input/textarea
+                        sibling_inputs = page.evaluate('''el => {
+                            const parent = el.parentElement;
+                            if (!parent) return [];
+                            const inputs = parent.querySelectorAll("textarea, input[type='text']");
+                            return Array.from(inputs).map(i => i.value || i.innerText || "").filter(v => v.length > 10);
+                        }''', summary_el)
+                        
+                        if sibling_inputs and len(sibling_inputs) > 0:
+                            desc = sibling_inputs[0].strip()
+                            if desc and len(desc) > 15 and len(desc) < 500:
+                                desc = desc.replace('&gt;', '>').replace('&lt;', '<').replace('&amp;', '&')
+                                desc = re.sub(r'\s+', ' ', desc).strip()
+                                op_info['description'] = desc
+            except:
+                pass
+        
+        # Method 3: Fallback - look in page text for Summary section
+        if not op_info['description']:
+            desc_patterns = [
+                r'Summary\s*\(oneliner\)\s*\n\s*([^\n\r]{15,300})',
+                r'Summary\s*\(oneliner\)\s*:?\s*([^\n\r]{15,300})',
+            ]
+            
+            for pattern in desc_patterns:
+                match = re.search(pattern, page_text, re.IGNORECASE | re.DOTALL)
+                if match:
+                    desc = match.group(1).strip()
+                    desc = desc.split('\n')[0].strip()
+                    desc = re.sub(r'\s+', ' ', desc)
+                    
+                    if (desc and len(desc) > 10 and 
+                        not desc.lower().startswith(('full name', 'visibility', 'license', 'input', 'output')) and
+                        not any(x in desc.upper() for x in ['INPUT PORTS', 'OUTPUT PORTS', 'SAVECANCEL'])):
+                        op_info['description'] = desc
+                        break
         
         # ===== EXTRACT INPUT PORTS =====
         input_section = re.search(
@@ -374,8 +466,11 @@ def generate_op_markdown(op: Dict) -> str:
     else:
         md += f"- *Visit [{full_name} documentation]({url}) for output port details*\n"
     
+    # Use editor_url if available, otherwise fallback to url#example
+    example_patch_url = op.get('editor_url', '') or f"{url}#example"
+    
     md += f"""
-**Example Patch:** [Open in Editor]({url}#example)
+**Example Patch:** [Open in Editor]({example_patch_url})
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "{short_name}"*
 **Docs:** [{url}]({url})
 
@@ -386,49 +481,88 @@ def generate_op_markdown(op: Dict) -> str:
 
 
 def parse_markdown_file(filepath: str) -> Dict:
-    """Parse the existing markdown file to extract op sections"""
-    if not os.path.exists(filepath):
-        return {'header': '', 'sections': {}}
+    """Parse the existing markdown file to extract op sections.
     
-    with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
+    Handles both unified file format and split file format.
+    """
+    chapters_dir = os.path.dirname(filepath) or '../chapters'
     
-    # Extract header (everything before first namespace section)
-    header_match = re.search(r'^(.*?)(?=^## )', content, re.MULTILINE | re.DOTALL)
-    header = header_match.group(1) if header_match else ''
+    # Check if we have split files (13-Ops*.md files)
+    split_files = []
+    if os.path.exists(chapters_dir):
+        for f in os.listdir(chapters_dir):
+            if f.startswith('13-Ops') and f.endswith('.md') and f != '13-AllOps.md' and f != '13-_AllOps.md':
+                split_files.append(os.path.join(chapters_dir, f))
     
     sections = {}
+    header = ''
     
-    # Find all namespace sections
-    namespace_pattern = r'^## (Ops\.[^\n]+)\n\n(.*?)(?=^## |\Z)'
-    for ns_match in re.finditer(namespace_pattern, content, re.MULTILINE | re.DOTALL):
-        namespace = ns_match.group(1)
-        ns_content = ns_match.group(2)
+    if split_files:
+        # Parse split files
+        for split_file in sorted(split_files):
+            with open(split_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            # Extract namespace from split file (look for ## Ops.XXX)
+            ns_match = re.search(r'^## (Ops\.[^\n]+)', content, re.MULTILINE)
+            if ns_match:
+                namespace = ns_match.group(1)
+                
+                # Extract op sections from this namespace file
+                op_pattern = r'^(### \w+\n.*?)(?=^### |^## |\Z)'
+                ops = {}
+                for op_match in re.finditer(op_pattern, content, re.MULTILINE | re.DOTALL):
+                    op_full_content = op_match.group(1)
+                    # Extract op name from header
+                    name_match = re.search(r'^### (\w+)', op_full_content, re.MULTILINE)
+                    if name_match:
+                        op_name = name_match.group(1)
+                        ops[op_name] = op_full_content
+                
+                if ops:
+                    sections[namespace] = ops
+    elif os.path.exists(filepath):
+        # Parse unified file
+        with open(filepath, 'r', encoding='utf-8') as f:
+            content = f.read()
         
-        # Find all op sections in this namespace (include the ### header in content)
-        op_pattern = r'^(### \w+\n.*?)(?=^### |^## |\Z)'
-        ops = {}
-        for op_match in re.finditer(op_pattern, ns_content, re.MULTILINE | re.DOTALL):
-            op_full_content = op_match.group(1)
-            # Extract op name from header
-            name_match = re.search(r'^### (\w+)', op_full_content, re.MULTILINE)
-            if name_match:
-                op_name = name_match.group(1)
-                ops[op_name] = op_full_content
+        # Extract header (everything before first namespace section)
+        header_match = re.search(r'^(.*?)(?=^## )', content, re.MULTILINE | re.DOTALL)
+        header = header_match.group(1) if header_match else ''
         
-        sections[namespace] = ops
+        # Find all namespace sections
+        namespace_pattern = r'^## (Ops\.[^\n]+)\n\n(.*?)(?=^## |\Z)'
+        for ns_match in re.finditer(namespace_pattern, content, re.MULTILINE | re.DOTALL):
+            namespace = ns_match.group(1)
+            ns_content = ns_match.group(2)
+            
+            # Find all op sections in this namespace (include the ### header in content)
+            op_pattern = r'^(### \w+\n.*?)(?=^### |^## |\Z)'
+            ops = {}
+            for op_match in re.finditer(op_pattern, ns_content, re.MULTILINE | re.DOTALL):
+                op_full_content = op_match.group(1)
+                # Extract op name from header
+                name_match = re.search(r'^### (\w+)', op_full_content, re.MULTILINE)
+                if name_match:
+                    op_name = name_match.group(1)
+                    ops[op_name] = op_full_content
+            
+            sections[namespace] = ops
     
     return {'header': header, 'sections': sections}
 
 
 def should_update_op(existing_content: str, new_op_data: Dict) -> bool:
-    """Determine if we should update an op section based on data quality"""
+    """Determine if we should update an op section based on data quality.
+    
+    IMPORTANT: Never overwrite good existing data with worse data!
+    """
     # If no existing content, definitely update
     if not existing_content:
         return True
     
     # Check if existing has placeholder ports
-    has_placeholder = bool(re.search(r'Visit \[.+?\] for (?:input|output) port details', existing_content))
+    has_placeholder_ports = bool(re.search(r'Visit \[.+?\] for (?:input|output) port details', existing_content))
     
     # Check if existing has actual port entries (not just placeholders)
     existing_has_ports = bool(re.search(r'^- \*\*[^\*]+\*\* \([^)]+\):', existing_content))
@@ -436,34 +570,79 @@ def should_update_op(existing_content: str, new_op_data: Dict) -> bool:
     # Check if new data has actual ports
     has_new_ports = bool(new_op_data.get('input_ports') or new_op_data.get('output_ports'))
     
-    # Check if existing has bad description (contains junk)
-    has_bad_desc = bool(re.search(r'Full Name[^:]*:|Visibility|License|Author|github|Maintained by|Patchlists', existing_content, re.IGNORECASE))
+    # Check existing description quality
+    existing_desc_match = re.search(r'\*\*Description:\*\* (.+)', existing_content, re.DOTALL)
+    existing_desc = ''
+    existing_desc_placeholder = False
+    existing_desc_is_good = False
+    
+    if existing_desc_match:
+        existing_desc = existing_desc_match.group(1).strip()
+        # Check if it's a placeholder
+        existing_desc_placeholder = bool(re.search(r'^\*Visit \[.+?\] for details\*$', existing_desc))
+        # Check if it's a real description (not placeholder, not junk, has reasonable length)
+        if not existing_desc_placeholder:
+            existing_desc_clean = re.sub(r'^\*|\*$', '', existing_desc).strip()
+            # Good description: not placeholder, has length, doesn't start with common junk
+            if (len(existing_desc_clean) > 15 and 
+                not existing_desc_clean.lower().startswith(('full name', 'visibility', 'license', 'visit')) and
+                not re.search(r'Full Name|Visibility|License|Author|github', existing_desc_clean, re.IGNORECASE)):
+                existing_desc_is_good = True
     
     # Check if new data has a good description
     new_desc = new_op_data.get('description', '').strip()
-    has_good_desc = bool(new_desc and len(new_desc) > 10 and not new_desc.lower().startswith('full name'))
+    has_good_new_desc = bool(new_desc and len(new_desc) > 10 and 
+                             not new_desc.lower().startswith(('full name', 'visibility', 'license', 'visit')) and
+                             not re.search(r'Full Name|Visibility|License|INPUT PORTS|OUTPUT PORTS', new_desc, re.IGNORECASE))
     
-    # Update if:
-    # 1. Has placeholder and we have ports (always update placeholders)
-    # 2. Has bad description and we have good one (fix bad descriptions)
-    # 3. No existing ports but we have new ports (complete missing data)
-    # 4. Existing description is just placeholder and we have a real one
-    existing_desc_placeholder = bool(re.search(r'\*\*Description:\*\* \*Visit \[.+?\] for details', existing_content))
+    # Check if existing has bad description (contains junk metadata)
+    has_bad_desc = bool(re.search(r'Full Name[^:]*:|Visibility|License|Author|github|Maintained by|Patchlists', existing_content, re.IGNORECASE))
     
-    return (has_placeholder and has_new_ports) or \
-           (has_bad_desc and has_good_desc) or \
-           (not existing_has_ports and has_new_ports) or \
-           (existing_desc_placeholder and has_good_desc)
+    # Check if existing has editor URL
+    existing_has_editor = bool(re.search(r'\*\*Example Patch:\*\*\s*\[Open in Editor\]\([^)]*\/edit\/[^)]+\)', existing_content))
+    new_has_editor = bool(new_op_data.get('editor_url'))
+    
+    # Update logic (conservative - preserve good data):
+    # 1. Update if has placeholder ports AND we have new ports
+    # 2. Update if has bad description (junk) AND we have good new description
+    # 3. Update if no existing ports AND we have new ports
+    # 4. Update if existing description is placeholder AND we have real description
+    # 5. Update if no editor URL but we have one
+    # 6. NEVER update if existing has good description UNLESS new one is clearly better
+    
+    should_update = False
+    
+    if has_placeholder_ports and has_new_ports:
+        should_update = True  # Always fix placeholder ports
+    elif has_bad_desc and has_good_new_desc:
+        should_update = True  # Fix bad descriptions
+    elif not existing_has_ports and has_new_ports:
+        should_update = True  # Add missing ports
+    elif existing_desc_placeholder and has_good_new_desc:
+        should_update = True  # Replace placeholder with real description
+    elif not existing_has_editor and new_has_editor:
+        should_update = True  # Add editor URL if missing
+    # CRITICAL: If existing has good description, only update if new is clearly better
+    elif existing_desc_is_good:
+        # Don't overwrite good description unless new one is significantly better
+        # (e.g., new is much longer/more detailed)
+        if has_good_new_desc and len(new_desc) > len(existing_desc) * 1.5:
+            should_update = True
+        # But still update ports/editor links even if description is good
+        elif (has_new_ports and has_placeholder_ports) or (not existing_has_editor and new_has_editor):
+            should_update = True
+    
+    return should_update
 
 
 def update_markdown_file(filepath: str, op_data: Dict, markdown_cache: Dict):
-    """Update the markdown file with a new/updated op section"""
+    """Update the markdown file with a new/updated op section.
+    
+    Preserves existing good descriptions and merges new data intelligently.
+    """
     full_name = op_data['full_name']
     short_name = op_data['short_name']
     namespace = op_data['namespace']
-    
-    # Generate new op markdown (includes the ### header)
-    new_op_md = generate_op_markdown(op_data)
     
     # Check if op already exists
     existing_content = ''
@@ -471,9 +650,40 @@ def update_markdown_file(filepath: str, op_data: Dict, markdown_cache: Dict):
         if short_name in markdown_cache['sections'][namespace]:
             existing_content = markdown_cache['sections'][namespace][short_name]
             
+            # Extract existing description if it's good
+            existing_desc_match = re.search(r'\*\*Description:\*\* (.+?)(?:\n\n|\n\*\*>)', existing_content, re.DOTALL)
+            if existing_desc_match:
+                existing_desc = existing_desc_match.group(1).strip()
+                # Check if existing description is good (not a placeholder)
+                if not re.search(r'^\*Visit \[.+?\] for details\*$', existing_desc):
+                    existing_desc_clean = re.sub(r'^\*|\*$', '', existing_desc).strip()
+                    # If it's a real description, preserve it unless new one is clearly better
+                    if (len(existing_desc_clean) > 15 and 
+                        not existing_desc_clean.lower().startswith(('full name', 'visibility', 'license', 'visit'))):
+                        # Only use new description if it's significantly better
+                        new_desc = op_data.get('description', '').strip()
+                        if not (new_desc and len(new_desc) > len(existing_desc_clean) * 1.3):
+                            # Keep existing description
+                            op_data['description'] = existing_desc_clean
+            
+            # Extract existing editor URL if present
+            existing_editor_match = re.search(r'\*\*Example Patch:\*\*\s*\[Open in Editor\]\(([^)]+)\)', existing_content)
+            if existing_editor_match:
+                existing_editor_url = existing_editor_match.group(1)
+                # If existing has a real editor link and new one doesn't, keep existing
+                if '/edit/' in existing_editor_url and not op_data.get('editor_url'):
+                    op_data['editor_url'] = existing_editor_url
+                # If both exist but existing is a real editor link, prefer it unless new is different
+                elif '/edit/' in existing_editor_url and op_data.get('editor_url'):
+                    # Keep existing if it's valid, new one will override if it's also valid
+                    pass
+            
             # Decide if we should update
             if not should_update_op(existing_content, op_data):
                 return False  # Skip update, existing is better
+    
+    # Generate new op markdown (includes the ### header)
+    new_op_md = generate_op_markdown(op_data)
     
     # Update cache (op markdown includes ### header)
     if namespace not in markdown_cache['sections']:
@@ -484,23 +694,67 @@ def update_markdown_file(filepath: str, op_data: Dict, markdown_cache: Dict):
 
 
 def save_markdown_file(filepath: str, markdown_cache: Dict):
-    """Save the markdown file from cache"""
-    # Reconstruct markdown
-    md = markdown_cache['header']
+    """Save the markdown file from cache. Handles both unified and split file formats."""
+    chapters_dir = os.path.dirname(filepath) or '../chapters'
     
-    # Add namespace sections in sorted order
-    for namespace in sorted(markdown_cache['sections'].keys()):
-        md += f"## {namespace}\n\n"
+    # Check if we should use split files (if 13-Ops*.md files exist)
+    split_files_exist = False
+    if os.path.exists(chapters_dir):
+        for f in os.listdir(chapters_dir):
+            if f.startswith('13-Ops') and f.endswith('.md') and f != '13-AllOps.md' and f != '13-_AllOps.md':
+                split_files_exist = True
+                break
+    
+    if split_files_exist:
+        # Save to split files
+        for namespace in sorted(markdown_cache['sections'].keys()):
+            # Find existing split file for this namespace
+            namespace_file = None
+            for f in os.listdir(chapters_dir):
+                if f.startswith('13-Ops') and f.endswith('.md'):
+                    file_path = os.path.join(chapters_dir, f)
+                    with open(file_path, 'r', encoding='utf-8') as fobj:
+                        content = fobj.read()
+                        if f'## {namespace}\n' in content:
+                            namespace_file = file_path
+                            break
+            
+            # Create content for this namespace
+            ns_content = f"# {namespace}\n\n"
+            ns_content += f"*Part of the [All Operators Reference](13-_AllOps.md)*\n\n"
+            ns_content += "---\n\n"
+            ns_content += f"## {namespace}\n\n"
+            
+            # Add ops in sorted order
+            ops = markdown_cache['sections'][namespace]
+            for op_name in sorted(ops.keys(), key=str.lower):
+                ns_content += ops[op_name]
+            
+            # Write to file (create new if doesn't exist)
+            if not namespace_file:
+                # Create filename from namespace
+                name_part = namespace.replace('Ops.', '').replace('.', '')
+                namespace_file = os.path.join(chapters_dir, f"13-Ops{name_part}.md")
+            
+            with open(namespace_file, 'w', encoding='utf-8') as f:
+                f.write(ns_content)
+    else:
+        # Save to unified file
+        md = markdown_cache['header']
         
-        # Add ops in sorted order (op markdown already includes ### header)
-        ops = markdown_cache['sections'][namespace]
-        for op_name in sorted(ops.keys(), key=str.lower):
-            md += ops[op_name]
-    
-    # Write to file
-    os.makedirs(os.path.dirname(filepath) or '.', exist_ok=True)
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(md)
+        # Add namespace sections in sorted order
+        for namespace in sorted(markdown_cache['sections'].keys()):
+            md += f"## {namespace}\n\n"
+            
+            # Add ops in sorted order (op markdown already includes ### header)
+            ops = markdown_cache['sections'][namespace]
+            for op_name in sorted(ops.keys(), key=str.lower):
+                md += ops[op_name]
+        
+        # Write to file
+        os.makedirs(os.path.dirname(filepath) or '.', exist_ok=True)
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(md)
 
 
 def generate_allops_markdown(ops_by_namespace: Dict) -> str:
@@ -563,12 +817,15 @@ def main():
     log("Browser-based cables.gl Op Scraper")
     log("=" * 60)
     
-    # Get all ops list
+    # Get all ops list (with progress indication)
+    log("Fetching ops list from cables.gl (this may take 30-60 seconds)...")
     all_ops_list = get_all_ops_list()
     
     if not all_ops_list:
         log("No ops found!", "ERROR")
         return
+    
+    log(f"✓ Found {len(all_ops_list)} ops to process")
     
     # Filter by namespace if specified
     if args.namespace:
@@ -593,10 +850,12 @@ def main():
             log(f"Resuming from index {start_index}")
     
     # Load existing markdown file for incremental updates
-    log("\nLoading existing markdown file...")
+    log("\nLoading existing markdown files...")
+    log("  Scanning for split namespace files (13-Ops*.md)...")
     markdown_cache = parse_markdown_file(MARKDOWN_FILE)
     existing_ops_count = sum(len(ops) for ops in markdown_cache['sections'].values())
-    log(f"Found {existing_ops_count} existing ops in markdown")
+    namespace_count = len(markdown_cache['sections'])
+    log(f"  ✓ Found {existing_ops_count} existing ops in {namespace_count} namespaces")
     
     # Track stats
     stats = {
@@ -619,7 +878,7 @@ def main():
         
         total = len(all_ops_list)
         log(f"\nScraping {total} ops...")
-        log("Progress updates every 10 ops, markdown saved every 10 ops")
+        log("Progress saved every 2 ops for faster updates")
         log("=" * 60)
         
         start_time = time.time()
@@ -638,12 +897,17 @@ def main():
             else:
                 eta_str = ""
             
-            # Detailed progress every 10 ops
-            if i % 10 == 0 or i == start_index + 1:
-                log(f"[{i}/{total}] ({pct:.1f}%) Processing {short_name}{eta_str}")
+            # Progress indicator - show EVERY op for visibility
+            if i % 1 == 0:  # Show every op
+                log(f"[{i}/{total}] ({pct:.1f}%) {short_name} ({namespace}){eta_str}", flush=True)
             
             # Scrape op page
             op_data = scrape_op_with_browser(page, full_name, op['url'], args.slow)
+            
+            # Log what we got - show for every op
+            desc_str = f" ✓ desc: {op_data.get('description', '')[:60]}..." if op_data.get('description') else " ✗ no desc"
+            editor_str = f" ✓ editor: {op_data.get('editor_url', '')}" if op_data.get('editor_url') else " ✗ no editor"
+            log(f"  ->{desc_str}{editor_str}", flush=True)
             
             # Download image
             if not args.skip_images:
@@ -676,16 +940,19 @@ def main():
             if op_data.get('description') and len(op_data.get('description', '').strip()) > 10:
                 stats['with_desc'] += 1
             
-            # Save markdown periodically (every 10 ops for better monitoring)
-            if i % 10 == 0:
+            # Save markdown periodically (every 2 ops for faster updates)
+            if i % 2 == 0:
                 try:
                     save_markdown_file(MARKDOWN_FILE, markdown_cache)
-                    log(f"  -> Markdown saved ({stats['updated']} updated, {stats['added']} added, {stats['skipped']} skipped)")
+                    desc_count = sum(1 for ns in markdown_cache['sections'].values() 
+                                   for op_content in ns.values() 
+                                   if not re.search(r'\*\*Description:\*\* \*Visit \[.+?\] for details\*', op_content))
+                    log(f"  -> Markdown saved ({stats['updated']} updated, {stats['added']} added, {stats['skipped']} skipped, {desc_count} with descriptions)")
                 except Exception as e:
                     log(f"  -> Error saving markdown: {e}", "WARN")
             
-            # Save progress periodically (every 10 ops)
-            if i % 10 == 0:
+            # Save progress periodically (every 2 ops for faster updates)
+            if i % 2 == 0:
                 try:
                     save_progress({
                         'ops': all_ops_data,

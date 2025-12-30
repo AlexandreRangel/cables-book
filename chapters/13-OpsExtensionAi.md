@@ -13,14 +13,14 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*
 
 **> Input Ports:**
-- **String1** (String)
-- **Headers** (Object)
-- **Reload** (Trigger)
+- **String1** (String): *See documentation*
+- **Headers** (Object): *See documentation*
+- **Reload** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Z2gtag4y7** (Array)
-- **Jcju8npa2** (booleanNumber)
-- **Ozg9pnd1z** (String)
+- **Z2gtag4y7** (Array): *See documentation*
+- **Jcju8npa2** (booleanNumber): *See documentation*
+- **Ozg9pnd1z** (String): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LLmModelList"*
@@ -35,18 +35,18 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*
 
 **> Input Ports:**
-- **Prompt** (String)
-- **Value** (String)
-- **API URL** (String)
-- **Authentication** (String)
-- **Run** (Trigger)
-- **Auto Request** (Number: Boolean)
+- **Prompt** (String): *See documentation*
+- **Value** (String): *See documentation*
+- **API URL** (String): *See documentation*
+- **Authentication** (String): *See documentation*
+- **Run** (Trigger): *See documentation*
+- **Auto Request** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **I4feefw9n** (Object)
-- **Klu6r35ga** (booleanNumber)
-- **Xs18z73z0** (booleanNumber)
-- **Aosval1gx** (String)
+- **I4feefw9n** (Object): *See documentation*
+- **Klu6r35ga** (booleanNumber): *See documentation*
+- **Xs18z73z0** (booleanNumber): *See documentation*
+- **Aosval1gx** (String): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LlmPrompt"*

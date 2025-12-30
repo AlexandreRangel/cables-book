@@ -10,20 +10,20 @@
 ![ArrayToExr op](images/ops/Ops_Graphics_ArrayToExr.svg)
 
 **Full Name:** `Ops.Graphics.ArrayToExr`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for details*
+**Description:** convert and download an array of numbers as an .exr image file
 
 **> Input Ports:**
-- **Array** (Array)
-- **Width** (Number: Integer)
-- **Height** (Number: Integer)
-- **ZIP Compression** (Number: Boolean)
-- **Filename** (String)
-- **Download** (Trigger)
+- **Array** (Array): *See documentation*
+- **Width** (Number: Integer): *See documentation*
+- **Height** (Number: Integer): *See documentation*
+- **ZIP Compression** (Number: Boolean): *See documentation*
+- **Filename** (String): *See documentation*
+- **Download** (Trigger): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.ArrayToExr#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/PoAXNA)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToExr"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
 
@@ -33,18 +33,18 @@
 ![DepthTest op](images/ops/Ops_Graphics_DepthTest.svg)
 
 **Full Name:** `Ops.Graphics.DepthTest`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.DepthTest) for details*
+**Description:** change depth testing method (depthMask,depthWrite,depthFunc)
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Enable Depth Testing** (Number: Boolean)
-- **Depth Test Method Index** (Number: Integer)
-- **Write To Depth Buffer** (Number: Boolean)
+- **Render** (Trigger): *See documentation*
+- **Enable Depth Testing** (Number: Boolean): *See documentation*
+- **Depth Test Method Index** (Number: Integer): *See documentation*
+- **Write To Depth Buffer** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.DepthTest#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/A9PD8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DepthTest"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.DepthTest](https://cables.gl/op/Ops.Graphics.DepthTest)
 
@@ -54,16 +54,16 @@
 ![GeometryMergeSimple op](images/ops/Ops_Graphics_GeometryMergeSimple.svg)
 
 **Full Name:** `Ops.Graphics.GeometryMergeSimple`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple) for details*
+**Description:** merge two geometries into one
 
 **> Input Ports:**
-- **Geometry** (Object)
-- **Geometry 2** (Object)
+- **Geometry** (Object): *See documentation*
+- **Geometry 2** (Object): *See documentation*
 
 **< Output Ports:**
-- **Geometry Result** (Object)
+- **Geometry Result** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/4gsNve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryMergeSimple"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.GeometryMergeSimple](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple)
 
@@ -73,16 +73,16 @@
 ![GetMaterialId op](images/ops/Ops_Graphics_GetMaterialId.svg)
 
 **Full Name:** `Ops.Graphics.GetMaterialId`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.GetMaterialId) for details*
+**Description:** get the id/index of the current set material
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Material Id** (Number)
+- **Next** (Trigger): *See documentation*
+- **Material Id** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GetMaterialId#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/PYpQit)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetMaterialId"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.GetMaterialId](https://cables.gl/op/Ops.Graphics.GetMaterialId)
 
@@ -92,14 +92,14 @@
 ![GetObjectId op](images/ops/Ops_Graphics_GetObjectId.svg)
 
 **Full Name:** `Ops.Graphics.GetObjectId`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.GetObjectId) for details*
+**Description:** get the id/index of the current object/mesh
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Material Id** (Number)
+- **Next** (Trigger): *See documentation*
+- **Material Id** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetObjectId"*
@@ -111,35 +111,35 @@
 ![OrbitControls_v3 op](images/ops/Ops_Graphics_OrbitControls_v3.svg)
 
 **Full Name:** `Ops.Graphics.OrbitControls_v3`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.OrbitControls_v3) for details*
+**Description:** rotate your object by clicking and dragging the mouse
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Min Distance** (Number)
-- **Max Distance** (Number)
-- **Min Rot Y** (Number)
-- **Max Rot Y** (Number)
-- **Initial Radius** (Number)
-- **Initial Axis Y** (Number)
-- **Initial Axis X** (Number)
-- **Smoothness** (Number)
-- **Speed X** (Number)
-- **Speed Y** (Number)
-- **Active** (Number: Boolean)
-- **Allow Panning** (Number: Boolean)
-- **Allow Zooming** (Number: Boolean)
-- **Allow Rotation** (Number: Boolean)
-- **Restricted** (Number: Boolean)
-- **Identity** (Number: Boolean)
-- **Reset** (Trigger)
+- **Render** (Trigger): *See documentation*
+- **Min Distance** (Number): *See documentation*
+- **Max Distance** (Number): *See documentation*
+- **Min Rot Y** (Number): *See documentation*
+- **Max Rot Y** (Number): *See documentation*
+- **Initial Radius** (Number): *See documentation*
+- **Initial Axis Y** (Number): *See documentation*
+- **Initial Axis X** (Number): *See documentation*
+- **Smoothness** (Number): *See documentation*
+- **Speed X** (Number): *See documentation*
+- **Speed Y** (Number): *See documentation*
+- **Active** (Number: Boolean): *See documentation*
+- **Allow Panning** (Number: Boolean): *See documentation*
+- **Allow Zooming** (Number: Boolean): *See documentation*
+- **Allow Rotation** (Number: Boolean): *See documentation*
+- **Restricted** (Number: Boolean): *See documentation*
+- **Identity** (Number: Boolean): *See documentation*
+- **Reset** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
-- **Radius** (Number)
-- **Rot X** (Number)
-- **Rot Y** (Number)
+- **Trigger** (Trigger): *See documentation*
+- **Radius** (Number): *See documentation*
+- **Rot X** (Number): *See documentation*
+- **Rot Y** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.OrbitControls_v3#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Krorsh)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrbitControls_v3"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.OrbitControls_v3](https://cables.gl/op/Ops.Graphics.OrbitControls_v3)
 
@@ -149,22 +149,22 @@
 ![Transform op](images/ops/Ops_Graphics_Transform.svg)
 
 **Full Name:** `Ops.Graphics.Transform`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.Transform) for details*
+**Description:** Transform objects in 3d space (rotate, translate, scale)
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **PosX** (Number)
-- **PosY** (Number)
-- **PosZ** (Number)
-- **Scale** (Number)
-- **RotX** (Number)
-- **RotY** (Number)
-- **RotZ** (Number)
+- **Render** (Trigger): *See documentation*
+- **PosX** (Number): *See documentation*
+- **PosY** (Number): *See documentation*
+- **PosZ** (Number): *See documentation*
+- **Scale** (Number): *See documentation*
+- **RotX** (Number): *See documentation*
+- **RotY** (Number): *See documentation*
+- **RotZ** (Number): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
+- **Trigger** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Transform#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/o741ft)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Transform"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.Transform](https://cables.gl/op/Ops.Graphics.Transform)
 
@@ -174,22 +174,22 @@
 ![TransformView op](images/ops/Ops_Graphics_TransformView.svg)
 
 **Full Name:** `Ops.Graphics.TransformView`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Graphics.TransformView) for details*
+**Description:** the most simple camera op / transform the viewmatrix
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **PosX** (Number)
-- **PosY** (Number)
-- **PosZ** (Number)
-- **Scale** (Number)
-- **RotX** (Number)
-- **RotY** (Number)
-- **RotZ** (Number)
+- **Render** (Trigger): *See documentation*
+- **PosX** (Number): *See documentation*
+- **PosY** (Number): *See documentation*
+- **PosZ** (Number): *See documentation*
+- **Scale** (Number): *See documentation*
+- **RotX** (Number): *See documentation*
+- **RotY** (Number): *See documentation*
+- **RotZ** (Number): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
+- **Trigger** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.TransformView#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/0GAv8i)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformView"*
 **Docs:** [https://cables.gl/op/Ops.Graphics.TransformView](https://cables.gl/op/Ops.Graphics.TransformView)
 

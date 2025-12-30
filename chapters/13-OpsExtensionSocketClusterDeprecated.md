@@ -10,16 +10,16 @@
 ![SocketClusterReceiveArray op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveArray.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray) for details*
+**Description:** receive an array from the socketcluster topic
 
 **> Input Ports:**
-- **Socket** (Object)
-- **Topic** (String)
+- **Socket** (Object): *See documentation*
+- **Topic** (String): *See documentation*
 
 **< Output Ports:**
-- **Client Id** (String)
-- **Data** (Array)
-- **Received** (Trigger)
+- **Client Id** (String): *See documentation*
+- **Data** (Array): *See documentation*
+- **Received** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveArray"*
@@ -31,22 +31,19 @@
 ![SocketClusterReceiveBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveBoolean.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean`
-
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean) for details*
+**Description:** Receive boolean value from the socketcluster socket/topic
 
 **> Input Ports:**
-- **Socket** (Object)
-- **Topic** (String)
+- **Socket** (Object): *See documentation*
+- **Topic** (String): *See documentation*
 
 **< Output Ports:**
-- **Client Id** (String)
-- **Data** (booleanNumber)
-- **Received** (Trigger)
+- **Client Id** (String): *See documentation*
+- **Data** (booleanNumber): *See documentation*
+- **Received** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
-
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveBoolean"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean)
 
 ---
@@ -55,16 +52,16 @@
 ![SocketClusterReceiveNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveNumber.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber) for details*
+**Description:** receive number from the socketcluster socket/topic
 
 **> Input Ports:**
-- **Socket** (Object)
-- **Topic** (String)
+- **Socket** (Object): *See documentation*
+- **Topic** (String): *See documentation*
 
 **< Output Ports:**
-- **Client Id** (String)
-- **Data** (Number)
-- **Received** (Trigger)
+- **Client Id** (String): *See documentation*
+- **Data** (Number): *See documentation*
+- **Received** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveNumber"*
@@ -76,16 +73,16 @@
 ![SocketClusterReceiveString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveString.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString) for details*
+**Description:** receives string from the socketcluster socket/topic
 
 **> Input Ports:**
-- **Socket** (Object:Socketcluster)
-- **Topic** (String)
+- **Socket** (Object:Socketcluster): *See documentation*
+- **Topic** (String): *See documentation*
 
 **< Output Ports:**
-- **Data** (String)
-- **Client Id** (String)
-- **Received** (Trigger)
+- **Data** (String): *See documentation*
+- **Client Id** (String): *See documentation*
+- **Received** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveString"*
@@ -97,13 +94,13 @@
 ![SocketClusterSendArray op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendArray.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for details*
+**Description:** sends an array via socketcluster/websocket
 
 **> Input Ports:**
-- **Send** (Trigger)
-- **Socket** (Object:Socketcluster)
-- **Topic** (String)
-- **Data** (Array)
+- **Send** (Trigger): *See documentation*
+- **Socket** (Object:Socketcluster): *See documentation*
+- **Topic** (String): *See documentation*
+- **Data** (Array): *See documentation*
 - **Public** (2): MOUSE MOVEMENT SEND
 
 **< Output Ports:**
@@ -119,13 +116,13 @@
 ![SocketClusterSendBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendBoolean.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for details*
+**Description:** Sends boolean value via socketcluster/websocket
 
 **> Input Ports:**
-- **Send** (Trigger)
-- **Socket** (Object)
-- **Topic** (String)
-- **Data** (Number: Boolean)
+- **Send** (Trigger): *See documentation*
+- **Socket** (Object): *See documentation*
+- **Topic** (String): *See documentation*
+- **Data** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
@@ -140,13 +137,13 @@
 ![SocketClusterSendNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendNumber.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for details*
+**Description:** sends a number via socketcluster/websocket
 
 **> Input Ports:**
-- **Send** (Trigger)
-- **Socket** (Object)
-- **Topic** (String)
-- **Data** (Number)
+- **Send** (Trigger): *See documentation*
+- **Socket** (Object): *See documentation*
+- **Topic** (String): *See documentation*
+- **Data** (Number): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
@@ -161,13 +158,13 @@
 ![SocketClusterSendString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendString.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for details*
+**Description:** sends a string via socketcluster/websocket
 
 **> Input Ports:**
-- **Send** (Trigger)
-- **Socket** (Object:Socketcluster)
-- **Topic** (String)
-- **Data** (String)
+- **Send** (Trigger): *See documentation*
+- **Socket** (Object:Socketcluster): *See documentation*
+- **Topic** (String): *See documentation*
+- **Data** (String): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*

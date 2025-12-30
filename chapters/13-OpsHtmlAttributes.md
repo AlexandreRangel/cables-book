@@ -10,18 +10,18 @@
 ![ElementAccessibility op](images/ops/Ops_Html_Attributes_ElementAccessibility.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementAccessibility`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility) for details*
+**Description:** Element Accessibility properties for screen reader
 
 **> Input Ports:**
-- **Element** (Object)
-- **Aria Label** (String)
-- **Aria Labeled By** (String)
-- **Aria Hidden** (Number: Boolean)
+- **Element** (Object): *See documentation*
+- **Aria Label** (String): *See documentation*
+- **Aria Labeled By** (String): *See documentation*
+- **Aria Hidden** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **HTML Element** (Object)
+- **HTML Element** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/R5XS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAccessibility"*
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility)
 
@@ -31,15 +31,15 @@
 ![ElementAttributes op](images/ops/Ops_Html_Attributes_ElementAttributes.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementAttributes`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes) for details*
+**Description:** Get all attributes from an element an object
 
 **> Input Ports:**
-- **Element** (Object)
+- **Element** (Object): *See documentation*
 
 **< Output Ports:**
-- **Attribs** (Object)
+- **Attribs** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/Gflosw)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAttributes"*
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAttributes](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes)
 
@@ -49,17 +49,17 @@
 ![ElementGetAttribute op](images/ops/Ops_Html_Attributes_ElementGetAttribute.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementGetAttribute`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute) for details*
+**Description:** Read or Get the value of an HTML element Attribute
 
 **> Input Ports:**
-- **Element** (Object)
-- **Attribute Name** (String)
+- **Element** (Object): *See documentation*
+- **Attribute Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Value** (String)
-- **Has Attribute** (booleanNumber)
+- **Value** (String): *See documentation*
+- **Has Attribute** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementGetAttribute"*
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute)
 
@@ -69,18 +69,18 @@
 ![ElementSetAttribute op](images/ops/Ops_Html_Attributes_ElementSetAttribute.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementSetAttribute`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute) for details*
+**Description:** Write or Set the value of an HTML element Attribute
 
 **> Input Ports:**
-- **Element** (Object)
-- **Attribute** (String)
-- **Value** (String)
-- **Active** (Number: Boolean)
+- **Element** (Object): *See documentation*
+- **Attribute** (String): *See documentation*
+- **Value** (String): *See documentation*
+- **Active** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **HTML Element** (Object)
+- **HTML Element** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementSetAttribute"*
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute)
 

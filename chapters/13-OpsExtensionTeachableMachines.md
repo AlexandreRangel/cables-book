@@ -10,19 +10,19 @@
 ![AudioClassifier op](images/ops/Ops_Extension_TeachableMachines_AudioClassifier.svg)
 
 **Full Name:** `Ops.Extension.TeachableMachines.AudioClassifier`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier) for details*
+**Description:** Use the Teachable Machines audio classifier for your microphone. Insert the uploaded model URL.
 
 **> Input Ports:**
-- **Trigger In** (Trigger)
-- **Initialize** (Trigger)
-- **Model URL** (String)
+- **Trigger In** (Trigger): *See documentation*
+- **Initialize** (Trigger): *See documentation*
+- **Model URL** (String): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
-- **Initialized** (Trigger)
-- **Classifier** (Array)
+- **Trigger** (Trigger): *See documentation*
+- **Initialized** (Trigger): *See documentation*
+- **Classifier** (Array): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/-kzrrn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioClassifier"*
 **Docs:** [https://cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier](https://cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier)
 
@@ -32,20 +32,20 @@
 ![ImageClassifier_v2 op](images/ops/Ops_Extension_TeachableMachines_ImageClassifier_v2.svg)
 
 **Full Name:** `Ops.Extension.TeachableMachines.ImageClassifier_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2) for details*
+**Description:** Use the Teachable Machines image classifier. Insert the uploaded model URL.
 
 **> Input Ports:**
-- **Trigger In** (Trigger)
-- **Initialize** (Trigger)
-- **Model URL** (String)
-- **Webcam Element** (Object)
+- **Trigger In** (Trigger): *See documentation*
+- **Initialize** (Trigger): *See documentation*
+- **Model URL** (String): *See documentation*
+- **Webcam Element** (Object): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
-- **Initialized** (Trigger)
-- **Classifier** (Array)
+- **Trigger** (Trigger): *See documentation*
+- **Initialized** (Trigger): *See documentation*
+- **Classifier** (Array): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/raewrn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ImageClassifier_v2"*
 **Docs:** [https://cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2](https://cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2)
 
@@ -55,23 +55,23 @@
 ![PoseDetection_v2 op](images/ops/Ops_Extension_TeachableMachines_PoseDetection_v2.svg)
 
 **Full Name:** `Ops.Extension.TeachableMachines.PoseDetection_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2) for details*
+**Description:** Use the Teachable Machines pose detection with your webcam. Insert the uploaded model URL.
 
 **> Input Ports:**
-- **Render** (Trigger)
-- **Initialize** (Trigger)
-- **Model URL** (String)
-- **Webcam Element** (Object)
-- **Flip Image** (Number: Boolean)
+- **Render** (Trigger): *See documentation*
+- **Initialize** (Trigger): *See documentation*
+- **Model URL** (String): *See documentation*
+- **Webcam Element** (Object): *See documentation*
+- **Flip Image** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Trigger** (Trigger)
-- **Initialized** (Trigger)
-- **Classifier** (Array)
-- **Pose Positions** (Array)
-- **Image Flipped** (Number)
+- **Trigger** (Trigger): *See documentation*
+- **Initialized** (Trigger): *See documentation*
+- **Classifier** (Array): *See documentation*
+- **Pose Positions** (Array): *See documentation*
+- **Image Flipped** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/xOStrn)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PoseDetection_v2"*
 **Docs:** [https://cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2](https://cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2)
 

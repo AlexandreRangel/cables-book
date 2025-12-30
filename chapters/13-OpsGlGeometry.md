@@ -10,22 +10,22 @@
 ![BoundingBoxVisible op](images/ops/Ops_Gl_Geometry_BoundingBoxVisible.svg)
 
 **Full Name:** `Ops.Gl.Geometry.BoundingBoxVisible`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible) for details*
+**Description:** Test if a boundingbox could be visible in the current viewport
 
 **> Input Ports:**
-- **Exec** (Trigger)
-- **Boundings** (Object)
-- **Active** (Number: Boolean)
-- **Draw** (Number: Boolean)
-- **Width** (Number)
-- **Height** (Number)
-- **Length** (Number)
+- **Exec** (Trigger): *See documentation*
+- **Boundings** (Object): *See documentation*
+- **Active** (Number: Boolean): *See documentation*
+- **Draw** (Number: Boolean): *See documentation*
+- **Width** (Number): *See documentation*
+- **Height** (Number): *See documentation*
+- **Length** (Number): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Visible** (booleanNumber)
+- **Next** (Trigger): *See documentation*
+- **Visible** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoundingBoxVisible"*
 **Docs:** [https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible](https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible)
 
@@ -35,22 +35,22 @@
 ![GeometryBoundingBox op](images/ops/Ops_Gl_Geometry_GeometryBoundingBox.svg)
 
 **Full Name:** `Ops.Gl.Geometry.GeometryBoundingBox`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox) for details*
+**Description:** Calculate a bounding box from a geometry
 
 **> Input Ports:**
-- **Geometry** (Object)
+- **Geometry** (Object): *See documentation*
 
 **< Output Ports:**
-- **Boundings** (Object)
-- **Min X** (Number)
-- **Min Y** (Number)
-- **Min Z** (Number)
-- **Max X** (Number)
-- **Max Y** (Number)
-- **Max Z** (Number)
-- **MaxMin Points** (Array)
+- **Boundings** (Object): *See documentation*
+- **Min X** (Number): *See documentation*
+- **Min Y** (Number): *See documentation*
+- **Min Z** (Number): *See documentation*
+- **Max X** (Number): *See documentation*
+- **Max Y** (Number): *See documentation*
+- **Max Z** (Number): *See documentation*
+- **MaxMin Points** (Array): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryBoundingBox"*
 **Docs:** [https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox](https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox)
 

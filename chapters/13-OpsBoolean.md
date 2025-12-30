@@ -10,16 +10,16 @@
 ![And op](images/ops/Ops_Boolean_And.svg)
 
 **Full Name:** `Ops.Boolean.And`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.And) for details*
+**Description:** Outputs `true` if both input values are `true` (boolean)
 
 **> Input Ports:**
-- **Bool 1** (Number: Boolean)
-- **Bool 2** (Number: Boolean)
+- **Bool 1** (Number: Boolean): *See documentation*
+- **Bool 2** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.And#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/_B91Ms)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "And"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.And](https://cables.gl/op/Ops.Boolean.And)
 
@@ -29,14 +29,14 @@
 ![AndMultiPort_v2 op](images/ops/Ops_Boolean_AndMultiPort_v2.svg)
 
 **Full Name:** `Ops.Boolean.AndMultiPort_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.AndMultiPort_v2) for details*
+**Description:** Outputs `true` if all input values are `true` (boolean)
 
 **> Input Ports:**
-- **Booleans_0** (Number: Boolean)
-- **Add Port** (Number: Boolean)
+- **Booleans_0** (Number: Boolean): *See documentation*
+- **Add Port** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.AndMultiPort_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AndMultiPort_v2"*
@@ -48,16 +48,16 @@
 ![BoolByTrigger op](images/ops/Ops_Boolean_BoolByTrigger.svg)
 
 **Full Name:** `Ops.Boolean.BoolByTrigger`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolByTrigger) for details*
+**Description:** Trigger true or false values
 
 **> Input Ports:**
-- **True** (Trigger)
-- **False** (Trigger)
+- **True** (Trigger): *See documentation*
+- **False** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.BoolByTrigger#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/1UEVu1)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolByTrigger"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.BoolByTrigger](https://cables.gl/op/Ops.Boolean.BoolByTrigger)
 
@@ -67,15 +67,15 @@
 ![Boolean op](images/ops/Ops_Boolean_Boolean.svg)
 
 **Full Name:** `Ops.Boolean.Boolean`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Boolean) for details*
+**Description:** Stores a boolean value
 
 **> Input Ports:**
-- **Value** (Number: Boolean)
+- **Value** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Result** (booleanNumber)
+- **Result** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.Boolean#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Boolean"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.Boolean](https://cables.gl/op/Ops.Boolean.Boolean)
 
@@ -85,24 +85,24 @@
 ![BoolToColor op](images/ops/Ops_Boolean_BoolToColor.svg)
 
 **Full Name:** `Ops.Boolean.BoolToColor`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToColor) for details*
+**Description:** Convert boolean to RGB color
 
 **> Input Ports:**
-- **Boolean** (Number: Boolean)
-- **R True** (Number)
-- **G True** (Number)
-- **B True** (Number)
-- **A True** (Number)
-- **R False** (Number)
-- **G False** (Number)
-- **B False** (Number)
-- **A False** (Number)
+- **Boolean** (Number: Boolean): *See documentation*
+- **R True** (Number): *See documentation*
+- **G True** (Number): *See documentation*
+- **B True** (Number): *See documentation*
+- **A True** (Number): *See documentation*
+- **R False** (Number): *See documentation*
+- **G False** (Number): *See documentation*
+- **B False** (Number): *See documentation*
+- **A False** (Number): *See documentation*
 
 **< Output Ports:**
-- **R** (Number)
-- **G** (Number)
-- **B** (Number)
-- **A** (Number)
+- **R** (Number): *See documentation*
+- **G** (Number): *See documentation*
+- **B** (Number): *See documentation*
+- **A** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.BoolToColor#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolToColor"*
@@ -114,15 +114,15 @@
 ![BoolToNumber_v2 op](images/ops/Ops_Boolean_BoolToNumber_v2.svg)
 
 **Full Name:** `Ops.Boolean.BoolToNumber_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToNumber_v2) for details*
+**Description:** Switches two number values using a boolean
 
 **> Input Ports:**
-- **Use Value 1** (Number: Boolean)
-- **Value 0** (Number)
-- **Value 1** (Number)
+- **Use Value 1** (Number: Boolean): *See documentation*
+- **Value 0** (Number): *See documentation*
+- **Value 1** (Number): *See documentation*
 
 **< Output Ports:**
-- **Out Value** (Number)
+- **Out Value** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.BoolToNumber_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolToNumber_v2"*
@@ -134,17 +134,17 @@
 ![BoolToString op](images/ops/Ops_Boolean_BoolToString.svg)
 
 **Full Name:** `Ops.Boolean.BoolToString`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.BoolToString) for details*
+**Description:** convert boolean to string
 
 **> Input Ports:**
-- **Boolean** (Number: Boolean)
-- **False** (String)
-- **True** (String)
+- **Boolean** (Number: Boolean): *See documentation*
+- **False** (String): *See documentation*
+- **True** (String): *See documentation*
 
 **< Output Ports:**
-- **String** (String)
+- **String** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.BoolToString#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/kmXCm6)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolToString"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.BoolToString](https://cables.gl/op/Ops.Boolean.BoolToString)
 
@@ -154,17 +154,17 @@
 ![DelayBooleanSimple op](images/ops/Ops_Boolean_DelayBooleanSimple.svg)
 
 **Full Name:** `Ops.Boolean.DelayBooleanSimple`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.DelayBooleanSimple) for details*
+**Description:** Delay the input/output of a boolean by x seconds
 
 **> Input Ports:**
-- **Value** (Number)
-- **Delay True** (Number)
-- **Delay False** (Number)
+- **Value** (Number): *See documentation*
+- **Delay True** (Number): *See documentation*
+- **Delay False** (Number): *See documentation*
 
 **< Output Ports:**
-- **Out Value** (Number)
+- **Out Value** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.DelayBooleanSimple#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/VBa0ft)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayBooleanSimple"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.DelayBooleanSimple](https://cables.gl/op/Ops.Boolean.DelayBooleanSimple)
 
@@ -174,17 +174,17 @@
 ![IfFalseThen op](images/ops/Ops_Boolean_IfFalseThen.svg)
 
 **Full Name:** `Ops.Boolean.IfFalseThen`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.IfFalseThen) for details*
+**Description:** Triggers if input value is `false`
 
 **> Input Ports:**
-- **Exe** (Trigger)
-- **Boolean** (Number: Boolean)
+- **Exe** (Trigger): *See documentation*
+- **Boolean** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Exe** (Trigger)
-- **Boolean** (Number: Boolean)
-- **Then** (Trigger)
-- **Else** (Trigger)
+- **Exe** (Trigger): *See documentation*
+- **Boolean** (Number: Boolean): *See documentation*
+- **Then** (Trigger): *See documentation*
+- **Else** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IfFalseThen#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IfFalseThen"*
@@ -196,17 +196,17 @@
 ![IfTrueThen_v2 op](images/ops/Ops_Boolean_IfTrueThen_v2.svg)
 
 **Full Name:** `Ops.Boolean.IfTrueThen_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.IfTrueThen_v2) for details*
+**Description:** Switch, trigger one or the other trigger port based on the input value
 
 **> Input Ports:**
-- **Exe** (Trigger)
-- **Boolean** (Number: Boolean)
+- **Exe** (Trigger): *See documentation*
+- **Boolean** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Then** (Trigger)
-- **Else** (Trigger)
+- **Then** (Trigger): *See documentation*
+- **Else** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IfTrueThen_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/F9tjX8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IfTrueThen_v2"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.IfTrueThen_v2](https://cables.gl/op/Ops.Boolean.IfTrueThen_v2)
 
@@ -216,13 +216,13 @@
 ![IsOne op](images/ops/Ops_Boolean_IsOne.svg)
 
 **Full Name:** `Ops.Boolean.IsOne`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.IsOne) for details*
+**Description:** Returns `true` if input value is `1`
 
 **> Input Ports:**
-- **Value** (Number)
+- **Value** (Number): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IsOne#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IsOne"*
@@ -234,13 +234,13 @@
 ![IsZero op](images/ops/Ops_Boolean_IsZero.svg)
 
 **Full Name:** `Ops.Boolean.IsZero`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.IsZero) for details*
+**Description:** Returns `true` if input value is `0`
 
 **> Input Ports:**
-- **Value** (Number)
+- **Value** (Number): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IsZero#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IsZero"*
@@ -252,21 +252,21 @@
 ![MonoFlop op](images/ops/Ops_Boolean_MonoFlop.svg)
 
 **Full Name:** `Ops.Boolean.MonoFlop`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.MonoFlop) for details*
+**Description:** Sets output to `1` when triggered, turns back to `0` automatically after x seconds
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Duration** (Number)
-- **Value True** (Number)
-- **Value False** (Number)
-- **Reset** (Trigger)
+- **Trigger** (Trigger): *See documentation*
+- **Duration** (Number): *See documentation*
+- **Value True** (Number): *See documentation*
+- **Value False** (Number): *See documentation*
+- **Reset** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Activated** (Trigger)
-- **Ended** (Trigger)
-- **Result** (Number)
+- **Activated** (Trigger): *See documentation*
+- **Ended** (Trigger): *See documentation*
+- **Result** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.MonoFlop#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/F3r9L5)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MonoFlop"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.MonoFlop](https://cables.gl/op/Ops.Boolean.MonoFlop)
 
@@ -276,15 +276,15 @@
 ![Not op](images/ops/Ops_Boolean_Not.svg)
 
 **Full Name:** `Ops.Boolean.Not`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Not) for details*
+**Description:** result is false if input is true and vice versa (negate/toggle/switch/!=)
 
 **> Input Ports:**
-- **Boolean** (Number: Boolean)
+- **Boolean** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.Not#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Not"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.Not](https://cables.gl/op/Ops.Boolean.Not)
 
@@ -294,24 +294,24 @@
 ![Or op](images/ops/Ops_Boolean_Or.svg)
 
 **Full Name:** `Ops.Boolean.Or`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.Or) for details*
+**Description:** Returns `true` if one or more of the input booleans are `true`
 
 **> Input Ports:**
-- **Bool 1** (Number: Boolean)
-- **Bool 2** (Number: Boolean)
-- **Bool 3** (Number: Boolean)
-- **Bool 4** (Number: Boolean)
-- **Bool 5** (Number: Boolean)
-- **Bool 6** (Number: Boolean)
-- **Bool 7** (Number: Boolean)
-- **Bool 8** (Number: Boolean)
-- **Bool 9** (Number: Boolean)
-- **Bool 10** (Number: Boolean)
+- **Bool 1** (Number: Boolean): *See documentation*
+- **Bool 2** (Number: Boolean): *See documentation*
+- **Bool 3** (Number: Boolean): *See documentation*
+- **Bool 4** (Number: Boolean): *See documentation*
+- **Bool 5** (Number: Boolean): *See documentation*
+- **Bool 6** (Number: Boolean): *See documentation*
+- **Bool 7** (Number: Boolean): *See documentation*
+- **Bool 8** (Number: Boolean): *See documentation*
+- **Bool 9** (Number: Boolean): *See documentation*
+- **Bool 10** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Result** (booleanNumber)
+- **Result** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.Or#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Or"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.Or](https://cables.gl/op/Ops.Boolean.Or)
 
@@ -321,22 +321,22 @@
 ![OrNumber_v2 op](images/ops/Ops_Boolean_OrNumber_v2.svg)
 
 **Full Name:** `Ops.Boolean.OrNumber_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.OrNumber_v2) for details*
+**Description:** Output another number if input number is zero
 
 **> Input Ports:**
-- **Number** (Number)
-- **Number 2** (Number)
-- **Number 3** (Number)
-- **Number 4** (Number)
-- **Number 5** (Number)
-- **Number 6** (Number)
-- **Number 7** (Number)
-- **Number 8** (Number)
+- **Number** (Number): *See documentation*
+- **Number 2** (Number): *See documentation*
+- **Number 3** (Number): *See documentation*
+- **Number 4** (Number): *See documentation*
+- **Number 5** (Number): *See documentation*
+- **Number 6** (Number): *See documentation*
+- **Number 7** (Number): *See documentation*
+- **Number 8** (Number): *See documentation*
 
 **< Output Ports:**
-- **Result** (Number)
+- **Result** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.OrNumber_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/J4cYet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrNumber_v2"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.OrNumber_v2](https://cables.gl/op/Ops.Boolean.OrNumber_v2)
 
@@ -346,15 +346,15 @@
 ![ParseBoolean_v2 op](images/ops/Ops_Boolean_ParseBoolean_v2.svg)
 
 **Full Name:** `Ops.Boolean.ParseBoolean_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.ParseBoolean_v2) for details*
+**Description:** parse boolean from string/number
 
 **> Input Ports:**
-- **String** (String)
+- **String** (String): *See documentation*
 
 **< Output Ports:**
-- **Result** (booleanNumber)
+- **Result** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.ParseBoolean_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/2nXYet)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ParseBoolean_v2"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.ParseBoolean_v2](https://cables.gl/op/Ops.Boolean.ParseBoolean_v2)
 
@@ -364,26 +364,26 @@
 ![RouteBoolean op](images/ops/Ops_Boolean_RouteBoolean.svg)
 
 **Full Name:** `Ops.Boolean.RouteBoolean`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.RouteBoolean) for details*
+**Description:** Route a boolean to an output port
 
 **> Input Ports:**
-- **Index** (Number: Integer)
-- **Boolean In** (Number: Boolean)
-- **Default Boolean** (Number: Boolean)
+- **Index** (Number: Integer): *See documentation*
+- **Boolean In** (Number: Boolean): *See documentation*
+- **Default Boolean** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Index 0 Boolean** (booleanNumber)
-- **Index 1 Boolean** (booleanNumber)
-- **Index 2 Boolean** (booleanNumber)
-- **Index 3 Boolean** (booleanNumber)
-- **Index 4 Boolean** (booleanNumber)
-- **Index 5 Boolean** (booleanNumber)
-- **Index 6 Boolean** (booleanNumber)
-- **Index 7 Boolean** (booleanNumber)
-- **Index 8 Boolean** (booleanNumber)
-- **Index 9 Boolean** (booleanNumber)
+- **Index 0 Boolean** (booleanNumber): *See documentation*
+- **Index 1 Boolean** (booleanNumber): *See documentation*
+- **Index 2 Boolean** (booleanNumber): *See documentation*
+- **Index 3 Boolean** (booleanNumber): *See documentation*
+- **Index 4 Boolean** (booleanNumber): *See documentation*
+- **Index 5 Boolean** (booleanNumber): *See documentation*
+- **Index 6 Boolean** (booleanNumber): *See documentation*
+- **Index 7 Boolean** (booleanNumber): *See documentation*
+- **Index 8 Boolean** (booleanNumber): *See documentation*
+- **Index 9 Boolean** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.RouteBoolean#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/mS8CX8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteBoolean"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.RouteBoolean](https://cables.gl/op/Ops.Boolean.RouteBoolean)
 
@@ -393,18 +393,18 @@
 ![ToggleBool_v2 op](images/ops/Ops_Boolean_ToggleBool_v2.svg)
 
 **Full Name:** `Ops.Boolean.ToggleBool_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.ToggleBool_v2) for details*
+**Description:** Toggle a boolean value by triggering
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Reset** (Trigger)
-- **Default** (Number: Boolean)
+- **Trigger** (Trigger): *See documentation*
+- **Reset** (Trigger): *See documentation*
+- **Default** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Result** (booleanNumber)
+- **Next** (Trigger): *See documentation*
+- **Result** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.ToggleBool_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/UxJNHj)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ToggleBool_v2"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.ToggleBool_v2](https://cables.gl/op/Ops.Boolean.ToggleBool_v2)
 
@@ -414,15 +414,15 @@
 ![TriggerChangedFalse op](images/ops/Ops_Boolean_TriggerChangedFalse.svg)
 
 **Full Name:** `Ops.Boolean.TriggerChangedFalse`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerChangedFalse) for details*
+**Description:** Triggers next only after value has changed to `false`
 
 **> Input Ports:**
-- **Value** (Number: Boolean)
+- **Value** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.TriggerChangedFalse#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/UWCvS8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerChangedFalse"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.TriggerChangedFalse](https://cables.gl/op/Ops.Boolean.TriggerChangedFalse)
 
@@ -432,15 +432,15 @@
 ![TriggerChangedTrue op](images/ops/Ops_Boolean_TriggerChangedTrue.svg)
 
 **Full Name:** `Ops.Boolean.TriggerChangedTrue`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerChangedTrue) for details*
+**Description:** Triggers next only after value has changed to `true`
 
 **> Input Ports:**
-- **Value** (Number: Boolean)
+- **Value** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.TriggerChangedTrue#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/UWCvS8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerChangedTrue"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.TriggerChangedTrue](https://cables.gl/op/Ops.Boolean.TriggerChangedTrue)
 
@@ -450,16 +450,16 @@
 ![TriggerOnChangeBoolean_v2 op](images/ops/Ops_Boolean_TriggerOnChangeBoolean_v2.svg)
 
 **Full Name:** `Ops.Boolean.TriggerOnChangeBoolean_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Boolean.TriggerOnChangeBoolean_v2) for details*
+**Description:** Triggers when boolean value has changed
 
 **> Input Ports:**
-- **Value** (Number: Boolean)
+- **Value** (Number: Boolean): *See documentation*
 
 **< Output Ports:**
-- **True** (Trigger)
-- **False** (Trigger)
+- **True** (Trigger): *See documentation*
+- **False** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.TriggerOnChangeBoolean_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/UWCvS8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeBoolean_v2"*
 **Docs:** [https://cables.gl/op/Ops.Boolean.TriggerOnChangeBoolean_v2](https://cables.gl/op/Ops.Boolean.TriggerOnChangeBoolean_v2)
 

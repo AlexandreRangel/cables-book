@@ -10,17 +10,17 @@
 ![CreateFile op](images/ops/Ops_Extension_Standalone_Files_CreateFile.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.CreateFile`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile) for details*
+**Description:** Create a new empty file on your local harddrive
 
 **> Input Ports:**
-- **Default Path** (String)
-- **Create File** (Trigger)
+- **Default Path** (String): *See documentation*
+- **Create File** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Path** (String)
-- **Next** (Trigger)
+- **Path** (String): *See documentation*
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/dhvNAs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CreateFile"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile)
 
@@ -30,16 +30,16 @@
 ![Exist op](images/ops/Ops_Extension_Standalone_Files_Exist.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Exist`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist) for details*
+**Description:** Check if a file exists on the local file system
 
 **> Input Ports:**
-- **Path** (String)
-- **Execute** (Trigger)
+- **Path** (String): *See documentation*
+- **Execute** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Exists** (booleanNumber)
+- **Exists** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/XlQrun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Exist"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Exist](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist)
 
@@ -49,15 +49,15 @@
 ![FileUrlToPath op](images/ops/Ops_Extension_Standalone_Files_FileUrlToPath.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.FileUrlToPath`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath) for details*
+**Description:** convert file-url to path
 
 **> Input Ports:**
-- **FileUrl** (String)
+- **FileUrl** (String): *See documentation*
 
 **< Output Ports:**
-- **Path** (String)
+- **Path** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/upnVAs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FileUrlToPath"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath)
 
@@ -67,16 +67,16 @@
 ![Makedir op](images/ops/Ops_Extension_Standalone_Files_Makedir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Makedir`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir) for details*
+**Description:** Create a directory on the local file system
 
 **> Input Ports:**
-- **Path** (String)
-- **Create** (Trigger)
+- **Path** (String): *See documentation*
+- **Create** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/q5evun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Makedir"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir)
 
@@ -86,11 +86,11 @@
 ![OpenFileManager op](images/ops/Ops_Extension_Standalone_Files_OpenFileManager.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.OpenFileManager`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for details*
+**Description:** Open the native file manager application using that path
 
 **> Input Ports:**
-- **Path** (String)
-- **Open File Manager** (Trigger)
+- **Path** (String): *See documentation*
+- **Open File Manager** (Trigger): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Extension.Standalone.Files.OpenFileManager documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for output port details*
@@ -105,15 +105,15 @@
 ![PathToFileUrl op](images/ops/Ops_Extension_Standalone_Files_PathToFileUrl.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.PathToFileUrl`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl) for details*
+**Description:** convert local path to file-url
 
 **> Input Ports:**
-- **Path** (String)
+- **Path** (String): *See documentation*
 
 **< Output Ports:**
-- **FileUrl** (String)
+- **FileUrl** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/pekPAs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PathToFileUrl"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl)
 
@@ -123,18 +123,18 @@
 ![ReadDir op](images/ops/Ops_Extension_Standalone_Files_ReadDir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.ReadDir`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir) for details*
+**Description:** Read all entries in a directory
 
 **> Input Ports:**
-- **Path** (String)
-- **Reload** (Trigger)
+- **Path** (String): *See documentation*
+- **Reload** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Entries** (Array)
-- **Has Error** (booleanNumber)
-- **Error** (String)
+- **Entries** (Array): *See documentation*
+- **Has Error** (booleanNumber): *See documentation*
+- **Error** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/I6buun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReadDir"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir)
 
@@ -144,13 +144,13 @@
 ![ResolvePath op](images/ops/Ops_Extension_Standalone_Files_ResolvePath.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.ResolvePath`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath) for details*
+**Description:** Resolves a paths into an absolute path
 
 **> Input Ports:**
-- **Path** (String)
+- **Path** (String): *See documentation*
 
 **< Output Ports:**
-- **Result** (String)
+- **Result** (String): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ResolvePath"*
@@ -162,15 +162,15 @@
 ![SelectDir op](images/ops/Ops_Extension_Standalone_Files_SelectDir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SelectDir`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir) for details*
+**Description:** Choose a directory on your hard drive
 
 **> Input Ports:**
-- **Default Path** (String)
-- **Select Directory** (Trigger)
+- **Default Path** (String): *See documentation*
+- **Select Directory** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Path** (String)
-- **Next** (Trigger)
+- **Path** (String): *See documentation*
+- **Next** (Trigger): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SelectDir"*
@@ -182,21 +182,18 @@
 ![SelectFile op](images/ops/Ops_Extension_Standalone_Files_SelectFile.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SelectFile`
-
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile) for details*
+**Description:** Choose a file on your hard drive
 
 **> Input Ports:**
-- **Default Path** (String)
-- **Select File** (Trigger)
+- **Default Path** (String): *See documentation*
+- **Select File** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Path** (String)
-- **Next** (Trigger)
+- **Path** (String): *See documentation*
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile#example)
-
+**Example Patch:** [Open in Editor](https://cables.gl/edit/M58UAs)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SelectFile"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile)
 
 ---
@@ -205,17 +202,17 @@
 ![Stat op](images/ops/Ops_Extension_Standalone_Files_Stat.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Stat`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat) for details*
+**Description:** Get statistics about a file on the local file system
 
 **> Input Ports:**
-- **Path** (String)
+- **Path** (String): *See documentation*
 
 **< Output Ports:**
-- **Stats** (Object)
-- **Is Directory** (booleanNumber)
-- **Is File** (booleanNumber)
-- **Has Error** (booleanNumber)
-- **Error** (String)
+- **Stats** (Object): *See documentation*
+- **Is Directory** (booleanNumber): *See documentation*
+- **Is File** (booleanNumber): *See documentation*
+- **Has Error** (booleanNumber): *See documentation*
+- **Error** (String): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Stat"*
@@ -227,19 +224,19 @@
 ![SystemDirs op](images/ops/Ops_Extension_Standalone_Files_SystemDirs.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SystemDirs`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs) for details*
+**Description:** Get Default System Directories Paths
 
 **> Input Ports:**
 - *Visit [Ops.Extension.Standalone.Files.SystemDirs documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs) for input port details*
 
 **< Output Ports:**
-- **Home** (String)
-- **Downloads** (String)
-- **Documents** (String)
-- **Desktop** (String)
-- **Exe** (String)
+- **Home** (String): *See documentation*
+- **Downloads** (String): *See documentation*
+- **Documents** (String): *See documentation*
+- **Desktop** (String): *See documentation*
+- **Exe** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/7hftun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SystemDirs"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs)
 
@@ -249,21 +246,21 @@
 ![Watch op](images/ops/Ops_Extension_Standalone_Files_Watch.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Watch`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch) for details*
+**Description:** Watch a directory, get a trigger when a file changes
 
 **> Input Ports:**
-- **Path** (String)
-- **Read** (Trigger)
+- **Path** (String): *See documentation*
+- **Read** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Event Type** (String)
-- **Event Filename** (String)
-- **Event Happened** (Trigger)
-- **Content** (String)
-- **Has Error** (booleanNumber)
-- **Error** (String)
+- **Event Type** (String): *See documentation*
+- **Event Filename** (String): *See documentation*
+- **Event Happened** (Trigger): *See documentation*
+- **Content** (String): *See documentation*
+- **Has Error** (booleanNumber): *See documentation*
+- **Error** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Watch"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Watch](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch)
 
@@ -273,12 +270,12 @@
 ![WriteBinaryFileFromBase64 op](images/ops/Ops_Extension_Standalone_Files_WriteBinaryFileFromBase64.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for details*
+**Description:** Create a binary file on the local file system from a base64 string
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Base64** (String)
-- **Filename** (String)
+- **Trigger** (Trigger): *See documentation*
+- **Base64** (String): *See documentation*
+- **Filename** (String): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64 documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for output port details*
@@ -293,19 +290,19 @@
 ![WriteTextFile op](images/ops/Ops_Extension_Standalone_Files_WriteTextFile.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.WriteTextFile`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile) for details*
+**Description:** Write a string to a text file on the local file system
 
 **> Input Ports:**
-- **Filename** (String)
-- **Content** (String)
-- **Write** (Trigger)
+- **Filename** (String): *See documentation*
+- **Content** (String): *See documentation*
+- **Write** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Has Error** (booleanNumber)
-- **Error** (String)
+- **Next** (Trigger): *See documentation*
+- **Has Error** (booleanNumber): *See documentation*
+- **Error** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WriteTextFile"*
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile)
 

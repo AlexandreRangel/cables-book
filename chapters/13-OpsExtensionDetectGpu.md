@@ -10,17 +10,17 @@
 ![DetectGPU op](images/ops/Ops_Extension_DetectGpu_DetectGPU.svg)
 
 **Full Name:** `Ops.Extension.DetectGpu.DetectGPU`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU) for details*
+**Description:** Use the detect-gpu library to assess performance of the client running the patch
 
 **> Input Ports:**
-- **Run** (Trigger)
+- **Run** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Finished** (Trigger)
-- **Tier** (Number)
-- **Is Mobile** (booleanNumber)
-- **GPU Name** (String)
-- **FPS** (Number)
+- **Finished** (Trigger): *See documentation*
+- **Tier** (Number): *See documentation*
+- **Is Mobile** (booleanNumber): *See documentation*
+- **GPU Name** (String): *See documentation*
+- **FPS** (Number): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DetectGPU"*

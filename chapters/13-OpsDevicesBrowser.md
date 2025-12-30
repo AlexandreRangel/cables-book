@@ -10,36 +10,36 @@
 ![BrowserInfo_v3 op](images/ops/Ops_Devices_Browser_BrowserInfo_v3.svg)
 
 **Full Name:** `Ops.Devices.Browser.BrowserInfo_v3`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for details*
+**Description:** Reports the browser being used
 
 **> Input Ports:**
 - *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
 
 **< Output Ports:**
-- **Is Mobile** (booleanNumber)
-- **Is Touchscreen** (booleanNumber)
-- **Is IE** (booleanNumber)
-- **Is Edge** (booleanNumber)
-- **Is Chrome** (booleanNumber)
-- **Is Firefox** (booleanNumber)
-- **Is Opera** (booleanNumber)
-- **Is Safari** (booleanNumber)
-- **True if the browser is Safari** (iOS & macOS & OS X)
-- **Is Windows** (booleanNumber)
-- **Is Linux** (booleanNumber)
-- **Is Mac** (booleanNumber)
-- **Is IOS** (booleanNumber)
-- **Is Android** (booleanNumber)
-- **Is Electron** (booleanNumber)
-- **Operating System** (String)
-- **Browser Name** (String)
-- **Browser Version** (String)
-- **OS Version** (String)
-- **Language** (String)
-- **User Agent** (String)
-- **Platform Object** (Object)
+- **Is Mobile** (booleanNumber): *See documentation*
+- **Is Touchscreen** (booleanNumber): *See documentation*
+- **Is IE** (booleanNumber): *See documentation*
+- **Is Edge** (booleanNumber): *See documentation*
+- **Is Chrome** (booleanNumber): *See documentation*
+- **Is Firefox** (booleanNumber): *See documentation*
+- **Is Opera** (booleanNumber): *See documentation*
+- **Is Safari** (booleanNumber): *See documentation*
+- **True if the browser is Safari** (iOS & macOS & OS X): *See documentation*
+- **Is Windows** (booleanNumber): *See documentation*
+- **Is Linux** (booleanNumber): *See documentation*
+- **Is Mac** (booleanNumber): *See documentation*
+- **Is IOS** (booleanNumber): *See documentation*
+- **Is Android** (booleanNumber): *See documentation*
+- **Is Electron** (booleanNumber): *See documentation*
+- **Operating System** (String): *See documentation*
+- **Browser Name** (String): *See documentation*
+- **Browser Version** (String): *See documentation*
+- **OS Version** (String): *See documentation*
+- **Language** (String): *See documentation*
+- **User Agent** (String): *See documentation*
+- **Platform Object** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/YOJiIk)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BrowserInfo_v3"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
 
@@ -49,18 +49,18 @@
 ![ColorScheme op](images/ops/Ops_Devices_Browser_ColorScheme.svg)
 
 **Full Name:** `Ops.Devices.Browser.ColorScheme`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for details*
+**Description:** Get light/dark color scheme preference of the browser
 
 **> Input Ports:**
 - *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
 
 **< Output Ports:**
-- **Color Scheme** (String)
-- **Dark Mode** (booleanNumber)
-- **Light Mode** (booleanNumber)
-- **Supported** (booleanNumber)
+- **Color Scheme** (String): *See documentation*
+- **Dark Mode** (booleanNumber): *See documentation*
+- **Light Mode** (booleanNumber): *See documentation*
+- **Supported** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.ColorScheme#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/An48HJ)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorScheme"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
 
@@ -70,11 +70,11 @@
 ![History op](images/ops/Ops_Devices_Browser_History.svg)
 
 **Full Name:** `Ops.Devices.Browser.History`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.History) for details*
+**Description:** Move back or forward in the browser navigation history
 
 **> Input Ports:**
-- **Back** (Trigger)
-- **Forward** (Trigger)
+- **Back** (Trigger): *See documentation*
+- **Forward** (Trigger): *See documentation*
 
 **< Output Ports:**
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
@@ -89,19 +89,19 @@
 ![JsExpression op](images/ops/Ops_Devices_Browser_JsExpression.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsExpression`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.JsExpression) for details*
+**Description:** evaluate a javascript expression
 
 **> Input Ports:**
-- **JS Expression** (String)
+- **JS Expression** (String): *See documentation*
 
 **< Output Ports:**
-- **Result String** (String)
-- **Result Number** (Number)
-- **Result Array** (Array)
-- **Result Object** (Object)
-- **Error** (booleanNumber)
+- **Result String** (String): *See documentation*
+- **Result Number** (Number): *See documentation*
+- **Result Array** (Array): *See documentation*
+- **Result Object** (Object): *See documentation*
+- **Error** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.JsExpression#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/gpp4O8)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsExpression"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
 
@@ -111,16 +111,16 @@
 ![JsMemory op](images/ops/Ops_Devices_Browser_JsMemory.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsMemory`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.JsMemory) for details*
+**Description:** browser js memory consumption
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Used Heap Size** (Number)
-- **Total Heap Size** (Number)
+- **Used Heap Size** (Number): *See documentation*
+- **Total Heap Size** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.JsMemory#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/_UyS0f)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsMemory"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
 
@@ -130,19 +130,19 @@
 ![UserActivation op](images/ops/Ops_Devices_Browser_UserActivation.svg)
 
 **Full Name:** `Ops.Devices.Browser.UserActivation`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.UserActivation) for details*
+**Description:** detect if the user interacted with or activated the page
 
 **> Input Ports:**
-- **Update** (Trigger)
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **User Is Or Was Active** (booleanNumber)
-- **User Has Been Active** (booleanNumber)
-- **User Is Active** (booleanNumber)
-- **Supported** (booleanNumber)
+- **Next** (Trigger): *See documentation*
+- **User Is Or Was Active** (booleanNumber): *See documentation*
+- **User Has Been Active** (booleanNumber): *See documentation*
+- **User Is Active** (booleanNumber): *See documentation*
+- **Supported** (booleanNumber): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.UserActivation#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/3S26Qc)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UserActivation"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
 
@@ -152,22 +152,22 @@
 ![WebShare op](images/ops/Ops_Devices_Browser_WebShare.svg)
 
 **Full Name:** `Ops.Devices.Browser.WebShare`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Devices.Browser.WebShare) for details*
+**Description:** Opens a sharing dialog to share text and images
 
 **> Input Ports:**
-- **Text** (String)
-- **URL** (String)
-- **Base64 File** (String)
-- **Data URL** (String)
-- **Filetype** (String)
-- **Filename** (String)
-- **Share** (Trigger)
+- **Text** (String): *See documentation*
+- **URL** (String): *See documentation*
+- **Base64 File** (String): *See documentation*
+- **Data URL** (String): *See documentation*
+- **Filetype** (String): *See documentation*
+- **Filename** (String): *See documentation*
+- **Share** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Status** (String)
-- **Supported** (Number)
+- **Status** (String): *See documentation*
+- **Supported** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.WebShare#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/pQ49m4)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebShare"*
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
 

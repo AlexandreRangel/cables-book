@@ -13,15 +13,15 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture) for details*
 
 **> Input Ports:**
-- **Element** (Object:Element)
-- **Update** (Trigger)
+- **Element** (Object:Element): *See documentation*
+- **Update** (Trigger): *See documentation*
 
 **< Output Ports:**
-- **Image DataUrl** (String)
-- **Progress** (Number)
-- **Finished** (Trigger)
+- **Image DataUrl** (String): *See documentation*
+- **Progress** (Number): *See documentation*
+- **Finished** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/fPPga2)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HtmlToTexture"*
 **Docs:** [https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture)
 

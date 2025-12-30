@@ -10,13 +10,13 @@
 ![FileInput_v2 op](images/ops/Ops_String_File_FileInput_v2.svg)
 
 **Full Name:** `Ops.String.File.FileInput_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.String.File.FileInput_v2) for details*
+**Description:** get URL of a file
 
 **> Input Ports:**
-- **File** (String)
+- **File** (String): *See documentation*
 
 **< Output Ports:**
-- **URL** (String)
+- **URL** (String): *See documentation*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FileInput_v2"*
@@ -28,31 +28,31 @@
 ![SwitchFile_v2 op](images/ops/Ops_String_File_SwitchFile_v2.svg)
 
 **Full Name:** `Ops.String.File.SwitchFile_v2`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.String.File.SwitchFile_v2) for details*
+**Description:** switch between filenames
 
 **> Input Ports:**
-- **Index** (Number: Integer)
-- **File 0** (String)
-- **File 1** (String)
-- **File 2** (String)
-- **File 3** (String)
-- **File 4** (String)
-- **File 5** (String)
-- **File 6** (String)
-- **File 7** (String)
-- **File 8** (String)
-- **File 9** (String)
-- **File 10** (String)
-- **File 11** (String)
-- **File 12** (String)
-- **File 13** (String)
-- **File 14** (String)
-- **File 15** (String)
+- **Index** (Number: Integer): *See documentation*
+- **File 0** (String): *See documentation*
+- **File 1** (String): *See documentation*
+- **File 2** (String): *See documentation*
+- **File 3** (String): *See documentation*
+- **File 4** (String): *See documentation*
+- **File 5** (String): *See documentation*
+- **File 6** (String): *See documentation*
+- **File 7** (String): *See documentation*
+- **File 8** (String): *See documentation*
+- **File 9** (String): *See documentation*
+- **File 10** (String): *See documentation*
+- **File 11** (String): *See documentation*
+- **File 12** (String): *See documentation*
+- **File 13** (String): *See documentation*
+- **File 14** (String): *See documentation*
+- **File 15** (String): *See documentation*
 
 **< Output Ports:**
-- **Result** (String)
+- **Result** (String): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.SwitchFile_v2#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/unutii)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchFile_v2"*
 **Docs:** [https://cables.gl/op/Ops.String.File.SwitchFile_v2](https://cables.gl/op/Ops.String.File.SwitchFile_v2)
 

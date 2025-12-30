@@ -10,17 +10,17 @@
 ![StackGetArray op](images/ops/Ops_Data_StackValues_StackGetArray.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackGetArray`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackGetArray) for details*
+**Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Name** (String)
+- **Trigger** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Array** (Array)
+- **Next** (Trigger): *See documentation*
+- **Array** (Array): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackGetArray#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetArray"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackGetArray](https://cables.gl/op/Ops.Data.StackValues.StackGetArray)
 
@@ -30,17 +30,17 @@
 ![StackGetNumber op](images/ops/Ops_Data_StackValues_StackGetNumber.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackGetNumber`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackGetNumber) for details*
+**Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger)
-- **Name** (String)
+- **Exec** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Value** (Number)
+- **Next** (Trigger): *See documentation*
+- **Value** (Number): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackGetNumber#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetNumber"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackGetNumber](https://cables.gl/op/Ops.Data.StackValues.StackGetNumber)
 
@@ -50,17 +50,17 @@
 ![StackGetTexture op](images/ops/Ops_Data_StackValues_StackGetTexture.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackGetTexture`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackGetTexture) for details*
+**Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger)
-- **Name** (String)
+- **Exec** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
-- **Texture** (Object)
+- **Next** (Trigger): *See documentation*
+- **Texture** (Object): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackGetTexture#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackGetTexture"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackGetTexture](https://cables.gl/op/Ops.Data.StackValues.StackGetTexture)
 
@@ -70,16 +70,16 @@
 ![StackPushArray op](images/ops/Ops_Data_StackValues_StackPushArray.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackPushArray`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackPushArray) for details*
+**Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Name** (String)
+- **Trigger** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackPushArray#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushArray"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackPushArray](https://cables.gl/op/Ops.Data.StackValues.StackPushArray)
 
@@ -89,17 +89,17 @@
 ![StackPushNumber op](images/ops/Ops_Data_StackValues_StackPushNumber.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackPushNumber`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackPushNumber) for details*
+**Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Exec** (Trigger)
-- **Name** (String)
-- **Value** (Number)
+- **Exec** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
+- **Value** (Number): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackPushNumber#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushNumber"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackPushNumber](https://cables.gl/op/Ops.Data.StackValues.StackPushNumber)
 
@@ -109,17 +109,17 @@
 ![StackPushTexture op](images/ops/Ops_Data_StackValues_StackPushTexture.svg)
 
 **Full Name:** `Ops.Data.StackValues.StackPushTexture`
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Data.StackValues.StackPushTexture) for details*
+**Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
-- **Trigger** (Trigger)
-- **Name** (String)
-- **Texture** (Object:Texture)
+- **Trigger** (Trigger): *See documentation*
+- **Name** (String): *See documentation*
+- **Texture** (Object:Texture): *See documentation*
 
 **< Output Ports:**
-- **Next** (Trigger)
+- **Next** (Trigger): *See documentation*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.StackValues.StackPushTexture#example)
+**Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StackPushTexture"*
 **Docs:** [https://cables.gl/op/Ops.Data.StackValues.StackPushTexture](https://cables.gl/op/Ops.Data.StackValues.StackPushTexture)
 
