@@ -13,9 +13,11 @@
 **Description:** Output the current patch coordinates
 
 **> Input Ports:**
+
 - *Visit [Ops.Ui.Debug.PatchUiCoords documentation](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords) for input port details*
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 

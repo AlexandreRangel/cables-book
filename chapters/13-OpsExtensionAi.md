@@ -13,11 +13,13 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*
 
 **> Input Ports:**
+
 - **String1** (String)
 - **Headers** (Object)
 - **Reload** (Trigger)
 
 **< Output Ports:**
+
 - **Z2gtag4y7** (Array)
 - **Jcju8npa2** (booleanNumber)
 - **Ozg9pnd1z** (String)
@@ -35,6 +37,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*
 
 **> Input Ports:**
+
 - **Prompt** (String)
 - **Value** (String)
 - **API URL** (String)
@@ -43,6 +46,7 @@
 - **Auto Request** (Number: Boolean)
 
 **< Output Ports:**
+
 - **I4feefw9n** (Object)
 - **Klu6r35ga** (booleanNumber)
 - **Xs18z73z0** (booleanNumber)

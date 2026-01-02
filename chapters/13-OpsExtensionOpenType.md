@@ -13,9 +13,11 @@
 **Description:** Load OTF & TTF fonts via OpenType library
 
 **> Input Ports:**
+
 - **Font File** (String)
 
 **< Output Ports:**
+
 - **Opentype Font** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
@@ -31,11 +33,13 @@
 **Description:** get svg path from (OTF) OpentypeFont using the opentype library
 
 **> Input Ports:**
+
 - **Opentype Font** (Object)
 - **Text** (String)
 - **Letter Spacing** (Number)
 
 **< Output Ports:**
+
 - **Path String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)

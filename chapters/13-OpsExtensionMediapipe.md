@@ -13,10 +13,12 @@
 **Description:** Generate an animated geometry from MpFaceTracking Point Coordinates
 
 **> Input Ports:**
+
 - **Geom** (Object)
 - **Points** (Array)
 
 **< Output Ports:**
+
 - **Result Geom** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/by9Tq4)
@@ -32,10 +34,12 @@
 **Description:** Get face mesh from webcam/video using mediapipe library
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Refine LandMarks** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Points** (Array)
 - **Found** (Number)
 - **Result** (Object)
@@ -53,11 +57,13 @@
 **Description:** Get points and lines for left/right hand from mediapipe
 
 **> Input Ports:**
+
 - **Hands Result** (Object)
 - **Hand Index** (Number: Integer)
 - **Min Score** (Number)
 
 **< Output Ports:**
+
 - **Points** (Array)
 - **Lines** (Array)
 - **Data** (Object)
@@ -77,10 +83,12 @@
 **Description:** Get individual coordinates of fingers or wrist from an array of mediapipe data
 
 **> Input Ports:**
+
 - **Hand Points** (Array)
 - **Joint Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
@@ -98,11 +106,13 @@
 **Description:** Get hand data from mediapipe library, use with MpHand
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Min Confidence Detect** (Number)
 - **Min Confidence Tracking** (Number)
 
 **< Output Ports:**
+
 - **Result** (Object)
 - **Found Hands** (Number)
 
@@ -119,10 +129,12 @@
 **Description:** Get coordinates of specific body parts from mediapipe data
 
 **> Input Ports:**
+
 - **Landmarks** (Array)
 - **Landmark Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
@@ -140,6 +152,7 @@
 **Description:** Get pose-data (points/landmarks/lines) from webcam using mediapipe library
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Smooth Landmarks** (Number: Boolean)
 - **Min Detection Confidence** (Number)
@@ -151,6 +164,7 @@
 - **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Points** (Array)
 - **Segmentation Mask** (Object)
 - **Landmarks** (Array)

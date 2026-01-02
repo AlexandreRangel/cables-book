@@ -13,6 +13,7 @@
 **Description:** create an array of div elements
 
 **> Input Ports:**
+
 - **Class** (String)
 - **Parent** (Object:Element)
 - **Num** (Number: Integer)
@@ -21,6 +22,7 @@
 - **Reset Hover** (Trigger)
 
 **< Output Ports:**
+
 - **Elements** (Array)
 - **Index Clicked** (Number)
 - **Element Clicked** (Trigger)
@@ -40,6 +42,7 @@
 **Description:** Set css style properties of a html element
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Update** (Trigger)
 - **Property** (String)
@@ -47,6 +50,7 @@
 - **Value Suffix** (String)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
@@ -62,6 +66,7 @@
 **Description:** set css properties
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Update** (Trigger)
 - **Property** (String)
@@ -69,6 +74,7 @@
 - **Value Suffix** (String)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)

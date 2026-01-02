@@ -13,12 +13,14 @@
 **Description:** sidebar push button/trigger element
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Pressed Trigger** (Trigger)
 
@@ -35,6 +37,7 @@
 **Description:** Shows a color-picker in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Input Red** (Number)
@@ -45,6 +48,7 @@
 - **Show Opacity** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Red** (Number)
 - **Green** (Number)
@@ -65,11 +69,13 @@
 **Description:** display a value or string
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Value** (String)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
@@ -85,6 +91,7 @@
 **Description:** Shows a drop-down (select) element in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Values** (Array)
@@ -95,6 +102,7 @@
 - **Set Default** (Trigger)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Result** (String)
 - **Index** (Number)
@@ -113,6 +121,7 @@
 **Description:** organize sidebar elements into groups
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Show Title** (Number: Boolean)
@@ -120,6 +129,7 @@
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Object)
 - **Childs** (Object)
 
@@ -136,6 +146,7 @@
 **Description:** steps through numerical or array values one by one
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Label** (String)
 - **Min** (Number)
@@ -149,6 +160,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Value** (Number)
 - **Changed** (Trigger)
@@ -166,6 +178,7 @@
 **Description:** load a local file and output as data url
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Button Text** (String)
@@ -178,6 +191,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Data URL** (String)
 - **Filename** (String)
@@ -200,11 +214,13 @@
 **Description:** Enter a number in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Set Default** (Trigger)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Result** (Number)
 
@@ -221,6 +237,7 @@
 **Description:** manage sidebar presets
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Add Preset** (Trigger)
@@ -243,6 +260,7 @@
 - **Preset 7** (Object)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Index** (Number)
 
@@ -259,6 +277,7 @@
 **Description:** Sidebar overlay to control values
 
 **> Input Ports:**
+
 - **Visible** (Number: Boolean)
 - **Opacity** (Number)
 - **Default Minimized** (Number: Boolean)
@@ -270,6 +289,7 @@
 - **Default CSS** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Opfened** (booleanNumber)
 
@@ -286,6 +306,7 @@
 **Description:** date or datetime picker in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Default** (String)
@@ -296,6 +317,7 @@
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Result** (String)
 - **Focus** (booleanNumber)
@@ -313,12 +335,14 @@
 **Description:** Add custom HTML Elements into the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Child Element** (Object)
 - **Border** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CQrFox)
@@ -334,10 +358,12 @@
 **Description:** Display an image in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **File** (String)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Image Element** (Object)
 
@@ -354,12 +380,14 @@
 **Description:** adjust appearance of sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Width** (Number: Integer)
 - **Round Corners** (Number)
 - **Special Color** (String)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/o1fXgI)
@@ -375,6 +403,7 @@
 **Description:** add tabs or switchbar to a sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Names** (Array)
 - **Text** (String)
@@ -383,6 +412,7 @@
 - **Default** (Number)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Index** (Number)
 - **String** (String)
@@ -400,12 +430,14 @@
 **Description:** Display text in the sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Id** (String)
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ut4y8i)
@@ -421,11 +453,13 @@
 **Description:** show values of all variables in a sidebar
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Id** (Number: String)
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H2kYgL)
@@ -441,6 +475,7 @@
 **Description:** Sidebar slider element (range)
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Min** (Number)
@@ -453,6 +488,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Result** (Number)
 
@@ -469,6 +505,7 @@
 **Description:** Get a string from an sidebar input field
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Where to attach the sidebar item to** (Sidebar / Sidebar Group)
 - **Text** (String)
@@ -483,6 +520,7 @@
 - **Focus Input** (Trigger)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **Result** (String)
 - **Focus** (booleanNumber)
@@ -502,6 +540,7 @@
 **Description:** sidebar boolean toggle/switch element
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Set Default** (Trigger)
@@ -509,6 +548,7 @@
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Childs** (Object)
 - **Value** (booleanNumber)
 - **Toggled** (Trigger)
@@ -526,6 +566,7 @@
 **Description:** 2d coordinate input element
 
 **> Input Ports:**
+
 - **Link** (Object)
 - **Text** (String)
 - **Input X** (Number)
@@ -536,6 +577,7 @@
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Children** (Object)
 - **X** (Number)
 - **Y** (Number)

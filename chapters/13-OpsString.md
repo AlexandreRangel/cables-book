@@ -13,10 +13,12 @@
 **Description:** Insert a line break in a string of words
 
 **> Input Ports:**
+
 - **String** (String)
 - **Max Characters Per Line** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4f-D16)
@@ -32,10 +34,12 @@
 **Description:** Check if an array contains a string which can also be a number (find,search,indexOf)
 
 **> Input Ports:**
+
 - **Array** (Array)
 - **SearchValue** (String)
 
 **< Output Ports:**
+
 - **Found** (booleanNumber)
 - **Index** (Number)
 
@@ -52,11 +56,13 @@
 **Description:** Create an array of strings and optionally attach index-number
 
 **> Input Ports:**
+
 - **String** (String)
 - **Length** (Number: Integer)
 - **Attach Number** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/haeXx3)
@@ -72,6 +78,7 @@
 **Description:** String rotate characters like a split-flap display
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Reset** (Trigger)
 - **Text** (String)
@@ -79,6 +86,7 @@
 - **Characters** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-IuM8S)
@@ -94,12 +102,14 @@
 **Description:** Joins two strings together
 
 **> Input Ports:**
+
 - **String1** (String)
 - **String2** (String)
 - **New Line** (Number: Boolean)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
@@ -115,6 +125,7 @@
 **Description:** Joins multiple strings together
 
 **> Input Ports:**
+
 - **String 0** (String)
 - **String 1** (String)
 - **String 2** (String)
@@ -125,6 +136,7 @@
 - **String 7** (String)
 
 **< Output Ports:**
+
 - **Concat String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DNW-QJ)
@@ -140,10 +152,12 @@
 **Description:** concatinate/join multiple string inputs
 
 **> Input Ports:**
+
 - **Strings_0** (String)
 - **Add Port** (String)
 
 **< Output Ports:**
+
 - **String** (String)
 - **Num Strings** (Number)
 
@@ -160,10 +174,12 @@
 **Description:** Copy string to clipboard on trigger
 
 **> Input Ports:**
+
 - **Copy** (Trigger)
 - **String** (String)
 
 **< Output Ports:**
+
 - **Success** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Rquam4)
@@ -179,10 +195,12 @@
 **Description:** delay the output of a string by n seconds
 
 **> Input Ports:**
+
 - **Value** (String)
 - **Delay** (Number)
 
 **< Output Ports:**
+
 - **Out Value** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kqtJkE)
@@ -198,10 +216,12 @@
 **Description:** does a string starts with another string?
 
 **> Input Ports:**
+
 - **String** (String)
 - **Search** (String)
 
 **< Output Ports:**
+
 - **Ends With** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/X0EBz1)
@@ -217,10 +237,12 @@
 **Description:** create an array from multiple string
 
 **> Input Ports:**
+
 - **Strings_0** (String)
 - **Add Port** (String)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Num Values** (Number)
 
@@ -237,6 +259,7 @@
 **Description:** filter valid strings (not null,undefined or empty)
 
 **> Input Ports:**
+
 - **String** (String)
 - **Invalid If Null** (Number: Boolean)
 - **Invalid If Undefined** (Number: Boolean)
@@ -244,6 +267,7 @@
 - **Invalid If 0** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Last Valid String** (String)
 - **Is Valid** (Number)
 
@@ -260,10 +284,12 @@
 **Description:** capture the current input and copy it to the output, even after a reload
 
 **> Input Ports:**
+
 - **String** (String)
 - **Button** (Trigger)
 
 **< Output Ports:**
+
 - **Frozen String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
@@ -279,11 +305,13 @@
 **Description:** Output string if pass through is true
 
 **> Input Ports:**
+
 - **String In** (String)
 - **Pass Through** (Number: Boolean)
 - **Custom Value** (String)
 
 **< Output Ports:**
+
 - **String Out** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.GateString#example)
@@ -299,11 +327,13 @@
 **Description:** string conversion using handlebars template engine
 
 **> Input Ports:**
+
 - **Template** (String)
 - **Data** (Object)
 - **Array** (Array)
 
 **< Output Ports:**
+
 - **Result** (String)
 - **Errors** (String)
 
@@ -320,9 +350,11 @@
 **Description:** convert a html encoded string to a normal UTF8 string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jVwciO)
@@ -338,9 +370,11 @@
 **Description:** encode a string to html
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jVwciO)
@@ -356,11 +390,13 @@
 **Description:** create a fixed length string from a number 1 -> 0001
 
 **> Input Ports:**
+
 - **Value** (String)
 - **Char** (String)
 - **Num** (Number: Integer)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8LJxz7)
@@ -376,12 +412,14 @@
 **Description:** Limit number of lines in a string
 
 **> Input Ports:**
+
 - **String** (String)
 - **Num Lines** (Number: Integer)
 - **Reverse** (Number: Boolean)
 - **Force Num Lines** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZCUND-)
@@ -397,9 +435,11 @@
 **Description:** Outputs a linebreak, or adds a linebreak to a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U7PniO)
@@ -415,10 +455,12 @@
 **Description:** Convert linebreaks to html breaks
 
 **> Input Ports:**
+
 - **String** (String)
 - **Add Num Breaks** (Number: Integer)
 
 **< Output Ports:**
+
 - **HTML** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/M0BG16)
@@ -434,9 +476,11 @@
 **Description:** Lorem ipsum dolor sit amet
 
 **> Input Ports:**
+
 - *Visit [Ops.String.LoremIpsum documentation](https://cables.gl/op/Ops.String.LoremIpsum) for input port details*
 
 **< Output Ports:**
+
 - **String** (String)
 - **HTML String** (String)
 - **Array** (Array)
@@ -454,9 +498,11 @@
 **Description:** convert all characters to small letters
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
@@ -472,9 +518,11 @@
 **Description:** Create a md5 hash of a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **MD5 Hash** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IyC0O8)
@@ -490,6 +538,7 @@
 **Description:** Format a number to a string in the given locale and format
 
 **> Input Ports:**
+
 - **Input Number** (Number)
 - **Locale String** (String)
 - **Minimum Integer Digits** (Number: Integer)
@@ -501,6 +550,7 @@
 - **Currency Name** (String)
 
 **< Output Ports:**
+
 - **Formatted Number** (String)
 - **Has Error** (booleanNumber)
 
@@ -517,6 +567,7 @@
 **Description:** associate numbers by strings
 
 **> Input Ports:**
+
 - **String** (String)
 - **String 1** (String)
 - **Number 1** (Number)
@@ -540,6 +591,7 @@
 - **Number 10** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CWSBeE)
@@ -555,10 +607,12 @@
 **Description:** Convert a number to a string
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Decimal Places** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fo6nci)
@@ -574,9 +628,11 @@
 **Description:** Count number of line breaks in a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Total Lines** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lkDCeT)
@@ -592,6 +648,7 @@
 **Description:** outputs the first valid string
 
 **> Input Ports:**
+
 - **String 1** (String)
 - **String 2** (String)
 - **String 3** (String)
@@ -602,6 +659,7 @@
 - **String 8** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.OrString#example)
@@ -617,9 +675,11 @@
 **Description:** Parse a string to a integer number / string to number
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Number** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.ParseInt_v2#example)
@@ -635,11 +695,13 @@
 **Description:** Generate a random string of given characters
 
 **> Input Ports:**
+
 - **Chars** (String)
 - **Length** (Number: Integer)
 - **Seed** (Number)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HqmXN8)
@@ -655,11 +717,13 @@
 **Description:** create a string with a fixed length filling the space with a character
 
 **> Input Ports:**
+
 - **Value** (String)
 - **Char** (String)
 - **Num** (Number: Integer)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8LJxz7)
@@ -675,10 +739,12 @@
 **Description:** Converts a number to a string with num decimal places, adds 0's
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Num** (Number: Integer)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ps8ZHq)
@@ -694,12 +760,14 @@
 **Description:** Route a string to an output port
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **String In** (String)
 - **Default String** (String)
 - **Set Inactive To Default** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Index 0 String** (String)
 - **Index 1 String** (String)
 - **Index 2 String** (String)
@@ -724,11 +792,13 @@
 **Description:** download a textfile containing the input string
 
 **> Input Ports:**
+
 - **Download** (Trigger)
 - **Filename** (String)
 - **Content String** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.String.SaveTextFile documentation](https://cables.gl/op/Ops.String.SaveTextFile) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mxybpX)
@@ -744,6 +814,7 @@
 **Description:** control order and flow of strings
 
 **> Input Ports:**
+
 - **String 0** (String)
 - **String 1** (String)
 - **String 2** (String)
@@ -762,6 +833,7 @@
 - **String 15** (String)
 
 **< Output Ports:**
+
 - **Output 0** (String)
 - **Output 1** (String)
 - **Output 2** (String)
@@ -792,10 +864,12 @@
 **Description:** does a string starts with another string?
 
 **> Input Ports:**
+
 - **String** (String)
 - **Search** (String)
 
 **< Output Ports:**
+
 - **Starts With** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hht1O8)
@@ -811,9 +885,11 @@
 **Description:** String input/output
 
 **> Input Ports:**
+
 - **Value** (String)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FXRsii)
@@ -829,6 +905,7 @@
 **Description:** Combine multiple Values to a new String
 
 **> Input Ports:**
+
 - **Format** (String)
 - **String A** (String)
 - **String B** (String)
@@ -838,6 +915,7 @@
 - **String F** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U4M4J5)
@@ -853,10 +931,12 @@
 **Description:** check if string contains another string (find,search,indexOf)
 
 **> Input Ports:**
+
 - **String** (String)
 - **SearchValue** (String)
 
 **< Output Ports:**
+
 - **Found** (Number)
 - **Index** (Number)
 
@@ -873,10 +953,12 @@
 **Description:** string text editor
 
 **> Input Ports:**
+
 - **Value** (String)
 - **Syntax Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Jhvn8i)
@@ -892,10 +974,12 @@
 **Description:** check if content of two strings is the same
 
 **> Input Ports:**
+
 - **String 1** (String)
 - **String 2** (String)
 
 **< Output Ports:**
+
 - **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Nx2zci)
@@ -911,10 +995,12 @@
 **Description:** output the line number at the character index
 
 **> Input Ports:**
+
 - **String** (String)
 - **Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Line** (Number)
 - **Found** (Number)
 
@@ -931,10 +1017,12 @@
 **Description:** iterate over every character of a string
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **String** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Character** (String)
 - **Index** (Number)
@@ -953,9 +1041,11 @@
 **Description:** number of characters in a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/v9GLji)
@@ -971,11 +1061,13 @@
 **Description:** Remove every occurances of given characters from a string
 
 **> Input Ports:**
+
 - **String** (String)
 - **Characters** (String)
 - **Replace** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ls8ciO)
@@ -991,12 +1083,14 @@
 **Description:** replace occurrences of a string with another string
 
 **> Input Ports:**
+
 - **String** (String)
 - **Search For** (String)
 - **Replace** (String)
 - **Replace What Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/q0iLkE)
@@ -1012,10 +1106,12 @@
 **Description:** sort each line of a string alphabetically
 
 **> Input Ports:**
+
 - **String** (String)
 - **Reverse** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MMS2O8)
@@ -1031,10 +1127,12 @@
 **Description:** create an array from multiple string
 
 **> Input Ports:**
+
 - **Strings_0** (String)
 - **Add Port** (String)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Num Values** (Number)
 
@@ -1051,6 +1149,7 @@
 **Description:** Switch between multiple strings by a string index
 
 **> Input Ports:**
+
 - **String** (String)
 - **Default** (String)
 - **String 1** (String)
@@ -1075,6 +1174,7 @@
 - **Result String 10** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.StringSwitchByString#example)
@@ -1090,9 +1190,11 @@
 **Description:** Parses a string and returns a floating point number / string to number
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Number** (Number)
 - **Not A Number** (booleanNumber)
 
@@ -1109,9 +1211,11 @@
 **Description:** Remove whitespace from both ends of a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ddmsii)
@@ -1127,9 +1231,11 @@
 **Description:** remove html tags from a string
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5NsMve)
@@ -1145,12 +1251,14 @@
 **Description:** Subset of a string between one index and another
 
 **> Input Ports:**
+
 - **String** (String)
 - **Start** (Number: Integer)
 - **End** (Number: Integer)
 - **End Of String** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FvIvci)
@@ -1166,6 +1274,7 @@
 **Description:** Switch between multiple strings with an index
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **String 0** (String)
 - **String 1** (String)
@@ -1179,6 +1288,7 @@
 - **String 9** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2uRAci)
@@ -1194,11 +1304,13 @@
 **Description:** switch between multiple string inputs
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Strings_0** (String)
 - **Add Port** (String)
 
 **< Output Ports:**
+
 - **String** (String)
 - **Num Values** (Number)
 
@@ -1215,9 +1327,11 @@
 **Description:** Convert all characters in a string to upperase
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a8qVz6)
@@ -1233,9 +1347,11 @@
 **Description:** outputs a unique identifier string
 
 **> Input Ports:**
+
 - **Generate** (Trigger)
 
 **< Output Ports:**
+
 - **Id** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ryYQwn)

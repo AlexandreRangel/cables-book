@@ -13,9 +13,11 @@
 **Description:** Sort an array of colors by saturation/lightness etc.
 
 **> Input Ports:**
+
 - **Colors** (Array)
 
 **< Output Ports:**
+
 - **New Colors** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKfluu)
@@ -31,10 +33,12 @@
 **Description:** Contains a collection of nice color palettes output to texture or array via index
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Smooth** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Color Array** (Array)
 - **The color array containing 5 colors** (15 values in total, 3 values per color – r, g and b)
@@ -52,12 +56,14 @@
 **Description:** Use a color value on multiple places
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Outr** (Number)
 - **Outg** (Number)
 - **Outb** (Number)
@@ -78,9 +84,11 @@
 **Description:** Native color picker
 
 **> Input Ports:**
+
 - **Open** (Trigger)
 
 **< Output Ports:**
+
 - **Hex** (String)
 - **R** (Number)
 - **G** (Number)
@@ -100,10 +108,12 @@
 **Description:** gradient editor,outputs an objects with gradient information
 
 **> Input Ports:**
+
 - **Gradient** (Number)
 - **Randomize Colors** (Trigger)
 
 **< Output Ports:**
+
 - **Gradient Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QB7br5)
@@ -119,6 +129,7 @@
 **Description:** texture containing a colour gradient that can be altered with an editor
 
 **> Input Ports:**
+
 - **Gradient** (Number)
 - **Direction Index** (Number: Integer)
 - **Smoothstep** (Number: Boolean)
@@ -132,6 +143,7 @@
 - **Randomize Colors** (Trigger)
 
 **< Output Ports:**
+
 - **Color Array** (Array)
 - **Width** (Number)
 - **Height** (Number)
@@ -151,10 +163,12 @@
 **Description:** Converts a hex color like `#ff0000` to number values
 
 **> Input Ports:**
+
 - **Hex** (String)
 - **Bytes** (Number: Boolean)
 
 **< Output Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
@@ -173,11 +187,13 @@
 **Description:** Convert HSL to RGB
 
 **> Input Ports:**
+
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Lightness** (Number)
 
 **< Output Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
@@ -195,6 +211,7 @@
 **Description:** Calculate the luminance contrast between two colors
 
 **> Input Ports:**
+
 - **R 1** (Number)
 - **G 1** (Number)
 - **B 1** (Number)
@@ -203,6 +220,7 @@
 - **B 2** (Number)
 
 **< Output Ports:**
+
 - **Contrast** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lFzrvs)
@@ -218,11 +236,13 @@
 **Description:** Calculate the luminance of a RGB color
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Luminance** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
@@ -238,11 +258,13 @@
 **Description:** Output the CMYK value of a RGB color
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **C** (Number)
 - **M** (Number)
 - **Y** (Number)
@@ -261,11 +283,13 @@
 **Description:** convert RGB float values to HEX color String
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Up7r8i)
@@ -281,11 +305,13 @@
 **Description:** convert RGB color to HSB Hue, Saturation, Brightness
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Brightness** (Number)
@@ -303,11 +329,13 @@
 **Description:** Convert RGB color to HSL values
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Lightness** (Number)

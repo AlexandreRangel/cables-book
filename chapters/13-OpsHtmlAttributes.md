@@ -13,12 +13,14 @@
 **Description:** Element Accessibility properties for screen reader
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Aria Label** (String)
 - **Aria Labeled By** (String)
 - **Aria Hidden** (Number: Boolean)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/R5XS8x)
@@ -34,9 +36,11 @@
 **Description:** Get all attributes from an element an object
 
 **> Input Ports:**
+
 - **Element** (Object)
 
 **< Output Ports:**
+
 - **Attribs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gflosw)
@@ -52,10 +56,12 @@
 **Description:** Read or Get the value of an HTML element Attribute
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Attribute Name** (String)
 
 **< Output Ports:**
+
 - **Value** (String)
 - **Has Attribute** (booleanNumber)
 
@@ -72,12 +78,14 @@
 **Description:** Write or Set the value of an HTML element Attribute
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Attribute** (String)
 - **Value** (String)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)

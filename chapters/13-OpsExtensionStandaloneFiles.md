@@ -13,10 +13,12 @@
 **Description:** Create a new empty file on your local harddrive
 
 **> Input Ports:**
+
 - **Default Path** (String)
 - **Create File** (Trigger)
 
 **< Output Ports:**
+
 - **Path** (String)
 - **Next** (Trigger)
 
@@ -33,10 +35,12 @@
 **Description:** Check if a file exists on the local file system
 
 **> Input Ports:**
+
 - **Path** (String)
 - **Execute** (Trigger)
 
 **< Output Ports:**
+
 - **Exists** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XlQrun)
@@ -52,9 +56,11 @@
 **Description:** convert file-url to path
 
 **> Input Ports:**
+
 - **FileUrl** (String)
 
 **< Output Ports:**
+
 - **Path** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/upnVAs)
@@ -70,10 +76,12 @@
 **Description:** Create a directory on the local file system
 
 **> Input Ports:**
+
 - **Path** (String)
 - **Create** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/q5evun)
@@ -89,10 +97,12 @@
 **Description:** Open the native file manager application using that path
 
 **> Input Ports:**
+
 - **Path** (String)
 - **Open File Manager** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.Standalone.Files.OpenFileManager documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
@@ -108,9 +118,11 @@
 **Description:** convert local path to file-url
 
 **> Input Ports:**
+
 - **Path** (String)
 
 **< Output Ports:**
+
 - **FileUrl** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pekPAs)
@@ -126,10 +138,12 @@
 **Description:** Read all entries in a directory
 
 **> Input Ports:**
+
 - **Path** (String)
 - **Reload** (Trigger)
 
 **< Output Ports:**
+
 - **Entries** (Array)
 - **Has Error** (booleanNumber)
 - **Error** (String)
@@ -147,9 +161,11 @@
 **Description:** Resolves a paths into an absolute path
 
 **> Input Ports:**
+
 - **Path** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
@@ -165,10 +181,12 @@
 **Description:** Choose a directory on your hard drive
 
 **> Input Ports:**
+
 - **Default Path** (String)
 - **Select Directory** (Trigger)
 
 **< Output Ports:**
+
 - **Path** (String)
 - **Next** (Trigger)
 
@@ -185,10 +203,12 @@
 **Description:** Choose a file on your hard drive
 
 **> Input Ports:**
+
 - **Default Path** (String)
 - **Select File** (Trigger)
 
 **< Output Ports:**
+
 - **Path** (String)
 - **Next** (Trigger)
 
@@ -205,9 +225,11 @@
 **Description:** Get statistics about a file on the local file system
 
 **> Input Ports:**
+
 - **Path** (String)
 
 **< Output Ports:**
+
 - **Stats** (Object)
 - **Is Directory** (booleanNumber)
 - **Is File** (booleanNumber)
@@ -227,9 +249,11 @@
 **Description:** Get Default System Directories Paths
 
 **> Input Ports:**
+
 - *Visit [Ops.Extension.Standalone.Files.SystemDirs documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs) for input port details*
 
 **< Output Ports:**
+
 - **Home** (String)
 - **Downloads** (String)
 - **Documents** (String)
@@ -249,10 +273,12 @@
 **Description:** Watch a directory, get a trigger when a file changes
 
 **> Input Ports:**
+
 - **Path** (String)
 - **Read** (Trigger)
 
 **< Output Ports:**
+
 - **Event Type** (String)
 - **Event Filename** (String)
 - **Event Happened** (Trigger)
@@ -273,11 +299,13 @@
 **Description:** Create a binary file on the local file system from a base64 string
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Base64** (String)
 - **Filename** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64 documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
@@ -293,11 +321,13 @@
 **Description:** Write a string to a text file on the local file system
 
 **> Input Ports:**
+
 - **Filename** (String)
 - **Content** (String)
 - **Write** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Has Error** (booleanNumber)
 - **Error** (String)

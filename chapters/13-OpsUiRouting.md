@@ -13,9 +13,11 @@
 **Description:** Patchfield cable routing helper for array cables
 
 **> Input Ports:**
+
 - **Array In** (Array)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
@@ -31,9 +33,11 @@
 **Description:** Patchfield cable routing helper for number cables
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
@@ -49,9 +53,11 @@
 **Description:** Patchfield cable routing helper for object cables
 
 **> Input Ports:**
+
 - **Array In** (Object)
 
 **< Output Ports:**
+
 - **Array Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
@@ -67,9 +73,11 @@
 **Description:** Patchfield cable routing helper for string cables
 
 **> Input Ports:**
+
 - **Value** (String)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
@@ -85,9 +93,11 @@
 **Description:** Routing Helper for trigger cables
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)

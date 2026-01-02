@@ -13,10 +13,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Array** (Array)
 
@@ -33,10 +35,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Name** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Value** (Number)
 
@@ -53,10 +57,12 @@
 **Description:** read a value from the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Name** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 
@@ -73,10 +79,12 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
@@ -92,11 +100,13 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Name** (String)
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)
@@ -112,11 +122,13 @@
 **Description:** push a value on to the stack to use it later in the trigger branch
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NT30kP)

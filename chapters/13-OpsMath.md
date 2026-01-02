@@ -13,9 +13,11 @@
 **Description:** Returns the absolute, positive value
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **The absolute value of Number** (always positive)
 
@@ -32,6 +34,7 @@
 **Description:** Add to and multiply a number, set to current value
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Add To Number** (Number)
 - **Multiplier To Add Number** (Number)
@@ -39,6 +42,7 @@
 - **Set Default Value** (Trigger)
 
 **< Output Ports:**
+
 - **Current Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ejzvsx)
@@ -54,11 +58,13 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.AddUp) for details*
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Add** (Trigger)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cWh78i)
@@ -74,12 +80,14 @@
 **Description:** outputs the angle between two points (degree)
 
 **> Input Ports:**
+
 - **Point 1 X** (Number)
 - **Point 1 Y** (Number)
 - **Point 2 X** (Number)
 - **Point 2 Y** (Number)
 
 **< Output Ports:**
+
 - **Angle** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aMsTGc)
@@ -95,11 +103,13 @@
 **Description:** multiply every XYZ coordinate with a matrix
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Array** (Array)
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix#example)
@@ -115,6 +125,7 @@
 **Description:** calculate 2d positions of an array3x
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Array3x** (Array)
 - **Fov** (Number)
@@ -125,6 +136,7 @@
 - **Mul** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Array2x** (Array)
 
@@ -141,12 +153,14 @@
 **Description:** Calculates the angle from a specified point to the coordinate origin.
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Phase** (Number)
 - **Frequency** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Atan2#example)
@@ -162,10 +176,12 @@
 **Description:** average of last two values
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Influence** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Average#example)
@@ -181,9 +197,11 @@
 **Description:** generate coordinates of a butterfly curve
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 
@@ -200,9 +218,11 @@
 **Description:** Returns the smallest integer greater than or equal to a given number
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
@@ -218,10 +238,12 @@
 **Description:** x and y coordinates of a circle
 
 **> Input Ports:**
+
 - **Position** (Number)
 - **Radius** (Number)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 
@@ -238,12 +260,14 @@
 **Description:** Makes sure a value is within range cuts off the rest
 
 **> Input Ports:**
+
 - **Val** (Number)
 - **Min** (Number)
 - **Max** (Number)
 - **Ignore Outside Values** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Clamp#example)
@@ -259,6 +283,7 @@
 **Description:** Calculates the cosine of an angle.
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Phase** (Number)
 - **Frequency** (Number)
@@ -266,6 +291,7 @@
 - **Asine** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RhfUW2)
@@ -281,6 +307,7 @@
 **Description:** Computes the cross product of two vec3's
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **X1** (Number)
 - **Y1** (Number)
@@ -290,6 +317,7 @@
 - **Z2** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -308,9 +336,11 @@
 **Description:** Converts a radian measurement to its corresponding value in degrees.
 
 **> Input Ports:**
+
 - **Radians** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Degrees#example)
@@ -326,10 +356,12 @@
 **Description:** Calculates a vector (x and y) based on an angle in degrees
 
 **> Input Ports:**
+
 - **Degree** (Number)
 - **The angle you want to convert** (in degrees)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 
@@ -346,11 +378,13 @@
 **Description:** difference to the last value (previous, store)
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Change Always** (Number: Boolean)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Delta** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Delta#example)
@@ -366,6 +400,7 @@
 **Description:** add delta values to an clamped absolute value
 
 **> Input Ports:**
+
 - **Delta Value** (Number)
 - **Default Value** (Number)
 - **Multiply** (Number)
@@ -376,6 +411,7 @@
 - **Rubberband** (Number)
 
 **< Output Ports:**
+
 - **Absolute Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
@@ -391,10 +427,12 @@
 **Description:** Difference between two numbers
 
 **> Input Ports:**
+
 - **Number A** (Number)
 - **Number B** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Difference#example)
@@ -410,12 +448,14 @@
 **Description:** Calculates the Distance between two 2d points
 
 **> Input Ports:**
+
 - **X1** (Number)
 - **Y1** (Number)
 - **X2** (Number)
 - **Y2** (Number)
 
 **< Output Ports:**
+
 - **Distance** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7mTKgg)
@@ -431,6 +471,7 @@
 **Description:** distance between two 3d points, calculated when triggered
 
 **> Input Ports:**
+
 - **Calc** (Trigger)
 - **X1** (Number)
 - **Y1** (Number)
@@ -440,6 +481,7 @@
 - **Z2** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Distance** (Number)
 
@@ -456,10 +498,12 @@
 **Description:** Divides a number by another
 
 **> Input Ports:**
+
 - **Number1** (Number)
 - **Number2** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Divide#example)
@@ -475,12 +519,14 @@
 **Description:** map a value to an easing curve
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Min** (Number)
 - **Max** (Number)
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rLxYY6)
@@ -496,9 +542,11 @@
 **Description:** Calculates the power of Euler’s number
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Exp#example)
@@ -514,9 +562,11 @@
 **Description:** positive numbers become negative and vice versa (negate)
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.FlipSign#example)
@@ -532,9 +582,11 @@
 **Description:** returns the largest integer less than or equal to a given number
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
@@ -550,9 +602,11 @@
 **Description:** returns the fractional part of a number
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VWb2t7)
@@ -568,11 +622,13 @@
 **Description:** random numbers fitting a Gaussian, or normal, distribution
 
 **> Input Ports:**
+
 - **Num** (Number: Integer)
 - **Deviation** (Number)
 - **Random Seed** (Number)
 
 **< Output Ports:**
+
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/i14QNS)
@@ -588,6 +644,7 @@
 **Description:** increment a number by triggering
 
 **> Input Ports:**
+
 - **Increment** (Trigger)
 - **Decrement** (Trigger)
 - **Limit** (Number: Boolean)
@@ -596,6 +653,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Changed** (Trigger)
 - **Value** (Number)
 - **Restarted** (Trigger)
@@ -613,10 +671,12 @@
 **Description:** return fraction of value by index
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SV3NPO)
@@ -632,11 +692,13 @@
 **Description:** Interpolate between values, lerp, linear interpolate
 
 **> Input Ports:**
+
 - **Value 1** (Number)
 - **Value 2** (Number)
 - **Percentage** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Interpolate#example)
@@ -652,9 +714,11 @@
 **Description:** detect if a number rising or falling
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Rising** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UN11cI)
@@ -670,9 +734,11 @@
 **Description:** Calculates the logarithm of Number
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Log#example)
@@ -688,10 +754,12 @@
 **Description:** map geo locations (latitude - longitude) to spherical coordinates
 
 **> Input Ports:**
+
 - **Coordinates** (Array)
 - **Radius** (Number)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BvXW5Q)
@@ -707,6 +775,7 @@
 **Description:** Maps a value from one range into another.
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Old Min** (Number)
 - **Old Max** (Number)
@@ -716,6 +785,7 @@
 - **Clamp** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YFIVGc)
@@ -731,11 +801,13 @@
 **Description:** Allows different mathematical operations to be applied to two numbers
 
 **> Input Ports:**
+
 - **Number 0** (Number)
 - **Number 1** (Number)
 - **Math Mode Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mTqdVJ)
@@ -751,6 +823,7 @@
 **Description:** calculates a user defined mathematical expression
 
 **> Input Ports:**
+
 - **A** (Number)
 - **B** (Number)
 - **C** (Number)
@@ -758,6 +831,7 @@
 - **Expression** (String)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
 
@@ -774,10 +848,12 @@
 **Description:** Sets the output to the input value which is higher
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Maximum** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hV3X7i)
@@ -793,10 +869,12 @@
 **Description:** Outputs the maximum value since reset has been triggered
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Maximum** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.MaxSinceReset#example)
@@ -812,12 +890,14 @@
 **Description:** project mercator coordinates
 
 **> Input Ports:**
+
 - **Latitude** (Number)
 - **Longitude** (Number)
 - **MapWidth** (Number)
 - **MapHeight** (Number)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 
@@ -834,12 +914,14 @@
 **Description:** Mercator map and center an array of latitudes and longitudes to a local coordinate system
 
 **> Input Ports:**
+
 - **LatLon Array** (Array)
 - **MapWidth** (Number)
 - **Center Lat** (Number)
 - **Center Lon** (Number)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vgRDeT)
@@ -855,10 +937,12 @@
 **Description:** Result will be the smaller number of the inputs
 
 **> Input Ports:**
+
 - **Value 1** (Number)
 - **Value 2** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rvAW7i)
@@ -874,10 +958,12 @@
 **Description:** Outputs the minimum value since reset has been triggered
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Minimum** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.MinSinceReset#example)
@@ -893,11 +979,13 @@
 **Description:** outputs the remainder after division of one number by another
 
 **> Input Ports:**
+
 - **Number1** (Number)
 - **Number2** (Number)
 - **Pingpong** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Modulo#example)
@@ -913,6 +1001,7 @@
 **Description:** multiply XYZ values with a gl matrix vec3 x mat4
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -920,6 +1009,7 @@
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result X** (Number)
 - **Result Y** (Number)
@@ -938,10 +1028,12 @@
 **Description:** Multiplies two numbers
 
 **> Input Ports:**
+
 - **Number1** (Number)
 - **Number2** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0010r1)
@@ -957,12 +1049,14 @@
 **Description:** multiply three numbers
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **Multiply** (Number)
 
 **< Output Ports:**
+
 - **ResultR** (Number)
 - **ResultG** (Number)
 - **ResultB** (Number)
@@ -980,11 +1074,13 @@
 **Description:** normalize a vector
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Result X** (Number)
 - **Result Y** (Number)
 - **Result Z** (Number)
@@ -1002,10 +1098,12 @@
 **Description:** is a number capable of being divided.
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Divisor** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-IqoJ5)
@@ -1021,9 +1119,11 @@
 **Description:** subtract a number from one
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8-XQ5d)
@@ -1039,6 +1139,7 @@
 **Description:** outputs a perlin noise value like random
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
@@ -1046,6 +1147,7 @@
 - **Seed** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gOCdhL)
@@ -1061,9 +1163,11 @@
 **Description:** returns PI (3.141592653589793) * multiply amount
 
 **> Input Ports:**
+
 - **Multiply Amount** (Number)
 
 **< Output Ports:**
+
 - **Pi** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Pi#example)
@@ -1079,6 +1183,7 @@
 **Description:** test if a point is in or outside of a rectangle
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Rect Top** (Number)
@@ -1087,6 +1192,7 @@
 - **Rect Bottom** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **Pos X** (Number)
 - **Pos Y** (Number)
@@ -1104,10 +1210,12 @@
 **Description:** value of x to the power of y
 
 **> Input Ports:**
+
 - **Base** (Number)
 - **Exponent** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Pow#example)
@@ -1123,11 +1231,13 @@
 **Description:** Return the next values as power of two
 
 **> Input Ports:**
+
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 - **Strategy Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Width Result** (Number)
 - **Height Result** (Number)
 
@@ -1144,9 +1254,11 @@
 **Description:** Converts a degree measurement to its corresponding value in radians.
 
 **> Input Ports:**
+
 - **Degrees** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Radians#example)
@@ -1162,11 +1274,13 @@
 **Description:** add up random numbers by triggering
 
 **> Input Ports:**
+
 - **Count** (Trigger)
 - **Step Min** (Number)
 - **Step Max** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/I8AxeE)
@@ -1182,11 +1296,13 @@
 **Description:** Simple way to get random numbers without using arrays
 
 **> Input Ports:**
+
 - **Seed** (Number)
 - **Min** (Number)
 - **Max** (Number)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
@@ -1205,10 +1321,12 @@
 **Description:** Random number generator from a string seed
 
 **> Input Ports:**
+
 - **Input String** (String)
 - **Random Number Count** (Number: Integer)
 
 **< Output Ports:**
+
 - **Random Value** (Number)
 - **Random Numbers** (Array)
 
@@ -1225,12 +1343,14 @@
 **Description:** Create rotation matrix from normal
 
 **> Input Ports:**
+
 - **Normal X** (Number)
 - **Normal Y** (Number)
 - **Normal Z** (Number)
 - **Recalculate** (Trigger)
 
 **< Output Ports:**
+
 - **RotationMatrix** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.RotationFromNormal#example)
@@ -1246,10 +1366,12 @@
 **Description:** Outputs number rounded to the nearest integer
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Decimal Places** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
@@ -1265,10 +1387,12 @@
 **Description:** round to the next even number
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Mode Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a0z7hL)
@@ -1284,11 +1408,13 @@
 **Description:** Custom easing curve via schlick bias and gain
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Gain** (Number)
 - **Bias** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FO9IG3)
@@ -1304,10 +1430,12 @@
 **Description:** get sign of value
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Remove Zero** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
@@ -1323,10 +1451,12 @@
 **Description:** Calculate the Average of the last X values
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Number Of Values** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.SimpleMovingAverage#example)
@@ -1342,6 +1472,7 @@
 **Description:** Calculates the sine of an angle.
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Phase** (Number)
 - **Frequency** (Number)
@@ -1349,6 +1480,7 @@
 - **Asine** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RhfUW2)
@@ -1364,10 +1496,12 @@
 **Description:** measure speed of how much a value changes
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Speed** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Sgmd39)
@@ -1383,9 +1517,11 @@
 **Description:** square root of a number
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Sqrt#example)
@@ -1401,10 +1537,12 @@
 **Description:** Subtracts Number2 from Number1 (minus, -)
 
 **> Input Ports:**
+
 - **Number1** (Number)
 - **Number2** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Subtract#example)
@@ -1420,10 +1558,12 @@
 **Description:** Result of the addition
 
 **> Input Ports:**
+
 - **Number1** (Number)
 - **Number2** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P7d1r1)
@@ -1439,6 +1579,7 @@
 **Description:** Calculates the ratio of the sine and cosine of an angle.
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Phase** (Number)
 - **Frequency** (Number)
@@ -1446,6 +1587,7 @@
 - **Asine** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Tangent#example)
@@ -1461,6 +1603,7 @@
 **Description:** calculates a user defined mathematical expression
 
 **> Input Ports:**
+
 - **Calculate** (Trigger)
 - **Expression** (String)
 - **X** (Number)
@@ -1474,6 +1617,7 @@
 - **I** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
@@ -1491,6 +1635,7 @@
 **Description:** Generate random number between min and max
 
 **> Input Ports:**
+
 - **Generate** (Trigger)
 - **Min** (Number)
 - **Max** (Number)
@@ -1498,6 +1643,7 @@
 - **No Consecutive Duplicates** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 
@@ -1514,11 +1660,13 @@
 **Description:** length of a vector
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.VectorLength#example)

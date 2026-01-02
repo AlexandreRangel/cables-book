@@ -13,6 +13,7 @@
 **Description:** Play Bodymovin/Lottie animations as SVG in a HTML element
 
 **> Input Ports:**
+
 - **HTML Element** (Object:Element)
 - **JSON Data** (Object)
 - **Render Frame** (Number)
@@ -23,6 +24,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Completed** (booleanNumber)
 - **Progress** (Number)
 - **Total Frames** (Number)
@@ -40,6 +42,7 @@
 **Description:** Play a Lottie animation in a texture
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **JSON Data** (Object)
 - **Play Mode Index** (Number: Integer)
@@ -54,6 +57,7 @@
 - **Scale Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Total Frames** (Number)
 

@@ -13,11 +13,13 @@
 **Description:** cables logo mesh/geometry
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -34,6 +36,7 @@
 **Description:** Draws a circle to the canvas.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Radius** (Number)
 - **InnerRadius** (Number)
@@ -45,6 +48,7 @@
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -61,6 +65,7 @@
 **Description:** Draws a cross with controllable thickness and length.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Size** (Number)
 - **Thickness** (Number)
@@ -72,6 +77,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 
@@ -88,6 +94,7 @@
 **Description:** Draws a cube to the canvas. Please note that without doing a rotation you will only see a rectangle.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Render Mesh** (Number: Boolean)
 - **Width** (Number)
@@ -104,6 +111,7 @@
 - **Back** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 
@@ -120,6 +128,7 @@
 **Description:** draw a rectangle (plane, square)
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Render** (Number: Boolean)
 - **Width** (Number)
@@ -130,6 +139,7 @@
 - **Num Rows** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -146,6 +156,7 @@
 **Description:** Draw parameterizable sphere
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Radius** (Number)
 - **Stacks** (Number)
@@ -153,6 +164,7 @@
 - **Filloffset** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -169,6 +181,7 @@
 **Description:** draw a star mesh (saw,gear)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Segments** (Number)
 - **Radius** (Number)
@@ -180,6 +193,7 @@
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -196,12 +210,14 @@
 **Description:** Renders a triangle to the canvas.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 

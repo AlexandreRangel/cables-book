@@ -13,6 +13,7 @@
 **Description:** Define filters to get colliding and intersecting bodies
 
 **> Input Ports:**
+
 - **Collisions** (Array)
 - **Name 1** (String)
 - **Match Name 1 Index** (Number: Integer)
@@ -20,6 +21,7 @@
 - **Match Name 2 Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Colliding** (booleanNumber)
 - **Num Collisions** (Number)
 - **Result Collisions** (Array)
@@ -37,6 +39,7 @@
 **Description:** Add Bodies and check if they intersect/collide with each other
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Radius** (Number)
@@ -47,6 +50,7 @@
 - **Append Index To Name** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
@@ -62,11 +66,13 @@
 **Description:** test one body against all bodies in the world
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
@@ -84,6 +90,7 @@
 **Description:** test intersect bodies collision against a point/coordinate
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -91,6 +98,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
@@ -111,6 +119,7 @@
 **Description:** Cast a ray and check if it intersect/collide with bodies
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -122,6 +131,7 @@
 - **Change Cursor** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
@@ -142,10 +152,12 @@
 **Description:** Define a world to check for intersections and collisions
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Check Body Collisions** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Bodies** (Number)
 - **Collisions** (Array)

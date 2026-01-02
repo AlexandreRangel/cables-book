@@ -13,10 +13,12 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture) for details*
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Image DataUrl** (String)
 - **Progress** (Number)
 - **Finished** (Trigger)

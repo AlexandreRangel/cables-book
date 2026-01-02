@@ -13,6 +13,7 @@
 **Description:** Track a position of a specific color in the current webcam stream
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Video Element** (Object)
 - **Threshold** (Number)
@@ -22,6 +23,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Positions** (Array)
 - **Sizes** (Array)
 

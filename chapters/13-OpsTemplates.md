@@ -13,9 +13,11 @@
 **Description:** example how to code a viz layer op
 
 **> Input Ports:**
+
 - **Number** (Number)
 
 **< Output Ports:**
+
 - *Visit [Ops.Templates.ExampleVizOp documentation](https://cables.gl/op/Ops.Templates.ExampleVizOp) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Templates.ExampleVizOp#example)
@@ -31,10 +33,12 @@
 **Description:** Material Example Template
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Red** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aySyci)
@@ -50,9 +54,11 @@
 **Description:** Is a template for creating Array ports
 
 **> Input Ports:**
+
 - **Array In** (Array)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -68,9 +74,11 @@
 **Description:** Is a template for creating Boolean ports
 
 **> Input Ports:**
+
 - **Boolean In** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Boolean Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -86,9 +94,11 @@
 **Description:** Is a template for creating Object ports
 
 **> Input Ports:**
+
 - **Object In** (Object)
 
 **< Output Ports:**
+
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -104,9 +114,11 @@
 **Description:** Is a template for creating String ports
 
 **> Input Ports:**
+
 - **String In** (String)
 
 **< Output Ports:**
+
 - **String Out** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -122,10 +134,12 @@
 **Description:** Is a template for creating Trigger ports
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Press Me** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -141,9 +155,11 @@
 **Description:** Is a template for creating Value ports
 
 **> Input Ports:**
+
 - **Number In** (Number)
 
 **< Output Ports:**
+
 - **Value Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rWJICn)
@@ -159,10 +175,12 @@
 **Description:** shader effect example template
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Templates.ShaderEffectExample#example)
@@ -178,6 +196,7 @@
 **Description:** UI indicators example op
 
 **> Input Ports:**
+
 - **Loading Task** (Number: Boolean)
 - **Loading** (Number: Boolean)
 - **Warning** (Number: Boolean)
@@ -195,6 +214,7 @@
 - **Open New Tab** (Trigger)
 
 **< Output Ports:**
+
 - **Something** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RUUacI)

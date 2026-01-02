@@ -1,17 +1,61 @@
-%% Custom styling for Cables.gl Book
+%% ============================================================
+%% CABLES.GL BOOK - CUSTOM STYLING
+%% ============================================================
+%% 
+%% EASY-TO-CHANGE SETTINGS ARE BELOW
+%% Modify these values to adjust typography throughout the book
+%%
+%% ============================================================
+
+%% ------------------------------------------------------------
+%% FONT SIZES AND LEADING (line spacing)
+%% Format: \fontsize{SIZE}{LEADING} where LEADING = line height
+%% ------------------------------------------------------------
+
+%% Section 1 (Chapter titles) - largest
+\newcommand{\SectionOneFontSize}{24}
+\newcommand{\SectionOneLeading}{19}
+
+%% Section 2 (Major sections)
+\newcommand{\SectionTwoFontSize}{18}
+\newcommand{\SectionTwoLeading}{15}
+
+%% Section 3 (Subsections)
+\newcommand{\SectionThreeFontSize}{14}
+\newcommand{\SectionThreeLeading}{12}
+
+%% Section 4 / Paragraph headers
+\newcommand{\SectionFourFontSize}{12}
+\newcommand{\SectionFourLeading}{11}
+
+%% Code block line spacing (1.0 = normal, 0.85 = 15% tighter)
+\newcommand{\CodeBlockLineSpacing}{0.85}
+
+%% ------------------------------------------------------------
+%% IMAGE SETTINGS
+%% ------------------------------------------------------------
+
+%% Image width as fraction of line width (0.8 = 80%)
+\newcommand{\ImageWidthFraction}{0.8}
+
+%% ============================================================
+%% END OF EASY-TO-CHANGE SETTINGS
+%% ============================================================
+
 
 %% Basic packages
 \usepackage{graphicx}
 \usepackage{xcolor}
 
-%% Image handling - ensure images don't overflow page width
+%% Image handling - scale images and left-align
 \usepackage{adjustbox}
 \usepackage{float}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\scaledwidth{\ImageWidthFraction\maxwidth}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
 \makeatother
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setkeys{Gin}{width=\ImageWidthFraction\linewidth,height=\maxheight,keepaspectratio}
 
 %% Left-align images (no centering) and remove figure captions
 \usepackage{caption}
@@ -20,62 +64,59 @@
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
   \noindent\minipage{\linewidth}%
+  \raggedright
 }{%
   \endminipage\par\addvspace{\medskipamount}%
 }
+\let\@floatboxreset\relax
 \makeatother
 
-%% TOC spacing - add small space between section numbers and titles
+%% TOC spacing
 \usepackage{tocloft}
 \setlength{\cftsecnumwidth}{2.5em}
 \setlength{\cftsubsecnumwidth}{3.2em}
 \setlength{\cftsubsubsecnumwidth}{4em}
 \setlength{\cftparanumwidth}{4.8em}
 
-%% Font fallbacks for symbols and emojis
+%% Font fallbacks
 \usepackage{fontspec}
 
-%% No special unicode character mappings needed - using pure ASCII
-
-%% Define colors - simple dark gray palette
+%% Define colors
 \definecolor{headergray}{RGB}{51,51,51}
 \definecolor{linkblue}{RGB}{0,102,204}
 
-%% Custom header styles - dark gray with size hierarchy
+%% Custom header styles using the settings above
 \usepackage{titlesec}
 
-%% Section 1 - largest
+%% Section 1 - largest (chapter titles)
 \titleformat{\section}
-  {\fontsize{24}{28}\bfseries\color{headergray}}
+  {\fontsize{\SectionOneFontSize}{\SectionOneLeading}\bfseries\color{headergray}}
   {\thesection}{1em}{}
 
-%% Section 2
+%% Section 2 (major sections)
 \titleformat{\subsection}
-  {\fontsize{18}{22}\bfseries\color{headergray}}
+  {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{headergray}}
   {\thesubsection}{1em}{}
 
-%% Section 3
+%% Section 3 (subsections)
 \titleformat{\subsubsection}
-  {\fontsize{14}{18}\bfseries\color{headergray}}
+  {\fontsize{\SectionThreeFontSize}{\SectionThreeLeading}\bfseries\color{headergray}}
   {\thesubsubsection}{1em}{}
 
-%% Section 4 - not numbered
+%% Section 4 / Paragraph - not numbered
 \titleformat{\paragraph}
-  {\fontsize{12}{16}\bfseries\color{headergray}}
+  {\fontsize{\SectionFourFontSize}{\SectionFourLeading}\bfseries\color{headergray}}
   {}{0em}{}
 
-%% Set section numbering depth to 3 (sections, subsections, subsubsections only)
-%% This prevents paragraphs (level 4) from being numbered
+%% Set section numbering depth to 3
 \setcounter{secnumdepth}{3}
 
-%% Code block styling - light gray box with rounded corners
+%% Code block styling
 \usepackage{fancyvrb}
 \usepackage[framemethod=tikz]{mdframed}
 
-%% Define code block background color (20% gray = RGB 204,204,204)
 \definecolor{codebg}{RGB}{204,204,204}
 
-%% Configure mdframed style for code blocks with rounded corners
 \mdfdefinestyle{codeboxstyle}{
     backgroundcolor=codebg,
     linecolor=codebg,
@@ -91,11 +132,12 @@
     skipbelow=\baselineskip
 }
 
-%% Wrap fancyvrb's Verbatim environment with mdframed
-%% mdframed has built-in support for fancyvrb environments
-\surroundwithmdframed[style=codeboxstyle]{Verbatim}
+%% Set code block line spacing using the setting above
+\DefineVerbatimEnvironment{Verbatim}{Verbatim}{
+    baselinestretch=\CodeBlockLineSpacing
+}
 
-%% Also handle standard verbatim environment
+\surroundwithmdframed[style=codeboxstyle]{Verbatim}
 \surroundwithmdframed[style=codeboxstyle]{verbatim}
 
 %% Link colors
@@ -108,4 +150,3 @@
     filecolor=headergray
   }
 }
-

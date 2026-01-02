@@ -13,10 +13,12 @@
 **Description:** Returns current date and time and timestamp
 
 **> Input Ports:**
+
 - **Update Rate** (Number)
 - **How often the op should update the output** (in milliseconds)
 
 **< Output Ports:**
+
 - **Year** (Number)
 - **Month** (Number)
 - **Day** (Number)
@@ -38,6 +40,7 @@
 **Description:** Perform date calculations
 
 **> Input Ports:**
+
 - **Timestamp** (Number)
 - **Difference** (Number: Integer)
 - **Type Index** (Number: Integer)
@@ -45,6 +48,7 @@
 - **Update time value** (not needed if an timestamp input is used)
 
 **< Output Ports:**
+
 - **Date** (Object)
 - **Timestamp** (Number)
 
@@ -61,11 +65,13 @@
 **Description:** Calculates the difference between two timestamps
 
 **> Input Ports:**
+
 - **Timestamp 1** (Number)
 - **Timestamp 2** (Number)
 - **Stop At 0** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Year** (Number)
 - **Month** (Number)
 - **Day** (Number)
@@ -88,11 +94,13 @@
 **Description:** String representation of a date
 
 **> Input Ports:**
+
 - **Timestamp** (Number)
 - **Date** (Object)
 - **Format** (String)
 
 **< Output Ports:**
+
 - **StringDate** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
@@ -108,9 +116,11 @@
 **Description:** parses a date and time in iso format and outputs a millisecond timestamp
 
 **> Input Ports:**
+
 - **Datetime** (String)
 
 **< Output Ports:**
+
 - **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nsSRrU)
@@ -126,6 +136,7 @@
 **Description:** Calculates the timestamp of a date by year / month / day / hour / minute
 
 **> Input Ports:**
+
 - **Year** (Number: Integer)
 - **Month** (Number: Integer)
 - **Day** (Number: Integer)
@@ -133,6 +144,7 @@
 - **Minute** (Number: Integer)
 
 **< Output Ports:**
+
 - **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Date.DateTimestamp#example)
@@ -148,9 +160,11 @@
 **Description:** Value since the time origin in milliseconds (performance.now())
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dJzVbI)
@@ -166,9 +180,11 @@
 **Description:** convert a timestamp to an ISO date string
 
 **> Input Ports:**
+
 - **Timestamp** (Number)
 
 **< Output Ports:**
+
 - **ISO Date** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqNl8i)

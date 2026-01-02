@@ -13,10 +13,12 @@
 **Description:** create an array with multiple objects
 
 **> Input Ports:**
+
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
 **< Output Ports:**
+
 - **Array** (Array)
 - **Num Values** (Number)
 
@@ -33,9 +35,11 @@
 **Description:** Creates a copy of a JSON object
 
 **> Input Ports:**
+
 - *Visit [Ops.Json.CopyObject documentation](https://cables.gl/op/Ops.Json.CopyObject) for input port details*
 
 **< Output Ports:**
+
 - **Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xJCXJK)
@@ -51,9 +55,11 @@
 **Description:** parse CSV files as array
 
 **> Input Ports:**
+
 - **File** (String)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Num Items** (Number)
 
@@ -70,11 +76,13 @@
 **Description:** get all values of a CSV column as array of strings
 
 **> Input Ports:**
+
 - **Column Name** (String)
 - **CSV Array** (Array)
 - **Numbers** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.CsvColumnArray_v2#example)
@@ -90,9 +98,11 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.EmptyObject) for details*
 
 **> Input Ports:**
+
 - *Visit [Ops.Json.EmptyObject documentation](https://cables.gl/op/Ops.Json.EmptyObject) for input port details*
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/piMxeG)
@@ -108,9 +118,11 @@
 **Description:** Filter valid objects
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Last Valid Object** (Object)
 - **Is Valid** (booleanNumber)
 
@@ -127,11 +139,13 @@
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
 **> Input Ports:**
+
 - **Object In** (Object)
 - **Pass Through** (Number: Boolean)
 - **Only Valid Objects** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.GateObject#example)
@@ -147,9 +161,11 @@
 **Description:** HttpRequest/Fetch Streaming
 
 **> Input Ports:**
+
 - **Fetch Response** (Object)
 
 **< Output Ports:**
+
 - **Result** (Object)
 - **Received Result** (Trigger)
 - **Started** (Trigger)
@@ -167,6 +183,7 @@
 **Description:** Request a json file and output an object (ajax, url, json,fetch)
 
 **> Input Ports:**
+
 - **URL** (String)
 - **HTTP Method Index** (Number: Integer)
 - **Request Body** (String)
@@ -181,6 +198,7 @@
 - **Reload** (Trigger)
 
 **< Output Ports:**
+
 - **Response Json Object** (Object)
 - **Response String** (String)
 - **Response Data Url** (String)
@@ -205,9 +223,11 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.Object) for details*
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.Object#example)
@@ -223,10 +243,12 @@
 **Description:** Remove a Property from an Object by Key
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 
 **< Output Ports:**
+
 - **Object Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/piMxeG)
@@ -242,11 +264,13 @@
 **Description:** filter values from an object if key starts with input string
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Name** (String)
 - **Remove Null** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KEDALu)
@@ -262,6 +286,7 @@
 **Description:** outputs the last changed object
 
 **> Input Ports:**
+
 - **Object1** (Object)
 - **Object2** (Object)
 - **Object3** (Object)
@@ -269,6 +294,7 @@
 - **Object5** (Object)
 
 **< Output Ports:**
+
 - **Out Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectFunnel#example)
@@ -284,10 +310,12 @@
 **Description:** Returns an array from a JSON-object
 
 **> Input Ports:**
+
 - **Data** (Object)
 - **Key** (String)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Length** (Number)
 
@@ -304,10 +332,12 @@
 **Description:** Get a number from an object
 
 **> Input Ports:**
+
 - **Data** (Object)
 - **Key** (String)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **Found** (booleanNumber)
 
@@ -324,10 +354,12 @@
 **Description:** Get an object from an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectGetObject_v2#example)
@@ -343,10 +375,12 @@
 **Description:** Get string from object by key
 
 **> Input Ports:**
+
 - **Data** (Object)
 - **Key** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 - **Found** (booleanNumber)
 
@@ -363,9 +397,11 @@
 **Description:** check if object is null or a valid object
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectIsNull#example)
@@ -381,9 +417,11 @@
 **Description:** returns an array of strings, which contain the keys of the object
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Keys** (Array)
 - **Num Keys** (Number)
 
@@ -400,10 +438,12 @@
 **Description:** merge key+values of two objects
 
 **> Input Ports:**
+
 - **Object 1** (Object)
 - **Object 2** (Object)
 
 **< Output Ports:**
+
 - **Object Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LNJHeG)
@@ -419,6 +459,7 @@
 **Description:** result is first connected valid object
 
 **> Input Ports:**
+
 - **Object 1** (Object)
 - **Object 2** (Object)
 - **Object 3** (Object)
@@ -429,6 +470,7 @@
 - **Object 8** (Object)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectOr#example)
@@ -444,12 +486,14 @@
 **Description:** record objects and download as json file
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 - **Download** (Trigger)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Num Objects** (Number)
 
@@ -466,11 +510,13 @@
 **Description:** Set array by key in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **Value** (Array)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetArray_v2#example)
@@ -486,11 +532,13 @@
 **Description:** set number at key in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **Boolean** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w63Au1)
@@ -506,6 +554,7 @@
 **Description:** Set rgba array by key in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **R** (Number)
@@ -514,6 +563,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 - **Out R** (Number)
 - **Out G** (Number)
@@ -533,11 +583,13 @@
 **Description:** set number at key in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2#example)
@@ -553,11 +605,13 @@
 **Description:** set object as value in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **Object Value** (Object)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7X58nR)
@@ -573,11 +627,13 @@
 **Description:** set a string value by key in an object
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Key** (String)
 - **Value** (String)
 
 **< Output Ports:**
+
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetString_v2#example)
@@ -593,10 +649,12 @@
 **Description:** Convert object to string
 
 **> Input Ports:**
+
 - **Object** (Object)
 - **Beautify** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 - **Error** (booleanNumber)
 
@@ -613,9 +671,11 @@
 **Description:** cast an object port to an array port
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectToArray#example)
@@ -631,9 +691,11 @@
 **Description:** extract all object values as an array
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Values** (Array)
 - **Num Values** (Number)
 
@@ -650,9 +712,11 @@
 **Description:** Parses a string to a JSON object
 
 **> Input Ports:**
+
 - **JSON String** (String)
 
 **< Output Ports:**
+
 - **Result** (Object)
 - **Valid** (booleanNumber)
 
@@ -669,9 +733,11 @@
 **Description:** Removes data URL prefix from a string
 
 **> Input Ports:**
+
 - **String Input** (String)
 
 **< Output Ports:**
+
 - **String Output** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example)
@@ -687,11 +753,13 @@
 **Description:** Route an object to an output port
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Object In** (Object)
 - **Default Object** (Object)
 
 **< Output Ports:**
+
 - **Index 0 Object** (Object)
 - **Index 1 Object** (Object)
 - **Index 2 Object** (Object)
@@ -716,11 +784,13 @@
 **Description:** save/download an object as json file
 
 **> Input Ports:**
+
 - **Download** (Trigger)
 - **Filename** (String)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - *Visit [Ops.Json.SaveJsonFile documentation](https://cables.gl/op/Ops.Json.SaveJsonFile) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J0c008)
@@ -736,6 +806,7 @@
 **Description:** control order and flow of objects
 
 **> Input Ports:**
+
 - **Number 0** (Object)
 - **Number 1** (Object)
 - **Number 2** (Object)
@@ -754,6 +825,7 @@
 - **Number 15** (Object)
 
 **< Output Ports:**
+
 - **Output 0** (Object)
 - **Output 1** (Object)
 - **Output 2** (Object)
@@ -784,6 +856,7 @@
 **Description:** Allows switching between objects
 
 **> Input Ports:**
+
 - **Object Index** (Number: Integer)
 - **Object Port 0** (Object)
 - **Object Port 1** (Object)
@@ -795,6 +868,7 @@
 - **Object Port 7** (Object)
 
 **< Output Ports:**
+
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/X55cRo)
@@ -810,11 +884,13 @@
 **Description:** Switch between multiple object inputs
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
 **< Output Ports:**
+
 - **Object** (Object)
 - **Num Values** (Number)
 
@@ -831,10 +907,12 @@
 **Description:** set output object when triggered
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Object)
 
@@ -851,12 +929,14 @@
 **Description:** set a number value of an object using trigger
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Object)
 
@@ -873,12 +953,14 @@
 **Description:** set a string value of an object using trigger
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **String** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Object)
 

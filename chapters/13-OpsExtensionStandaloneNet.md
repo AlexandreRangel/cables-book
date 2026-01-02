@@ -13,10 +13,12 @@
 **Description:** Create a Web/Http server locally
 
 **> Input Ports:**
+
 - **Hostname** (String)
 - **Port** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger Request** (Trigger)
 - **Response** (Object)
 - **Request URL** (String)
@@ -36,11 +38,13 @@
 **Description:** Answer http requests by sending string to the browser/client
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Response** (Object)
 - **Body** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.Standalone.Net.HttpServerResponse documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lke9pn)
@@ -56,9 +60,11 @@
 **Description:** Outputs your local IP Adress
 
 **> Input Ports:**
+
 - *Visit [Ops.Extension.Standalone.Net.IpAddress documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress) for input port details*
 
 **< Output Ports:**
+
 - **Local IP** (String)
 - **Interface** (String)
 - **Data** (Object)
@@ -76,9 +82,11 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2) for details*
 
 **> Input Ports:**
+
 - **Port** (Number: Integer)
 
 **< Output Ports:**
+
 - **Message Received** (Trigger)
 - **Message** (Object)
 - **Connection** (Object)
@@ -97,6 +105,7 @@
 **Description:** send data to a OSC device
 
 **> Input Ports:**
+
 - **Connection** (Object)
 - **Net Address** (String)
 - **Port** (Number: Integer)
@@ -106,6 +115,7 @@
 - **Public** (1): OSC: READ / SEND
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.Standalone.Net.OscSend documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example)
@@ -121,10 +131,12 @@
 **Description:** Read a text file as string from the local file system
 
 **> Input Ports:**
+
 - **Filename** (String)
 - **Read** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Content** (String)
 - **Has Error** (booleanNumber)
@@ -143,12 +155,14 @@
 **Description:** start a socketcluster server
 
 **> Input Ports:**
+
 - **Active** (Number: Boolean)
 - **Hostname** (String)
 - **Port** (Number: Integer)
 - **Path** (String)
 
 **< Output Ports:**
+
 - **Receiving** (Trigger)
 - **Data** (Object)
 - **Listening** (booleanNumber)

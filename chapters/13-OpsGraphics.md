@@ -13,6 +13,7 @@
 **Description:** convert and download an array of numbers as an .exr image file
 
 **> Input Ports:**
+
 - **Array** (Array)
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
@@ -21,6 +22,7 @@
 - **Download** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PoAXNA)
@@ -36,12 +38,14 @@
 **Description:** change depth testing method (depthMask,depthWrite,depthFunc)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Enable Depth Testing** (Number: Boolean)
 - **Depth Test Method Index** (Number: Integer)
 - **Write To Depth Buffer** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A9PD8i)
@@ -57,10 +61,12 @@
 **Description:** merge two geometries into one
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Geometry 2** (Object)
 
 **< Output Ports:**
+
 - **Geometry Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4gsNve)
@@ -76,9 +82,11 @@
 **Description:** get the id/index of the current set material
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Material Id** (Number)
 
@@ -95,9 +103,11 @@
 **Description:** get the id/index of the current object/mesh
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Material Id** (Number)
 
@@ -114,6 +124,7 @@
 **Description:** rotate your object by clicking and dragging the mouse
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Min Distance** (Number)
 - **Max Distance** (Number)
@@ -134,6 +145,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Radius** (Number)
 - **Rot X** (Number)
@@ -152,6 +164,7 @@
 **Description:** Transform objects in 3d space (rotate, translate, scale)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **PosX** (Number)
 - **PosY** (Number)
@@ -162,6 +175,7 @@
 - **RotZ** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/o741ft)
@@ -177,6 +191,7 @@
 **Description:** the most simple camera op / transform the viewmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **PosX** (Number)
 - **PosY** (Number)
@@ -187,6 +202,7 @@
 - **RotZ** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0GAv8i)

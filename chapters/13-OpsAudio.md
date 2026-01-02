@@ -13,6 +13,7 @@
 **Description:** Let’s you tap in a beat, useful to synchronise visuals to music (VJ, sync, sound)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Tap** (Trigger)
 - **Sync** (Trigger)
@@ -21,6 +22,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Beat** (Trigger)
 - **Bpm** (Number)
 - **The resulting BPM** (beats per minute)
@@ -40,10 +42,12 @@
 **Description:** read MIDI information at time x
 
 **> Input Ports:**
+
 - **MidiJson** (Object)
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Beat** (Number)
 - **Track Names** (Array)
 - **Names** (Array)
@@ -66,6 +70,7 @@
 **Description:** Filter MidiJson for notes
 
 **> Input Ports:**
+
 - **Data** (Object)
 - **Note** (String)
 - **Channel** (Number: String)
@@ -73,6 +78,7 @@
 - **Beat End** (Number: Integer)
 
 **< Output Ports:**
+
 - **Count** (Number)
 - **Progress** (Number)
 - **Time Since Last** (Number)

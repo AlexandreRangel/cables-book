@@ -13,6 +13,7 @@
 **Description:** do not draw pixels inside a defined 3d area
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Invert** (Number: Boolean)
 - **Area Index** (Number: Integer)
@@ -29,6 +30,7 @@
 - **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GQiw18)
@@ -44,6 +46,7 @@
 **Description:** rotate vertices in an area around a center point
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Size** (Number)
 - **Strength** (Number)
@@ -53,6 +56,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7mss1Q)
@@ -68,6 +72,7 @@
 **Description:** Scales the size of meshes within the area of influence
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Area Size** (Number)
 - **Source Index** (Number: Integer)
@@ -82,6 +87,7 @@
 - **Pos Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LXN7D-)
@@ -97,6 +103,7 @@
 **Description:** Area size of noise
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
 - **Size** (Number)
@@ -111,6 +118,7 @@
 - **Noise Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDcUC-)
@@ -126,6 +134,7 @@
 **Description:** Change the position of all meshes inside of the area of influence
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Size** (Number)
 - **Strength** (Number)
@@ -137,6 +146,7 @@
 - **Multiply Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yWVQC-)
@@ -152,6 +162,7 @@
 **Description:** bend objects along an axis
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **RotX** (Number)
@@ -162,6 +173,7 @@
 - **Limited** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HtcN9Z)
@@ -177,6 +189,7 @@
 **Description:** clamp/restrict the vertex position to min/max values per axis
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Min** (Number)
@@ -184,6 +197,7 @@
 - **Update Normals** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RP4O73)
@@ -199,6 +213,7 @@
 **Description:** Colorize all meshes around current position
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
 - **Size** (Number)
@@ -220,6 +235,7 @@
 - **Priority** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0Ti2gT)
@@ -235,6 +251,7 @@
 **Description:** deform a spherical area of a mesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Size** (Number)
 - **Strength** (Number)
@@ -245,6 +262,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CQ0wmo)
@@ -260,11 +278,13 @@
 **Description:** discard transparent pixels in material textures
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Method Index** (Number: Integer)
 - **Threshold** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3r_lf6)
@@ -280,6 +300,7 @@
 **Description:** explode a (divided) mesh in the direction of faces normals
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Distance** (Number)
 - **Size** (Number)
@@ -295,6 +316,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sYIxm1)
@@ -310,6 +332,7 @@
 **Description:** Fog as a shadereffect applied to a material
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
 - **Start** (Number)
@@ -320,6 +343,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3L3of6)
@@ -335,6 +359,7 @@
 **Description:** add fresnel glow to any material
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Active** (Number: Boolean)
 - **R** (Number)
@@ -344,6 +369,7 @@
 - **Fresnel Exponent** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/e02kYa)
@@ -359,6 +385,7 @@
 **Description:** displace positions of instanced meshes using a texture
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 - **Source Index** (Number: Integer)
@@ -379,6 +406,7 @@
 - **Z** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
@@ -394,6 +422,7 @@
 **Description:** displace position of instanced object by perlin noise value
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Scroll X** (Number)
@@ -409,6 +438,7 @@
 - **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/33bSY7)
@@ -424,6 +454,7 @@
 **Description:** colorize instanced meshes using a texture
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 - **Strength** (Number)
@@ -435,6 +466,7 @@
 - **Method Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
@@ -450,6 +482,7 @@
 **Description:** discard pixel if texture coordinate is below threshold
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Treshhold** (Number)
@@ -460,6 +493,7 @@
 - **Amplitude** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pHfgJ5)
@@ -475,6 +509,7 @@
 **Description:** 3d space noise for mesh materials
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Amount** (Number)
@@ -489,6 +524,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V7rjQ6)
@@ -504,11 +540,13 @@
 **Description:** vertex shader modulo operation on vertex position
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Modulo** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lMCl_8)
@@ -524,6 +562,7 @@
 **Description:** Displace vertices using perlin noise animation
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Size** (Number)
@@ -542,6 +581,7 @@
 - **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8RexP8)
@@ -557,10 +597,12 @@
 **Description:** Scale vertices of an object in the direction of face normals
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ft2xm1)
@@ -576,6 +618,7 @@
 **Description:** add shadow capabilities to any material
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Cast Shadow** (Number: Boolean)
 - **Receive Shadow** (Number: Boolean)
@@ -589,6 +632,7 @@
 - **Cull Backfacing** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/auVl18)
@@ -604,12 +648,14 @@
 **Description:** Deform a mesh along a spline
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Size** (Number)
 - **Offset** (Number)
 - **Points** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F-UNZ4)
@@ -625,6 +671,7 @@
 **Description:** texture projection on meshes
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
 - **BlendMode Index** (Number: Integer)
@@ -641,6 +688,7 @@
 - **WorldSpace** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fJHt0e)
@@ -656,6 +704,7 @@
 **Description:** Transform and repeat texture coordinates of a mesh via vertex shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Translate X** (Number)
 - **Translate Y** (Number)
@@ -666,6 +715,7 @@
 - **Rotation** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YzNrx8)
@@ -681,6 +731,7 @@
 **Description:** transform vertices of a mesh via vertex shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Translate X** (Number)
 - **Translate Y** (Number)
@@ -694,6 +745,7 @@
 - **Transform Normals** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u1iOhI)
@@ -709,6 +761,7 @@
 **Description:** twist a mesh around an axis
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Degree** (Number)
 - **Height** (Number)
@@ -716,6 +769,7 @@
 - **Axis** (Number: String)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VYPlJ5)
@@ -731,9 +785,11 @@
 **Description:** Use vertex color as basecolor/diffuse color
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ep1Umu)
@@ -749,6 +805,7 @@
 **Description:** transform an area of a mesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
 - **Visualize Area** (Number: Boolean)
@@ -768,6 +825,7 @@
 - **Scale Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example)
@@ -783,11 +841,13 @@
 **Description:** Use mesh vertexcolor as Alpha/Opacity
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Input Index** (Number: Integer)
 - **Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ChcFXk)
@@ -803,6 +863,7 @@
 **Description:** Displace the vertices of a mesh with the pixels brightness values from a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Extrude** (Number)
 - **Texture** (Object:Texture)
@@ -816,6 +877,7 @@
 - **Colorize Max** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aSWlLu)
@@ -831,12 +893,14 @@
 **Description:** only draw the first X vertices of a mesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Min** (Number: Integer)
 - **Max** (Number: Integer)
 - **Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gLrrJV)
@@ -852,11 +916,13 @@
 **Description:** set vertex positions of a mesh from a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
 - **Mode Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LDfZgL)
@@ -872,6 +938,7 @@
 **Description:** sine wave vertex displacement
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Source Index** (Number: Integer)
 - **Amount** (Number)
@@ -890,6 +957,7 @@
 - **Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0PxhuO)

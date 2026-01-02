@@ -13,6 +13,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Shape Index** (Number: Integer)
 - **Tesselation** (Number: Integer)
@@ -34,6 +35,7 @@
 - **Param 15** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Coords** (Array)
 - **Faces** (Array)
@@ -52,6 +54,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Render** (Number: Boolean)
 - **Shape Index** (Number: Integer)
@@ -74,6 +77,7 @@
 - **Param 15** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ka9Vxq)

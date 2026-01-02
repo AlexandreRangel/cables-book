@@ -13,6 +13,7 @@
 **Description:** ambient light for phong material shading
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -20,6 +21,7 @@
 - **Intensity** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/g3ioXU)
@@ -35,6 +37,7 @@
 **Description:** Directional light for phong shading
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
 - **Intensity** (Number)
@@ -68,6 +71,7 @@
 - **Anisotropic** (String)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
 
@@ -84,6 +88,7 @@
 **Description:** a simple shaded material
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Diffuse R** (Number)
 - **Diffuse G** (Number)
@@ -93,6 +98,7 @@
 - **Colorize Texture** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Shader** (Object)
 
@@ -109,6 +115,7 @@
 **Description:** A shaded material for lighting objects
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -153,6 +160,7 @@
 - **Env Mask Intensity** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Shader** (Object)
 
@@ -169,6 +177,7 @@
 **Description:** Point light for phong shading
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
 - **Intensity** (Number)
@@ -192,6 +201,7 @@
 - **Polygon Offset** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Cubemap** (Object)
 - **World Position X** (Number)
@@ -211,10 +221,12 @@
 **Description:** reset lights for everything triggered after
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Reset Lights** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eU7obI)
@@ -230,6 +242,7 @@
 **Description:** spot light that emits a cone of light
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
 - **Intensity** (Number)
@@ -255,6 +268,7 @@
 - **Shadow Strength** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
 - **World Position X** (Number)

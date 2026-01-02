@@ -13,9 +13,11 @@
 **Description:** list of midi devices
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Midi.DeviceList documentation](https://cables.gl/op/Ops.Devices.Midi.DeviceList) for input port details*
 
 **< Output Ports:**
+
 - **Num Devices** (Number)
 - **Midi Support** (booleanNumber)
 - **Device Names** (Array)
@@ -33,6 +35,7 @@
 **Description:** read CC value from Midi controller
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **CC Index** (Number: Integer)
@@ -41,6 +44,7 @@
 - **Clear** (Trigger)
 
 **< Output Ports:**
+
 - **CC Value Out** (Number)
 - **Event** (Object)
 - **Trigger Out** (Trigger)
@@ -59,6 +63,7 @@
 **Description:** send MIDI CC data to a midi output
 
 **> Input Ports:**
+
 - **Send** (Trigger)
 - **MIDI Channel Index** (Number: Integer)
 - **CC Index** (Number: Integer)
@@ -66,6 +71,7 @@
 - **Auto Send Value Change** (Number: Boolean)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
@@ -81,6 +87,7 @@
 **Description:** Map 3 midi notes to values
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Note 1 Index** (Number: Integer)
@@ -91,6 +98,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 - **Note Out 1** (Number)
@@ -116,10 +124,12 @@
 **Description:** sends out midi clock signals as triggers
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **Timing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Tick Out** (Trigger)
 - **Clock Start** (Trigger)
@@ -148,10 +158,12 @@
 **Description:** connect to MIDI device output port
 
 **> Input Ports:**
+
 - **Device Index** (Number: Integer)
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **Event** (Object)
 - **Note** (Object)
 - **CC** (Object)
@@ -172,9 +184,11 @@
 **Description:** detailed information about Midi events being sent
 
 **> Input Ports:**
+
 - **Event** (Object)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 - **Device** (Number)
@@ -203,6 +217,7 @@
 **Description:** Read a single midi note
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Note Index** (Number: Integer)
@@ -212,6 +227,7 @@
 - **Clear** (Trigger)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 - **Current Note** (Number)
@@ -232,6 +248,7 @@
 **Description:** Only read a range of notes (e.g. C1 to C2)
 
 **> Input Ports:**
+
 - **MIDI Event** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Note Start Index** (Number: Integer)
@@ -241,6 +258,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Event** (Object)
 - **Trigger Out** (Trigger)
 - **Current Note** (Number)
@@ -260,6 +278,7 @@
 **Description:** send midi note data to a midi output
 
 **> Input Ports:**
+
 - **MIDI Channel Index** (Number: Integer)
 - **Note Index** (Number: Integer)
 - **Note Number** (Number: Integer)
@@ -269,6 +288,7 @@
 - **Velocity Array In** (Array)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
@@ -284,6 +304,7 @@
 **Description:** read NRPN value from controller
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **NRPN Index** (Number: Integer)
@@ -292,6 +313,7 @@
 - **Clear** (Trigger)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 - **NRPN Index Out** (Number)
@@ -310,6 +332,7 @@
 **Description:** send midi NRPN data to a midi output
 
 **> Input Ports:**
+
 - **MIDI Channel Index** (Number: Integer)
 - **NRPN Index** (Number: Integer)
 - **NRPN Value** (Number: Integer)
@@ -317,6 +340,7 @@
 - **Max In Value** (Number)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
@@ -332,12 +356,14 @@
 **Description:** Connect to MIDI device input port
 
 **> Input Ports:**
+
 - **Device Index** (Number: Integer)
 - **Note** (Object)
 - **CC** (Object)
 - **NRPN** (Object)
 
 **< Output Ports:**
+
 - *Visit [Ops.Devices.Midi.MidiOutputDevice documentation](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
@@ -353,12 +379,14 @@
 **Description:** transpose incoming midi notes
 
 **> Input Ports:**
+
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Transpose Amount** (Number: Integer)
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 
@@ -375,9 +403,11 @@
 **Description:** Converts a MIDI value to a note string
 
 **> Input Ports:**
+
 - **Midi Value** (Number)
 
 **< Output Ports:**
+
 - **Note** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)

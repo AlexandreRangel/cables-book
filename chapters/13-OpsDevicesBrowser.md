@@ -13,9 +13,11 @@
 **Description:** Reports the browser being used
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
 
 **< Output Ports:**
+
 - **Is Mobile** (booleanNumber)
 - **Is Touchscreen** (booleanNumber)
 - **Is IE** (booleanNumber)
@@ -52,9 +54,11 @@
 **Description:** Get light/dark color scheme preference of the browser
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
 
 **< Output Ports:**
+
 - **Color Scheme** (String)
 - **Dark Mode** (booleanNumber)
 - **Light Mode** (booleanNumber)
@@ -73,10 +77,12 @@
 **Description:** Move back or forward in the browser navigation history
 
 **> Input Ports:**
+
 - **Back** (Trigger)
 - **Forward** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.History#example)
@@ -92,9 +98,11 @@
 **Description:** evaluate a javascript expression
 
 **> Input Ports:**
+
 - **JS Expression** (String)
 
 **< Output Ports:**
+
 - **Result String** (String)
 - **Result Number** (Number)
 - **Result Array** (Array)
@@ -114,9 +122,11 @@
 **Description:** browser js memory consumption
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Used Heap Size** (Number)
 - **Total Heap Size** (Number)
 
@@ -133,9 +143,11 @@
 **Description:** detect if the user interacted with or activated the page
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **User Is Or Was Active** (booleanNumber)
 - **User Has Been Active** (booleanNumber)
@@ -155,6 +167,7 @@
 **Description:** Opens a sharing dialog to share text and images
 
 **> Input Ports:**
+
 - **Text** (String)
 - **URL** (String)
 - **Base64 File** (String)
@@ -164,6 +177,7 @@
 - **Share** (Trigger)
 
 **< Output Ports:**
+
 - **Status** (String)
 - **Supported** (Number)
 

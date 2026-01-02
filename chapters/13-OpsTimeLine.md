@@ -13,11 +13,13 @@
 **Description:** timeline keyframable animation object
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Clip** (Number: Boolean)
 - **Clip Name** (String)
 
 **< Output Ports:**
+
 - **Anim** (Object)
 - **Loop Length** (Number)
 - **Length** (Number)
@@ -35,10 +37,12 @@
 **Description:** Get data from a single key in an animation
 
 **> Input Ports:**
+
 - **Anim** (Object)
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Index** (Number)
 - **Key Value** (Number)
 - **Key Time** (Number)
@@ -56,10 +60,12 @@
 **Description:** get the animated value at time x of an animation object
 
 **> Input Ports:**
+
 - **Anim** (Object)
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Value** (Number)
 - **Loop** (Number)
 
@@ -76,9 +82,11 @@
 **Description:** Get information about an anim object
 
 **> Input Ports:**
+
 - **Anim** (Object)
 
 **< Output Ports:**
+
 - **Total Keys** (Number)
 - **Length Seconds** (Number)
 
@@ -95,9 +103,11 @@
 **Description:** Automatically starts the timeline playback when opening patch
 
 **> Input Ports:**
+
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for input port details*
 
 **< Output Ports:**
+
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
@@ -113,6 +123,7 @@
 **Description:** Prerenderer based on timeline progress
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Manual Timestamps** (Array)
 - **Record Events** (Number: Boolean)
@@ -121,6 +132,7 @@
 - **ReRender On Resize** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Prerendered Frame** (Trigger)
 - **Progress** (Number)
@@ -139,9 +151,11 @@
 **Description:** jump to a key in the timeline
 
 **> Input Ports:**
+
 - **Frame** (Number)
 
 **< Output Ports:**
+
 - *Visit [Ops.TimeLine.GotoFrame documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
@@ -157,12 +171,14 @@
 **Description:** Render the patch at certain times
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Max Time** (Number: Integer)
 - **Step** (Number: Integer)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Render Progress** (Trigger)
 - **Done** (Trigger)
@@ -181,11 +197,13 @@
 **Description:** configure the timeline for the current patch
 
 **> Input Ports:**
+
 - **FPS** (Number: Integer)
 - **Restrict To Frames** (Number: Boolean)
 - **Fade In Frames** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Duration Seconds** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
@@ -201,9 +219,11 @@
 **Description:** use position and play pause state of cables timeline
 
 **> Input Ports:**
+
 - *Visit [Ops.TimeLine.TimeLineControls documentation](https://cables.gl/op/Ops.TimeLine.TimeLineControls) for input port details*
 
 **< Output Ports:**
+
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
@@ -219,9 +239,11 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineDebug) for details*
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Data** (Object)
 - **Time Cursor** (Number)
 - **Visible Duration** (Number)
@@ -248,9 +270,11 @@
 **Description:** Returns the current frame number of the timeline
 
 **> Input Ports:**
+
 - *Visit [Ops.TimeLine.TimeLineFrame documentation](https://cables.gl/op/Ops.TimeLine.TimeLineFrame) for input port details*
 
 **< Output Ports:**
+
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
@@ -266,9 +290,11 @@
 **Description:** current set length of the timeline
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qSMdck)
@@ -284,11 +310,13 @@
 **Description:** Automatic rewind of timeline at a certain time
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Duration** (Number)
 - **How long the loop should be** (in seconds)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GbEqL-)
@@ -304,10 +332,12 @@
 **Description:** overwrite timeline time value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **New Time** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
@@ -323,10 +353,12 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlay) for details*
 
 **> Input Ports:**
+
 - **Play** (Trigger)
 - **Pause** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
@@ -342,12 +374,14 @@
 **Description:** Player controls for the timeline
 
 **> Input Ports:**
+
 - **Play** (Trigger)
 - **Pause** (Trigger)
 - **Rewind** (Trigger)
 - **Set Current Time** (Number)
 
 **< Output Ports:**
+
 - **Play Trigger** (Trigger)
 - **Pause Trigger** (Trigger)
 - **Rewind Trigger** (Trigger)
@@ -369,9 +403,11 @@
 **Description:** set time of timeline to 0 (rewind, restart)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
@@ -387,10 +423,12 @@
 **Description:** set current time of timeline
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
@@ -406,9 +444,11 @@
 **Description:** Returns the current time of the timeline
 
 **> Input Ports:**
+
 - *Visit [Ops.TimeLine.TimeLineTime documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTime) for input port details*
 
 **< Output Ports:**
+
 - **Time** (Number)
 - **The current time of the timeline** (in seconds)
 
@@ -425,10 +465,12 @@
 **Description:** toggle between timeline playing and being paused
 
 **> Input Ports:**
+
 - **Play** (Number: Boolean)
 - **Public** (20): MY IDENTITY PATTERN
 
 **< Output Ports:**
+
 - *Visit [Ops.TimeLine.TimeLineTogglePlay documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
@@ -444,11 +486,13 @@
 **Description:** Animate and get value at "time" of timeline
 
 **> Input Ports:**
+
 - **Time** (Number)
 - **Value** (Number)
 - **Unit Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **Anim Array** (Array)
 - **Anim Finished** (booleanNumber)

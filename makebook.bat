@@ -59,7 +59,12 @@ if not exist %TEMP_MD% (
 
 echo [4/5] Generating PDF...
 
-pandoc %TEMP_MD% -o %OUTPUT_PDF% --pdf-engine=xelatex --pdf-engine-opt=-interaction=nonstopmode --resource-path=chapters -H %HEADER_FILE% -V geometry:"left=0.82in,right=0.82in,top=0.82in,bottom=0.82in" -V mainfont="Ubuntu" -V sansfont="Ubuntu" -V monofont="Ubuntu Mono" -V fontsize=11pt -V linestretch=1.3 --toc --toc-depth=3 --number-sections -V papersize=letter --syntax-highlighting=none 2>&1 | findstr /V /C:"major issue: So far, you have not checked for MiKTeX updates" | findstr /V /C:"miktex-dvipdfmx: major issue"
+REM Use PowerShell script to show page-by-page progress
+powershell -ExecutionPolicy Bypass -File "generate_pdf_with_progress.ps1" -InputFile "%TEMP_MD%" -OutputFile "%OUTPUT_PDF%" -HeaderFile "%HEADER_FILE%"
+if %ERRORLEVEL% NEQ 0 (
+    echo ERROR: PDF generation failed.
+    exit /b 1
+)
 
 echo [5/5] Cleaning up...
 if exist %TEMP_MD% del %TEMP_MD%

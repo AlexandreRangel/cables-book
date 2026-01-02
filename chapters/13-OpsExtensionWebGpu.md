@@ -13,9 +13,11 @@
 **Description:** Upload an array to the GPU as a GpuBuffer
 
 **> Input Ports:**
+
 - **Arr** (Array)
 
 **< Output Ports:**
+
 - **GPUBuffer** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VShX3I)
@@ -31,6 +33,7 @@
 **Description:** Convert an array of numbers to a webgpu texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Array** (Array)
 - **Wrap Index** (Number: Integer)
@@ -38,6 +41,7 @@
 - **Height** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 
@@ -54,9 +58,11 @@
 **Description:** Render mesh attribultes as color
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FM4hQB)
@@ -72,6 +78,7 @@
 **Description:** A simple material without shading
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -86,6 +93,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J0HjQB)
@@ -101,6 +109,7 @@
 **Description:** A texture containing only one color
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -108,6 +117,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture_out** (Object)
 
@@ -124,6 +134,7 @@
 **Description:** Compose a compute shader
 
 **> Input Ports:**
+
 - **Compute** (Trigger)
 - **Source** (String)
 - **Workgroups 1** (Number: Integer)
@@ -132,6 +143,7 @@
 - **Force Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Code** (String)
 - **Buffer** (Object)
@@ -150,11 +162,13 @@
 **Description:** Compute shader GPU buffer storage input
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Buffer** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example)
@@ -170,11 +184,13 @@
 **Description:** Compute shader GPU buffer storage output
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Length** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Buffer** (Object)
 - **Buffer Length** (Number)
@@ -192,6 +208,7 @@
 **Description:** Add a uniform input to a compute shader composition
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Name** (String)
 - **X** (Number)
@@ -200,6 +217,7 @@
 - **W** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example)
@@ -215,9 +233,11 @@
 **Description:** Outputs textures
 
 **> Input Ports:**
+
 - *Visit [Ops.Extension.WebGpu.DefaultTextures documentation](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures) for input port details*
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nQEVKB)
@@ -233,9 +253,11 @@
 **Description:** cull (do not draw) back or front facing faces/triangles
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKLQ3I)
@@ -251,6 +273,7 @@
 **Description:** Show direction of faces as color
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -262,6 +285,7 @@
 - **A 2** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1Jm1LB)
@@ -277,12 +301,14 @@
 **Description:** Render a rectangle that fills the whole canvas
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Flip Y** (Number: Boolean)
 - **Flip X** (Number: Boolean)
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PNx2LB)
@@ -298,10 +324,12 @@
 **Description:** Convert a GpuBuffer to a CPU Array
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Pos Buffer** (Object)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQQYKB)
@@ -317,6 +345,7 @@
 **Description:** Image based material that uses a matcap environment texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -331,6 +360,7 @@
 - **Diffuse** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WwXZKB)
@@ -346,6 +376,7 @@
 **Description:** Draw the same mesh many times very fast
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Pos Buffer** (Object)
@@ -355,6 +386,7 @@
 - **Test** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Instances** (Number)
 
@@ -371,10 +403,12 @@
 **Description:** show content of last used pipeline for debugging
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Force Rebuild** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Pipeline** (Object)
 - **Shader Info** (Object)
@@ -396,12 +430,14 @@
 **Description:** render into a texture
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
 - **Clear** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 
@@ -419,9 +455,11 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for details*
 
 **> Input Ports:**
+
 - *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for input port details*
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund#example)
@@ -439,10 +477,12 @@
 **Description:** Load an image file as a texture
 
 **> Input Ports:**
+
 - **File** (String)
 - **Wrap Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -461,9 +501,11 @@
 **Description:** Vizualize a webgpu texture on the patchfield
 
 **> Input Ports:**
+
 - **Texture In** (Object:Texture)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.WebGpu.VizTexture documentation](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tk5uLB)
@@ -479,12 +521,14 @@
 **Description:** Create a canvas for WebGPU
 
 **> Input Ports:**
+
 - **Active** (Number: Boolean)
 - **Catch Errors** (Number: Boolean)
 - **Stop On Errors** (Number: Boolean)
 - **Profile** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Next2** (Trigger)
 - **Supported** (booleanNumber)
@@ -506,9 +550,11 @@
 **Description:** Output information about WebGPU adapter and implementation
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Limits** (Object)
 - **Vendor** (String)

@@ -13,12 +13,14 @@
 **Description:** align a geometry / change its pivot / center / origin point
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **X Index** (Number: Integer)
 - **Y Index** (Number: Integer)
 - **Z Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FbXQ-G)
@@ -34,11 +36,13 @@
 **Description:** create a simple bounding box from width,height,depth
 
 **> Input Ports:**
+
 - **Width** (Number)
 - **Height** (Number)
 - **Depth** (Number)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Geometry.BoundingBox#example)
@@ -54,11 +58,13 @@
 **Description:** calculate normals of a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Smooth** (Number: Boolean)
 - **Force Z Up** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Geometry Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Geometry.CalculateNormals#example)
@@ -74,9 +80,11 @@
 **Description:** disconnect faces/polygons of a mesh
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sYIxm1)
@@ -92,11 +100,13 @@
 **Description:** flip all normals of a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Flip** (Number: Boolean)
 - **Normalize** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cTfoii)
@@ -112,9 +122,11 @@
 **Description:** capture all following meshes into one geometry
 
 **> Input Ports:**
+
 - **Capture** (Trigger)
 
 **< Output Ports:**
+
 - **Geometry** (Object)
 - **Next** (Trigger)
 
@@ -131,9 +143,11 @@
 **Description:** Get vertices of a geometry as array3x (vertex vertices)
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 
 **< Output Ports:**
+
 - **Faces** (Array)
 - **Vertices** (Array)
 - **Normals** (Array)
@@ -155,6 +169,7 @@
 **Description:** basic extrusion of flat geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object:Geometry)
 - **Height** (Number)
 - **Smooth** (Number: Boolean)
@@ -163,6 +178,7 @@
 - **Bottom** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
@@ -178,6 +194,7 @@
 **Description:** Create a geometry from array data
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Vertices** (Array)
 - **Faces** (Array)
@@ -185,6 +202,7 @@
 - **Normals** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 
@@ -201,9 +219,11 @@
 **Description:** information about a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object:Geometry)
 
 **< Output Ports:**
+
 - **Indexed** (Number)
 - **Faces** (Number)
 - **Indices** (Number)
@@ -228,12 +248,14 @@
 **Description:** merge two geometries to one
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Geometry 2** (Object)
 - **Merge** (Trigger)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Geometry Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3rCDz6)
@@ -249,9 +271,11 @@
 **Description:** Generate an .obj file as string from a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object:Geometry)
 
 **< Output Ports:**
+
 - **Obj** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BwxY2f)
@@ -267,9 +291,11 @@
 **Description:** generate an array of lines from a mesh to render a wireframe
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 
 **< Output Ports:**
+
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/r--xve)
@@ -285,9 +311,11 @@
 **Description:** convert geometry to only flat triangles without reusing vertices positions
 
 **> Input Ports:**
+
 - **Geometry** (Object:Geometry)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex#example)
@@ -303,9 +331,11 @@
 **Description:** parse an obj string to a geometry object
 
 **> Input Ports:**
+
 - **Obj** (String)
 
 **< Output Ports:**
+
 - **Geometry** (Object)
 - **Status** (String)
 
@@ -322,10 +352,12 @@
 **Description:** randomize order of triangles in a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Seed** (Number)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gLrrJV)
@@ -341,10 +373,12 @@
 **Description:** Reverses the order of vertices in a geometry, back facing triangles become front facing ones
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Flip** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u9N6v4)
@@ -360,10 +394,12 @@
 **Description:** uniform scaling of geometry vertices
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Scale** (Number)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry#example)
@@ -379,11 +415,13 @@
 **Description:** sort geometry triangles by position
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Sort Index** (Number: Integer)
 - **Reverse** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis#example)
@@ -399,11 +437,13 @@
 **Description:** Generate a SVG path string of a string using an opentype font
 
 **> Input Ports:**
+
 - **SVG Path** (String)
 - **Bezier Stepsize** (Number)
 - **Rescale** (Number)
 
 **< Output Ports:**
+
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
@@ -419,10 +459,12 @@
 **Description:** create new triangles in a mesh (subdivide)
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Iterations** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Object)
 - **Num Vertices** (Number)
 
@@ -439,6 +481,7 @@
 **Description:** transform vertices of geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 - **Translate X** (Number)
 - **Translate Y** (Number)
@@ -451,6 +494,7 @@
 - **Rotation Z** (Number)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aoBFz6)
@@ -466,6 +510,7 @@
 **Description:** Draws multiple triangles using coordinates from an array
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Points** (Array)
 - **Vertex Colors** (Array)
@@ -474,6 +519,7 @@
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 
@@ -490,12 +536,14 @@
 **Description:** Triangulate a 2d path to a flat and filled 3d geometry
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Combine Index** (Number: Integer)
 - **Path 2** (Array)
 - **Path 3** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 

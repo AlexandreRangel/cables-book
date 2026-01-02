@@ -13,12 +13,14 @@
 **Description:** Always animates to the current value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 - **Finished** (Trigger)
@@ -36,12 +38,14 @@
 **Description:** Trigger a simple bang animation going from 1 to 0
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Bang** (Trigger)
 - **Duration** (Number)
 - **Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Value** (Number)
 
@@ -58,6 +62,7 @@
 **Description:** Animate between two numbers based on a boolean value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Bool** (Number: Boolean)
 - **Easing Index** (Number: Integer)
@@ -67,6 +72,7 @@
 - **Value True** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Value** (Number)
 - **Finished** (booleanNumber)
@@ -85,12 +91,14 @@
 **Description:** Crossfade between 2 values
 
 **> Input Ports:**
+
 - **Crossfade** (Number)
 - **Out Min** (Number)
 - **Out Max** (Number)
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **A** (Number)
 - **B** (Number)
 
@@ -107,6 +115,7 @@
 **Description:** Parses string containing ranges of frames and play as coherent animation
 
 **> Input Ports:**
+
 - **Time** (Number)
 - **Frames** (String)
 - **frame range** (ex. "0-10")
@@ -114,6 +123,7 @@
 - **Rewind** (Trigger)
 
 **< Output Ports:**
+
 - **Result Time** (Number)
 - **Expanded Frames** (Array)
 - **Finished** (booleanNumber)
@@ -134,6 +144,7 @@
 **Description:** Switch between multiple anim ranges of a keyframed 3d scene
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
@@ -149,6 +160,7 @@
 - **Value 9** (Number)
 
 **< Output Ports:**
+
 - **Time 1** (Number)
 - **Time Fade** (Number)
 - **Time 2** (Number)
@@ -166,6 +178,7 @@
 **Description:** Animates after a trigger from 1 to 0 to 1
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Duration In** (Number)
 - **Easing In Index** (Number: Integer)
@@ -177,6 +190,7 @@
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 - **Started** (Trigger)
@@ -196,6 +210,7 @@
 **Description:** Low-frequency oscillation for animations
 
 **> Input Ports:**
+
 - **Time** (Number)
 - **Frequency** (Number)
 - **Type Index** (Number: Integer)
@@ -204,6 +219,7 @@
 - **Range Max** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9EOrS8)
@@ -219,6 +235,7 @@
 **Description:** Animates between random values defined by a min and max value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Min** (Number)
 - **Max** (Number)
@@ -227,6 +244,7 @@
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 - **Looped** (Trigger)
@@ -244,6 +262,7 @@
 **Description:** Simple animation between two values
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Reset** (Trigger)
 - **Rewind** (Trigger)
@@ -255,6 +274,7 @@
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 - **Finished** (Number)
@@ -273,6 +293,7 @@
 **Description:** Animation in the form of a sine/cosine curve (sinus/cos)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Mode Index** (Number: Integer)
 - **Phase** (Number)
@@ -280,6 +301,7 @@
 - **Amplitude** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Result** (Number)
 
@@ -296,11 +318,13 @@
 **Description:** Smooths out jumps in values (AverageInterpolation)
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Value** (Number)
 - **Dec Factor** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 
@@ -317,6 +341,7 @@
 **Description:** Snap at certain points (e.g. while scrolling)
 
 **> Input Ports:**
+
 - **Delta** (Number)
 - **Snap At Values** (Array)
 - **Snap Distance** (Number)
@@ -330,6 +355,7 @@
 - **Enabled** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 - **Distance** (Number)
 - **Snapped** (Number)
@@ -348,12 +374,14 @@
 **Description:** Spring simulation based on input target value.
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Damping** (Number)
 - **Stiffness** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Result** (Number)
 
@@ -370,6 +398,7 @@
 **Description:** Animates a text/string, like it is being typed out by a person
 
 **> Input Ports:**
+
 - **Text** (String)
 - **Restart** (Trigger)
 - **Speed** (Number)
@@ -377,6 +406,7 @@
 - **Show Cursor** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (String)
 - **Changed** (Trigger)
 - **Finished** (Trigger)
@@ -394,11 +424,13 @@
 **Description:** Measure the time difference between two triggers
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Seconds** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Result** (Number)
 
@@ -415,12 +447,14 @@
 **Description:** A timer that can be started, paused and reset by triggering
 
 **> Input Ports:**
+
 - **Speed** (Number)
 - **Play** (Number: Boolean)
 - **Reset** (Trigger)
 - **Sync To Timeline** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YTuOQm)

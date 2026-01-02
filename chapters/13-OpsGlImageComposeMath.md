@@ -13,6 +13,7 @@
 **Description:** Map the range of color number values to another
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Old Min** (Number)
 - **Old Max** (Number)
@@ -25,6 +26,7 @@
 - **A** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TgoiV6)
@@ -40,11 +42,13 @@
 **Description:** normalize texture rgb values
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Fade** (Number)
 - **Size** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7c4jW2)
@@ -60,6 +64,7 @@
 **Description:** Convert a RGBE texture to HDR/floating point texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -68,6 +73,7 @@
 - **Max** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/adsLpX)
@@ -83,6 +89,7 @@
 **Description:** This OP enables you to use precise values to modify the pixels in your texture. For example adjusting texture values that are modifying your geometry or array values, or even your post processing compositions.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Operation Index** (Number: Integer)
 - **R Active** (Number: Boolean)
@@ -98,6 +105,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H3cEpX)
@@ -113,6 +121,7 @@
 **Description:** Execute a glsl code math expression in a image compose
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Update Shader** (Trigger)
 - **X** (Number)
@@ -124,6 +133,7 @@
 - **TexC** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Code** (String)
 
@@ -140,6 +150,7 @@
 **Description:** transform RGB values interpreted as XYZ coordinates
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Translate** (Number: Boolean)
 - **Pos X** (Number)
@@ -156,6 +167,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UJvMbk)
@@ -171,11 +183,13 @@
 **Description:** Round number values of texture color channels
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Multiplier** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example)
@@ -191,6 +205,7 @@
 **Description:** compare and pass through of color channel values
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Comparison Index** (Number: Integer)
 - **Result Index** (Number: Integer)
@@ -201,6 +216,7 @@
 - **A Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RjKQWp)

@@ -13,6 +13,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -31,6 +32,7 @@
 - **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9DZmT6)
@@ -46,6 +48,7 @@
 **Description:** fractional brownian motion noise
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -66,6 +69,7 @@
 - **Tileable** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DmWmT6)
@@ -81,6 +85,7 @@
 **Description:** Render "gabor noise" into a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -90,6 +95,7 @@
 - **Y** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PWDdQm)
@@ -105,6 +111,7 @@
 **Description:** Creates a black and white glitched texture to use for displacement
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Blend Mode Index** (Number: Integer)
@@ -120,6 +127,7 @@
 - **Scroll Y** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cknm0r)
@@ -135,6 +143,7 @@
 **Description:** Creates a hexagonal noise
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -151,6 +160,7 @@
 - **Seed** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/plbB53)
@@ -166,6 +176,7 @@
 **Description:** Multilayer perlin noise variation
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -182,6 +193,7 @@
 - **Tileable** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NSYy0t)
@@ -197,6 +209,7 @@
 **Description:** White noise pixel effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -207,6 +220,7 @@
 - **Multiply** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PdHmT6)
@@ -222,6 +236,7 @@
 **Description:** Draw perlin noise into an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -241,6 +256,7 @@
 - **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zfzmT6)
@@ -256,6 +272,7 @@
 **Description:** Amount of blend mode to apply
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -273,6 +290,7 @@
 - **Centered** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pdjoOb)
@@ -288,6 +306,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -302,6 +321,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pKNTub)
@@ -317,6 +337,7 @@
 **Description:** Render "shard noise" into a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -328,6 +349,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GSZtvs)
@@ -343,6 +365,7 @@
 **Description:** simplex noise generator
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -361,6 +384,7 @@
 - **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c3vmUf)
@@ -376,6 +400,7 @@
 **Description:** noise made from triangles
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -385,6 +410,7 @@
 - **Add** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wvkJyC)
@@ -400,6 +426,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -409,6 +436,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SgTmT6)
@@ -424,6 +452,7 @@
 **Description:** Voronoi Noise function
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -438,6 +467,7 @@
 - **Draw Center** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3zb6Us)
@@ -453,6 +483,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -476,6 +507,7 @@
 - **Offset Z Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sivDJd)

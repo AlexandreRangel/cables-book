@@ -13,6 +13,7 @@
 **Description:** Remove points from an array3 with different shapes
 
 **> Input Ports:**
+
 - **In Trigger** (Trigger)
 - **In Array** (Array)
 - **Mode Index** (Number: Integer)
@@ -23,6 +24,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Out Trigger** (Trigger)
 - **Out Array** (Array)
 - **Array Length** (Number)
@@ -43,6 +45,7 @@
 **Description:** Visually edit positions in an array of point coordinates
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Total Points** (Number: Integer)
 - **Edit** (Number: Boolean)
@@ -52,6 +55,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Coordinates** (Array)
 
@@ -68,6 +72,7 @@
 **Description:** Repeat an array by transforming it x times
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Array** (Array)
 - **Times** (Number: Integer)
@@ -83,6 +88,7 @@
 - **Position Array** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 
@@ -99,10 +105,12 @@
 **Description:** Return the distance between 2 points from an array
 
 **> Input Ports:**
+
 - **Array In 1** (Array)
 - **Array In 2** (Array)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tbb8xN)
@@ -118,6 +126,7 @@
 **Description:** Particle spray simulation
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Time** (Number)
 - **Num** (Number)
@@ -135,6 +144,7 @@
 - **Lifetime Minimum** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Positions** (Array)
 - **Lifetime** (Array)
@@ -152,6 +162,7 @@
 **Description:** Create arrays for circular shapes, helix, circle, etc.
 
 **> Input Ports:**
+
 - **Radius** (Number)
 - **Round Segments** (Number)
 - **Rounds** (Number)
@@ -164,6 +175,7 @@
 - **Loop** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Points** (Array)
 - **Rotation** (Array)
 - **Total Points** (Number)
@@ -182,11 +194,13 @@
 **Description:** Fill an XYZ array with existing duplicate points until it reaches the length
 
 **> Input Ports:**
+
 - **Array** (Array)
 - **Num Elements** (Number: Integer)
 - **Calculate** (Trigger)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates#example)
@@ -202,6 +216,7 @@
 **Description:** Generate a 3d point field with controllable amount of xyz points (was PointsField3d)
 
 **> Input Ports:**
+
 - **Num X** (Number: Integer)
 - **Num Y** (Number: Integer)
 - **Num Z** (Number: Integer)
@@ -209,6 +224,7 @@
 - **Center** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 - **Total Points** (Number)
 - **Array Length** (Number)
@@ -226,6 +242,7 @@
 **Description:** Generate coordinates for a hexagon grid, outputs array3x
 
 **> Input Ports:**
+
 - **Rows** (Number: Integer)
 - **Colums** (Number: Integer)
 - **Hex Facing Index** (Number: Integer)
@@ -236,6 +253,7 @@
 - **Multiplier** (Number)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GLLdrn)
@@ -251,6 +269,7 @@
 **Description:** Generate coordinates for a rectangular field / grid of points
 
 **> Input Ports:**
+
 - **Rows** (Number: Integer)
 - **Columns** (Number: Integer)
 - **Width** (Number)
@@ -259,6 +278,7 @@
 - **Center** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Total Points** (Number)
 - **Array Length** (Number)
@@ -278,6 +298,7 @@
 **Description:** Generate an array of XYZ coordinates of an rectangle
 
 **> Input Ports:**
+
 - **Line Strip** (Number: Boolean)
 - **Segments** (Number: Integer)
 - **Width** (Number)
@@ -290,6 +311,7 @@
 - **Bottom Right** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/l1KQN8)
@@ -305,6 +327,7 @@
 **Description:** Generate an array of points of a rectangle with rounded corners
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
 - **Width** (Number)
@@ -317,6 +340,7 @@
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Points** (Array)
 
@@ -333,6 +357,7 @@
 **Description:** Generate a point field mapped to the surface of a sphere
 
 **> Input Ports:**
+
 - **Amount Of Points** (Number: Integer)
 - **Sphere Size** (Number)
 - **Random Seed** (Number)
@@ -340,6 +365,7 @@
 - **Distribution Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Array Out** (Array)
 - **Total Points** (Number)
 - **Array Length** (Number)
@@ -357,12 +383,14 @@
 **Description:** Recalculate a spline / change number of points of a spline
 
 **> Input Ports:**
+
 - **Array3x** (Array)
 - **Num Points** (Number: Integer)
 - **Calculate** (Trigger)
 - **Normalized** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Spline Length** (Number)
 
@@ -379,9 +407,11 @@
 **Description:** Sort an array3, by the distance of each point to the previous point
 
 **> Input Ports:**
+
 - **Array** (Array)
 
 **< Output Ports:**
+
 - **Result** (Array)
 - **Result Index** (Array)
 
@@ -398,12 +428,14 @@
 **Description:** Get position in array3/spline at distance from start
 
 **> Input Ports:**
+
 - **Calculate** (Trigger)
 - **Array3x** (Array)
 - **Distance** (Number)
 - **Normalized** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -423,12 +455,14 @@
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
 **> Input Ports:**
+
 - **Points** (Array)
 - **Num Subdivs** (Number: Integer)
 - **Smooth** (Number: Boolean)
 - **Loop** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uywtvc)
@@ -444,6 +478,7 @@
 **Description:** Transform (translate, rotate, scale) positions in an array3x
 
 **> Input Ports:**
+
 - **Transform** (Trigger)
 - **Array** (Array)
 - **Translate X** (Number)
@@ -457,6 +492,7 @@
 - **Rotation Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 

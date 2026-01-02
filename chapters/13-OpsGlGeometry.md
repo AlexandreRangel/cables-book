@@ -13,6 +13,7 @@
 **Description:** Test if a boundingbox could be visible in the current viewport
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Boundings** (Object)
 - **Active** (Number: Boolean)
@@ -22,6 +23,7 @@
 - **Length** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Visible** (booleanNumber)
 
@@ -38,9 +40,11 @@
 **Description:** Calculate a bounding box from a geometry
 
 **> Input Ports:**
+
 - **Geometry** (Object)
 
 **< Output Ports:**
+
 - **Boundings** (Object)
 - **Min X** (Number)
 - **Min Y** (Number)

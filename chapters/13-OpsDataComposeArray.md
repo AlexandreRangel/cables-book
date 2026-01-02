@@ -13,12 +13,14 @@
 **Description:** Compose an Array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Active** (Number: Boolean)
 - **Clear** (Number: Boolean)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 
@@ -35,9 +37,11 @@
 **Description:** pop/remove the last number from an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 
@@ -54,10 +58,12 @@
 **Description:** push/append an array to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Array** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example)
@@ -73,10 +79,12 @@
 **Description:** push/append an array to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Array** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ADSKWn)
@@ -92,10 +100,12 @@
 **Description:** push/append a number to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RLvmjz)
@@ -111,6 +121,7 @@
 **Description:** push/append multiple numbers to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -118,6 +129,7 @@
 - **W** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example)
@@ -133,10 +145,12 @@
 **Description:** push/append an object to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SCFZJK)
@@ -152,10 +166,12 @@
 **Description:** push/append a string to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **String** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example)
@@ -171,10 +187,12 @@
 **Description:** push/append a texture to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example)
@@ -190,11 +208,13 @@
 **Description:** set a number to an array at index
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Index** (Number)
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example)
@@ -210,11 +230,13 @@
 **Description:** push/append a number to an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Index** (Number)
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example)
@@ -230,9 +252,11 @@
 **Description:** shift/remove the first number from an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Number)
 
@@ -249,9 +273,11 @@
 **Description:** get a copy of the current state of an array
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 

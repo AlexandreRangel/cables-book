@@ -13,11 +13,13 @@
 **Description:** detect touch gestures like swipe and pan
 
 **> Input Ports:**
+
 - **Active** (Number: Boolean)
 - **Vertical Swipe** (Number: Boolean)
 - **Vertical Pan** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Press** (Trigger)
 - **Press Up** (Trigger)
 - **Pan Left** (Trigger)
@@ -41,6 +43,7 @@
 **Description:** touch screen input: e.g. position of fingers
 
 **> Input Ports:**
+
 - **Disable Scaling** (Number: Boolean)
 - **Disable Scroll** (Number: Boolean)
 - **HDPI Coordinates** (Number: Boolean)
@@ -49,6 +52,7 @@
 - **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Touched** (Number)
 - **Fingers** (Number)
 - **Finger 1 X** (Number)

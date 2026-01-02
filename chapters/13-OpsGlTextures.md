@@ -13,10 +13,12 @@
 **Description:** Converts a base-64 image string into a texture
 
 **> Input Ports:**
+
 - **Wrap Index** (Number: Integer)
 - **Pre Multiplied Alpha** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Has Error** (booleanNumber)
 - **Loading** (booleanNumber)
@@ -34,12 +36,14 @@
 **Description:** Simple texture filled with one color
 
 **> Input Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Texture_out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QuT1X2)
@@ -55,6 +59,7 @@
 **Description:** combine multiple textures into one by copying colorchannels
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Filter Index** (Number: Integer)
 - **Wrap Index** (Number: Integer)
@@ -78,6 +83,7 @@
 - **A Default** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 
@@ -94,6 +100,7 @@
 **Description:** copy a texture and optionally resize it
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
 - **Alpha Mask** (Object:Texture)
@@ -107,6 +114,7 @@
 - **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Texture_out** (Object)
 - **Aspect Ratio** (Number)
@@ -124,10 +132,12 @@
 **Description:** A very simple empty transparent texture with an opacity of 0
 
 **> Input Ports:**
+
 - **Width** (Number)
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QuT1X2)
@@ -143,11 +153,13 @@
 **Description:** load .exr floating point texture files
 
 **> Input Ports:**
+
 - **EXR File** (String)
 - **Remove Alpha** (Number: Boolean)
 - **Flip** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -167,6 +179,7 @@
 **Description:** draw a graph of a value into a texture
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Value** (Number)
 - **Index** (Number: Integer)
@@ -176,6 +189,7 @@
 - **Texture Height** (Number: Integer)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eqfKTx)
@@ -191,10 +205,12 @@
 **Description:** graphical representation of distribution of color in a texture
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Histogram Texture** (Object)
 - **Histogram Data** (Object)
 
@@ -211,6 +227,7 @@
 **Description:** combine multiple textures into one by copying colorchannels
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Flip Order** (Number: Boolean)
 - **Width** (Number: Integer)
@@ -235,6 +252,7 @@
 - **Texture 15** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 - **Columns** (Number)
@@ -253,6 +271,7 @@
 **Description:** Simple noisetexture
 
 **> Input Ports:**
+
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 - **Wrap Index** (Number: Integer)
@@ -274,6 +293,7 @@
 - **Max A** (Number)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Total Pixel** (Number)
 
@@ -290,10 +310,12 @@
 **Description:** Create a RGB color palette using an array
 
 **> Input Ports:**
+
 - **Palette Array** (Array)
 - **Smooth** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Color Array** (Array)
 - **Texture** (Object)
 
@@ -310,6 +332,7 @@
 **Description:** control order and flow of objects
 
 **> Input Ports:**
+
 - **Texture 0** (Object:Texture)
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
@@ -328,6 +351,7 @@
 - **Texture 15** (Object:Texture)
 
 **< Output Ports:**
+
 - **Output 0** (Object)
 - **Output 1** (Object)
 - **Output 2** (Object)
@@ -358,6 +382,7 @@
 **Description:** screen space ambient occlusion from depth texture
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Depth Texture** (Object:Texture)
 - **Radius** (Number)
@@ -369,6 +394,7 @@
 - **Filter Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **SSAO** (Object)
 
@@ -385,11 +411,13 @@
 **Description:** Switch between multiple textures
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Textures_0** (Object)
 - **Add Port** (Object)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Num Textures** (Number)
 
@@ -406,6 +434,7 @@
 **Description:** Switch between different textures
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Num** (Number: Integer)
 - **Default Texture Transparent** (Number: Boolean)
@@ -427,6 +456,7 @@
 - **Texture15** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 
@@ -443,6 +473,7 @@
 **Description:** Generates a texture of Text using one of the font ops
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Text** (String)
 - **Draw Mesh** (Number: Boolean)
@@ -474,6 +505,7 @@
 - **Force Redraw** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Ratio** (Number)
 - **Texture** (Object)
@@ -494,9 +526,11 @@
 **Description:** Information about Textures in an array
 
 **> Input Ports:**
+
 - **Texture Array** (Array)
 
 **< Output Ports:**
+
 - **Names** (Array)
 - **Widths** (Array)
 - **Heights** (Array)
@@ -514,9 +548,11 @@
 **Description:** Outputs information about the connected texture
 
 **> Input Ports:**
+
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Name** (String)
 - **PixelFormat** (String)
 - **Width** (Number)
@@ -544,6 +580,7 @@
 **Description:** Load a SVG image and convert to a texture of pixels
 
 **> Input Ports:**
+
 - **File** (String)
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
@@ -551,6 +588,7 @@
 - **Filter Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Loaded** (booleanNumber)
 
@@ -567,12 +605,14 @@
 **Description:** Converts a texture into a base-64 image string
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 - **Quality** (Number)
 - **Output DataUrl** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Binary Size** (Number)
 - **Base64 String** (String)
@@ -592,6 +632,7 @@
 **Description:** convert a texture to a 3d coordinate grid storing coordinates in texture RGB channels
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Texture** (Object:Texture)
 - **Aspect** (Number)
@@ -600,6 +641,7 @@
 - **Repeats Spacing** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **HDR Texture** (Object)
 
@@ -616,6 +658,7 @@
 **Description:** Play a video file and use it as a texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **File** (String)
 - **Play** (Number: Boolean)
@@ -632,6 +675,7 @@
 - **Show Interaction Needed Button** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 - **Duration** (Number)
@@ -661,6 +705,7 @@
 **Description:** Use your webcam camera as a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 - **Generate Texture** (Number: Boolean)
@@ -675,6 +720,7 @@
 - **Element Flip Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 - **Ratio** (Number)

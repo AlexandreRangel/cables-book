@@ -13,11 +13,13 @@
 **Description:** delay triggering next port by x seconds
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Delay** (Number)
 - **Cancel** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Delaying** (booleanNumber)
 
@@ -34,10 +36,12 @@
 **Description:** Allows a trigger to pass only if the gate is open
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Pass Through** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xotJAH)
@@ -53,10 +57,12 @@
 **Description:** Timed Trigger every x ms
 
 **> Input Ports:**
+
 - **Interval** (Number)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZdvX7i)
@@ -72,9 +78,11 @@
 **Description:** outputs true if being triggered last frame
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
@@ -91,10 +99,12 @@
 **Description:** Lets a trigger through every nth time (trigger limiter)
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Nth** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cnVqii)
@@ -110,9 +120,11 @@
 **Description:** Outputs the last number of the input port which was triggered
 
 **> Input Ports:**
+
 - *Visit [Ops.Trigger.NumberByTrigger documentation](https://cables.gl/op/Ops.Trigger.NumberByTrigger) for input port details*
 
 **< Output Ports:**
+
 - **Number** (Number)
 - **Triggered** (Trigger)
 
@@ -129,10 +141,12 @@
 **Description:** output a number by triggering an index port
 
 **> Input Ports:**
+
 - **Trigger_0** (Trigger)
 - **Add Port** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Number Triggered** (Number)
 
@@ -149,10 +163,12 @@
 **Description:** trigger by chance
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Probability** (Number)
 
 **< Output Ports:**
+
 - **Trigger Output** (Trigger)
 - **Inverse Trigger Output** (Trigger)
 
@@ -169,12 +185,14 @@
 **Description:** randomly trigger
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Num Times** (Number)
 - **Seed** (Number)
 - **Only Once** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Render** (Trigger)
 - **Num Times** (Number)
 - **Seed** (Number)
@@ -202,6 +220,7 @@
 **Description:** Triggers all ops underneath Num X * Num Y times
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Num X** (Number: Integer)
 - **Num Y** (Number: Integer)
@@ -210,6 +229,7 @@
 - **Centers X and Y around the origin** (0/0)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -229,10 +249,12 @@
 **Description:** Triggers all ops below x times (for loop / while)
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Repeats** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Index** (Number)
 
@@ -249,10 +271,12 @@
 **Description:** Triggers one of the out ports - value index switch case (was SwitchTrigger)
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next Trigger** (Trigger)
 - **Switched Value** (Number)
 - **Trigger 0** (Trigger)
@@ -295,11 +319,13 @@
 **Description:** animated switching between things
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Exe** (Trigger)
 - **Duration** (Number)
 
 **< Output Ports:**
+
 - **Qutsn94pc** (Trigger)
 - **Hvyzlh9o8** (Trigger)
 - **T8dvyjuoq** (Trigger)
@@ -320,10 +346,12 @@
 **Description:** Triggers one of the - value index switch case
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
 **< Output Ports:**
+
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 - **Total Connections** (Number)
@@ -360,6 +388,7 @@
 **Description:** route trigger output by string
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Switch Value** (String)
 - **String 0** (String)
@@ -388,6 +417,7 @@
 - **String 23** (String)
 
 **< Output Ports:**
+
 - **Next Trigger** (Trigger)
 - **Switched Index** (Number)
 - **Trigger 0** (Trigger)
@@ -428,6 +458,7 @@
 **Description:** control the order of execution/triggering
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Exe 0** (Trigger)
 - **Exe 1** (Trigger)
@@ -446,6 +477,7 @@
 - **Exe 14** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
@@ -476,10 +508,12 @@
 **Description:** sequence trigger
 
 **> Input Ports:**
+
 - **Input_0** (Trigger)
 - **Add Port** (Trigger)
 
 **< Output Ports:**
+
 - **Output_0** (Trigger)
 - **Output_1** (Trigger)
 
@@ -496,6 +530,7 @@
 **Description:** route input triggers by index to one output
 
 **> Input Ports:**
+
 - **Trigger Index** (Number: Integer)
 - **Trigger In 0** (Trigger)
 - **Trigger In 1** (Trigger)
@@ -515,6 +550,7 @@
 - **Trigger In 15** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/upF4rn)
@@ -530,9 +566,11 @@
 **Description:** Triggers only once when threshold is crossed
 
 **> Input Ports:**
+
 - **Threshold** (Number)
 
 **< Output Ports:**
+
 - *Visit [Ops.Trigger.Threshold documentation](https://cables.gl/op/Ops.Trigger.Threshold) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pG-Mwq)
@@ -548,12 +586,14 @@
 **Description:** timed switching of trigger
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Current** (Number: Integer)
 - **OverwriteTime** (Number: Boolean)
 - **IgnoreInSubPatch** (Number: Boolean)
 
 **< Output Ports:**
+
 - **TriggerAlways** (Trigger)
 - **Names** (Array)
 - **CurrentKeyTime** (Number)
@@ -604,11 +644,13 @@
 **Description:** Get the time since last trigger
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Time** (Number)
 
@@ -625,9 +667,11 @@
 **Description:** simple button to trigger manually
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/05Arii)
@@ -643,10 +687,12 @@
 **Description:** Counts how often the port was triggered
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **TimesTriggered** (Number)
 
@@ -663,12 +709,14 @@
 **Description:** Increments with each trigger and loops depending on min and max loop values.
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Reset** (Trigger)
 - **Loop Min** (Number: Integer)
 - **Loop Max** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Current Count** (Number)
 
@@ -685,12 +733,14 @@
 **Description:** triggers evenly distributed by value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Number** (Number)
 - **Max** (Number)
 - **Num Outputs** (Number)
 
 **< Output Ports:**
+
 - **Num** (Number)
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
@@ -726,9 +776,11 @@
 **Description:** Extends a trigger (useful in big patches for better overview)
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
@@ -744,9 +796,11 @@
 **Description:** trigger if a value decreases / gets smaller
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
@@ -762,9 +816,11 @@
 **Description:** Outputs a trigger if the value of a number increases
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
@@ -780,10 +836,12 @@
 **Description:** Limits how often a trigger goes through to x ms
 
 **> Input Ports:**
+
 - **In Trigger** (Trigger)
 - **Milliseconds** (Number)
 
 **< Output Ports:**
+
 - **Out Trigger** (Trigger)
 - **Progress** (Number)
 
@@ -800,10 +858,12 @@
 **Description:** Outputs a number when triggered
 
 **> Input Ports:**
+
 - **Set** (Trigger)
 - **Number** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Out Value** (Number)
 
@@ -820,10 +880,12 @@
 **Description:** Trigger the following children once
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
@@ -840,9 +902,11 @@
 **Description:** triggers when array has changed
 
 **> Input Ports:**
+
 - **Array** (Array)
 
 **< Output Ports:**
+
 - **Changed** (Trigger)
 - **Result** (Array)
 
@@ -859,9 +923,11 @@
 **Description:** triggers when Object has changed
 
 **> Input Ports:**
+
 - **Object** (Object)
 
 **< Output Ports:**
+
 - **Changed** (Trigger)
 - **Result** (Object)
 
@@ -878,9 +944,11 @@
 **Description:** triggers when string has changed
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Changed** (Trigger)
 - **Result** (String)
 
@@ -897,9 +965,11 @@
 **Description:** triggers when texture has changed
 
 **> Input Ports:**
+
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Changed** (Trigger)
 - **Result** (Object)
 
@@ -916,9 +986,11 @@
 **Description:** Receives triggers from a TriggerSend op with the same variable name
 
 **> Input Ports:**
+
 - *Visit [Ops.Trigger.TriggerReceive documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for input port details*
 
 **< Output Ports:**
+
 - **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
@@ -934,9 +1006,11 @@
 **Description:** receives all named trigges and relays them, optionally using a filter-prefix on the name
 
 **> Input Ports:**
+
 - **Prefix** (String)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Trigger Name** (String)
 
@@ -953,9 +1027,11 @@
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
@@ -971,10 +1047,12 @@
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Named Trigger** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Trigger.TriggerSendNamed documentation](https://cables.gl/op/Ops.Trigger.TriggerSendNamed) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tc3pcI)
@@ -990,9 +1068,11 @@
 **Description:** Counts how often the port is triggered per second
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Cps** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JCkpVJ)
@@ -1008,10 +1088,12 @@
 **Description:** trigger a string
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **String** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (String)
 
@@ -1028,9 +1110,11 @@
 **Description:** Triggers when the input value became zero
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Became Zero Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example)

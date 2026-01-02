@@ -13,6 +13,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
 - **Method Index** (Number: Integer)
@@ -39,6 +40,7 @@
 - **Age Fade** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Velocity** (Object)
 - **Collision** (Object)

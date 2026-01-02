@@ -13,10 +13,12 @@
 **Description:** FxHash simulator / generator of seeded random numbers
 
 **> Input Ports:**
+
 - **Hash** (String)
 - **Randomize Hash** (Trigger)
 
 **< Output Ports:**
+
 - **Fxhash** (String)
 - **Fxrand 1** (Number)
 - **Fxrand 2** (Number)

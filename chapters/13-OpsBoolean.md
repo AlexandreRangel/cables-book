@@ -13,10 +13,12 @@
 **Description:** Outputs `true` if both input values are `true` (boolean)
 
 **> Input Ports:**
+
 - **Bool 1** (Number: Boolean)
 - **Bool 2** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_B91Ms)
@@ -32,10 +34,12 @@
 **Description:** Outputs `true` if all input values are `true` (boolean)
 
 **> Input Ports:**
+
 - **Booleans_0** (Number: Boolean)
 - **Add Port** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.AndMultiPort_v2#example)
@@ -51,10 +55,12 @@
 **Description:** Trigger true or false values
 
 **> Input Ports:**
+
 - **True** (Trigger)
 - **False** (Trigger)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1UEVu1)
@@ -70,9 +76,11 @@
 **Description:** Stores a boolean value
 
 **> Input Ports:**
+
 - **Value** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
@@ -88,6 +96,7 @@
 **Description:** Convert boolean to RGB color
 
 **> Input Ports:**
+
 - **Boolean** (Number: Boolean)
 - **R True** (Number)
 - **G True** (Number)
@@ -99,6 +108,7 @@
 - **A False** (Number)
 
 **< Output Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
@@ -117,11 +127,13 @@
 **Description:** Switches two number values using a boolean
 
 **> Input Ports:**
+
 - **Use Value 1** (Number: Boolean)
 - **Value 0** (Number)
 - **Value 1** (Number)
 
 **< Output Ports:**
+
 - **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.BoolToNumber_v2#example)
@@ -137,11 +149,13 @@
 **Description:** convert boolean to string
 
 **> Input Ports:**
+
 - **Boolean** (Number: Boolean)
 - **False** (String)
 - **True** (String)
 
 **< Output Ports:**
+
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kmXCm6)
@@ -157,11 +171,13 @@
 **Description:** Delay the input/output of a boolean by x seconds
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Delay True** (Number)
 - **Delay False** (Number)
 
 **< Output Ports:**
+
 - **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VBa0ft)
@@ -177,10 +193,12 @@
 **Description:** Triggers if input value is `false`
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
 - **Then** (Trigger)
@@ -199,10 +217,12 @@
 **Description:** Switch, trigger one or the other trigger port based on the input value
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Then** (Trigger)
 - **Else** (Trigger)
 
@@ -219,9 +239,11 @@
 **Description:** Returns `true` if input value is `1`
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IsOne#example)
@@ -237,9 +259,11 @@
 **Description:** Returns `true` if input value is `0`
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Boolean.IsZero#example)
@@ -255,6 +279,7 @@
 **Description:** Sets output to `1` when triggered, turns back to `0` automatically after x seconds
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Duration** (Number)
 - **Value True** (Number)
@@ -262,6 +287,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Activated** (Trigger)
 - **Ended** (Trigger)
 - **Result** (Number)
@@ -279,9 +305,11 @@
 **Description:** result is false if input is true and vice versa (negate/toggle/switch/!=)
 
 **> Input Ports:**
+
 - **Boolean** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
@@ -297,6 +325,7 @@
 **Description:** Returns `true` if one or more of the input booleans are `true`
 
 **> Input Ports:**
+
 - **Bool 1** (Number: Boolean)
 - **Bool 2** (Number: Boolean)
 - **Bool 3** (Number: Boolean)
@@ -309,6 +338,7 @@
 - **Bool 10** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1dAfW2)
@@ -324,6 +354,7 @@
 **Description:** Output another number if input number is zero
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Number 2** (Number)
 - **Number 3** (Number)
@@ -334,6 +365,7 @@
 - **Number 8** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J4cYet)
@@ -349,9 +381,11 @@
 **Description:** parse boolean from string/number
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2nXYet)
@@ -367,11 +401,13 @@
 **Description:** Route a boolean to an output port
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Boolean In** (Number: Boolean)
 - **Default Boolean** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Index 0 Boolean** (booleanNumber)
 - **Index 1 Boolean** (booleanNumber)
 - **Index 2 Boolean** (booleanNumber)
@@ -396,11 +432,13 @@
 **Description:** Toggle a boolean value by triggering
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 - **Default** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (booleanNumber)
 
@@ -417,9 +455,11 @@
 **Description:** Triggers next only after value has changed to `false`
 
 **> Input Ports:**
+
 - **Value** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UWCvS8)
@@ -435,9 +475,11 @@
 **Description:** Triggers next only after value has changed to `true`
 
 **> Input Ports:**
+
 - **Value** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UWCvS8)
@@ -453,9 +495,11 @@
 **Description:** Triggers when boolean value has changed
 
 **> Input Ports:**
+
 - **Value** (Number: Boolean)
 
 **< Output Ports:**
+
 - **True** (Trigger)
 - **False** (Trigger)
 

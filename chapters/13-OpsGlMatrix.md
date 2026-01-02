@@ -13,12 +13,14 @@
 **Description:** animate values in a matrix to a new matrix
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Next Matrix** (Array)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Matrix** (Array)
 
@@ -35,6 +37,7 @@
 **Description:** interpolate position on a spline/array3x
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Array** (Array)
 - **Time** (Number)
@@ -43,6 +46,7 @@
 - **Look Ahead** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Transform Lookat** (Trigger)
 - **Index** (Number)
@@ -60,6 +64,7 @@
 **Description:** render lots of particles following a path/spline/array3x
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Points** (Array)
 - **Num Particles** (Number)
@@ -70,6 +75,7 @@
 - **RandomSpeed** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4wT0J6)
@@ -85,9 +91,11 @@
 **Description:** rotate an object to always face the camera
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GVpkrq)
@@ -103,6 +111,7 @@
 **Description:** Transforms and projects the scene from the point of view of the camera.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Identity** (Number: Boolean)
 - **Projection Mode Index** (Number: Integer)
@@ -126,6 +135,7 @@
 - **Roll** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Aspect** (Number)
 - **Look At Array** (Array)
@@ -143,10 +153,12 @@
 **Description:** get camera attributes from current camera/orbit controls
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Camera Type Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -182,9 +194,11 @@
 **Description:** get the current position of viewmatrix/camera eye
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -203,9 +217,11 @@
 **Description:** current xyz coordinates (modelmatrix)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -224,9 +240,11 @@
 **Description:** gyroscope motionsensor camera
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Window Orientation** (Number)
 
@@ -243,10 +261,12 @@
 **Description:** Get the scalar scaling of a matrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Scaling** (Number)
 
@@ -263,9 +283,11 @@
 **Description:** Get current modelmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
@@ -282,9 +304,11 @@
 **Description:** get current projectionmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
@@ -301,9 +325,11 @@
 **Description:** get current viewmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
@@ -320,12 +346,14 @@
 **Description:** interpolate between two matrices
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Perc** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 
@@ -342,9 +370,11 @@
 **Description:** outputs an inverted matrix
 
 **> Input Ports:**
+
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G51FhI)
@@ -360,6 +390,7 @@
 **Description:** transforms view to look from eye to center
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **EyeX** (Number)
 - **EyeY** (Number)
@@ -372,6 +403,7 @@
 - **UpZ** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Array** (Array)
 
@@ -388,10 +420,12 @@
 **Description:** get translation of a matrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -410,11 +444,13 @@
 **Description:** multiply model matrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Identity** (Number: Boolean)
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HkYpci)
@@ -430,11 +466,13 @@
 **Description:** multiply view matrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Matrix** (Array)
 - **Identity** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDWuci)
@@ -450,6 +488,7 @@
 **Description:** multiplies current modelmatrix with a quaternion
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -457,6 +496,7 @@
 - **W** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
@@ -472,6 +512,7 @@
 **Description:** Set up a camera, rotated by a quaternion
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **EyeX** (Number)
 - **EyeY** (Number)
@@ -485,6 +526,7 @@
 - **UpZ** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
@@ -500,6 +542,7 @@
 **Description:** place random objects on a grid
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Max Depth** (Number)
 - **Possibility** (Number)
@@ -509,6 +552,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Index** (Number)
 - **Depth** (Number)
@@ -526,6 +570,7 @@
 **Description:** Place random objects on a grid
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Max Depth** (Number)
 - **Possibility** (Number)
@@ -535,6 +580,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Positions** (Array)
 - **Scalings** (Array)
 - **Array Length** (Number)
@@ -553,6 +599,7 @@
 **Description:** Scale all child objects (scaleXYZ)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Scale** (Number)
 - **X** (Number)
@@ -560,6 +607,7 @@
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/au9U7i)
@@ -575,12 +623,14 @@
 **Description:** scale xyz of viewmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aSB6On)
@@ -596,10 +646,12 @@
 **Description:** screen/pixel coordinates of the current transform
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Pixel Unit Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **X** (Number)
 - **Y** (Number)
@@ -618,12 +670,14 @@
 **Description:** convert screen coordinates to a 3d position
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Input Type Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Result X** (Number)
 - **Result Y** (Number)
@@ -641,10 +695,12 @@
 **Description:** set a projection matrix
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Matrix** (Array)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/573_4S)
@@ -660,11 +716,13 @@
 **Description:** displaces each point of a mesh in fixed direction
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **ShearX** (Number)
 - **ShearY** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PmTYnO)
@@ -680,6 +738,7 @@
 **Description:** transform a matrix (mat4)
 
 **> Input Ports:**
+
 - **Transform** (Trigger)
 - **Matrix** (Array)
 - **Translate X** (Number)
@@ -693,6 +752,7 @@
 - **Rotation Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (Array)
 
@@ -709,10 +769,12 @@
 **Description:** multiply current modelmatrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mul** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
@@ -728,12 +790,14 @@
 **Description:** Translate objects (move / position in 3D space)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
@@ -749,12 +813,14 @@
 **Description:** translate the view/camera matrix
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
@@ -770,6 +836,7 @@
 **Description:** Translate any geometry underneath it using vectors and speed.
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Speed** (Number)
 - **Vector X** (Number)
@@ -782,6 +849,7 @@
 - **Max** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
@@ -797,6 +865,7 @@
 **Description:** simple camera you control with W,A,S,D keys like in a FPS game
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Enable Pointer Lock** (Number: Boolean)
 - **Speed** (Number)
@@ -808,6 +877,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **IsLocked** (booleanNumber)
 - **PosX** (Number)

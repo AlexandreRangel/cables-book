@@ -13,6 +13,7 @@
 **Description:** Cellular automata system as feedback loop texture.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Reset** (Trigger)
 - **Use Viewport Size** (Number: Boolean)
@@ -33,6 +34,7 @@
 - **Separate Fields** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Texture Out** (Object)
 

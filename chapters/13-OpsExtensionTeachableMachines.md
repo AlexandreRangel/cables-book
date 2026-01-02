@@ -13,11 +13,13 @@
 **Description:** Use the Teachable Machines audio classifier for your microphone. Insert the uploaded model URL.
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Initialize** (Trigger)
 - **Model URL** (String)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)
 - **Classifier** (Array)
@@ -35,12 +37,14 @@
 **Description:** Use the Teachable Machines image classifier. Insert the uploaded model URL.
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Initialize** (Trigger)
 - **Model URL** (String)
 - **Webcam Element** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)
 - **Classifier** (Array)
@@ -58,6 +62,7 @@
 **Description:** Use the Teachable Machines pose detection with your webcam. Insert the uploaded model URL.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Initialize** (Trigger)
 - **Model URL** (String)
@@ -65,6 +70,7 @@
 - **Flip Image** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)
 - **Classifier** (Array)

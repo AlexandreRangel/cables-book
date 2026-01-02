@@ -13,6 +13,7 @@
 **Description:** Lsystem generator
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Iterations** (Number: Integer)
 - **Step Length** (Number)
@@ -23,6 +24,7 @@
 - **Random Strength** (Number)
 
 **< Output Ports:**
+
 - **Out Trigger Geometry** (Trigger)
 - **Points Out** (Array)
 - **Max Size** (Number)

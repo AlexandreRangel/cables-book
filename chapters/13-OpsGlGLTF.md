@@ -13,6 +13,7 @@
 **Description:** Convert an animation into an array of coordinates
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Steps** (Number: Integer)
@@ -21,6 +22,7 @@
 - **Length** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 - **Positions** (Array)
@@ -38,10 +40,12 @@
 **Description:** get view matrix from a gltf camera
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Node Name** (String)
 
 **< Output Ports:**
+
 - **Matrix** (Array)
 - **Found** (booleanNumber)
 
@@ -58,9 +62,11 @@
 **Description:** gltf draco compression library
 
 **> Input Ports:**
+
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for input port details*
 
 **< Output Ports:**
+
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WFva2K)
@@ -76,11 +82,13 @@
 **Description:** expose geometry from gltf meshes, also possible to expose submaterial geometries
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Name** (String)
 - **Submesh** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 - **Found** (booleanNumber)
@@ -98,10 +106,12 @@
 **Description:** export array of positions from a hierarchy of a branch structure in a gltf, e.g. a skeleton bones
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Node Name** (String)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Bones Lines** (Array)
 
@@ -118,9 +128,11 @@
 **Description:** output some infos about the current parent GLTF scene
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - **Num Nodes** (Number)
 - **Num Cams** (Number)
 - **FileUrl** (String)
@@ -140,6 +152,7 @@
 **Description:** switch between meshes e.g. like a stop motion animation
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Index** (Number: Integer)
 - **Node Name** (String)
@@ -147,6 +160,7 @@
 - **Ignore Material** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (Number)
 - **Current Index** (Number)
@@ -164,6 +178,7 @@
 **Description:** render weighted morph targets/shape keys from a gltf file
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Scene Time** (Number: Boolean)
@@ -172,6 +187,7 @@
 - **Target Weights** (Array)
 
 **< Output Ports:**
+
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
 - **Target Names** (Array)
@@ -191,6 +207,7 @@
 **Description:** Control a single node from the GLTFscene op
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Transformation** (Number: Boolean)
@@ -201,6 +218,7 @@
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 - **Found** (booleanNumber)
@@ -218,6 +236,7 @@
 **Description:** sine animate gltf nodes by a filter
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Filter** (String)
 - **Time** (Number)
@@ -228,6 +247,7 @@
 - **Axis Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (Number)
 
@@ -244,11 +264,13 @@
 **Description:** Get the transform from the GLTFscene op
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Set Matrix** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 - **Matrix** (Array)
@@ -266,6 +288,7 @@
 **Description:** output all transformations of nodes starting with [search]
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Search** (String)
 - **Order Index** (Number: Integer)
@@ -273,6 +296,7 @@
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Positions** (Array)
 - **Scale** (Array)
@@ -292,6 +316,7 @@
 **Description:** Load GLTF/GLB 3d files
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Glb File** (String)
 - **Draw** (Number: Boolean)
@@ -309,6 +334,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Render Before** (Trigger)
 - **Next** (Trigger)
 - **Generator** (String)
@@ -336,10 +362,12 @@
 **Description:** Assigns a material to a node inside of the gltfScene op
 
 **> Input Ports:**
+
 - **Shader** (Object:Shader)
 - **Material Name** (String)
 
 **< Output Ports:**
+
 - **Material** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Mk3Dv2)
@@ -355,6 +383,7 @@
 **Description:** render a skinned mesh (bone/rigging/rigged animation)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Scene Time** (Number: Boolean)
@@ -362,6 +391,7 @@
 - **Blend Anims** (Array)
 
 **< Output Ports:**
+
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
 - **Next** (Trigger)
@@ -379,6 +409,7 @@
 **Description:** Load textures from inside a .glb file
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Name** (String)
 - **Filter Index** (Number: Integer)
@@ -388,6 +419,7 @@
 - **Pre Multiplied Alpha** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -407,6 +439,7 @@
 **Description:** set transformation of a gltf node
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Translate X** (Number)
@@ -417,6 +450,7 @@
 - **Rotation Z** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
@@ -433,12 +467,14 @@
 **Description:** play gltf vertex anim directly with its own timing
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Scene Time** (Number: Boolean)
 - **Time** (Number)
 
 **< Output Ports:**
+
 - **Found Node** (Number)
 - **Next** (Trigger)
 

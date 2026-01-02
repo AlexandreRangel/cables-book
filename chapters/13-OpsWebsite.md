@@ -13,9 +13,11 @@
 **Description:** cookie of the current website as object
 
 **> Input Ports:**
+
 - *Visit [Ops.Website.Cookie documentation](https://cables.gl/op/Ops.Website.Cookie) for input port details*
 
 **< Output Ports:**
+
 - **Cookie** (Object)
 - **Cookie String** (String)
 
@@ -32,9 +34,11 @@
 **Description:** information about a filename, like url protocol, suffix etc
 
 **> Input Ports:**
+
 - **URL** (String)
 
 **< Output Ports:**
+
 - **Protocol** (String)
 - **Host** (String)
 - **Full Path** (String)
@@ -57,9 +61,11 @@
 **Description:** will redirect to same URL using https protocol
 
 **> Input Ports:**
+
 - *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for input port details*
 
 **< Output Ports:**
+
 - *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Website.ForceHttps#example)
@@ -75,9 +81,11 @@
 **Description:** Information about the current URL
 
 **> Input Ports:**
+
 - *Visit [Ops.Website.InfoURL documentation](https://cables.gl/op/Ops.Website.InfoURL) for input port details*
 
 **< Output Ports:**
+
 - **URL** (String)
 - **Host** (String)
 - **Hash** (String)
@@ -99,9 +107,11 @@
 **Description:** Outputs true if the patch is inside of an iframe
 
 **> Input Ports:**
+
 - *Visit [Ops.Website.InIframe documentation](https://cables.gl/op/Ops.Website.InIframe) for input port details*
 
 **< Output Ports:**
+
 - **In Iframe** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qWDDci)
@@ -117,11 +127,13 @@
 **Description:** Store and retreive a number in browser localstorage
 
 **> Input Ports:**
+
 - **Key** (String)
 - **Number** (Number)
 - **Store** (Trigger)
 
 **< Output Ports:**
+
 - **Stored Number** (Number)
 - **Storage Support** (Number)
 
@@ -138,11 +150,13 @@
 **Description:** Store and retreive a string in browser localstorage
 
 **> Input Ports:**
+
 - **Key** (String)
 - **String** (String)
 - **Store** (Trigger)
 
 **< Output Ports:**
+
 - **Stored String** (String)
 - **Storage Support** (booleanNumber)
 
@@ -159,10 +173,12 @@
 **Description:** gives updated information about window.location.hash
 
 **> Input Ports:**
+
 - **Route** (String)
 - **pattern for url and variables** (i.e. /scene/:id)
 
 **< Output Ports:**
+
 - **Values** (Object)
 - **Changed** (Trigger)
 - **Matching** (booleanNumber)
@@ -180,6 +196,7 @@
 **Description:** sets window.location.hash to the specified value(s)
 
 **> Input Ports:**
+
 - **Hash** (String)
 - **Update** (Trigger)
 - **Active** (Number: Boolean)
@@ -187,6 +204,7 @@
 - **Allow Empty** (Number: Boolean)
 
 **< Output Ports:**
+
 - *Visit [Ops.Website.SetLocationHash documentation](https://cables.gl/op/Ops.Website.SetLocationHash) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EfiWpG)
@@ -202,10 +220,12 @@
 **Description:** Returns a URL query parameter
 
 **> Input Ports:**
+
 - **Parameter** (String)
 - **Default** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2SE58i)

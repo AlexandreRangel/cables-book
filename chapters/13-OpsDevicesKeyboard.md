@@ -13,12 +13,14 @@
 **Description:** get the state of your keyboards arrow keys
 
 **> Input Ports:**
+
 - **Canvas Only** (Number: Boolean)
 - **Cursor Keys** (Number: Boolean)
 - **WASD** (Number: Boolean)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Degree** (Number)
 - **Up** (booleanNumber)
 - **Up Pressed** (Trigger)
@@ -43,11 +45,13 @@
 **Description:** Triggers when a key is pressed
 
 **> Input Ports:**
+
 - **Area Index** (Number: Integer)
 - **Prevent Default** (Number: Boolean)
 - **Enabled** (Number: Boolean)
 
 **< Output Ports:**
+
 - **On Press** (Trigger)
 - **Key Code** (Number)
 - **Key** (String)
@@ -65,6 +69,7 @@
 **Description:** Triggers when certain key is pressed or released
 
 **> Input Ports:**
+
 - **Key Code** (Number: Integer)
 - **Canvas Only** (Number: Boolean)
 - **Mod Key Index** (Number: Integer)
@@ -73,6 +78,7 @@
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **On Press** (Trigger)
 - **On Release** (Trigger)
 - **Pressed** (booleanNumber)
@@ -91,6 +97,7 @@
 **Description:** simple controller example op for game characters
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Speed** (Number)
 - **North** (Number: Boolean)
@@ -100,6 +107,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Dir** (Number)
@@ -117,9 +125,11 @@
 **Description:** Emulates a MIDI keyboard using your regular keyboard
 
 **> Input Ports:**
+
 - **Canvas Only** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Note Number** (Number)
 - **Velocity** (Number)
 - **Channel** (Number)

@@ -13,6 +13,7 @@
 **Description:** create a texture from an array of number values
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Array** (Array)
 - **Width** (Number: Integer)
@@ -23,6 +24,7 @@
 - **Wrap Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture Out** (Object)
 - **Tex Width** (Number)
@@ -41,11 +43,13 @@
 **Description:** change how colors are mixed (blending/mixing modes)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blendmode Index** (Number: Integer)
 - **Premultiplied** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x1-Fvc)
@@ -61,9 +65,11 @@
 **Description:** is canvas focussed ?
 
 **> Input Ports:**
+
 - **Focus** (Trigger)
 
 **< Output Ports:**
+
 - **Has Focus** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vGwM7f)
@@ -79,9 +85,11 @@
 **Description:** the size of the canvas in pixels, aspect ratio and pixel density
 
 **> Input Ports:**
+
 - *Visit [Ops.Gl.CanvasInfo_v3 documentation](https://cables.gl/op/Ops.Gl.CanvasInfo_v3) for input port details*
 
 **< Output Ports:**
+
 - **CSS Width** (Number)
 - **CSS Height** (Number)
 - **Pixel Ratio** (Number)
@@ -106,12 +114,14 @@
 **Description:** convert a canvas to texture
 
 **> Input Ports:**
+
 - **Canvas** (Object)
 - **Filter Index** (Number: Integer)
 - **Wrap Index** (Number: Integer)
 - **Force Update** (Trigger)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -129,6 +139,7 @@
 **Description:** sets all cleared pixels to one colour. Use to change the background colour.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -136,6 +147,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UEjvr)
@@ -151,9 +163,11 @@
 **Description:** Clears the depth buffer (zbuffer, z buffer)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rEesag)
@@ -169,6 +183,7 @@
 **Description:** enable/disable RGBA color channels of your entire scene
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Red** (Number: Boolean)
 - **Green** (Number: Boolean)
@@ -176,6 +191,7 @@
 - **Alpha** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqQSR7)
@@ -191,11 +207,13 @@
 **Description:** pick a color at x,y coordinates of canvas
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 
 **< Output Ports:**
+
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
@@ -214,11 +232,13 @@
 **Description:** translate away from a point in space
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Center Model Matrix** (Array)
 - **Amount** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5gL9On)
@@ -234,12 +254,14 @@
 **Description:** Download a texture as an image file
 
 **> Input Ports:**
+
 - **Texture** (Object:Texture)
 - **Quality** (Number)
 - **Filename** (String)
 - **Download** (Trigger)
 
 **< Output Ports:**
+
 - **Jcrmz8mnz** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/15LaTs)
@@ -255,11 +277,13 @@
 **Description:** draw texture mapping coordinates
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Num Points** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Nu7dJ5)
@@ -275,10 +299,12 @@
 **Description:** check if webgl canvas element is in the current browser viewport
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Element** (Object:Element)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Fully Visible** (booleanNumber)
 - **Partly Visible** (booleanNumber)
@@ -296,6 +322,7 @@
 **Description:** Open a new window that shows a copy of the patch canvas
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Pos X** (Number: Integer)
 - **Pos Y** (Number: Integer)
@@ -309,6 +336,7 @@
 - **Close** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Element** (Object)
 
@@ -325,10 +353,12 @@
 **Description:** Disable the rendering of front or back facing triangles with culling
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mPwnD-)
@@ -344,6 +374,7 @@
 **Description:** Load MSDF Font data and texture to use
 
 **> Input Ports:**
+
 - **Font Name** (String)
 - **Font Data** (String)
 - **Font Image** (String)
@@ -352,6 +383,7 @@
 - **Font Image 3** (String)
 
 **< Output Ports:**
+
 - **Loaded** (booleanNumber)
 - **Total Chars** (Number)
 - **Chars** (String)
@@ -369,6 +401,7 @@
 **Description:** Resize canvas element to a specific pixel size or aspect ratio
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Active** (Number: Boolean)
 - **Center In Parent** (Number: Boolean)
@@ -380,6 +413,7 @@
 - **Fill Parent Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -399,11 +433,13 @@
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
 **> Input Ports:**
+
 - **Object In** (Object:Texture)
 - **Pass Through** (Number: Boolean)
 - **Only Valid Textures** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GateTexture#example)
@@ -419,6 +455,7 @@
 **Description:** set gl blendmodes directly
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Src RGB Index** (Number: Integer)
 - **Dst RGB Index** (Number: Integer)
@@ -427,6 +464,7 @@
 - **Blend Equation Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/24qZz7)
@@ -442,9 +480,11 @@
 **Description:** information about the webgl context
 
 **> Input Ports:**
+
 - *Visit [Ops.Gl.GlInfo_v2 documentation](https://cables.gl/op/Ops.Gl.GlInfo_v2) for input port details*
 
 **< Output Ports:**
+
 - **WebGl Version Short** (Number)
 - **WebGl Version** (String)
 - **GLSL Version** (String)
@@ -471,10 +511,12 @@
 **Description:** force rendering of meshes using points,lines or triangles
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Primitive Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5Mz8i)
@@ -490,6 +532,7 @@
 **Description:** texture containing a colour gradient that can be altered with an editor
 
 **> Input Ports:**
+
 - **Gradient** (Number)
 - **Direction Index** (Number: Integer)
 - **Smoothstep** (Number: Boolean)
@@ -504,6 +547,7 @@
 - **Randomize Colors** (Trigger)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Alpha Mask** (Object)
 - **Colors** (Array)
@@ -522,6 +566,7 @@
 **Description:** transform and arrange elements into a grid
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Num X** (Number: Integer)
 - **Num Y** (Number: Integer)
@@ -529,6 +574,7 @@
 - **Space Y** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Index** (Number)
 - **X Index** (Number)
@@ -547,9 +593,11 @@
 **Description:** reset all transforms (modelmatrix)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KUVJ8i)
@@ -565,9 +613,11 @@
 **Description:** reset the view matrix (cameras etc.)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H01Ici)
@@ -583,6 +633,7 @@
 **Description:** play a image sprite animation
 
 **> Input Ports:**
+
 - **Time** (Number)
 - **FPS** (Number)
 - **Num X** (Number)
@@ -591,6 +642,7 @@
 - **Flip Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Repeat X** (Number)
 - **Repeat Y** (Number)
 - **Offset X** (Number)
@@ -611,6 +663,7 @@
 **Description:** An area which is interactive
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -626,6 +679,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
 - **Pointer Hover** (booleanNumber)
@@ -652,9 +706,11 @@
 **Description:** Render Multiple Layers in a specific order
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
@@ -685,11 +741,13 @@
 **Description:** A Simple way to write text on the screen.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Text** (String)
 - **Letter Spacing** (Number)
 
 **< Output Ports:**
+
 - **Lines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1JzPLu)
@@ -705,6 +763,7 @@
 **Description:** Trigger other ops once every frame to create smooth animations
 
 **> Input Ports:**
+
 - **FPS Limit** (Number)
 - **Reduce FPS Unfocussed** (Number: Boolean)
 - **Transparent** (Number: Boolean)
@@ -712,6 +771,7 @@
 - **Focus Canvas** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -730,6 +790,7 @@
 **Description:** Record the renderer-output to video
 
 **> Input Ports:**
+
 - **Recording** (Number: Boolean)
 - **Filename** (String)
 - **Download Video** (Number: Boolean)
@@ -741,6 +802,7 @@
 - **Video Canvas Id** (String)
 
 **< Output Ports:**
+
 - **State** (String)
 - **Error** (String)
 - **Final Mimetype** (String)
@@ -762,6 +824,7 @@
 **Description:** Draw the same mesh multiple times on the GPU
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Geom** (Object:Geometry)
 - **Scale** (Number)
@@ -774,6 +837,7 @@
 - **TexCoords** (Array)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
@@ -790,6 +854,7 @@
 **Description:** morph from one geometry to another
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Number: Integer)
 - **Duration** (Number)
@@ -815,6 +880,7 @@
 - **Geometry 15** (Object)
 
 **< Output Ports:**
+
 - **Finished** (booleanNumber)
 - **Trigger** (Trigger)
 
@@ -831,10 +897,12 @@
 **Description:** convert screen pixel coordinates to range 0-1
 
 **> Input Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 
 **< Output Ports:**
+
 - **Result X** (Number)
 - **Result Y** (Number)
 
@@ -851,6 +919,7 @@
 **Description:** outputs the first valid texture of the
 
 **> Input Ports:**
+
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
 - **Texture 3** (Object:Texture)
@@ -861,6 +930,7 @@
 - **Texture 8** (Object:Texture)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oKRY7i)
@@ -876,6 +946,7 @@
 **Description:** Orthogonal projection / objects in distance don't appear smaller (isometric)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Bounds** (Number)
 - **Axis Index** (Number: Integer)
@@ -883,6 +954,7 @@
 - **Frustum Far** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Ratio** (Number)
 - **Width** (Number)
@@ -901,11 +973,13 @@
 **Description:** Force a manually set viewport size for connected ops
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
@@ -921,6 +995,7 @@
 **Description:** Show WebGl Performance Statistics
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Active** (Number: Boolean)
 - **Visible** (Number: Boolean)
@@ -931,6 +1006,7 @@
 - **Size** (Number)
 
 **< Output Ports:**
+
 - **Childs** (Trigger)
 - **Canvas** (Object)
 - **FPS** (Number)
@@ -948,10 +1024,12 @@
 **Description:** Measure the time used to execute all child ops
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Name** (String)
 
 **< Output Ports:**
+
 - **Childs** (Trigger)
 - **Time Used** (Number)
 
@@ -968,6 +1046,7 @@
 **Description:** Adjust FOV, field of view, and frustum clipping
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **FOV Degrees** (Number)
 - **Frustum Near** (Number)
@@ -976,6 +1055,7 @@
 - **Aspect Ratio** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Aspect** (Number)
 
@@ -992,6 +1072,7 @@
 **Description:** Remaps world co-ordinates to a pixel co-ordinate system
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -1002,6 +1083,7 @@
 - **Zero Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Size Width** (Number)
 - **Size Height** (Number)
@@ -1019,10 +1101,12 @@
 **Description:** save points/coordinates in an array
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Absolute** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Points** (Array)
 
@@ -1039,9 +1123,11 @@
 **Description:** collect world space coordinates into an array
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
@@ -1057,9 +1143,11 @@
 **Description:** collect screen pixel coordinates into an array
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
@@ -1075,6 +1163,7 @@
 **Description:** Transforms objects randomly in space
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Num** (Number: Integer)
 - **Random Seed** (Number)
@@ -1089,6 +1178,7 @@
 - **Scroll X** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Index** (Number)
 - **Rnd** (Number)
@@ -1106,6 +1196,7 @@
 **Description:** record, render an animation and save as webm video file or png image sequence
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **File Type Index** (Number: Integer)
 - **ZIP Multiple Files** (Number: Boolean)
@@ -1121,6 +1212,7 @@
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Progress** (Number)
 - **Frame** (Number)
@@ -1142,12 +1234,14 @@
 **Description:** Render a geometry as mesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Add Vertex Numbers** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w6QYlH)
@@ -1163,6 +1257,7 @@
 **Description:** Render into an Image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
@@ -1172,6 +1267,7 @@
 - **Clear** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object)
 - **TextureDepth** (Object)
@@ -1189,6 +1285,7 @@
 **Description:** render to multiple textures at the same time
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
@@ -1206,6 +1303,7 @@
 - **Texture 7 Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result Texture 0** (Object)
 - **Result Texture 1** (Object)
@@ -1230,12 +1328,14 @@
 **Description:** reset current transforms to initial value (identity)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Reset Model Transform** (Number: Boolean)
 - **Reset View Transform** (Number: Boolean)
 - **Default View** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kY3J8i)
@@ -1251,6 +1351,7 @@
 **Description:** Download the current screen content as png file
 
 **> Input Ports:**
+
 - **Filename** (String)
 - **Use Canvas Size** (Number: Boolean)
 - **Screenshot** (Trigger)
@@ -1258,6 +1359,7 @@
 - **Height** (Number: Integer)
 
 **< Output Ports:**
+
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OB0Qmi)
@@ -1273,6 +1375,7 @@
 **Description:** visualize normals, tangents or bitangents
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
 - **Geometry** (Object:Geometry)
@@ -1284,6 +1387,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Line Geom** (Object)
 
@@ -1300,6 +1404,7 @@
 **Description:** Scatter an object on the surface of a mesh with different distribution methods
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
 - **Num** (Number: Integer)
@@ -1314,6 +1419,7 @@
 - **Random Rotate** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Positions** (Array)
 - **Scale** (Array)
@@ -1332,6 +1438,7 @@
 **Description:** draw text using the FontMSDF operator
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Text** (String)
 - **Scale** (Number)
@@ -1359,6 +1466,7 @@
 - **Premultiply** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Positions Original** (Array)
 - **Scales** (Array)
@@ -1381,6 +1489,7 @@
 **Description:** Load an image as a texture
 
 **> Input Ports:**
+
 - **File** (String)
 - **Wrap Index** (Number: Integer)
 - **Flip** (Number: Boolean)
@@ -1390,6 +1499,7 @@
 - **Reload** (Trigger)
 
 **< Output Ports:**
+
 - **Texture** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -1410,6 +1520,7 @@
 **Description:** create an array of textures
 
 **> Input Ports:**
+
 - **Texture 0** (Object:Texture)
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
@@ -1427,6 +1538,7 @@
 - **Texture 14** (Object:Texture)
 
 **< Output Ports:**
+
 - **Array** (Array)
 - **Count** (Number)
 
@@ -1443,6 +1555,7 @@
 **Description:** load multiple images into an array
 
 **> Input Ports:**
+
 - **Url** (String)
 - **Left Pad** (Number: Boolean)
 - **Index Start** (Number: Integer)
@@ -1453,6 +1566,7 @@
 - **UnpackPreMultipliedAlpha** (Number: Boolean)
 
 **< Output Ports:**
+
 - **TextureArray** (Array)
 - **Width** (Number)
 - **Height** (Number)
@@ -1472,6 +1586,7 @@
 **Description:** load multiple texture from filenames given as an array
 
 **> Input Ports:**
+
 - **Urls** (Array)
 - **Filter Index** (Number: Integer)
 - **Wrap Index** (Number: Integer)
@@ -1481,6 +1596,7 @@
 - **Asset In Patch** (Number: Boolean)
 
 **< Output Ports:**
+
 - **TextureArray** (Array)
 - **Width** (Number)
 - **Height** (Number)
@@ -1500,6 +1616,7 @@
 **Description:** get the color of a pixel in a texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **X** (Number: Integer)
 - **Y** (Number: Integer)
@@ -1507,6 +1624,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Red** (Number)
 - **Green** (Number)
@@ -1526,10 +1644,12 @@
 **Description:** extract colors from a texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Texture** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Colors** (Array)
 - **Floating Point** (booleanNumber)
@@ -1548,6 +1668,7 @@
 **Description:** generate an array3 of grid positions from a texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Center** (Number: Boolean)
 - **Threshold Remove** (Number)
@@ -1557,6 +1678,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Points** (Array)
 - **Total Points** (Number)
@@ -1576,6 +1698,7 @@
 **Description:** Create points by sampling texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Num Points** (Number: Integer)
 - **Seed** (Number)
@@ -1584,6 +1707,7 @@
 - **Texture** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Points** (Array)
 - **NumPoints** (Number)
@@ -1601,9 +1725,11 @@
 **Description:** will trigger when canvas was resized
 
 **> Input Ports:**
+
 - *Visit [Ops.Gl.TriggerOnCanvasResize documentation](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize) for input port details*
 
 **< Output Ports:**
+
 - **Resized** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
@@ -1619,9 +1745,11 @@
 **Description:** output current input texture or a default texture
 
 **> Input Ports:**
+
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ValidTexture#example)
@@ -1637,9 +1765,11 @@
 **Description:** Outputs current viewport size
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **X** (Number)
 - **Y** (Number)

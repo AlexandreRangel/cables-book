@@ -13,9 +13,11 @@
 **Description:** Outputs the currently active/focused element
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Active Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0iRDu1)
@@ -31,6 +33,7 @@
 **Description:** Align a HTML element to another, keep positioning
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Align Element** (Object:Element)
 - **Force Update** (Trigger)
@@ -38,6 +41,7 @@
 - **Offset Y** (Number)
 
 **< Output Ports:**
+
 - **Element Passthrough** (Object)
 - **Aligned Element** (Object)
 
@@ -54,10 +58,12 @@
 **Description:** Appends a HTML DOM Element to another
 
 **> Input Ports:**
+
 - **Parent** (Object:Element)
 - **Child** (Object:Element)
 
 **< Output Ports:**
+
 - **Parent Out** (Object)
 - **Child Out** (Object)
 
@@ -74,6 +80,7 @@
 **Description:** set file dependant on browser
 
 **> Input Ports:**
+
 - **Chrome File** (String)
 - **Firefox File** (String)
 - **Safari File** (String)
@@ -82,6 +89,7 @@
 - **Default File** (String)
 
 **< Output Ports:**
+
 - **Browser Specific File** (String)
 - **Detected Browser** (String)
 
@@ -98,12 +106,14 @@
 **Description:** Create an image file from a canvas
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object)
 - **Quality** (Number)
 - **Output DataUrl** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Binary Size** (Number)
 - **Base64 String** (String)
@@ -123,11 +133,13 @@
 **Description:** compares two images and shows the difference as a pink color
 
 **> Input Ports:**
+
 - **Image 1** (String)
 - **Image 2** (String)
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Difference Image** (String)
 - **Mismatch Percentage** (Number)
 - **Same Dimensions** (booleanNumber)
@@ -147,9 +159,11 @@
 **Description:** Outputs the current document body element
 
 **> Input Ports:**
+
 - *Visit [Ops.Html.DocumentBody documentation](https://cables.gl/op/Ops.Html.DocumentBody) for input port details*
 
 **< Output Ports:**
+
 - **Body** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.DocumentBody#example)
@@ -165,9 +179,11 @@
 **Description:** Make a HTML element draggable to move it around with the mouse
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 
 **< Output Ports:**
+
 - **Element Out** (Object)
 - **X** (Number)
 - **Y** (Number)
@@ -185,9 +201,11 @@
 **Description:** Serialize HTML/SVG elements to a string
 
 **> Input Ports:**
+
 - **Parent** (Object:Element)
 
 **< Output Ports:**
+
 - **HTML String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3kGgr5)
@@ -203,6 +221,7 @@
 **Description:** Set childs of a HTML Element
 
 **> Input Ports:**
+
 - **Parent** (Object:Element)
 - **Child 1** (Object:Element)
 - **Child 2** (Object:Element)
@@ -216,6 +235,7 @@
 - **Child 10** (Object:Element)
 
 **< Output Ports:**
+
 - **Parent Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S4VD0H)
@@ -231,11 +251,13 @@
 **Description:** add child elements to another HTML Element
 
 **> Input Ports:**
+
 - **Parent** (Object:Element)
 - **Childs_0** (Object)
 - **Add Port** (Object)
 
 **< Output Ports:**
+
 - **Parent Out** (Object)
 - **Num Values** (Number)
 
@@ -252,10 +274,12 @@
 **Description:** get html element absolute position and size in pixels on screen
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Element** (Object:Element)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Width** (Number)
@@ -274,6 +298,7 @@
 **Description:** Set the mouse cursor
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **CSS Cursors Index** (Number: Integer)
 - **File** (String)
@@ -281,6 +306,7 @@
 - **Offset Y** (Number: Integer)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_f5W8s)
@@ -296,9 +322,11 @@
 **Description:** Output css attributes of an element as a string
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 
 **< Output Ports:**
+
 - **CSS** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8JmrBZ)
@@ -314,9 +342,11 @@
 **Description:** Get the data-attributes and values of an HTML element
 
 **> Input Ports:**
+
 - **HTML Element** (Object:Element)
 
 **< Output Ports:**
+
 - **Dataset** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MgdKjH)
@@ -332,10 +362,12 @@
 **Description:** Check if two HTML element objects are equal
 
 **> Input Ports:**
+
 - **HTML Element** (Object:Element)
 - **HTML Element 2** (Object:Element)
 
 **< Output Ports:**
+
 - **Equal** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LZSRjH)
@@ -351,12 +383,14 @@
 **Description:** fade html elements in or out
 
 **> Input Ports:**
+
 - **HTML Element** (Object)
 - **Visible** (Number: Boolean)
 - **Duration** (Number)
 - **Opacity** (Number)
 
 **< Output Ports:**
+
 - **PassThrough** (Object)
 - **Is Showing** (booleanNumber)
 
@@ -373,10 +407,12 @@
 **Description:** get the closest parent element matching the query selector
 
 **> Input Ports:**
+
 - **HTML Element** (Object:Element)
 - **Query** (String)
 
 **< Output Ports:**
+
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ojHGjH)
@@ -392,12 +428,14 @@
 **Description:** Use a cables gradient as HTML element background
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Rect Color Space Index** (Number: Integer)
 - **Angle** (Number)
 - **Gradient Object** (Object:Gradient)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 - **CSS String** (String)
 
@@ -414,11 +452,13 @@
 **Description:** Does the element currenty have a specific class set
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Classname** (String)
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Has Class** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ElementHasClass#example)
@@ -434,9 +474,11 @@
 **Description:** Get information about an element
 
 **> Input Ports:**
+
 - **Element** (Object)
 
 **< Output Ports:**
+
 - **Tagname** (String)
 - **Id** (String)
 
@@ -453,10 +495,12 @@
 **Description:** Is the connected element currently focused
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Has Focus** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9jTwz1)
@@ -472,10 +516,12 @@
 **Description:** get html element absolute positions and sizes by classname
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Classname** (String)
 
 **< Output Ports:**
+
 - **Position** (Array)
 - **Size** (Array)
 - **Total Elements** (Number)
@@ -493,11 +539,13 @@
 **Description:** Load a font file like .otf, .ttf, .woff via css
 
 **> Input Ports:**
+
 - **File** (String)
 - **Family** (String)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Loaded** (booleanNumber)
 - **Loaded Trigger** (Trigger)
 
@@ -514,9 +562,11 @@
 **Description:** triggers when asynchronous requests finised loading
 
 **> Input Ports:**
+
 - *Visit [Ops.Html.FontsLoaded documentation](https://cables.gl/op/Ops.Html.FontsLoaded) for input port details*
 
 **< Output Ports:**
+
 - **Font Loaded** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xP04r1)
@@ -532,10 +582,12 @@
 **Description:** Switch webgl to fullscreen
 
 **> Input Ports:**
+
 - **Request Fullscreen** (Trigger)
 - **Exit Fullscreen** (Trigger)
 
 **< Output Ports:**
+
 - **Is Fullscreen** (booleanNumber)
 - **Supported** (booleanNumber)
 
@@ -552,11 +604,13 @@
 **Description:** Copy GL canvas content to another canvas
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Canvas** (Object:Element)
 - **Smooth** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u2vAu1)
@@ -572,6 +626,7 @@
 **Description:** Open another website
 
 **> Input Ports:**
+
 - **Open** (Trigger)
 - **URL** (String)
 - **Frame Name** (String)
@@ -579,6 +634,7 @@
 - **Rel Attribute** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.HyperLink_v3 documentation](https://cables.gl/op/Ops.Html.HyperLink_v3) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
@@ -594,12 +650,14 @@
 **Description:** Set innerHTML or innerTEXT of an HTML element
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Value** (String)
 - **Active** (Number: Boolean)
 - **Clear** (Trigger)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jgArsw)
@@ -615,11 +673,13 @@
 **Description:** Append string to the inner html or an element
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Html** (String)
 - **Trigger** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hmTiu1)
@@ -635,11 +695,13 @@
 **Description:** creates a mailto: link to open the default email app
 
 **> Input Ports:**
+
 - **Email** (String)
 - **Subject** (String)
 - **Execute** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.MailtoLink documentation](https://cables.gl/op/Ops.Html.MailtoLink) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
@@ -655,10 +717,12 @@
 **Description:** markdown markup language to html parser
 
 **> Input Ports:**
+
 - **Markdown** (String)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Html** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/52Zlij)
@@ -674,6 +738,7 @@
 **Description:** create a modal HTML overlay with a darkened background
 
 **> Input Ports:**
+
 - **Content Element** (Object)
 - **Show** (Trigger)
 - **Close** (Trigger)
@@ -681,6 +746,7 @@
 - **Opacity** (Number)
 
 **< Output Ports:**
+
 - **Visible** (booleanNumber)
 - **Closed** (Trigger)
 - **Element** (Object)
@@ -698,6 +764,7 @@
 **Description:** Selects an element in the DOM
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Query** (String)
 - **Type Index** (Number: Integer)
@@ -705,6 +772,7 @@
 - **Input Element** (Object:Element)
 
 **< Output Ports:**
+
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/C6z3GH)
@@ -720,6 +788,7 @@
 **Description:** Selects all matching elements in the DOM
 
 **> Input Ports:**
+
 - **Query** (String)
 - **Mode Index** (Number: Integer)
 - **Type Index** (Number: Integer)
@@ -728,6 +797,7 @@
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Elements** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QTs5GH)
@@ -743,9 +813,11 @@
 **Description:** reload the website
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.ReloadPage documentation](https://cables.gl/op/Ops.Html.ReloadPage) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BPeCci)
@@ -761,10 +833,12 @@
 **Description:** Scroll an area, so the html element is visible/in view
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Scroll Into View** (Trigger)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
@@ -780,11 +854,13 @@
 **Description:** the current x y top left scrolling position of html page or element
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Element** (Object:Element)
 - **Scroll To Top** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Left** (Number)
 - **Top** (Number)
@@ -804,11 +880,13 @@
 **Description:** Trigger the browser to scroll to top or bottom of an element
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Scroll To Top** (Trigger)
 - **Scroll To Bottom** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.ScrollTo documentation](https://cables.gl/op/Ops.Html.ScrollTo) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JEThu1)
@@ -824,9 +902,11 @@
 **Description:** close current window
 
 **> Input Ports:**
+
 - **Close** (Trigger)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.WindowClose documentation](https://cables.gl/op/Ops.Html.WindowClose) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WGBCci)
@@ -842,9 +922,11 @@
 **Description:** detect if the browser window/tab has focus
 
 **> Input Ports:**
+
 - *Visit [Ops.Html.WindowHasFocus documentation](https://cables.gl/op/Ops.Html.WindowHasFocus) for input port details*
 
 **< Output Ports:**
+
 - **Has Focus** (booleanNumber)
 - **Tab Visible** (booleanNumber)
 
@@ -861,9 +943,11 @@
 **Description:** size of browser window in pixels
 
 **> Input Ports:**
+
 - *Visit [Ops.Html.WindowInfo documentation](https://cables.gl/op/Ops.Html.WindowInfo) for input port details*
 
 **< Output Ports:**
+
 - **ClientWidth** (Number)
 - **ClientHeight** (Number)
 - **Body Scroll Height** (Number)
@@ -885,9 +969,11 @@
 **Description:** Get the current scroll position of the window
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Scoll X** (Number)
 - **Scoll Y** (Number)
 

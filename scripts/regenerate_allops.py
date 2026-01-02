@@ -109,7 +109,7 @@ def generate_op_markdown(op: Dict) -> str:
     safe_name = full_name.replace('.', '_')
     image_path = f"images/ops/{safe_name}.svg"
     
-    # Build markdown
+    # Build markdown - LaTeX header will handle 80% sizing and left alignment
     md = f"""### {short_name}
 ![{short_name} op]({image_path})
 
@@ -118,6 +118,7 @@ def generate_op_markdown(op: Dict) -> str:
 **Description:** {description}
 
 **> Input Ports:**
+
 """
     
     # Input ports
@@ -128,7 +129,7 @@ def generate_op_markdown(op: Dict) -> str:
     else:
         md += f"- *Visit [{full_name} documentation]({url}) for complete input port details*\n"
     
-    md += "\n**< Output Ports:**\n"
+    md += "\n**< Output Ports:**\n\n"
     
     # Output ports
     output_ports = op.get('output_ports', [])
@@ -292,4 +293,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

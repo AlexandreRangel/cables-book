@@ -13,9 +13,11 @@
 **Description:** Enter data in a spreadsheet table
 
 **> Input Ports:**
+
 - *Visit [Ops.Data.SpreadSheetArray documentation](https://cables.gl/op/Ops.Data.SpreadSheetArray) for input port details*
 
 **< Output Ports:**
+
 - **Array** (Array)
 - **Width** (Number)
 - **Height** (Number)

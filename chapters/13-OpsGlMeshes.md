@@ -13,11 +13,13 @@
 **Description:** Rule of thirds image composition helper
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Show Center** (Number: Boolean)
 
 **< Output Ports:**
+
 - *Visit [Ops.Gl.Meshes.ComposingGridOverlay documentation](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G8mQQ2)
@@ -33,6 +35,7 @@
 **Description:** number of horizontal segments
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Slices** (Number)
 - **Stacks** (Number)
@@ -41,6 +44,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -57,6 +61,7 @@
 **Description:** render a rectangular corner
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -66,6 +71,7 @@
 - **Pivot Y Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -82,6 +88,7 @@
 **Description:** draw parameterizable cylinder (aka tube,pipe,round,circle)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Render Mesh** (Number: Boolean)
 - **Segments** (Number: Integer)
@@ -94,6 +101,7 @@
 - **Flat Normals** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 
@@ -110,10 +118,12 @@
 **Description:** draw a grid on the floor
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LiwB16)
@@ -129,6 +139,7 @@
 **Description:** A freely deformable plane, rectangle, polygon
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X 1** (Number)
 - **Y 1** (Number)
@@ -152,6 +163,7 @@
 - **Tc Y 4** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -168,12 +180,14 @@
 **Description:** Draws a rectangle using the full WebGL canvas size
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Flip Y** (Number: Boolean)
 - **Flip X** (Number: Boolean)
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uKkIeG)
@@ -189,6 +203,7 @@
 **Description:** Convert vertices of a geometry to a data texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Continously Update** (Number: Boolean)
@@ -202,6 +217,7 @@
 - **Color Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Vertices** (Number)
 - **Texture** (Object)
@@ -219,6 +235,7 @@
 **Description:** Draw a simple grid of lines
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Num** (Number: Integer)
 - **Spacing** (Number)
@@ -226,6 +243,7 @@
 - **Axis Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VxPlQ6)
@@ -241,6 +259,7 @@
 **Description:** generate a rectangular mesh where the height is defined by the luminance of an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **File** (String)
 - **Extrude** (Number)
@@ -252,6 +271,7 @@
 - **Flat** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -268,6 +288,7 @@
 **Description:** generates a helix, spiral spline
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
 - **Segments** (Number)
@@ -277,6 +298,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Points** (Array)
 
@@ -293,11 +315,13 @@
 **Description:** Renders a icosahedron (polyhedron with 20 faces)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -314,6 +338,7 @@
 **Description:** Draw a line between two points
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X 1** (Number)
 - **Y 1** (Number)
@@ -323,6 +348,7 @@
 - **Z 2** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Array** (Array)
 
@@ -339,6 +365,7 @@
 **Description:** an array of lines
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -350,6 +377,7 @@
 - **Axis Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Point Arrays** (Array)
 
@@ -366,6 +394,7 @@
 **Description:** Draw the same mesh multiple times on the GPU
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Scale** (Number)
@@ -382,6 +411,7 @@
 - **Multiply Pos Z** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
@@ -398,6 +428,7 @@
 **Description:** Creates a 3d mesh from a 2d area expressions
 
 **> Input Ports:**
+
 - **Shapes Index** (Number: Integer)
 - **Render** (Trigger)
 - **U Segments** (Number: Integer)
@@ -419,6 +450,7 @@
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 - **Position** (Array)
@@ -438,6 +470,7 @@
 **Description:** visualize an array of coordinates as points
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Positions** (Array)
 - **Num Points** (Number: Integer)
@@ -448,6 +481,7 @@
 - **Vertex Colors** (Array)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
 
@@ -464,6 +498,7 @@
 **Description:** Visualize a RGB texture as XYZ coordinates as points
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Num Points** (Number: Integer)
 - **Texture** (Object:Texture)
@@ -473,6 +508,7 @@
 - **Ignore Alpha 0** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Total Points** (Number)
 
@@ -489,9 +525,11 @@
 **Description:** Generate polyhedron meshes
 
 **> Input Ports:**
+
 - **Receipt** (String)
 
 **< Output Ports:**
+
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VRG6Q6)
@@ -507,6 +545,7 @@
 **Description:** render a pyramid mesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Length** (Number)
@@ -515,6 +554,7 @@
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -531,6 +571,7 @@
 **Description:** Warp a texture mapped quad (projection mapping)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **A X** (Number)
 - **A Y** (Number)
@@ -545,6 +586,7 @@
 - **Texture** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T2A7zp)
@@ -560,6 +602,7 @@
 **Description:** nine slice image format texture mapped rectangle
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -571,6 +614,7 @@
 - **Pivot Y Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -587,6 +631,7 @@
 **Description:** Draws a rectangle frame
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
@@ -598,6 +643,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -614,6 +660,7 @@
 **Description:** Draws a rectangle with rounded corners
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
 - **Width** (Number)
@@ -626,6 +673,7 @@
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -642,6 +690,7 @@
 **Description:** Draws a simple spline only one pixel wide
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Points** (Array)
 - **Num Points** (Number: Integer)
@@ -650,6 +699,7 @@
 - **Vertex Colors** (Array)
 
 **< Output Ports:**
+
 - **Geometry** (Object)
 - **Next** (Trigger)
 
@@ -666,10 +716,12 @@
 **Description:** Simple Wireframe Line Renderer
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gt0cay)
@@ -685,12 +737,14 @@
 **Description:** draw splines/lines
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Points** (Array)
 - **Tesselate Edges** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3l5Uu-)
@@ -706,6 +760,7 @@
 **Description:** material for splinemesh
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Width Perspective** (Number: Boolean)
@@ -721,6 +776,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
@@ -737,6 +793,7 @@
 **Description:** Draws text in 3d space using one of the font ops
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Text** (String)
 - **Scale Text** (Number)
@@ -754,6 +811,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Lines** (Number)
 - **Width** (Number)
@@ -772,6 +830,7 @@
 **Description:** Draw a torus (doughnut, donut, ring mesh)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Sides** (Number)
 - **Rings** (Number)
@@ -780,6 +839,7 @@
 - **Render Mesh** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
@@ -796,12 +856,14 @@
 **Description:** A sphere mesh with uniform distributed vertices
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Iterations** (Number)
 - **Flat** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Geometry** (Object)
 

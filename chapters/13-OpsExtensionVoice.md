@@ -13,6 +13,7 @@
 **Description:** uses mespeak.js to convert text-to-speech
 
 **> Input Ports:**
+
 - **Text** (String)
 - **Say** (Trigger)
 - **Amplitude** (Number)
@@ -30,6 +31,7 @@
 - **Pan** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Speaking** (booleanNumber)
 - **Voice Loaded** (booleanNumber)
@@ -47,6 +49,7 @@
 **Description:** Text-to-Speech, speaks different languages (speech synthesis)
 
 **> Input Ports:**
+
 - **Update State** (Trigger)
 - **Text** (String)
 - **Say** (Trigger)
@@ -60,6 +63,7 @@
 - **Cancel** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Speaking** (Number)
 - **Pending** (Number)
@@ -78,11 +82,13 @@
 **Description:** speech to text recognition
 
 **> Input Ports:**
+
 - **Language** (String)
 - **Active** (Number: Boolean)
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Result** (String)
 - **Confidence** (Number)
 - **Supported** (booleanNumber)

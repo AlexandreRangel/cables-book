@@ -13,10 +13,12 @@
 **Description:** receive an array from the socketcluster topic
 
 **> Input Ports:**
+
 - **Socket** (Object)
 - **Topic** (String)
 
 **< Output Ports:**
+
 - **Client Id** (String)
 - **Data** (Array)
 - **Received** (Trigger)
@@ -34,10 +36,12 @@
 **Description:** Receive boolean value from the socketcluster socket/topic
 
 **> Input Ports:**
+
 - **Socket** (Object)
 - **Topic** (String)
 
 **< Output Ports:**
+
 - **Client Id** (String)
 - **Data** (booleanNumber)
 - **Received** (Trigger)
@@ -55,10 +59,12 @@
 **Description:** receive number from the socketcluster socket/topic
 
 **> Input Ports:**
+
 - **Socket** (Object)
 - **Topic** (String)
 
 **< Output Ports:**
+
 - **Client Id** (String)
 - **Data** (Number)
 - **Received** (Trigger)
@@ -76,10 +82,12 @@
 **Description:** receives string from the socketcluster socket/topic
 
 **> Input Ports:**
+
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 
 **< Output Ports:**
+
 - **Data** (String)
 - **Client Id** (String)
 - **Received** (Trigger)
@@ -97,6 +105,7 @@
 **Description:** sends an array via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
@@ -104,6 +113,7 @@
 - **Public** (2): MOUSE MOVEMENT SEND
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
@@ -119,12 +129,14 @@
 **Description:** Sends boolean value via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number: Boolean)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
@@ -140,12 +152,14 @@
 **Description:** sends a number via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
@@ -161,12 +175,14 @@
 **Description:** sends a string via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)

@@ -13,9 +13,11 @@
 **Description:** get URL of a file
 
 **> Input Ports:**
+
 - **File** (String)
 
 **< Output Ports:**
+
 - **URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
@@ -31,6 +33,7 @@
 **Description:** switch between filenames
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **File 0** (String)
 - **File 1** (String)
@@ -50,6 +53,7 @@
 - **File 15** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/unutii)

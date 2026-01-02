@@ -13,12 +13,14 @@
 **Description:** Simple Audio Player, using HTML5 Audio, does not need WebAudio
 
 **> Input Ports:**
+
 - **File** (String)
 - **Play** (Number: Boolean)
 - **Volume** (Number)
 - **Loop** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Playing** (Number)
 - **Element** (Object)
 - **Has Ended** (Trigger)
@@ -36,6 +38,7 @@
 **Description:** A more convinient version of div element op, that can be used for creating html without writing much css code
 
 **> Input Ports:**
+
 - **Text** (String)
 - **Set Size** (Number: Boolean)
 - **Width** (Number)
@@ -50,6 +53,7 @@
 - **Add To DOM** (Number: Boolean)
 
 **< Output Ports:**
+
 - **DOM Element** (Object)
 - **Hovering** (booleanNumber)
 - **Clicked** (Trigger)
@@ -67,12 +71,14 @@
 **Description:** Show another website in an iframe element
 
 **> Input Ports:**
+
 - **URL** (String)
 - **ID** (String)
 - **Active** (Number: Boolean)
 - **Style** (String)
 
 **< Output Ports:**
+
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SLesr2)
@@ -88,12 +94,14 @@
 **Description:** create an image(img) html element
 
 **> Input Ports:**
+
 - **File** (String)
 - **Class** (String)
 - **Style** (String)
 - **Alt Text** (String)
 
 **< Output Ports:**
+
 - **Image Element** (Object)
 - **Width** (Number)
 - **Height** (Number)
@@ -114,6 +122,7 @@
 **Description:** HTML input/textarea element to allow the user to enter text
 
 **> Input Ports:**
+
 - **Default Value** (String)
 - **Placeholder** (String)
 - **Id** (String)
@@ -129,6 +138,7 @@
 - **Select** (Trigger)
 
 **< Output Ports:**
+
 - **DOM Element** (Object)
 - **Value** (String)
 - **Hover** (booleanNumber)
@@ -148,6 +158,7 @@
 **Description:** html video player element
 
 **> Input Ports:**
+
 - **File** (String)
 - **ID** (String)
 - **Play** (Number: Boolean)
@@ -160,6 +171,7 @@
 - **Rewind** (Trigger)
 
 **< Output Ports:**
+
 - **Element** (Object)
 - **Playing** (booleanNumber)
 - **Can Play Through** (booleanNumber)

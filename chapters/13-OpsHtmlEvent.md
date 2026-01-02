@@ -13,6 +13,7 @@
 **Description:** Add a custom event listener
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Event Name** (String)
 - **Use Capture** (Number: Boolean)
@@ -20,6 +21,7 @@
 - **Stop Propagation** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Element Passthrough** (Object)
 - **Event Trigger** (Trigger)
 - **Event Object** (Object)
@@ -37,6 +39,7 @@
 **Description:** Listen to events of an element
 
 **> Input Ports:**
+
 - **Dom Element** (Object)
 - **Mouse Down Active** (Number: Boolean)
 - **Mouse Up Active** (Number: Boolean)
@@ -48,6 +51,7 @@
 - **Touch Cancel Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Event Object** (Object)
 - **Mouse Down** (Trigger)
 - **Mouse Up** (Trigger)
@@ -72,6 +76,7 @@
 **Description:** listen to events on multiple html elements
 
 **> Input Ports:**
+
 - **Elements** (Array)
 - **Event Name** (String)
 - **Use Capture** (Number: Boolean)
@@ -79,6 +84,7 @@
 - **Stop Propagation** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Event Trigger** (Trigger)
 - **Index** (Number)
 - **Event Object** (Object)
@@ -97,10 +103,12 @@
 **Description:** Prevents the default on a JavaScript event
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Event In** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Event Out** (Object)
 
@@ -117,10 +125,12 @@
 **Description:** Stop a JavaScript event (bubbling / capturing)
 
 **> Input Ports:**
+
 - **Execute** (Trigger)
 - **Event In** (Object)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Event Out** (Object)
 

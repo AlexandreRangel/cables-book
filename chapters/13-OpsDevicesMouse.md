@@ -13,6 +13,7 @@
 **Description:** Get mouse/touchscreen/pointer coordinates and events
 
 **> Input Ports:**
+
 - **Area Index** (Number: Integer)
 - **Flip Y** (Number: Boolean)
 - **Right Click Prevent Default** (Number: Boolean)
@@ -21,6 +22,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **Click** (Trigger)
@@ -44,10 +46,12 @@
 **Description:** Get the state of mouse buttons
 
 **> Input Ports:**
+
 - **Area Index** (Number: Integer)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Click Left** (Trigger)
 - **Click Right** (Trigger)
 - **Double Click** (Trigger)
@@ -74,12 +78,14 @@
 **Description:** get delta of mouse position while dragging
 
 **> Input Ports:**
+
 - **Active** (Number: Boolean)
 - **Speed** (Number)
 - **Input Type Index** (Number: Integer)
 - **Area Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Delta X** (Number)
 - **Delta Y** (Number)
 - **Is Dragging** (Number)
@@ -97,6 +103,7 @@
 **Description:** outputs delta values controlled by the mousewheel (scroll, zoom)
 
 **> Input Ports:**
+
 - **Speed** (Number)
 - **Prevent Scroll** (Number: Boolean)
 - **Flip Direction** (Number: Boolean)
@@ -104,6 +111,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Delta** (Number)
 - **Delta X** (Number)
 - **Browser Event Delta** (Number)
@@ -122,10 +130,12 @@
 **Description:** locks the pointer to the canvas and hides the cursor
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Supported** (booleanNumber)
 - **Is Locked** (booleanNumber)

@@ -13,10 +13,12 @@
 **Description:** Outputs the button states of a gamepad
 
 **> Input Ports:**
+
 - **GamePad Data** (Object)
 - **Analog To Digital** (Number: Boolean)
 
 **< Output Ports:**
+
 - **ID** (String)
 - **Axes** (Array)
 - **Pad Left** (booleanNumber)
@@ -45,10 +47,12 @@
 **Description:** get axis and angle of a joystick/thumbstick
 
 **> Input Ports:**
+
 - **Axis** (Array)
 - **Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **X** (Number)
 - **Y** (Number)
 - **DeadZone** (Number)
@@ -67,9 +71,11 @@
 **Description:** list connected gamepads - press a button to connect
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 
 **< Output Ports:**
+
 - **Num Gamepads** (Number)
 - **Pad 0** (Object)
 - **Pad 1** (Object)

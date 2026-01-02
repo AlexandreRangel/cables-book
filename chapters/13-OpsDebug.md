@@ -13,10 +13,12 @@
 **Description:** Shows console log output on the screen
 
 **> Input Ports:**
+
 - **Visible** (Number: Boolean)
 - **Clear** (Trigger)
 
 **< Output Ports:**
+
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TVIL7f)
@@ -32,10 +34,12 @@
 **Description:** Log incoming values to the console/dev tools
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **String** (String)
 
 **< Output Ports:**
+
 - *Visit [Ops.Debug.ConsoleLog documentation](https://cables.gl/op/Ops.Debug.ConsoleLog) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.ConsoleLog#example)
@@ -51,6 +55,7 @@
 **Description:** Crash the editor in many ways
 
 **> Input Ports:**
+
 - **Async Crash** (Trigger)
 - **Undefined Crash** (Trigger)
 - **Throw Exception** (Trigger)
@@ -60,6 +65,7 @@
 - **Shader Error** (Trigger)
 
 **< Output Ports:**
+
 - **NaN** (Number)
 - **Infinity** (Number)
 
@@ -76,12 +82,14 @@
 **Description:** execute glGetError after every gl command and log to browser console
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Limit Error Logs Num** (Number: Integer)
 - **Stop Trigger After Limit** (Number: Boolean)
 - **Show Gl History** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.GlLogErrors#example)
@@ -97,9 +105,11 @@
 **Description:** see current gl states and error message
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **GlGetError** (Number)
 - **Depthtest** (Number)
@@ -127,10 +137,12 @@
 **Description:** dump all gl commands of one frame to console
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Debug One Frame** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.ProfileGL#example)
@@ -146,9 +158,11 @@
 **Description:** Measure the time used to render all child nodes in milliseconds
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Time Used** (Number)
 - **Times** (Array)

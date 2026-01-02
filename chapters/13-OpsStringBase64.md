@@ -13,9 +13,11 @@
 **Description:** decode a string to base64
 
 **> Input Ports:**
+
 - **String** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.Base64.Base64Decode_v2#example)
@@ -31,10 +33,12 @@
 **Description:** encode a string to base64
 
 **> Input Ports:**
+
 - **String** (String)
 - **MimeType** (String)
 
 **< Output Ports:**
+
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.Base64.Base64Encode_v3#example)
@@ -50,11 +54,13 @@
 **Description:** trigger a download of a base64 binary file
 
 **> Input Ports:**
+
 - **Data URL** (String)
 - **Filename** (String)
 - **Download** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jE9zO8)

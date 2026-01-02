@@ -13,11 +13,13 @@
 **Description:** render mesh normals as colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Absolute** (Number: Boolean)
 - **World Space** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
@@ -34,6 +36,7 @@
 **Description:** A material without shading
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
@@ -53,6 +56,7 @@
 - **Billboard** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
@@ -69,6 +73,7 @@
 **Description:** display texture and replace a color with transparency
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture** (Object)
 - **Mode Index** (Number: Integer)
@@ -83,6 +88,7 @@
 - **Tex Offset Y** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDqoTq)
@@ -98,6 +104,7 @@
 **Description:** Write your own custom shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Fragment Code** (String)
 - **Vertex Code** (String)
@@ -111,6 +118,7 @@
 - **Projection** (Array)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Shader** (Object)
 - **Has Errors** (booleanNumber)
@@ -128,9 +136,11 @@
 **Description:** draw meshes using the cables error material shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
@@ -146,9 +156,11 @@
 **Description:** visualize which faces are facing the camera
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Lm6p9r)
@@ -164,9 +176,11 @@
 **Description:** get current set shader
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Shader** (Object)
 
@@ -183,6 +197,7 @@
 **Description:** Easy to use image based lighting Material
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **MatCap** (Object:Texture)
 - **Diffuse** (Object:Texture)
@@ -209,6 +224,7 @@
 - **Discard Transparent Pixels** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Shader** (Object)
 
@@ -225,9 +241,11 @@
 **Description:** Minify GLSL shader source code
 
 **> Input Ports:**
+
 - **Shader Source** (String)
 
 **< Output Ports:**
+
 - **Minified Shader Source** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/t5H1Qc)
@@ -243,6 +261,7 @@
 **Description:** Draw all vertices as points / circles
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **PointSize** (Number)
 - **Size In Pixels** (Number: Boolean)
@@ -271,6 +290,7 @@
 - **Min Point Size** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
@@ -287,9 +307,11 @@
 **Description:** draw meshes using XYZ position coordinates as RGB color
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qbiIbk)
@@ -305,10 +327,12 @@
 **Description:** Reuse another shader at different points in the patch.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Shader** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/BweOVl)
@@ -324,6 +348,7 @@
 **Description:** set a uniform value of the current shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Uniform Index** (Number: Integer)
 - **X** (Number)
@@ -332,6 +357,7 @@
 - **W** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Type** (String)
 - **Found** (booleanNumber)
@@ -349,11 +375,13 @@
 **Description:** set a uniform value of the current shader
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Uniform Index** (Number: Integer)
 - **Texture** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
@@ -370,6 +398,7 @@
 **Description:** Set shader defines
 
 **> Input Ports:**
+
 - **Shader** (Object)
 - **Name** (String)
 - **Value** (String)
@@ -377,6 +406,7 @@
 - **Public** (4): 1
 
 **< Output Ports:**
+
 - *Visit [Ops.Gl.Shader.ShaderDefine documentation](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
@@ -392,6 +422,7 @@
 **Description:** view current shader source code
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Show Fragment** (Trigger)
 - **Show Vertex** (Trigger)
@@ -400,6 +431,7 @@
 - **State Info** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Source Frag** (String)
 - **Source Vert** (String)
@@ -424,9 +456,11 @@
 **Description:** read back all uniforms values of the current bound shader
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Uniforms** (Array)
 
@@ -443,6 +477,7 @@
 **Description:** render a shader into a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Shader** (Object:Shader)
 - **Width** (Number: Integer)
@@ -452,6 +487,7 @@
 - **Pixel Format Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture** (Object)
 - **Texture 2** (Object)
@@ -471,10 +507,12 @@
 **Description:** Draw a mesh, showing only its vertex colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Opacity** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6MsLhR)
@@ -490,9 +528,11 @@
 **Description:** visually debug vertices of your 3D geometry
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x2PmHf)
@@ -508,6 +548,7 @@
 **Description:** Renders following meshes as wireframes
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Enable Depth Testing** (Number: Boolean)
 - **Width** (Number)
@@ -523,6 +564,7 @@
 - **Fill A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bRlSDe)

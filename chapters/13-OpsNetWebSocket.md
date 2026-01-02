@@ -13,9 +13,11 @@
 **Description:** Create a websocket connection and receive data from it
 
 **> Input Ports:**
+
 - **URL** (String)
 
 **< Output Ports:**
+
 - **Result** (Object)
 - **Valid JSON** (booleanNumber)
 - **Connection** (Object)
@@ -36,12 +38,14 @@
 **Description:** send an object to a websocket connection
 
 **> Input Ports:**
+
 - **Connection** (Object:Websocket)
 - **Object** (Object)
 - **Send** (Trigger)
 - **Send String** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Sent** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gu7DBo)

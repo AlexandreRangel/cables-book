@@ -13,6 +13,7 @@
 **Description:** Create a physics body/collision shape using a any geometry or select a shape
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Name** (String)
 - **Mass** (Number)
@@ -35,6 +36,7 @@
 - **Activate** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Ray Hit** (booleanNumber)
 - **Transformed** (Trigger)
@@ -52,6 +54,7 @@
 **Description:** Check if physics bodies are colliding
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Name 1** (String)
 - **Match Name 1 Index** (Number: Integer)
@@ -61,6 +64,7 @@
 - **match name 2** (if set)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Colliding** (Number)
 - **collision detected** (Boolean)
@@ -80,6 +84,7 @@
 **Description:** Control and move a character in a physics environment
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Radius** (Number)
 - **View Index** (Number: Integer)
@@ -104,6 +109,7 @@
 - **Add Velocity Y** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Position X** (Number)
 - **Position Y** (Number)
@@ -123,6 +129,7 @@
 **Description:** First person camera to use with AmmoCharacter
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Enable Pointer Lock** (Number: Boolean)
 - **Height** (Number)
@@ -131,6 +138,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **IsLocked** (Number)
 - **has the mouse cursor been locked** (Boolean)
@@ -155,6 +163,7 @@
 **Description:** Visualize the physical bodies as lines and points
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Draw Wireframe** (Number: Boolean)
 - **Draw AABB** (Number: Boolean)
@@ -164,6 +173,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
@@ -179,6 +189,7 @@
 **Description:** Emit Ammo physics bodies by triggering
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Limit Bodies** (Number: Integer)
 - **Radius** (Number)
@@ -197,6 +208,7 @@
 - **Activate All** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Bodies** (Number)
 - **Positions** (Array)
@@ -215,6 +227,7 @@
 **Description:** Cast a ray and detect colliding bodies
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Screen X** (Number)
 - **Normalize screencoordinates on X Axis** (0-1)
@@ -225,6 +238,7 @@
 - **Change Cursor** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
@@ -245,6 +259,7 @@
 **Description:** Simulate physical world
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Simulate** (Number: Boolean)
 - **Auto Remove Inactive** (Number: Boolean)
@@ -255,6 +270,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Total Bodies** (Number)
 - **Debug Points** (Array)
@@ -274,6 +290,7 @@
 **Description:** Create physics bodies from a GLTF File
 
 **> Input Ports:**
+
 - **Exec** (Trigger)
 - **Shape Index** (Number: Integer)
 - **Filter Meshes** (String)
@@ -281,6 +298,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Meshes** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gh2f_4)

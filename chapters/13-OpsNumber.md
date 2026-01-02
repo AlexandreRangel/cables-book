@@ -13,6 +13,7 @@
 **Description:** delay a value by seconds
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Value** (Number)
 - **Delay** (Number)
@@ -20,6 +21,7 @@
 - **Easing Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayedNumber#example)
@@ -35,10 +37,12 @@
 **Description:** delay the value data flow by x seconds
 
 **> Input Ports:**
+
 - **Value** (Number)
 - **Delay** (Number)
 
 **< Output Ports:**
+
 - **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
@@ -54,10 +58,12 @@
 **Description:** Filter valid numbers
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Invalid When 0** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Last Valid Number** (Number)
 - **Is Valid** (booleanNumber)
 
@@ -74,10 +80,12 @@
 **Description:** capture the current input and copy it to the output, even after a reload
 
 **> Input Ports:**
+
 - **Number** (Number)
 - **Button** (Trigger)
 
 **< Output Ports:**
+
 - **Frozen Number** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
@@ -93,11 +101,13 @@
 **Description:** Let’s a number through only if control bool is true, like a gate
 
 **> Input Ports:**
+
 - **Value In** (Number)
 - **Pass Through** (Number: Boolean)
 - **Custom Value** (Number)
 
 **< Output Ports:**
+
 - **Value Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JJSflJ)
@@ -113,9 +123,11 @@
 **Description:** Number op which only outputs integers
 
 **> Input Ports:**
+
 - **Integer** (Number: Integer)
 
 **< Output Ports:**
+
 - **Number Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.Integer#example)
@@ -131,9 +143,11 @@
 **Description:** Returns the maximum safe integer (number, constant)
 
 **> Input Ports:**
+
 - *Visit [Ops.Number.MaximumSafeInteger documentation](https://cables.gl/op/Ops.Number.MaximumSafeInteger) for input port details*
 
 **< Output Ports:**
+
 - **Max Int** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
@@ -149,9 +163,11 @@
 **Description:** Returns the minimum safe integer (number, constant)
 
 **> Input Ports:**
+
 - *Visit [Ops.Number.MinimumSafeInteger documentation](https://cables.gl/op/Ops.Number.MinimumSafeInteger) for input port details*
 
 **< Output Ports:**
+
 - **Min Int** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
@@ -167,9 +183,11 @@
 **Description:** Stores a value, use the same value in different places (was: value.value)
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0010r1)
@@ -185,9 +203,11 @@
 **Description:** Copies the input value to the (value sequence)
 
 **> Input Ports:**
+
 - **In Value** (Number)
 
 **< Output Ports:**
+
 - **In Value** (Number)
 - **Value Changed** (Trigger)
 - **Out Value 0** (Number)
@@ -208,6 +228,7 @@
 **Description:** State management of all parameters connected to it - Create presets of multiple ops
 
 **> Input Ports:**
+
 - **Data** (String)
 - **Sets** (String)
 - **Presetid** (String)
@@ -225,6 +246,7 @@
 - **Rename** (Trigger)
 
 **< Output Ports:**
+
 - **Create Variable** (Dynamic)
 - **Num Presets** (Number)
 - **Current Preset** (Number)
@@ -244,9 +266,11 @@
 **Description:** remember/store last set number
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Current Value** (Number)
 - **Previous Value** (Number)
 
@@ -263,10 +287,12 @@
 **Description:** Routes the value to one of the (based on index, relay)
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Index** (Number: Integer)
 - **Value** (Number)
 - **Default VaonlyOnePortlue** (Number)
@@ -295,6 +321,7 @@
 **Description:** control order and flow of numbers
 
 **> Input Ports:**
+
 - **Number 0** (Number)
 - **Number 1** (Number)
 - **Number 2** (Number)
@@ -313,6 +340,7 @@
 - **Number 15** (Number)
 
 **< Output Ports:**
+
 - **Output 0** (Number)
 - **Output 1** (Number)
 - **Output 2** (Number)
@@ -343,10 +371,12 @@
 **Description:** Switch between multiple number inputs
 
 **> Input Ports:**
+
 - **Numbers_0** (Number)
 - **Add Port** (Number)
 
 **< Output Ports:**
+
 - **Number** (Number)
 - **Num Values** (Number)
 
@@ -363,6 +393,7 @@
 **Description:** switch between number values by index
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Value 0** (Number)
 - **Value 1** (Number)
@@ -382,6 +413,7 @@
 - **Value 15** (Number)
 
 **< Output Ports:**
+
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumber#example)
@@ -397,11 +429,13 @@
 **Description:** Switch between multiple number inputs
 
 **> Input Ports:**
+
 - **Index** (Number: Integer)
 - **Numbers_0** (Number)
 - **Add Port** (Number)
 
 **< Output Ports:**
+
 - **Number** (Number)
 - **Num Values** (Number)
 
@@ -418,6 +452,7 @@
 **Description:** Sets a specific output value on trigger
 
 **> Input Ports:**
+
 - **Trigger 0** (Trigger)
 - **Value 0** (Number)
 - **Trigger 1** (Trigger)
@@ -437,6 +472,7 @@
 - **Default Value** (Number: String)
 
 **< Output Ports:**
+
 - **Value** (Number)
 - **Last Value** (Number)
 - **Triggered** (Trigger)
@@ -454,12 +490,14 @@
 **Description:** Stores a 3D coordinate (was Value3)
 
 **> Input Ports:**
+
 - **Exe** (Trigger)
 - **Value X** (Number)
 - **Value Y** (Number)
 - **Value Z** (Number)
 
 **< Output Ports:**
+
 - **Exe** (Trigger)
 - **Value X** (Number)
 - **Value Y** (Number)
@@ -481,9 +519,11 @@
 **Description:** triggers every time the input value changed
 
 **> Input Ports:**
+
 - **Value** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Number** (Number)
 

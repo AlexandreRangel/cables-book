@@ -13,11 +13,13 @@
 **Description:** Compose a string
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Clear** (Number: Boolean)
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Result** (String)
 
@@ -34,11 +36,13 @@
 **Description:** Append a string to a string
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **String** (String)
 - **Add Break** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)
@@ -54,11 +58,13 @@
 **Description:** Remove characters from the beginning or end of a string
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Direction Index** (Number: Integer)
 - **Num Chars** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)

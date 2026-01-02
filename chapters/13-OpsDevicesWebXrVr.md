@@ -13,6 +13,7 @@
 **Description:** rendering on webxr virtual reality immersive devices
 
 **> Input Ports:**
+
 - **Mainloop** (Trigger)
 - **Stop** (Trigger)
 - **Show Button** (Number: Boolean)
@@ -21,6 +22,7 @@
 - **Shader** (Object:Shader)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Render After Eyes** (Trigger)
 - **Viewer Pose** (Object)
@@ -46,10 +48,12 @@
 **Description:** tracking of vr hand controller
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Handedness Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Axis 1** (Number)
 - **Axis 2** (Number)

@@ -13,6 +13,7 @@
 **Description:** connect to a socketcluster server and manage the connection
 
 **> Input Ports:**
+
 - **Channel** (String)
 - **Server Hostname** (String)
 - **Server Port** (Number)
@@ -26,6 +27,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Ready** (booleanNumber)
 - **Socket** (Object)
 - **Own Client Id** (String)
@@ -45,11 +47,13 @@
 **Description:** Receives object from the socketcluster socket/topic
 
 **> Input Ports:**
+
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Receive Own Data** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Client Id** (String)
 - **Data** (Object)
 - **Received** (Trigger)
@@ -67,12 +71,14 @@
 **Description:** Receives trigger from the socketcluster socket/topic
 
 **> Input Ports:**
+
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Receive Own Data** (Number: Boolean)
 - **Use Named Trigger** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Client Id** (String)
 - **Trigger Name** (String)
 - **Received** (Trigger)
@@ -90,12 +96,14 @@
 **Description:** sends an object via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (Object)
 - **Send** (Trigger)
 
 **< Output Ports:**
+
 - **Sent Data** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
@@ -111,6 +119,7 @@
 **Description:** sends a trigger via socketcluster/websocket
 
 **> Input Ports:**
+
 - **Data** (Trigger)
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
@@ -118,6 +127,7 @@
 - **the name of the trigger** (created with TriggerSend)
 
 **< Output Ports:**
+
 - *Visit [Ops.Extension.SocketCluster.SocketClusterSendTrigger documentation](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mecjP3)
@@ -133,6 +143,7 @@
 **Description:** get info for clients listening on a socketcluster topic
 
 **> Input Ports:**
+
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Timeout Seconds** (Number: Integer)
@@ -142,6 +153,7 @@
 - **Receive My Data** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Active Clients** (Array)
 - **Will Time Out** (Object)
 - **Timed Out Clients** (Array)

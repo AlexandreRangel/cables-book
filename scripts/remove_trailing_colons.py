@@ -66,3 +66,4 @@ def remove_trailing_colons():
 if __name__ == "__main__":
     remove_trailing_colons()
 
+

@@ -13,6 +13,7 @@
 **Description:** wrapper for echarts-library
 
 **> Input Ports:**
+
 - **Create** (Trigger)
 - **Parent DOM Element** (Object)
 - **Id** (String)
@@ -30,6 +31,7 @@
 - **Visible** (Number: Boolean)
 
 **< Output Ports:**
+
 - **DOM Element** (Object)
 - **ECharts Instance** (Object)
 - **Chart Updated** (Trigger)
@@ -48,6 +50,7 @@
 **Description:** capture echart-library-events
 
 **> Input Ports:**
+
 - **ECharts Instance** (Object)
 - **Event Name** (String)
 - **Query String** (String)
@@ -55,6 +58,7 @@
 - **Refresh Event Binding** (Trigger)
 
 **< Output Ports:**
+
 - **Out Chart** (Object)
 - **Trigger** (Trigger)
 - **Event Params** (Object)

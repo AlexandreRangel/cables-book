@@ -13,9 +13,11 @@
 **Description:** Use the detect-gpu library to assess performance of the client running the patch
 
 **> Input Ports:**
+
 - **Run** (Trigger)
 
 **< Output Ports:**
+
 - **Finished** (Trigger)
 - **Tier** (Number)
 - **Is Mobile** (booleanNumber)

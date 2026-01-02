@@ -13,9 +13,11 @@
 **Description:** vibrating a mobile device
 
 **> Input Ports:**
+
 - **Vibrate** (Trigger)
 
 **< Output Ports:**
+
 - **Supported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H4NGFU)
@@ -31,9 +33,11 @@
 **Description:** tries to get the geo coordinates from the mobile device/browser
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Mobile.GeoLocation documentation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation) for input port details*
 
 **< Output Ports:**
+
 - **Browser Support** (booleanNumber)
 - **Latitude** (Number)
 - **Longitude** (Number)
@@ -52,10 +56,12 @@
 **Description:** locks orientation to landscape or portrait mode
 
 **> Input Ports:**
+
 - **Portrait** (Number: Boolean)
 - **Landscape** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Supported** (Number)
 - **Locked** (Number)
 
@@ -72,10 +78,12 @@
 **Description:** get values from the device motion sensor mobile
 
 **> Input Ports:**
+
 - **Mul Orientation** (Number)
 - **Request Permissions** (Trigger)
 
 **< Output Ports:**
+
 - **Orientation Alpha** (Number)
 - **Orientation Beta** (Number)
 - **Orientation Gamma** (Number)
@@ -104,6 +112,7 @@
 **Description:** detect two finger pinch gestures on touchscreens
 
 **> Input Ports:**
+
 - **Enabled** (Number: Boolean)
 - **Min Scale** (Number)
 - **Max Scale** (Number)
@@ -111,6 +120,7 @@
 - **Limit** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Scale** (Number)
 - **Event Details** (Object)
 - **Delta** (Number)
@@ -128,9 +138,11 @@
 **Description:** get orientation of the physical screen
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Mobile.ScreenOrientation_v2 documentation](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2) for input port details*
 
 **< Output Ports:**
+
 - **Angle** (Number)
 - **Type** (String)
 
@@ -147,9 +159,11 @@
 **Description:** Reads the accelerometer data from a mobile device
 
 **> Input Ports:**
+
 - *Visit [Ops.Devices.Mobile.ShakeGesture documentation](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture) for input port details*
 
 **< Output Ports:**
+
 - **Acceleration X** (Number)
 - **Acceleration Y** (Number)
 - **Acceleration Z** (Number)

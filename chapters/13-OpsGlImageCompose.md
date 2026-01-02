@@ -13,11 +13,13 @@
 **Description:** Modify current alpha/opacity
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Clamp** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/y6f1ei)
@@ -33,6 +35,7 @@
 **Description:** Set alphachannel of current imagecompose via a texture mask
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Invert** (Number: Boolean)
@@ -40,6 +43,7 @@
 - **Method Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2#example)
@@ -55,12 +59,14 @@
 **Description:** Simulate fisheye effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
 - **Intensity** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qIOrS-)
@@ -76,6 +82,7 @@
 **Description:** Blur the pixels of an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Direction Index** (Number: Integer)
@@ -84,6 +91,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1T9f7g)
@@ -99,6 +107,7 @@
 **Description:** Draws a Border (rectangular frame) around the current ImageCompose
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Width** (Number)
 - **Blend Mode Index** (Number: Integer)
@@ -114,6 +123,7 @@
 - **Side D** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ctPnT6)
@@ -129,11 +139,13 @@
 **Description:** adjust image brightness and contrast
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Contrast** (Number)
 - **Brightness** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8p4mT6)
@@ -149,6 +161,7 @@
 **Description:** bulge and pinch an image (deform,stretch,distort)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Radius** (Number)
 - **Strength** (Number)
@@ -156,6 +169,7 @@
 - **Center Y** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2lC9W6)
@@ -171,6 +185,7 @@
 **Description:** Draw a checkerboard pattern
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -182,6 +197,7 @@
 - **Centered** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J4KL_4)
@@ -197,6 +213,7 @@
 **Description:** simulating lens effect by shifting rgb channels
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -206,6 +223,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/X0WkT6)
@@ -221,6 +239,7 @@
 **Description:** Draw 2d circle into texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Blend Mode Index** (Number: Integer)
@@ -240,6 +259,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/asslT6)
@@ -255,6 +275,7 @@
 **Description:** Clamps a texture to min and max values - Also has remap modes
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -270,6 +291,7 @@
 - **B Max** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eYNP7-)
@@ -285,10 +307,12 @@
 **Description:** Increase contrast in midtones
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.Clarity#example)
@@ -304,6 +328,7 @@
 **Description:** fill image using a color (overlay)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -316,6 +341,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AnqmT6)
@@ -331,6 +357,7 @@
 **Description:** change intensity of r,g,b channels
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Tone Index** (Number: Integer)
 - **R** (Number)
@@ -338,6 +365,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FGVncy)
@@ -353,6 +381,7 @@
 **Description:** enable disable RGB color channels
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **ChannelR** (Number: Boolean)
 - **ChannelG** (Number: Boolean)
@@ -361,6 +390,7 @@
 - **Mono** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2#example)
@@ -376,6 +406,7 @@
 **Description:** colorize a black and white image using a gradient texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -386,6 +417,7 @@
 - **Position** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/E7Dou7)
@@ -401,10 +433,12 @@
 **Description:** Denoise texture effect - used to smooth out noisy images
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Exponent** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4vWud8)
@@ -420,6 +454,7 @@
 **Description:** draw the content of a depth texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Image** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -429,6 +464,7 @@
 - **Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tmLbW6)
@@ -444,6 +480,7 @@
 **Description:** draws a gradient from white to black back to white over distance of the scene
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Depth Texture** (Object)
 - **Focus** (Number)
@@ -455,6 +492,7 @@
 - **Farplane** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6Z8zJm)
@@ -470,12 +508,14 @@
 **Description:** Remove colors from image / greyscale
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Mask** (Object)
 - **Invert Mask** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/g1kmT6)
@@ -491,6 +531,7 @@
 **Description:** convert color to black and white patterns
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -499,6 +540,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eECnT6)
@@ -514,6 +556,7 @@
 **Description:** Draws an image into a composition
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **BlendMode Index** (Number: Integer)
 - **Amount** (Number)
@@ -539,6 +582,7 @@
 - **Clip Repeat** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/k6ttde)
@@ -554,6 +598,7 @@
 **Description:** Draw only the edges of an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -562,6 +607,7 @@
 - **Mul Color** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dK8td8)
@@ -577,11 +623,13 @@
 **Description:** Emboss / bevel effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Clear** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xsRcay)
@@ -597,6 +645,7 @@
 **Description:** Blurs a texture - simple and fast
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Passes** (Number: Integer)
 - **Clamp** (Number: Boolean)
@@ -605,6 +654,7 @@
 - **Mask Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wl2T7i)
@@ -620,11 +670,13 @@
 **Description:** flip the image on x or y axis
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **X** (Number: Boolean)
 - **Y** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/179Jjr)
@@ -640,9 +692,11 @@
 **Description:** Convert a Float32 bit/HDR texture to RGBE format (only positive numbers)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dXLhW2)
@@ -658,6 +712,7 @@
 **Description:** add post processing fog (nebula) to a scene
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **BlendMode Index** (Number: Integer)
 - **Amount** (Number)
@@ -676,6 +731,7 @@
 - **Fog A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/I6pZnO)
@@ -691,6 +747,7 @@
 **Description:** post processing antialiasing
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Span Index** (Number: Integer)
 - **ReduceMin** (Number)
@@ -700,6 +757,7 @@
 - **Height** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c5uYnO)
@@ -715,6 +773,7 @@
 **Description:** Allows for Gamma correction of a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -722,6 +781,7 @@
 - **Gamma Correction** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WugPbx)
@@ -737,6 +797,7 @@
 **Description:** Draws a simple gradient between three colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -759,6 +820,7 @@
 - **Randomize** (Trigger)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dlSpQ6)
@@ -774,6 +836,7 @@
 **Description:** Creates a grid texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -791,6 +854,7 @@
 - **Line Blue** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pG_qUH)
@@ -806,6 +870,7 @@
 **Description:** Make one pixel lines thicker via postprocessing
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -816,6 +881,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3WSXCU)
@@ -831,12 +897,14 @@
 **Description:** Adjust Hue of current ImageCompose
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Hue** (Number)
 - **Mask** (Object:Texture)
 - **Offset** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kubmT6)
@@ -852,6 +920,7 @@
 **Description:** Compose Images and effects as layers to generate new Images
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Base Texture** (Object:Texture)
 - **UV Texture** (Object:Texture)
@@ -866,6 +935,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Texture_out** (Object)
 - **Aspect Ratio** (Number)
@@ -885,10 +955,12 @@
 **Description:** Adjust aspect ratio of an image compose branch
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 - **Aspect** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iwX7v4)
@@ -904,9 +976,11 @@
 **Description:** capture the current state of an imageCompose branch by copying the texture
 
 **> Input Ports:**
+
 - **Update** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 - **Texture** (Object)
 
@@ -923,6 +997,7 @@
 **Description:** Tv scanlines effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Lumi Scale** (Number)
@@ -933,6 +1008,7 @@
 - **Scroll** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MCpnT6)
@@ -948,6 +1024,7 @@
 **Description:** Invert image colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -958,6 +1035,7 @@
 - **Invert B** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ld3nT6)
@@ -973,6 +1051,7 @@
 **Description:** Kaleidoscope effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -985,6 +1064,7 @@
 - **Aspect Ratio** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/n4DaW6)
@@ -1000,6 +1080,7 @@
 **Description:** Creates a lens dirt like texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1013,6 +1094,7 @@
 - **Gamma** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vwgWMX)
@@ -1028,6 +1110,7 @@
 **Description:** Creates a procedural texture simulating scratches on a lens
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1042,6 +1125,7 @@
 - **Frequency Step Size** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ucr5NX)
@@ -1057,6 +1141,7 @@
 **Description:** adjust levels to correct the tonal range of an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **In Min** (Number)
 - **Midpoint** (Number)
@@ -1065,6 +1150,7 @@
 - **Out Max** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F8M9W6)
@@ -1080,6 +1166,7 @@
 **Description:** Remove darkest or brightest parts of the image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Invert** (Number: Boolean)
 - **Black White** (Number: Boolean)
@@ -1089,6 +1176,7 @@
 - **Threshold High** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ukO5qe)
@@ -1104,11 +1192,13 @@
 **Description:** apply color filter/effects by using a lookup texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **LUT Image** (Object:Texture)
 - **Amount** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2_nZX7)
@@ -1124,6 +1214,7 @@
 **Description:** mirroring image effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Width** (Number)
@@ -1131,6 +1222,7 @@
 - **Flip** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MVFoT6)
@@ -1146,12 +1238,14 @@
 **Description:** simple mix/fade of two input images
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture 1** (Object:Texture)
 - **Fade** (Number)
 - **Texture 2** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CDaQK2)
@@ -1167,6 +1261,7 @@
 **Description:** draw multiple images at once
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Mask Invert** (Number: Boolean)
 - **Texture 1** (Object:Texture)
@@ -1219,6 +1314,7 @@
 - **Amount 8** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dr8EeE)
@@ -1234,6 +1330,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.OnePassBlur) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1242,6 +1339,7 @@
 - **Mask Invert** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xHp9eG)
@@ -1257,6 +1355,7 @@
 **Description:** map a pattern to value levels of your texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Multiplier** (Object)
 - **Blend Mode** (Number: String)
@@ -1265,6 +1364,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lj31ZO)
@@ -1280,6 +1380,7 @@
 **Description:** Pixelate an image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -1288,6 +1389,7 @@
 - **Height** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1w_9W6)
@@ -1303,6 +1405,7 @@
 **Description:** fill image with one color picked at a position
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Source Texture** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -1311,6 +1414,7 @@
 - **Pos Y** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qbiIbk)
@@ -1326,6 +1430,7 @@
 **Description:** visualize the difference of neighbouring pixels (slope)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Step** (Number)
@@ -1337,6 +1442,7 @@
 - **Blue Flip** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LEMBZ4)
@@ -1352,6 +1458,7 @@
 **Description:** Changes color lookup for every pixel using a displacement map
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **DisplaceTex** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -1361,6 +1468,7 @@
 - **Input Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Qxb9W6)
@@ -1376,6 +1484,7 @@
 **Description:** Renders a plasma effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -1396,6 +1505,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dD6aW6)
@@ -1411,12 +1521,14 @@
 **Description:** display texture using polar/radial coordinate system
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Radius Inner** (Number)
 - **Radius Outer** (Number)
 - **Crop** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cM2nB2)
@@ -1432,12 +1544,14 @@
 **Description:** reduce number of colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
 - **Levels** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_MMoT6)
@@ -1453,6 +1567,7 @@
 **Description:** simulate lens flare effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Ghosts** (Number)
 - **Num Ghosts** (Number: Integer)
@@ -1462,6 +1577,7 @@
 - **Color Lookup** (Object)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P8heur)
@@ -1477,6 +1593,7 @@
 **Description:** Set random numbers into an imagecompose
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1492,6 +1609,7 @@
 - **Multiply** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/j_I1TG)
@@ -1507,6 +1625,7 @@
 **Description:** draws a 2d rectangle into a texture.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Blend Mode Index** (Number: Integer)
@@ -1530,6 +1649,7 @@
 - **Mask** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IPPT7i)
@@ -1545,9 +1665,11 @@
 **Description:** Remove alpha information from image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha#example)
@@ -1563,6 +1685,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.RepeatTexture_v2) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1572,6 +1695,7 @@
 - **Multiply** (Object:Texture)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S6JnT6)
@@ -1587,12 +1711,14 @@
 **Description:** multiply image colors by color channel
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3l_8W6)
@@ -1608,6 +1734,7 @@
 **Description:** Offsets the xy components of an RGB texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1625,6 +1752,7 @@
 - **amount of blue** (fade, hide, show)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pzC9rn)
@@ -1640,10 +1768,12 @@
 **Description:** Convert a RGB Texture to Hue/Saturation/Lightness values as RGB colors
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Output RGB Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V7z4v4)
@@ -1659,6 +1789,7 @@
 **Description:** Rotates a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -1668,6 +1799,7 @@
 - **Clear** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/flURFr)
@@ -1683,6 +1815,7 @@
 **Description:** Draw round corners around image (border)
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Radius** (Number)
 - **R** (Number)
@@ -1691,6 +1824,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iYLmJ5)
@@ -1706,6 +1840,7 @@
 **Description:** Scales a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
 - **Blend Mode Index** (Number: Integer)
@@ -1719,6 +1854,7 @@
 - **Clear** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kj_Zbx)
@@ -1734,6 +1870,7 @@
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.ScrollTexture) for details*
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **AmountX** (Number)
 - **AmountY** (Number)
@@ -1741,6 +1878,7 @@
 - **Repeat** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DutaW6)
@@ -1756,6 +1894,7 @@
 **Description:** Generates different 2d shapes to use as a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -1777,6 +1916,7 @@
 - **A** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XBGbPO)
@@ -1792,10 +1932,12 @@
 **Description:** Adjust image sharpness
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Q6uJjr)
@@ -1811,6 +1953,7 @@
 **Description:** skew / stretch an image by rendering scaled sides
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1821,6 +1964,7 @@
 - **Stretch Right** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/M2UA7k)
@@ -1836,6 +1980,7 @@
 **Description:** Create a texture of stripes /lines
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1852,6 +1997,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dYhlT6)
@@ -1867,6 +2013,7 @@
 **Description:** modulo pixel color values
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Mask Invert** (Number: Boolean)
@@ -1875,6 +2022,7 @@
 - **Modulo** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FOpoxm)
@@ -1890,11 +2038,13 @@
 **Description:** render the difference of two textures
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zCDlTi)
@@ -1910,11 +2060,13 @@
 **Description:** Convert a black and white map to a normal map
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Step Multiplier** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L62oT6)
@@ -1930,6 +2082,7 @@
 **Description:** Creates a twirl/swirl/spiral effect in a texture
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -1939,6 +2092,7 @@
 - **Center Y** (Number)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2_pmJ5)
@@ -1954,10 +2108,12 @@
 **Description:** adjust vibrance/saturation
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Amount** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/52iaW6)
@@ -1973,6 +2129,7 @@
 **Description:** Simulating an old camera effect of fading away the edges of the image
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -1987,6 +2144,7 @@
 - **Alpha** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WDPlT6)
@@ -2002,6 +2160,7 @@
 **Description:** Generates 4 different waveform textures. Sine, sawtooth,Triangle, Square.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
@@ -2021,6 +2180,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9aF_26)
@@ -2036,6 +2196,7 @@
 **Description:** Generate different texture waveforms. Sine, sawtooth and triangle.
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Alpha Mask Index** (Number: Integer)
@@ -2050,6 +2211,7 @@
 - **B** (Number)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Hfw7yu)
@@ -2065,6 +2227,7 @@
 **Description:** waving wobble motion effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Time** (Number)
 - **SpeedX** (Number)
@@ -2077,6 +2240,7 @@
 - **Invert Amount Map** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wpgXXG)
@@ -2092,6 +2256,7 @@
 **Description:** Directional blur effect
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Samples** (Number: Integer)
@@ -2102,6 +2267,7 @@
 - **Invert Strength Map** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qjtoT6)

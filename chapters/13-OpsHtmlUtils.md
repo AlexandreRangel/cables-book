@@ -13,10 +13,12 @@
 **Description:** create a cables logo which links to cables gl
 
 **> Input Ports:**
+
 - **Size** (Number)
 - **Opacity** (Number)
 
 **< Output Ports:**
+
 - *Visit [Ops.Html.Utils.CablesLink documentation](https://cables.gl/op/Ops.Html.Utils.CablesLink) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
@@ -32,9 +34,11 @@
 **Description:** show a typical web loading/progress indicator animation
 
 **> Input Ports:**
+
 - **Center Position** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Elment** (Object)
 - **Requests** (Array)
 
@@ -51,6 +55,7 @@
 **Description:** Trigger a simple pop up notification on the screen
 
 **> Input Ports:**
+
 - **Trigger Animation** (Trigger)
 - **Text** (String)
 - **Class** (String)
@@ -66,6 +71,7 @@
 - **Ending Position** (Number)
 
 **< Output Ports:**
+
 - **Finished Trigger** (Trigger)
 - **Finished** (booleanNumber)
 - **DOM Element** (Object)
@@ -83,6 +89,7 @@
 **Description:** shows a playbutton for forcing a simple user interaction
 
 **> Input Ports:**
+
 - **Trigger** (Trigger)
 - **Only If Audio Suspended** (Number: Boolean)
 - **Reset** (Trigger)
@@ -91,6 +98,7 @@
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Not Clicked** (Trigger)
 - **Audiocontext State** (String)
@@ -111,6 +119,7 @@
 **Description:** simple html ui for timeline/mediaplayers (was: TimeLineUI)
 
 **> Input Ports:**
+
 - **Length** (Number)
 - **Current** (Number)
 - **Clamp** (Number: Boolean)
@@ -120,6 +129,7 @@
 - **Show Skip Buttons** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Play Clicked** (Trigger)
 - **Pause Clicked** (Trigger)
 - **Rewind Clicked** (Trigger)
@@ -143,9 +153,11 @@
 **Description:** Generate a qr code as a texture
 
 **> Input Ports:**
+
 - **Text** (String)
 
 **< Output Ports:**
+
 - **Image DataUrl** (String)
 - **Element** (Object)
 
@@ -162,6 +174,7 @@
 **Description:** play a youtube video in a HTML element
 
 **> Input Ports:**
+
 - **Video Id** (String)
 - **Active** (Number: Boolean)
 - **Style** (String)
@@ -174,6 +187,7 @@
 - **Start At Second** (Number: Integer)
 
 **< Output Ports:**
+
 - **Element** (Object)
 - **Direct Link** (String)
 

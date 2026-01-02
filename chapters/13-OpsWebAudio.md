@@ -13,6 +13,7 @@
 **Description:** Creates a spectrogram texture from an audio FFT array
 
 **> Input Ports:**
+
 - **Refresh** (Trigger)
 - **FFT Array** (Array)
 - **Mirror Active** (Number: Boolean)
@@ -20,6 +21,7 @@
 - **Texture Size Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Texture Out** (Object)
 - **Position** (Number)
 
@@ -36,6 +38,7 @@
 **Description:** Extracts FFT, RMS & Waveform data from an incoming audio signal
 
 **> Input Ports:**
+
 - **Trigger In** (Trigger)
 - **Audio In** (Object:AudioNode)
 - **FFT Size Index** (Number: Integer)
@@ -45,6 +48,7 @@
 - **Max** (Number)
 
 **< Output Ports:**
+
 - **Trigger Out** (Trigger)
 - **Audio Out** (Object)
 - **FFT Array** (Array)
@@ -68,11 +72,13 @@
 **Description:** Holds an audio file / sample in a buffer
 
 **> Input Ports:**
+
 - **URL** (String)
 - **Create Loading Task** (Number: Boolean)
 - **Active** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Audio Buffer** (Object)
 - **Finished Loading** (booleanNumber)
 - **Sample Rate** (Number)
@@ -94,6 +100,7 @@
 **Description:** Route audio from one input channel to any output channel
 
 **> Input Ports:**
+
 - **Audio Buffer** (Object:AudioBuffer)
 - **Channel In** (Number: Integer)
 - **Channel Out** (Number: Integer)
@@ -101,6 +108,7 @@
 - **Channel Offset** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Audio Buffer Out** (Object)
 - **Output Channels** (Number)
 
@@ -117,6 +125,7 @@
 **Description:** Play back audio data stored in an AudioBuffer
 
 **> Input Ports:**
+
 - **Audio Buffer** (Object:AudioBuffer)
 - **Loop** (Number: Boolean)
 - **Restart** (Trigger)
@@ -125,6 +134,7 @@
 - **Detune** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Is Playing** (booleanNumber)
 - **Loading** (booleanNumber)
@@ -142,6 +152,7 @@
 **Description:** Outputs the waveform of an audio file as a spline array
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Audio Buffer** (Object:AudioBuffer)
 - **Width** (Number)
@@ -149,6 +160,7 @@
 - **Samples Per Pixel** (Number: Integer)
 
 **< Output Ports:**
+
 - **Next** (Trigger)
 - **Array Out** (Array)
 
@@ -165,10 +177,12 @@
 **Description:** stereo pan an audio signal from left to right
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Pan** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iNue_j)
@@ -184,6 +198,7 @@
 **Description:** record, playback and download audio
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Start Recording** (Trigger)
 - **Stop Recording** (Trigger)
@@ -195,6 +210,7 @@
 - **Loop Playback** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Recorded Audio Out** (Object)
 - **Is Recording** (booleanNumber)
@@ -216,6 +232,7 @@
 **Description:** Different kinds of audio filters
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Type Index** (Number: Integer)
 - **Frequency** (Number)
@@ -225,6 +242,7 @@
 - **Frequency Array** (Array)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Magnitude Response Array** (Array)
 - **Phase Response Array** (Array)
@@ -243,6 +261,7 @@
 **Description:** send bpm based triggers like a clocked trigger sequencer / clock divider
 
 **> Input Ports:**
+
 - **BPM** (Number: Integer)
 - **beats per minute** (tempo)
 - **Start** (Trigger)
@@ -250,6 +269,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Sequencer Running** (booleanNumber)
 - **BPM Out** (Number)
 - **Start Out** (Trigger)
@@ -269,6 +289,7 @@
 **Description:** sequence triggers by defining a pattern (like a drum machine)
 
 **> Input Ports:**
+
 - **Clock Trigger Input** (Trigger)
 - **Sequence Array** (Array)
 - **Steps Index** (Number: Integer)
@@ -276,6 +297,7 @@
 - **Reset** (Trigger)
 
 **< Output Ports:**
+
 - **Sequence Trigger Output** (Trigger)
 - **Sequenced Value** (Number)
 - **Current Step** (Number)
@@ -293,6 +315,7 @@
 **Description:** Audio reverb using an impulse response (sample)
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Impulse Response** (String)
 - **Normalize** (Number: Boolean)
@@ -300,6 +323,7 @@
 - **Output Gain** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Wet Out** (Object)
 
@@ -316,6 +340,7 @@
 **Description:** dj style filter (lowpass and highpass)
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Highpass Active** (Number: Boolean)
 - **Low Frequency** (Number)
@@ -325,6 +350,7 @@
 - **High Q** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6SsZxp)
@@ -340,6 +366,7 @@
 **Description:** add a delay effect to an audio stream
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Feedback** (Number)
 - **BPM Based Delay Time** (Number: Boolean)
@@ -352,6 +379,7 @@
 - **LFO Waveform Index** (Number: Integer)
 
 **< Output Ports:**
+
 - **Mix Out** (Object)
 - **Wet Out** (Object)
 
@@ -368,6 +396,7 @@
 **Description:** get average value in an area of a fft audio analysis buffer
 
 **> Input Ports:**
+
 - **Refresh** (Trigger)
 - **FFT Array** (Array)
 - **X Position** (Number)
@@ -377,6 +406,7 @@
 - **Create Texture** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Texture Out** (Object)
 - **Area Average Volume** (Number)
 
@@ -393,11 +423,13 @@
 **Description:** Changes the gain / volume
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Gain** (Number)
 - **Mute** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JeKgDp)
@@ -413,6 +445,7 @@
 **Description:** Generates notes based on key presses
 
 **> Input Ports:**
+
 - **C Note On** (Trigger)
 - **C Note Off** (Trigger)
 - **Cis Note On** (Trigger)
@@ -440,6 +473,7 @@
 - **Octave** (Number)
 
 **< Output Ports:**
+
 - **Frequency** (Number)
 - **Is Pressed** (Number)
 
@@ -456,12 +490,14 @@
 **Description:** Access to the microphone and/or audio input devices
 
 **> Input Ports:**
+
 - **Audio Input Index** (Number: Integer)
 - **Volume** (Number)
 - **Mute** (Number: Boolean)
 - **Start** (Trigger)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Listening** (booleanNumber)
 - **List Of Input Devices** (Array)
@@ -479,10 +515,12 @@
 **Description:** Converts a midi value to a frequency
 
 **> Input Ports:**
+
 - **MIDI Value** (Number)
 - **Tuning** (Number)
 
 **< Output Ports:**
+
 - **Frequency** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example)
@@ -498,6 +536,7 @@
 **Description:** Mix audio signals together
 
 **> Input Ports:**
+
 - **Audio In 0** (Object:AudioNode)
 - **Audio In 1** (Object:AudioNode)
 - **Audio In 2** (Object:AudioNode)
@@ -525,6 +564,7 @@
 - **Output Gain** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J7YdCp)
@@ -540,6 +580,7 @@
 **Description:** Outputs a musical scale array (major, minor, ...) as strings, steps and midi notes
 
 **> Input Ports:**
+
 - **Root Note Index** (Number: Integer)
 - **Root Note** (Number: String)
 - **Scale Type Index** (Number: Integer)
@@ -550,6 +591,7 @@
 - **Append Octave To Names** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Note Names Array** (Array)
 - **Note Step Number Array** (Array)
 - **Midi Note Array** (Array)
@@ -568,12 +610,14 @@
 **Description:** Sends an audio signal to your speakers
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Volume** (Number)
 - **Mute** (Number: Boolean)
 - **Show Audio Suspended Button** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Current Volume** (Number)
 - **Number Of Channels** (Number)
 - **Context State** (String)
@@ -591,6 +635,7 @@
 **Description:** 3 filters in one - an eq to quickly process an audio signal
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Low Filter Type Index** (Number: Integer)
 - **Low Filter Type** (Number: String)
@@ -609,6 +654,7 @@
 - **High Gain** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tD2Vxp)
@@ -624,6 +670,7 @@
 **Description:** Outputs the waveform of an audio file as a geometry
 
 **> Input Ports:**
+
 - **Render** (Trigger)
 - **Audio Buffer** (Object:AudioBuffer)
 - **Render Active** (Number: Boolean)
@@ -634,6 +681,7 @@
 - **Calculate Tex Coords** (Number: Boolean)
 
 **< Output Ports:**
+
 - **Spline Points** (Array)
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -651,6 +699,7 @@
 **Description:** add waveshaping (distortion, overdrive, fuzz) to an audio stream
 
 **> Input Ports:**
+
 - **Audio In** (Object:AudioNode)
 - **Oversampling Index** (Number: Integer)
 - **Distortion Amount** (Number: Integer)
@@ -659,6 +708,7 @@
 - **Output Gain** (Number)
 
 **< Output Ports:**
+
 - **Audio Out** (Object)
 - **Curve Out** (Array)
 - **distortion curve array output** (one-dimensional)

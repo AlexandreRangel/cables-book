@@ -13,11 +13,13 @@
 **Description:** Outputs an array of data from a user defined OSC address
 
 **> Input Ports:**
+
 - **Message** (Object)
 - **Address** (String)
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **Result Message** (Object)
 - **Array Out** (Array)
 - **Array Length** (Number)
@@ -36,9 +38,11 @@
 **Description:** Shows the current active address of an incoming OSC message
 
 **> Input Ports:**
+
 - **Message** (Object)
 
 **< Output Ports:**
+
 - **Adress** (String)
 - **Arguments** (Array)
 - **Total Arguments** (Number)
@@ -56,11 +60,13 @@
 **Description:** Outputs a single number from a user defined OSC address
 
 **> Input Ports:**
+
 - **Message** (Object)
 - **Address** (String)
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **Result Message** (Object)
 - **Value** (Number)
 - **Received** (Trigger)
@@ -78,11 +84,13 @@
 **Description:** Outputs up to 4 numbers from a user defined OSC address
 
 **> Input Ports:**
+
 - **Message In** (Object)
 - **Osc Address** (String)
 - **Learn** (Trigger)
 
 **< Output Ports:**
+
 - **Message Through** (Object)
 - **Received** (Trigger)
 - **Number 0** (Number)

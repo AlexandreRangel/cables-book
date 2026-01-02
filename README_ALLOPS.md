@@ -80,3 +80,4 @@ To complete the chapter with full port details for ALL ops (like SimpleAnim):
 Op images should be saved to: `chapters/images/ops/`
 Format: `Ops_Namespace_OpName.png` (or .jpg)
 
+

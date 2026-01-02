@@ -13,6 +13,7 @@
 **Description:** Set CSS backdrop filter like blur, contrast, brightness, saturation
 
 **> Input Ports:**
+
 - **Element** (Object)
 - **Blur** (Number)
 - **Contrast** (Number)
@@ -23,6 +24,7 @@
 - **Sepia** (Number)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tem67C)
@@ -38,6 +40,7 @@
 **Description:** Set CSS margins of a html element
 
 **> Input Ports:**
+
 - **Element** (Object:Element)
 - **Margin** (Number)
 - **Margin Top** (Number)
@@ -46,6 +49,7 @@
 - **Margin Right** (Number)
 
 **< Output Ports:**
+
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Css.ElementMargin#example)

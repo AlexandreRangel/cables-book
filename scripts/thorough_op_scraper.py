@@ -325,6 +325,7 @@ def generate_op_markdown(op: Dict) -> str:
 **Description:** {description}
 
 **> Input Ports:**
+
 """
     
     if op.get('input_ports'):
@@ -333,7 +334,7 @@ def generate_op_markdown(op: Dict) -> str:
     else:
         md += f"- *Visit [{full_name} documentation]({url}) for input port details*\n"
     
-    md += "\n**< Output Ports:**\n"
+    md += "\n**< Output Ports:**\n\n"
     
     if op.get('output_ports'):
         for port in op['output_ports']:
@@ -612,4 +613,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
