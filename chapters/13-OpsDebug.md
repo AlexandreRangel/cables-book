@@ -1,7 +1,5 @@
 # Ops.Debug
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Debug
@@ -10,6 +8,7 @@
 ![Console op](images/ops/Ops_Debug_Console.svg)
 
 **Full Name:** `Ops.Debug.Console`
+
 **Description:** Shows console log output on the screen
 
 **> Input Ports:**
@@ -22,15 +21,17 @@
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TVIL7f)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Console"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.Console](https://cables.gl/op/Ops.Debug.Console)
 
----
 
 ### ConsoleLog
 ![ConsoleLog op](images/ops/Ops_Debug_ConsoleLog.svg)
 
 **Full Name:** `Ops.Debug.ConsoleLog`
+
 **Description:** Log incoming values to the console/dev tools
 
 **> Input Ports:**
@@ -43,15 +44,17 @@
 - *Visit [Ops.Debug.ConsoleLog documentation](https://cables.gl/op/Ops.Debug.ConsoleLog) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.ConsoleLog#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ConsoleLog"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.ConsoleLog](https://cables.gl/op/Ops.Debug.ConsoleLog)
 
----
 
 ### CrashOp
 ![CrashOp op](images/ops/Ops_Debug_CrashOp.svg)
 
 **Full Name:** `Ops.Debug.CrashOp`
+
 **Description:** Crash the editor in many ways
 
 **> Input Ports:**
@@ -70,15 +73,17 @@
 - **Infinity** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9TvUBq)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CrashOp"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.CrashOp](https://cables.gl/op/Ops.Debug.CrashOp)
 
----
 
 ### GlLogErrors
 ![GlLogErrors op](images/ops/Ops_Debug_GlLogErrors.svg)
 
 **Full Name:** `Ops.Debug.GlLogErrors`
+
 **Description:** execute glGetError after every gl command and log to browser console
 
 **> Input Ports:**
@@ -93,15 +98,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.GlLogErrors#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlLogErrors"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.GlLogErrors](https://cables.gl/op/Ops.Debug.GlLogErrors)
 
----
 
 ### GlStates
 ![GlStates op](images/ops/Ops_Debug_GlStates.svg)
 
 **Full Name:** `Ops.Debug.GlStates`
+
 **Description:** see current gl states and error message
 
 **> Input Ports:**
@@ -125,15 +132,17 @@
 - **Is Shadowpass** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.GlStates#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlStates"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.GlStates](https://cables.gl/op/Ops.Debug.GlStates)
 
----
 
 ### ProfileGL
 ![ProfileGL op](images/ops/Ops_Debug_ProfileGL.svg)
 
 **Full Name:** `Ops.Debug.ProfileGL`
+
 **Description:** dump all gl commands of one frame to console
 
 **> Input Ports:**
@@ -146,15 +155,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.ProfileGL#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ProfileGL"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.ProfileGL](https://cables.gl/op/Ops.Debug.ProfileGL)
 
----
 
 ### StopWatch
 ![StopWatch op](images/ops/Ops_Debug_StopWatch.svg)
 
 **Full Name:** `Ops.Debug.StopWatch`
+
 **Description:** Measure the time used to render all child nodes in milliseconds
 
 **> Input Ports:**
@@ -168,8 +179,9 @@
 - **Times** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Debug.StopWatch#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StopWatch"*
+
 **Docs:** [https://cables.gl/op/Ops.Debug.StopWatch](https://cables.gl/op/Ops.Debug.StopWatch)
 
----
 

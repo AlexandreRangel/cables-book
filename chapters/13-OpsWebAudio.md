@@ -1,7 +1,5 @@
 # Ops.WebAudio
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.WebAudio
@@ -10,6 +8,7 @@
 ![AnalyzerTexture_v2 op](images/ops/Ops_WebAudio_AnalyzerTexture_v2.svg)
 
 **Full Name:** `Ops.WebAudio.AnalyzerTexture_v2`
+
 **Description:** Creates a spectrogram texture from an audio FFT array
 
 **> Input Ports:**
@@ -26,15 +25,17 @@
 - **Position** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T_-vCp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnalyzerTexture_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AnalyzerTexture_v2](https://cables.gl/op/Ops.WebAudio.AnalyzerTexture_v2)
 
----
 
 ### AudioAnalyzer_v2
 ![AudioAnalyzer_v2 op](images/ops/Ops_WebAudio_AudioAnalyzer_v2.svg)
 
 **Full Name:** `Ops.WebAudio.AudioAnalyzer_v2`
+
 **Description:** Extracts FFT, RMS & Waveform data from an incoming audio signal
 
 **> Input Ports:**
@@ -60,15 +61,17 @@
 - **RMS Volume** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/h2eBh-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioAnalyzer_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioAnalyzer_v2](https://cables.gl/op/Ops.WebAudio.AudioAnalyzer_v2)
 
----
 
 ### AudioBuffer_v3
 ![AudioBuffer_v3 op](images/ops/Ops_WebAudio_AudioBuffer_v3.svg)
 
 **Full Name:** `Ops.WebAudio.AudioBuffer_v3`
+
 **Description:** Holds an audio file / sample in a buffer
 
 **> Input Ports:**
@@ -88,15 +91,17 @@
 - **IsLoading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xEL0rn)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioBuffer_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioBuffer_v3](https://cables.gl/op/Ops.WebAudio.AudioBuffer_v3)
 
----
 
 ### AudioBufferChannelRouter
 ![AudioBufferChannelRouter op](images/ops/Ops_WebAudio_AudioBufferChannelRouter.svg)
 
 **Full Name:** `Ops.WebAudio.AudioBufferChannelRouter`
+
 **Description:** Route audio from one input channel to any output channel
 
 **> Input Ports:**
@@ -113,15 +118,17 @@
 - **Output Channels** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KlCyYN)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioBufferChannelRouter"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioBufferChannelRouter](https://cables.gl/op/Ops.WebAudio.AudioBufferChannelRouter)
 
----
 
 ### AudioBufferPlayer_v2
 ![AudioBufferPlayer_v2 op](images/ops/Ops_WebAudio_AudioBufferPlayer_v2.svg)
 
 **Full Name:** `Ops.WebAudio.AudioBufferPlayer_v2`
+
 **Description:** Play back audio data stored in an AudioBuffer
 
 **> Input Ports:**
@@ -140,15 +147,17 @@
 - **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5PFIfu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioBufferPlayer_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioBufferPlayer_v2](https://cables.gl/op/Ops.WebAudio.AudioBufferPlayer_v2)
 
----
 
 ### AudioBufferToSplineArray
 ![AudioBufferToSplineArray op](images/ops/Ops_WebAudio_AudioBufferToSplineArray.svg)
 
 **Full Name:** `Ops.WebAudio.AudioBufferToSplineArray`
+
 **Description:** Outputs the waveform of an audio file as a spline array
 
 **> Input Ports:**
@@ -165,15 +174,17 @@
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OcOVBp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioBufferToSplineArray"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioBufferToSplineArray](https://cables.gl/op/Ops.WebAudio.AudioBufferToSplineArray)
 
----
 
 ### AudioPanner
 ![AudioPanner op](images/ops/Ops_WebAudio_AudioPanner.svg)
 
 **Full Name:** `Ops.WebAudio.AudioPanner`
+
 **Description:** stereo pan an audio signal from left to right
 
 **> Input Ports:**
@@ -186,15 +197,17 @@
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iNue_j)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioPanner"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioPanner](https://cables.gl/op/Ops.WebAudio.AudioPanner)
 
----
 
 ### AudioRecorder
 ![AudioRecorder op](images/ops/Ops_WebAudio_AudioRecorder.svg)
 
 **Full Name:** `Ops.WebAudio.AudioRecorder`
+
 **Description:** record, playback and download audio
 
 **> Input Ports:**
@@ -220,15 +233,17 @@
 - **Data URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nEKhbI)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioRecorder"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.AudioRecorder](https://cables.gl/op/Ops.WebAudio.AudioRecorder)
 
----
 
 ### BiquadFilter_v2
 ![BiquadFilter_v2 op](images/ops/Ops_WebAudio_BiquadFilter_v2.svg)
 
 **Full Name:** `Ops.WebAudio.BiquadFilter_v2`
+
 **Description:** Different kinds of audio filters
 
 **> Input Ports:**
@@ -249,15 +264,17 @@
 - **Response Arrays Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nhyACp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BiquadFilter_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.BiquadFilter_v2](https://cables.gl/op/Ops.WebAudio.BiquadFilter_v2)
 
----
 
 ### ClockSequencer
 ![ClockSequencer op](images/ops/Ops_WebAudio_ClockSequencer.svg)
 
 **Full Name:** `Ops.WebAudio.ClockSequencer`
+
 **Description:** send bpm based triggers like a clocked trigger sequencer / clock divider
 
 **> Input Ports:**
@@ -277,15 +294,17 @@
 - **Reset Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J8Uccu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClockSequencer"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.ClockSequencer](https://cables.gl/op/Ops.WebAudio.ClockSequencer)
 
----
 
 ### ClockSequencerPattern
 ![ClockSequencerPattern op](images/ops/Ops_WebAudio_ClockSequencerPattern.svg)
 
 **Full Name:** `Ops.WebAudio.ClockSequencerPattern`
+
 **Description:** sequence triggers by defining a pattern (like a drum machine)
 
 **> Input Ports:**
@@ -303,15 +322,17 @@
 - **Current Step** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KM0Dgu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClockSequencerPattern"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.ClockSequencerPattern](https://cables.gl/op/Ops.WebAudio.ClockSequencerPattern)
 
----
 
 ### Convolver_v2
 ![Convolver_v2 op](images/ops/Ops_WebAudio_Convolver_v2.svg)
 
 **Full Name:** `Ops.WebAudio.Convolver_v2`
+
 **Description:** Audio reverb using an impulse response (sample)
 
 **> Input Ports:**
@@ -328,15 +349,17 @@
 - **Wet Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WlLDwp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Convolver_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Convolver_v2](https://cables.gl/op/Ops.WebAudio.Convolver_v2)
 
----
 
 ### CutFilter
 ![CutFilter op](images/ops/Ops_WebAudio_CutFilter.svg)
 
 **Full Name:** `Ops.WebAudio.CutFilter`
+
 **Description:** dj style filter (lowpass and highpass)
 
 **> Input Ports:**
@@ -354,15 +377,17 @@
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6SsZxp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CutFilter"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.CutFilter](https://cables.gl/op/Ops.WebAudio.CutFilter)
 
----
 
 ### Delay
 ![Delay op](images/ops/Ops_WebAudio_Delay.svg)
 
 **Full Name:** `Ops.WebAudio.Delay`
+
 **Description:** add a delay effect to an audio stream
 
 **> Input Ports:**
@@ -384,15 +409,17 @@
 - **Wet Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IUjXgu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Delay"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Delay](https://cables.gl/op/Ops.WebAudio.Delay)
 
----
 
 ### FFTAreaAverage_v3
 ![FFTAreaAverage_v3 op](images/ops/Ops_WebAudio_FFTAreaAverage_v3.svg)
 
 **Full Name:** `Ops.WebAudio.FFTAreaAverage_v3`
+
 **Description:** get average value in an area of a fft audio analysis buffer
 
 **> Input Ports:**
@@ -411,15 +438,17 @@
 - **Area Average Volume** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F6Fhyp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FFTAreaAverage_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.FFTAreaAverage_v3](https://cables.gl/op/Ops.WebAudio.FFTAreaAverage_v3)
 
----
 
 ### Gain
 ![Gain op](images/ops/Ops_WebAudio_Gain.svg)
 
 **Full Name:** `Ops.WebAudio.Gain`
+
 **Description:** Changes the gain / volume
 
 **> Input Ports:**
@@ -433,15 +462,17 @@
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JeKgDp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Gain"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Gain](https://cables.gl/op/Ops.WebAudio.Gain)
 
----
 
 ### KeyPiano
 ![KeyPiano op](images/ops/Ops_WebAudio_KeyPiano.svg)
 
 **Full Name:** `Ops.WebAudio.KeyPiano`
+
 **Description:** Generates notes based on key presses
 
 **> Input Ports:**
@@ -478,15 +509,17 @@
 - **Is Pressed** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.WebAudio.KeyPiano#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "KeyPiano"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.KeyPiano](https://cables.gl/op/Ops.WebAudio.KeyPiano)
 
----
 
 ### MicrophoneIn_v2
 ![MicrophoneIn_v2 op](images/ops/Ops_WebAudio_MicrophoneIn_v2.svg)
 
 **Full Name:** `Ops.WebAudio.MicrophoneIn_v2`
+
 **Description:** Access to the microphone and/or audio input devices
 
 **> Input Ports:**
@@ -503,15 +536,17 @@
 - **List Of Input Devices** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xjHACp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MicrophoneIn_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.MicrophoneIn_v2](https://cables.gl/op/Ops.WebAudio.MicrophoneIn_v2)
 
----
 
 ### MidiValueToFrequency
 ![MidiValueToFrequency op](images/ops/Ops_WebAudio_MidiValueToFrequency.svg)
 
 **Full Name:** `Ops.WebAudio.MidiValueToFrequency`
+
 **Description:** Converts a midi value to a frequency
 
 **> Input Ports:**
@@ -524,15 +559,17 @@
 - **Frequency** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiValueToFrequency"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency)
 
----
 
 ### Mixer
 ![Mixer op](images/ops/Ops_WebAudio_Mixer.svg)
 
 **Full Name:** `Ops.WebAudio.Mixer`
+
 **Description:** Mix audio signals together
 
 **> Input Ports:**
@@ -568,15 +605,17 @@
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J7YdCp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Mixer"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Mixer](https://cables.gl/op/Ops.WebAudio.Mixer)
 
----
 
 ### MusicalScales
 ![MusicalScales op](images/ops/Ops_WebAudio_MusicalScales.svg)
 
 **Full Name:** `Ops.WebAudio.MusicalScales`
+
 **Description:** Outputs a musical scale array (major, minor, ...) as strings, steps and midi notes
 
 **> Input Ports:**
@@ -598,15 +637,17 @@
 - **Current Scale** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8Ekchu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MusicalScales"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.MusicalScales](https://cables.gl/op/Ops.WebAudio.MusicalScales)
 
----
 
 ### Output_v2
 ![Output_v2 op](images/ops/Ops_WebAudio_Output_v2.svg)
 
 **Full Name:** `Ops.WebAudio.Output_v2`
+
 **Description:** Sends an audio signal to your speakers
 
 **> Input Ports:**
@@ -623,15 +664,17 @@
 - **Context State** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/teZhCp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Output_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Output_v2](https://cables.gl/op/Ops.WebAudio.Output_v2)
 
----
 
 ### ThreeBandEqualizer
 ![ThreeBandEqualizer op](images/ops/Ops_WebAudio_ThreeBandEqualizer.svg)
 
 **Full Name:** `Ops.WebAudio.ThreeBandEqualizer`
+
 **Description:** 3 filters in one - an eq to quickly process an audio signal
 
 **> Input Ports:**
@@ -658,15 +701,17 @@
 - **Audio Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tD2Vxp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ThreeBandEqualizer"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.ThreeBandEqualizer](https://cables.gl/op/Ops.WebAudio.ThreeBandEqualizer)
 
----
 
 ### WaveformMesh
 ![WaveformMesh op](images/ops/Ops_WebAudio_WaveformMesh.svg)
 
 **Full Name:** `Ops.WebAudio.WaveformMesh`
+
 **Description:** Outputs the waveform of an audio file as a geometry
 
 **> Input Ports:**
@@ -687,15 +732,17 @@
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VqDkCp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WaveformMesh"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.WaveformMesh](https://cables.gl/op/Ops.WebAudio.WaveformMesh)
 
----
 
 ### Waveshaper
 ![Waveshaper op](images/ops/Ops_WebAudio_Waveshaper.svg)
 
 **Full Name:** `Ops.WebAudio.Waveshaper`
+
 **Description:** add waveshaping (distortion, overdrive, fuzz) to an audio stream
 
 **> Input Ports:**
@@ -715,8 +762,9 @@
 - **Curve Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6Vl87I)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Waveshaper"*
+
 **Docs:** [https://cables.gl/op/Ops.WebAudio.Waveshaper](https://cables.gl/op/Ops.WebAudio.Waveshaper)
 
----
 

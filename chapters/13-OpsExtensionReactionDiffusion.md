@@ -1,7 +1,5 @@
 # Ops.Extension.ReactionDiffusion
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.ReactionDiffusion
@@ -10,6 +8,7 @@
 ![ReactionDiffusionSystem_v2 op](images/ops/Ops_Extension_ReactionDiffusion_ReactionDiffusionSystem_v2.svg)
 
 **Full Name:** `Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2`
+
 **Description:** Cellular automata system as feedback loop texture.
 
 **> Input Ports:**
@@ -39,8 +38,9 @@
 - **Texture Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XLCybk)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReactionDiffusionSystem_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
 
----
 

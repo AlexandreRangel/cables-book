@@ -28,10 +28,29 @@
 \newcommand{\SectionFourFontSize}{12}
 \newcommand{\SectionFourLeading}{11}
 
-%% Subtitle/Paragraph color (RGB values)
-\newcommand{\SubtitleColorRed}{0}
-\newcommand{\SubtitleColorGreen}{51}
-\newcommand{\SubtitleColorBlue}{153}
+%% ------------------------------------------------------------
+%% SECTION COLORS (RGB values 0-255)
+%% ------------------------------------------------------------
+
+%% Section 1 color (Chapter titles)
+\newcommand{\SectionOneColorRed}{51}
+\newcommand{\SectionOneColorGreen}{51}
+\newcommand{\SectionOneColorBlue}{51}
+
+%% Section 2 color (Major sections) - darker blue
+\newcommand{\SectionTwoColorRed}{0}
+\newcommand{\SectionTwoColorGreen}{40}
+\newcommand{\SectionTwoColorBlue}{120}
+
+%% Section 3 color (Subsections)
+\newcommand{\SectionThreeColorRed}{51}
+\newcommand{\SectionThreeColorGreen}{51}
+\newcommand{\SectionThreeColorBlue}{51}
+
+%% Section 4 color (Paragraph headers)
+\newcommand{\SectionFourColorRed}{51}
+\newcommand{\SectionFourColorGreen}{51}
+\newcommand{\SectionFourColorBlue}{51}
 
 %% Code block line spacing (1.0 = normal, 0.85 = 15% tighter)
 \newcommand{\CodeBlockLineSpacing}{0.85}
@@ -53,8 +72,17 @@
 %% IMAGE SETTINGS
 %% ------------------------------------------------------------
 
-%% Image width as fraction of line width (0.8 = 80%)
+%% General image width as fraction of line width (0.7 = 70%)
 \newcommand{\ImageWidthFraction}{0.7}
+
+%% Op image width (for the hundreds of operator images) - fraction of line width
+\newcommand{\OpImageWidthFraction}{0.5}
+
+%% Space REDUCTION after op images (negative = less space)
+\newcommand{\OpImageSpaceAfter}{-16pt}
+
+%% Ops section leading (line spacing for section 13 op entries)
+\newcommand{\OpsSectionLeading}{0.85}
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -64,6 +92,10 @@
 %% Basic packages
 \usepackage{graphicx}
 \usepackage{xcolor}
+\usepackage{xstring}  % For string comparison in image handling
+\usepackage{ragged2e} % For better left alignment
+\usepackage{setspace} % For line spacing control
+\usepackage{etoolbox} % For hooks and patches
 
 %% Image handling - scale images and left-align
 \usepackage{adjustbox}
@@ -77,26 +109,58 @@
 
 %% Force all images to be left-aligned (no centering)
 \usepackage{caption}
-\captionsetup{labelformat=empty,textformat=empty}
+\captionsetup{labelformat=empty,textformat=empty,justification=raggedright,singlelinecheck=false}
+
+%% Completely override figure environment and centering to force left alignment
 \makeatletter
-% Redefine figure environment to force left alignment
+% Override centering command globally to do left alignment
+\renewcommand{\centering}{%
+  \rightskip0pt plus 1fil
+  \leftskip0pt
+  \parfillskip0pt
+  \raggedright
+}
+% Override center environment to be left-aligned
+\renewenvironment{center}{%
+  \par\noindent%
+  \raggedright%
+  \hspace{0pt}%
+}{%
+  \par%
+}
+% Completely replace figure environment - remove any text that might appear
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
-  \noindent
-  \begin{minipage}{\linewidth}%
-  \raggedright
+  \par\vspace{\baselineskip}%
+  \noindent%
+  \raggedright%
+  \hspace{0pt}%
 }{%
-  \end{minipage}%
-  \par\addvspace{\medskipamount}%
+  \par\vspace{\baselineskip}%
 }
+% Completely disable floatboxreset (which often centers)
 \let\@floatboxreset\relax
 \makeatother
 
-% Force left alignment for all includegraphics commands
+%% Force left alignment for ALL includegraphics commands
+%% Special handling for op images (in images/ops/ folder)
 \makeatletter
 \let\oldincludegraphics\includegraphics
+\newcommand{\isopimage}[1]{%
+  \IfSubStr{#1}{images/ops/}{\@firstoftwo}{\@secondoftwo}%
+}
 \renewcommand{\includegraphics}[2][]{%
-  \noindent\oldincludegraphics[#1]{#2}%
+  \par\noindent%
+  \hspace{0pt}%
+  \isopimage{#2}{%
+    % Op image: use OpImageWidthFraction and reduced space after
+    \oldincludegraphics[width=\OpImageWidthFraction\linewidth,keepaspectratio]{#2}%
+    \vspace{\OpImageSpaceAfter}%
+  }{%
+    % Regular image: use standard settings
+    \oldincludegraphics[#1]{#2}%
+  }%
+  \par%
 }
 \makeatother
 
@@ -110,32 +174,39 @@
 %% Font fallbacks
 \usepackage{fontspec}
 
-%% Define colors
-\definecolor{headergray}{RGB}{51,51,51}
+%% Define colors using the variables above
+\definecolor{sectiononecolor}{RGB}{\SectionOneColorRed,\SectionOneColorGreen,\SectionOneColorBlue}
+\definecolor{sectiontwocolor}{RGB}{\SectionTwoColorRed,\SectionTwoColorGreen,\SectionTwoColorBlue}
+\definecolor{sectionthreecolor}{RGB}{\SectionThreeColorRed,\SectionThreeColorGreen,\SectionThreeColorBlue}
+\definecolor{sectionfourcolor}{RGB}{\SectionFourColorRed,\SectionFourColorGreen,\SectionFourColorBlue}
 \definecolor{linkblue}{RGB}{0,102,204}
-\definecolor{subtitleblue}{RGB}{\SubtitleColorRed,\SubtitleColorGreen,\SubtitleColorBlue}
 
 %% Custom header styles using the settings above
 \usepackage{titlesec}
 
 %% Section 1 - largest (chapter titles)
 \titleformat{\section}
-  {\fontsize{\SectionOneFontSize}{\SectionOneLeading}\bfseries\color{headergray}}
+  {\fontsize{\SectionOneFontSize}{\SectionOneLeading}\bfseries\color{sectiononecolor}}
   {\thesection}{1em}{}
 
 %% Section 2 (major sections)
 \titleformat{\subsection}
-  {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{subtitleblue}}
+  {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{sectiontwocolor}}
   {\thesubsection}{1em}{}
 
 %% Section 3 (subsections)
 \titleformat{\subsubsection}
-  {\fontsize{\SectionThreeFontSize}{\SectionThreeLeading}\bfseries\color{headergray}}
+  {\fontsize{\SectionThreeFontSize}{\SectionThreeLeading}\bfseries\color{sectionthreecolor}}
   {\thesubsubsection}{1em}{}
+
+%% Apply reduced leading to ops sections (section 13 content)
+%% Note: The \OpsSectionLeading variable is defined above and can be adjusted.
+%% To apply it, you can manually add \setstretch{\OpsSectionLeading} in section 13 content
+%% or use it in custom formatting. For now, we'll keep it as a variable for future use.
 
 %% Section 4 / Paragraph - not numbered
 \titleformat{\paragraph}
-  {\fontsize{\SectionFourFontSize}{\SectionFourLeading}\bfseries\color{headergray}}
+  {\fontsize{\SectionFourFontSize}{\SectionFourLeading}\bfseries\color{sectionfourcolor}}
   {}{0em}{}
 
 %% Set section numbering depth to 3
@@ -179,9 +250,13 @@
 \renewcommand{\headrulewidth}{0pt} % No header rule
 \renewcommand{\footrulewidth}{0pt} % No footer rule
 
-% Set header and footer heights
+% Set header and footer heights with vertically centered page number
 \setlength{\headheight}{\HeaderHeight pt}
 \setlength{\footskip}{\FooterHeight pt}
+
+% Vertically center page number in footer
+\fancyfootoffset{0pt}
+\renewcommand{\footruleskip}{0pt}
 
 % Fix page 1 (plain style) to also have right-aligned page number
 \fancypagestyle{plain}{%
@@ -191,13 +266,29 @@
   \renewcommand{\footrulewidth}{0pt}
 }
 
-%% Link colors
+%% Link colors and final image alignment fixes
 \AtBeginDocument{
   \hypersetup{
     colorlinks=true,
-    linkcolor=headergray,
+    linkcolor=sectiononecolor,
     urlcolor=linkblue,
-    citecolor=headergray,
-    filecolor=headergray
+    citecolor=sectiononecolor,
+    filecolor=sectiononecolor
   }
+  % Final override to ensure figures are left-aligned
+  \makeatletter
+  \renewcommand{\centering}{%
+    \rightskip0pt plus 1fil
+    \leftskip0pt
+    \parfillskip0pt
+    \raggedright
+  }
+  \renewenvironment{center}{%
+    \par\noindent%
+    \raggedright%
+    \hspace{0pt}%
+  }{%
+    \par%
+  }
+  \makeatother
 }

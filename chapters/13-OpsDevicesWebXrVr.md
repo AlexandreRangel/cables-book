@@ -1,7 +1,5 @@
 # Ops.Devices.WebXr.Vr
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Devices.WebXr.Vr
@@ -10,6 +8,7 @@
 ![Vr op](images/ops/Ops_Devices_WebXr_Vr_Vr.svg)
 
 **Full Name:** `Ops.Devices.WebXr.Vr.Vr`
+
 **Description:** rendering on webxr virtual reality immersive devices
 
 **> Input Ports:**
@@ -36,15 +35,17 @@
 - **Texture Depth** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Vr"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr](https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr)
 
----
 
 ### VrController
 ![VrController op](images/ops/Ops_Devices_WebXr_Vr_VrController.svg)
 
 **Full Name:** `Ops.Devices.WebXr.Vr.VrController`
+
 **Description:** tracking of vr hand controller
 
 **> Input Ports:**
@@ -81,8 +82,9 @@
 - **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VrController"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController](https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController)
 
----
 

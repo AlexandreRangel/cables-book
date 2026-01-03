@@ -1,7 +1,5 @@
 # Ops.Gl
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Gl
@@ -10,6 +8,7 @@
 ![ArrayToTexture_v2 op](images/ops/Ops_Gl_ArrayToTexture_v2.svg)
 
 **Full Name:** `Ops.Gl.ArrayToTexture_v2`
+
 **Description:** create a texture from an array of number values
 
 **> Input Ports:**
@@ -31,15 +30,17 @@
 - **Tex Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cOlh_C)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToTexture_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ArrayToTexture_v2](https://cables.gl/op/Ops.Gl.ArrayToTexture_v2)
 
----
 
 ### BlendMode
 ![BlendMode op](images/ops/Ops_Gl_BlendMode.svg)
 
 **Full Name:** `Ops.Gl.BlendMode`
+
 **Description:** change how colors are mixed (blending/mixing modes)
 
 **> Input Ports:**
@@ -53,15 +54,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/x1-Fvc)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BlendMode"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.BlendMode](https://cables.gl/op/Ops.Gl.BlendMode)
 
----
 
 ### CanvasFocus
 ![CanvasFocus op](images/ops/Ops_Gl_CanvasFocus.svg)
 
 **Full Name:** `Ops.Gl.CanvasFocus`
+
 **Description:** is canvas focussed ?
 
 **> Input Ports:**
@@ -73,15 +76,17 @@
 - **Has Focus** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vGwM7f)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasFocus"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.CanvasFocus](https://cables.gl/op/Ops.Gl.CanvasFocus)
 
----
 
 ### CanvasInfo_v3
 ![CanvasInfo_v3 op](images/ops/Ops_Gl_CanvasInfo_v3.svg)
 
 **Full Name:** `Ops.Gl.CanvasInfo_v3`
+
 **Description:** the size of the canvas in pixels, aspect ratio and pixel density
 
 **> Input Ports:**
@@ -102,15 +107,17 @@
 - **Resized** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2yaD8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasInfo_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.CanvasInfo_v3](https://cables.gl/op/Ops.Gl.CanvasInfo_v3)
 
----
 
 ### CanvasToTexture
 ![CanvasToTexture op](images/ops/Ops_Gl_CanvasToTexture.svg)
 
 **Full Name:** `Ops.Gl.CanvasToTexture`
+
 **Description:** convert a canvas to texture
 
 **> Input Ports:**
@@ -127,15 +134,17 @@
 - **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QjlEo-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CanvasToTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.CanvasToTexture](https://cables.gl/op/Ops.Gl.CanvasToTexture)
 
----
 
 ### ClearColor
 ![ClearColor op](images/ops/Ops_Gl_ClearColor.svg)
 
 **Full Name:** `Ops.Gl.ClearColor`
+
 **Description:** sets all cleared pixels to one colour. Use to change the background colour.
 
 **> Input Ports:**
@@ -151,15 +160,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UEjvr)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClearColor"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ClearColor](https://cables.gl/op/Ops.Gl.ClearColor)
 
----
 
 ### ClearDepth
 ![ClearDepth op](images/ops/Ops_Gl_ClearDepth.svg)
 
 **Full Name:** `Ops.Gl.ClearDepth`
+
 **Description:** Clears the depth buffer (zbuffer, z buffer)
 
 **> Input Ports:**
@@ -171,15 +182,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/rEesag)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClearDepth"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ClearDepth](https://cables.gl/op/Ops.Gl.ClearDepth)
 
----
 
 ### ColorMask
 ![ColorMask op](images/ops/Ops_Gl_ColorMask.svg)
 
 **Full Name:** `Ops.Gl.ColorMask`
+
 **Description:** enable/disable RGBA color channels of your entire scene
 
 **> Input Ports:**
@@ -195,15 +208,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqQSR7)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorMask"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ColorMask](https://cables.gl/op/Ops.Gl.ColorMask)
 
----
 
 ### ColorPick
 ![ColorPick op](images/ops/Ops_Gl_ColorPick.svg)
 
 **Full Name:** `Ops.Gl.ColorPick`
+
 **Description:** pick a color at x,y coordinates of canvas
 
 **> Input Ports:**
@@ -220,15 +235,17 @@
 - **A** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YEjkgg)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPick"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ColorPick](https://cables.gl/op/Ops.Gl.ColorPick)
 
----
 
 ### DirectionalTranslate
 ![DirectionalTranslate op](images/ops/Ops_Gl_DirectionalTranslate.svg)
 
 **Full Name:** `Ops.Gl.DirectionalTranslate`
+
 **Description:** translate away from a point in space
 
 **> Input Ports:**
@@ -242,15 +259,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5gL9On)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DirectionalTranslate"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.DirectionalTranslate](https://cables.gl/op/Ops.Gl.DirectionalTranslate)
 
----
 
 ### DownloadTexture_v3
 ![DownloadTexture_v3 op](images/ops/Ops_Gl_DownloadTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.DownloadTexture_v3`
+
 **Description:** Download a texture as an image file
 
 **> Input Ports:**
@@ -265,15 +284,17 @@
 - **Jcrmz8mnz** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/15LaTs)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DownloadTexture_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.DownloadTexture_v3](https://cables.gl/op/Ops.Gl.DownloadTexture_v3)
 
----
 
 ### DrawTextureMapping
 ![DrawTextureMapping op](images/ops/Ops_Gl_DrawTextureMapping.svg)
 
 **Full Name:** `Ops.Gl.DrawTextureMapping`
+
 **Description:** draw texture mapping coordinates
 
 **> Input Ports:**
@@ -287,15 +308,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Nu7dJ5)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DrawTextureMapping"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.DrawTextureMapping](https://cables.gl/op/Ops.Gl.DrawTextureMapping)
 
----
 
 ### ElementInBrowserViewport
 ![ElementInBrowserViewport op](images/ops/Ops_Gl_ElementInBrowserViewport.svg)
 
 **Full Name:** `Ops.Gl.ElementInBrowserViewport`
+
 **Description:** check if webgl canvas element is in the current browser viewport
 
 **> Input Ports:**
@@ -310,15 +333,17 @@
 - **Partly Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementInBrowserViewport"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ElementInBrowserViewport](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport)
 
----
 
 ### ExternalCanvas
 ![ExternalCanvas op](images/ops/Ops_Gl_ExternalCanvas.svg)
 
 **Full Name:** `Ops.Gl.ExternalCanvas`
+
 **Description:** Open a new window that shows a copy of the patch canvas
 
 **> Input Ports:**
@@ -341,15 +366,17 @@
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HnG3fB)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ExternalCanvas"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ExternalCanvas](https://cables.gl/op/Ops.Gl.ExternalCanvas)
 
----
 
 ### FaceCulling_v2
 ![FaceCulling_v2 op](images/ops/Ops_Gl_FaceCulling_v2.svg)
 
 **Full Name:** `Ops.Gl.FaceCulling_v2`
+
 **Description:** Disable the rendering of front or back facing triangles with culling
 
 **> Input Ports:**
@@ -362,15 +389,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mPwnD-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceCulling_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.FaceCulling_v2](https://cables.gl/op/Ops.Gl.FaceCulling_v2)
 
----
 
 ### FontMSDF_v2
 ![FontMSDF_v2 op](images/ops/Ops_Gl_FontMSDF_v2.svg)
 
 **Full Name:** `Ops.Gl.FontMSDF_v2`
+
 **Description:** Load MSDF Font data and texture to use
 
 **> Input Ports:**
@@ -389,15 +418,17 @@
 - **Chars** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FontMSDF_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.FontMSDF_v2](https://cables.gl/op/Ops.Gl.FontMSDF_v2)
 
----
 
 ### ForceCanvasSize
 ![ForceCanvasSize op](images/ops/Ops_Gl_ForceCanvasSize.svg)
 
 **Full Name:** `Ops.Gl.ForceCanvasSize`
+
 **Description:** Resize canvas element to a specific pixel size or aspect ratio
 
 **> Input Ports:**
@@ -421,15 +452,17 @@
 - **Margin Top** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/f9UbD-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ForceCanvasSize"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ForceCanvasSize](https://cables.gl/op/Ops.Gl.ForceCanvasSize)
 
----
 
 ### GateTexture
 ![GateTexture op](images/ops/Ops_Gl_GateTexture.svg)
 
 **Full Name:** `Ops.Gl.GateTexture`
+
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
 **> Input Ports:**
@@ -443,15 +476,17 @@
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GateTexture#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GateTexture](https://cables.gl/op/Ops.Gl.GateTexture)
 
----
 
 ### GlBlendFunc
 ![GlBlendFunc op](images/ops/Ops_Gl_GlBlendFunc.svg)
 
 **Full Name:** `Ops.Gl.GlBlendFunc`
+
 **Description:** set gl blendmodes directly
 
 **> Input Ports:**
@@ -468,15 +503,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/24qZz7)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlBlendFunc"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GlBlendFunc](https://cables.gl/op/Ops.Gl.GlBlendFunc)
 
----
 
 ### GlInfo_v2
 ![GlInfo_v2 op](images/ops/Ops_Gl_GlInfo_v2.svg)
 
 **Full Name:** `Ops.Gl.GlInfo_v2`
+
 **Description:** information about the webgl context
 
 **> Input Ports:**
@@ -499,15 +536,17 @@
 - **Renderer** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0zHu8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlInfo_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GlInfo_v2](https://cables.gl/op/Ops.Gl.GlInfo_v2)
 
----
 
 ### GlPrimitive
 ![GlPrimitive op](images/ops/Ops_Gl_GlPrimitive.svg)
 
 **Full Name:** `Ops.Gl.GlPrimitive`
+
 **Description:** force rendering of meshes using points,lines or triangles
 
 **> Input Ports:**
@@ -520,15 +559,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5Mz8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlPrimitive"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GlPrimitive](https://cables.gl/op/Ops.Gl.GlPrimitive)
 
----
 
 ### GradientTexture
 ![GradientTexture op](images/ops/Ops_Gl_GradientTexture.svg)
 
 **Full Name:** `Ops.Gl.GradientTexture`
+
 **Description:** texture containing a colour gradient that can be altered with an editor
 
 **> Input Ports:**
@@ -554,15 +595,17 @@
 - **Colors Pos** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_wQNDW)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GradientTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GradientTexture](https://cables.gl/op/Ops.Gl.GradientTexture)
 
----
 
 ### GridTransform
 ![GridTransform op](images/ops/Ops_Gl_GridTransform.svg)
 
 **Full Name:** `Ops.Gl.GridTransform`
+
 **Description:** transform and arrange elements into a grid
 
 **> Input Ports:**
@@ -581,15 +624,17 @@
 - **Y Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J-XMNQ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GridTransform"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.GridTransform](https://cables.gl/op/Ops.Gl.GridTransform)
 
----
 
 ### Identity
 ![Identity op](images/ops/Ops_Gl_Identity.svg)
 
 **Full Name:** `Ops.Gl.Identity`
+
 **Description:** reset all transforms (modelmatrix)
 
 **> Input Ports:**
@@ -601,15 +646,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KUVJ8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Identity"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Identity](https://cables.gl/op/Ops.Gl.Identity)
 
----
 
 ### IdentityViewMatrix
 ![IdentityViewMatrix op](images/ops/Ops_Gl_IdentityViewMatrix.svg)
 
 **Full Name:** `Ops.Gl.IdentityViewMatrix`
+
 **Description:** reset the view matrix (cameras etc.)
 
 **> Input Ports:**
@@ -621,15 +668,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H01Ici)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IdentityViewMatrix"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.IdentityViewMatrix](https://cables.gl/op/Ops.Gl.IdentityViewMatrix)
 
----
 
 ### ImageSequenceAnim_v2
 ![ImageSequenceAnim_v2 op](images/ops/Ops_Gl_ImageSequenceAnim_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageSequenceAnim_v2`
+
 **Description:** play a image sprite animation
 
 **> Input Ports:**
@@ -651,15 +700,17 @@
 - **Progress** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/n0iMSq)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ImageSequenceAnim_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2](https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2)
 
----
 
 ### InteractiveRectangle_v2
 ![InteractiveRectangle_v2 op](images/ops/Ops_Gl_InteractiveRectangle_v2.svg)
 
 **Full Name:** `Ops.Gl.InteractiveRectangle_v2`
+
 **Description:** An area which is interactive
 
 **> Input Ports:**
@@ -694,15 +745,17 @@
 - **Dom Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/P_SED0)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InteractiveRectangle_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2](https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2)
 
----
 
 ### LayerSequence
 ![LayerSequence op](images/ops/Ops_Gl_LayerSequence.svg)
 
 **Full Name:** `Ops.Gl.LayerSequence`
+
 **Description:** Render Multiple Layers in a specific order
 
 **> Input Ports:**
@@ -729,15 +782,17 @@
 - **Trigger 15** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VH4Oxj)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LayerSequence"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.LayerSequence](https://cables.gl/op/Ops.Gl.LayerSequence)
 
----
 
 ### LineFont_v2
 ![LineFont_v2 op](images/ops/Ops_Gl_LineFont_v2.svg)
 
 **Full Name:** `Ops.Gl.LineFont_v2`
+
 **Description:** A Simple way to write text on the screen.
 
 **> Input Ports:**
@@ -751,15 +806,17 @@
 - **Lines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1JzPLu)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LineFont_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.LineFont_v2](https://cables.gl/op/Ops.Gl.LineFont_v2)
 
----
 
 ### MainLoop_v2
 ![MainLoop_v2 op](images/ops/Ops_Gl_MainLoop_v2.svg)
 
 **Full Name:** `Ops.Gl.MainLoop_v2`
+
 **Description:** Trigger other ops once every frame to create smooth animations
 
 **> Input Ports:**
@@ -778,15 +835,17 @@
 - **Pixel Density** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uZxfQc)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MainLoop_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.MainLoop_v2](https://cables.gl/op/Ops.Gl.MainLoop_v2)
 
----
 
 ### MediaRecorder_v2
 ![MediaRecorder_v2 op](images/ops/Ops_Gl_MediaRecorder_v2.svg)
 
 **Full Name:** `Ops.Gl.MediaRecorder_v2`
+
 **Description:** Record the renderer-output to video
 
 **> Input Ports:**
@@ -812,15 +871,17 @@
 - **Video DataUrl** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ioiDIR)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MediaRecorder_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.MediaRecorder_v2](https://cables.gl/op/Ops.Gl.MediaRecorder_v2)
 
----
 
 ### MeshInstancer_v4
 ![MeshInstancer_v4 op](images/ops/Ops_Gl_MeshInstancer_v4.svg)
 
 **Full Name:** `Ops.Gl.MeshInstancer_v4`
+
 **Description:** Draw the same mesh multiple times on the GPU
 
 **> Input Ports:**
@@ -842,15 +903,17 @@
 - **Num** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oOsjJ5)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancer_v4"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.MeshInstancer_v4](https://cables.gl/op/Ops.Gl.MeshInstancer_v4)
 
----
 
 ### MeshMorph
 ![MeshMorph op](images/ops/Ops_Gl_MeshMorph.svg)
 
 **Full Name:** `Ops.Gl.MeshMorph`
+
 **Description:** morph from one geometry to another
 
 **> Input Ports:**
@@ -885,15 +948,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PdhglN)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshMorph"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.MeshMorph](https://cables.gl/op/Ops.Gl.MeshMorph)
 
----
 
 ### NormalizeScreenCoordinates
 ![NormalizeScreenCoordinates op](images/ops/Ops_Gl_NormalizeScreenCoordinates.svg)
 
 **Full Name:** `Ops.Gl.NormalizeScreenCoordinates`
+
 **Description:** convert screen pixel coordinates to range 0-1
 
 **> Input Ports:**
@@ -907,15 +972,17 @@
 - **Result Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NormalizeScreenCoordinates"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates)
 
----
 
 ### OrTexture
 ![OrTexture op](images/ops/Ops_Gl_OrTexture.svg)
 
 **Full Name:** `Ops.Gl.OrTexture`
+
 **Description:** outputs the first valid texture of the
 
 **> Input Ports:**
@@ -934,15 +1001,17 @@
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oKRY7i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.OrTexture](https://cables.gl/op/Ops.Gl.OrTexture)
 
----
 
 ### Orthogonal_v2
 ![Orthogonal_v2 op](images/ops/Ops_Gl_Orthogonal_v2.svg)
 
 **Full Name:** `Ops.Gl.Orthogonal_v2`
+
 **Description:** Orthogonal projection / objects in distance don't appear smaller (isometric)
 
 **> Input Ports:**
@@ -961,15 +1030,17 @@
 - **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/94Aycg)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Orthogonal_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Orthogonal_v2](https://cables.gl/op/Ops.Gl.Orthogonal_v2)
 
----
 
 ### OverwriteViewportSize
 ![OverwriteViewportSize op](images/ops/Ops_Gl_OverwriteViewportSize.svg)
 
 **Full Name:** `Ops.Gl.OverwriteViewportSize`
+
 **Description:** Force a manually set viewport size for connected ops
 
 **> Input Ports:**
@@ -983,15 +1054,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OverwriteViewportSize"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.OverwriteViewportSize](https://cables.gl/op/Ops.Gl.OverwriteViewportSize)
 
----
 
 ### Performance
 ![Performance op](images/ops/Ops_Gl_Performance.svg)
 
 **Full Name:** `Ops.Gl.Performance`
+
 **Description:** Show WebGl Performance Statistics
 
 **> Input Ports:**
@@ -1012,15 +1085,17 @@
 - **FPS** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zFR8z5)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Performance"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Performance](https://cables.gl/op/Ops.Gl.Performance)
 
----
 
 ### PerformanceMeasure
 ![PerformanceMeasure op](images/ops/Ops_Gl_PerformanceMeasure.svg)
 
 **Full Name:** `Ops.Gl.PerformanceMeasure`
+
 **Description:** Measure the time used to execute all child ops
 
 **> Input Ports:**
@@ -1034,15 +1109,17 @@
 - **Time Used** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerformanceMeasure"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.PerformanceMeasure](https://cables.gl/op/Ops.Gl.PerformanceMeasure)
 
----
 
 ### Perspective
 ![Perspective op](images/ops/Ops_Gl_Perspective.svg)
 
 **Full Name:** `Ops.Gl.Perspective`
+
 **Description:** Adjust FOV, field of view, and frustum clipping
 
 **> Input Ports:**
@@ -1060,15 +1137,17 @@
 - **Aspect** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RJXV7i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Perspective"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Perspective](https://cables.gl/op/Ops.Gl.Perspective)
 
----
 
 ### PixelProjection_v3
 ![PixelProjection_v3 op](images/ops/Ops_Gl_PixelProjection_v3.svg)
 
 **Full Name:** `Ops.Gl.PixelProjection_v3`
+
 **Description:** Remaps world co-ordinates to a pixel co-ordinate system
 
 **> Input Ports:**
@@ -1089,15 +1168,17 @@
 - **Size Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fsOPNS)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PixelProjection_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.PixelProjection_v3](https://cables.gl/op/Ops.Gl.PixelProjection_v3)
 
----
 
 ### PointCollector
 ![PointCollector op](images/ops/Ops_Gl_PointCollector.svg)
 
 **Full Name:** `Ops.Gl.PointCollector`
+
 **Description:** save points/coordinates in an array
 
 **> Input Ports:**
@@ -1111,15 +1192,17 @@
 - **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollector#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollector"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.PointCollector](https://cables.gl/op/Ops.Gl.PointCollector)
 
----
 
 ### PointCollectorCollect
 ![PointCollectorCollect op](images/ops/Ops_Gl_PointCollectorCollect.svg)
 
 **Full Name:** `Ops.Gl.PointCollectorCollect`
+
 **Description:** collect world space coordinates into an array
 
 **> Input Ports:**
@@ -1131,15 +1214,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollectorCollect"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.PointCollectorCollect](https://cables.gl/op/Ops.Gl.PointCollectorCollect)
 
----
 
 ### PointCollectorScreenCoords
 ![PointCollectorScreenCoords op](images/ops/Ops_Gl_PointCollectorScreenCoords.svg)
 
 **Full Name:** `Ops.Gl.PointCollectorScreenCoords`
+
 **Description:** collect screen pixel coordinates into an array
 
 **> Input Ports:**
@@ -1151,15 +1236,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCollectorScreenCoords"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords)
 
----
 
 ### RandomCluster
 ![RandomCluster op](images/ops/Ops_Gl_RandomCluster.svg)
 
 **Full Name:** `Ops.Gl.RandomCluster`
+
 **Description:** Transforms objects randomly in space
 
 **> Input Ports:**
@@ -1184,15 +1271,17 @@
 - **Rnd** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ah6Rj6)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomCluster"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.RandomCluster](https://cables.gl/op/Ops.Gl.RandomCluster)
 
----
 
 ### RenderAnim_v2
 ![RenderAnim_v2 op](images/ops/Ops_Gl_RenderAnim_v2.svg)
 
 **Full Name:** `Ops.Gl.RenderAnim_v2`
+
 **Description:** record, render an animation and save as webm video file or png image sequence
 
 **> Input Ports:**
@@ -1222,15 +1311,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQhm8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderAnim_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.RenderAnim_v2](https://cables.gl/op/Ops.Gl.RenderAnim_v2)
 
----
 
 ### RenderGeometry_v2
 ![RenderGeometry_v2 op](images/ops/Ops_Gl_RenderGeometry_v2.svg)
 
 **Full Name:** `Ops.Gl.RenderGeometry_v2`
+
 **Description:** Render a geometry as mesh
 
 **> Input Ports:**
@@ -1245,15 +1336,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w6QYlH)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderGeometry_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.RenderGeometry_v2](https://cables.gl/op/Ops.Gl.RenderGeometry_v2)
 
----
 
 ### RenderToTexture_v3
 ![RenderToTexture_v3 op](images/ops/Ops_Gl_RenderToTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.RenderToTexture_v3`
+
 **Description:** Render into an Image
 
 **> Input Ports:**
@@ -1273,15 +1366,17 @@
 - **TextureDepth** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G2_my7)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTexture_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.RenderToTexture_v3](https://cables.gl/op/Ops.Gl.RenderToTexture_v3)
 
----
 
 ### RenderToTextures_v3
 ![RenderToTextures_v3 op](images/ops/Ops_Gl_RenderToTextures_v3.svg)
 
 **Full Name:** `Ops.Gl.RenderToTextures_v3`
+
 **Description:** render to multiple textures at the same time
 
 **> Input Ports:**
@@ -1316,15 +1411,17 @@
 - **TextureDepth** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/muH2jG)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTextures_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.RenderToTextures_v3](https://cables.gl/op/Ops.Gl.RenderToTextures_v3)
 
----
 
 ### ResetTransform
 ![ResetTransform op](images/ops/Ops_Gl_ResetTransform.svg)
 
 **Full Name:** `Ops.Gl.ResetTransform`
+
 **Description:** reset current transforms to initial value (identity)
 
 **> Input Ports:**
@@ -1339,15 +1436,17 @@
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kY3J8i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ResetTransform"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ResetTransform](https://cables.gl/op/Ops.Gl.ResetTransform)
 
----
 
 ### SaveScreenShot_v3
 ![SaveScreenShot_v3 op](images/ops/Ops_Gl_SaveScreenShot_v3.svg)
 
 **Full Name:** `Ops.Gl.SaveScreenShot_v3`
+
 **Description:** Download the current screen content as png file
 
 **> Input Ports:**
@@ -1363,15 +1462,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OB0Qmi)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SaveScreenShot_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.SaveScreenShot_v3](https://cables.gl/op/Ops.Gl.SaveScreenShot_v3)
 
----
 
 ### ShowNormals_v2
 ![ShowNormals_v2 op](images/ops/Ops_Gl_ShowNormals_v2.svg)
 
 **Full Name:** `Ops.Gl.ShowNormals_v2`
+
 **Description:** visualize normals, tangents or bitangents
 
 **> Input Ports:**
@@ -1392,15 +1493,17 @@
 - **Line Geom** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4NeG02)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ShowNormals_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ShowNormals_v2](https://cables.gl/op/Ops.Gl.ShowNormals_v2)
 
----
 
 ### SurfaceScatter_v2
 ![SurfaceScatter_v2 op](images/ops/Ops_Gl_SurfaceScatter_v2.svg)
 
 **Full Name:** `Ops.Gl.SurfaceScatter_v2`
+
 **Description:** Scatter an object on the surface of a mesh with different distribution methods
 
 **> Input Ports:**
@@ -1426,15 +1529,17 @@
 - **Quaternions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cfUzre)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SurfaceScatter_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.SurfaceScatter_v2](https://cables.gl/op/Ops.Gl.SurfaceScatter_v2)
 
----
 
 ### TextMeshMSDF_v2
 ![TextMeshMSDF_v2 op](images/ops/Ops_Gl_TextMeshMSDF_v2.svg)
 
 **Full Name:** `Ops.Gl.TextMeshMSDF_v2`
+
 **Description:** draw text using the FontMSDF operator
 
 **> Input Ports:**
@@ -1477,15 +1582,17 @@
 - **Num Chars** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextMeshMSDF_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2](https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2)
 
----
 
 ### Texture_v2
 ![Texture_v2 op](images/ops/Ops_Gl_Texture_v2.svg)
 
 **Full Name:** `Ops.Gl.Texture_v2`
+
 **Description:** Load an image as a texture
 
 **> Input Ports:**
@@ -1508,15 +1615,17 @@
 - **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iRKrD-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Texture_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Texture_v2](https://cables.gl/op/Ops.Gl.Texture_v2)
 
----
 
 ### TextureArray
 ![TextureArray op](images/ops/Ops_Gl_TextureArray.svg)
 
 **Full Name:** `Ops.Gl.TextureArray`
+
 **Description:** create an array of textures
 
 **> Input Ports:**
@@ -1543,15 +1652,17 @@
 - **Count** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vS5fjz)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArray"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureArray](https://cables.gl/op/Ops.Gl.TextureArray)
 
----
 
 ### TextureArrayLoader_v2
 ![TextureArrayLoader_v2 op](images/ops/Ops_Gl_TextureArrayLoader_v2.svg)
 
 **Full Name:** `Ops.Gl.TextureArrayLoader_v2`
+
 **Description:** load multiple images into an array
 
 **> Input Ports:**
@@ -1574,15 +1685,17 @@
 - **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OeGdjT)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArrayLoader_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2](https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2)
 
----
 
 ### TextureArrayLoaderFromArray_v3
 ![TextureArrayLoaderFromArray_v3 op](images/ops/Ops_Gl_TextureArrayLoaderFromArray_v3.svg)
 
 **Full Name:** `Ops.Gl.TextureArrayLoaderFromArray_v3`
+
 **Description:** load multiple texture from filenames given as an array
 
 **> Input Ports:**
@@ -1604,15 +1717,17 @@
 - **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/jFv097)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArrayLoaderFromArray_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3](https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3)
 
----
 
 ### TextureColorPick
 ![TextureColorPick op](images/ops/Ops_Gl_TextureColorPick.svg)
 
 **Full Name:** `Ops.Gl.TextureColorPick`
+
 **Description:** get the color of a pixel in a texture
 
 **> Input Ports:**
@@ -1632,15 +1747,17 @@
 - **Alpha** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bzVSwn)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureColorPick"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureColorPick](https://cables.gl/op/Ops.Gl.TextureColorPick)
 
----
 
 ### TextureToArray_v4
 ![TextureToArray_v4 op](images/ops/Ops_Gl_TextureToArray_v4.svg)
 
 **Full Name:** `Ops.Gl.TextureToArray_v4`
+
 **Description:** extract colors from a texture
 
 **> Input Ports:**
@@ -1656,15 +1773,17 @@
 - **Num Pixel** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uZkd3x)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToArray_v4"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureToArray_v4](https://cables.gl/op/Ops.Gl.TextureToArray_v4)
 
----
 
 ### TextureToPointArray3
 ![TextureToPointArray3 op](images/ops/Ops_Gl_TextureToPointArray3.svg)
 
 **Full Name:** `Ops.Gl.TextureToPointArray3`
+
 **Description:** generate an array3 of grid positions from a texture
 
 **> Input Ports:**
@@ -1686,15 +1805,17 @@
 - **Max Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U8IO1k)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToPointArray3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureToPointArray3](https://cables.gl/op/Ops.Gl.TextureToPointArray3)
 
----
 
 ### TextureToRandomPoints
 ![TextureToRandomPoints op](images/ops/Ops_Gl_TextureToRandomPoints.svg)
 
 **Full Name:** `Ops.Gl.TextureToRandomPoints`
+
 **Description:** Create points by sampling texture
 
 **> Input Ports:**
@@ -1713,15 +1834,17 @@
 - **NumPoints** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LAoKVJ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToRandomPoints"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TextureToRandomPoints](https://cables.gl/op/Ops.Gl.TextureToRandomPoints)
 
----
 
 ### TriggerOnCanvasResize
 ![TriggerOnCanvasResize op](images/ops/Ops_Gl_TriggerOnCanvasResize.svg)
 
 **Full Name:** `Ops.Gl.TriggerOnCanvasResize`
+
 **Description:** will trigger when canvas was resized
 
 **> Input Ports:**
@@ -1733,15 +1856,17 @@
 - **Resized** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnCanvasResize"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize)
 
----
 
 ### ValidTexture
 ![ValidTexture op](images/ops/Ops_Gl_ValidTexture.svg)
 
 **Full Name:** `Ops.Gl.ValidTexture`
+
 **Description:** output current input texture or a default texture
 
 **> Input Ports:**
@@ -1753,15 +1878,17 @@
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ValidTexture#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValidTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ValidTexture](https://cables.gl/op/Ops.Gl.ValidTexture)
 
----
 
 ### ViewPortSize
 ![ViewPortSize op](images/ops/Ops_Gl_ViewPortSize.svg)
 
 **Full Name:** `Ops.Gl.ViewPortSize`
+
 **Description:** Outputs current viewport size
 
 **> Input Ports:**
@@ -1777,8 +1904,9 @@
 - **Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ViewPortSize"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.ViewPortSize](https://cables.gl/op/Ops.Gl.ViewPortSize)
 
----
 

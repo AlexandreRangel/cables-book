@@ -1,4 +1,5 @@
 # PowerShell script to generate PDF with REAL-TIME page progress
+# Uses file monitoring for XeLaTeX log to detect page numbers
 param(
     [string]$InputFile,
     [string]$OutputFile,
@@ -12,6 +13,19 @@ Write-Host ""
 # Ensure we're in the right directory
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $scriptDir
+
+# Get temp directory where XeLaTeX will work
+$userTemp = [System.IO.Path]::GetTempPath()
+
+# Check if cover file exists and add it before TOC
+$coverFile = "chapters\00-Cover.md"
+$coverArg = ""
+if (Test-Path $coverFile) {
+    # Use --include-before-body to place cover before TOC
+    # The cover uses \begin{titlepage} which Pandoc will handle correctly
+    $coverArg = "--include-before-body=$coverFile"
+    Write-Host "  Cover file found, will be included before TOC"
+}
 
 # Build pandoc command
 $pandocArgs = @(
@@ -30,9 +44,15 @@ $pandocArgs = @(
     "--toc",
     "--toc-depth=3",
     "--number-sections",
+    "-V", "toc-title=Table of Contents",
     "-V", "papersize=letter",
     "--syntax-highlighting=none"
 )
+
+# Add cover file before TOC if it exists
+if ($coverArg) {
+    $pandocArgs += $coverArg
+}
 
 # Quote arguments with spaces
 $quotedArgs = $pandocArgs | ForEach-Object { 
@@ -44,127 +64,134 @@ $argString = $quotedArgs -join " "
 $tempErr = "temp_pandoc_stderr.txt"
 $tempOut = "temp_pandoc_stdout.txt"
 
-# Remove old temp files
+# Remove old temp files and PDF
 Remove-Item $tempErr -ErrorAction SilentlyContinue
 Remove-Item $tempOut -ErrorAction SilentlyContinue
+Remove-Item $OutputFile -ErrorAction SilentlyContinue
 
 # Record start time
 $startTime = Get-Date
 
-# Start pandoc with output redirection
-$cmdArgs = "/c pandoc $argString > $tempOut 2> $tempErr"
-$proc = Start-Process -FilePath "cmd.exe" -ArgumentList $cmdArgs -NoNewWindow -PassThru
+# Create a background job to run pandoc
+$cmdLine = "pandoc $argString"
+$proc = Start-Process -FilePath "cmd.exe" -ArgumentList "/c", "$cmdLine > $tempOut 2> $tempErr" -NoNewWindow -PassThru
 
 Write-Host "  Generating pages: " -NoNewline
 
-# Monitor output files and log files for page numbers
+# Monitor for progress
 $lastPage = 0
-$lastErrSize = 0
-$lastOutSize = 0
-$lastLogCheck = $startTime
 $spinChars = @('|', '/', '-', '\')
 $spinIdx = 0
+
+# Try to find the xelatex log file in temp directories
+$foundLogFile = $null
+$logCheckCount = 0
 
 while (-not $proc.HasExited) {
     $foundPage = $false
     
-    # Check stderr file
+    # Search for log files created after we started
+    if (-not $foundLogFile -or -not (Test-Path $foundLogFile)) {
+        try {
+            # Look for media-* directories created by pandoc
+            $mediaDir = Get-ChildItem -Path $userTemp -Filter "media-*" -Directory -ErrorAction SilentlyContinue |
+                        Where-Object { $_.CreationTime -gt $startTime.AddSeconds(-5) } |
+                        Sort-Object CreationTime -Descending |
+                        Select-Object -First 1
+            
+            if ($mediaDir) {
+                $logFiles = Get-ChildItem -Path $mediaDir.FullName -Filter "*.log" -ErrorAction SilentlyContinue |
+                            Where-Object { $_.Length -gt 1000 } |
+                            Sort-Object LastWriteTime -Descending
+                
+                if ($logFiles) {
+                    $foundLogFile = $logFiles[0].FullName
+                }
+            }
+        } catch {
+            # Ignore errors in file searching
+        }
+        $logCheckCount++
+    }
+    
+    # Read from the log file if found
+    if ($foundLogFile -and (Test-Path $foundLogFile)) {
+        try {
+            # Read the last portion of the log file efficiently
+            $logContent = Get-Content $foundLogFile -Tail 500 -ErrorAction SilentlyContinue | Out-String
+            
+            if ($logContent) {
+                # Look for [page] patterns: [1] [2] [3] etc
+                $pageMatches = [regex]::Matches($logContent, '\[(\d{1,4})\]')
+                foreach ($match in $pageMatches) {
+                    $pageNum = [int]$match.Groups[1].Value
+                    if ($pageNum -gt $lastPage -and $pageNum -lt 5000) {
+                        $lastPage = $pageNum
+                        $foundPage = $true
+                    }
+                }
+            }
+        } catch {
+            # File might be locked, skip
+        }
+    }
+    
+    # Also check stderr for final output
     if (Test-Path $tempErr) {
-        $currentSize = (Get-Item $tempErr).Length
-        if ($currentSize -gt $lastErrSize) {
-            $lastErrSize = $currentSize
-            $content = Get-Content $tempErr -Raw -ErrorAction SilentlyContinue
-            if ($content) {
-                # Look for [1], [2], etc. pattern
-                $pageMatches = [regex]::Matches($content, '\[(\d+)\]')
+        try {
+            $errContent = Get-Content $tempErr -Tail 100 -ErrorAction SilentlyContinue | Out-String
+            if ($errContent) {
+                # Look for page patterns
+                $pageMatches = [regex]::Matches($errContent, '\[(\d{1,4})\]')
                 foreach ($match in $pageMatches) {
                     $pageNum = [int]$match.Groups[1].Value
+                    if ($pageNum -gt $lastPage -and $pageNum -lt 5000) {
+                        $lastPage = $pageNum
+                        $foundPage = $true
+                    }
+                }
+                # Also look for "Output written on ... (N pages)"
+                if ($errContent -match '\((\d+)\s+pages?\)') {
+                    $pageNum = [int]$matches[1]
                     if ($pageNum -gt $lastPage) {
                         $lastPage = $pageNum
                         $foundPage = $true
                     }
                 }
             }
+        } catch {
+            # Ignore
         }
     }
     
-    # Check stdout file
-    if (Test-Path $tempOut) {
-        $currentSize = (Get-Item $tempOut).Length
-        if ($currentSize -gt $lastOutSize) {
-            $lastOutSize = $currentSize
-            $content = Get-Content $tempOut -Raw -ErrorAction SilentlyContinue
-            if ($content) {
-                $pageMatches = [regex]::Matches($content, '\[(\d+)\]')
-                foreach ($match in $pageMatches) {
-                    $pageNum = [int]$match.Groups[1].Value
-                    if ($pageNum -gt $lastPage) {
-                        $lastPage = $pageNum
-                        $foundPage = $true
-                    }
-                }
-            }
-        }
-    }
-    
-    # Check for XeLaTeX log files in current directory and subdirectories
-    $now = Get-Date
-    if (($now - $lastLogCheck).TotalSeconds -gt 1) {
-        $lastLogCheck = $now
-        $logFiles = Get-ChildItem -Path "." -Filter "*.log" -Recurse -ErrorAction SilentlyContinue | 
-                    Where-Object { $_.LastWriteTime -gt $startTime -and $_.Length -gt 0 }
-        foreach ($log in $logFiles) {
-            try {
-                $logContent = Get-Content $log.FullName -Raw -ErrorAction SilentlyContinue
-                if ($logContent) {
-                    # Look for page numbers - XeLaTeX outputs them as [1], [2], etc.
-                    $pageMatches = [regex]::Matches($logContent, '\[(\d+)\]')
-                    foreach ($match in $pageMatches) {
-                        $pageNum = [int]$match.Groups[1].Value
-                        if ($pageNum -gt $lastPage) {
-                            $lastPage = $pageNum
-                            $foundPage = $true
-                        }
-                    }
-                }
-            } catch {
-                # Skip files that are locked or can't be read
-            }
-        }
-    }
-    
-    # Update display if we found a new page
-    if ($foundPage) {
-        Write-Host "`r  Generating page $lastPage...    " -NoNewline
-    } elseif ($lastPage -eq 0) {
-        # Show spinner only if we haven't found any pages yet
+    # Update display
+    if ($lastPage -gt 0) {
+        Write-Host "`r  Generating pages: $lastPage     " -NoNewline
+    } else {
         Write-Host "`r  Generating pages: $($spinChars[$spinIdx]) " -NoNewline
         $spinIdx = ($spinIdx + 1) % 4
     }
     
-    Start-Sleep -Milliseconds 200
+    Start-Sleep -Milliseconds 300
 }
 
-# Final comprehensive check for page count
-$allLogFiles = Get-ChildItem -Path "." -Filter "*.log" -Recurse -ErrorAction SilentlyContinue
-foreach ($log in $allLogFiles) {
+# Final check - read entire stderr for final page count
+if (Test-Path $tempErr) {
     try {
-        $logContent = Get-Content $log.FullName -Raw -ErrorAction SilentlyContinue
-        if ($logContent) {
-            $pageMatches = [regex]::Matches($logContent, '\[(\d+)\]')
-            foreach ($match in $pageMatches) {
-                $pageNum = [int]$match.Groups[1].Value
+        $content = Get-Content $tempErr -Raw -ErrorAction SilentlyContinue
+        if ($content) {
+            # Check for final page count
+            if ($content -match '\((\d+)\s+pages?\)') {
+                $pageNum = [int]$matches[1]
                 if ($pageNum -gt $lastPage) {
                     $lastPage = $pageNum
                 }
             }
         }
     } catch {
-        # Skip locked files
+        # Ignore
     }
 }
-
-$exitCode = $proc.ExitCode
 
 # Calculate elapsed time
 $endTime = Get-Date
@@ -178,18 +205,25 @@ if ($minutes -gt 0) {
     $timeStr = "$($elapsed.TotalSeconds.ToString('F1')) sec"
 }
 
-# Show result
-Write-Host ""
-Write-Host ""
-if ($exitCode -eq 0) {
+# Check if PDF was created - this is the most important check
+$exitCode = 0
+if (Test-Path $OutputFile) {
+    # PDF exists - success!
+    Write-Host ""
+    Write-Host ""
     if ($lastPage -gt 0) {
         Write-Host "  Done! Generated $lastPage pages in $timeStr."
     } else {
         Write-Host "  PDF generation completed in $timeStr."
-        Write-Host "  (Page count could not be determined from log files)"
     }
     Write-Host ""
+    $exitCode = 0
 } else {
+    # PDF doesn't exist - check process exit code
+    $exitCode = $proc.ExitCode
+    if ($exitCode -eq 0) {
+        $exitCode = 1  # Force error if PDF doesn't exist
+    }
     Write-Host "  PDF generation encountered issues."
     Write-Host ""
     
@@ -216,11 +250,13 @@ if ($exitCode -eq 0) {
             Write-Host ""
         }
     }
+    $exitCode = 1
 }
 
-# Clean up temp file on success
+# Clean up temp files on success
 if ($exitCode -eq 0) {
     Remove-Item $tempErr -ErrorAction SilentlyContinue
+    Remove-Item $tempOut -ErrorAction SilentlyContinue
 }
 
 exit $exitCode

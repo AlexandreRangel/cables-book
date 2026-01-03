@@ -1,7 +1,5 @@
 # Ops.Extension.AmmoPhysics
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.AmmoPhysics
@@ -10,6 +8,7 @@
 ![AmmoBody op](images/ops/Ops_Extension_AmmoPhysics_AmmoBody.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoBody`
+
 **Description:** Create a physics body/collision shape using a any geometry or select a shape
 
 **> Input Ports:**
@@ -42,15 +41,17 @@
 - **Transformed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S_jPZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoBody"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody)
 
----
 
 ### AmmoBodyCollision
 ![AmmoBodyCollision op](images/ops/Ops_Extension_AmmoPhysics_AmmoBodyCollision.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoBodyCollision`
+
 **Description:** Check if physics bodies are colliding
 
 **> Input Ports:**
@@ -72,15 +73,17 @@
 - **Collisions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S_jPZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoBodyCollision"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision)
 
----
 
 ### AmmoCharacter
 ![AmmoCharacter op](images/ops/Ops_Extension_AmmoPhysics_AmmoCharacter.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoCharacter`
+
 **Description:** Control and move a character in a physics environment
 
 **> Input Ports:**
@@ -117,15 +120,17 @@
 - **Transformed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoCharacter"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter)
 
----
 
 ### AmmoCharacterFpsCamera
 ![AmmoCharacterFpsCamera op](images/ops/Ops_Extension_AmmoPhysics_AmmoCharacterFpsCamera.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera`
+
 **Description:** First person camera to use with AmmoCharacter
 
 **> Input Ports:**
@@ -151,15 +156,17 @@
 - **Rot Y** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoCharacterFpsCamera"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera)
 
----
 
 ### AmmoDebugRenderer
 ![AmmoDebugRenderer op](images/ops/Ops_Extension_AmmoPhysics_AmmoDebugRenderer.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoDebugRenderer`
+
 **Description:** Visualize the physical bodies as lines and points
 
 **> Input Ports:**
@@ -177,15 +184,17 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoDebugRenderer"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer)
 
----
 
 ### AmmoEmitter
 ![AmmoEmitter op](images/ops/Ops_Extension_AmmoPhysics_AmmoEmitter.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoEmitter`
+
 **Description:** Emit Ammo physics bodies by triggering
 
 **> Input Ports:**
@@ -215,15 +224,17 @@
 - **Rotations Quats** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5hQROe)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoEmitter"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter)
 
----
 
 ### AmmoRaycast
 ![AmmoRaycast op](images/ops/Ops_Extension_AmmoPhysics_AmmoRaycast.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoRaycast`
+
 **Description:** Cast a ray and detect colliding bodies
 
 **> Input Ports:**
@@ -247,15 +258,17 @@
 - **Hit Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gh2f_4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoRaycast"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast)
 
----
 
 ### AmmoWorld
 ![AmmoWorld op](images/ops/Ops_Extension_AmmoPhysics_AmmoWorld.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.AmmoWorld`
+
 **Description:** Simulate physical world
 
 **> Input Ports:**
@@ -278,15 +291,17 @@
 - **Collisions** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoWorld"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld)
 
----
 
 ### GltfAmmoBodies
 ![GltfAmmoBodies op](images/ops/Ops_Extension_AmmoPhysics_GltfAmmoBodies.svg)
 
 **Full Name:** `Ops.Extension.AmmoPhysics.GltfAmmoBodies`
+
 **Description:** Create physics bodies from a GLTF File
 
 **> Input Ports:**
@@ -302,8 +317,9 @@
 - **Meshes** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gh2f_4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfAmmoBodies"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies](https://cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies)
 
----
 

@@ -1,7 +1,5 @@
 # Ops.Anim
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Anim
@@ -10,6 +8,7 @@
 ![AnimNumber op](images/ops/Ops_Anim_AnimNumber.svg)
 
 **Full Name:** `Ops.Anim.AnimNumber`
+
 **Description:** Always animates to the current value
 
 **> Input Ports:**
@@ -26,15 +25,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lntUQx)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.AnimNumber](https://cables.gl/op/Ops.Anim.AnimNumber)
 
----
 
 ### Bang
 ![Bang op](images/ops/Ops_Anim_Bang.svg)
 
 **Full Name:** `Ops.Anim.Bang`
+
 **Description:** Trigger a simple bang animation going from 1 to 0
 
 **> Input Ports:**
@@ -50,15 +51,17 @@
 - **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TctR5r)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Bang"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Bang](https://cables.gl/op/Ops.Anim.Bang)
 
----
 
 ### BoolAnim
 ![BoolAnim op](images/ops/Ops_Anim_BoolAnim.svg)
 
 **Full Name:** `Ops.Anim.BoolAnim`
+
 **Description:** Animate between two numbers based on a boolean value
 
 **> Input Ports:**
@@ -79,15 +82,17 @@
 - **Finished Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ofPcTo)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolAnim"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.BoolAnim](https://cables.gl/op/Ops.Anim.BoolAnim)
 
----
 
 ### Crossfade
 ![Crossfade op](images/ops/Ops_Anim_Crossfade.svg)
 
 **Full Name:** `Ops.Anim.Crossfade`
+
 **Description:** Crossfade between 2 values
 
 **> Input Ports:**
@@ -103,15 +108,17 @@
 - **B** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U_a2d-)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Crossfade"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Crossfade](https://cables.gl/op/Ops.Anim.Crossfade)
 
----
 
 ### FrameRangeAnim_v2
 ![FrameRangeAnim_v2 op](images/ops/Ops_Anim_FrameRangeAnim_v2.svg)
 
 **Full Name:** `Ops.Anim.FrameRangeAnim_v2`
+
 **Description:** Parses string containing ranges of frames and play as coherent animation
 
 **> Input Ports:**
@@ -132,15 +139,17 @@
 - **Progress** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrameRangeAnim_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2)
 
----
 
 ### FrameRangeAnimSwitcher
 ![FrameRangeAnimSwitcher op](images/ops/Ops_Anim_FrameRangeAnimSwitcher.svg)
 
 **Full Name:** `Ops.Anim.FrameRangeAnimSwitcher`
+
 **Description:** Switch between multiple anim ranges of a keyframed 3d scene
 
 **> Input Ports:**
@@ -166,15 +175,17 @@
 - **Time 2** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrameRangeAnimSwitcher"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher)
 
----
 
 ### InOutInAnim
 ![InOutInAnim op](images/ops/Ops_Anim_InOutInAnim.svg)
 
 **Full Name:** `Ops.Anim.InOutInAnim`
+
 **Description:** Animates after a trigger from 1 to 0 to 1
 
 **> Input Ports:**
@@ -198,15 +209,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HwVRrT)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InOutInAnim"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.InOutInAnim](https://cables.gl/op/Ops.Anim.InOutInAnim)
 
----
 
 ### LFO_v3
 ![LFO_v3 op](images/ops/Ops_Anim_LFO_v3.svg)
 
 **Full Name:** `Ops.Anim.LFO_v3`
+
 **Description:** Low-frequency oscillation for animations
 
 **> Input Ports:**
@@ -223,15 +236,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9EOrS8)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LFO_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.LFO_v3](https://cables.gl/op/Ops.Anim.LFO_v3)
 
----
 
 ### RandomAnim_v2
 ![RandomAnim_v2 op](images/ops/Ops_Anim_RandomAnim_v2.svg)
 
 **Full Name:** `Ops.Anim.RandomAnim_v2`
+
 **Description:** Animates between random values defined by a min and max value
 
 **> Input Ports:**
@@ -250,15 +265,17 @@
 - **Looped** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nCSoG8)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomAnim_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.RandomAnim_v2](https://cables.gl/op/Ops.Anim.RandomAnim_v2)
 
----
 
 ### SimpleAnim
 ![SimpleAnim op](images/ops/Ops_Anim_SimpleAnim.svg)
 
 **Full Name:** `Ops.Anim.SimpleAnim`
+
 **Description:** Simple animation between two values
 
 **> Input Ports:**
@@ -281,15 +298,17 @@
 - **Finished Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dOlV9L)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleAnim"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.SimpleAnim](https://cables.gl/op/Ops.Anim.SimpleAnim)
 
----
 
 ### SineAnim
 ![SineAnim op](images/ops/Ops_Anim_SineAnim.svg)
 
 **Full Name:** `Ops.Anim.SineAnim`
+
 **Description:** Animation in the form of a sine/cosine curve (sinus/cos)
 
 **> Input Ports:**
@@ -306,15 +325,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3bbUfp)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SineAnim"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.SineAnim](https://cables.gl/op/Ops.Anim.SineAnim)
 
----
 
 ### Smooth
 ![Smooth op](images/ops/Ops_Anim_Smooth.svg)
 
 **Full Name:** `Ops.Anim.Smooth`
+
 **Description:** Smooths out jumps in values (AverageInterpolation)
 
 **> Input Ports:**
@@ -329,15 +350,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c9gqda)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Smooth"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Smooth](https://cables.gl/op/Ops.Anim.Smooth)
 
----
 
 ### Snap
 ![Snap op](images/ops/Ops_Anim_Snap.svg)
 
 **Full Name:** `Ops.Anim.Snap`
+
 **Description:** Snap at certain points (e.g. while scrolling)
 
 **> Input Ports:**
@@ -362,15 +385,17 @@
 - **Was Snapped** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7B11U6)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Snap"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Snap](https://cables.gl/op/Ops.Anim.Snap)
 
----
 
 ### Spring
 ![Spring op](images/ops/Ops_Anim_Spring.svg)
 
 **Full Name:** `Ops.Anim.Spring`
+
 **Description:** Spring simulation based on input target value.
 
 **> Input Ports:**
@@ -386,15 +411,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bsbM2y)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Spring"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Spring](https://cables.gl/op/Ops.Anim.Spring)
 
----
 
 ### StringTypeAnimation_v2
 ![StringTypeAnimation_v2 op](images/ops/Ops_Anim_StringTypeAnimation_v2.svg)
 
 **Full Name:** `Ops.Anim.StringTypeAnimation_v2`
+
 **Description:** Animates a text/string, like it is being typed out by a person
 
 **> Input Ports:**
@@ -412,15 +439,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8dB2eH)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringTypeAnimation_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2](https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2)
 
----
 
 ### TimeDelta
 ![TimeDelta op](images/ops/Ops_Anim_TimeDelta.svg)
 
 **Full Name:** `Ops.Anim.TimeDelta`
+
 **Description:** Measure the time difference between two triggers
 
 **> Input Ports:**
@@ -435,15 +464,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/omrKQm)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeDelta"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.TimeDelta](https://cables.gl/op/Ops.Anim.TimeDelta)
 
----
 
 ### Timer_v2
 ![Timer_v2 op](images/ops/Ops_Anim_Timer_v2.svg)
 
 **Full Name:** `Ops.Anim.Timer_v2`
+
 **Description:** A timer that can be started, paused and reset by triggering
 
 **> Input Ports:**
@@ -458,8 +489,9 @@
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YTuOQm)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Timer_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Anim.Timer_v2](https://cables.gl/op/Ops.Anim.Timer_v2)
 
----
 

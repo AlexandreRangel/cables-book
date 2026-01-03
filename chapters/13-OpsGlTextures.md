@@ -1,7 +1,5 @@
 # Ops.Gl.Textures
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Gl.Textures
@@ -10,6 +8,7 @@
 ![Base64ToTexture op](images/ops/Ops_Gl_Textures_Base64ToTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.Base64ToTexture`
+
 **Description:** Converts a base-64 image string into a texture
 
 **> Input Ports:**
@@ -24,15 +23,17 @@
 - **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dNuMWr)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Base64ToTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.Base64ToTexture](https://cables.gl/op/Ops.Gl.Textures.Base64ToTexture)
 
----
 
 ### ColorTexture
 ![ColorTexture op](images/ops/Ops_Gl_Textures_ColorTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.ColorTexture`
+
 **Description:** Simple texture filled with one color
 
 **> Input Ports:**
@@ -47,15 +48,17 @@
 - **Texture_out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QuT1X2)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.ColorTexture](https://cables.gl/op/Ops.Gl.Textures.ColorTexture)
 
----
 
 ### CombineTextures
 ![CombineTextures op](images/ops/Ops_Gl_Textures_CombineTextures.svg)
 
 **Full Name:** `Ops.Gl.Textures.CombineTextures`
+
 **Description:** combine multiple textures into one by copying colorchannels
 
 **> Input Ports:**
@@ -88,15 +91,17 @@
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yZJ2WW)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CombineTextures"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.CombineTextures](https://cables.gl/op/Ops.Gl.Textures.CombineTextures)
 
----
 
 ### CopyTexture_v3
 ![CopyTexture_v3 op](images/ops/Ops_Gl_Textures_CopyTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.Textures.CopyTexture_v3`
+
 **Description:** copy a texture and optionally resize it
 
 **> Input Ports:**
@@ -120,15 +125,17 @@
 - **Aspect Ratio** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G2_my7)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CopyTexture_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.CopyTexture_v3](https://cables.gl/op/Ops.Gl.Textures.CopyTexture_v3)
 
----
 
 ### EmptyTexture
 ![EmptyTexture op](images/ops/Ops_Gl_Textures_EmptyTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.EmptyTexture`
+
 **Description:** A very simple empty transparent texture with an opacity of 0
 
 **> Input Ports:**
@@ -141,15 +148,17 @@
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QuT1X2)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EmptyTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.EmptyTexture](https://cables.gl/op/Ops.Gl.Textures.EmptyTexture)
 
----
 
 ### ExrTexture
 ![ExrTexture op](images/ops/Ops_Gl_Textures_ExrTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.ExrTexture`
+
 **Description:** load .exr floating point texture files
 
 **> Input Ports:**
@@ -167,15 +176,17 @@
 - **Loading** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zHxXMW)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ExrTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.ExrTexture](https://cables.gl/op/Ops.Gl.Textures.ExrTexture)
 
----
 
 ### GraphTexture
 ![GraphTexture op](images/ops/Ops_Gl_Textures_GraphTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.GraphTexture`
+
 **Description:** draw a graph of a value into a texture
 
 **> Input Ports:**
@@ -193,15 +204,17 @@
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eqfKTx)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GraphTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.GraphTexture](https://cables.gl/op/Ops.Gl.Textures.GraphTexture)
 
----
 
 ### Histogram
 ![Histogram op](images/ops/Ops_Gl_Textures_Histogram.svg)
 
 **Full Name:** `Ops.Gl.Textures.Histogram`
+
 **Description:** graphical representation of distribution of color in a texture
 
 **> Input Ports:**
@@ -215,15 +228,17 @@
 - **Histogram Data** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z315nc)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Histogram"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.Histogram](https://cables.gl/op/Ops.Gl.Textures.Histogram)
 
----
 
 ### MontageTextures_v2
 ![MontageTextures_v2 op](images/ops/Ops_Gl_Textures_MontageTextures_v2.svg)
 
 **Full Name:** `Ops.Gl.Textures.MontageTextures_v2`
+
 **Description:** combine multiple textures into one by copying colorchannels
 
 **> Input Ports:**
@@ -259,15 +274,17 @@
 - **Rows** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pM45O8)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MontageTextures_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.MontageTextures_v2](https://cables.gl/op/Ops.Gl.Textures.MontageTextures_v2)
 
----
 
 ### NoiseTexture
 ![NoiseTexture op](images/ops/Ops_Gl_Textures_NoiseTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.NoiseTexture`
+
 **Description:** Simple noisetexture
 
 **> Input Ports:**
@@ -298,15 +315,17 @@
 - **Total Pixel** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Lv4hay)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NoiseTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.NoiseTexture](https://cables.gl/op/Ops.Gl.Textures.NoiseTexture)
 
----
 
 ### PaletteTexture
 ![PaletteTexture op](images/ops/Ops_Gl_Textures_PaletteTexture.svg)
 
 **Full Name:** `Ops.Gl.Textures.PaletteTexture`
+
 **Description:** Create a RGB color palette using an array
 
 **> Input Ports:**
@@ -320,15 +339,17 @@
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tdRoSP)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PaletteTexture"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.PaletteTexture](https://cables.gl/op/Ops.Gl.Textures.PaletteTexture)
 
----
 
 ### SequenceTextures
 ![SequenceTextures op](images/ops/Ops_Gl_Textures_SequenceTextures.svg)
 
 **Full Name:** `Ops.Gl.Textures.SequenceTextures`
+
 **Description:** control order and flow of objects
 
 **> Input Ports:**
@@ -370,15 +391,17 @@
 - **Output 15** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Textures.SequenceTextures#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceTextures"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.SequenceTextures](https://cables.gl/op/Ops.Gl.Textures.SequenceTextures)
 
----
 
 ### SSAO
 ![SSAO op](images/ops/Ops_Gl_Textures_SSAO.svg)
 
 **Full Name:** `Ops.Gl.Textures.SSAO`
+
 **Description:** screen space ambient occlusion from depth texture
 
 **> Input Ports:**
@@ -399,15 +422,17 @@
 - **SSAO** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qt0JiG)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SSAO"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.SSAO](https://cables.gl/op/Ops.Gl.Textures.SSAO)
 
----
 
 ### SwitchTextureMultiPort_v2
 ![SwitchTextureMultiPort_v2 op](images/ops/Ops_Gl_Textures_SwitchTextureMultiPort_v2.svg)
 
 **Full Name:** `Ops.Gl.Textures.SwitchTextureMultiPort_v2`
+
 **Description:** Switch between multiple textures
 
 **> Input Ports:**
@@ -422,15 +447,17 @@
 - **Num Textures** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pDGOrh)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchTextureMultiPort_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.SwitchTextureMultiPort_v2](https://cables.gl/op/Ops.Gl.Textures.SwitchTextureMultiPort_v2)
 
----
 
 ### SwitchTextures_v2
 ![SwitchTextures_v2 op](images/ops/Ops_Gl_Textures_SwitchTextures_v2.svg)
 
 **Full Name:** `Ops.Gl.Textures.SwitchTextures_v2`
+
 **Description:** Switch between different textures
 
 **> Input Ports:**
@@ -461,15 +488,17 @@
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gsXwVJ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchTextures_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.SwitchTextures_v2](https://cables.gl/op/Ops.Gl.Textures.SwitchTextures_v2)
 
----
 
 ### TextTexture_v6
 ![TextTexture_v6 op](images/ops/Ops_Gl_Textures_TextTexture_v6.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextTexture_v6`
+
 **Description:** Generates a texture of Text using one of the font ops
 
 **> Input Ports:**
@@ -514,15 +543,17 @@
 - **Num Lines** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RZsPWU)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextTexture_v6"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextTexture_v6](https://cables.gl/op/Ops.Gl.Textures.TextTexture_v6)
 
----
 
 ### TextureArrayInfo
 ![TextureArrayInfo op](images/ops/Ops_Gl_Textures_TextureArrayInfo.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextureArrayInfo`
+
 **Description:** Information about Textures in an array
 
 **> Input Ports:**
@@ -536,15 +567,17 @@
 - **Heights** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vS5fjz)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureArrayInfo"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextureArrayInfo](https://cables.gl/op/Ops.Gl.Textures.TextureArrayInfo)
 
----
 
 ### TextureInfo_v2
 ![TextureInfo_v2 op](images/ops/Ops_Gl_Textures_TextureInfo_v2.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextureInfo_v2`
+
 **Description:** Outputs information about the connected texture
 
 **> Input Ports:**
@@ -568,15 +601,17 @@
 - **Id** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/y0A18i)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureInfo_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextureInfo_v2](https://cables.gl/op/Ops.Gl.Textures.TextureInfo_v2)
 
----
 
 ### TextureSVG_v2
 ![TextureSVG_v2 op](images/ops/Ops_Gl_Textures_TextureSVG_v2.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextureSVG_v2`
+
 **Description:** Load a SVG image and convert to a texture of pixels
 
 **> Input Ports:**
@@ -593,15 +628,17 @@
 - **Loaded** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oqCKY6)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureSVG_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextureSVG_v2](https://cables.gl/op/Ops.Gl.Textures.TextureSVG_v2)
 
----
 
 ### TextureToBase64_v5
 ![TextureToBase64_v5 op](images/ops/Ops_Gl_Textures_TextureToBase64_v5.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextureToBase64_v5`
+
 **Description:** Converts a texture into a base-64 image string
 
 **> Input Ports:**
@@ -620,15 +657,17 @@
 - **Finished** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dNuMWr)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToBase64_v5"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextureToBase64_v5](https://cables.gl/op/Ops.Gl.Textures.TextureToBase64_v5)
 
----
 
 ### TextureToCoordinateGrid
 ![TextureToCoordinateGrid op](images/ops/Ops_Gl_Textures_TextureToCoordinateGrid.svg)
 
 **Full Name:** `Ops.Gl.Textures.TextureToCoordinateGrid`
+
 **Description:** convert a texture to a 3d coordinate grid storing coordinates in texture RGB channels
 
 **> Input Ports:**
@@ -646,15 +685,17 @@
 - **HDR Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nMBUVW)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureToCoordinateGrid"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.TextureToCoordinateGrid](https://cables.gl/op/Ops.Gl.Textures.TextureToCoordinateGrid)
 
----
 
 ### VideoTexture_v3
 ![VideoTexture_v3 op](images/ops/Ops_Gl_Textures_VideoTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.Textures.VideoTexture_v3`
+
 **Description:** Play a video file and use it as a texture
 
 **> Input Ports:**
@@ -693,15 +734,17 @@
 - **Error Message** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RQCm0m)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VideoTexture_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.VideoTexture_v3](https://cables.gl/op/Ops.Gl.Textures.VideoTexture_v3)
 
----
 
 ### WebcamTexture_v3
 ![WebcamTexture_v3 op](images/ops/Ops_Gl_Textures_WebcamTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.Textures.WebcamTexture_v3`
+
 **Description:** Use your webcam camera as a texture
 
 **> Input Ports:**
@@ -734,8 +777,9 @@
 - **Texture Updated** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iwaEwm)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebcamTexture_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Textures.WebcamTexture_v3](https://cables.gl/op/Ops.Gl.Textures.WebcamTexture_v3)
 
----
 

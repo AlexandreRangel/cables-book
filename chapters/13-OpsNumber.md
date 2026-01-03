@@ -1,7 +1,5 @@
 # Ops.Number
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Number
@@ -10,6 +8,7 @@
 ![DelayedNumber op](images/ops/Ops_Number_DelayedNumber.svg)
 
 **Full Name:** `Ops.Number.DelayedNumber`
+
 **Description:** delay a value by seconds
 
 **> Input Ports:**
@@ -25,15 +24,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayedNumber#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayedNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.DelayedNumber](https://cables.gl/op/Ops.Number.DelayedNumber)
 
----
 
 ### DelayNumberSimple
 ![DelayNumberSimple op](images/ops/Ops_Number_DelayNumberSimple.svg)
 
 **Full Name:** `Ops.Number.DelayNumberSimple`
+
 **Description:** delay the value data flow by x seconds
 
 **> Input Ports:**
@@ -46,15 +47,17 @@
 - **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayNumberSimple"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.DelayNumberSimple](https://cables.gl/op/Ops.Number.DelayNumberSimple)
 
----
 
 ### FilterValidNumber
 ![FilterValidNumber op](images/ops/Ops_Number_FilterValidNumber.svg)
 
 **Full Name:** `Ops.Number.FilterValidNumber`
+
 **Description:** Filter valid numbers
 
 **> Input Ports:**
@@ -68,15 +71,17 @@
 - **Is Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.FilterValidNumber#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterValidNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.FilterValidNumber](https://cables.gl/op/Ops.Number.FilterValidNumber)
 
----
 
 ### FreezeNumber
 ![FreezeNumber op](images/ops/Ops_Number_FreezeNumber.svg)
 
 **Full Name:** `Ops.Number.FreezeNumber`
+
 **Description:** capture the current input and copy it to the output, even after a reload
 
 **> Input Ports:**
@@ -89,15 +94,17 @@
 - **Frozen Number** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FreezeNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.FreezeNumber](https://cables.gl/op/Ops.Number.FreezeNumber)
 
----
 
 ### GateNumber
 ![GateNumber op](images/ops/Ops_Number_GateNumber.svg)
 
 **Full Name:** `Ops.Number.GateNumber`
+
 **Description:** Let’s a number through only if control bool is true, like a gate
 
 **> Input Ports:**
@@ -111,15 +118,17 @@
 - **Value Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JJSflJ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.GateNumber](https://cables.gl/op/Ops.Number.GateNumber)
 
----
 
 ### Integer
 ![Integer op](images/ops/Ops_Number_Integer.svg)
 
 **Full Name:** `Ops.Number.Integer`
+
 **Description:** Number op which only outputs integers
 
 **> Input Ports:**
@@ -131,15 +140,17 @@
 - **Number Out** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.Integer#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Integer"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.Integer](https://cables.gl/op/Ops.Number.Integer)
 
----
 
 ### MaximumSafeInteger
 ![MaximumSafeInteger op](images/ops/Ops_Number_MaximumSafeInteger.svg)
 
 **Full Name:** `Ops.Number.MaximumSafeInteger`
+
 **Description:** Returns the maximum safe integer (number, constant)
 
 **> Input Ports:**
@@ -151,15 +162,17 @@
 - **Max Int** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MaximumSafeInteger"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.MaximumSafeInteger](https://cables.gl/op/Ops.Number.MaximumSafeInteger)
 
----
 
 ### MinimumSafeInteger
 ![MinimumSafeInteger op](images/ops/Ops_Number_MinimumSafeInteger.svg)
 
 **Full Name:** `Ops.Number.MinimumSafeInteger`
+
 **Description:** Returns the minimum safe integer (number, constant)
 
 **> Input Ports:**
@@ -171,15 +184,17 @@
 - **Min Int** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MinimumSafeInteger"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.MinimumSafeInteger](https://cables.gl/op/Ops.Number.MinimumSafeInteger)
 
----
 
 ### Number
 ![Number op](images/ops/Ops_Number_Number.svg)
 
 **Full Name:** `Ops.Number.Number`
+
 **Description:** Stores a value, use the same value in different places (was: value.value)
 
 **> Input Ports:**
@@ -191,15 +206,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0010r1)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Number"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.Number](https://cables.gl/op/Ops.Number.Number)
 
----
 
 ### NumberSequence
 ![NumberSequence op](images/ops/Ops_Number_NumberSequence.svg)
 
 **Full Name:** `Ops.Number.NumberSequence`
+
 **Description:** Copies the input value to the (value sequence)
 
 **> Input Ports:**
@@ -216,15 +233,17 @@
 - **Out Value 3** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GfgpOb)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberSequence"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.NumberSequence](https://cables.gl/op/Ops.Number.NumberSequence)
 
----
 
 ### Preset
 ![Preset op](images/ops/Ops_Number_Preset.svg)
 
 **Full Name:** `Ops.Number.Preset`
+
 **Description:** State management of all parameters connected to it - Create presets of multiple ops
 
 **> Input Ports:**
@@ -254,15 +273,17 @@
 - **Dbg_sets** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KI3veT)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Preset"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.Preset](https://cables.gl/op/Ops.Number.Preset)
 
----
 
 ### PreviousNumberStore
 ![PreviousNumberStore op](images/ops/Ops_Number_PreviousNumberStore.svg)
 
 **Full Name:** `Ops.Number.PreviousNumberStore`
+
 **Description:** remember/store last set number
 
 **> Input Ports:**
@@ -275,15 +296,17 @@
 - **Previous Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XhZWfo)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PreviousNumberStore"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.PreviousNumberStore](https://cables.gl/op/Ops.Number.PreviousNumberStore)
 
----
 
 ### RouteNumber
 ![RouteNumber op](images/ops/Ops_Number_RouteNumber.svg)
 
 **Full Name:** `Ops.Number.RouteNumber`
+
 **Description:** Routes the value to one of the (based on index, relay)
 
 **> Input Ports:**
@@ -309,15 +332,17 @@
 - **Index 9 Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qJcKT6)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.RouteNumber](https://cables.gl/op/Ops.Number.RouteNumber)
 
----
 
 ### SequenceNumbers
 ![SequenceNumbers op](images/ops/Ops_Number_SequenceNumbers.svg)
 
 **Full Name:** `Ops.Number.SequenceNumbers`
+
 **Description:** control order and flow of numbers
 
 **> Input Ports:**
@@ -359,15 +384,17 @@
 - **Output 15** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SequenceNumbers#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceNumbers"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.SequenceNumbers](https://cables.gl/op/Ops.Number.SequenceNumbers)
 
----
 
 ### SumMultiPort_v2
 ![SumMultiPort_v2 op](images/ops/Ops_Number_SumMultiPort_v2.svg)
 
 **Full Name:** `Ops.Number.SumMultiPort_v2`
+
 **Description:** Switch between multiple number inputs
 
 **> Input Ports:**
@@ -381,15 +408,17 @@
 - **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fUoCu1)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SumMultiPort_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.SumMultiPort_v2](https://cables.gl/op/Ops.Number.SumMultiPort_v2)
 
----
 
 ### SwitchNumber
 ![SwitchNumber op](images/ops/Ops_Number_SwitchNumber.svg)
 
 **Full Name:** `Ops.Number.SwitchNumber`
+
 **Description:** switch between number values by index
 
 **> Input Ports:**
@@ -417,15 +446,17 @@
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumber#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchNumber"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.SwitchNumber](https://cables.gl/op/Ops.Number.SwitchNumber)
 
----
 
 ### SwitchNumberMultiPort_v2
 ![SwitchNumberMultiPort_v2 op](images/ops/Ops_Number_SwitchNumberMultiPort_v2.svg)
 
 **Full Name:** `Ops.Number.SwitchNumberMultiPort_v2`
+
 **Description:** Switch between multiple number inputs
 
 **> Input Ports:**
@@ -440,15 +471,17 @@
 - **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchNumberMultiPort_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2)
 
----
 
 ### SwitchNumberOnTrigger
 ![SwitchNumberOnTrigger op](images/ops/Ops_Number_SwitchNumberOnTrigger.svg)
 
 **Full Name:** `Ops.Number.SwitchNumberOnTrigger`
+
 **Description:** Sets a specific output value on trigger
 
 **> Input Ports:**
@@ -478,15 +511,17 @@
 - **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchNumberOnTrigger"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger)
 
----
 
 ### Trigger3Numbers
 ![Trigger3Numbers op](images/ops/Ops_Number_Trigger3Numbers.svg)
 
 **Full Name:** `Ops.Number.Trigger3Numbers`
+
 **Description:** Stores a 3D coordinate (was Value3)
 
 **> Input Ports:**
@@ -507,15 +542,17 @@
 - **Result Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.Trigger3Numbers#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Trigger3Numbers"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.Trigger3Numbers](https://cables.gl/op/Ops.Number.Trigger3Numbers)
 
----
 
 ### TriggerOnChangeNumber_v2
 ![TriggerOnChangeNumber_v2 op](images/ops/Ops_Number_TriggerOnChangeNumber_v2.svg)
 
 **Full Name:** `Ops.Number.TriggerOnChangeNumber_v2`
+
 **Description:** triggers every time the input value changed
 
 **> Input Ports:**
@@ -528,8 +565,9 @@
 - **Number** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8y5hVJ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeNumber_v2"*
+
 **Docs:** [https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2](https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2)
 
----
 

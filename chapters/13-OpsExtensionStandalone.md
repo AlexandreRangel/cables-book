@@ -1,7 +1,5 @@
 # Ops.Extension.Standalone
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.Standalone
@@ -10,6 +8,7 @@
 ![Ffmpeg op](images/ops/Ops_Extension_Standalone_Ffmpeg.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Ffmpeg`
+
 **Description:** FFmpeg video converter toolbox op
 
 **> Input Ports:**
@@ -33,8 +32,9 @@
 - **Processing** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Ffmpeg"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg)
 
----
 

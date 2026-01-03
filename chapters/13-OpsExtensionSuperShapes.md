@@ -1,7 +1,5 @@
 # Ops.Extension.SuperShapes
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.SuperShapes
@@ -10,6 +8,7 @@
 ![SuperShapesCpu op](images/ops/Ops_Extension_SuperShapes_SuperShapesCpu.svg)
 
 **Full Name:** `Ops.Extension.SuperShapes.SuperShapesCpu`
+
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*
 
 **> Input Ports:**
@@ -42,15 +41,17 @@
 - **TexCoords** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LgcEiq)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SuperShapesCpu"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu)
 
----
 
 ### SuperShapesGpu
 ![SuperShapesGpu op](images/ops/Ops_Extension_SuperShapes_SuperShapesGpu.svg)
 
 **Full Name:** `Ops.Extension.SuperShapes.SuperShapesGpu`
+
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*
 
 **> Input Ports:**
@@ -81,8 +82,9 @@
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ka9Vxq)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SuperShapesGpu"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu)
 
----
 

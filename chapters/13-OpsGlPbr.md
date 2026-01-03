@@ -1,7 +1,5 @@
 # Ops.Gl.Pbr
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Gl.Pbr
@@ -10,6 +8,7 @@
 ![PbrEnvironmentLight op](images/ops/Ops_Gl_Pbr_PbrEnvironmentLight.svg)
 
 **Full Name:** `Ops.Gl.Pbr.PbrEnvironmentLight`
+
 **Description:** PBR image based lighting setup
 
 **> Input Ports:**
@@ -59,15 +58,17 @@
 - **Number Of Pre-Filtered Mip Levels** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrEnvironmentLight"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
 
----
 
 ### PbrMaterial
 ![PbrMaterial op](images/ops/Ops_Gl_Pbr_PbrMaterial.svg)
 
 **Full Name:** `Ops.Gl.Pbr.PbrMaterial`
+
 **Description:** PBR/Physical Based Rendering Material for realistic materials
 
 **> Input Ports:**
@@ -119,8 +120,9 @@
 - **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrMaterial"*
+
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
 
----
 

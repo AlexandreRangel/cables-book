@@ -1,7 +1,5 @@
 # Ops.Devices.Browser
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Devices.Browser
@@ -10,6 +8,7 @@
 ![BrowserInfo_v3 op](images/ops/Ops_Devices_Browser_BrowserInfo_v3.svg)
 
 **Full Name:** `Ops.Devices.Browser.BrowserInfo_v3`
+
 **Description:** Reports the browser being used
 
 **> Input Ports:**
@@ -42,15 +41,17 @@
 - **Platform Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YOJiIk)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BrowserInfo_v3"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
 
----
 
 ### ColorScheme
 ![ColorScheme op](images/ops/Ops_Devices_Browser_ColorScheme.svg)
 
 **Full Name:** `Ops.Devices.Browser.ColorScheme`
+
 **Description:** Get light/dark color scheme preference of the browser
 
 **> Input Ports:**
@@ -65,15 +66,17 @@
 - **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/An48HJ)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorScheme"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
 
----
 
 ### History
 ![History op](images/ops/Ops_Devices_Browser_History.svg)
 
 **Full Name:** `Ops.Devices.Browser.History`
+
 **Description:** Move back or forward in the browser navigation history
 
 **> Input Ports:**
@@ -86,15 +89,17 @@
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.History#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "History"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.History](https://cables.gl/op/Ops.Devices.Browser.History)
 
----
 
 ### JsExpression
 ![JsExpression op](images/ops/Ops_Devices_Browser_JsExpression.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsExpression`
+
 **Description:** evaluate a javascript expression
 
 **> Input Ports:**
@@ -110,15 +115,17 @@
 - **Error** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gpp4O8)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsExpression"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
 
----
 
 ### JsMemory
 ![JsMemory op](images/ops/Ops_Devices_Browser_JsMemory.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsMemory`
+
 **Description:** browser js memory consumption
 
 **> Input Ports:**
@@ -131,15 +138,17 @@
 - **Total Heap Size** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UyS0f)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsMemory"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
 
----
 
 ### UserActivation
 ![UserActivation op](images/ops/Ops_Devices_Browser_UserActivation.svg)
 
 **Full Name:** `Ops.Devices.Browser.UserActivation`
+
 **Description:** detect if the user interacted with or activated the page
 
 **> Input Ports:**
@@ -155,15 +164,17 @@
 - **Supported** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3S26Qc)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UserActivation"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
 
----
 
 ### WebShare
 ![WebShare op](images/ops/Ops_Devices_Browser_WebShare.svg)
 
 **Full Name:** `Ops.Devices.Browser.WebShare`
+
 **Description:** Opens a sharing dialog to share text and images
 
 **> Input Ports:**
@@ -182,8 +193,9 @@
 - **Supported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pQ49m4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebShare"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
 
----
 

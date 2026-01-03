@@ -517,12 +517,113 @@ Add circles for data points
 
 ### Integration with ECharts
 
-Combine cables.gl with Apache ECharts for advanced charts:
+Apache ECharts is a powerful open-source charting library that integrates seamlessly with cables.gl. This combination lets you create professional-grade data visualizations with interactive 3D effects and real-time updates.
 
-1. Load ECharts library
-2. Generate chart in HTML/Canvas
-3. Capture as texture in cables.gl
-4. Apply 3D transforms or effects
+**Why ECharts + cables.gl?**
+
+- **Rich Chart Types**: Bar, line, pie, scatter, radar, candlestick, heatmap, treemap, sunburst, and more
+- **Interactive Features**: Tooltips, zooming, panning, data selection
+- **Real-Time Updates**: Stream live data into animated charts
+- **3D Enhancement**: Apply cables.gl effects to chart outputs
+
+**Setup and Integration:**
+
+1. **Load the ECharts Extension** in cables.gl using the `Ops.Extension.ECharts.ECharts` op
+2. **Configure Chart Options** using JSON format (same as standard ECharts)
+3. **Connect Data Sources** from other cables.gl ops (JSON fetch, WebSocket, etc.)
+4. **Apply Visual Effects** using cables.gl post-processing
+
+**Basic ECharts Patch Structure:**
+
+```
+MainLoop
+    |
+ECharts Op
+    +-> Option (JSON configuration)
+    +-> Width / Height
+    +-> Data inputs
+    |
+ECharts Instance -> Use in other ops
+```
+
+**Example: Simple Bar Chart Configuration:**
+
+```json
+{
+  "xAxis": {
+    "type": "category",
+    "data": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [{
+    "data": [120, 200, 150, 80, 70],
+    "type": "bar",
+    "color": "#5470c6"
+  }]
+}
+```
+
+**Example: Real-Time Line Chart:**
+
+```
+WebSocket (data stream)
+    |
+ParseJSON -> Extract values
+    |
+Array (rolling buffer of last N values)
+    |
+ECharts Op (line chart config)
+    |
+Render to texture
+    |
+Apply glow effect
+```
+
+**Example: Interactive Pie Chart with Events:**
+
+```
+ECharts Op (pie chart)
+    |
+EChartsEvent Op
+    +-> Click event -> Trigger actions
+    +-> Hover event -> Show details
+    |
+Update other visuals based on selection
+```
+
+**Combining Charts with 3D:**
+
+```
+ECharts Op -> Render to texture
+    |
+Plane3D (apply texture)
+    |
+Transform (rotate in 3D space)
+    |
+Post-processing (glow, bloom)
+```
+
+**Advanced Techniques:**
+
+- **Multi-Chart Dashboards**: Use multiple ECharts ops with different configurations
+- **Animated Transitions**: ECharts handles smooth data transitions automatically
+- **Custom Themes**: Define color palettes that match your cables.gl aesthetic
+- **Responsive Charts**: Connect viewport size to chart dimensions
+
+**Performance Tips:**
+
+- Limit data points for smooth animation (< 1000 for real-time)
+- Use `notMerge: true` for complete data replacement
+- Disable animations for very high-frequency updates
+- Cache chart instances when possible
+
+**Resources:**
+
+- [Apache ECharts Documentation](https://echarts.apache.org/en/index.html)
+- [ECharts Examples Gallery](https://echarts.apache.org/examples/en/index.html)
+- [cables.gl ECharts Integration Tutorial](https://quadexcel.com/wp/fast-and-easy-data-visualization-with-cables-gl-and-apache-echarts/)
 
 ### Real-Time Data
 

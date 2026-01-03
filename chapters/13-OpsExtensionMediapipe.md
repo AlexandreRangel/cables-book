@@ -1,7 +1,5 @@
 # Ops.Extension.Mediapipe
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.Mediapipe
@@ -10,6 +8,7 @@
 ![FaceMesh op](images/ops/Ops_Extension_Mediapipe_FaceMesh.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.FaceMesh`
+
 **Description:** Generate an animated geometry from MpFaceTracking Point Coordinates
 
 **> Input Ports:**
@@ -22,15 +21,17 @@
 - **Result Geom** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/by9Tq4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceMesh"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.FaceMesh](https://cables.gl/op/Ops.Extension.Mediapipe.FaceMesh)
 
----
 
 ### MpFaceTracking
 ![MpFaceTracking op](images/ops/Ops_Extension_Mediapipe_MpFaceTracking.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpFaceTracking`
+
 **Description:** Get face mesh from webcam/video using mediapipe library
 
 **> Input Ports:**
@@ -45,15 +46,17 @@
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wznlp4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpFaceTracking"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpFaceTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpFaceTracking)
 
----
 
 ### MpHand
 ![MpHand op](images/ops/Ops_Extension_Mediapipe_MpHand.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpHand`
+
 **Description:** Get points and lines for left/right hand from mediapipe
 
 **> Input Ports:**
@@ -71,15 +74,17 @@
 - **Score** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHand"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpHand](https://cables.gl/op/Ops.Extension.Mediapipe.MpHand)
 
----
 
 ### MpHandCoordinate
 ![MpHandCoordinate op](images/ops/Ops_Extension_Mediapipe_MpHandCoordinate.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpHandCoordinate`
+
 **Description:** Get individual coordinates of fingers or wrist from an array of mediapipe data
 
 **> Input Ports:**
@@ -94,15 +99,17 @@
 - **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHandCoordinate"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpHandCoordinate](https://cables.gl/op/Ops.Extension.Mediapipe.MpHandCoordinate)
 
----
 
 ### MpHandTracking
 ![MpHandTracking op](images/ops/Ops_Extension_Mediapipe_MpHandTracking.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpHandTracking`
+
 **Description:** Get hand data from mediapipe library, use with MpHand
 
 **> Input Ports:**
@@ -117,15 +124,17 @@
 - **Found Hands** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a5xfp4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpHandTracking"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpHandTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpHandTracking)
 
----
 
 ### MpPoseGetCoordinate
 ![MpPoseGetCoordinate op](images/ops/Ops_Extension_Mediapipe_MpPoseGetCoordinate.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpPoseGetCoordinate`
+
 **Description:** Get coordinates of specific body parts from mediapipe data
 
 **> Input Ports:**
@@ -140,15 +149,17 @@
 - **Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uepop4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpPoseGetCoordinate"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseGetCoordinate](https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseGetCoordinate)
 
----
 
 ### MpPoseTracking
 ![MpPoseTracking op](images/ops/Ops_Extension_Mediapipe_MpPoseTracking.svg)
 
 **Full Name:** `Ops.Extension.Mediapipe.MpPoseTracking`
+
 **Description:** Get pose-data (points/landmarks/lines) from webcam using mediapipe library
 
 **> Input Ports:**
@@ -172,8 +183,9 @@
 - **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uepop4)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MpPoseTracking"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseTracking)
 
----
 

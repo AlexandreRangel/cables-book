@@ -1,7 +1,5 @@
 # Ops.Extension.ECharts
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Extension.ECharts
@@ -10,6 +8,7 @@
 ![ECharts op](images/ops/Ops_Extension_ECharts_ECharts.svg)
 
 **Full Name:** `Ops.Extension.ECharts.ECharts`
+
 **Description:** wrapper for echarts-library
 
 **> Input Ports:**
@@ -38,15 +37,17 @@
 - **Theme Changed** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ECharts"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
 
----
 
 ### EChartsEvent
 ![EChartsEvent op](images/ops/Ops_Extension_ECharts_EChartsEvent.svg)
 
 **Full Name:** `Ops.Extension.ECharts.EChartsEvent`
+
 **Description:** capture echart-library-events
 
 **> Input Ports:**
@@ -64,8 +65,9 @@
 - **Event Params** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EChartsEvent"*
+
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
 
----
 

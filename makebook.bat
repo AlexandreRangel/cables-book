@@ -9,6 +9,9 @@ echo Cables.gl Book - PDF Generator
 echo ============================================
 echo.
 
+REM Announce PDF generation started
+powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Cursor says: PDF generation started.')"
+
 REM Refresh PATH to include Pandoc
 call refreshenv >nul 2>&1
 set PATH=%PATH%;C:\Program Files\Pandoc;%LOCALAPPDATA%\Pandoc
@@ -49,8 +52,8 @@ if exist %OUTPUT_PDF% del %OUTPUT_PDF%
 echo [3/5] Combining chapters with proper UTF-8 encoding...
 
 REM Use PowerShell to combine files with proper UTF-8 encoding
-REM Cover page first, then chapters 1-12, then all section 13 files dynamically
-powershell -ExecutionPolicy Bypass -Command "& { $files = @('chapters\01-introduction.md', 'chapters\02-getting-started.md', 'chapters\03-2d-graphics.md', 'chapters\04-3d-graphics.md', 'chapters\05-texturing.md', 'chapters\06-shaders-glsl.md', 'chapters\07-javascript-ops.md', 'chapters\08-audio-sound.md', 'chapters\09-animation-timeline.md', 'chapters\10-interfaces.md', 'chapters\11-export-deployment.md', 'chapters\12-video-tutorials.md'); $section13Files = Get-ChildItem -Path 'chapters' -Filter '13-*.md' | Sort-Object Name | ForEach-Object { $_.FullName }; $content = ''; if (Test-Path 'chapters\0-Cover.md') { Write-Host '  Adding: chapters\0-Cover.md'; $content += (Get-Content 'chapters\0-Cover.md' -Raw -Encoding UTF8); $content += [char]10 + [char]10; }; foreach ($f in $files) { if (Test-Path $f) { Write-Host ('  Adding: ' + $f); $content += '\pagebreak' + [char]10 + [char]10; $content += (Get-Content $f -Raw -Encoding UTF8); $content += [char]10 + [char]10; } }; Write-Host ('  Adding ' + $section13Files.Count + ' section 13 files...'); foreach ($f in $section13Files) { Write-Host ('  Adding: ' + $f); $content += '\pagebreak' + [char]10 + [char]10; $content += (Get-Content $f -Raw -Encoding UTF8); $content += [char]10 + [char]10; }; $content = $content -replace '!\[\[([^\]]+)\]\]', '![](C:/Dropbox/Rangel-Vault/Media/image/$1)'; $content = $content -replace '\.svg\)', '.pdf)'; [System.IO.File]::WriteAllText('temp_combined_book.md', $content, [System.Text.Encoding]::UTF8) }"
+REM Cover will be added separately before TOC, then chapters 1-12, then all section 13 files dynamically
+powershell -ExecutionPolicy Bypass -Command "& { $files = @('chapters\01-introduction.md', 'chapters\02-getting-started.md', 'chapters\03-2d-graphics.md', 'chapters\04-3d-graphics.md', 'chapters\05-texturing.md', 'chapters\06-shaders-glsl.md', 'chapters\07-javascript-ops.md', 'chapters\08-audio-sound.md', 'chapters\09-animation-timeline.md', 'chapters\10-interfaces.md', 'chapters\11-export-deployment.md', 'chapters\12-video-tutorials.md'); $section13Files = Get-ChildItem -Path 'chapters' -Filter '13-*.md' | Where-Object { $_.Name -ne '13-_AllOps.md' } | Sort-Object Name | ForEach-Object { $_.FullName }; $content = ''; foreach ($f in $files) { if (Test-Path $f) { Write-Host ('  Adding: ' + $f); $content += '\pagebreak' + [char]10 + [char]10; $content += (Get-Content $f -Raw -Encoding UTF8); $content += [char]10 + [char]10; } }; Write-Host ('  Adding ' + $section13Files.Count + ' section 13 files...'); foreach ($f in $section13Files) { Write-Host ('  Adding: ' + $f); $content += '\pagebreak' + [char]10 + [char]10; $content += (Get-Content $f -Raw -Encoding UTF8); $content += [char]10 + [char]10; }; $content = $content -replace '!\[\[([^\]]+)\]\]', '![](C:/Dropbox/Rangel-Vault/Media/image/$1)'; $content = $content -replace '\.svg\)', '.pdf)'; [System.IO.File]::WriteAllText('temp_combined_book.md', $content, [System.Text.Encoding]::UTF8) }"
 
 if not exist %TEMP_MD% (
     echo ERROR: Failed to combine chapters.
@@ -77,6 +80,8 @@ if exist %OUTPUT_PDF% (
     echo SUCCESS! PDF created: %OUTPUT_PDF%
     echo ============================================
     echo.
+    REM Play sound notification using PowerShell text-to-speech at 50% volume
+    powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Cursor says: the pdf generation is complete.')"
     exit /b 0
 ) else (
     echo.

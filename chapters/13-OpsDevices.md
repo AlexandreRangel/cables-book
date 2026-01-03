@@ -1,7 +1,5 @@
 # Ops.Devices
 
-*Part of the [All Operators Reference](13-_AllOps.md)*
-
 ---
 
 ## Ops.Devices
@@ -10,6 +8,7 @@
 ![TouchGesture op](images/ops/Ops_Devices_TouchGesture.svg)
 
 **Full Name:** `Ops.Devices.TouchGesture`
+
 **Description:** detect touch gestures like swipe and pan
 
 **> Input Ports:**
@@ -31,15 +30,17 @@
 - **Event** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchGesture#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchGesture"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.TouchGesture](https://cables.gl/op/Ops.Devices.TouchGesture)
 
----
 
 ### TouchScreen
 ![TouchScreen op](images/ops/Ops_Devices_TouchScreen.svg)
 
 **Full Name:** `Ops.Devices.TouchScreen`
+
 **Description:** touch screen input: e.g. position of fingers
 
 **> Input Ports:**
@@ -66,8 +67,9 @@
 - **Touch End** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchScreen#example)
+
 **Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchScreen"*
+
 **Docs:** [https://cables.gl/op/Ops.Devices.TouchScreen](https://cables.gl/op/Ops.Devices.TouchScreen)
 
----
 
