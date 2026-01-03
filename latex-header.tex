@@ -28,15 +28,33 @@
 \newcommand{\SectionFourFontSize}{12}
 \newcommand{\SectionFourLeading}{11}
 
+%% Subtitle/Paragraph color (RGB values)
+\newcommand{\SubtitleColorRed}{0}
+\newcommand{\SubtitleColorGreen}{51}
+\newcommand{\SubtitleColorBlue}{153}
+
 %% Code block line spacing (1.0 = normal, 0.85 = 15% tighter)
 \newcommand{\CodeBlockLineSpacing}{0.85}
+
+%% Code block font size (in points)
+\newcommand{\CodeBlockFontSize}{10.5}
+
+%% ------------------------------------------------------------
+%% PAGE HEADER AND FOOTER SETTINGS
+%% ------------------------------------------------------------
+
+%% Header height (in points)
+\newcommand{\HeaderHeight}{12}
+
+%% Footer height (20% more than header = HeaderHeight * 1.2)
+\newcommand{\FooterHeight}{14.4}
 
 %% ------------------------------------------------------------
 %% IMAGE SETTINGS
 %% ------------------------------------------------------------
 
 %% Image width as fraction of line width (0.8 = 80%)
-\newcommand{\ImageWidthFraction}{0.8}
+\newcommand{\ImageWidthFraction}{0.7}
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -57,18 +75,29 @@
 \makeatother
 \setkeys{Gin}{width=\ImageWidthFraction\linewidth,height=\maxheight,keepaspectratio}
 
-%% Left-align images (no centering) and remove figure captions
+%% Force all images to be left-aligned (no centering)
 \usepackage{caption}
 \captionsetup{labelformat=empty,textformat=empty}
 \makeatletter
+% Redefine figure environment to force left alignment
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
-  \noindent\minipage{\linewidth}%
+  \noindent
+  \begin{minipage}{\linewidth}%
   \raggedright
 }{%
-  \endminipage\par\addvspace{\medskipamount}%
+  \end{minipage}%
+  \par\addvspace{\medskipamount}%
 }
 \let\@floatboxreset\relax
+\makeatother
+
+% Force left alignment for all includegraphics commands
+\makeatletter
+\let\oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \noindent\oldincludegraphics[#1]{#2}%
+}
 \makeatother
 
 %% TOC spacing
@@ -84,6 +113,7 @@
 %% Define colors
 \definecolor{headergray}{RGB}{51,51,51}
 \definecolor{linkblue}{RGB}{0,102,204}
+\definecolor{subtitleblue}{RGB}{\SubtitleColorRed,\SubtitleColorGreen,\SubtitleColorBlue}
 
 %% Custom header styles using the settings above
 \usepackage{titlesec}
@@ -95,7 +125,7 @@
 
 %% Section 2 (major sections)
 \titleformat{\subsection}
-  {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{headergray}}
+  {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{subtitleblue}}
   {\thesubsection}{1em}{}
 
 %% Section 3 (subsections)
@@ -121,10 +151,10 @@
     backgroundcolor=codebg,
     linecolor=codebg,
     linewidth=0pt,
-    innerleftmargin=8pt,
-    innerrightmargin=8pt,
-    innertopmargin=6pt,
-    innerbottommargin=6pt,
+    innerleftmargin=16pt,
+    innerrightmargin=16pt,
+    innertopmargin=12pt,
+    innerbottommargin=12pt,
     leftmargin=0pt,
     rightmargin=0pt,
     roundcorner=4pt,
@@ -132,13 +162,34 @@
     skipbelow=\baselineskip
 }
 
-%% Set code block line spacing using the setting above
+%% Set code block line spacing and font size using the settings above
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
-    baselinestretch=\CodeBlockLineSpacing
+    baselinestretch=\CodeBlockLineSpacing,
+    fontsize=\CodeBlockFontSize pt
 }
 
 \surroundwithmdframed[style=codeboxstyle]{Verbatim}
 \surroundwithmdframed[style=codeboxstyle]{verbatim}
+
+%% Page headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear all headers and footers
+\fancyfoot[R]{\thepage} % Right-aligned page number
+\renewcommand{\headrulewidth}{0pt} % No header rule
+\renewcommand{\footrulewidth}{0pt} % No footer rule
+
+% Set header and footer heights
+\setlength{\headheight}{\HeaderHeight pt}
+\setlength{\footskip}{\FooterHeight pt}
+
+% Fix page 1 (plain style) to also have right-aligned page number
+\fancypagestyle{plain}{%
+  \fancyhf{} % Clear all headers and footers
+  \fancyfoot[R]{\thepage} % Right-aligned page number
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
 
 %% Link colors
 \AtBeginDocument{

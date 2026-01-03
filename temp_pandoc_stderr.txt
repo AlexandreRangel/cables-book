@@ -1,0 +1,9 @@
+miktex-dvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
+xelatex: major issue: So far, you have not checked for MiKTeX updates.
+miktex-dvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
+xelatex: major issue: So far, you have not checked for MiKTeX updates.
+miktex-dvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
+xelatex: major issue: So far, you have not checked for MiKTeX updates.
+miktex-dvipdfmx: major issue: So far, you have not checked for MiKTeX updates.
+xelatex: major issue: So far, you have not checked for MiKTeX updates.
+[WARNING] Missing character: There is no ́ (U+0301) in font Ubuntu Mono/OT:script=latn;language=df
