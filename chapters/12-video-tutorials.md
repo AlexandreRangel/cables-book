@@ -1,10 +1,5 @@
 # Video Tutorials
 
-```{=latex}
-\begin{VideoTutorialsThreeCols}
-```
-
-
 ## Getting Started & Overviews
 
 
@@ -14,11 +9,6 @@ https://youtu.be/iXKo7mU422M
 Title: Array from Numbers Operator tutorial - byte size
 Author: cables_gl
 ```
-
-```{=latex}
-\end{VideoTutorialsThreeCols}
-```
-
 
 ```vid
 https://youtu.be/koLSrHFyIUY

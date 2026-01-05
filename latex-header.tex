@@ -85,9 +85,6 @@
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
 \newcommand{\FooterVerticalOffset}{-21pt}  % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
-\newcommand{\ThreeColumnGutterWidth}{0.1in} % Space between columns in 3-column layout
-\newcommand{\OpsColumnsCount}{3}          % Columns for Ops chapters
-\newcommand{\VideoTutorialsColumnsCount}{3} % Columns for Chapter 12 (Video Tutorials)
 
 %% ------------------------------------------------------------
 %% CARDS (Video blocks + Code blocks)
@@ -121,27 +118,6 @@
   top=\PageMarginTop,
   bottom=\PageMarginBottom
 }
-
-%% 3-column layout helpers (switch to one-column, then use multicols across page)
-\makeatletter
-\newenvironment{OpsThreeCols}{%
-  \if@twocolumn\onecolumn\fi
-  \setlength{\columnsep}{\ThreeColumnGutterWidth}%
-  \begin{multicols}{\OpsColumnsCount}%
-}{%
-  \end{multicols}%
-  \twocolumn%
-}
-
-\newenvironment{VideoTutorialsThreeCols}{%
-  \if@twocolumn\onecolumn\fi
-  \setlength{\columnsep}{\ThreeColumnGutterWidth}%
-  \begin{multicols}{\VideoTutorialsColumnsCount}%
-}{%
-  \end{multicols}%
-  \twocolumn%
-}
-\makeatother
 
 
 %% Basic packages
