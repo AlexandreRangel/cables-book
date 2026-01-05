@@ -74,24 +74,18 @@ Ops have input and output ports. You connect ports together with "cables" (hence
 https://youtu.be/hVxrxXhH7vQ
 Title: Cables.gl Standalone (Offline) Build: Create Without Limits!
 Author: Decode GL
-Thumbnail: https://i.ytimg.com/vi/hVxrxXhH7vQ/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@Decode_gl
 ```
 
 ```vid
 https://youtu.be/goO3PhuenBI
 Title: First Steps in Cables.gl - Tutorial
 Author: The Interactive & Immersive HQ
-Thumbnail: https://i.ytimg.com/vi/goO3PhuenBI/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@TheInteractiveImmersiveHQ
 ```
 
 ```vid
 https://youtu.be/xnObNRv8n9I
 Title: Introduction to cables.gl - Data-Driven Gradient from Geo-Located Weather - Part 0
 Author: Kirell Benzi
-Thumbnail: https://i.ytimg.com/vi/xnObNRv8n9I/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@kirellbenzi
 ```
 
 ### More Resources
@@ -109,4 +103,3 @@ AuthorUrl: https://www.youtube.com/@kirellbenzi
 - **Example Patches**: Browse public patches for inspiration
 
 ---
-

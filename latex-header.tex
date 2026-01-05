@@ -2,6 +2,15 @@
 %% CABLES.GL BOOK - EASY-TO-CHANGE SETTINGS
 %% ============================================================
 
+%% Enable two-column landscape layout
+% This will be set by Pandoc via classoption=twocolumn,landscape
+% But we ensure it's active at document start
+\AtBeginDocument{%
+  \if@twocolumn\else%
+    \twocolumn%
+  \fi%
+}
+
 %% ------------------------------------------------------------
 %% SECTION HEADINGS - Font Sizes & Leading
 %% Format: FontSize in pt, Leading = line height
@@ -13,7 +22,7 @@
 \newcommand{\SectionThreeFontSize}{14}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{12}
 \newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
-\newcommand{\SectionThreeSpacingAfter}{0.5ex plus 0.3ex minus 0.1ex}  % Spacing after subsections (reduced to minimize gap before op images)
+\newcommand{\SectionThreeSpacingAfter}{1.5ex plus 0.5ex minus 0.2ex}  % Spacing after subsections
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{11}
 
@@ -46,7 +55,7 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageWidthFraction}{0.90}   % Op image width (0.90 = 90% of column width for 2-col layout)
+\newcommand{\OpImageWidthFraction}{1.00}   % Op image width (0.90 = 90% of column width for 2-col layout)
 \newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
@@ -61,6 +70,7 @@
 %% IMAGES
 %% ------------------------------------------------------------
 \newcommand{\ImageWidthFraction}{0.95}     % General image width (0.95 = 95% of column width for 2-col layout)
+\newcommand{\YouTubeThumbnailWidthFraction}{0.33}     % YouTube thumbnail width (0.33 = 33% of column width for 2-col layout)
 
 %% ------------------------------------------------------------
 %% PAGE LAYOUT
@@ -130,21 +140,17 @@
   \ifnum\value{section}=13\relax
     % Reserve space for op image + at least one line of text after
     \needspace{4\baselineskip}%
-    % For op images immediately following subsubsection headings:
-    % - Don't add \par (paragraph break) which causes extra line
-    % - Don't add extra vspace - subsubsection spacing handles it
-    % This prevents the weird extra line breaks before op images
-  \else
-    % Regular figures get standard spacing
-    \par\vspace{\OpImageSpacing}%
   \fi
+  \par\vspace{\OpImageSpacing}%
   \noindent%
   \raggedright%
   \hspace{0pt}%
 }{%
   \if@opimage
-    % Op image: minimal spacing after (subsubsection spacing handles before)
-    \par\vspace{\OpImageSpacing}%
+    % Op image: match before-space exactly by using negative space to cancel extra
+    \par\vspace{-\baselineskip}% Cancel default spacing
+    \vspace{-\parskip}% Cancel paragraph skip  
+    \vspace{\OpImageSpacing}% Add exact spacing we want (same as before)
   \else
     % Regular figure: standard spacing
     \par\vspace{\baselineskip}%
@@ -256,14 +262,14 @@
     backgroundcolor=codebg,
     linecolor=codebg,
     linewidth=0pt,
-    innerleftmargin=8pt,
-    innerrightmargin=8pt,
-    innertopmargin=12pt,
-    innerbottommargin=12pt,
+    innerleftmargin=5pt,
+    innerrightmargin=5pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
     leftmargin=0pt,
     rightmargin=0pt,
     roundcorner=4pt,
-    skipabove=\baselineskip,
+    skipabove=1.5\baselineskip,
     skipbelow=\baselineskip
 }
 

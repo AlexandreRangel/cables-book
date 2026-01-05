@@ -2100,24 +2100,18 @@ void main() {
 https://youtu.be/Zfhn8xSM0SE
 Title: Coding with cables - custom shader op
 Author: cables_gl
-Thumbnail: https://i.ytimg.com/vi/Zfhn8xSM0SE/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@cablesgl
 ```
 
 ```vid
 https://youtu.be/j_ins4RW0c8
 Title: Shadertoy to cables - part  01
 Author: cables_gl
-Thumbnail: https://i.ytimg.com/vi/j_ins4RW0c8/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@cablesgl
 ```
 
 ```vid
 https://youtu.be/nil-HkZgNZ8
 Title: Programmation d'un shadertoy avec Cables.gl Partie 8.
 Author: Meletou1
-Thumbnail: https://i.ytimg.com/vi/nil-HkZgNZ8/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@Meletou1
 ```
 
 
@@ -2141,4 +2135,3 @@ AuthorUrl: https://www.youtube.com/@Meletou1
 10. **Projection Mapping**: Implement projector stacking with additive and average blend modes
 
 ---
-

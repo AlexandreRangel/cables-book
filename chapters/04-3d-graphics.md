@@ -2026,7 +2026,6 @@ GridHelper -> Visual reference
 https://youtu.be/XXXXX
 Title: 3D in Cables.gl
 Author: Channel Name
-Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 ```
 -->
 
@@ -2080,4 +2079,3 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 10. **Physics Sandbox** - Interactive physics playground
 
 ---
-

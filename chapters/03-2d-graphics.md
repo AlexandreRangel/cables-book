@@ -1064,16 +1064,12 @@ Grid positioning logic
 https://youtu.be/goO3PhuenBI
 Title: First Steps in Cables.gl - Kaleidoscope Webcam Effect
 Author: The Interactive & Immersive HQ
-Thumbnail: https://i.ytimg.com/vi/goO3PhuenBI/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@TheInteractiveImmersiveHQ
 ```
 
 ```vid
 https://youtu.be/xnObNRv8n9I
 Title: Introduction to cables.gl - Data-Driven Gradient from Geo-Located Weather
 Author: Kirell Benzi
-Thumbnail: https://i.ytimg.com/vi/xnObNRv8n9I/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@kirellbenzi
 ```
 
 ### Additional Resources
@@ -1119,4 +1115,3 @@ AuthorUrl: https://www.youtube.com/@kirellbenzi
 10. **Meditation Visual** - Calming, slowly evolving patterns
 
 ---
-

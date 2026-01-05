@@ -42,6 +42,15 @@ if %ERRORLEVEL% NEQ 0 (
     exit /b 1
 )
 
+powershell -ExecutionPolicy Bypass -File "show_elapsed.ps1"
+echo [2.5/5] Syncing YouTube thumbnails...
+python scripts/sync_youtube_thumbnails.py
+if %ERRORLEVEL% NEQ 0 (
+    echo ERROR: Thumbnail sync failed.
+    if exist timer_start.xml del timer_start.xml
+    exit /b 1
+)
+
 REM Set file paths
 set TEMP_MD=temp_combined_book.md
 set OUTPUT_PDF=cables-gl-book.pdf

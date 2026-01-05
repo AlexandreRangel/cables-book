@@ -34,8 +34,10 @@ $pandocArgs = @(
     "--pdf-engine=xelatex",
     "--pdf-engine-opt=-interaction=nonstopmode",
     "--resource-path=chapters",
+    "--lua-filter=scripts/vid_filter.lua",
     "-H", $HeaderFile,
-    "-V", "geometry:landscape,left=0.41in,right=0.41in,top=0.656in,bottom=0.656in,columnsep=0.42in",
+    "-V", "classoption=twocolumn",
+    "-V", "geometry:landscape,left=0.82in,right=0.82in,top=0.656in,bottom=0.656in",
     "-V", "mainfont=Ubuntu",
     "-V", "sansfont=Ubuntu",
     "-V", "monofont=Ubuntu Mono",
@@ -45,8 +47,7 @@ $pandocArgs = @(
     "--toc-depth=3",
     "--number-sections",
     "-V", "toc-title=Table of Contents",
-    "-V", "papersize=a4",
-    "-V", "classoption=twocolumn",
+    "-V", "papersize=letter",
     "--syntax-highlighting=none"
 )
 
@@ -70,28 +71,14 @@ Remove-Item $tempErr -ErrorAction SilentlyContinue
 Remove-Item $tempOut -ErrorAction SilentlyContinue
 Remove-Item $OutputFile -ErrorAction SilentlyContinue
 
-# Record start time (use shared timer if available)
-if (Test-Path "timer_start.xml") {
-    $startTime = Import-Clixml -Path "timer_start.xml"
-} else {
-    $startTime = Get-Date
-}
+# Record start time
+$startTime = Get-Date
 
 # Create a background job to run pandoc
 $cmdLine = "pandoc $argString"
 $proc = Start-Process -FilePath "cmd.exe" -ArgumentList "/c", "$cmdLine > $tempOut 2> $tempErr" -NoNewWindow -PassThru
 
-# Function to show elapsed time
-function Show-Elapsed {
-    $elapsed = (Get-Date) - $startTime
-    $h = [math]::Floor($elapsed.TotalHours)
-    $m = $elapsed.Minutes
-    $s = $elapsed.Seconds
-    Write-Host ("[Elapsed: " + $h.ToString('00') + ":" + $m.ToString('00') + ":" + $s.ToString('00') + "]") -NoNewline
-}
-
-Show-Elapsed
-Write-Host " Generating pages: " -NoNewline
+Write-Host "  Generating pages: " -NoNewline
 
 # Monitor for progress
 $lastPage = 0
@@ -179,17 +166,11 @@ while (-not $proc.HasExited) {
         }
     }
     
-    # Update display with elapsed time
-    $elapsed = (Get-Date) - $startTime
-    $h = [math]::Floor($elapsed.TotalHours)
-    $m = $elapsed.Minutes
-    $s = $elapsed.Seconds
-    $timeStr = $h.ToString('00') + ":" + $m.ToString('00') + ":" + $s.ToString('00')
-    
+    # Update display
     if ($lastPage -gt 0) {
-        Write-Host "`r[Elapsed: $timeStr] Generating pages: $lastPage     " -NoNewline
+        Write-Host "`r  Generating pages: $lastPage     " -NoNewline
     } else {
-        Write-Host "`r[Elapsed: $timeStr] Generating pages: $($spinChars[$spinIdx]) " -NoNewline
+        Write-Host "`r  Generating pages: $($spinChars[$spinIdx]) " -NoNewline
         $spinIdx = ($spinIdx + 1) % 4
     }
     

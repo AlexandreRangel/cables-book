@@ -480,7 +480,6 @@ document.addEventListener('click', () => {
 https://youtu.be/XXXXX
 Title: Audio Reactive Visuals in Cables.gl
 Author: Channel Name
-Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 ```
 -->
 
@@ -492,4 +491,3 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 4. Create a beat-triggered strobe effect
 
 ---
-

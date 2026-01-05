@@ -2234,8 +2234,6 @@ function showNotification(title, body) {
 https://youtu.be/hVxrxXhH7vQ
 Title: Cables.gl Standalone (Offline) Build: Create Without Limits!
 Author: Decode GL
-Thumbnail: https://i.ytimg.com/vi/hVxrxXhH7vQ/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@Decode_gl
 ```
 
 <!-- Add more export/deployment videos here -->
@@ -2275,5 +2273,4 @@ Keep experimenting, join the community, and share your creations!
 - [cables.gl](https://cables.gl) - Official website
 - [cables.gl/docs](https://cables.gl/docs) - Documentation
 - [Discord](https://discord.gg/cables) - Community chat
-
 

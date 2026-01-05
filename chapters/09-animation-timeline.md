@@ -1274,7 +1274,6 @@ Use timeline pause to inspect a specific frame.
 https://youtu.be/XXXXX
 Title: Timeline Animation in Cables.gl
 Author: Channel Name
-Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 ```
 -->
 
@@ -1305,4 +1304,3 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 16. Design a complex scene with multiple objects, each using a combination of clips and procedural motion
 
 ---
-

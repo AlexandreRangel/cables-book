@@ -620,7 +620,6 @@ If an op blocks the patch from being “ready” until something loads, use the 
 https://youtu.be/XXXXX
 Title: Creating Custom Ops in Cables.gl
 Author: Channel Name
-Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 ```
 -->
 
@@ -632,4 +631,3 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 4. Build an op that fetches and parses CSV data
 
 ---
-
