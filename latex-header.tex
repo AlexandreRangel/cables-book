@@ -15,23 +15,23 @@
 %% SECTION HEADINGS - Font Sizes & Leading
 %% Format: FontSize in pt, Leading = line height
 %% ------------------------------------------------------------
-\newcommand{\SectionOneFontSize}{20}      % Chapter titles
+\newcommand{\SectionOneFontSize}{18}      % Chapter titles
 \newcommand{\SectionOneLeading}{16}
-\newcommand{\SectionTwoFontSize}{16}      % Major sections
-\newcommand{\SectionTwoLeading}{14}
+\newcommand{\SectionTwoFontSize}{17}      % Major sections
+\newcommand{\SectionTwoLeading}{13}
 \newcommand{\SectionThreeFontSize}{14}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{12}
 \newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
 \newcommand{\SectionThreeSpacingAfter}{1.5ex plus 0.5ex minus 0.2ex}  % Spacing after subsections
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
-\newcommand{\SectionFourLeading}{11}
+\newcommand{\SectionFourLeading}{10}
 
 %% ------------------------------------------------------------
 %% SECTION HEADINGS - Colors (RGB 0-255)
 %% ------------------------------------------------------------
-\newcommand{\SectionOneColorRed}{51}      % Chapter titles - dark gray
-\newcommand{\SectionOneColorGreen}{51}
-\newcommand{\SectionOneColorBlue}{51}
+\newcommand{\SectionOneColorRed}{75}      % Chapter titles - dark gray
+\newcommand{\SectionOneColorGreen}{75}
+\newcommand{\SectionOneColorBlue}{75}
 \newcommand{\SectionTwoColorRed}{0}       % Major sections - dark blue
 \newcommand{\SectionTwoColorGreen}{40}
 \newcommand{\SectionTwoColorBlue}{120}
@@ -70,20 +70,22 @@
 %% IMAGES
 %% ------------------------------------------------------------
 \newcommand{\ImageWidthFraction}{1.0}     % General image width (0.95 = 95% of column width for 2-col layout)
-\newcommand{\YouTubeThumbnailWidthFraction}{0.40}     % YouTube thumbnail width (0.33 = 33% of column width for 2-col layout)
+\newcommand{\YouTubeThumbnailWidthFraction}{0.5}     % YouTube thumbnail width (0.33 = 33% of column width for 2-col layout)
 
 %% ------------------------------------------------------------
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
 \newcommand{\PagePaper}{a4paper}          % Page size (a4paper, letterpaper, ...)
-\newcommand{\PageMarginLeft}{0.5in}     % Left margin (25% smaller than 0.82in)
-\newcommand{\PageMarginRight}{0.5in}    % Right margin (25% smaller than 0.82in)
-\newcommand{\PageMarginTop}{0.5in}      % Top margin
-\newcommand{\PageMarginBottom}{0.5in}   % Bottom margin
-\newcommand{\HeaderHeight}{7}            % Header height in points
+\newcommand{\PageMarginLeft}{0.45in}     % Left margin (25% smaller than 0.82in)
+\newcommand{\PageMarginRight}{0.45in}    % Right margin (25% smaller than 0.82in)
+\newcommand{\PageMarginTop}{0.4in}      % Top margin
+\newcommand{\PageMarginBottom}{0.4in}   % Bottom margin
+\newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{8}          % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-21pt}  % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-18pt}  % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\PageNumberGrayPercent}{75}  % Page number color (black!75)
+\newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
 \newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
 
 %% ------------------------------------------------------------
@@ -93,11 +95,20 @@
 \newcommand{\CardCornerRadius}{4pt}       % Rounded corners
 \newcommand{\CardPaddingX}{8pt}           % Inner left/right padding
 \newcommand{\CardPaddingY}{12pt}          % Inner top/bottom padding
-\newcommand{\VideoCardFontSizePt}{12.75}   % Video card font size (pt) (~+15% over 11pt)
-\newcommand{\VideoCardLeadingPt}{16.0}    % Video card leading/line-height (pt)
+\newcommand{\VideoCardFontSizePt}{13.0}   % Video card font size (pt) (~+15% over 11pt)
+\newcommand{\VideoCardLeadingPt}{17.0}    % Video card leading/line-height (pt)
 \newcommand{\VideoCardSpacingBefore}{0.75\baselineskip} % Space before a video card (when not following another video card)
 \newcommand{\VideoCardSpacingBetweenCards}{0.375\baselineskip} % Space between consecutive video cards (50% of normal)
-\newcommand{\YouTubeThumbCornerRadius}{4pt} % Rounded corners for YouTube thumbnails only
+\newcommand{\YouTubeThumbCornerRadius}{5pt} % Rounded corners for YouTube thumbnails only
+
+%% ------------------------------------------------------------
+%% ORPHAN CONTROL (Headings)
+%% ------------------------------------------------------------
+% Keep headings with at least a few lines of content after them (prevents orphan titles)
+\newcommand{\NeedspaceSection}{6\baselineskip}
+\newcommand{\NeedspaceSubsection}{5\baselineskip}
+\newcommand{\NeedspaceSubsubsection}{4\baselineskip}
+\newcommand{\NeedspaceParagraph}{3\baselineskip}
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -133,6 +144,14 @@
 \usepackage{array}
 \usepackage{needspace} % For preventing orphans
 % longtable is needed even when Pandoc skips it; patched in AtBeginDocument
+
+%% Prevent orphan headings (heading at end of column/page with no content after)
+\AtBeginDocument{%
+  \pretocmd{\section}{\Needspace{\NeedspaceSection}}{}{}%
+  \pretocmd{\subsection}{\Needspace{\NeedspaceSubsection}}{}{}%
+  \pretocmd{\subsubsection}{\Needspace{\NeedspaceSubsubsection}}{}{}%
+  \pretocmd{\paragraph}{\Needspace{\NeedspaceParagraph}}{}{}%
+}
 
 %% Image handling - scale images and left-align
 \usepackage{adjustbox}
@@ -330,7 +349,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % Clear all headers and footers
-\fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\thepage}} % Right-aligned page number with vertical offset
+\fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
 \renewcommand{\headrulewidth}{0pt} % No header rule
 \renewcommand{\footrulewidth}{0pt} % No footer rule
 
@@ -345,7 +364,7 @@
 % Fix page 1 (plain style) to also have right-aligned page number
 \fancypagestyle{plain}{%
   \fancyhf{} % Clear all headers and footers
-  \fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\thepage}} % Right-aligned page number with vertical offset
+  \fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }

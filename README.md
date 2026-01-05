@@ -41,13 +41,18 @@ Before running `install.bat`, you need these system dependencies:
 - Install both **Ubuntu** and **Ubuntu Mono** font families
 - Required for the book's typography
 
+#### 5. Ghostscript (Optional, for PDF compression)
+- Used by `makebook.bat` to optionally compress the generated PDF
+- Install from: https://www.ghostscript.com/releases/gsdnld.html
+- Or install via Chocolatey: `choco install ghostscript -y`
+
 ### Quick Install with Chocolatey
 
 ```powershell
 # Install Chocolatey if not installed (see https://chocolatey.org/install)
 
 # Install system dependencies
-choco install python pandoc miktex -y
+choco install python pandoc miktex ghostscript -y
 
 # Then run the installer
 ./install-requirements.bat

@@ -13,8 +13,8 @@ REM Initialize start time in a file
 powershell -Command "$startTime = Get-Date; $startTime | Export-Clixml -Path 'timer_start.xml'"
 
 REM Announce PDF generation started
-powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Cursor says: PDF generation started.')"
-
+powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep! Beep! Cursor says: PDF generation started.')"
+ 
 REM Refresh PATH to include Pandoc
 call refreshenv >nul 2>&1
 set PATH=%PATH%;C:\Program Files\Pandoc;%LOCALAPPDATA%\Pandoc
@@ -95,26 +95,65 @@ echo [5/5] Cleaning up...
 if exist %TEMP_MD% del %TEMP_MD%
 if exist temp_debug.tex del temp_debug.tex
 
-REM Check if PDF was created
-if exist %OUTPUT_PDF% (
-    powershell -Command "$startTime = Import-Clixml -Path 'timer_start.xml'; $elapsed = (Get-Date) - $startTime; $h = [math]::Floor($elapsed.TotalHours); $m = $elapsed.Minutes; $s = $elapsed.Seconds; Write-Host ('[Total Time: ' + $h.ToString('00') + ':' + $m.ToString('00') + ':' + $s.ToString('00') + ']')"
-    echo.
-    echo ============================================
-    echo SUCCESS! PDF created: %OUTPUT_PDF%
-    echo ============================================
-    echo.
-    REM Play sound notification using PowerShell text-to-speech at 50% volume
-    powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Cursor says: the pdf generation is complete.')"
-    if exist timer_start.xml del timer_start.xml
-    exit /b 0
-) else (
-    echo.
-    echo ERROR: PDF generation failed.
-    echo.
-    echo Make sure you have:
-    echo   - XeLaTeX installed (MiKTeX or TeX Live)
-    echo   - Ubuntu fonts installed
-    echo.
-    if exist timer_start.xml del timer_start.xml
-    exit /b 1
+REM Check if PDF was created (avoid parentheses blocks; cmd.exe is picky with () in PowerShell strings)
+if not exist %OUTPUT_PDF% goto pdf_fail
+
+call :compress_pdf
+
+powershell -NoProfile -Command "$startTime = Import-Clixml -Path 'timer_start.xml'; $elapsed = (Get-Date) - $startTime; $h = [math]::Floor($elapsed.TotalHours); $m = $elapsed.Minutes; $s = $elapsed.Seconds; Write-Host ('[Total Time: ' + $h.ToString('00') + ':' + $m.ToString('00') + ':' + $s.ToString('00') + ']')"
+echo.
+echo ============================================
+echo SUCCESS! PDF created: %OUTPUT_PDF%
+echo ============================================
+echo.
+REM Play sound notification using PowerShell text-to-speech at 50% volume
+powershell -NoProfile -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep Beeep Cursor said: the pdf generation is complete.')"
+if exist timer_start.xml del timer_start.xml
+exit /b 0
+
+:pdf_fail
+echo.
+echo ERROR: PDF generation failed.
+echo.
+echo Make sure you have:
+echo   - XeLaTeX installed (MiKTeX or TeX Live)
+echo   - Ubuntu fonts installed
+echo.
+if exist timer_start.xml del timer_start.xml
+exit /b 1
+
+:compress_pdf
+REM Optional: compress PDF (requires Ghostscript). Replaces output only if smaller.
+REM You can change the profile: /screen (smallest), /ebook (balanced), /printer (higher quality)
+set PDF_COMPRESS_PROFILE=/ebook
+set "GSCMD="
+for /f "usebackq delims=" %%G in (`where gswin64c 2^>nul`) do (
+    set "GSCMD=%%G"
+    goto gs_found
 )
+for /f "usebackq delims=" %%G in (`where gswin32c 2^>nul`) do (
+    set "GSCMD=%%G"
+    goto gs_found
+)
+
+REM Fallback: common install path (Ghostscript installer may not add to PATH)
+for /d %%D in ("C:\Program Files\gs\gs*") do (
+    if exist "%%D\bin\gswin64c.exe" (
+        set "GSCMD=%%D\bin\gswin64c.exe"
+        goto gs_found
+    )
+)
+for /d %%D in ("C:\Program Files (x86)\gs\gs*") do (
+    if exist "%%D\bin\gswin32c.exe" (
+        set "GSCMD=%%D\bin\gswin32c.exe"
+        goto gs_found
+    )
+)
+:gs_found
+if not defined GSCMD goto :eof
+echo.
+echo ============================================
+echo Compressing PDF with Ghostscript (%PDF_COMPRESS_PROFILE%)...
+echo ============================================
+powershell -NoProfile -ExecutionPolicy Bypass -File "scripts\compress_pdf.ps1" -InputFile "%OUTPUT_PDF%" -Profile "%PDF_COMPRESS_PROFILE%" -GhostscriptPath "%GSCMD%"
+goto :eof

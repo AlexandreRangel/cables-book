@@ -89,6 +89,38 @@ if %ERRORLEVEL% NEQ 0 (
     echo [OK] XeLaTeX found.
 )
 
+REM Check Ghostscript (for optional PDF compression)
+where gswin64c >nul 2>&1
+if %ERRORLEVEL% NEQ 0 (
+    where gswin32c >nul 2>&1
+)
+if %ERRORLEVEL% NEQ 0 (
+    echo [MISSING] Ghostscript (gswin64c/gswin32c) not found.
+    echo          Needed for optional PDF compression step.
+    where choco >nul 2>&1
+    if %ERRORLEVEL% EQU 0 (
+        echo          Installing via Chocolatey...
+        choco install ghostscript -y
+        where gswin64c >nul 2>&1
+        if %ERRORLEVEL% NEQ 0 (
+            where gswin32c >nul 2>&1
+        )
+        if %ERRORLEVEL% EQU 0 (
+            echo [OK] Ghostscript installed.
+        ) else (
+            echo [MISSING] Ghostscript still not found after install attempt.
+            echo          Install from: https://www.ghostscript.com/releases/gsdnld.html
+            set MISSING_DEPS=1
+        )
+    ) else (
+        echo          Install from: https://www.ghostscript.com/releases/gsdnld.html
+        echo          Or run: choco install ghostscript -y
+        set MISSING_DEPS=1
+    )
+) else (
+    echo [OK] Ghostscript found.
+)
+
 echo.
 echo ============================================
 
@@ -97,7 +129,7 @@ if defined MISSING_DEPS (
     echo WARNING: Some system dependencies are missing.
     echo Please install them manually or use Chocolatey:
     echo.
-    echo   choco install pandoc miktex -y
+    echo   choco install pandoc miktex ghostscript -y
     echo.
     echo Also make sure to install Ubuntu fonts:
     echo   https://fonts.google.com/specimen/Ubuntu
