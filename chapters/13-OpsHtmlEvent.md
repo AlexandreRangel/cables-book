@@ -11,7 +11,7 @@
 
 **Description:** Add a custom event listener
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Element** (Object)
 - **Event Name** (String)
@@ -19,7 +19,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Stop Propagation** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Element Passthrough** (Object)
 - **Event Trigger** (Trigger)
@@ -27,10 +27,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9ixt13)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementEventListener_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2](https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2)
-
 
 ### ElementPointerEvents
 ![ElementPointerEvents op](images/ops/Ops_Html_Event_ElementPointerEvents.svg)
@@ -39,7 +36,7 @@
 
 **Description:** Listen to events of an element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Dom Element** (Object)
 - **Mouse Down Active** (Number: Boolean)
@@ -51,7 +48,7 @@
 - **Touch End Active** (Number: Boolean)
 - **Touch Cancel Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Event Object** (Object)
 - **Mouse Down** (Trigger)
@@ -66,10 +63,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementPointerEvents"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Event.ElementPointerEvents](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents)
-
 
 ### ElementsArrayEventListener
 ![ElementsArrayEventListener op](images/ops/Ops_Html_Event_ElementsArrayEventListener.svg)
@@ -78,7 +72,7 @@
 
 **Description:** listen to events on multiple html elements
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Elements** (Array)
 - **Event Name** (String)
@@ -86,7 +80,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Stop Propagation** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Event Trigger** (Trigger)
 - **Index** (Number)
@@ -95,10 +89,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4rKHP0)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementsArrayEventListener"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener](https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener)
-
 
 ### PreventDefault
 ![PreventDefault op](images/ops/Ops_Html_Event_PreventDefault.svg)
@@ -107,22 +98,19 @@
 
 **Description:** Prevents the default on a JavaScript event
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Event In** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PreventDefault"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Event.PreventDefault](https://cables.gl/op/Ops.Html.Event.PreventDefault)
-
 
 ### StopPropagation
 ![StopPropagation op](images/ops/Ops_Html_Event_StopPropagation.svg)
@@ -131,19 +119,17 @@
 
 **Description:** Stop a JavaScript event (bubbling / capturing)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Event In** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StopPropagation"*
 
 **Docs:** [https://cables.gl/op/Ops.Html.Event.StopPropagation](https://cables.gl/op/Ops.Html.Event.StopPropagation)
 

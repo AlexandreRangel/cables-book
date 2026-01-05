@@ -11,22 +11,19 @@
 
 **Description:** create an array with multiple objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array** (Array)
 - **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayOfObjectsMultiPort_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2](https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2)
-
 
 ### CopyObject
 ![CopyObject op](images/ops/Ops_Json_CopyObject.svg)
@@ -35,20 +32,17 @@
 
 **Description:** Creates a copy of a JSON object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Json.CopyObject documentation](https://cables.gl/op/Ops.Json.CopyObject) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xJCXJK)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CopyObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.CopyObject](https://cables.gl/op/Ops.Json.CopyObject)
-
 
 ### CsvArray
 ![CsvArray op](images/ops/Ops_Json_CsvArray.svg)
@@ -57,21 +51,18 @@
 
 **Description:** parse CSV files as array
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Num Items** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UlL2G1)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CsvArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.CsvArray](https://cables.gl/op/Ops.Json.CsvArray)
-
 
 ### CsvColumnArray_v2
 ![CsvColumnArray_v2 op](images/ops/Ops_Json_CsvColumnArray_v2.svg)
@@ -80,22 +71,19 @@
 
 **Description:** get all values of a CSV column as array of strings
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Column Name** (String)
 - **CSV Array** (Array)
 - **Numbers** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.CsvColumnArray_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CsvColumnArray_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.CsvColumnArray_v2](https://cables.gl/op/Ops.Json.CsvColumnArray_v2)
-
 
 ### EmptyObject
 ![EmptyObject op](images/ops/Ops_Json_EmptyObject.svg)
@@ -104,20 +92,17 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.EmptyObject) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Json.EmptyObject documentation](https://cables.gl/op/Ops.Json.EmptyObject) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/piMxeG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EmptyObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.EmptyObject](https://cables.gl/op/Ops.Json.EmptyObject)
-
 
 ### FilterValidObject
 ![FilterValidObject op](images/ops/Ops_Json_FilterValidObject.svg)
@@ -126,21 +111,18 @@
 
 **Description:** Filter valid objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Last Valid Object** (Object)
 - **Is Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.FilterValidObject#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FilterValidObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.FilterValidObject](https://cables.gl/op/Ops.Json.FilterValidObject)
-
 
 ### GateObject
 ![GateObject op](images/ops/Ops_Json_GateObject.svg)
@@ -149,22 +131,19 @@
 
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object In** (Object)
 - **Pass Through** (Number: Boolean)
 - **Only Valid Objects** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.GateObject#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.GateObject](https://cables.gl/op/Ops.Json.GateObject)
-
 
 ### HttpFetchStream
 ![HttpFetchStream op](images/ops/Ops_Json_HttpFetchStream.svg)
@@ -173,11 +152,11 @@
 
 **Description:** HttpRequest/Fetch Streaming
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Fetch Response** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 - **Received Result** (Trigger)
@@ -185,10 +164,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.HttpFetchStream#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HttpFetchStream"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.HttpFetchStream](https://cables.gl/op/Ops.Json.HttpFetchStream)
-
 
 ### HttpRequest_v4
 ![HttpRequest_v4 op](images/ops/Ops_Json_HttpRequest_v4.svg)
@@ -197,7 +173,7 @@
 
 **Description:** Request a json file and output an object (ajax, url, json,fetch)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **URL** (String)
 - **HTTP Method Index** (Number: Integer)
@@ -212,7 +188,7 @@
 - **Retry On Error** (Number: Boolean)
 - **Reload** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Response Json Object** (Object)
 - **Response String** (String)
@@ -227,10 +203,7 @@
 
 **Example Patch:** [Open in Editor](https://dev.cables.gl/edit/gSRYVQ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HttpRequest_v4"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.HttpRequest_v4](https://cables.gl/op/Ops.Json.HttpRequest_v4)
-
 
 ### Object
 ![Object op](images/ops/Ops_Json_Object.svg)
@@ -239,20 +212,17 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.Object) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.Object#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Object"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.Object](https://cables.gl/op/Ops.Json.Object)
-
 
 ### ObjectDeleteKey
 ![ObjectDeleteKey op](images/ops/Ops_Json_ObjectDeleteKey.svg)
@@ -261,21 +231,18 @@
 
 **Description:** Remove a Property from an Object by Key
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Object Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/piMxeG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectDeleteKey"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectDeleteKey](https://cables.gl/op/Ops.Json.ObjectDeleteKey)
-
 
 ### ObjectFilterContentByKey
 ![ObjectFilterContentByKey op](images/ops/Ops_Json_ObjectFilterContentByKey.svg)
@@ -284,22 +251,19 @@
 
 **Description:** filter values from an object if key starts with input string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Name** (String)
 - **Remove Null** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KEDALu)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectFilterContentByKey"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectFilterContentByKey](https://cables.gl/op/Ops.Json.ObjectFilterContentByKey)
-
 
 ### ObjectFunnel
 ![ObjectFunnel op](images/ops/Ops_Json_ObjectFunnel.svg)
@@ -308,7 +272,7 @@
 
 **Description:** outputs the last changed object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object1** (Object)
 - **Object2** (Object)
@@ -316,16 +280,13 @@
 - **Object4** (Object)
 - **Object5** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Out Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectFunnel#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectFunnel"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectFunnel](https://cables.gl/op/Ops.Json.ObjectFunnel)
-
 
 ### ObjectGetArray_v2
 ![ObjectGetArray_v2 op](images/ops/Ops_Json_ObjectGetArray_v2.svg)
@@ -334,22 +295,19 @@
 
 **Description:** Returns an array from a JSON-object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Data** (Object)
 - **Key** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yU2Pet)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetArray_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectGetArray_v2](https://cables.gl/op/Ops.Json.ObjectGetArray_v2)
-
 
 ### ObjectGetNumber_v2
 ![ObjectGetNumber_v2 op](images/ops/Ops_Json_ObjectGetNumber_v2.svg)
@@ -358,22 +316,19 @@
 
 **Description:** Get a number from an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Data** (Object)
 - **Key** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 - **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectGetNumber_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetNumber_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectGetNumber_v2](https://cables.gl/op/Ops.Json.ObjectGetNumber_v2)
-
 
 ### ObjectGetObject_v2
 ![ObjectGetObject_v2 op](images/ops/Ops_Json_ObjectGetObject_v2.svg)
@@ -382,21 +337,18 @@
 
 **Description:** Get an object from an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectGetObject_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetObject_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectGetObject_v2](https://cables.gl/op/Ops.Json.ObjectGetObject_v2)
-
 
 ### ObjectGetString_v2
 ![ObjectGetString_v2 op](images/ops/Ops_Json_ObjectGetString_v2.svg)
@@ -405,22 +357,19 @@
 
 **Description:** Get string from object by key
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Data** (Object)
 - **Key** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 - **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Sn0k9Q)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectGetString_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectGetString_v2](https://cables.gl/op/Ops.Json.ObjectGetString_v2)
-
 
 ### ObjectIsNull
 ![ObjectIsNull op](images/ops/Ops_Json_ObjectIsNull.svg)
@@ -429,20 +378,17 @@
 
 **Description:** check if object is null or a valid object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectIsNull#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectIsNull"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectIsNull](https://cables.gl/op/Ops.Json.ObjectIsNull)
-
 
 ### ObjectKeys
 ![ObjectKeys op](images/ops/Ops_Json_ObjectKeys.svg)
@@ -451,21 +397,18 @@
 
 **Description:** returns an array of strings, which contain the keys of the object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Keys** (Array)
 - **Num Keys** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3pkLji)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectKeys"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectKeys](https://cables.gl/op/Ops.Json.ObjectKeys)
-
 
 ### ObjectMerge
 ![ObjectMerge op](images/ops/Ops_Json_ObjectMerge.svg)
@@ -474,21 +417,18 @@
 
 **Description:** merge key+values of two objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object 1** (Object)
 - **Object 2** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Object Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LNJHeG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectMerge"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectMerge](https://cables.gl/op/Ops.Json.ObjectMerge)
-
 
 ### ObjectOr
 ![ObjectOr op](images/ops/Ops_Json_ObjectOr.svg)
@@ -497,7 +437,7 @@
 
 **Description:** result is first connected valid object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object 1** (Object)
 - **Object 2** (Object)
@@ -508,16 +448,13 @@
 - **Object 7** (Object)
 - **Object 8** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectOr#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectOr"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectOr](https://cables.gl/op/Ops.Json.ObjectOr)
-
 
 ### ObjectRecorder
 ![ObjectRecorder op](images/ops/Ops_Json_ObjectRecorder.svg)
@@ -526,24 +463,21 @@
 
 **Description:** record objects and download as json file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 - **Download** (Trigger)
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Num Objects** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectRecorder#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectRecorder"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectRecorder](https://cables.gl/op/Ops.Json.ObjectRecorder)
-
 
 ### ObjectSetArray_v2
 ![ObjectSetArray_v2 op](images/ops/Ops_Json_ObjectSetArray_v2.svg)
@@ -552,22 +486,19 @@
 
 **Description:** Set array by key in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 - **Value** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetArray_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetArray_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetArray_v2](https://cables.gl/op/Ops.Json.ObjectSetArray_v2)
-
 
 ### ObjectSetBool
 ![ObjectSetBool op](images/ops/Ops_Json_ObjectSetBool.svg)
@@ -576,22 +507,19 @@
 
 **Description:** set number at key in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 - **Boolean** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w63Au1)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetBool"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetBool](https://cables.gl/op/Ops.Json.ObjectSetBool)
-
 
 ### ObjectSetColorArray
 ![ObjectSetColorArray op](images/ops/Ops_Json_ObjectSetColorArray.svg)
@@ -600,7 +528,7 @@
 
 **Description:** Set rgba array by key in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
@@ -609,7 +537,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 - **Out R** (Number)
@@ -619,10 +547,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/joA-JK)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetColorArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetColorArray](https://cables.gl/op/Ops.Json.ObjectSetColorArray)
-
 
 ### ObjectSetNumber_v2
 ![ObjectSetNumber_v2 op](images/ops/Ops_Json_ObjectSetNumber_v2.svg)
@@ -631,22 +556,19 @@
 
 **Description:** set number at key in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetNumber_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetNumber_v2](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2)
-
 
 ### ObjectSetObject_v2
 ![ObjectSetObject_v2 op](images/ops/Ops_Json_ObjectSetObject_v2.svg)
@@ -655,22 +577,19 @@
 
 **Description:** set object as value in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 - **Object Value** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7X58nR)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetObject_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetObject_v2](https://cables.gl/op/Ops.Json.ObjectSetObject_v2)
-
 
 ### ObjectSetString_v2
 ![ObjectSetString_v2 op](images/ops/Ops_Json_ObjectSetString_v2.svg)
@@ -679,22 +598,19 @@
 
 **Description:** set a string value by key in an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Key** (String)
 - **Value** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectSetString_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectSetString_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectSetString_v2](https://cables.gl/op/Ops.Json.ObjectSetString_v2)
-
 
 ### ObjectStringify_v2
 ![ObjectStringify_v2 op](images/ops/Ops_Json_ObjectStringify_v2.svg)
@@ -703,22 +619,19 @@
 
 **Description:** Convert object to string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 - **Beautify** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 - **Error** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7X58nR)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectStringify_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectStringify_v2](https://cables.gl/op/Ops.Json.ObjectStringify_v2)
-
 
 ### ObjectToArray
 ![ObjectToArray op](images/ops/Ops_Json_ObjectToArray.svg)
@@ -727,20 +640,17 @@
 
 **Description:** cast an object port to an array port
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.ObjectToArray#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectToArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectToArray](https://cables.gl/op/Ops.Json.ObjectToArray)
-
 
 ### ObjectValuesAsArray
 ![ObjectValuesAsArray op](images/ops/Ops_Json_ObjectValuesAsArray.svg)
@@ -749,21 +659,18 @@
 
 **Description:** extract all object values as an array
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Values** (Array)
 - **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bIQ8cI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ObjectValuesAsArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ObjectValuesAsArray](https://cables.gl/op/Ops.Json.ObjectValuesAsArray)
-
 
 ### ParseObject_v2
 ![ParseObject_v2 op](images/ops/Ops_Json_ParseObject_v2.svg)
@@ -772,21 +679,18 @@
 
 **Description:** Parses a string to a JSON object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **JSON String** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 - **Valid** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z17vG8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ParseObject_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.ParseObject_v2](https://cables.gl/op/Ops.Json.ParseObject_v2)
-
 
 ### RemoveDataUrlPrefix
 ![RemoveDataUrlPrefix op](images/ops/Ops_Json_RemoveDataUrlPrefix.svg)
@@ -795,20 +699,17 @@
 
 **Description:** Removes data URL prefix from a string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **String Input** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **String Output** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RemoveDataUrlPrefix"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix)
-
 
 ### RouteObject
 ![RouteObject op](images/ops/Ops_Json_RouteObject.svg)
@@ -817,13 +718,13 @@
 
 **Description:** Route an object to an output port
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **Object In** (Object)
 - **Default Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Index 0 Object** (Object)
 - **Index 1 Object** (Object)
@@ -838,10 +739,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/-xrxX8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.RouteObject](https://cables.gl/op/Ops.Json.RouteObject)
-
 
 ### SaveJsonFile
 ![SaveJsonFile op](images/ops/Ops_Json_SaveJsonFile.svg)
@@ -850,22 +748,19 @@
 
 **Description:** save/download an object as json file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Download** (Trigger)
 - **Filename** (String)
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Json.SaveJsonFile documentation](https://cables.gl/op/Ops.Json.SaveJsonFile) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J0c008)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SaveJsonFile"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.SaveJsonFile](https://cables.gl/op/Ops.Json.SaveJsonFile)
-
 
 ### SequenceObjects_v2
 ![SequenceObjects_v2 op](images/ops/Ops_Json_SequenceObjects_v2.svg)
@@ -874,7 +769,7 @@
 
 **Description:** control order and flow of objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Number 0** (Object)
 - **Number 1** (Object)
@@ -893,7 +788,7 @@
 - **Number 14** (Object)
 - **Number 15** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Output 0** (Object)
 - **Output 1** (Object)
@@ -914,10 +809,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.SequenceObjects_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceObjects_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.SequenceObjects_v2](https://cables.gl/op/Ops.Json.SequenceObjects_v2)
-
 
 ### SwitchObject
 ![SwitchObject op](images/ops/Ops_Json_SwitchObject.svg)
@@ -926,7 +818,7 @@
 
 **Description:** Allows switching between objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object Index** (Number: Integer)
 - **Object Port 0** (Object)
@@ -938,16 +830,13 @@
 - **Object Port 6** (Object)
 - **Object Port 7** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Object Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/X55cRo)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.SwitchObject](https://cables.gl/op/Ops.Json.SwitchObject)
-
 
 ### SwitchObjectMultiPort_v2
 ![SwitchObjectMultiPort_v2 op](images/ops/Ops_Json_SwitchObjectMultiPort_v2.svg)
@@ -956,23 +845,20 @@
 
 **Description:** Switch between multiple object inputs
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Object** (Object)
 - **Num Values** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PI2xsh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchObjectMultiPort_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.SwitchObjectMultiPort_v2](https://cables.gl/op/Ops.Json.SwitchObjectMultiPort_v2)
-
 
 ### TriggerObject
 ![TriggerObject op](images/ops/Ops_Json_TriggerObject.svg)
@@ -981,22 +867,19 @@
 
 **Description:** set output object when triggered
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.TriggerObject#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.TriggerObject](https://cables.gl/op/Ops.Json.TriggerObject)
-
 
 ### TriggerObjectSetNumber
 ![TriggerObjectSetNumber op](images/ops/Ops_Json_TriggerObjectSetNumber.svg)
@@ -1005,24 +888,21 @@
 
 **Description:** set a number value of an object using trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.TriggerObjectSetNumber#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerObjectSetNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Json.TriggerObjectSetNumber](https://cables.gl/op/Ops.Json.TriggerObjectSetNumber)
-
 
 ### TriggerObjectSetString
 ![TriggerObjectSetString op](images/ops/Ops_Json_TriggerObjectSetString.svg)
@@ -1031,21 +911,19 @@
 
 **Description:** set a string value of an object using trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **String** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Json.TriggerObjectSetString#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerObjectSetString"*
 
 **Docs:** [https://cables.gl/op/Ops.Json.TriggerObjectSetString](https://cables.gl/op/Ops.Json.TriggerObjectSetString)
 

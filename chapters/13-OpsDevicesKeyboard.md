@@ -11,14 +11,14 @@
 
 **Description:** get the state of your keyboards arrow keys
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Canvas Only** (Number: Boolean)
 - **Cursor Keys** (Number: Boolean)
 - **WASD** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Degree** (Number)
 - **Up** (booleanNumber)
@@ -33,10 +33,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CursorKeys"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys](https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys)
-
 
 ### KeyPress_v2
 ![KeyPress_v2 op](images/ops/Ops_Devices_Keyboard_KeyPress_v2.svg)
@@ -45,13 +42,13 @@
 
 **Description:** Triggers when a key is pressed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Area Index** (Number: Integer)
 - **Prevent Default** (Number: Boolean)
 - **Enabled** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **On Press** (Trigger)
 - **Key Code** (Number)
@@ -59,10 +56,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lmGgPZ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "KeyPress_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2](https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2)
-
 
 ### KeyPressLearn
 ![KeyPressLearn op](images/ops/Ops_Devices_Keyboard_KeyPressLearn.svg)
@@ -71,7 +65,7 @@
 
 **Description:** Triggers when certain key is pressed or released
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Key Code** (Number: Integer)
 - **Canvas Only** (Number: Boolean)
@@ -80,7 +74,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Learn** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **On Press** (Trigger)
 - **On Release** (Trigger)
@@ -89,10 +83,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZRY-x3)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "KeyPressLearn"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn](https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn)
-
 
 ### PersonController
 ![PersonController op](images/ops/Ops_Devices_Keyboard_PersonController.svg)
@@ -101,7 +92,7 @@
 
 **Description:** simple controller example op for game characters
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Speed** (Number)
@@ -111,7 +102,7 @@
 - **West** (Number: Boolean)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **X** (Number)
 - **Y** (Number)
@@ -119,10 +110,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PersonController"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.PersonController](https://cables.gl/op/Ops.Devices.Keyboard.PersonController)
-
 
 ### QWERTYtoMidi
 ![QWERTYtoMidi op](images/ops/Ops_Devices_Keyboard_QWERTYtoMidi.svg)
@@ -131,11 +119,11 @@
 
 **Description:** Emulates a MIDI keyboard using your regular keyboard
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Canvas Only** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Note Number** (Number)
 - **Velocity** (Number)
@@ -143,8 +131,6 @@
 - **Command** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QWERTYtoMidi"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi](https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi)
 

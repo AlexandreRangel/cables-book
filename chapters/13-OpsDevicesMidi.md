@@ -11,11 +11,11 @@
 
 **Description:** list of midi devices
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Devices.Midi.DeviceList documentation](https://cables.gl/op/Ops.Devices.Midi.DeviceList) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Num Devices** (Number)
 - **Midi Support** (booleanNumber)
@@ -23,10 +23,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/EEHSl5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeviceList"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.DeviceList](https://cables.gl/op/Ops.Devices.Midi.DeviceList)
-
 
 ### MidiCC_v3
 ![MidiCC_v3 op](images/ops/Ops_Devices_Midi_MidiCC_v3.svg)
@@ -35,7 +32,7 @@
 
 **Description:** read CC value from Midi controller
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -44,7 +41,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **CC Value Out** (Number)
 - **Event** (Object)
@@ -53,10 +50,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiCC_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiCC_v3](https://cables.gl/op/Ops.Devices.Midi.MidiCC_v3)
-
 
 ### MidiCCOut_v2
 ![MidiCCOut_v2 op](images/ops/Ops_Devices_Midi_MidiCCOut_v2.svg)
@@ -65,7 +59,7 @@
 
 **Description:** send MIDI CC data to a midi output
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Send** (Trigger)
 - **MIDI Channel Index** (Number: Integer)
@@ -73,16 +67,13 @@
 - **CC Value** (Number: Integer)
 - **Auto Send Value Change** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiCCOut_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiCCOut_v2](https://cables.gl/op/Ops.Devices.Midi.MidiCCOut_v2)
-
 
 ### MidiChord3
 ![MidiChord3 op](images/ops/Ops_Devices_Midi_MidiChord3.svg)
@@ -91,7 +82,7 @@
 
 **Description:** Map 3 midi notes to values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -102,7 +93,7 @@
 - **Learn** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -118,10 +109,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiChord3"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiChord3](https://cables.gl/op/Ops.Devices.Midi.MidiChord3)
-
 
 ### MidiClock
 ![MidiClock op](images/ops/Ops_Devices_Midi_MidiClock.svg)
@@ -130,12 +118,12 @@
 
 **Description:** sends out midi clock signals as triggers
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **Timing Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Tick Out** (Trigger)
@@ -154,10 +142,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiClock"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiClock](https://cables.gl/op/Ops.Devices.Midi.MidiClock)
-
 
 ### MidiInputDevice_v2
 ![MidiInputDevice_v2 op](images/ops/Ops_Devices_Midi_MidiInputDevice_v2.svg)
@@ -166,12 +151,12 @@
 
 **Description:** connect to MIDI device output port
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Device Index** (Number: Integer)
 - **Learn** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Event** (Object)
 - **Note** (Object)
@@ -182,10 +167,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiInputDevice_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiInputDevice_v2](https://cables.gl/op/Ops.Devices.Midi.MidiInputDevice_v2)
-
 
 ### MidiMonitor
 ![MidiMonitor op](images/ops/Ops_Devices_Midi_MidiMonitor.svg)
@@ -194,11 +176,11 @@
 
 **Description:** detailed information about Midi events being sent
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Event** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -217,10 +199,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiMonitor"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiMonitor](https://cables.gl/op/Ops.Devices.Midi.MidiMonitor)
-
 
 ### MidiNote
 ![MidiNote op](images/ops/Ops_Devices_Midi_MidiNote.svg)
@@ -229,7 +208,7 @@
 
 **Description:** Read a single midi note
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -239,7 +218,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -250,10 +229,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNote"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiNote](https://cables.gl/op/Ops.Devices.Midi.MidiNote)
-
 
 ### MidiNoteFilter
 ![MidiNoteFilter op](images/ops/Ops_Devices_Midi_MidiNoteFilter.svg)
@@ -262,7 +238,7 @@
 
 **Description:** Only read a range of notes (e.g. C1 to C2)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -272,7 +248,7 @@
 - **Learn** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Event** (Object)
 - **Trigger Out** (Trigger)
@@ -282,10 +258,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNoteFilter"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiNoteFilter](https://cables.gl/op/Ops.Devices.Midi.MidiNoteFilter)
-
 
 ### MidiNoteOut
 ![MidiNoteOut op](images/ops/Ops_Devices_Midi_MidiNoteOut.svg)
@@ -294,7 +267,7 @@
 
 **Description:** send midi note data to a midi output
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Channel Index** (Number: Integer)
 - **Note Index** (Number: Integer)
@@ -304,16 +277,13 @@
 - **Max In Velocity** (Number)
 - **Velocity Array In** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNoteOut"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiNoteOut](https://cables.gl/op/Ops.Devices.Midi.MidiNoteOut)
-
 
 ### MidiNRPN
 ![MidiNRPN op](images/ops/Ops_Devices_Midi_MidiNRPN.svg)
@@ -322,7 +292,7 @@
 
 **Description:** read NRPN value from controller
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -331,7 +301,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -340,10 +310,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNRPN"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiNRPN](https://cables.gl/op/Ops.Devices.Midi.MidiNRPN)
-
 
 ### MidiNRPNOut
 ![MidiNRPNOut op](images/ops/Ops_Devices_Midi_MidiNRPNOut.svg)
@@ -352,7 +319,7 @@
 
 **Description:** send midi NRPN data to a midi output
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Channel Index** (Number: Integer)
 - **NRPN Index** (Number: Integer)
@@ -360,16 +327,13 @@
 - **Min In Value** (Number)
 - **Max In Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiNRPNOut"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiNRPNOut](https://cables.gl/op/Ops.Devices.Midi.MidiNRPNOut)
-
 
 ### MidiOutputDevice
 ![MidiOutputDevice op](images/ops/Ops_Devices_Midi_MidiOutputDevice.svg)
@@ -378,23 +342,20 @@
 
 **Description:** Connect to MIDI device input port
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Device Index** (Number: Integer)
 - **Note** (Object)
 - **CC** (Object)
 - **NRPN** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Devices.Midi.MidiOutputDevice documentation](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VbaQXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiOutputDevice"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice)
-
 
 ### MidiTranspose
 ![MidiTranspose op](images/ops/Ops_Devices_Midi_MidiTranspose.svg)
@@ -403,24 +364,21 @@
 
 **Description:** transpose incoming midi notes
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Transpose Amount** (Number: Integer)
 - **Learn** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dfF3DI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiTranspose"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiTranspose](https://cables.gl/op/Ops.Devices.Midi.MidiTranspose)
-
 
 ### MidiValueToNote_v2
 ![MidiValueToNote_v2 op](images/ops/Ops_Devices_Midi_MidiValueToNote_v2.svg)
@@ -429,17 +387,15 @@
 
 **Description:** Converts a MIDI value to a note string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Midi Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Note** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiValueToNote_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.Midi.MidiValueToNote_v2](https://cables.gl/op/Ops.Devices.Midi.MidiValueToNote_v2)
 

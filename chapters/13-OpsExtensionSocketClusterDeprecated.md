@@ -11,12 +11,12 @@
 
 **Description:** receive an array from the socketcluster topic
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Client Id** (String)
 - **Data** (Array)
@@ -24,10 +24,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray)
-
 
 ### SocketClusterReceiveBoolean
 ![SocketClusterReceiveBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveBoolean.svg)
@@ -36,12 +33,12 @@
 
 **Description:** Receive boolean value from the socketcluster socket/topic
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Client Id** (String)
 - **Data** (booleanNumber)
@@ -49,10 +46,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveBoolean"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean)
-
 
 ### SocketClusterReceiveNumber
 ![SocketClusterReceiveNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveNumber.svg)
@@ -61,12 +55,12 @@
 
 **Description:** receive number from the socketcluster socket/topic
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Client Id** (String)
 - **Data** (Number)
@@ -74,10 +68,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber)
-
 
 ### SocketClusterReceiveString
 ![SocketClusterReceiveString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveString.svg)
@@ -86,12 +77,12 @@
 
 **Description:** receives string from the socketcluster socket/topic
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Data** (String)
 - **Client Id** (String)
@@ -99,10 +90,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterReceiveString"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString)
-
 
 ### SocketClusterSendArray
 ![SocketClusterSendArray op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendArray.svg)
@@ -111,7 +99,7 @@
 
 **Description:** sends an array via socketcluster/websocket
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
@@ -119,16 +107,13 @@
 - **Data** (Array)
 - **Public** (2): MOUSE MOVEMENT SEND
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterSendArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray)
-
 
 ### SocketClusterSendBoolean
 ![SocketClusterSendBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendBoolean.svg)
@@ -137,23 +122,20 @@
 
 **Description:** Sends boolean value via socketcluster/websocket
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterSendBoolean"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean)
-
 
 ### SocketClusterSendNumber
 ![SocketClusterSendNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendNumber.svg)
@@ -162,23 +144,20 @@
 
 **Description:** sends a number via socketcluster/websocket
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterSendNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber)
-
 
 ### SocketClusterSendString
 ![SocketClusterSendString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendString.svg)
@@ -187,20 +166,18 @@
 
 **Description:** sends a string via socketcluster/websocket
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterSendString"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString)
 

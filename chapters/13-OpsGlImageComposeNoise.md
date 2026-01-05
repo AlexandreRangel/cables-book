@@ -11,7 +11,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -30,16 +30,13 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9DZmT6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CellularNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2)
-
 
 ### FBMNoise_v2
 ![FBMNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_FBMNoise_v2.svg)
@@ -48,7 +45,7 @@
 
 **Description:** fractional brownian motion noise
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -69,16 +66,13 @@
 - **Layer 4** (Number: Boolean)
 - **Tileable** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DmWmT6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FBMNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2)
-
 
 ### GaborNoise
 ![GaborNoise op](images/ops/Ops_Gl_ImageCompose_Noise_GaborNoise.svg)
@@ -87,7 +81,7 @@
 
 **Description:** Render "gabor noise" into a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -97,16 +91,13 @@
 - **X** (Number)
 - **Y** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PWDdQm)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GaborNoise"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise)
-
 
 ### GlitchNoise_v2
 ![GlitchNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_GlitchNoise_v2.svg)
@@ -115,7 +106,7 @@
 
 **Description:** Creates a black and white glitched texture to use for displacement
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -131,16 +122,13 @@
 - **Scroll X** (Number)
 - **Scroll Y** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cknm0r)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GlitchNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2)
-
 
 ### HexagonNoise_v2
 ![HexagonNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_HexagonNoise_v2.svg)
@@ -149,7 +137,7 @@
 
 **Description:** Creates a hexagonal noise
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -166,16 +154,13 @@
 - **Z** (Number)
 - **Seed** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/plbB53)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HexagonNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2)
-
 
 ### LayerNoise_v3
 ![LayerNoise_v3 op](images/ops/Ops_Gl_ImageCompose_Noise_LayerNoise_v3.svg)
@@ -184,7 +169,7 @@
 
 **Description:** Multilayer perlin noise variation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -201,16 +186,13 @@
 - **ScrollZ** (Number)
 - **Tileable** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NSYy0t)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LayerNoise_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3)
-
 
 ### Noise_v2
 ![Noise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_Noise_v2.svg)
@@ -219,7 +201,7 @@
 
 **Description:** White noise pixel effect
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -230,16 +212,13 @@
 - **Normalize** (Number: Boolean)
 - **Multiply** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PdHmT6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Noise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2)
-
 
 ### PerlinNoise_v2
 ![PerlinNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_PerlinNoise_v2.svg)
@@ -248,7 +227,7 @@
 
 **Description:** Draw perlin noise into an image
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -268,16 +247,13 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zfzmT6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerlinNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2)
-
 
 ### PixelNoise_v3
 ![PixelNoise_v3 op](images/ops/Ops_Gl_ImageCompose_Noise_PixelNoise_v3.svg)
@@ -286,7 +262,7 @@
 
 **Description:** Amount of blend mode to apply
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -304,16 +280,13 @@
 - **Seed** (Number)
 - **Centered** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pdjoOb)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PixelNoise_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3)
-
 
 ### PolkaDotNoise_v2
 ![PolkaDotNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_PolkaDotNoise_v2.svg)
@@ -322,7 +295,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -337,16 +310,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pKNTub)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PolkaDotNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2)
-
 
 ### Shardnoise
 ![Shardnoise op](images/ops/Ops_Gl_ImageCompose_Noise_Shardnoise.svg)
@@ -355,7 +325,7 @@
 
 **Description:** Render "shard noise" into a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -367,16 +337,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GSZtvs)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Shardnoise"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise)
-
 
 ### SimplexNoise_v2
 ![SimplexNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_SimplexNoise_v2.svg)
@@ -385,7 +352,7 @@
 
 **Description:** simplex noise generator
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -404,16 +371,13 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c3vmUf)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimplexNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2)
-
 
 ### TriangleNoise_v2
 ![TriangleNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_TriangleNoise_v2.svg)
@@ -422,7 +386,7 @@
 
 **Description:** noise made from triangles
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -432,16 +396,13 @@
 - **Angle** (Number)
 - **Add** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wvkJyC)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriangleNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2)
-
 
 ### ValueNoise_v2
 ![ValueNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_ValueNoise_v2.svg)
@@ -450,7 +411,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -460,16 +421,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SgTmT6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValueNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2)
-
 
 ### Voronoise_v2
 ![Voronoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_Voronoise_v2.svg)
@@ -478,7 +436,7 @@
 
 **Description:** Voronoi Noise function
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -493,16 +451,13 @@
 - **Draw Distance** (Number: Boolean)
 - **Draw Center** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3zb6Us)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Voronoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2)
-
 
 ### WorleyNoise_v2
 ![WorleyNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_WorleyNoise_v2.svg)
@@ -511,7 +466,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -535,13 +490,11 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sivDJd)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WorleyNoise_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2)
 

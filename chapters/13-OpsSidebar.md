@@ -11,24 +11,21 @@
 
 **Description:** sidebar push button/trigger element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Pressed Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Button_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Button_v2](https://cables.gl/op/Ops.Sidebar.Button_v2)
-
 
 ### ColorPicker_v3
 ![ColorPicker_v3 op](images/ops/Ops_Sidebar_ColorPicker_v3.svg)
@@ -37,7 +34,7 @@
 
 **Description:** Shows a color-picker in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -48,7 +45,7 @@
 - **Set Default** (Trigger)
 - **Show Opacity** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Red** (Number)
@@ -59,10 +56,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8-XQ5d)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPicker_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.ColorPicker_v3](https://cables.gl/op/Ops.Sidebar.ColorPicker_v3)
-
 
 ### DisplayValue_v2
 ![DisplayValue_v2 op](images/ops/Ops_Sidebar_DisplayValue_v2.svg)
@@ -71,22 +65,19 @@
 
 **Description:** display a value or string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
 - **Value** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DisplayValue_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.DisplayValue_v2](https://cables.gl/op/Ops.Sidebar.DisplayValue_v2)
-
 
 ### DropDown_v2
 ![DropDown_v2 op](images/ops/Ops_Sidebar_DropDown_v2.svg)
@@ -95,7 +86,7 @@
 
 **Description:** Shows a drop-down (select) element in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -106,7 +97,7 @@
 - **Lines** (Number: Integer)
 - **Set Default** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Result** (String)
@@ -115,10 +106,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0wKJ5d)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DropDown_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.DropDown_v2](https://cables.gl/op/Ops.Sidebar.DropDown_v2)
-
 
 ### Group
 ![Group op](images/ops/Ops_Sidebar_Group.svg)
@@ -127,7 +115,7 @@
 
 **Description:** organize sidebar elements into groups
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -135,17 +123,14 @@
 - **Default Minimized** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Object)
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Sidebar.Group#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Group"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Group](https://cables.gl/op/Ops.Sidebar.Group)
-
 
 ### Incrementor_v3
 ![Incrementor_v3 op](images/ops/Ops_Sidebar_Incrementor_v3.svg)
@@ -154,7 +139,7 @@
 
 **Description:** steps through numerical or array values one by one
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Label** (String)
@@ -168,7 +153,7 @@
 - **Set Default** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Value** (Number)
@@ -176,10 +161,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DLV0n6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Incrementor_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Incrementor_v3](https://cables.gl/op/Ops.Sidebar.Incrementor_v3)
-
 
 ### LocalFileToDataUrl
 ![LocalFileToDataUrl op](images/ops/Ops_Sidebar_LocalFileToDataUrl.svg)
@@ -188,7 +170,7 @@
 
 **Description:** load a local file and output as data url
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -201,7 +183,7 @@
 - **Show Dialog** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Data URL** (String)
@@ -214,10 +196,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/a0V6xn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LocalFileToDataUrl"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl](https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl)
-
 
 ### NumberInput_v2
 ![NumberInput_v2 op](images/ops/Ops_Sidebar_NumberInput_v2.svg)
@@ -226,23 +205,20 @@
 
 **Description:** Enter a number in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
 - **Set Default** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberInput_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.NumberInput_v2](https://cables.gl/op/Ops.Sidebar.NumberInput_v2)
-
 
 ### Presets_v2
 ![Presets_v2 op](images/ops/Ops_Sidebar_Presets_v2.svg)
@@ -251,7 +227,7 @@
 
 **Description:** manage sidebar presets
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -274,17 +250,14 @@
 - **Preset Title 7** (String)
 - **Preset 7** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KKabBN)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Presets_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Presets_v2](https://cables.gl/op/Ops.Sidebar.Presets_v2)
-
 
 ### Sidebar
 ![Sidebar op](images/ops/Ops_Sidebar_Sidebar.svg)
@@ -293,7 +266,7 @@
 
 **Description:** Sidebar overlay to control values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Visible** (Number: Boolean)
 - **Opacity** (Number)
@@ -305,17 +278,14 @@
 - **Side** (Number: Boolean)
 - **Default CSS** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Opfened** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Sidebar"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Sidebar](https://cables.gl/op/Ops.Sidebar.Sidebar)
-
 
 ### SidebarDateTime
 ![SidebarDateTime op](images/ops/Ops_Sidebar_SidebarDateTime.svg)
@@ -324,7 +294,7 @@
 
 **Description:** date or datetime picker in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -335,7 +305,7 @@
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Result** (String)
@@ -343,10 +313,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Bkzmci)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SidebarDateTime"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarDateTime](https://cables.gl/op/Ops.Sidebar.SidebarDateTime)
-
 
 ### SidebarElement
 ![SidebarElement op](images/ops/Ops_Sidebar_SidebarElement.svg)
@@ -355,23 +322,20 @@
 
 **Description:** Add custom HTML Elements into the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Child Element** (Object)
 - **Border** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CQrFox)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SidebarElement"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarElement](https://cables.gl/op/Ops.Sidebar.SidebarElement)
-
 
 ### SideBarImage
 ![SideBarImage op](images/ops/Ops_Sidebar_SideBarImage.svg)
@@ -380,22 +344,19 @@
 
 **Description:** Display an image in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **File** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Image Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nLvdby)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SideBarImage"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarImage](https://cables.gl/op/Ops.Sidebar.SideBarImage)
-
 
 ### SideBarStyle
 ![SideBarStyle op](images/ops/Ops_Sidebar_SideBarStyle.svg)
@@ -404,23 +365,20 @@
 
 **Description:** adjust appearance of sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Width** (Number: Integer)
 - **Round Corners** (Number)
 - **Special Color** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/o1fXgI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SideBarStyle"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarStyle](https://cables.gl/op/Ops.Sidebar.SideBarStyle)
-
 
 ### SideBarSwitch
 ![SideBarSwitch op](images/ops/Ops_Sidebar_SideBarSwitch.svg)
@@ -429,7 +387,7 @@
 
 **Description:** add tabs or switchbar to a sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Names** (Array)
@@ -438,7 +396,7 @@
 - **Grey Out** (Number: Boolean)
 - **Default** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Index** (Number)
@@ -446,10 +404,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7uuz6D)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SideBarSwitch"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarSwitch](https://cables.gl/op/Ops.Sidebar.SideBarSwitch)
-
 
 ### SidebarText_v3
 ![SidebarText_v3 op](images/ops/Ops_Sidebar_SidebarText_v3.svg)
@@ -458,23 +413,20 @@
 
 **Description:** Display text in the sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
 - **Id** (String)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ut4y8i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SidebarText_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarText_v3](https://cables.gl/op/Ops.Sidebar.SidebarText_v3)
-
 
 ### SidebarVariables
 ![SidebarVariables op](images/ops/Ops_Sidebar_SidebarVariables.svg)
@@ -483,22 +435,19 @@
 
 **Description:** show values of all variables in a sidebar
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Id** (Number: String)
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H2kYgL)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SidebarVariables"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarVariables](https://cables.gl/op/Ops.Sidebar.SidebarVariables)
-
 
 ### Slider_v3
 ![Slider_v3 op](images/ops/Ops_Sidebar_Slider_v3.svg)
@@ -507,7 +456,7 @@
 
 **Description:** Sidebar slider element (range)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -520,17 +469,14 @@
 - **Set Default** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Slider_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Slider_v3](https://cables.gl/op/Ops.Sidebar.Slider_v3)
-
 
 ### TextInput_v2
 ![TextInput_v2 op](images/ops/Ops_Sidebar_TextInput_v2.svg)
@@ -539,7 +485,7 @@
 
 **Description:** Get a string from an sidebar input field
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Where to attach the sidebar item to** (Sidebar / Sidebar Group)
@@ -554,7 +500,7 @@
 - **Clear** (Trigger)
 - **Focus Input** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **Result** (String)
@@ -564,10 +510,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wa-KH-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextInput_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.TextInput_v2](https://cables.gl/op/Ops.Sidebar.TextInput_v2)
-
 
 ### Toggle_v4
 ![Toggle_v4 op](images/ops/Ops_Sidebar_Toggle_v4.svg)
@@ -576,7 +519,7 @@
 
 **Description:** sidebar boolean toggle/switch element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -584,7 +527,7 @@
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Childs** (Object)
 - **Value** (booleanNumber)
@@ -592,10 +535,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Toggle_v4"*
-
 **Docs:** [https://cables.gl/op/Ops.Sidebar.Toggle_v4](https://cables.gl/op/Ops.Sidebar.Toggle_v4)
-
 
 ### XYPad
 ![XYPad op](images/ops/Ops_Sidebar_XYPad.svg)
@@ -604,7 +544,7 @@
 
 **Description:** 2d coordinate input element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Link** (Object)
 - **Text** (String)
@@ -615,7 +555,7 @@
 - **Set Default** (Trigger)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Children** (Object)
 - **X** (Number)
@@ -623,8 +563,6 @@
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0NF2FL)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "XYPad"*
 
 **Docs:** [https://cables.gl/op/Ops.Sidebar.XYPad](https://cables.gl/op/Ops.Sidebar.XYPad)
 

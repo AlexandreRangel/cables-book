@@ -11,11 +11,11 @@
 
 **Description:** Create a websocket connection and receive data from it
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **URL** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 - **Valid JSON** (booleanNumber)
@@ -26,10 +26,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gu7DBo)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebSocket_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Net.WebSocket.WebSocket_v2](https://cables.gl/op/Ops.Net.WebSocket.WebSocket_v2)
-
 
 ### WebSocketSend
 ![WebSocketSend op](images/ops/Ops_Net_WebSocket_WebSocketSend.svg)
@@ -38,20 +35,18 @@
 
 **Description:** send an object to a websocket connection
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Connection** (Object:Websocket)
 - **Object** (Object)
 - **Send** (Trigger)
 - **Send String** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Sent** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gu7DBo)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebSocketSend"*
 
 **Docs:** [https://cables.gl/op/Ops.Net.WebSocket.WebSocketSend](https://cables.gl/op/Ops.Net.WebSocket.WebSocketSend)
 

@@ -11,7 +11,7 @@
 
 **Description:** Let’s you tap in a beat, useful to synchronise visuals to music (VJ, sync, sound)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Tap** (Trigger)
@@ -20,7 +20,7 @@
 - **NudgeRight** (Trigger)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Beat** (Trigger)
 - **Bpm** (Number)
@@ -30,10 +30,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vwdfqX)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BpmTap"*
-
 **Docs:** [https://cables.gl/op/Ops.Audio.BpmTap](https://cables.gl/op/Ops.Audio.BpmTap)
-
 
 ### MidiJson
 ![MidiJson op](images/ops/Ops_Audio_MidiJson.svg)
@@ -42,12 +39,12 @@
 
 **Description:** read MIDI information at time x
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **MidiJson** (Object)
 - **Time** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Beat** (Number)
 - **Track Names** (Array)
@@ -60,10 +57,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yJPMCV)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiJson"*
-
 **Docs:** [https://cables.gl/op/Ops.Audio.MidiJson](https://cables.gl/op/Ops.Audio.MidiJson)
-
 
 ### MidiJsonNote_v2
 ![MidiJsonNote_v2 op](images/ops/Ops_Audio_MidiJsonNote_v2.svg)
@@ -72,7 +66,7 @@
 
 **Description:** Filter MidiJson for notes
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Data** (Object)
 - **Note** (String)
@@ -80,7 +74,7 @@
 - **Beat Start** (Number: Integer)
 - **Beat End** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Count** (Number)
 - **Progress** (Number)
@@ -89,8 +83,6 @@
 - **Reseted** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MidiJsonNote_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Audio.MidiJsonNote_v2](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2)
 

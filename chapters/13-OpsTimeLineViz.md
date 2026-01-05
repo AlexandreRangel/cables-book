@@ -11,21 +11,18 @@
 
 **Description:** Display current Beat index and BPM timing information as beat rectangles on the timeline
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **BPM** (Number)
 - **Offset** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.TimeLine.Viz.TimeLineBPM documentation](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gpr6A1)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineBPM"*
-
 **Docs:** [https://cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM)
-
 
 ### TimeLineImage
 ![TimeLineImage op](images/ops/Ops_TimeLine_Viz_TimeLineImage.svg)
@@ -34,7 +31,7 @@
 
 **Description:** Display an image on the timeline
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 - **Slot** (Number: Integer)
@@ -42,13 +39,11 @@
 - **Start** (Number)
 - **End** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.TimeLine.Viz.TimeLineImage documentation](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineImage) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1DD6A1)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeLineImage"*
 
 **Docs:** [https://cables.gl/op/Ops.TimeLine.Viz.TimeLineImage](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineImage)
 

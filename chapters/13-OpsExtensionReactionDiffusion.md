@@ -11,7 +11,7 @@
 
 **Description:** Cellular automata system as feedback loop texture.
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Reset** (Trigger)
@@ -32,14 +32,12 @@
 - **Noise Scale** (Number)
 - **Separate Fields** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Texture Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XLCybk)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReactionDiffusionSystem_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
 

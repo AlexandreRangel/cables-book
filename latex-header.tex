@@ -1,88 +1,72 @@
 %% ============================================================
-%% CABLES.GL BOOK - CUSTOM STYLING
-%% ============================================================
-%% 
-%% EASY-TO-CHANGE SETTINGS ARE BELOW
-%% Modify these values to adjust typography throughout the book
-%%
+%% CABLES.GL BOOK - EASY-TO-CHANGE SETTINGS
 %% ============================================================
 
 %% ------------------------------------------------------------
-%% FONT SIZES AND LEADING (line spacing)
-%% Format: \fontsize{SIZE}{LEADING} where LEADING = line height
+%% SECTION HEADINGS - Font Sizes & Leading
+%% Format: FontSize in pt, Leading = line height
 %% ------------------------------------------------------------
-
-%% Section 1 (Chapter titles) - largest
-\newcommand{\SectionOneFontSize}{24}
+\newcommand{\SectionOneFontSize}{24}      % Chapter titles
 \newcommand{\SectionOneLeading}{19}
-
-%% Section 2 (Major sections)
-\newcommand{\SectionTwoFontSize}{18}
+\newcommand{\SectionTwoFontSize}{18}      % Major sections
 \newcommand{\SectionTwoLeading}{15}
-
-%% Section 3 (Subsections)
-\newcommand{\SectionThreeFontSize}{14}
+\newcommand{\SectionThreeFontSize}{14}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{12}
-
-%% Section 4 / Paragraph headers
-\newcommand{\SectionFourFontSize}{12}
+\newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
+\newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{11}
 
 %% ------------------------------------------------------------
-%% SECTION COLORS (RGB values 0-255)
+%% SECTION HEADINGS - Colors (RGB 0-255)
 %% ------------------------------------------------------------
-
-%% Section 1 color (Chapter titles)
-\newcommand{\SectionOneColorRed}{51}
+\newcommand{\SectionOneColorRed}{51}      % Chapter titles - dark gray
 \newcommand{\SectionOneColorGreen}{51}
 \newcommand{\SectionOneColorBlue}{51}
-
-%% Section 2 color (Major sections) - darker blue
-\newcommand{\SectionTwoColorRed}{0}
+\newcommand{\SectionTwoColorRed}{0}       % Major sections - dark blue
 \newcommand{\SectionTwoColorGreen}{40}
 \newcommand{\SectionTwoColorBlue}{120}
-
-%% Section 3 color (Subsections)
-\newcommand{\SectionThreeColorRed}{51}
+\newcommand{\SectionThreeColorRed}{51}    % Subsections - dark gray
 \newcommand{\SectionThreeColorGreen}{51}
 \newcommand{\SectionThreeColorBlue}{51}
-
-%% Section 4 color (Paragraph headers)
-\newcommand{\SectionFourColorRed}{51}
+\newcommand{\SectionFourColorRed}{51}     % Paragraph headers - dark gray
 \newcommand{\SectionFourColorGreen}{51}
 \newcommand{\SectionFourColorBlue}{51}
 
-%% Code block line spacing (1.0 = normal, 0.85 = 15% tighter)
-\newcommand{\CodeBlockLineSpacing}{0.85}
-
-%% Code block font size (in points)
-\newcommand{\CodeBlockFontSize}{10.5}
+%% ------------------------------------------------------------
+%% OPS SECTION - Port Symbol Colors (RGB 0-255)
+%% ------------------------------------------------------------
+\newcommand{\InputPortSymbolRed}{0}       % > symbol color (dark green)
+\newcommand{\InputPortSymbolGreen}{128}
+\newcommand{\InputPortSymbolBlue}{0}
+\newcommand{\OutputPortSymbolRed}{0}      % < symbol color (dark green)
+\newcommand{\OutputPortSymbolGreen}{128}
+\newcommand{\OutputPortSymbolBlue}{0}
 
 %% ------------------------------------------------------------
-%% PAGE HEADER AND FOOTER SETTINGS
+%% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-
-%% Header height (in points)
-\newcommand{\HeaderHeight}{12}
-
-%% Footer height (20% more than header = HeaderHeight * 1.2)
-\newcommand{\FooterHeight}{14.4}
+\newcommand{\OpImageWidthFraction}{0.45}   % Op image width (0.5 = 50% of line)
+\newcommand{\OpImageSpacing}{0.25\baselineskip}  % Spacing before/after op images
+\newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
+\newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
 
 %% ------------------------------------------------------------
-%% IMAGE SETTINGS
+%% CODE BLOCKS
 %% ------------------------------------------------------------
+\newcommand{\CodeBlockFontSize}{10.5}     % Font size in points
+\newcommand{\CodeBlockLineSpacing}{0.85}  % Line spacing (1.0 = normal)
 
-%% General image width as fraction of line width (0.7 = 70%)
-\newcommand{\ImageWidthFraction}{0.7}
+%% ------------------------------------------------------------
+%% IMAGES
+%% ------------------------------------------------------------
+\newcommand{\ImageWidthFraction}{0.7}     % General image width (0.7 = 70%)
 
-%% Op image width (for the hundreds of operator images) - fraction of line width
-\newcommand{\OpImageWidthFraction}{0.5}
-
-%% Space REDUCTION after op images (negative = less space)
-\newcommand{\OpImageSpaceAfter}{-16pt}
-
-%% Ops section leading (line spacing for section 13 op entries)
-\newcommand{\OpsSectionLeading}{0.85}
+%% ------------------------------------------------------------
+%% PAGE LAYOUT
+%% ------------------------------------------------------------
+\newcommand{\HeaderHeight}{12}            % Header height in points
+\newcommand{\FooterHeight}{14}          % Footer height in points
+\newcommand{\FooterSkip}{8pt}            % Distance from text bottom to footer (lower = closer to page edge)
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -129,14 +113,24 @@
   \par%
 }
 % Completely replace figure environment - remove any text that might appear
+\makeatletter
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
-  \par\vspace{\baselineskip}%
+  \global\@opimagefalse
+  \par\vspace{\OpImageSpacing}%
   \noindent%
   \raggedright%
   \hspace{0pt}%
 }{%
-  \par\vspace{\baselineskip}%
+  \if@opimage
+    % Op image: match before-space exactly by using negative space to cancel extra
+    \par\vspace{-\baselineskip}% Cancel default spacing
+    \vspace{-\parskip}% Cancel paragraph skip  
+    \vspace{\OpImageSpacing}% Add exact spacing we want (same as before)
+  \else
+    % Regular figure: standard spacing
+    \par\vspace{\baselineskip}%
+  \fi
 }
 % Completely disable floatboxreset (which often centers)
 \let\@floatboxreset\relax
@@ -145,22 +139,23 @@
 %% Force left alignment for ALL includegraphics commands
 %% Special handling for op images (in images/ops/ folder)
 \makeatletter
+\newif\if@opimage
 \let\oldincludegraphics\includegraphics
 \newcommand{\isopimage}[1]{%
   \IfSubStr{#1}{images/ops/}{\@firstoftwo}{\@secondoftwo}%
 }
 \renewcommand{\includegraphics}[2][]{%
-  \par\noindent%
-  \hspace{0pt}%
   \isopimage{#2}{%
-    % Op image: use OpImageWidthFraction and reduced space after
-    \oldincludegraphics[width=\OpImageWidthFraction\linewidth,keepaspectratio]{#2}%
-    \vspace{\OpImageSpaceAfter}%
+    % Op image: mark flag globally and insert image
+    \global\@opimagetrue
+    \noindent\oldincludegraphics[width=\OpImageWidthFraction\linewidth,keepaspectratio]{#2}%
   }{%
     % Regular image: use standard settings
+    \global\@opimagefalse
+    \par\noindent%
     \oldincludegraphics[#1]{#2}%
+    \par%
   }%
-  \par%
 }
 \makeatother
 
@@ -180,6 +175,12 @@
 \definecolor{sectionthreecolor}{RGB}{\SectionThreeColorRed,\SectionThreeColorGreen,\SectionThreeColorBlue}
 \definecolor{sectionfourcolor}{RGB}{\SectionFourColorRed,\SectionFourColorGreen,\SectionFourColorBlue}
 \definecolor{linkblue}{RGB}{0,102,204}
+\definecolor{inputportsymbol}{RGB}{\InputPortSymbolRed,\InputPortSymbolGreen,\InputPortSymbolBlue}
+\definecolor{outputportsymbol}{RGB}{\OutputPortSymbolRed,\OutputPortSymbolGreen,\OutputPortSymbolBlue}
+
+%% Commands for colored port symbols (with space after)
+\newcommand{\inputsymbol}{\textcolor{inputportsymbol}{\textgreater} }
+\newcommand{\outputsymbol}{\textcolor{outputportsymbol}{\textless} }
 
 %% Custom header styles using the settings above
 \usepackage{titlesec}
@@ -198,11 +199,18 @@
 \titleformat{\subsubsection}
   {\fontsize{\SectionThreeFontSize}{\SectionThreeLeading}\bfseries\color{sectionthreecolor}}
   {\thesubsubsection}{1em}{}
+%% Reduce spacing after ### headings (before op images)
+%% Format: \titlespacing{command}{left}{before-sep}{after-sep}
+\titlespacing*{\subsubsection}{0pt}{\SectionThreeSpacingBefore}{0.3ex plus .1ex}
 
-%% Apply reduced leading to ops sections (section 13 content)
-%% Note: The \OpsSectionLeading variable is defined above and can be adjusted.
-%% To apply it, you can manually add \setstretch{\OpsSectionLeading} in section 13 content
-%% or use it in custom formatting. For now, we'll keep it as a variable for future use.
+%% Apply reduced paragraph spacing to ops sections (section 13 content)
+\makeatletter
+\pretocmd{\subsubsection}{%
+  \ifnum\value{section}=13\relax
+    \setlength{\parskip}{\OpParagraphSpacing}%
+  \fi
+}{}{}
+\makeatother
 
 %% Section 4 / Paragraph - not numbered
 \titleformat{\paragraph}
@@ -252,7 +260,7 @@
 
 % Set header and footer heights with vertically centered page number
 \setlength{\headheight}{\HeaderHeight pt}
-\setlength{\footskip}{\FooterHeight pt}
+\setlength{\footskip}{\FooterSkip}
 
 % Vertically center page number in footer
 \fancyfootoffset{0pt}

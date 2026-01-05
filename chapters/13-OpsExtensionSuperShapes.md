@@ -11,7 +11,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Shape Index** (Number: Integer)
@@ -33,7 +33,7 @@
 - **Param 14** (Number)
 - **Param 15** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Coords** (Array)
@@ -42,10 +42,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LgcEiq)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SuperShapesCpu"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu)
-
 
 ### SuperShapesGpu
 ![SuperShapesGpu op](images/ops/Ops_Extension_SuperShapes_SuperShapesGpu.svg)
@@ -54,7 +51,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Render** (Number: Boolean)
@@ -77,13 +74,11 @@
 - **Param 14** (Number)
 - **Param 15** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ka9Vxq)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SuperShapesGpu"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu)
 

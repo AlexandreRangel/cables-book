@@ -11,11 +11,11 @@
 
 **Description:** Enter data in a spreadsheet table
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Data.SpreadSheetArray documentation](https://cables.gl/op/Ops.Data.SpreadSheetArray) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array** (Array)
 - **Width** (Number)
@@ -23,8 +23,6 @@
 - **Column Names** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/wDITt1)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SpreadSheetArray"*
 
 **Docs:** [https://cables.gl/op/Ops.Data.SpreadSheetArray](https://cables.gl/op/Ops.Data.SpreadSheetArray)
 

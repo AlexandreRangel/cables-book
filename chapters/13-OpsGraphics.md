@@ -11,7 +11,7 @@
 
 **Description:** convert and download an array of numbers as an .exr image file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array** (Array)
 - **Width** (Number: Integer)
@@ -20,16 +20,13 @@
 - **Filename** (String)
 - **Download** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PoAXNA)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToExr"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
-
 
 ### DepthTest
 ![DepthTest op](images/ops/Ops_Graphics_DepthTest.svg)
@@ -38,23 +35,20 @@
 
 **Description:** change depth testing method (depthMask,depthWrite,depthFunc)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Enable Depth Testing** (Number: Boolean)
 - **Depth Test Method Index** (Number: Integer)
 - **Write To Depth Buffer** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A9PD8i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DepthTest"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.DepthTest](https://cables.gl/op/Ops.Graphics.DepthTest)
-
 
 ### GeometryMergeSimple
 ![GeometryMergeSimple op](images/ops/Ops_Graphics_GeometryMergeSimple.svg)
@@ -63,21 +57,18 @@
 
 **Description:** merge two geometries into one
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Geometry** (Object)
 - **Geometry 2** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Geometry Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/4gsNve)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryMergeSimple"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.GeometryMergeSimple](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple)
-
 
 ### GetMaterialId
 ![GetMaterialId op](images/ops/Ops_Graphics_GetMaterialId.svg)
@@ -86,21 +77,18 @@
 
 **Description:** get the id/index of the current set material
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Material Id** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PYpQit)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetMaterialId"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.GetMaterialId](https://cables.gl/op/Ops.Graphics.GetMaterialId)
-
 
 ### GetObjectId
 ![GetObjectId op](images/ops/Ops_Graphics_GetObjectId.svg)
@@ -109,21 +97,18 @@
 
 **Description:** get the id/index of the current object/mesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Material Id** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GetObjectId"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.GetObjectId](https://cables.gl/op/Ops.Graphics.GetObjectId)
-
 
 ### OrbitControls_v3
 ![OrbitControls_v3 op](images/ops/Ops_Graphics_OrbitControls_v3.svg)
@@ -132,7 +117,7 @@
 
 **Description:** rotate your object by clicking and dragging the mouse
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Min Distance** (Number)
@@ -153,7 +138,7 @@
 - **Identity** (Number: Boolean)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Radius** (Number)
@@ -162,10 +147,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Krorsh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OrbitControls_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.OrbitControls_v3](https://cables.gl/op/Ops.Graphics.OrbitControls_v3)
-
 
 ### Transform
 ![Transform op](images/ops/Ops_Graphics_Transform.svg)
@@ -174,7 +156,7 @@
 
 **Description:** Transform objects in 3d space (rotate, translate, scale)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **PosX** (Number)
@@ -185,16 +167,13 @@
 - **RotY** (Number)
 - **RotZ** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/o741ft)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Transform"*
-
 **Docs:** [https://cables.gl/op/Ops.Graphics.Transform](https://cables.gl/op/Ops.Graphics.Transform)
-
 
 ### TransformView
 ![TransformView op](images/ops/Ops_Graphics_TransformView.svg)
@@ -203,7 +182,7 @@
 
 **Description:** the most simple camera op / transform the viewmatrix
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **PosX** (Number)
@@ -214,13 +193,11 @@
 - **RotY** (Number)
 - **RotZ** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0GAv8i)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformView"*
 
 **Docs:** [https://cables.gl/op/Ops.Graphics.TransformView](https://cables.gl/op/Ops.Graphics.TransformView)
 

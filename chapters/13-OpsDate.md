@@ -11,12 +11,12 @@
 
 **Description:** Returns current date and time and timestamp
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update Rate** (Number)
 - **How often the op should update the output** (in milliseconds)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Year** (Number)
 - **Month** (Number)
@@ -28,10 +28,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GuzKSD)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateAndTime"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateAndTime](https://cables.gl/op/Ops.Date.DateAndTime)
-
 
 ### DateCalc
 ![DateCalc op](images/ops/Ops_Date_DateCalc.svg)
@@ -40,7 +37,7 @@
 
 **Description:** Perform date calculations
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Timestamp** (Number)
 - **Difference** (Number: Integer)
@@ -48,17 +45,14 @@
 - **Update** (Trigger)
 - **Update time value** (not needed if an timestamp input is used)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Date** (Object)
 - **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateCalc"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateCalc](https://cables.gl/op/Ops.Date.DateCalc)
-
 
 ### DateDifference
 ![DateDifference op](images/ops/Ops_Date_DateDifference.svg)
@@ -67,13 +61,13 @@
 
 **Description:** Calculates the difference between two timestamps
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Timestamp 1** (Number)
 - **Timestamp 2** (Number)
 - **Stop At 0** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Year** (Number)
 - **Month** (Number)
@@ -86,10 +80,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/d1NUet)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateDifference"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateDifference](https://cables.gl/op/Ops.Date.DateDifference)
-
 
 ### DateFormatter
 ![DateFormatter op](images/ops/Ops_Date_DateFormatter.svg)
@@ -98,22 +89,19 @@
 
 **Description:** String representation of a date
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Timestamp** (Number)
 - **Date** (Object)
 - **Format** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **StringDate** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateFormatter"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateFormatter](https://cables.gl/op/Ops.Date.DateFormatter)
-
 
 ### DateIsoToTimestamp
 ![DateIsoToTimestamp op](images/ops/Ops_Date_DateIsoToTimestamp.svg)
@@ -122,20 +110,17 @@
 
 **Description:** parses a date and time in iso format and outputs a millisecond timestamp
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Datetime** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nsSRrU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateIsoToTimestamp"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateIsoToTimestamp](https://cables.gl/op/Ops.Date.DateIsoToTimestamp)
-
 
 ### DateTimestamp
 ![DateTimestamp op](images/ops/Ops_Date_DateTimestamp.svg)
@@ -144,7 +129,7 @@
 
 **Description:** Calculates the timestamp of a date by year / month / day / hour / minute
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Year** (Number: Integer)
 - **Month** (Number: Integer)
@@ -152,16 +137,13 @@
 - **Hour** (Number: Integer)
 - **Minute** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Timestamp** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Date.DateTimestamp#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DateTimestamp"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.DateTimestamp](https://cables.gl/op/Ops.Date.DateTimestamp)
-
 
 ### Milliseconds
 ![Milliseconds op](images/ops/Ops_Date_Milliseconds.svg)
@@ -170,20 +152,17 @@
 
 **Description:** Value since the time origin in milliseconds (performance.now())
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dJzVbI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Milliseconds"*
-
 **Docs:** [https://cables.gl/op/Ops.Date.Milliseconds](https://cables.gl/op/Ops.Date.Milliseconds)
-
 
 ### TimestampToIsoDate
 ![TimestampToIsoDate op](images/ops/Ops_Date_TimestampToIsoDate.svg)
@@ -192,17 +171,15 @@
 
 **Description:** convert a timestamp to an ISO date string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Timestamp** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **ISO Date** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MqNl8i)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimestampToIsoDate"*
 
 **Docs:** [https://cables.gl/op/Ops.Date.TimestampToIsoDate](https://cables.gl/op/Ops.Date.TimestampToIsoDate)
 

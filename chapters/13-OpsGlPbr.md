@@ -11,7 +11,7 @@
 
 **Description:** PBR image based lighting setup
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Intensity** (Number)
@@ -32,7 +32,7 @@
 - **Box Max Y** (Number)
 - **Box Max Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Render** (Trigger)
 - **Intensity** (Number)
@@ -59,10 +59,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrEnvironmentLight"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
-
 
 ### PbrMaterial
 ![PbrMaterial op](images/ops/Ops_Gl_Pbr_PbrMaterial.svg)
@@ -71,7 +68,7 @@
 
 **Description:** PBR/Physical Based Rendering Material for realistic materials
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -114,14 +111,12 @@
 - **Lightmap Is RGBE** (Number: Boolean)
 - **Lightmap Intensity** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PbrMaterial"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
 

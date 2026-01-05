@@ -11,14 +11,14 @@
 
 **Description:** Simple Audio Player, using HTML5 Audio, does not need WebAudio
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 - **Play** (Number: Boolean)
 - **Volume** (Number)
 - **Loop** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Playing** (Number)
 - **Element** (Object)
@@ -26,10 +26,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ftHtx3)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AudioMediaElement"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.AudioMediaElement](https://cables.gl/op/Ops.Html.Elements.AudioMediaElement)
-
 
 ### Element_v2
 ![Element_v2 op](images/ops/Ops_Html_Elements_Element_v2.svg)
@@ -38,7 +35,7 @@
 
 **Description:** A more convinient version of div element op, that can be used for creating html without writing much css code
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Text** (String)
 - **Set Size** (Number: Boolean)
@@ -53,7 +50,7 @@
 - **Propagate Click-Events** (Number: Boolean)
 - **Add To DOM** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **DOM Element** (Object)
 - **Hovering** (booleanNumber)
@@ -61,10 +58,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Element_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.Element_v2](https://cables.gl/op/Ops.Html.Elements.Element_v2)
-
 
 ### IFrame_v3
 ![IFrame_v3 op](images/ops/Ops_Html_Elements_IFrame_v3.svg)
@@ -73,23 +67,20 @@
 
 **Description:** Show another website in an iframe element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **URL** (String)
 - **ID** (String)
 - **Active** (Number: Boolean)
 - **Style** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/SLesr2)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IFrame_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.IFrame_v3](https://cables.gl/op/Ops.Html.Elements.IFrame_v3)
-
 
 ### ImageElement_v3
 ![ImageElement_v3 op](images/ops/Ops_Html_Elements_ImageElement_v3.svg)
@@ -98,14 +89,14 @@
 
 **Description:** create an image(img) html element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 - **Class** (String)
 - **Style** (String)
 - **Alt Text** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Image Element** (Object)
 - **Width** (Number)
@@ -116,10 +107,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/OZaVN8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ImageElement_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.ImageElement_v3](https://cables.gl/op/Ops.Html.Elements.ImageElement_v3)
-
 
 ### InputElement
 ![InputElement op](images/ops/Ops_Html_Elements_InputElement.svg)
@@ -128,7 +116,7 @@
 
 **Description:** HTML input/textarea element to allow the user to enter text
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Default Value** (String)
 - **Placeholder** (String)
@@ -144,7 +132,7 @@
 - **Clear** (Trigger)
 - **Select** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **DOM Element** (Object)
 - **Value** (String)
@@ -154,10 +142,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L83aeG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InputElement"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.InputElement](https://cables.gl/op/Ops.Html.Elements.InputElement)
-
 
 ### VideoElement
 ![VideoElement op](images/ops/Ops_Html_Elements_VideoElement.svg)
@@ -166,7 +151,7 @@
 
 **Description:** html video player element
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 - **ID** (String)
@@ -179,7 +164,7 @@
 - **Style** (String)
 - **Rewind** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Element** (Object)
 - **Playing** (booleanNumber)
@@ -192,8 +177,6 @@
 - **Video Height** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1QTBve)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VideoElement"*
 
 **Docs:** [https://cables.gl/op/Ops.Html.Elements.VideoElement](https://cables.gl/op/Ops.Html.Elements.VideoElement)
 

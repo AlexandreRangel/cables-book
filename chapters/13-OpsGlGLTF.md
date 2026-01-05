@@ -11,7 +11,7 @@
 
 **Description:** Convert an animation into an array of coordinates
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -20,7 +20,7 @@
 - **Start** (Number)
 - **Length** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -28,10 +28,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/py-JK0)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfAnimationArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfAnimationArray](https://cables.gl/op/Ops.Gl.GLTF.GltfAnimationArray)
-
 
 ### GltfCameraViewMatrix
 ![GltfCameraViewMatrix op](images/ops/Ops_Gl_GLTF_GltfCameraViewMatrix.svg)
@@ -40,22 +37,19 @@
 
 **Description:** get view matrix from a gltf camera
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Node Name** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Matrix** (Array)
 - **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/klpdcI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfCameraViewMatrix"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfCameraViewMatrix](https://cables.gl/op/Ops.Gl.GLTF.GltfCameraViewMatrix)
-
 
 ### GltfDracoCompression
 ![GltfDracoCompression op](images/ops/Ops_Gl_GLTF_GltfDracoCompression.svg)
@@ -64,20 +58,17 @@
 
 **Description:** gltf draco compression library
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WFva2K)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfDracoCompression"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression)
-
 
 ### GltfGeometry
 ![GltfGeometry op](images/ops/Ops_Gl_GLTF_GltfGeometry.svg)
@@ -86,13 +77,13 @@
 
 **Description:** expose geometry from gltf meshes, also possible to expose submaterial geometries
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Name** (String)
 - **Submesh** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -100,10 +91,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XKXmf6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfGeometry"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfGeometry](https://cables.gl/op/Ops.Gl.GLTF.GltfGeometry)
-
 
 ### GltfHierarchy
 ![GltfHierarchy op](images/ops/Ops_Gl_GLTF_GltfHierarchy.svg)
@@ -112,22 +100,19 @@
 
 **Description:** export array of positions from a hierarchy of a branch structure in a gltf, e.g. a skeleton bones
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Node Name** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Bones Lines** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3t_mJR)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfHierarchy"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfHierarchy](https://cables.gl/op/Ops.Gl.GLTF.GltfHierarchy)
-
 
 ### GltfInfo
 ![GltfInfo op](images/ops/Ops_Gl_GLTF_GltfInfo.svg)
@@ -136,11 +121,11 @@
 
 **Description:** output some infos about the current parent GLTF scene
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Num Nodes** (Number)
 - **Num Cams** (Number)
@@ -150,10 +135,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Z7tacy)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfInfo"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfInfo](https://cables.gl/op/Ops.Gl.GLTF.GltfInfo)
-
 
 ### GltfMeshSequence_v2
 ![GltfMeshSequence_v2 op](images/ops/Ops_Gl_GLTF_GltfMeshSequence_v2.svg)
@@ -162,7 +144,7 @@
 
 **Description:** switch between meshes e.g. like a stop motion animation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Index** (Number: Integer)
@@ -170,7 +152,7 @@
 - **Transformation** (Number: Boolean)
 - **Ignore Material** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Found** (Number)
@@ -178,10 +160,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FiJsxn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfMeshSequence_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfMeshSequence_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfMeshSequence_v2)
-
 
 ### GltfMorphTargets
 ![GltfMorphTargets op](images/ops/Ops_Gl_GLTF_GltfMorphTargets.svg)
@@ -190,7 +169,7 @@
 
 **Description:** render weighted morph targets/shape keys from a gltf file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -199,7 +178,7 @@
 - **Submesh** (Number: Integer)
 - **Target Weights** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
@@ -209,10 +188,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zon4xF)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfMorphTargets"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfMorphTargets](https://cables.gl/op/Ops.Gl.GLTF.GltfMorphTargets)
-
 
 ### GltfNode_v2
 ![GltfNode_v2 op](images/ops/Ops_Gl_GLTF_GltfNode_v2.svg)
@@ -221,7 +197,7 @@
 
 **Description:** Control a single node from the GLTFscene op
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -232,7 +208,7 @@
 - **Use Scene Time** (Number: Boolean)
 - **Time** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -240,10 +216,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNode_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2)
-
 
 ### GltfNodeSineAnim
 ![GltfNodeSineAnim op](images/ops/Ops_Gl_GLTF_GltfNodeSineAnim.svg)
@@ -252,7 +225,7 @@
 
 **Description:** sine animate gltf nodes by a filter
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Filter** (String)
@@ -263,17 +236,14 @@
 - **Axis Y** (Number)
 - **Axis Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/w1SPcI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeSineAnim"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfNodeSineAnim](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeSineAnim)
-
 
 ### GltfNodeTransform_v2
 ![GltfNodeTransform_v2 op](images/ops/Ops_Gl_GLTF_GltfNodeTransform_v2.svg)
@@ -282,13 +252,13 @@
 
 **Description:** Get the transform from the GLTFscene op
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Set Matrix** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -296,10 +266,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yrOJve)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeTransform_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransform_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransform_v2)
-
 
 ### GltfNodeTransforms_v3
 ![GltfNodeTransforms_v3 op](images/ops/Ops_Gl_GLTF_GltfNodeTransforms_v3.svg)
@@ -308,7 +275,7 @@
 
 **Description:** output all transformations of nodes starting with [search]
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Search** (String)
@@ -316,7 +283,7 @@
 - **Space Index** (Number: Integer)
 - **Time** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Positions** (Array)
@@ -326,10 +293,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfNodeTransforms_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3)
-
 
 ### GltfScene_v4
 ![GltfScene_v4 op](images/ops/Ops_Gl_GLTF_GltfScene_v4.svg)
@@ -338,7 +302,7 @@
 
 **Description:** Load GLTF/GLB 3d files
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Glb File** (String)
@@ -356,7 +320,7 @@
 - **Use Material Properties** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Render Before** (Trigger)
 - **Next** (Trigger)
@@ -374,10 +338,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XmL8GY)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfScene_v4"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfScene_v4](https://cables.gl/op/Ops.Gl.GLTF.GltfScene_v4)
-
 
 ### GltfSetMaterial
 ![GltfSetMaterial op](images/ops/Ops_Gl_GLTF_GltfSetMaterial.svg)
@@ -386,21 +347,18 @@
 
 **Description:** Assigns a material to a node inside of the gltfScene op
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Shader** (Object:Shader)
 - **Material Name** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Material** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Mk3Dv2)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfSetMaterial"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfSetMaterial](https://cables.gl/op/Ops.Gl.GLTF.GltfSetMaterial)
-
 
 ### GltfSkin
 ![GltfSkin op](images/ops/Ops_Gl_GLTF_GltfSkin.svg)
@@ -409,7 +367,7 @@
 
 **Description:** render a skinned mesh (bone/rigging/rigged animation)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -417,7 +375,7 @@
 - **Time** (Number)
 - **Blend Anims** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
@@ -425,10 +383,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TWBC-N)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfSkin"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfSkin](https://cables.gl/op/Ops.Gl.GLTF.GltfSkin)
-
 
 ### GltfTexture
 ![GltfTexture op](images/ops/Ops_Gl_GLTF_GltfTexture.svg)
@@ -437,7 +392,7 @@
 
 **Description:** Load textures from inside a .glb file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Name** (String)
@@ -447,7 +402,7 @@
 - **Flip** (Number: Boolean)
 - **Pre Multiplied Alpha** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -457,10 +412,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PBGKve)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfTexture](https://cables.gl/op/Ops.Gl.GLTF.GltfTexture)
-
 
 ### GltfTransformNode
 ![GltfTransformNode op](images/ops/Ops_Gl_GLTF_GltfTransformNode.svg)
@@ -469,7 +421,7 @@
 
 **Description:** set transformation of a gltf node
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -480,17 +432,14 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfTransformNode"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode)
-
 
 ### GltfVertexAnim
 ![GltfVertexAnim op](images/ops/Ops_Gl_GLTF_GltfVertexAnim.svg)
@@ -499,21 +448,19 @@
 
 **Description:** play gltf vertex anim directly with its own timing
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Scene Time** (Number: Boolean)
 - **Time** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Found Node** (Number)
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfVertexAnim"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim)
 

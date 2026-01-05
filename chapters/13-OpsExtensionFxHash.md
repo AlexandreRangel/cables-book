@@ -11,12 +11,12 @@
 
 **Description:** FxHash simulator / generator of seeded random numbers
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Hash** (String)
 - **Randomize Hash** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Fxhash** (String)
 - **Fxrand 1** (Number)
@@ -27,8 +27,6 @@
 - **Fxhash Environment** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dnDl82)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FxHash"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
 

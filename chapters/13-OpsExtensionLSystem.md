@@ -11,7 +11,7 @@
 
 **Description:** Lsystem generator
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Iterations** (Number: Integer)
@@ -22,7 +22,7 @@
 - **Random Seed** (Number)
 - **Random Strength** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Out Trigger Geometry** (Trigger)
 - **Points Out** (Array)
@@ -30,8 +30,6 @@
 - **Final Generated String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xk724p)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Lsystem_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2](https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2)
 

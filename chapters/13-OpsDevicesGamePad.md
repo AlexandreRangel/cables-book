@@ -11,12 +11,12 @@
 
 **Description:** Outputs the button states of a gamepad
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **GamePad Data** (Object)
 - **Analog To Digital** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **ID** (String)
 - **Axes** (Array)
@@ -35,10 +35,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePad"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePad](https://cables.gl/op/Ops.Devices.GamePad.GamePad)
-
 
 ### GamePadJoystickAxis
 ![GamePadJoystickAxis op](images/ops/Ops_Devices_GamePad_GamePadJoystickAxis.svg)
@@ -47,12 +44,12 @@
 
 **Description:** get axis and angle of a joystick/thumbstick
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Axis** (Array)
 - **Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **X** (Number)
 - **Y** (Number)
@@ -61,10 +58,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bDqHdN)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePadJoystickAxis"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis](https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis)
-
 
 ### GamePads
 ![GamePads op](images/ops/Ops_Devices_GamePad_GamePads.svg)
@@ -73,11 +67,11 @@
 
 **Description:** list connected gamepads - press a button to connect
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Num Gamepads** (Number)
 - **Pad 0** (Object)
@@ -86,8 +80,6 @@
 - **Pad 3** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GamePads"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePads](https://cables.gl/op/Ops.Devices.GamePad.GamePads)
 

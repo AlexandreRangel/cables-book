@@ -11,12 +11,12 @@
 
 **Description:** Create a Web/Http server locally
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Hostname** (String)
 - **Port** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Request** (Trigger)
 - **Response** (Object)
@@ -26,10 +26,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lke9pn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HttpServer"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServer](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServer)
-
 
 ### HttpServerResponse
 ![HttpServerResponse op](images/ops/Ops_Extension_Standalone_Net_HttpServerResponse.svg)
@@ -38,22 +35,19 @@
 
 **Description:** Answer http requests by sending string to the browser/client
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Response** (Object)
 - **Body** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.Standalone.Net.HttpServerResponse documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lke9pn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HttpServerResponse"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse)
-
 
 ### IpAddress
 ![IpAddress op](images/ops/Ops_Extension_Standalone_Net_IpAddress.svg)
@@ -62,11 +56,11 @@
 
 **Description:** Outputs your local IP Adress
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Extension.Standalone.Net.IpAddress documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Local IP** (String)
 - **Interface** (String)
@@ -74,10 +68,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lCYxun)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IpAddress"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress)
-
 
 ### Osc_v2
 ![Osc_v2 op](images/ops/Ops_Extension_Standalone_Net_Osc_v2.svg)
@@ -86,11 +77,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Port** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Message Received** (Trigger)
 - **Message** (Object)
@@ -99,10 +90,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PCZCun)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Osc_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2)
-
 
 ### OscSend
 ![OscSend op](images/ops/Ops_Extension_Standalone_Net_OscSend.svg)
@@ -111,7 +99,7 @@
 
 **Description:** send data to a OSC device
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Connection** (Object)
 - **Net Address** (String)
@@ -121,16 +109,13 @@
 - **Send** (Trigger)
 - **Public** (1): OSC: READ / SEND
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.Standalone.Net.OscSend documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OscSend"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend)
-
 
 ### ReadTextFile
 ![ReadTextFile op](images/ops/Ops_Extension_Standalone_Net_ReadTextFile.svg)
@@ -139,12 +124,12 @@
 
 **Description:** Read a text file as string from the local file system
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Filename** (String)
 - **Read** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Content** (String)
@@ -153,10 +138,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ReadTextFile"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.ReadTextFile](https://cables.gl/op/Ops.Extension.Standalone.Net.ReadTextFile)
-
 
 ### SocketClusterServer
 ![SocketClusterServer op](images/ops/Ops_Extension_Standalone_Net_SocketClusterServer.svg)
@@ -165,14 +147,14 @@
 
 **Description:** start a socketcluster server
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Active** (Number: Boolean)
 - **Hostname** (String)
 - **Port** (Number: Integer)
 - **Path** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Receiving** (Trigger)
 - **Data** (Object)
@@ -181,8 +163,6 @@
 - **Error** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SocketClusterServer"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer)
 

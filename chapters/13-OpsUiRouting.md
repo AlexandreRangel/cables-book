@@ -11,20 +11,17 @@
 
 **Description:** Patchfield cable routing helper for array cables
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array In** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteArray](https://cables.gl/op/Ops.Ui.Routing.RouteArray)
-
 
 ### RouteNumber
 ![RouteNumber op](images/ops/Ops_Ui_Routing_RouteNumber.svg)
@@ -33,20 +30,17 @@
 
 **Description:** Patchfield cable routing helper for number cables
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteNumber](https://cables.gl/op/Ops.Ui.Routing.RouteNumber)
-
 
 ### RouteObject
 ![RouteObject op](images/ops/Ops_Ui_Routing_RouteObject.svg)
@@ -55,20 +49,17 @@
 
 **Description:** Patchfield cable routing helper for object cables
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array In** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteObject"*
-
 **Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteObject](https://cables.gl/op/Ops.Ui.Routing.RouteObject)
-
 
 ### RouteString
 ![RouteString op](images/ops/Ops_Ui_Routing_RouteString.svg)
@@ -77,20 +68,17 @@
 
 **Description:** Patchfield cable routing helper for string cables
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Value** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteString"*
-
 **Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteString](https://cables.gl/op/Ops.Ui.Routing.RouteString)
-
 
 ### RouteTrigger
 ![RouteTrigger op](images/ops/Ops_Ui_Routing_RouteTrigger.svg)
@@ -99,17 +87,15 @@
 
 **Description:** Routing Helper for trigger cables
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTrigger"*
 
 **Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteTrigger](https://cables.gl/op/Ops.Ui.Routing.RouteTrigger)
 

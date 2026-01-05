@@ -11,22 +11,19 @@
 
 **Description:** Rule of thirds image composition helper
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Show Center** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Gl.Meshes.ComposingGridOverlay documentation](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/G8mQQ2)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComposingGridOverlay"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay)
-
 
 ### Cone
 ![Cone op](images/ops/Ops_Gl_Meshes_Cone.svg)
@@ -35,7 +32,7 @@
 
 **Description:** number of horizontal segments
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Slices** (Number)
@@ -44,17 +41,14 @@
 - **Height** (Number)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fGA7W6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cone"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Cone](https://cables.gl/op/Ops.Gl.Meshes.Cone)
-
 
 ### Corner
 ![Corner op](images/ops/Ops_Gl_Meshes_Corner.svg)
@@ -63,7 +57,7 @@
 
 **Description:** render a rectangular corner
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -73,17 +67,14 @@
 - **Pivot X Index** (Number: Integer)
 - **Pivot Y Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/KWolQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Corner"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Corner](https://cables.gl/op/Ops.Gl.Meshes.Corner)
-
 
 ### Cylinder_v2
 ![Cylinder_v2 op](images/ops/Ops_Gl_Meshes_Cylinder_v2.svg)
@@ -92,7 +83,7 @@
 
 **Description:** draw parameterizable cylinder (aka tube,pipe,round,circle)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Render Mesh** (Number: Boolean)
@@ -105,17 +96,14 @@
 - **Caps** (Number: Boolean)
 - **Flat Normals** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GxagQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Cylinder_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Cylinder_v2](https://cables.gl/op/Ops.Gl.Meshes.Cylinder_v2)
-
 
 ### FloorGrid
 ![FloorGrid op](images/ops/Ops_Gl_Meshes_FloorGrid.svg)
@@ -124,21 +112,18 @@
 
 **Description:** draw a grid on the floor
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LiwB16)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FloorGrid"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.FloorGrid](https://cables.gl/op/Ops.Gl.Meshes.FloorGrid)
-
 
 ### FreeFormPlane
 ![FreeFormPlane op](images/ops/Ops_Gl_Meshes_FreeFormPlane.svg)
@@ -147,7 +132,7 @@
 
 **Description:** A freely deformable plane, rectangle, polygon
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **X 1** (Number)
@@ -171,17 +156,14 @@
 - **Tc X 4** (Number)
 - **Tc Y 4** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Q92nQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FreeFormPlane"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.FreeFormPlane](https://cables.gl/op/Ops.Gl.Meshes.FreeFormPlane)
-
 
 ### FullscreenRectangle_v2
 ![FullscreenRectangle_v2 op](images/ops/Ops_Gl_Meshes_FullscreenRectangle_v2.svg)
@@ -190,23 +172,20 @@
 
 **Description:** Draws a rectangle using the full WebGL canvas size
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Flip Y** (Number: Boolean)
 - **Flip X** (Number: Boolean)
 - **Texture** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uKkIeG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FullscreenRectangle_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.FullscreenRectangle_v2](https://cables.gl/op/Ops.Gl.Meshes.FullscreenRectangle_v2)
-
 
 ### GeometryToTexture_v3
 ![GeometryToTexture_v3 op](images/ops/Ops_Gl_Meshes_GeometryToTexture_v3.svg)
@@ -215,7 +194,7 @@
 
 **Description:** Convert vertices of a geometry to a data texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
@@ -229,7 +208,7 @@
 - **Pixel Format Index** (Number: Integer)
 - **Color Texture** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Total Vertices** (Number)
@@ -237,10 +216,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bhWkpX)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryToTexture_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.GeometryToTexture_v3](https://cables.gl/op/Ops.Gl.Meshes.GeometryToTexture_v3)
-
 
 ### Grid
 ![Grid op](images/ops/Ops_Gl_Meshes_Grid.svg)
@@ -249,7 +225,7 @@
 
 **Description:** Draw a simple grid of lines
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Num** (Number: Integer)
@@ -257,16 +233,13 @@
 - **Center** (Number: Boolean)
 - **Axis Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VxPlQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Grid"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Grid](https://cables.gl/op/Ops.Gl.Meshes.Grid)
-
 
 ### HeightMap
 ![HeightMap op](images/ops/Ops_Gl_Meshes_HeightMap.svg)
@@ -275,7 +248,7 @@
 
 **Description:** generate a rectangular mesh where the height is defined by the luminance of an image
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **File** (String)
@@ -287,17 +260,14 @@
 - **TexCoords Slice** (Number: Boolean)
 - **Flat** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bRlSDe)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HeightMap"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.HeightMap](https://cables.gl/op/Ops.Gl.Meshes.HeightMap)
-
 
 ### Helix
 ![Helix op](images/ops/Ops_Gl_Meshes_Helix.svg)
@@ -306,7 +276,7 @@
 
 **Description:** generates a helix, spiral spline
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
@@ -316,17 +286,14 @@
 - **Radius End** (Number)
 - **Height** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CW8-I6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Helix"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Helix](https://cables.gl/op/Ops.Gl.Meshes.Helix)
-
 
 ### Icosahedron_v2
 ![Icosahedron_v2 op](images/ops/Ops_Gl_Meshes_Icosahedron_v2.svg)
@@ -335,23 +302,20 @@
 
 **Description:** Renders a icosahedron (polyhedron with 20 faces)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ie6iQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Icosahedron_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Icosahedron_v2](https://cables.gl/op/Ops.Gl.Meshes.Icosahedron_v2)
-
 
 ### Line
 ![Line op](images/ops/Ops_Gl_Meshes_Line.svg)
@@ -360,7 +324,7 @@
 
 **Description:** Draw a line between two points
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **X 1** (Number)
@@ -370,17 +334,14 @@
 - **Y 2** (Number)
 - **Z 2** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Array** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/D_eE98)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Line"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Line](https://cables.gl/op/Ops.Gl.Meshes.Line)
-
 
 ### LinesArray
 ![LinesArray op](images/ops/Ops_Gl_Meshes_LinesArray.svg)
@@ -389,7 +350,7 @@
 
 **Description:** an array of lines
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -401,17 +362,14 @@
 - **Num Rows** (Number: Integer)
 - **Axis Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Point Arrays** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/oXke6r)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LinesArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.LinesArray](https://cables.gl/op/Ops.Gl.Meshes.LinesArray)
-
 
 ### MeshInstancerFromTexture_v3
 ![MeshInstancerFromTexture_v3 op](images/ops/Ops_Gl_Meshes_MeshInstancerFromTexture_v3.svg)
@@ -420,7 +378,7 @@
 
 **Description:** Draw the same mesh multiple times on the GPU
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Geometry** (Object:Geometry)
@@ -437,17 +395,14 @@
 - **Multiply Pos Y** (Number)
 - **Multiply Pos Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/H3cEpX)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancerFromTexture_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.MeshInstancerFromTexture_v3](https://cables.gl/op/Ops.Gl.Meshes.MeshInstancerFromTexture_v3)
-
 
 ### ParametricSurface
 ![ParametricSurface op](images/ops/Ops_Gl_Meshes_ParametricSurface.svg)
@@ -456,7 +411,7 @@
 
 **Description:** Creates a 3d mesh from a 2d area expressions
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Shapes Index** (Number: Integer)
 - **Render** (Trigger)
@@ -478,7 +433,7 @@
 - **Scale Z** (Number)
 - **Draw** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -488,10 +443,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TnUBsL)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ParametricSurface"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.ParametricSurface](https://cables.gl/op/Ops.Gl.Meshes.ParametricSurface)
-
 
 ### PointCloudFromArray_v2
 ![PointCloudFromArray_v2 op](images/ops/Ops_Gl_Meshes_PointCloudFromArray_v2.svg)
@@ -500,7 +452,7 @@
 
 **Description:** visualize an array of coordinates as points
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Positions** (Array)
@@ -511,17 +463,14 @@
 - **Point Sizes** (Array)
 - **Vertex Colors** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/v8G4Wz)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCloudFromArray_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromArray_v2](https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromArray_v2)
-
 
 ### PointCloudFromTexture
 ![PointCloudFromTexture op](images/ops/Ops_Gl_Meshes_PointCloudFromTexture.svg)
@@ -530,7 +479,7 @@
 
 **Description:** Visualize a RGB texture as XYZ coordinates as points
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Num Points** (Number: Integer)
@@ -540,17 +489,14 @@
 - **Remove Point At 0** (Number: Boolean)
 - **Ignore Alpha 0** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Total Points** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bhWkpX)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointCloudFromTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromTexture](https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromTexture)
-
 
 ### Polyhedron_v2
 ![Polyhedron_v2 op](images/ops/Ops_Gl_Meshes_Polyhedron_v2.svg)
@@ -559,20 +505,17 @@
 
 **Description:** Generate polyhedron meshes
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Receipt** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VRG6Q6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Polyhedron_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Polyhedron_v2](https://cables.gl/op/Ops.Gl.Meshes.Polyhedron_v2)
-
 
 ### Pyramid_v2
 ![Pyramid_v2 op](images/ops/Ops_Gl_Meshes_Pyramid_v2.svg)
@@ -581,7 +524,7 @@
 
 **Description:** render a pyramid mesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -590,17 +533,14 @@
 - **Smooth** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Y09mQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Pyramid_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Pyramid_v2](https://cables.gl/op/Ops.Gl.Meshes.Pyramid_v2)
-
 
 ### QuadWarpTexture
 ![QuadWarpTexture op](images/ops/Ops_Gl_Meshes_QuadWarpTexture.svg)
@@ -609,7 +549,7 @@
 
 **Description:** Warp a texture mapped quad (projection mapping)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **A X** (Number)
@@ -624,16 +564,13 @@
 - **Flip X** (Number: Boolean)
 - **Texture** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T2A7zp)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "QuadWarpTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.QuadWarpTexture](https://cables.gl/op/Ops.Gl.Meshes.QuadWarpTexture)
-
 
 ### Rectangle9Slice
 ![Rectangle9Slice op](images/ops/Ops_Gl_Meshes_Rectangle9Slice.svg)
@@ -642,7 +579,7 @@
 
 **Description:** nine slice image format texture mapped rectangle
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -654,17 +591,14 @@
 - **Pivot X Index** (Number: Integer)
 - **Pivot Y Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WkQpIG)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Rectangle9Slice"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Rectangle9Slice](https://cables.gl/op/Ops.Gl.Meshes.Rectangle9Slice)
-
 
 ### RectangleFrame_v2
 ![RectangleFrame_v2 op](images/ops/Ops_Gl_Meshes_RectangleFrame_v2.svg)
@@ -673,7 +607,7 @@
 
 **Description:** Draws a rectangle frame
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -685,17 +619,14 @@
 - **Draw Right** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HLViQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RectangleFrame_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.RectangleFrame_v2](https://cables.gl/op/Ops.Gl.Meshes.RectangleFrame_v2)
-
 
 ### RectangleRounded_v2
 ![RectangleRounded_v2 op](images/ops/Ops_Gl_Meshes_RectangleRounded_v2.svg)
@@ -704,7 +635,7 @@
 
 **Description:** Draws a rectangle with rounded corners
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
@@ -717,17 +648,14 @@
 - **Bottom Right** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1la6mJ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RectangleRounded_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.RectangleRounded_v2](https://cables.gl/op/Ops.Gl.Meshes.RectangleRounded_v2)
-
 
 ### SimpleSpline_v2
 ![SimpleSpline_v2 op](images/ops/Ops_Gl_Meshes_SimpleSpline_v2.svg)
@@ -736,7 +664,7 @@
 
 **Description:** Draws a simple spline only one pixel wide
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Points** (Array)
@@ -745,17 +673,14 @@
 - **TexCoords Array** (Array)
 - **Vertex Colors** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Geometry** (Object)
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/qRD7W6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleSpline_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.SimpleSpline_v2](https://cables.gl/op/Ops.Gl.Meshes.SimpleSpline_v2)
-
 
 ### SimpleWireframe
 ![SimpleWireframe op](images/ops/Ops_Gl_Meshes_SimpleWireframe.svg)
@@ -764,21 +689,18 @@
 
 **Description:** Simple Wireframe Line Renderer
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gt0cay)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleWireframe"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.SimpleWireframe](https://cables.gl/op/Ops.Gl.Meshes.SimpleWireframe)
-
 
 ### SplineMesh_v2
 ![SplineMesh_v2 op](images/ops/Ops_Gl_Meshes_SplineMesh_v2.svg)
@@ -787,23 +709,20 @@
 
 **Description:** draw splines/lines
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Points** (Array)
 - **Tesselate Edges** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3l5Uu-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineMesh_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.SplineMesh_v2](https://cables.gl/op/Ops.Gl.Meshes.SplineMesh_v2)
-
 
 ### SplineMeshMaterial_v2
 ![SplineMeshMaterial_v2 op](images/ops/Ops_Gl_Meshes_SplineMeshMaterial_v2.svg)
@@ -812,7 +731,7 @@
 
 **Description:** material for splinemesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -828,17 +747,14 @@
 - **B** (Number)
 - **A** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tnUJta)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineMeshMaterial_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.SplineMeshMaterial_v2](https://cables.gl/op/Ops.Gl.Meshes.SplineMeshMaterial_v2)
-
 
 ### TextMesh_v2
 ![TextMesh_v2 op](images/ops/Ops_Gl_Meshes_TextMesh_v2.svg)
@@ -847,7 +763,7 @@
 
 **Description:** Draws text in 3d space using one of the font ops
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Text** (String)
@@ -865,7 +781,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Total Lines** (Number)
@@ -874,10 +790,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LzDnH-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextMesh_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.TextMesh_v2](https://cables.gl/op/Ops.Gl.Meshes.TextMesh_v2)
-
 
 ### Torus_v3
 ![Torus_v3 op](images/ops/Ops_Gl_Meshes_Torus_v3.svg)
@@ -886,7 +799,7 @@
 
 **Description:** Draw a torus (doughnut, donut, ring mesh)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Sides** (Number)
@@ -895,17 +808,14 @@
 - **OuterRadius** (Number)
 - **Render Mesh** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ECMhQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Torus_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.Torus_v3](https://cables.gl/op/Ops.Gl.Meshes.Torus_v3)
-
 
 ### TriangleSphere
 ![TriangleSphere op](images/ops/Ops_Gl_Meshes_TriangleSphere.svg)
@@ -914,21 +824,19 @@
 
 **Description:** A sphere mesh with uniform distributed vertices
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Iterations** (Number)
 - **Flat** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/T43V0D)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriangleSphere"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.Meshes.TriangleSphere](https://cables.gl/op/Ops.Gl.Meshes.TriangleSphere)
 

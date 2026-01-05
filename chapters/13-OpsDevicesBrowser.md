@@ -11,11 +11,11 @@
 
 **Description:** Reports the browser being used
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Is Mobile** (booleanNumber)
 - **Is Touchscreen** (booleanNumber)
@@ -42,10 +42,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YOJiIk)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BrowserInfo_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
-
 
 ### ColorScheme
 ![ColorScheme op](images/ops/Ops_Devices_Browser_ColorScheme.svg)
@@ -54,11 +51,11 @@
 
 **Description:** Get light/dark color scheme preference of the browser
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Color Scheme** (String)
 - **Dark Mode** (booleanNumber)
@@ -67,10 +64,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/An48HJ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorScheme"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
-
 
 ### History
 ![History op](images/ops/Ops_Devices_Browser_History.svg)
@@ -79,21 +73,18 @@
 
 **Description:** Move back or forward in the browser navigation history
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Back** (Trigger)
 - **Forward** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.History#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "History"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.History](https://cables.gl/op/Ops.Devices.Browser.History)
-
 
 ### JsExpression
 ![JsExpression op](images/ops/Ops_Devices_Browser_JsExpression.svg)
@@ -102,11 +93,11 @@
 
 **Description:** evaluate a javascript expression
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **JS Expression** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result String** (String)
 - **Result Number** (Number)
@@ -116,10 +107,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gpp4O8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsExpression"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
-
 
 ### JsMemory
 ![JsMemory op](images/ops/Ops_Devices_Browser_JsMemory.svg)
@@ -128,21 +116,18 @@
 
 **Description:** browser js memory consumption
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Used Heap Size** (Number)
 - **Total Heap Size** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_UyS0f)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "JsMemory"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
-
 
 ### UserActivation
 ![UserActivation op](images/ops/Ops_Devices_Browser_UserActivation.svg)
@@ -151,11 +136,11 @@
 
 **Description:** detect if the user interacted with or activated the page
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **User Is Or Was Active** (booleanNumber)
@@ -165,10 +150,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3S26Qc)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UserActivation"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
-
 
 ### WebShare
 ![WebShare op](images/ops/Ops_Devices_Browser_WebShare.svg)
@@ -177,7 +159,7 @@
 
 **Description:** Opens a sharing dialog to share text and images
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Text** (String)
 - **URL** (String)
@@ -187,14 +169,12 @@
 - **Filename** (String)
 - **Share** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Status** (String)
 - **Supported** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pQ49m4)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebShare"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
 

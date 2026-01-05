@@ -11,20 +11,17 @@
 
 **Description:** Load OTF & TTF fonts via OpenType library
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Font File** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Opentype Font** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OpentypeFont"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont](https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont)
-
 
 ### OpentypeToSvgPath
 ![OpentypeToSvgPath op](images/ops/Ops_Extension_OpenType_OpentypeToSvgPath.svg)
@@ -33,19 +30,17 @@
 
 **Description:** get svg path from (OTF) OpentypeFont using the opentype library
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Opentype Font** (Object)
 - **Text** (String)
 - **Letter Spacing** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Path String** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "OpentypeToSvgPath"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath](https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath)
 

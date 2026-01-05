@@ -11,23 +11,20 @@
 
 **Description:** delay triggering next port by x seconds
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Delay** (Number)
 - **Cancel** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Delaying** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VgtMji)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DelayedTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.DelayedTrigger](https://cables.gl/op/Ops.Trigger.DelayedTrigger)
-
 
 ### GateTrigger
 ![GateTrigger op](images/ops/Ops_Trigger_GateTrigger.svg)
@@ -36,21 +33,18 @@
 
 **Description:** Allows a trigger to pass only if the gate is open
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Pass Through** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xotJAH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GateTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.GateTrigger](https://cables.gl/op/Ops.Trigger.GateTrigger)
-
 
 ### Interval
 ![Interval op](images/ops/Ops_Trigger_Interval.svg)
@@ -59,21 +53,18 @@
 
 **Description:** Timed Trigger every x ms
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Interval** (Number)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ZdvX7i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Interval"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.Interval](https://cables.gl/op/Ops.Trigger.Interval)
-
 
 ### IsTriggered
 ![IsTriggered op](images/ops/Ops_Trigger_IsTriggered.svg)
@@ -82,21 +73,18 @@
 
 **Description:** outputs true if being triggered last frame
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kmXCm6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "IsTriggered"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.IsTriggered](https://cables.gl/op/Ops.Trigger.IsTriggered)
-
 
 ### NthTrigger_v2
 ![NthTrigger_v2 op](images/ops/Ops_Trigger_NthTrigger_v2.svg)
@@ -105,21 +93,18 @@
 
 **Description:** Lets a trigger through every nth time (trigger limiter)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Nth** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/cnVqii)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NthTrigger_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.NthTrigger_v2](https://cables.gl/op/Ops.Trigger.NthTrigger_v2)
-
 
 ### NumberByTrigger
 ![NumberByTrigger op](images/ops/Ops_Trigger_NumberByTrigger.svg)
@@ -128,21 +113,18 @@
 
 **Description:** Outputs the last number of the input port which was triggered
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Trigger.NumberByTrigger documentation](https://cables.gl/op/Ops.Trigger.NumberByTrigger) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Number** (Number)
 - **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kzTxsh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberByTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.NumberByTrigger](https://cables.gl/op/Ops.Trigger.NumberByTrigger)
-
 
 ### NumberByTriggerMultiPort_v2
 ![NumberByTriggerMultiPort_v2 op](images/ops/Ops_Trigger_NumberByTriggerMultiPort_v2.svg)
@@ -151,22 +133,19 @@
 
 **Description:** output a number by triggering an index port
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger_0** (Trigger)
 - **Add Port** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Number Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ubuysh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "NumberByTriggerMultiPort_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.NumberByTriggerMultiPort_v2](https://cables.gl/op/Ops.Trigger.NumberByTriggerMultiPort_v2)
-
 
 ### ProbabilityTrigger
 ![ProbabilityTrigger op](images/ops/Ops_Trigger_ProbabilityTrigger.svg)
@@ -175,22 +154,19 @@
 
 **Description:** trigger by chance
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Probability** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Output** (Trigger)
 - **Inverse Trigger Output** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/I61CCu)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ProbabilityTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.ProbabilityTrigger](https://cables.gl/op/Ops.Trigger.ProbabilityTrigger)
-
 
 ### RandomTrigger
 ![RandomTrigger op](images/ops/Ops_Trigger_RandomTrigger.svg)
@@ -199,14 +175,14 @@
 
 **Description:** randomly trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Num Times** (Number)
 - **Seed** (Number)
 - **Only Once** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Render** (Trigger)
 - **Num Times** (Number)
@@ -224,10 +200,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3P54t7)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.RandomTrigger](https://cables.gl/op/Ops.Trigger.RandomTrigger)
-
 
 ### Repeat2d
 ![Repeat2d op](images/ops/Ops_Trigger_Repeat2d.svg)
@@ -236,7 +209,7 @@
 
 **Description:** Triggers all ops underneath Num X * Num Y times
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Num X** (Number: Integer)
@@ -245,7 +218,7 @@
 - **Center** (Number: Boolean)
 - **Centers X and Y around the origin** (0/0)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -255,10 +228,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lPZfgg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Repeat2d"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.Repeat2d](https://cables.gl/op/Ops.Trigger.Repeat2d)
-
 
 ### Repeat_v2
 ![Repeat_v2 op](images/ops/Ops_Trigger_Repeat_v2.svg)
@@ -267,22 +237,19 @@
 
 **Description:** Triggers all ops below x times (for loop / while)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Repeats** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Index** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VFAfgg)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Repeat_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.Repeat_v2](https://cables.gl/op/Ops.Trigger.Repeat_v2)
-
 
 ### RouteTrigger
 ![RouteTrigger op](images/ops/Ops_Trigger_RouteTrigger.svg)
@@ -291,12 +258,12 @@
 
 **Description:** Triggers one of the out ports - value index switch case (was SwitchTrigger)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next Trigger** (Trigger)
 - **Switched Value** (Number)
@@ -329,10 +296,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DzH9S5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.RouteTrigger](https://cables.gl/op/Ops.Trigger.RouteTrigger)
-
 
 ### RouteTriggerAnimated
 ![RouteTriggerAnimated op](images/ops/Ops_Trigger_RouteTriggerAnimated.svg)
@@ -341,13 +305,13 @@
 
 **Description:** animated switching between things
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **Exe** (Trigger)
 - **Duration** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Qutsn94pc** (Trigger)
 - **Hvyzlh9o8** (Trigger)
@@ -358,10 +322,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pUtH15)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerAnimated"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.RouteTriggerAnimated](https://cables.gl/op/Ops.Trigger.RouteTriggerAnimated)
-
 
 ### RouteTriggerMultiPort_v2
 ![RouteTriggerMultiPort_v2 op](images/ops/Ops_Trigger_RouteTriggerMultiPort_v2.svg)
@@ -370,12 +331,12 @@
 
 **Description:** Triggers one of the - value index switch case
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
@@ -402,10 +363,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NxGysh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerMultiPort_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.RouteTriggerMultiPort_v2](https://cables.gl/op/Ops.Trigger.RouteTriggerMultiPort_v2)
-
 
 ### RouteTriggerString_v2
 ![RouteTriggerString_v2 op](images/ops/Ops_Trigger_RouteTriggerString_v2.svg)
@@ -414,7 +372,7 @@
 
 **Description:** route trigger output by string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Switch Value** (String)
@@ -443,7 +401,7 @@
 - **String 22** (String)
 - **String 23** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next Trigger** (Trigger)
 - **Switched Index** (Number)
@@ -474,10 +432,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8uTjhI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RouteTriggerString_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.RouteTriggerString_v2](https://cables.gl/op/Ops.Trigger.RouteTriggerString_v2)
-
 
 ### Sequence
 ![Sequence op](images/ops/Ops_Trigger_Sequence.svg)
@@ -486,7 +441,7 @@
 
 **Description:** control the order of execution/triggering
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Exe 0** (Trigger)
@@ -505,7 +460,7 @@
 - **Exe 13** (Trigger)
 - **Exe 14** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
@@ -526,10 +481,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0bQrii)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Sequence"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.Sequence](https://cables.gl/op/Ops.Trigger.Sequence)
-
 
 ### SequenceMultiPort_v2
 ![SequenceMultiPort_v2 op](images/ops/Ops_Trigger_SequenceMultiPort_v2.svg)
@@ -538,22 +490,19 @@
 
 **Description:** sequence trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Input_0** (Trigger)
 - **Add Port** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Output_0** (Trigger)
 - **Output_1** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F5L0sh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SequenceMultiPort_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.SequenceMultiPort_v2](https://cables.gl/op/Ops.Trigger.SequenceMultiPort_v2)
-
 
 ### SwitchTrigger
 ![SwitchTrigger op](images/ops/Ops_Trigger_SwitchTrigger.svg)
@@ -562,7 +511,7 @@
 
 **Description:** route input triggers by index to one output
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger Index** (Number: Integer)
 - **Trigger In 0** (Trigger)
@@ -582,16 +531,13 @@
 - **Trigger In 14** (Trigger)
 - **Trigger In 15** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/upF4rn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.SwitchTrigger](https://cables.gl/op/Ops.Trigger.SwitchTrigger)
-
 
 ### Threshold
 ![Threshold op](images/ops/Ops_Trigger_Threshold.svg)
@@ -600,20 +546,17 @@
 
 **Description:** Triggers only once when threshold is crossed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Threshold** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Trigger.Threshold documentation](https://cables.gl/op/Ops.Trigger.Threshold) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pG-Mwq)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Threshold"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.Threshold](https://cables.gl/op/Ops.Trigger.Threshold)
-
 
 ### TimedSequence
 ![TimedSequence op](images/ops/Ops_Trigger_TimedSequence.svg)
@@ -622,14 +565,14 @@
 
 **Description:** timed switching of trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Current** (Number: Integer)
 - **OverwriteTime** (Number: Boolean)
 - **IgnoreInSubPatch** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **TriggerAlways** (Trigger)
 - **Names** (Array)
@@ -670,10 +613,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GbEqL-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimedSequence"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TimedSequence](https://cables.gl/op/Ops.Trigger.TimedSequence)
-
 
 ### TimeSinceTrigger
 ![TimeSinceTrigger op](images/ops/Ops_Trigger_TimeSinceTrigger.svg)
@@ -682,23 +622,20 @@
 
 **Description:** Get the time since last trigger
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fCN_98)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeSinceTrigger"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TimeSinceTrigger](https://cables.gl/op/Ops.Trigger.TimeSinceTrigger)
-
 
 ### TriggerButton
 ![TriggerButton op](images/ops/Ops_Trigger_TriggerButton.svg)
@@ -707,20 +644,17 @@
 
 **Description:** simple button to trigger manually
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/05Arii)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerButton"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerButton](https://cables.gl/op/Ops.Trigger.TriggerButton)
-
 
 ### TriggerCounter
 ![TriggerCounter op](images/ops/Ops_Trigger_TriggerCounter.svg)
@@ -729,22 +663,19 @@
 
 **Description:** Counts how often the port was triggered
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **TimesTriggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WNh8pc)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerCounter"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerCounter](https://cables.gl/op/Ops.Trigger.TriggerCounter)
-
 
 ### TriggerCounterLoop
 ![TriggerCounterLoop op](images/ops/Ops_Trigger_TriggerCounterLoop.svg)
@@ -753,24 +684,21 @@
 
 **Description:** Increments with each trigger and loops depending on min and max loop values.
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Reset** (Trigger)
 - **Loop Min** (Number: Integer)
 - **Loop Max** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Current Count** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V8TekF)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerCounterLoop"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerCounterLoop](https://cables.gl/op/Ops.Trigger.TriggerCounterLoop)
-
 
 ### TriggerDistributeByValue
 ![TriggerDistributeByValue op](images/ops/Ops_Trigger_TriggerDistributeByValue.svg)
@@ -779,14 +707,14 @@
 
 **Description:** triggers evenly distributed by value
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Number** (Number)
 - **Max** (Number)
 - **Num Outputs** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Num** (Number)
 - **Trigger 0** (Trigger)
@@ -812,10 +740,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FsZFVB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerDistributeByValue"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerDistributeByValue](https://cables.gl/op/Ops.Trigger.TriggerDistributeByValue)
-
 
 ### TriggerExtender
 ![TriggerExtender op](images/ops/Ops_Trigger_TriggerExtender.svg)
@@ -824,20 +749,17 @@
 
 **Description:** Extends a trigger (useful in big patches for better overview)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerExtender"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerExtender](https://cables.gl/op/Ops.Trigger.TriggerExtender)
-
 
 ### TriggerIfDecreased
 ![TriggerIfDecreased op](images/ops/Ops_Trigger_TriggerIfDecreased.svg)
@@ -846,20 +768,17 @@
 
 **Description:** trigger if a value decreases / gets smaller
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerIfDecreased"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerIfDecreased](https://cables.gl/op/Ops.Trigger.TriggerIfDecreased)
-
 
 ### TriggerIfIncreased
 ![TriggerIfIncreased op](images/ops/Ops_Trigger_TriggerIfIncreased.svg)
@@ -868,20 +787,17 @@
 
 **Description:** Outputs a trigger if the value of a number increases
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/AFiCfe)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerIfIncreased"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerIfIncreased](https://cables.gl/op/Ops.Trigger.TriggerIfIncreased)
-
 
 ### TriggerLimiter
 ![TriggerLimiter op](images/ops/Ops_Trigger_TriggerLimiter.svg)
@@ -890,22 +806,19 @@
 
 **Description:** Limits how often a trigger goes through to x ms
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **In Trigger** (Trigger)
 - **Milliseconds** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Out Trigger** (Trigger)
 - **Progress** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dS8EQm)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerLimiter"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerLimiter](https://cables.gl/op/Ops.Trigger.TriggerLimiter)
-
 
 ### TriggerNumber
 ![TriggerNumber op](images/ops/Ops_Trigger_TriggerNumber.svg)
@@ -914,22 +827,19 @@
 
 **Description:** Outputs a number when triggered
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Set** (Trigger)
 - **Number** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Out Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Qq3Y7i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerNumber](https://cables.gl/op/Ops.Trigger.TriggerNumber)
-
 
 ### TriggerOnce
 ![TriggerOnce op](images/ops/Ops_Trigger_TriggerOnce.svg)
@@ -938,22 +848,19 @@
 
 **Description:** Trigger the following children once
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9Eiyci)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnce"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerOnce](https://cables.gl/op/Ops.Trigger.TriggerOnce)
-
 
 ### TriggerOnChangeArray_v2
 ![TriggerOnChangeArray_v2 op](images/ops/Ops_Trigger_TriggerOnChangeArray_v2.svg)
@@ -962,21 +869,18 @@
 
 **Description:** triggers when array has changed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Changed** (Trigger)
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeArray_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2)
-
 
 ### TriggerOnChangeObject_v2
 ![TriggerOnChangeObject_v2 op](images/ops/Ops_Trigger_TriggerOnChangeObject_v2.svg)
@@ -985,21 +889,18 @@
 
 **Description:** triggers when Object has changed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Object** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Changed** (Trigger)
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeObject_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2)
-
 
 ### TriggerOnChangeString_v2
 ![TriggerOnChangeString_v2 op](images/ops/Ops_Trigger_TriggerOnChangeString_v2.svg)
@@ -1008,21 +909,18 @@
 
 **Description:** triggers when string has changed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **String** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Changed** (Trigger)
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ohxBci)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeString_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2)
-
 
 ### TriggerOnChangeTexture
 ![TriggerOnChangeTexture op](images/ops/Ops_Trigger_TriggerOnChangeTexture.svg)
@@ -1031,21 +929,18 @@
 
 **Description:** triggers when texture has changed
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Texture** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Changed** (Trigger)
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QGqQ7f)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerOnChangeTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerOnChangeTexture](https://cables.gl/op/Ops.Trigger.TriggerOnChangeTexture)
-
 
 ### TriggerReceive
 ![TriggerReceive op](images/ops/Ops_Trigger_TriggerReceive.svg)
@@ -1054,20 +949,17 @@
 
 **Description:** Receives triggers from a TriggerSend op with the same variable name
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Trigger.TriggerReceive documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Triggered** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerReceive"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerReceive](https://cables.gl/op/Ops.Trigger.TriggerReceive)
-
 
 ### TriggerReceiveFilter
 ![TriggerReceiveFilter op](images/ops/Ops_Trigger_TriggerReceiveFilter.svg)
@@ -1076,21 +968,18 @@
 
 **Description:** receives all named trigges and relays them, optionally using a filter-prefix on the name
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Prefix** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Trigger Name** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/niHmJt)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerReceiveFilter"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerReceiveFilter](https://cables.gl/op/Ops.Trigger.TriggerReceiveFilter)
-
 
 ### TriggerSend
 ![TriggerSend op](images/ops/Ops_Trigger_TriggerSend.svg)
@@ -1099,20 +988,17 @@
 
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hrXVpH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerSend"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerSend](https://cables.gl/op/Ops.Trigger.TriggerSend)
-
 
 ### TriggerSendNamed
 ![TriggerSendNamed op](images/ops/Ops_Trigger_TriggerSendNamed.svg)
@@ -1121,21 +1007,18 @@
 
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Named Trigger** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Trigger.TriggerSendNamed documentation](https://cables.gl/op/Ops.Trigger.TriggerSendNamed) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tc3pcI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerSendNamed"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerSendNamed](https://cables.gl/op/Ops.Trigger.TriggerSendNamed)
-
 
 ### TriggersPerSecond
 ![TriggersPerSecond op](images/ops/Ops_Trigger_TriggersPerSecond.svg)
@@ -1144,20 +1027,17 @@
 
 **Description:** Counts how often the port is triggered per second
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Cps** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/JCkpVJ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggersPerSecond"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggersPerSecond](https://cables.gl/op/Ops.Trigger.TriggersPerSecond)
-
 
 ### TriggerString
 ![TriggerString op](images/ops/Ops_Trigger_TriggerString.svg)
@@ -1166,22 +1046,19 @@
 
 **Description:** trigger a string
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **String** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VHsHue)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TriggerString"*
-
 **Docs:** [https://cables.gl/op/Ops.Trigger.TriggerString](https://cables.gl/op/Ops.Trigger.TriggerString)
-
 
 ### ValueBecameZeroTrigger
 ![ValueBecameZeroTrigger op](images/ops/Ops_Trigger_ValueBecameZeroTrigger.svg)
@@ -1190,17 +1067,15 @@
 
 **Description:** Triggers when the input value became zero
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Value** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Became Zero Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ValueBecameZeroTrigger"*
 
 **Docs:** [https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger)
 

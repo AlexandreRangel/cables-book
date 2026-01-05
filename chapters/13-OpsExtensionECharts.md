@@ -11,7 +11,7 @@
 
 **Description:** wrapper for echarts-library
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Create** (Trigger)
 - **Parent DOM Element** (Object)
@@ -29,7 +29,7 @@
 - **Style** (Number: String)
 - **Visible** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **DOM Element** (Object)
 - **ECharts Instance** (Object)
@@ -38,10 +38,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ECharts"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
-
 
 ### EChartsEvent
 ![EChartsEvent op](images/ops/Ops_Extension_ECharts_EChartsEvent.svg)
@@ -50,7 +47,7 @@
 
 **Description:** capture echart-library-events
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **ECharts Instance** (Object)
 - **Event Name** (String)
@@ -58,15 +55,13 @@
 - **Query Object** (Object)
 - **Refresh Event Binding** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Out Chart** (Object)
 - **Trigger** (Trigger)
 - **Event Params** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EChartsEvent"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
 

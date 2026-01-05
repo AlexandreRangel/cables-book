@@ -11,7 +11,7 @@
 
 **Description:** Create a physics body/collision shape using a any geometry or select a shape
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Name** (String)
@@ -34,7 +34,7 @@
 - **Reset** (Trigger)
 - **Activate** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Ray Hit** (booleanNumber)
@@ -42,10 +42,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S_jPZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoBody"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody)
-
 
 ### AmmoBodyCollision
 ![AmmoBodyCollision op](images/ops/Ops_Extension_AmmoPhysics_AmmoBodyCollision.svg)
@@ -54,7 +51,7 @@
 
 **Description:** Check if physics bodies are colliding
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Name 1** (String)
@@ -64,7 +61,7 @@
 - **Match Name 2 Index** (Number: Integer)
 - **match name 2** (if set)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Colliding** (Number)
@@ -74,10 +71,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/S_jPZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoBodyCollision"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision)
-
 
 ### AmmoCharacter
 ![AmmoCharacter op](images/ops/Ops_Extension_AmmoPhysics_AmmoCharacter.svg)
@@ -86,7 +80,7 @@
 
 **Description:** Control and move a character in a physics environment
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Radius** (Number)
@@ -111,7 +105,7 @@
 - **Speed** (Number)
 - **Add Velocity Y** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Position X** (Number)
@@ -121,10 +115,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoCharacter"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter)
-
 
 ### AmmoCharacterFpsCamera
 ![AmmoCharacterFpsCamera op](images/ops/Ops_Extension_AmmoPhysics_AmmoCharacterFpsCamera.svg)
@@ -133,7 +124,7 @@
 
 **Description:** First person camera to use with AmmoCharacter
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Enable Pointer Lock** (Number: Boolean)
@@ -142,7 +133,7 @@
 - **Mouse Speed** (Number)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **IsLocked** (Number)
@@ -157,10 +148,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoCharacterFpsCamera"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera)
-
 
 ### AmmoDebugRenderer
 ![AmmoDebugRenderer op](images/ops/Ops_Extension_AmmoPhysics_AmmoDebugRenderer.svg)
@@ -169,7 +157,7 @@
 
 **Description:** Visualize the physical bodies as lines and points
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Draw Wireframe** (Number: Boolean)
@@ -179,16 +167,13 @@
 - **Depth** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoDebugRenderer"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer)
-
 
 ### AmmoEmitter
 ![AmmoEmitter op](images/ops/Ops_Extension_AmmoPhysics_AmmoEmitter.svg)
@@ -197,7 +182,7 @@
 
 **Description:** Emit Ammo physics bodies by triggering
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 - **Limit Bodies** (Number: Integer)
@@ -216,7 +201,7 @@
 - **Remove All** (Trigger)
 - **Activate All** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Total Bodies** (Number)
@@ -225,10 +210,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/5hQROe)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoEmitter"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter)
-
 
 ### AmmoRaycast
 ![AmmoRaycast op](images/ops/Ops_Extension_AmmoPhysics_AmmoRaycast.svg)
@@ -237,7 +219,7 @@
 
 **Description:** Cast a ray and detect colliding bodies
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Screen X** (Number)
@@ -248,7 +230,7 @@
 - **Active** (Number: Boolean)
 - **Change Cursor** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
@@ -259,10 +241,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gh2f_4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoRaycast"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast)
-
 
 ### AmmoWorld
 ![AmmoWorld op](images/ops/Ops_Extension_AmmoPhysics_AmmoWorld.svg)
@@ -271,7 +250,7 @@
 
 **Description:** Simulate physical world
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Simulate** (Number: Boolean)
@@ -282,7 +261,7 @@
 - **Activate All** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Total Bodies** (Number)
@@ -292,10 +271,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/psyNZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmmoWorld"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld)
-
 
 ### GltfAmmoBodies
 ![GltfAmmoBodies op](images/ops/Ops_Extension_AmmoPhysics_GltfAmmoBodies.svg)
@@ -304,7 +280,7 @@
 
 **Description:** Create physics bodies from a GLTF File
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 - **Shape Index** (Number: Integer)
@@ -312,13 +288,11 @@
 - **Mass Kg** (Number)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Meshes** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gh2f_4)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GltfAmmoBodies"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies](https://cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies)
 

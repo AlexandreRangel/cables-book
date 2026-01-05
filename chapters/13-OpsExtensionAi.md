@@ -11,13 +11,13 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **String1** (String)
 - **Headers** (Object)
 - **Reload** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Z2gtag4y7** (Array)
 - **Jcju8npa2** (booleanNumber)
@@ -25,10 +25,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LLmModelList"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Ai.LLmModelList](https://cables.gl/op/Ops.Extension.Ai.LLmModelList)
-
 
 ### LlmPrompt
 ![LlmPrompt op](images/ops/Ops_Extension_Ai_LlmPrompt.svg)
@@ -37,7 +34,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Prompt** (String)
 - **Value** (String)
@@ -46,7 +43,7 @@
 - **Run** (Trigger)
 - **Auto Request** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **I4feefw9n** (Object)
 - **Klu6r35ga** (booleanNumber)
@@ -54,8 +51,6 @@
 - **Aosval1gx** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LlmPrompt"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.Ai.LlmPrompt](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt)
 

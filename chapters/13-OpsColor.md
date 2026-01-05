@@ -11,20 +11,17 @@
 
 **Description:** Sort an array of colors by saturation/lightness etc.
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Colors** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **New Colors** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKfluu)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorArraySort"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.ColorArraySort](https://cables.gl/op/Ops.Color.ColorArraySort)
-
 
 ### ColorPalettes
 ![ColorPalettes op](images/ops/Ops_Color_ColorPalettes.svg)
@@ -33,12 +30,12 @@
 
 **Description:** Contains a collection of nice color palettes output to texture or array via index
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **Smooth** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Texture** (Object)
 - **Color Array** (Array)
@@ -46,10 +43,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xRvD98)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorPalettes"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.ColorPalettes](https://cables.gl/op/Ops.Color.ColorPalettes)
-
 
 ### ColorValue
 ![ColorValue op](images/ops/Ops_Color_ColorValue.svg)
@@ -58,14 +52,14 @@
 
 **Description:** Use a color value on multiple places
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **A** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Outr** (Number)
 - **Outg** (Number)
@@ -76,10 +70,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/19KZet)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorValue"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.ColorValue](https://cables.gl/op/Ops.Color.ColorValue)
-
 
 ### EyeDropper
 ![EyeDropper op](images/ops/Ops_Color_EyeDropper.svg)
@@ -88,11 +79,11 @@
 
 **Description:** Native color picker
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Open** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Hex** (String)
 - **R** (Number)
@@ -102,10 +93,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/kYsAkv)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "EyeDropper"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.EyeDropper](https://cables.gl/op/Ops.Color.EyeDropper)
-
 
 ### Gradient
 ![Gradient op](images/ops/Ops_Color_Gradient.svg)
@@ -114,21 +102,18 @@
 
 **Description:** gradient editor,outputs an objects with gradient information
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Gradient** (Number)
 - **Randomize Colors** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Gradient Object** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/QB7br5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Gradient"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.Gradient](https://cables.gl/op/Ops.Color.Gradient)
-
 
 ### GradientColorArray
 ![GradientColorArray op](images/ops/Ops_Color_GradientColorArray.svg)
@@ -137,7 +122,7 @@
 
 **Description:** texture containing a colour gradient that can be altered with an editor
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Gradient** (Number)
 - **Direction Index** (Number: Integer)
@@ -151,7 +136,7 @@
 - **Gradient Array** (Array)
 - **Randomize Colors** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Color Array** (Array)
 - **Width** (Number)
@@ -161,10 +146,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/xAdV8x)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GradientColorArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.GradientColorArray](https://cables.gl/op/Ops.Color.GradientColorArray)
-
 
 ### HexToRGB_v2
 ![HexToRGB_v2 op](images/ops/Ops_Color_HexToRGB_v2.svg)
@@ -173,12 +155,12 @@
 
 **Description:** Converts a hex color like `#ff0000` to number values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Hex** (String)
 - **Bytes** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **R** (Number)
 - **G** (Number)
@@ -187,10 +169,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IBX1ft)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HexToRGB_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.HexToRGB_v2](https://cables.gl/op/Ops.Color.HexToRGB_v2)
-
 
 ### HSLtoRGB
 ![HSLtoRGB op](images/ops/Ops_Color_HSLtoRGB.svg)
@@ -199,13 +178,13 @@
 
 **Description:** Convert HSL to RGB
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Lightness** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **R** (Number)
 - **G** (Number)
@@ -213,10 +192,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3fOpvs)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "HSLtoRGB"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.HSLtoRGB](https://cables.gl/op/Ops.Color.HSLtoRGB)
-
 
 ### LuminanceContrast
 ![LuminanceContrast op](images/ops/Ops_Color_LuminanceContrast.svg)
@@ -225,7 +201,7 @@
 
 **Description:** Calculate the luminance contrast between two colors
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R 1** (Number)
 - **G 1** (Number)
@@ -234,16 +210,13 @@
 - **G 2** (Number)
 - **B 2** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Contrast** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lFzrvs)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LuminanceContrast"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.LuminanceContrast](https://cables.gl/op/Ops.Color.LuminanceContrast)
-
 
 ### RGBLuminance
 ![RGBLuminance op](images/ops/Ops_Color_RGBLuminance.svg)
@@ -252,22 +225,19 @@
 
 **Description:** Calculate the luminance of a RGB color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Luminance** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBLuminance"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.RGBLuminance](https://cables.gl/op/Ops.Color.RGBLuminance)
-
 
 ### RGBToCMYK
 ![RGBToCMYK op](images/ops/Ops_Color_RGBToCMYK.svg)
@@ -276,13 +246,13 @@
 
 **Description:** Output the CMYK value of a RGB color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **C** (Number)
 - **M** (Number)
@@ -291,10 +261,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBToCMYK"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.RGBToCMYK](https://cables.gl/op/Ops.Color.RGBToCMYK)
-
 
 ### RgbToHex
 ![RgbToHex op](images/ops/Ops_Color_RgbToHex.svg)
@@ -303,22 +270,19 @@
 
 **Description:** convert RGB float values to HEX color String
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Up7r8i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RgbToHex"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.RgbToHex](https://cables.gl/op/Ops.Color.RgbToHex)
-
 
 ### RGBtoHSB
 ![RGBtoHSB op](images/ops/Ops_Color_RGBtoHSB.svg)
@@ -327,13 +291,13 @@
 
 **Description:** convert RGB color to HSB Hue, Saturation, Brightness
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Hue** (Number)
 - **Saturation** (Number)
@@ -341,10 +305,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Up7r8i)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSB"*
-
 **Docs:** [https://cables.gl/op/Ops.Color.RGBtoHSB](https://cables.gl/op/Ops.Color.RGBtoHSB)
-
 
 ### RGBtoHSL
 ![RGBtoHSL op](images/ops/Ops_Color_RGBtoHSL.svg)
@@ -353,21 +314,19 @@
 
 **Description:** Convert RGB color to HSL values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Lightness** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Du0rvs)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RGBtoHSL"*
 
 **Docs:** [https://cables.gl/op/Ops.Color.RGBtoHSL](https://cables.gl/op/Ops.Color.RGBtoHSL)
 

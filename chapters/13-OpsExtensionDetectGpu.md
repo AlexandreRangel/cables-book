@@ -11,11 +11,11 @@
 
 **Description:** Use the detect-gpu library to assess performance of the client running the patch
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Run** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Finished** (Trigger)
 - **Tier** (Number)
@@ -24,8 +24,6 @@
 - **FPS** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DetectGPU"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU)
 

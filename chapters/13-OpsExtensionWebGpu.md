@@ -11,20 +11,17 @@
 
 **Description:** Upload an array to the GPU as a GpuBuffer
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Arr** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **GPUBuffer** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VShX3I)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToGpuBuffer"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ArrayToGpuBuffer](https://cables.gl/op/Ops.Extension.WebGpu.ArrayToGpuBuffer)
-
 
 ### ArrayToTexture
 ![ArrayToTexture op](images/ops/Ops_Extension_WebGpu_ArrayToTexture.svg)
@@ -33,7 +30,7 @@
 
 **Description:** Convert an array of numbers to a webgpu texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Array** (Array)
@@ -41,17 +38,14 @@
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hYt34I)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArrayToTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ArrayToTexture](https://cables.gl/op/Ops.Extension.WebGpu.ArrayToTexture)
-
 
 ### AttributeAsColorMaterial
 ![AttributeAsColorMaterial op](images/ops/Ops_Extension_WebGpu_AttributeAsColorMaterial.svg)
@@ -60,20 +54,17 @@
 
 **Description:** Render mesh attribultes as color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/FM4hQB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AttributeAsColorMaterial"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.AttributeAsColorMaterial](https://cables.gl/op/Ops.Extension.WebGpu.AttributeAsColorMaterial)
-
 
 ### BasicMaterial
 ![BasicMaterial op](images/ops/Ops_Extension_WebGpu_BasicMaterial.svg)
@@ -82,7 +73,7 @@
 
 **Description:** A simple material without shading
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -97,16 +88,13 @@
 - **Texture** (Object:Texture)
 - **Mask** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/J0HjQB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BasicMaterial"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.BasicMaterial](https://cables.gl/op/Ops.Extension.WebGpu.BasicMaterial)
-
 
 ### ColorTexture
 ![ColorTexture op](images/ops/Ops_Extension_WebGpu_ColorTexture.svg)
@@ -115,7 +103,7 @@
 
 **Description:** A texture containing only one color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -123,17 +111,14 @@
 - **B** (Number)
 - **A** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Texture_out** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/13IW3I)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ColorTexture](https://cables.gl/op/Ops.Extension.WebGpu.ColorTexture)
-
 
 ### CompCompute
 ![CompCompute op](images/ops/Ops_Extension_WebGpu_CompCompute.svg)
@@ -142,7 +127,7 @@
 
 **Description:** Compose a compute shader
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Compute** (Trigger)
 - **Source** (String)
@@ -151,7 +136,7 @@
 - **Workgroups 3** (Number: Integer)
 - **Force Update** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Code** (String)
@@ -160,10 +145,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1ff0dH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CompCompute"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.CompCompute](https://cables.gl/op/Ops.Extension.WebGpu.CompCompute)
-
 
 ### ComputeStorageInput
 ![ComputeStorageInput op](images/ops/Ops_Extension_WebGpu_ComputeStorageInput.svg)
@@ -172,22 +154,19 @@
 
 **Description:** Compute shader GPU buffer storage input
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Buffer** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeStorageInput"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput)
-
 
 ### ComputeStorageOutput
 ![ComputeStorageOutput op](images/ops/Ops_Extension_WebGpu_ComputeStorageOutput.svg)
@@ -196,13 +175,13 @@
 
 **Description:** Compute shader GPU buffer storage output
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Length** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Buffer** (Object)
@@ -210,10 +189,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1ff0dH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeStorageOutput"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageOutput](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageOutput)
-
 
 ### ComputeUniform
 ![ComputeUniform op](images/ops/Ops_Extension_WebGpu_ComputeUniform.svg)
@@ -222,7 +198,7 @@
 
 **Description:** Add a uniform input to a compute shader composition
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Name** (String)
@@ -231,16 +207,13 @@
 - **Z** (Number)
 - **W** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ComputeUniform"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform)
-
 
 ### DefaultTextures
 ![DefaultTextures op](images/ops/Ops_Extension_WebGpu_DefaultTextures.svg)
@@ -249,20 +222,17 @@
 
 **Description:** Outputs textures
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Extension.WebGpu.DefaultTextures documentation](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nQEVKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DefaultTextures"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures)
-
 
 ### FaceCulling
 ![FaceCulling op](images/ops/Ops_Extension_WebGpu_FaceCulling.svg)
@@ -271,20 +241,17 @@
 
 **Description:** cull (do not draw) back or front facing faces/triangles
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/zKLQ3I)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FaceCulling"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.FaceCulling](https://cables.gl/op/Ops.Extension.WebGpu.FaceCulling)
-
 
 ### FrontBacksideMaterial
 ![FrontBacksideMaterial op](images/ops/Ops_Extension_WebGpu_FrontBacksideMaterial.svg)
@@ -293,7 +260,7 @@
 
 **Description:** Show direction of faces as color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -305,16 +272,13 @@
 - **B 2** (Number)
 - **A 2** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/1Jm1LB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrontBacksideMaterial"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.FrontBacksideMaterial](https://cables.gl/op/Ops.Extension.WebGpu.FrontBacksideMaterial)
-
 
 ### FullScreenRect
 ![FullScreenRect op](images/ops/Ops_Extension_WebGpu_FullScreenRect.svg)
@@ -323,23 +287,20 @@
 
 **Description:** Render a rectangle that fills the whole canvas
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Flip Y** (Number: Boolean)
 - **Flip X** (Number: Boolean)
 - **Texture** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PNx2LB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FullScreenRect"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.FullScreenRect](https://cables.gl/op/Ops.Extension.WebGpu.FullScreenRect)
-
 
 ### GpuBufferToArray
 ![GpuBufferToArray op](images/ops/Ops_Extension_WebGpu_GpuBufferToArray.svg)
@@ -348,21 +309,18 @@
 
 **Description:** Convert a GpuBuffer to a CPU Array
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Pos Buffer** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQQYKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GpuBufferToArray"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.GpuBufferToArray](https://cables.gl/op/Ops.Extension.WebGpu.GpuBufferToArray)
-
 
 ### MatCapMaterial
 ![MatCapMaterial op](images/ops/Ops_Extension_WebGpu_MatCapMaterial.svg)
@@ -371,7 +329,7 @@
 
 **Description:** Image based material that uses a matcap environment texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -386,16 +344,13 @@
 - **Matcap** (Object:Texture)
 - **Diffuse** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WwXZKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MatCapMaterial"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.MatCapMaterial](https://cables.gl/op/Ops.Extension.WebGpu.MatCapMaterial)
-
 
 ### MeshInstancer
 ![MeshInstancer op](images/ops/Ops_Extension_WebGpu_MeshInstancer.svg)
@@ -404,7 +359,7 @@
 
 **Description:** Draw the same mesh many times very fast
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
@@ -414,17 +369,14 @@
 - **Reset** (Trigger)
 - **Test** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Total Instances** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bQQYKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshInstancer"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.MeshInstancer](https://cables.gl/op/Ops.Extension.WebGpu.MeshInstancer)
-
 
 ### Pipeline
 ![Pipeline op](images/ops/Ops_Extension_WebGpu_Pipeline.svg)
@@ -433,12 +385,12 @@
 
 **Description:** show content of last used pipeline for debugging
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Force Rebuild** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Pipeline** (Object)
@@ -450,10 +402,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Pipeline"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.Pipeline](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline)
-
 
 ### RenderToTexture
 ![RenderToTexture op](images/ops/Ops_Extension_WebGpu_RenderToTexture.svg)
@@ -462,24 +411,21 @@
 
 **Description:** render into a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
 - **Clear** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Texture** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pyXXKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RenderToTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.RenderToTexture](https://cables.gl/op/Ops.Extension.WebGpu.RenderToTexture)
-
 
 ### SaselHund
 ![SaselHund op](images/ops/Ops_Extension_WebGpu_SaselHund.svg)
@@ -488,20 +434,17 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for input port details*
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SaselHund"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.SaselHund](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund)
-
 
 ### Texture
 ![Texture op](images/ops/Ops_Extension_WebGpu_Texture.svg)
@@ -510,12 +453,12 @@
 
 **Description:** Load an image file as a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 - **Wrap Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -524,10 +467,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/08iWKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Texture"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.Texture](https://cables.gl/op/Ops.Extension.WebGpu.Texture)
-
 
 ### VizTexture
 ![VizTexture op](images/ops/Ops_Extension_WebGpu_VizTexture.svg)
@@ -536,20 +476,17 @@
 
 **Description:** Vizualize a webgpu texture on the patchfield
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Texture In** (Object:Texture)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - *Visit [Ops.Extension.WebGpu.VizTexture documentation](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture) for output port details*
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/tk5uLB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VizTexture"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.VizTexture](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture)
-
 
 ### WebGpuCanvas
 ![WebGpuCanvas op](images/ops/Ops_Extension_WebGpu_WebGpuCanvas.svg)
@@ -558,14 +495,14 @@
 
 **Description:** Create a canvas for WebGPU
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Active** (Number: Boolean)
 - **Catch Errors** (Number: Boolean)
 - **Stop On Errors** (Number: Boolean)
 - **Profile** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Next2** (Trigger)
@@ -577,10 +514,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ALyYKB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebGpuCanvas"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.WebGpuCanvas](https://cables.gl/op/Ops.Extension.WebGpu.WebGpuCanvas)
-
 
 ### WebGpuInfo
 ![WebGpuInfo op](images/ops/Ops_Extension_WebGpu_WebGpuInfo.svg)
@@ -589,11 +523,11 @@
 
 **Description:** Output information about WebGPU adapter and implementation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Limits** (Object)
@@ -602,8 +536,6 @@
 - **Presentation Format** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/UTES3I)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "WebGpuInfo"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.WebGpu.WebGpuInfo](https://cables.gl/op/Ops.Extension.WebGpu.WebGpuInfo)
 

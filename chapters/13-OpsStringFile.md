@@ -11,20 +11,17 @@
 
 **Description:** get URL of a file
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **File** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **URL** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FileInput_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.String.File.FileInput_v2](https://cables.gl/op/Ops.String.File.FileInput_v2)
-
 
 ### SwitchFile_v2
 ![SwitchFile_v2 op](images/ops/Ops_String_File_SwitchFile_v2.svg)
@@ -33,7 +30,7 @@
 
 **Description:** switch between filenames
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **File 0** (String)
@@ -53,13 +50,11 @@
 - **File 14** (String)
 - **File 15** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/unutii)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SwitchFile_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.String.File.SwitchFile_v2](https://cables.gl/op/Ops.String.File.SwitchFile_v2)
 

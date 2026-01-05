@@ -11,7 +11,7 @@
 
 **Description:** Remove points from an array3 with different shapes
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **In Trigger** (Trigger)
 - **In Array** (Array)
@@ -22,7 +22,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Out Trigger** (Trigger)
 - **Out Array** (Array)
@@ -33,10 +33,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sfikWi)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3AreaRemove"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.Array3AreaRemove](https://cables.gl/op/Ops.Array.PointArray.Array3AreaRemove)
-
 
 ### Array3PointEditor
 ![Array3PointEditor op](images/ops/Ops_Array_PointArray_Array3PointEditor.svg)
@@ -45,7 +42,7 @@
 
 **Description:** Visually edit positions in an array of point coordinates
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Total Points** (Number: Integer)
@@ -55,17 +52,14 @@
 - **Copy Coordinates** (Trigger)
 - **Reset** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Coordinates** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/2Bhet7)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3PointEditor"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.Array3PointEditor](https://cables.gl/op/Ops.Array.PointArray.Array3PointEditor)
-
 
 ### Array3RepeatTransform
 ![Array3RepeatTransform op](images/ops/Ops_Array_PointArray_Array3RepeatTransform.svg)
@@ -74,7 +68,7 @@
 
 **Description:** Repeat an array by transforming it x times
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Array** (Array)
@@ -90,17 +84,14 @@
 - **Rotation Z** (Number)
 - **Position Array** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9nSWVj)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3RepeatTransform"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.Array3RepeatTransform](https://cables.gl/op/Ops.Array.PointArray.Array3RepeatTransform)
-
 
 ### Array3VectorDistance
 ![Array3VectorDistance op](images/ops/Ops_Array_PointArray_Array3VectorDistance.svg)
@@ -109,21 +100,18 @@
 
 **Description:** Return the distance between 2 points from an array
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array In 1** (Array)
 - **Array In 2** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Tbb8xN)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Array3VectorDistance"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.Array3VectorDistance](https://cables.gl/op/Ops.Array.PointArray.Array3VectorDistance)
-
 
 ### ArraySpray
 ![ArraySpray op](images/ops/Ops_Array_PointArray_ArraySpray.svg)
@@ -132,7 +120,7 @@
 
 **Description:** Particle spray simulation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Time** (Number)
@@ -150,7 +138,7 @@
 - **Lifetime** (Number)
 - **Lifetime Minimum** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Positions** (Array)
@@ -158,10 +146,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hY5lAw)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ArraySpray"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.ArraySpray](https://cables.gl/op/Ops.Array.PointArray.ArraySpray)
-
 
 ### CircularPoints_v2
 ![CircularPoints_v2 op](images/ops/Ops_Array_PointArray_CircularPoints_v2.svg)
@@ -170,7 +155,7 @@
 
 **Description:** Create arrays for circular shapes, helix, circle, etc.
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Radius** (Number)
 - **Round Segments** (Number)
@@ -183,7 +168,7 @@
 - **Offset Rotation** (Number)
 - **Loop** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Points** (Array)
 - **Rotation** (Array)
@@ -192,10 +177,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V34dYh)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "CircularPoints_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.CircularPoints_v2](https://cables.gl/op/Ops.Array.PointArray.CircularPoints_v2)
-
 
 ### FillPointArrayDuplicates
 ![FillPointArrayDuplicates op](images/ops/Ops_Array_PointArray_FillPointArrayDuplicates.svg)
@@ -204,22 +186,19 @@
 
 **Description:** Fill an XYZ array with existing duplicate points until it reaches the length
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array** (Array)
 - **Num Elements** (Number: Integer)
 - **Calculate** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FillPointArrayDuplicates"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates](https://cables.gl/op/Ops.Array.PointArray.FillPointArrayDuplicates)
-
 
 ### PointsCube
 ![PointsCube op](images/ops/Ops_Array_PointArray_PointsCube.svg)
@@ -228,7 +207,7 @@
 
 **Description:** Generate a 3d point field with controllable amount of xyz points (was PointsField3d)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Num X** (Number: Integer)
 - **Num Y** (Number: Integer)
@@ -236,7 +215,7 @@
 - **Mul** (Number)
 - **Center** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Array)
 - **Total Points** (Number)
@@ -244,10 +223,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/_SC2JB)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsCube"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsCube](https://cables.gl/op/Ops.Array.PointArray.PointsCube)
-
 
 ### PointsHexagonGrid
 ![PointsHexagonGrid op](images/ops/Ops_Array_PointArray_PointsHexagonGrid.svg)
@@ -256,7 +232,7 @@
 
 **Description:** Generate coordinates for a hexagon grid, outputs array3x
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Rows** (Number: Integer)
 - **Colums** (Number: Integer)
@@ -267,16 +243,13 @@
 - **Tile Y Offset** (Number)
 - **Multiplier** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GLLdrn)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsHexagonGrid"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsHexagonGrid](https://cables.gl/op/Ops.Array.PointArray.PointsHexagonGrid)
-
 
 ### PointsPlane_v2
 ![PointsPlane_v2 op](images/ops/Ops_Array_PointArray_PointsPlane_v2.svg)
@@ -285,7 +258,7 @@
 
 **Description:** Generate coordinates for a rectangular field / grid of points
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Rows** (Number: Integer)
 - **Columns** (Number: Integer)
@@ -294,7 +267,7 @@
 - **Row Offset** (Number)
 - **Center** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Total Points** (Number)
@@ -304,10 +277,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/icchV5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsPlane_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsPlane_v2](https://cables.gl/op/Ops.Array.PointArray.PointsPlane_v2)
-
 
 ### PointsRectangle_v2
 ![PointsRectangle_v2 op](images/ops/Ops_Array_PointArray_PointsRectangle_v2.svg)
@@ -316,7 +286,7 @@
 
 **Description:** Generate an array of XYZ coordinates of an rectangle
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Line Strip** (Number: Boolean)
 - **Segments** (Number: Integer)
@@ -329,16 +299,13 @@
 - **Bottom Left** (Number: Boolean)
 - **Bottom Right** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/l1KQN8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsRectangle_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsRectangle_v2](https://cables.gl/op/Ops.Array.PointArray.PointsRectangle_v2)
-
 
 ### PointsRectangleRounded_v2
 ![PointsRectangleRounded_v2 op](images/ops/Ops_Array_PointArray_PointsRectangleRounded_v2.svg)
@@ -347,7 +314,7 @@
 
 **Description:** Generate an array of points of a rectangle with rounded corners
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
@@ -360,17 +327,14 @@
 - **Bottom Right** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/A7nLgQ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsRectangleRounded_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsRectangleRounded_v2](https://cables.gl/op/Ops.Array.PointArray.PointsRectangleRounded_v2)
-
 
 ### PointsSphereRandom
 ![PointsSphereRandom op](images/ops/Ops_Array_PointArray_PointsSphereRandom.svg)
@@ -379,7 +343,7 @@
 
 **Description:** Generate a point field mapped to the surface of a sphere
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Amount Of Points** (Number: Integer)
 - **Sphere Size** (Number)
@@ -387,7 +351,7 @@
 - **Random Distance From Sphere** (Number)
 - **Distribution Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Array Out** (Array)
 - **Total Points** (Number)
@@ -395,10 +359,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yBeQUy)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointsSphereRandom"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.PointsSphereRandom](https://cables.gl/op/Ops.Array.PointArray.PointsSphereRandom)
-
 
 ### RedistributeSplinePoints
 ![RedistributeSplinePoints op](images/ops/Ops_Array_PointArray_RedistributeSplinePoints.svg)
@@ -407,24 +368,21 @@
 
 **Description:** Recalculate a spline / change number of points of a spline
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array3x** (Array)
 - **Num Points** (Number: Integer)
 - **Calculate** (Trigger)
 - **Normalized** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Spline Length** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Array.PointArray.RedistributeSplinePoints#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RedistributeSplinePoints"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.RedistributeSplinePoints](https://cables.gl/op/Ops.Array.PointArray.RedistributeSplinePoints)
-
 
 ### SortArray3ByDistance
 ![SortArray3ByDistance op](images/ops/Ops_Array_PointArray_SortArray3ByDistance.svg)
@@ -433,21 +391,18 @@
 
 **Description:** Sort an array3, by the distance of each point to the previous point
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Array** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 - **Result Index** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7C6DlJ)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SortArray3ByDistance"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.SortArray3ByDistance](https://cables.gl/op/Ops.Array.PointArray.SortArray3ByDistance)
-
 
 ### SplinePositionAtDistanceArray3
 ![SplinePositionAtDistanceArray3 op](images/ops/Ops_Array_PointArray_SplinePositionAtDistanceArray3.svg)
@@ -456,14 +411,14 @@
 
 **Description:** Get position in array3/spline at distance from start
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Calculate** (Trigger)
 - **Array3x** (Array)
 - **Distance** (Number)
 - **Normalized** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **X** (Number)
@@ -473,10 +428,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/6XhHR7)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplinePositionAtDistanceArray3"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.SplinePositionAtDistanceArray3](https://cables.gl/op/Ops.Array.PointArray.SplinePositionAtDistanceArray3)
-
 
 ### SubdivideArray3_v2
 ![SubdivideArray3_v2 op](images/ops/Ops_Array_PointArray_SubdivideArray3_v2.svg)
@@ -485,23 +437,20 @@
 
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Points** (Array)
 - **Num Subdivs** (Number: Integer)
 - **Smooth** (Number: Boolean)
 - **Loop** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/uywtvc)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SubdivideArray3_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.SubdivideArray3_v2](https://cables.gl/op/Ops.Array.PointArray.SubdivideArray3_v2)
-
 
 ### TransformArray3
 ![TransformArray3 op](images/ops/Ops_Array_PointArray_TransformArray3.svg)
@@ -510,7 +459,7 @@
 
 **Description:** Transform (translate, rotate, scale) positions in an array3x
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Transform** (Trigger)
 - **Array** (Array)
@@ -524,14 +473,12 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/NenSet)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformArray3"*
 
 **Docs:** [https://cables.gl/op/Ops.Array.PointArray.TransformArray3](https://cables.gl/op/Ops.Array.PointArray.TransformArray3)
 

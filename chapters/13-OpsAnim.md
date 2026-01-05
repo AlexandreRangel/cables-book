@@ -11,14 +11,14 @@
 
 **Description:** Always animates to the current value
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -26,10 +26,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lntUQx)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AnimNumber"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.AnimNumber](https://cables.gl/op/Ops.Anim.AnimNumber)
-
 
 ### Bang
 ![Bang op](images/ops/Ops_Anim_Bang.svg)
@@ -38,24 +35,21 @@
 
 **Description:** Trigger a simple bang animation going from 1 to 0
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Bang** (Trigger)
 - **Duration** (Number)
 - **Invert** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Value** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/TctR5r)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Bang"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.Bang](https://cables.gl/op/Ops.Anim.Bang)
-
 
 ### BoolAnim
 ![BoolAnim op](images/ops/Ops_Anim_BoolAnim.svg)
@@ -64,7 +58,7 @@
 
 **Description:** Animate between two numbers based on a boolean value
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Bool** (Number: Boolean)
@@ -74,7 +68,7 @@
 - **Value False** (Number)
 - **Value True** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Value** (Number)
@@ -83,10 +77,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ofPcTo)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoolAnim"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.BoolAnim](https://cables.gl/op/Ops.Anim.BoolAnim)
-
 
 ### Crossfade
 ![Crossfade op](images/ops/Ops_Anim_Crossfade.svg)
@@ -95,24 +86,21 @@
 
 **Description:** Crossfade between 2 values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Crossfade** (Number)
 - **Out Min** (Number)
 - **Out Max** (Number)
 - **Easing Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **A** (Number)
 - **B** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/U_a2d-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Crossfade"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.Crossfade](https://cables.gl/op/Ops.Anim.Crossfade)
-
 
 ### FrameRangeAnim_v2
 ![FrameRangeAnim_v2 op](images/ops/Ops_Anim_FrameRangeAnim_v2.svg)
@@ -121,7 +109,7 @@
 
 **Description:** Parses string containing ranges of frames and play as coherent animation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Time** (Number)
 - **Frames** (String)
@@ -129,7 +117,7 @@
 - **Loop** (Number: Boolean)
 - **Rewind** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result Time** (Number)
 - **Expanded Frames** (Array)
@@ -140,10 +128,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrameRangeAnim_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2)
-
 
 ### FrameRangeAnimSwitcher
 ![FrameRangeAnimSwitcher op](images/ops/Ops_Anim_FrameRangeAnimSwitcher.svg)
@@ -152,7 +137,7 @@
 
 **Description:** Switch between multiple anim ranges of a keyframed 3d scene
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Index** (Number: Integer)
 - **Duration** (Number)
@@ -168,7 +153,7 @@
 - **Value 8** (Number)
 - **Value 9** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Time 1** (Number)
 - **Time Fade** (Number)
@@ -176,10 +161,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FrameRangeAnimSwitcher"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher)
-
 
 ### InOutInAnim
 ![InOutInAnim op](images/ops/Ops_Anim_InOutInAnim.svg)
@@ -188,7 +170,7 @@
 
 **Description:** Animates after a trigger from 1 to 0 to 1
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Duration In** (Number)
@@ -200,7 +182,7 @@
 - **Value Out** (Number)
 - **Start** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -210,10 +192,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HwVRrT)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InOutInAnim"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.InOutInAnim](https://cables.gl/op/Ops.Anim.InOutInAnim)
-
 
 ### LFO_v3
 ![LFO_v3 op](images/ops/Ops_Anim_LFO_v3.svg)
@@ -222,7 +201,7 @@
 
 **Description:** Low-frequency oscillation for animations
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Time** (Number)
 - **Frequency** (Number)
@@ -231,16 +210,13 @@
 - **Range Min** (Number)
 - **Range Max** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9EOrS8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LFO_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.LFO_v3](https://cables.gl/op/Ops.Anim.LFO_v3)
-
 
 ### RandomAnim_v2
 ![RandomAnim_v2 op](images/ops/Ops_Anim_RandomAnim_v2.svg)
@@ -249,7 +225,7 @@
 
 **Description:** Animates between random values defined by a min and max value
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Min** (Number)
@@ -258,7 +234,7 @@
 - **Pause Between** (Number)
 - **Easing Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -266,10 +242,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nCSoG8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "RandomAnim_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.RandomAnim_v2](https://cables.gl/op/Ops.Anim.RandomAnim_v2)
-
 
 ### SimpleAnim
 ![SimpleAnim op](images/ops/Ops_Anim_SimpleAnim.svg)
@@ -278,7 +251,7 @@
 
 **Description:** Simple animation between two values
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Reset** (Trigger)
@@ -290,7 +263,7 @@
 - **Wait For Reset** (Number: Boolean)
 - **Easing Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -299,10 +272,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/dOlV9L)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SimpleAnim"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.SimpleAnim](https://cables.gl/op/Ops.Anim.SimpleAnim)
-
 
 ### SineAnim
 ![SineAnim op](images/ops/Ops_Anim_SineAnim.svg)
@@ -311,7 +281,7 @@
 
 **Description:** Animation in the form of a sine/cosine curve (sinus/cos)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -319,17 +289,14 @@
 - **Frequency** (Number)
 - **Amplitude** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3bbUfp)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SineAnim"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.SineAnim](https://cables.gl/op/Ops.Anim.SineAnim)
-
 
 ### Smooth
 ![Smooth op](images/ops/Ops_Anim_Smooth.svg)
@@ -338,23 +305,20 @@
 
 **Description:** Smooths out jumps in values (AverageInterpolation)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Value** (Number)
 - **Dec Factor** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/c9gqda)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Smooth"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.Smooth](https://cables.gl/op/Ops.Anim.Smooth)
-
 
 ### Snap
 ![Snap op](images/ops/Ops_Anim_Snap.svg)
@@ -363,7 +327,7 @@
 
 **Description:** Snap at certain points (e.g. while scrolling)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Delta** (Number)
 - **Snap At Values** (Array)
@@ -377,7 +341,7 @@
 - **Value Mul** (Number)
 - **Enabled** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (Number)
 - **Distance** (Number)
@@ -386,10 +350,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7B11U6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Snap"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.Snap](https://cables.gl/op/Ops.Anim.Snap)
-
 
 ### Spring
 ![Spring op](images/ops/Ops_Anim_Spring.svg)
@@ -398,24 +359,21 @@
 
 **Description:** Spring simulation based on input target value.
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Damping** (Number)
 - **Stiffness** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/bsbM2y)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Spring"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.Spring](https://cables.gl/op/Ops.Anim.Spring)
-
 
 ### StringTypeAnimation_v2
 ![StringTypeAnimation_v2 op](images/ops/Ops_Anim_StringTypeAnimation_v2.svg)
@@ -424,7 +382,7 @@
 
 **Description:** Animates a text/string, like it is being typed out by a person
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Text** (String)
 - **Restart** (Trigger)
@@ -432,7 +390,7 @@
 - **Speed Variation** (Number)
 - **Show Cursor** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 - **Changed** (Trigger)
@@ -440,10 +398,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8dB2eH)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "StringTypeAnimation_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2](https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2)
-
 
 ### TimeDelta
 ![TimeDelta op](images/ops/Ops_Anim_TimeDelta.svg)
@@ -452,23 +407,20 @@
 
 **Description:** Measure the time difference between two triggers
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exe** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Seconds** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Result** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/omrKQm)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TimeDelta"*
-
 **Docs:** [https://cables.gl/op/Ops.Anim.TimeDelta](https://cables.gl/op/Ops.Anim.TimeDelta)
-
 
 ### Timer_v2
 ![Timer_v2 op](images/ops/Ops_Anim_Timer_v2.svg)
@@ -477,20 +429,18 @@
 
 **Description:** A timer that can be started, paused and reset by triggering
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Speed** (Number)
 - **Play** (Number: Boolean)
 - **Reset** (Trigger)
 - **Sync To Timeline** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Time** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YTuOQm)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Timer_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Anim.Timer_v2](https://cables.gl/op/Ops.Anim.Timer_v2)
 

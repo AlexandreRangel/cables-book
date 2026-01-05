@@ -11,7 +11,7 @@
 
 **Description:** uses mespeak.js to convert text-to-speech
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Text** (String)
 - **Say** (Trigger)
@@ -29,7 +29,7 @@
 - **Log Console** (Number: Boolean)
 - **Pan** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Audio Out** (Object)
 - **Speaking** (booleanNumber)
@@ -37,10 +37,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeSpeak"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Voice.MeSpeak](https://cables.gl/op/Ops.Extension.Voice.MeSpeak)
-
 
 ### Say_v2
 ![Say_v2 op](images/ops/Ops_Extension_Voice_Say_v2.svg)
@@ -49,7 +46,7 @@
 
 **Description:** Text-to-Speech, speaks different languages (speech synthesis)
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update State** (Trigger)
 - **Text** (String)
@@ -63,7 +60,7 @@
 - **Resume** (Trigger)
 - **Cancel** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Speaking** (Number)
@@ -72,10 +69,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/WubOWc)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Say_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Extension.Voice.Say_v2](https://cables.gl/op/Ops.Extension.Voice.Say_v2)
-
 
 ### SpeechRecognition
 ![SpeechRecognition op](images/ops/Ops_Extension_Voice_SpeechRecognition.svg)
@@ -84,13 +78,13 @@
 
 **Description:** speech to text recognition
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Language** (String)
 - **Active** (Number: Boolean)
 - **Start** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Result** (String)
 - **Confidence** (Number)
@@ -99,8 +93,6 @@
 - **Started** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/9p7kw4)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SpeechRecognition"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition](https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition)
 

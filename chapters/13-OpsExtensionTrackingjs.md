@@ -11,7 +11,7 @@
 
 **Description:** Track a position of a specific color in the current webcam stream
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Video Element** (Object)
@@ -21,14 +21,12 @@
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Positions** (Array)
 - **Sizes** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/vSwLsT)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TrackWebcamColor"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor](https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor)
 

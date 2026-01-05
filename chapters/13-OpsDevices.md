@@ -11,13 +11,13 @@
 
 **Description:** detect touch gestures like swipe and pan
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Active** (Number: Boolean)
 - **Vertical Swipe** (Number: Boolean)
 - **Vertical Pan** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Press** (Trigger)
 - **Press Up** (Trigger)
@@ -31,10 +31,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchGesture#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchGesture"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.TouchGesture](https://cables.gl/op/Ops.Devices.TouchGesture)
-
 
 ### TouchScreen
 ![TouchScreen op](images/ops/Ops_Devices_TouchScreen.svg)
@@ -43,7 +40,7 @@
 
 **Description:** touch screen input: e.g. position of fingers
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Disable Scaling** (Number: Boolean)
 - **Disable Scroll** (Number: Boolean)
@@ -52,7 +49,7 @@
 - **Normalize Coordinates** (Number: Boolean)
 - **Flip Y** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Touched** (Number)
 - **Fingers** (Number)
@@ -67,8 +64,6 @@
 - **Touch End** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchScreen#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TouchScreen"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.TouchScreen](https://cables.gl/op/Ops.Devices.TouchScreen)
 

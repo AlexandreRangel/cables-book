@@ -11,23 +11,20 @@
 
 **Description:** Element Accessibility properties for screen reader
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Element** (Object)
 - **Aria Label** (String)
 - **Aria Labeled By** (String)
 - **Aria Hidden** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/R5XS8x)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAccessibility"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility)
-
 
 ### ElementAttributes
 ![ElementAttributes op](images/ops/Ops_Html_Attributes_ElementAttributes.svg)
@@ -36,20 +33,17 @@
 
 **Description:** Get all attributes from an element an object
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Element** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Attribs** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Gflosw)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementAttributes"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAttributes](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes)
-
 
 ### ElementGetAttribute
 ![ElementGetAttribute op](images/ops/Ops_Html_Attributes_ElementGetAttribute.svg)
@@ -58,22 +52,19 @@
 
 **Description:** Read or Get the value of an HTML element Attribute
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Element** (Object)
 - **Attribute Name** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Value** (String)
 - **Has Attribute** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementGetAttribute"*
-
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute)
-
 
 ### ElementSetAttribute
 ![ElementSetAttribute op](images/ops/Ops_Html_Attributes_ElementSetAttribute.svg)
@@ -82,20 +73,18 @@
 
 **Description:** Write or Set the value of an HTML element Attribute
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Element** (Object)
 - **Attribute** (String)
 - **Value** (String)
 - **Active** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **HTML Element** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ElementSetAttribute"*
 
 **Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute)
 

@@ -11,7 +11,7 @@
 
 **Description:** FFmpeg video converter toolbox op
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Source Video** (String)
 - **Destination File** (String)
@@ -27,13 +27,11 @@
 - **Duration** (String)
 - **Process** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Processing** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Ffmpeg"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg)
 

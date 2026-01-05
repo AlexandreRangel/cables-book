@@ -11,7 +11,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
@@ -38,15 +38,13 @@
 - **Age End** (Number)
 - **Age Fade** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 - **Velocity** (Object)
 - **Collision** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VelocityBoundaries"*
 
 **Docs:** [https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries)
 

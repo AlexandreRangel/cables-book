@@ -11,7 +11,7 @@
 
 **Description:** ambient light for phong material shading
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **R** (Number)
@@ -19,16 +19,13 @@
 - **B** (Number)
 - **Intensity** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/g3ioXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AmbientLight_v4"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4](https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4)
-
 
 ### DirectionalLight_v5
 ![DirectionalLight_v5 op](images/ops/Ops_Gl_Phong_DirectionalLight_v5.svg)
@@ -37,7 +34,7 @@
 
 **Description:** Directional light for phong shading
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -71,17 +68,14 @@
 - **Anisotropic Index** (Number: Integer)
 - **Anisotropic** (String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/nEWpXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DirectionalLight_v5"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5](https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5)
-
 
 ### LambertMaterial_v2
 ![LambertMaterial_v2 op](images/ops/Ops_Gl_Phong_LambertMaterial_v2.svg)
@@ -90,7 +84,7 @@
 
 **Description:** a simple shaded material
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Execute** (Trigger)
 - **Diffuse R** (Number)
@@ -100,17 +94,14 @@
 - **Diffuse Texture** (Object:Texture)
 - **Colorize Texture** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/PAvm26)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LambertMaterial_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2](https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2)
-
 
 ### PhongMaterial_v6
 ![PhongMaterial_v6 op](images/ops/Ops_Gl_Phong_PhongMaterial_v6.svg)
@@ -119,7 +110,7 @@
 
 **Description:** A shaded material for lighting objects
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **R** (Number)
@@ -164,17 +155,14 @@
 - **Env Map Intensity** (Number)
 - **Env Mask Intensity** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Shader** (Object)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/L3HqYa)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PhongMaterial_v6"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6](https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6)
-
 
 ### PointLight_v5
 ![PointLight_v5 op](images/ops/Ops_Gl_Phong_PointLight_v5.svg)
@@ -183,7 +171,7 @@
 
 **Description:** Point light for phong shading
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -207,7 +195,7 @@
 - **Bias** (Number)
 - **Polygon Offset** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Cubemap** (Object)
@@ -217,10 +205,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/MybtXU)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PointLight_v5"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.PointLight_v5](https://cables.gl/op/Ops.Gl.Phong.PointLight_v5)
-
 
 ### ResetLights
 ![ResetLights op](images/ops/Ops_Gl_Phong_ResetLights.svg)
@@ -229,21 +214,18 @@
 
 **Description:** reset lights for everything triggered after
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Reset Lights** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/eU7obI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ResetLights"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.ResetLights](https://cables.gl/op/Ops.Gl.Phong.ResetLights)
-
 
 ### SpotLight_v5
 ![SpotLight_v5 op](images/ops/Ops_Gl_Phong_SpotLight_v5.svg)
@@ -252,7 +234,7 @@
 
 **Description:** spot light that emits a cone of light
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -278,7 +260,7 @@
 - **Rendering Active** (Number: Boolean)
 - **Shadow Strength** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
@@ -287,8 +269,6 @@
 - **World Position Z** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/D5evXU)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SpotLight_v5"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5](https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5)
 

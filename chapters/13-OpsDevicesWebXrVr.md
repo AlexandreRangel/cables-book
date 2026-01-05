@@ -11,7 +11,7 @@
 
 **Description:** rendering on webxr virtual reality immersive devices
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Mainloop** (Trigger)
 - **Stop** (Trigger)
@@ -20,7 +20,7 @@
 - **Render To Texture** (Number: Boolean)
 - **Shader** (Object:Shader)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Render After Eyes** (Trigger)
@@ -36,10 +36,7 @@
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Vr"*
-
 **Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr](https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr)
-
 
 ### VrController
 ![VrController op](images/ops/Ops_Devices_WebXr_Vr_VrController.svg)
@@ -48,12 +45,12 @@
 
 **Description:** tracking of vr hand controller
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Update** (Trigger)
 - **Handedness Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Axis 1** (Number)
@@ -82,8 +79,6 @@
 - **Found** (Number)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VrController"*
 
 **Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController](https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController)
 

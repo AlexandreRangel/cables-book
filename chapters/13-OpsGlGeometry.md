@@ -11,7 +11,7 @@
 
 **Description:** Test if a boundingbox could be visible in the current viewport
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Exec** (Trigger)
 - **Boundings** (Object)
@@ -21,17 +21,14 @@
 - **Height** (Number)
 - **Length** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 - **Visible** (booleanNumber)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "BoundingBoxVisible"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible](https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible)
-
 
 ### GeometryBoundingBox
 ![GeometryBoundingBox op](images/ops/Ops_Gl_Geometry_GeometryBoundingBox.svg)
@@ -40,11 +37,11 @@
 
 **Description:** Calculate a bounding box from a geometry
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Geometry** (Object)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Boundings** (Object)
 - **Min X** (Number)
@@ -56,8 +53,6 @@
 - **MaxMin Points** (Array)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/DAhGve)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "GeometryBoundingBox"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox](https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox)
 

@@ -11,7 +11,7 @@
 
 **Description:** do not draw pixels inside a defined 3d area
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Invert** (Number: Boolean)
@@ -28,16 +28,13 @@
 - **Z** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/GQiw18)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaDiscardPixel_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2)
-
 
 ### AreaRotate_v2
 ![AreaRotate_v2 op](images/ops/Ops_Gl_ShaderEffects_AreaRotate_v2.svg)
@@ -46,7 +43,7 @@
 
 **Description:** rotate vertices in an area around a center point
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -56,16 +53,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/7mss1Q)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaRotate_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2)
-
 
 ### AreaScaler_v3
 ![AreaScaler_v3 op](images/ops/Ops_Gl_ShaderEffects_AreaScaler_v3.svg)
@@ -74,7 +68,7 @@
 
 **Description:** Scales the size of meshes within the area of influence
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Area Size** (Number)
@@ -89,16 +83,13 @@
 - **Pos Y** (Number)
 - **Pos Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LXN7D-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaScaler_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3)
-
 
 ### AreaTranslateFBMNoise
 ![AreaTranslateFBMNoise op](images/ops/Ops_Gl_ShaderEffects_AreaTranslateFBMNoise.svg)
@@ -107,7 +98,7 @@
 
 **Description:** Area size of noise
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -122,16 +113,13 @@
 - **Noise Y** (Number)
 - **Noise Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/hDcUC-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaTranslateFBMNoise"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise)
-
 
 ### AreaTranslateMeshes_v3
 ![AreaTranslateMeshes_v3 op](images/ops/Ops_Gl_ShaderEffects_AreaTranslateMeshes_v3.svg)
@@ -140,7 +128,7 @@
 
 **Description:** Change the position of all meshes inside of the area of influence
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -152,16 +140,13 @@
 - **Multiply Y** (Number)
 - **Multiply Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yWVQC-)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "AreaTranslateMeshes_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3)
-
 
 ### Bend_v2
 ![Bend_v2 op](images/ops/Ops_Gl_ShaderEffects_Bend_v2.svg)
@@ -170,7 +155,7 @@
 
 **Description:** bend objects along an axis
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -181,16 +166,13 @@
 - **Offset** (Number)
 - **Limited** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/HtcN9Z)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Bend_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2)
-
 
 ### ClampVertexPosition_v2
 ![ClampVertexPosition_v2 op](images/ops/Ops_Gl_ShaderEffects_ClampVertexPosition_v2.svg)
@@ -199,7 +181,7 @@
 
 **Description:** clamp/restrict the vertex position to min/max values per axis
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
@@ -207,16 +189,13 @@
 - **Max** (Number)
 - **Update Normals** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/RP4O73)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ClampVertexPosition_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2)
-
 
 ### ColorArea_v5
 ![ColorArea_v5 op](images/ops/Ops_Gl_ShaderEffects_ColorArea_v5.svg)
@@ -225,7 +204,7 @@
 
 **Description:** Colorize all meshes around current position
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
@@ -247,16 +226,13 @@
 - **Texture** (Object:Texture)
 - **Priority** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0Ti2gT)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ColorArea_v5"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5)
-
 
 ### DeformArea
 ![DeformArea op](images/ops/Ops_Gl_ShaderEffects_DeformArea.svg)
@@ -265,7 +241,7 @@
 
 **Description:** deform a spherical area of a mesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -276,16 +252,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/CQ0wmo)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DeformArea"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.DeformArea](https://cables.gl/op/Ops.Gl.ShaderEffects.DeformArea)
-
 
 ### DiscardMaterialAlpha
 ![DiscardMaterialAlpha op](images/ops/Ops_Gl_ShaderEffects_DiscardMaterialAlpha.svg)
@@ -294,22 +267,19 @@
 
 **Description:** discard transparent pixels in material textures
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Method Index** (Number: Integer)
 - **Threshold** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3r_lf6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "DiscardMaterialAlpha"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha)
-
 
 ### ExplodeDividedMesh_v2
 ![ExplodeDividedMesh_v2 op](images/ops/Ops_Gl_ShaderEffects_ExplodeDividedMesh_v2.svg)
@@ -318,7 +288,7 @@
 
 **Description:** explode a (divided) mesh in the direction of faces normals
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Distance** (Number)
@@ -334,16 +304,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/sYIxm1)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ExplodeDividedMesh_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2)
-
 
 ### FogEffect
 ![FogEffect op](images/ops/Ops_Gl_ShaderEffects_FogEffect.svg)
@@ -352,7 +319,7 @@
 
 **Description:** Fog as a shadereffect applied to a material
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -363,16 +330,13 @@
 - **G** (Number)
 - **B** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/3L3of6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FogEffect"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.FogEffect](https://cables.gl/op/Ops.Gl.ShaderEffects.FogEffect)
-
 
 ### FresnelGlow
 ![FresnelGlow op](images/ops/Ops_Gl_ShaderEffects_FresnelGlow.svg)
@@ -381,7 +345,7 @@
 
 **Description:** add fresnel glow to any material
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Active** (Number: Boolean)
@@ -391,16 +355,13 @@
 - **Fresnel Intensity** (Number)
 - **Fresnel Exponent** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/e02kYa)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "FresnelGlow"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow](https://cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow)
-
 
 ### InstancedDisplacementMap_v2
 ![InstancedDisplacementMap_v2 op](images/ops/Ops_Gl_ShaderEffects_InstancedDisplacementMap_v2.svg)
@@ -409,7 +370,7 @@
 
 **Description:** displace positions of instanced meshes using a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
@@ -430,16 +391,13 @@
 - **Y** (Number: Boolean)
 - **Z** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedDisplacementMap_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2)
-
 
 ### InstancedPerlinPosition_v2
 ![InstancedPerlinPosition_v2 op](images/ops/Ops_Gl_ShaderEffects_InstancedPerlinPosition_v2.svg)
@@ -448,7 +406,7 @@
 
 **Description:** displace position of instanced object by perlin noise value
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Strength** (Number)
@@ -464,16 +422,13 @@
 - **Min Scale** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/33bSY7)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedPerlinPosition_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2)
-
 
 ### InstancedTextureColorize
 ![InstancedTextureColorize op](images/ops/Ops_Gl_ShaderEffects_InstancedTextureColorize.svg)
@@ -482,7 +437,7 @@
 
 **Description:** colorize instanced meshes using a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
@@ -494,16 +449,13 @@
 - **Offset Y** (Number)
 - **Method Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "InstancedTextureColorize"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize)
-
 
 ### LimitMeshByTexCoord
 ![LimitMeshByTexCoord op](images/ops/Ops_Gl_ShaderEffects_LimitMeshByTexCoord.svg)
@@ -512,7 +464,7 @@
 
 **Description:** discard pixel if texture coordinate is below threshold
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
@@ -523,16 +475,13 @@
 - **Frequency** (Number)
 - **Amplitude** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/pHfgJ5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "LimitMeshByTexCoord"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord](https://cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord)
-
 
 ### MeshPixelNoise_v2
 ![MeshPixelNoise_v2 op](images/ops/Ops_Gl_ShaderEffects_MeshPixelNoise_v2.svg)
@@ -541,7 +490,7 @@
 
 **Description:** 3d space noise for mesh materials
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Scale** (Number)
@@ -556,16 +505,13 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/V7rjQ6)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "MeshPixelNoise_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2)
-
 
 ### ModuloVertexPosition
 ![ModuloVertexPosition op](images/ops/Ops_Gl_ShaderEffects_ModuloVertexPosition.svg)
@@ -574,22 +520,19 @@
 
 **Description:** vertex shader modulo operation on vertex position
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Modulo** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/lMCl_8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ModuloVertexPosition"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition](https://cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition)
-
 
 ### PerlinAreaDeform_v4
 ![PerlinAreaDeform_v4 op](images/ops/Ops_Gl_ShaderEffects_PerlinAreaDeform_v4.svg)
@@ -598,7 +541,7 @@
 
 **Description:** Displace vertices using perlin noise animation
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Scale** (Number)
@@ -617,16 +560,13 @@
 - **Scroll Z** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/8RexP8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "PerlinAreaDeform_v4"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4](https://cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4)
-
 
 ### ScaleByNormal_v2
 ![ScaleByNormal_v2 op](images/ops/Ops_Gl_ShaderEffects_ScaleByNormal_v2.svg)
@@ -635,21 +575,18 @@
 
 **Description:** Scale vertices of an object in the direction of face normals
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Strength** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/Ft2xm1)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "ScaleByNormal_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2)
-
 
 ### Shadow_v3
 ![Shadow_v3 op](images/ops/Ops_Gl_ShaderEffects_Shadow_v3.svg)
@@ -658,7 +595,7 @@
 
 **Description:** add shadow capabilities to any material
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Trigger In** (Trigger)
 - **Cast Shadow** (Number: Boolean)
@@ -672,16 +609,13 @@
 - **Opacity Texture** (Object:Texture)
 - **Cull Backfacing** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger Out** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/auVl18)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Shadow_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3)
-
 
 ### SplineDeform_v2
 ![SplineDeform_v2 op](images/ops/Ops_Gl_ShaderEffects_SplineDeform_v2.svg)
@@ -690,23 +624,20 @@
 
 **Description:** Deform a mesh along a spline
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Size** (Number)
 - **Offset** (Number)
 - **Points** (Array)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/F-UNZ4)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "SplineDeform_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2)
-
 
 ### TextureProjection_v2
 ![TextureProjection_v2 op](images/ops/Ops_Gl_ShaderEffects_TextureProjection_v2.svg)
@@ -715,7 +646,7 @@
 
 **Description:** texture projection on meshes
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
@@ -732,16 +663,13 @@
 - **Discard** (Number: Boolean)
 - **WorldSpace** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/fJHt0e)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TextureProjection_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2)
-
 
 ### TransformTextureCoordinates
 ![TransformTextureCoordinates op](images/ops/Ops_Gl_ShaderEffects_TransformTextureCoordinates.svg)
@@ -750,7 +678,7 @@
 
 **Description:** Transform and repeat texture coordinates of a mesh via vertex shader
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Translate X** (Number)
@@ -761,16 +689,13 @@
 - **Flip Y** (Number: Boolean)
 - **Rotation** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/YzNrx8)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformTextureCoordinates"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates)
-
 
 ### TransformVertex
 ![TransformVertex op](images/ops/Ops_Gl_ShaderEffects_TransformVertex.svg)
@@ -779,7 +704,7 @@
 
 **Description:** transform vertices of a mesh via vertex shader
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Translate X** (Number)
@@ -793,16 +718,13 @@
 - **Rotation Z** (Number)
 - **Transform Normals** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/u1iOhI)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "TransformVertex"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex)
-
 
 ### Twist_v3
 ![Twist_v3 op](images/ops/Ops_Gl_ShaderEffects_Twist_v3.svg)
@@ -811,7 +733,7 @@
 
 **Description:** twist a mesh around an axis
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Degree** (Number)
@@ -819,16 +741,13 @@
 - **Axis Index** (Number: Integer)
 - **Axis** (Number: String)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/VYPlJ5)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "Twist_v3"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3)
-
 
 ### UseVertexColor
 ![UseVertexColor op](images/ops/Ops_Gl_ShaderEffects_UseVertexColor.svg)
@@ -837,20 +756,17 @@
 
 **Description:** Use vertex color as basecolor/diffuse color
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ep1Umu)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "UseVertexColor"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor](https://cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor)
-
 
 ### VertexArea
 ![VertexArea op](images/ops/Ops_Gl_ShaderEffects_VertexArea.svg)
@@ -859,7 +775,7 @@
 
 **Description:** transform an area of a mesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
@@ -879,16 +795,13 @@
 - **Scale Y** (Number)
 - **Scale Z** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexArea"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea)
-
 
 ### VertexColorAsAlpha
 ![VertexColorAsAlpha op](images/ops/Ops_Gl_ShaderEffects_VertexColorAsAlpha.svg)
@@ -897,22 +810,19 @@
 
 **Description:** Use mesh vertexcolor as Alpha/Opacity
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Input Index** (Number: Integer)
 - **Invert** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/ChcFXk)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexColorAsAlpha"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha)
-
 
 ### VertexDisplacementMap_v5
 ![VertexDisplacementMap_v5 op](images/ops/Ops_Gl_ShaderEffects_VertexDisplacementMap_v5.svg)
@@ -921,7 +831,7 @@
 
 **Description:** Displace the vertices of a mesh with the pixels brightness values from a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Extrude** (Number)
@@ -935,16 +845,13 @@
 - **Colorize Min** (Number)
 - **Colorize Max** (Number)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/aSWlLu)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexDisplacementMap_v5"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5)
-
 
 ### VertexNumberLimit_v2
 ![VertexNumberLimit_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexNumberLimit_v2.svg)
@@ -953,23 +860,20 @@
 
 **Description:** only draw the first X vertices of a mesh
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Min** (Number: Integer)
 - **Max** (Number: Integer)
 - **Invert** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Next** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/gLrrJV)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexNumberLimit_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2)
-
 
 ### VertexPositionFromTexture_v2
 ![VertexPositionFromTexture_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexPositionFromTexture_v2.svg)
@@ -978,22 +882,19 @@
 
 **Description:** set vertex positions of a mesh from a texture
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
 - **Mode Index** (Number: Integer)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/LDfZgL)
 
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexPositionFromTexture_v2"*
-
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2)
-
 
 ### VertexWobble_v2
 ![VertexWobble_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexWobble_v2.svg)
@@ -1002,7 +903,7 @@
 
 **Description:** sine wave vertex displacement
 
-**> Input Ports:**
+**`\inputsymbol`{=latex} Input Ports:**
 
 - **Render** (Trigger)
 - **Source Index** (Number: Integer)
@@ -1021,13 +922,11 @@
 - **WorldSpace** (Number: Boolean)
 - **Invert** (Number: Boolean)
 
-**< Output Ports:**
+**`\outputsymbol`{=latex} Output Ports:**
 
 - **Trigger** (Trigger)
 
 **Example Patch:** [Open in Editor](https://cables.gl/edit/0PxhuO)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "VertexWobble_v2"*
 
 **Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2)
 
