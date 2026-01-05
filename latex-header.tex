@@ -255,15 +255,15 @@
 \definecolor{inputportsymbol}{RGB}{\InputPortSymbolRed,\InputPortSymbolGreen,\InputPortSymbolBlue}
 \definecolor{outputportsymbol}{RGB}{\OutputPortSymbolRed,\OutputPortSymbolGreen,\OutputPortSymbolBlue}
 
-%% TOC: color items to match heading styles
+%% TOC: color ONLY level-2 entries (subsections) in blue; keep others dark gray
 \renewcommand{\cftsecfont}{\color{sectiononecolor}}
 \renewcommand{\cftsecpagefont}{\color{sectiononecolor}}
 \renewcommand{\cftsubsecfont}{\color{sectiontwocolor}}
 \renewcommand{\cftsubsecpagefont}{\color{sectiontwocolor}}
-\renewcommand{\cftsubsubsecfont}{\color{sectionthreecolor}}
-\renewcommand{\cftsubsubsecpagefont}{\color{sectionthreecolor}}
-\renewcommand{\cftparafont}{\color{sectionfourcolor}}
-\renewcommand{\cftparapagefont}{\color{sectionfourcolor}}
+\renewcommand{\cftsubsubsecfont}{\color{sectiononecolor}}
+\renewcommand{\cftsubsubsecpagefont}{\color{sectiononecolor}}
+\renewcommand{\cftparafont}{\color{sectiononecolor}}
+\renewcommand{\cftparapagefont}{\color{sectiononecolor}}
 
 %% Commands for colored port symbols (with space after)
 \newcommand{\inputsymbol}{\textcolor{inputportsymbol}{\textgreater} }
