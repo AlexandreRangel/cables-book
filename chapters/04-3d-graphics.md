@@ -48,6 +48,7 @@ Cameras define how we view the 3D scene.
 The most common camera type - mimics human vision with perspective distortion.
 
 **Key Parameters:**
+
 - `FOV` (Field of View) - How wide the view is (typically 45-90 degrees)
 - `Near` / `Far` - Clipping planes (objects outside this range aren't rendered)
 - `Position X/Y/Z` - Camera location
@@ -57,6 +58,7 @@ The most common camera type - mimics human vision with perspective distortion.
 No perspective distortion - useful for UI, 2D-style 3D, or technical views.
 
 **Key Parameters:**
+
 - `Zoom` - Scale of the view
 - `Near` / `Far` - Clipping planes
 
@@ -79,6 +81,7 @@ Camera -> LookAt (target position)
 ```
 
 **Use Cases:**
+
 - Follow a moving object
 - Create cinematic camera movements
 - Focus on specific scene elements
@@ -150,6 +153,7 @@ MainLoop -> Camera -> AmbientLight -> [Rest of scene]
 Light from a specific direction (like the sun).
 
 **Key Parameters:**
+
 - Direction (X, Y, Z)
 - Color
 - Intensity
@@ -159,6 +163,7 @@ Light from a specific direction (like the sun).
 Light emanating from a point in space (like a light bulb).
 
 **Key Parameters:**
+
 - Position (X, Y, Z)
 - Color
 - Intensity
@@ -169,6 +174,7 @@ Light emanating from a point in space (like a light bulb).
 Focused beam of light (like a flashlight or stage light).
 
 **Key Parameters:**
+
 - Position and direction
 - Cone angle
 - Falloff
@@ -334,6 +340,7 @@ Mesh -> InstanceTransform (array of transforms) -> InstancedMesh
 ```
 
 **Use Cases:**
+
 - Forests of trees
 - Crowds of characters
 - Particle systems
@@ -1031,6 +1038,7 @@ Matte material with diffuse lighting.
 Shiny material with specular highlights.
 
 **Key Parameters:**
+
 - `Diffuse Color` - Base color
 - `Specular Color` - Highlight color
 - `Shininess` - How sharp the highlights are
@@ -1040,6 +1048,7 @@ Shiny material with specular highlights.
 Most realistic material option.
 
 **Key Parameters:**
+
 - `Albedo` - Base color
 - `Metalness` - How metallic (0 = plastic, 1 = metal)
 - `Roughness` - Surface smoothness (0 = mirror, 1 = rough)
@@ -1132,6 +1141,7 @@ Mesh
 ```
 
 **Use Cases:**
+
 - Character rigging (body -> arm -> hand)
 - Vehicle systems (car -> wheel -> tire)
 - Solar systems (sun -> planet -> moon)
@@ -1806,6 +1816,7 @@ BaseMesh -> MorphTarget1 (blend factor) -> MorphTarget2
 ```
 
 **Use Cases:**
+
 - Facial expressions
 - Shape variations
 - Smooth transitions

@@ -228,6 +228,7 @@ Final Animated Value
 ```
 
 **Use Cases:**
+
 - Base idle animation + triggered bounce effect
 - Procedural motion + keyframed structure
 - Multiple independent motion layers

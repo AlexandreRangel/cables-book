@@ -21,6 +21,7 @@ ImageTexture -> Material (texture input)
 - GIF (first frame or animated)
 
 **Key Parameters:**
+
 - `URL` - Path to image
 - `Filter` - Nearest (pixelated) or Linear (smooth)
 - `Wrap` - Repeat, Clamp, Mirror
@@ -34,6 +35,7 @@ VideoTexture -> Material (texture input)
 ```
 
 **Key Parameters:**
+
 - `URL` - Path to video file
 - `Loop` - Whether to loop playback
 - `Playback Rate` - Speed control
@@ -253,6 +255,7 @@ TextureEffects -> Output
 ```
 
 **Use Cases:**
+
 - blur/glow chains
 - color grading
 - stylized distortion

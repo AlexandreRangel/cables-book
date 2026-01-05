@@ -13,6 +13,7 @@ Whether you're creating data visualizations, interactive installations, or gener
 The `Circle` op is one of the most common 2D primitives.
 
 **Key Parameters:**
+
 - `Radius` - Size of the circle
 - `Segments` - Smoothness (more segments = smoother circle)
 - `Inner Radius` - Creates a ring when > 0
@@ -22,6 +23,7 @@ The `Circle` op is one of the most common 2D primitives.
 The `Rectangle` op draws rectangular shapes.
 
 **Key Parameters:**
+
 - `Width` - Horizontal size
 - `Height` - Vertical size
 - `Pivot` - Origin point for positioning
@@ -31,6 +33,7 @@ The `Rectangle` op draws rectangular shapes.
 A rectangle with smooth corners.
 
 **Key Parameters:**
+
 - `Width` / `Height` - Dimensions
 - `Corner Radius` - How rounded the corners are
 
@@ -39,6 +42,7 @@ A rectangle with smooth corners.
 Create regular polygons (triangles, pentagons, etc.)
 
 **Key Parameters:**
+
 - `Sides` - Number of sides (3 = triangle, 5 = pentagon, etc.)
 - `Radius` - Size of the polygon
 
@@ -47,6 +51,7 @@ Create regular polygons (triangles, pentagons, etc.)
 Draw single or multiple lines.
 
 **Key Parameters:**
+
 - Start and End coordinates
 - Line width
 - Line style (solid, dashed)
@@ -225,6 +230,7 @@ Iterate over data arrays to position multiple shapes.
 Display text in your patches.
 
 **Key Parameters:**
+
 - `Text` - The string to display
 - `Font` - Font family
 - `Size` - Text size
@@ -288,6 +294,7 @@ Control other ops with mouse input
 ```
 
 **Use Cases:**
+
 - On-screen sliders
 - Draggable controllers
 - Interactive buttons
