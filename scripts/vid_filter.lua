@@ -71,27 +71,10 @@ local function path_join(a, b)
   return a .. sep .. b
 end
 
-function CodeBlock(el)
-  if not el.classes:includes("vid") then
-    return nil
-  end
-
-  -- Only rewrite for LaTeX/PDF builds; keep original for other formats.
-  if FORMAT ~= "latex" then
-    return nil
-  end
-
-  local url, title, author = parse_vid_block(el.text)
-  if not url then
-    return nil
-  end
-
+local function render_vid_card(url, title, author)
   local vid = youtube_id_from_url(url)
   local thumb_path = nil
   if vid then
-    -- Pandoc runs XeLaTeX in a temp media directory; relative paths in raw LaTeX
-    -- won't work (and Pandoc won't copy media referenced only in raw LaTeX).
-    -- Use an absolute path so XeLaTeX can always find the cached thumbnail.
     local cwd = "."
     if pandoc.system and pandoc.system.get_working_directory then
       cwd = pandoc.system.get_working_directory()
@@ -101,7 +84,8 @@ function CodeBlock(el)
 
   local lines = {}
   table.insert(lines, "\\needspace{9\\baselineskip}")
-  table.insert(lines, "\\begin{mdframed}[style=videocardstyle]")
+  -- Override mdframed spacing so we can control "between cards" spacing precisely.
+  table.insert(lines, "\\begin{mdframed}[style=videocardstyle,skipabove=0pt,skipbelow=0pt]")
   table.insert(lines, "\\begingroup")
   table.insert(lines, "\\fontsize{\\VideoCardFontSizePt pt}{\\VideoCardLeadingPt pt}\\selectfont")
   table.insert(lines, "\\noindent\\begin{minipage}{\\linewidth}")
@@ -129,9 +113,42 @@ function CodeBlock(el)
   table.insert(lines, "\\end{minipage}")
   table.insert(lines, "\\endgroup")
   table.insert(lines, "\\end{mdframed}")
-  table.insert(lines, "\\par\\vspace{\\VideoCardSpacingAfter}")
 
   return pandoc.RawBlock("latex", table.concat(lines, "\n"))
+end
+
+function Pandoc(doc)
+  -- Only rewrite for LaTeX/PDF builds; keep original for other formats.
+  if FORMAT ~= "latex" then
+    return doc
+  end
+
+  local out = pandoc.List()
+  local prev_was_vid = false
+
+  for _, blk in ipairs(doc.blocks) do
+    if blk.t == "CodeBlock" and blk.classes and blk.classes:includes("vid") then
+      local url, title, author = parse_vid_block(blk.text)
+      if url then
+        if prev_was_vid then
+          out:insert(pandoc.RawBlock("latex", "\\par\\vspace{\\VideoCardSpacingBetweenCards}"))
+        else
+          out:insert(pandoc.RawBlock("latex", "\\par\\vspace{\\VideoCardSpacingBefore}"))
+        end
+        out:insert(render_vid_card(url, title, author))
+        prev_was_vid = true
+      else
+        out:insert(blk)
+        prev_was_vid = false
+      end
+    else
+      out:insert(blk)
+      prev_was_vid = false
+    end
+  end
+
+  doc.blocks = out
+  return doc
 end
 
 
