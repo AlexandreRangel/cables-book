@@ -64,7 +64,8 @@
 %% CODE BLOCKS
 %% ------------------------------------------------------------
 \newcommand{\CodeBlockFontSize}{10.5}     % Font size in points
-\newcommand{\CodeBlockLineSpacing}{0.9}  % Line spacing (1.0 = normal)
+\newcommand{\CodeBlockLeadingPt}{11.55}  % Line height (leading) in points (~+10% over 10.5pt)
+\newcommand{\CodeBlockLineSpacing}{0.9}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
 
 %% ------------------------------------------------------------
 %% IMAGES
@@ -341,7 +342,7 @@
 %% NOTE: fancyvrb's `fontsize=` expects a command (e.g. \small). Passing "10.5pt"
 %% causes that text to appear in the output. Use `formatcom` instead.
 \newcommand{\CodeBlockFormat}{%
-  \fontsize{\CodeBlockFontSize}{\CodeBlockFontSize}\selectfont%
+  \fontsize{\CodeBlockFontSize}{\CodeBlockLeadingPt}\selectfont%
   \linespread{\CodeBlockLineSpacing}\selectfont%
 }
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
