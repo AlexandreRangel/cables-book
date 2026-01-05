@@ -110,6 +110,7 @@
 \newcommand{\NeedspaceSubsection}{5\baselineskip}
 \newcommand{\NeedspaceSubsubsection}{4\baselineskip}
 \newcommand{\NeedspaceParagraph}{3\baselineskip}
+\newcommand{\NeedspaceOpHeading}{10\baselineskip} % Ops (###) heading + image + a bit of text (prevents orphan op titles)
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -190,11 +191,8 @@
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
   \global\@opimagefalse
-  % If in section 13 (ops) and this will be an op image, prevent orphan images
-  \ifnum\value{section}=13\relax
-    % Reserve space for op image + at least one line of text after
-    \needspace{4\baselineskip}%
-  \fi
+  % Do NOT call \needspace here for ops images.
+  % We reserve space at the op heading instead, to avoid leaving the heading orphaned.
   \par\vspace{\OpImageSpacing}%
   \noindent%
   \raggedright%
@@ -256,6 +254,16 @@
 \definecolor{inputportsymbol}{RGB}{\InputPortSymbolRed,\InputPortSymbolGreen,\InputPortSymbolBlue}
 \definecolor{outputportsymbol}{RGB}{\OutputPortSymbolRed,\OutputPortSymbolGreen,\OutputPortSymbolBlue}
 
+%% TOC: color items to match heading styles
+\renewcommand{\cftsecfont}{\color{sectiononecolor}}
+\renewcommand{\cftsecpagefont}{\color{sectiononecolor}}
+\renewcommand{\cftsubsecfont}{\color{sectiontwocolor}}
+\renewcommand{\cftsubsecpagefont}{\color{sectiontwocolor}}
+\renewcommand{\cftsubsubsecfont}{\color{sectionthreecolor}}
+\renewcommand{\cftsubsubsecpagefont}{\color{sectionthreecolor}}
+\renewcommand{\cftparafont}{\color{sectionfourcolor}}
+\renewcommand{\cftparapagefont}{\color{sectionfourcolor}}
+
 %% Commands for colored port symbols (with space after)
 \newcommand{\inputsymbol}{\textcolor{inputportsymbol}{\textgreater} }
 \newcommand{\outputsymbol}{\textcolor{outputportsymbol}{\textless} }
@@ -287,8 +295,8 @@
 \pretocmd{\subsubsection}{%
   \ifnum\value{section}=13\relax
     \setlength{\parskip}{\OpParagraphSpacing}%
-    % Prevent orphan op names - require at least 3 lines after heading
-    \needspace{3\baselineskip}%
+    % Prevent orphan op names - reserve enough room for heading + op image + some text
+    \needspace{\NeedspaceOpHeading}%
   \fi
 }{}{}
 \makeatother
