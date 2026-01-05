@@ -224,7 +224,6 @@ Then in your patch, use `isVisible` to reduce workload (lower particle count, sk
 If you embed via iframe, `postMessage` is the clean way to send commands and data.
 
 **Parent page -> iframe:**
-
 ```javascript
 const iframe = document.getElementById("cablesFrame");
 iframe.contentWindow.postMessage(
@@ -234,7 +233,6 @@ iframe.contentWindow.postMessage(
 ```
 
 **Inside the exported patch wrapper page:**
-
 ```javascript
 window.addEventListener("message", (event) => {
   const msg = event.data;
@@ -1259,8 +1257,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
 
 A professional splash screen improves perceived performance:
 
-**splash.html:**
-
+**splash.html**
 ```html
 <!DOCTYPE html>
 <html>
@@ -1371,8 +1368,8 @@ A professional splash screen improves perceived performance:
 </html>
 ```
 
-**Enhanced main.js with splash screen:**
 
+**Enhanced main.js with splash screen:**
 ```javascript
 function createSplashWindow() {
   splashWindow = new BrowserWindow({
