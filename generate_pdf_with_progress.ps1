@@ -69,14 +69,28 @@ Remove-Item $tempErr -ErrorAction SilentlyContinue
 Remove-Item $tempOut -ErrorAction SilentlyContinue
 Remove-Item $OutputFile -ErrorAction SilentlyContinue
 
-# Record start time
-$startTime = Get-Date
+# Record start time (use shared timer if available)
+if (Test-Path "timer_start.xml") {
+    $startTime = Import-Clixml -Path "timer_start.xml"
+} else {
+    $startTime = Get-Date
+}
 
 # Create a background job to run pandoc
 $cmdLine = "pandoc $argString"
 $proc = Start-Process -FilePath "cmd.exe" -ArgumentList "/c", "$cmdLine > $tempOut 2> $tempErr" -NoNewWindow -PassThru
 
-Write-Host "  Generating pages: " -NoNewline
+# Function to show elapsed time
+function Show-Elapsed {
+    $elapsed = (Get-Date) - $startTime
+    $h = [math]::Floor($elapsed.TotalHours)
+    $m = $elapsed.Minutes
+    $s = $elapsed.Seconds
+    Write-Host ("[Elapsed: " + $h.ToString('00') + ":" + $m.ToString('00') + ":" + $s.ToString('00') + "]") -NoNewline
+}
+
+Show-Elapsed
+Write-Host " Generating pages: " -NoNewline
 
 # Monitor for progress
 $lastPage = 0
@@ -164,11 +178,17 @@ while (-not $proc.HasExited) {
         }
     }
     
-    # Update display
+    # Update display with elapsed time
+    $elapsed = (Get-Date) - $startTime
+    $h = [math]::Floor($elapsed.TotalHours)
+    $m = $elapsed.Minutes
+    $s = $elapsed.Seconds
+    $timeStr = $h.ToString('00') + ":" + $m.ToString('00') + ":" + $s.ToString('00')
+    
     if ($lastPage -gt 0) {
-        Write-Host "`r  Generating pages: $lastPage     " -NoNewline
+        Write-Host "`r[Elapsed: $timeStr] Generating pages: $lastPage     " -NoNewline
     } else {
-        Write-Host "`r  Generating pages: $($spinChars[$spinIdx]) " -NoNewline
+        Write-Host "`r[Elapsed: $timeStr] Generating pages: $($spinChars[$spinIdx]) " -NoNewline
         $spinIdx = ($spinIdx + 1) % 4
     }
     

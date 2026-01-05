@@ -13,6 +13,7 @@
 \newcommand{\SectionThreeFontSize}{14}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{12}
 \newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
+\newcommand{\SectionThreeSpacingAfter}{1.5ex plus 0.5ex minus 0.2ex}  % Spacing after subsections
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{11}
 
@@ -46,7 +47,7 @@
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
 \newcommand{\OpImageWidthFraction}{0.45}   % Op image width (0.5 = 50% of line)
-\newcommand{\OpImageSpacing}{0.25\baselineskip}  % Spacing before/after op images
+\newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
 
@@ -65,8 +66,9 @@
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
 \newcommand{\HeaderHeight}{12}            % Header height in points
-\newcommand{\FooterHeight}{14}          % Footer height in points
+\newcommand{\FooterHeight}{12}          % Footer height in points
 \newcommand{\FooterSkip}{8pt}            % Distance from text bottom to footer (lower = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-15pt}  % Vertical offset for page number (negative = closer to page edge)
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -201,7 +203,7 @@
   {\thesubsubsection}{1em}{}
 %% Reduce spacing after ### headings (before op images)
 %% Format: \titlespacing{command}{left}{before-sep}{after-sep}
-\titlespacing*{\subsubsection}{0pt}{\SectionThreeSpacingBefore}{0.3ex plus .1ex}
+\titlespacing*{\subsubsection}{0pt}{\SectionThreeSpacingBefore}{\SectionThreeSpacingAfter}
 
 %% Apply reduced paragraph spacing to ops sections (section 13 content)
 \makeatletter
@@ -254,7 +256,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % Clear all headers and footers
-\fancyfoot[R]{\thepage} % Right-aligned page number
+\fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\thepage}} % Right-aligned page number with vertical offset
 \renewcommand{\headrulewidth}{0pt} % No header rule
 \renewcommand{\footrulewidth}{0pt} % No footer rule
 
@@ -269,7 +271,7 @@
 % Fix page 1 (plain style) to also have right-aligned page number
 \fancypagestyle{plain}{%
   \fancyhf{} % Clear all headers and footers
-  \fancyfoot[R]{\thepage} % Right-aligned page number
+  \fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\thepage}} % Right-aligned page number with vertical offset
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
