@@ -84,7 +84,7 @@
 \newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{6}            % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-8pt} % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-5pt} % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\PageNumberGrayPercent}{50}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
 \newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
@@ -332,8 +332,12 @@
 % Code blocks use the same card style
 \mdfdefinestyle{codeboxstyle}{style=cardstyle}
 
-% Video cards use the same card style
-\mdfdefinestyle{videocardstyle}{style=cardstyle}
+% Video cards: keep cardstyle, but make left/right padding match the (good) top padding
+\mdfdefinestyle{videocardstyle}{
+    style=cardstyle,
+    innerleftmargin=\CardPaddingY,
+    innerrightmargin=\CardPaddingY
+}
 
 % Make code blocks span both columns if they're wide (in 2-column mode)
 % Note: This will be handled at document level, not in preamble

@@ -53,7 +53,9 @@ if %ERRORLEVEL% NEQ 0 (
 
 REM Set file paths
 set TEMP_MD=temp_combined_book.md
-set OUTPUT_PDF=cables-gl-book.pdf
+set OUTPUT_PDF_FINAL=cables-gl-book.pdf
+set OUTPUT_PDF_TMP=cables-gl-book.build.pdf
+set OUTPUT_PDF=%OUTPUT_PDF_FINAL%
 set HEADER_FILE=latex-header.tex
 
 REM Check header file exists
@@ -63,8 +65,9 @@ if not exist %HEADER_FILE% (
     exit /b 1
 )
 
-REM Delete old PDF to verify new one is created
-if exist %OUTPUT_PDF% del %OUTPUT_PDF%
+REM Do NOT delete the final PDF up-front (it may be open/locked by a viewer).
+REM Instead, render to a temp PDF and then attempt to replace the final atomically.
+if exist %OUTPUT_PDF_TMP% del %OUTPUT_PDF_TMP%
 
 powershell -ExecutionPolicy Bypass -File "show_elapsed.ps1"
 echo [3/5] Combining chapters with proper UTF-8 encoding...
@@ -83,11 +86,20 @@ powershell -ExecutionPolicy Bypass -File "show_elapsed.ps1"
 echo [4/5] Generating PDF...
 
 REM Use PowerShell script to show page-by-page progress
-powershell -ExecutionPolicy Bypass -File "generate_pdf_with_progress.ps1" -InputFile "%TEMP_MD%" -OutputFile "%OUTPUT_PDF%" -HeaderFile "%HEADER_FILE%"
+powershell -ExecutionPolicy Bypass -File "generate_pdf_with_progress.ps1" -InputFile "%TEMP_MD%" -OutputFile "%OUTPUT_PDF_TMP%" -HeaderFile "%HEADER_FILE%"
 if %ERRORLEVEL% NEQ 0 (
     echo ERROR: PDF generation failed.
     if exist timer_start.xml del timer_start.xml
     exit /b 1
+)
+
+REM Try to replace the final PDF; if it is locked, keep the temp PDF and continue.
+move /y "%OUTPUT_PDF_TMP%" "%OUTPUT_PDF_FINAL%" >nul 2>&1
+if %ERRORLEVEL% EQU 0 (
+    set OUTPUT_PDF=%OUTPUT_PDF_FINAL%
+) else (
+    echo NOTE: Could not overwrite "%OUTPUT_PDF_FINAL%" - it may be open. Keeping "%OUTPUT_PDF_TMP%".
+    set OUTPUT_PDF=%OUTPUT_PDF_TMP%
 )
 
 powershell -ExecutionPolicy Bypass -File "show_elapsed.ps1"
@@ -125,7 +137,7 @@ exit /b 1
 :compress_pdf
 REM Optional: compress PDF (requires Ghostscript). Replaces output only if smaller.
 REM You can change the profile: /screen (smallest), /ebook (balanced), /printer (higher quality)
-set PDF_COMPRESS_PROFILE=/ebook
+set PDF_COMPRESS_PROFILE=/printer
 set "GSCMD="
 for /f "usebackq delims=" %%G in (`where gswin64c 2^>nul`) do (
     set "GSCMD=%%G"
