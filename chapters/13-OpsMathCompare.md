@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Math.Compare
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Between
 ![Between op](images/ops/Ops_Math_Compare_Between.svg)
 

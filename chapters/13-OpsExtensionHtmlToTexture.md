@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.HtmlToTexture
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### HtmlToTexture
 ![HtmlToTexture op](images/ops/Ops_Extension_HtmlToTexture_HtmlToTexture.svg)
 

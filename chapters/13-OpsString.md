@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.String
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AddLineBreaks_v2
 ![AddLineBreaks_v2 op](images/ops/Ops_String_AddLineBreaks_v2.svg)
 

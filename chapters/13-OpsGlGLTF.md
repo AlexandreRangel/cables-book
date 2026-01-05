@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.GLTF
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### GltfAnimationArray
 ![GltfAnimationArray op](images/ops/Ops_Gl_GLTF_GltfAnimationArray.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Html.Attributes
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ElementAccessibility
 ![ElementAccessibility op](images/ops/Ops_Html_Attributes_ElementAccessibility.svg)
 

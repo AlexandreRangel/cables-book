@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Html
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ActiveElement
 ![ActiveElement op](images/ops/Ops_Html_ActiveElement.svg)
 

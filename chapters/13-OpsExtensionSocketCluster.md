@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.SocketCluster
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### SocketClusterClient_v2
 ![SocketClusterClient_v2 op](images/ops/Ops_Extension_SocketCluster_SocketClusterClient_v2.svg)
 

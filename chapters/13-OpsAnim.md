@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Anim
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AnimNumber
 ![AnimNumber op](images/ops/Ops_Anim_AnimNumber.svg)
 

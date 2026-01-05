@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.Midi
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DeviceList
 ![DeviceList op](images/ops/Ops_Devices_Midi_DeviceList.svg)
 

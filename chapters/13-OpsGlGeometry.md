@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.Geometry
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### BoundingBoxVisible
 ![BoundingBoxVisible op](images/ops/Ops_Gl_Geometry_BoundingBoxVisible.svg)
 

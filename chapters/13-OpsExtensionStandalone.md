@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Standalone
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Ffmpeg
 ![Ffmpeg op](images/ops/Ops_Extension_Standalone_Ffmpeg.svg)
 

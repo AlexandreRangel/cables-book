@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Audio
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### BpmTap
 ![BpmTap op](images/ops/Ops_Audio_BpmTap.svg)
 

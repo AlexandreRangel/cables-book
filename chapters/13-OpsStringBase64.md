@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.String.Base64
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Base64Decode_v2
 ![Base64Decode_v2 op](images/ops/Ops_String_Base64_Base64Decode_v2.svg)
 

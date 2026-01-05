@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Trigger
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DelayedTrigger
 ![DelayedTrigger op](images/ops/Ops_Trigger_DelayedTrigger.svg)
 

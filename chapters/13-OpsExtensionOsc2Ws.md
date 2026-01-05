@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Osc2Ws
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Osc2WsArray
 ![Osc2WsArray op](images/ops/Ops_Extension_Osc2Ws_Osc2WsArray.svg)
 

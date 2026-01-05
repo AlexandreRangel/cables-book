@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Data.Compose.Array
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CompArray
 ![CompArray op](images/ops/Ops_Data_Compose_Array_CompArray.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.Shader
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AttributeAsColorMaterial
 ![AttributeAsColorMaterial op](images/ops/Ops_Gl_Shader_AttributeAsColorMaterial.svg)
 

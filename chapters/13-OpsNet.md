@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Net
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CorsProxy_v3
 ![CorsProxy_v3 op](images/ops/Ops_Net_CorsProxy_v3.svg)
 

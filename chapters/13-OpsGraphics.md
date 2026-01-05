@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Graphics
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ArrayToExr
 ![ArrayToExr op](images/ops/Ops_Graphics_ArrayToExr.svg)
 

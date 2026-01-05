@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.WebXr.Vr
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Vr
 ![Vr op](images/ops/Ops_Devices_WebXr_Vr_Vr.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.Keyboard
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CursorKeys
 ![CursorKeys op](images/ops/Ops_Devices_Keyboard_CursorKeys.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.WebGpu
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ArrayToGpuBuffer
 ![ArrayToGpuBuffer op](images/ops/Ops_Extension_WebGpu_ArrayToGpuBuffer.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.ImageCompose.Noise
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CellularNoise_v2
 ![CellularNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_CellularNoise_v2.svg)
 

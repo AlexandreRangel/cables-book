@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Website
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Cookie
 ![Cookie op](images/ops/Ops_Website_Cookie.svg)
 

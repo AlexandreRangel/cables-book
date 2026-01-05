@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Standalone.Files
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CreateFile
 ![CreateFile op](images/ops/Ops_Extension_Standalone_Files_CreateFile.svg)
 

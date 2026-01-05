@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.WebAudio
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AnalyzerTexture_v2
 ![AnalyzerTexture_v2 op](images/ops/Ops_WebAudio_AnalyzerTexture_v2.svg)
 

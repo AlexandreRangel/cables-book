@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Voice
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### MeSpeak
 ![MeSpeak op](images/ops/Ops_Extension_Voice_MeSpeak.svg)
 

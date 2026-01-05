@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.SocketCluster.Deprecated
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### SocketClusterReceiveArray
 ![SocketClusterReceiveArray op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveArray.svg)
 

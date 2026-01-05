@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Trackingjs
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### TrackWebcamColor
 ![TrackWebcamColor op](images/ops/Ops_Extension_Trackingjs_TrackWebcamColor.svg)
 

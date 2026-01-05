@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Html.Event
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ElementEventListener_v2
 ![ElementEventListener_v2 op](images/ops/Ops_Html_Event_ElementEventListener_v2.svg)
 

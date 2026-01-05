@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Html.Utils
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CablesLink
 ![CablesLink op](images/ops/Ops_Html_Utils_CablesLink.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.DetectGpu
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DetectGPU
 ![DetectGPU op](images/ops/Ops_Extension_DetectGpu_DetectGPU.svg)
 

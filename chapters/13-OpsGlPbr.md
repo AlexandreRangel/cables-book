@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.Pbr
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### PbrEnvironmentLight
 ![PbrEnvironmentLight op](images/ops/Ops_Gl_Pbr_PbrEnvironmentLight.svg)
 

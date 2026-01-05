@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.Lottie
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### LottieSVGPlayer
 ![LottieSVGPlayer op](images/ops/Ops_Extension_Lottie_LottieSVGPlayer.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.ImageCompose
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Alpha
 ![Alpha op](images/ops/Ops_Gl_ImageCompose_Alpha.svg)
 

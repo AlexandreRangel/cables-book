@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Cables
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AssetPathURL
 ![AssetPathURL op](images/ops/Ops_Cables_AssetPathURL.svg)
 

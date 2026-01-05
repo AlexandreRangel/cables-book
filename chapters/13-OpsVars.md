@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Vars
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### TriggerVarGetArray
 ![TriggerVarGetArray op](images/ops/Ops_Vars_TriggerVarGetArray.svg)
 

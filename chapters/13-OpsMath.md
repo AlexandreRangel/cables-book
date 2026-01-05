@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Math
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Abs
 ![Abs op](images/ops/Ops_Math_Abs.svg)
 

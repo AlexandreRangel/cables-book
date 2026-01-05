@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Array.PointArray
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Array3AreaRemove
 ![Array3AreaRemove op](images/ops/Ops_Array_PointArray_Array3AreaRemove.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.ImageCompose.Math
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ColorMapRange
 ![ColorMapRange op](images/ops/Ops_Gl_ImageCompose_Math_ColorMapRange.svg)
 

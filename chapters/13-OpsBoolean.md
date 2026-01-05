@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Boolean
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### And
 ![And op](images/ops/Ops_Boolean_And.svg)
 

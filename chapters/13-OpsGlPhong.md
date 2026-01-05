@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl.Phong
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AmbientLight_v4
 ![AmbientLight_v4 op](images/ops/Ops_Gl_Phong_AmbientLight_v4.svg)
 

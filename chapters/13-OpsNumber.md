@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Number
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DelayedNumber
 ![DelayedNumber op](images/ops/Ops_Number_DelayedNumber.svg)
 

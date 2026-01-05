@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.GamePad
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### GamePad
 ![GamePad op](images/ops/Ops_Devices_GamePad_GamePad.svg)
 

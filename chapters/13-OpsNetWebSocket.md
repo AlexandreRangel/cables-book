@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Net.WebSocket
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### WebSocket_v2
 ![WebSocket_v2 op](images/ops/Ops_Net_WebSocket_WebSocket_v2.svg)
 

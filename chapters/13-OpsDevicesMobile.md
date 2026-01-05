@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.Mobile
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DeviceVibrate
 ![DeviceVibrate op](images/ops/Ops_Devices_Mobile_DeviceVibrate.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.GlParticles
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### VelocityBoundaries
 ![VelocityBoundaries op](images/ops/Ops_Extension_GlParticles_VelocityBoundaries.svg)
 

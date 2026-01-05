@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.Browser
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### BrowserInfo_v3
 ![BrowserInfo_v3 op](images/ops/Ops_Devices_Browser_BrowserInfo_v3.svg)
 

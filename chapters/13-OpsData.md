@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Data
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### SpreadSheetArray
 ![SpreadSheetArray op](images/ops/Ops_Data_SpreadSheetArray.svg)
 

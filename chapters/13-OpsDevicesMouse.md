@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices.Mouse
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Mouse_v4
 ![Mouse_v4 op](images/ops/Ops_Devices_Mouse_Mouse_v4.svg)
 

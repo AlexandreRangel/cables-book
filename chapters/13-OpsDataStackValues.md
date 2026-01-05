@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Data.StackValues
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### StackGetArray
 ![StackGetArray op](images/ops/Ops_Data_StackValues_StackGetArray.svg)
 

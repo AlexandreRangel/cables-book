@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.SuperShapes
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### SuperShapesCpu
 ![SuperShapesCpu op](images/ops/Ops_Extension_SuperShapes_SuperShapesCpu.svg)
 

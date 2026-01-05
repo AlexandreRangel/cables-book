@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Sidebar
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Button_v2
 ![Button_v2 op](images/ops/Ops_Sidebar_Button_v2.svg)
 

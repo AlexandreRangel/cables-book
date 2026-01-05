@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Graphics.Meshes
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### CablesLogo
 ![CablesLogo op](images/ops/Ops_Graphics_Meshes_CablesLogo.svg)
 

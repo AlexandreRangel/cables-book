@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Ui.Debug
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### PatchUiCoords
 ![PatchUiCoords op](images/ops/Ops_Ui_Debug_PatchUiCoords.svg)
 

@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.OpenType
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### OpentypeFont
 ![OpentypeFont op](images/ops/Ops_Extension_OpenType_OpentypeFont.svg)
 

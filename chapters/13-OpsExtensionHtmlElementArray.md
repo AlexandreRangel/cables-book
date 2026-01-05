@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.HtmlElementArray
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### DivElements
 ![DivElements op](images/ops/Ops_Extension_HtmlElementArray_DivElements.svg)
 

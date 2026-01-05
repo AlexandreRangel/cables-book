@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Array
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### AnglesBetweenPoints
 ![AnglesBetweenPoints op](images/ops/Ops_Array_AnglesBetweenPoints.svg)
 

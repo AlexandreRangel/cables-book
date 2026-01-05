@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Debug
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### Console
 ![Console op](images/ops/Ops_Debug_Console.svg)
 

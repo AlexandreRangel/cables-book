@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Devices
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### TouchGesture
 ![TouchGesture op](images/ops/Ops_Devices_TouchGesture.svg)
 

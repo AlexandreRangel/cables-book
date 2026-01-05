@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Gl
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ArrayToTexture_v2
 ![ArrayToTexture_v2 op](images/ops/Ops_Gl_ArrayToTexture_v2.svg)
 

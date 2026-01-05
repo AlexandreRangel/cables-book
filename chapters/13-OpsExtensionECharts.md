@@ -2,8 +2,9 @@
 
 ---
 
-## Ops.Extension.ECharts
-
+```{=latex}
+\stepcounter{subsection}\setcounter{subsubsection}{0}
+```
 ### ECharts
 ![ECharts op](images/ops/Ops_Extension_ECharts_ECharts.svg)
 
