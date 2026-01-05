@@ -55,9 +55,8 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageHeightFraction}{0.18}  % Op image MAX height fraction of \textheight (smaller = smaller images)
-\newcommand{\OpImageWidthFraction}{1.00}   % Safety cap: max width fraction of \columnwidth
-\newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
+\newcommand{\OpImageHeightFraction}{0.07}  % Op image height fraction of \textheight (width scales proportionally)
+\newcommand{\OpImageSpacing}{0.05\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.9\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
 
@@ -65,8 +64,8 @@
 %% CODE BLOCKS
 %% ------------------------------------------------------------
 \newcommand{\CodeBlockFontSize}{10.75}     % Font size in points
-\newcommand{\CodeBlockLeadingPt}{11.75}  % Line height (leading) in points (~+10% over 10.5pt)
-\newcommand{\CodeBlockLineSpacing}{0.95}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
+\newcommand{\CodeBlockLeadingPt}{12.0}  % Line height (leading) in points (~+10% over 10.5pt)
+\newcommand{\CodeBlockLineSpacing}{1.0}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
 
 %% ------------------------------------------------------------
 %% IMAGES
@@ -80,12 +79,12 @@
 \newcommand{\PagePaper}{a4paper}         % Page size (a4paper, letterpaper, ...)
 \newcommand{\PageMarginLeft}{0.45in}     % Left margin (25% smaller than 0.82in)
 \newcommand{\PageMarginRight}{0.45in}    % Right margin (25% smaller than 0.82in)
-\newcommand{\PageMarginTop}{0.4in}       % Top margin
-\newcommand{\PageMarginBottom}{0.3in}   % Bottom margin
+\newcommand{\PageMarginTop}{0.6in}       % Top margin
+\newcommand{\PageMarginBottom}{0.24in}   % Bottom margin
 \newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{6}            % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-7pt} % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-6pt} % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\PageNumberGrayPercent}{50}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
 \newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
@@ -93,7 +92,7 @@
 %% ------------------------------------------------------------
 %% CARDS (Video blocks + Code blocks)
 %% ------------------------------------------------------------
-\newcommand{\CardGrayPercent}{10}         % Background gray level (black!10 ~= very light)
+\newcommand{\CardGrayPercent}{9}         % Background gray level (black!10 ~= very light)
 \newcommand{\CardCornerRadius}{4pt}       % Rounded corners
 \newcommand{\CardPaddingX}{8pt}           % Inner left/right padding
 \newcommand{\CardPaddingY}{12pt}          % Inner top/bottom padding
@@ -228,7 +227,7 @@
     \global\@opimagetrue
     % Ops images: scale by a fixed max HEIGHT (consistent across varying aspect ratios),
     % with a width cap to prevent overflow in a column.
-    \noindent\oldincludegraphics[height=\OpImageHeightFraction\textheight,width=\OpImageWidthFraction\columnwidth,keepaspectratio]{#2}%
+    \noindent\oldincludegraphics[height=\OpImageHeightFraction\textheight,keepaspectratio]{#2}%
   }{%
     % Regular image: use standard settings
     \global\@opimagefalse
