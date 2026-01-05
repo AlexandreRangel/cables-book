@@ -307,6 +307,7 @@
 
 %% Code block styling
 \usepackage{fancyvrb}
+\usepackage{fvextra} % enables automatic line breaking for Verbatim environments
 \usepackage[framemethod=tikz]{mdframed}
 
 % Card background (shared by code blocks + video cards)
@@ -338,6 +339,18 @@
 
 %% Set code block line spacing and font size using the settings above
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
+    baselinestretch=\CodeBlockLineSpacing,
+    fontsize=\CodeBlockFontSize pt,
+    breaklines=true,
+    breakanywhere=true,
+    breakautoindent=false,
+    breakindent=0pt,
+    breaksymbolleft={}
+}
+
+% Pandoc often emits the lowercase `verbatim` environment.
+% Re-customize it to use fancyvrb/fvextra so long lines wrap inside code boxes.
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{
     baselinestretch=\CodeBlockLineSpacing,
     fontsize=\CodeBlockFontSize pt,
     breaklines=true,
