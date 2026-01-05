@@ -100,14 +100,18 @@ function CodeBlock(el)
   end
 
   local lines = {}
-  table.insert(lines, "\\needspace{8\\baselineskip}")
+  table.insert(lines, "\\needspace{9\\baselineskip}")
+  table.insert(lines, "\\begin{mdframed}[style=videocardstyle]")
+  table.insert(lines, "\\begingroup")
+  table.insert(lines, "\\fontsize{\\VideoCardFontSizePt pt}{\\VideoCardLeadingPt pt}\\selectfont")
   table.insert(lines, "\\noindent\\begin{minipage}{\\linewidth}")
 
   if thumb_path then
     table.insert(
       lines,
       string.format(
-        "\\noindent\\includegraphics[width=\\YouTubeThumbnailWidthFraction\\linewidth,keepaspectratio]{\\detokenize{%s}}\\par\\vspace{0.35\\baselineskip}",
+        "\\noindent\\href{%s}{\\tikz[baseline]{\\node[inner sep=0pt,rounded corners=\\YouTubeThumbCornerRadius,clip]{\\includegraphics[width=\\YouTubeThumbnailWidthFraction\\linewidth,keepaspectratio]{\\detokenize{%s}}};}}\\par\\vspace{0.35\\baselineskip}",
+        url,
         thumb_path
       )
     )
@@ -116,13 +120,16 @@ function CodeBlock(el)
   table.insert(lines, string.format("\\noindent\\small\\url{%s}\\par", url))
 
   if title and title ~= "" then
-    table.insert(lines, string.format("\\noindent\\small\\textbf{Title:} %s\\par", latex_escape(title)))
+    table.insert(lines, string.format("\\noindent\\small\\textbf{%s}\\par", latex_escape(title)))
   end
   if author and author ~= "" then
-    table.insert(lines, string.format("\\noindent\\small\\textbf{Author:} %s\\par", latex_escape(author)))
+    table.insert(lines, string.format("\\noindent\\small by %s\\par", latex_escape(author)))
   end
 
-  table.insert(lines, "\\end{minipage}\\par\\vspace{0.75\\baselineskip}")
+  table.insert(lines, "\\end{minipage}")
+  table.insert(lines, "\\endgroup")
+  table.insert(lines, "\\end{mdframed}")
+  table.insert(lines, "\\par\\vspace{\\VideoCardSpacingAfter}")
 
   return pandoc.RawBlock("latex", table.concat(lines, "\n"))
 end

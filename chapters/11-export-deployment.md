@@ -2252,26 +2252,4 @@ Author: Decode GL
 9. **Electron Exercise**: Implement window state persistence (save/restore window position and size)
 10. **Electron Exercise**: Add a system tray icon with context menu for your Electron app
 
----
-
----
-
-## Congratulations!
-
-You've completed the Cables.gl book! You now have the knowledge to:
-
-- Create stunning 2D and 3D graphics
-- Apply textures and materials
-- Write custom shaders
-- Build custom operators
-- Create audio-reactive visuals
-- Animate with timeline and code
-- Export and deploy your creations
-
-Keep experimenting, join the community, and share your creations!
-
-**Resources:**
-- [cables.gl](https://cables.gl) - Official website
-- [cables.gl/docs](https://cables.gl/docs) - Documentation
-- [Discord](https://discord.gg/cables) - Community chat
 

@@ -37,7 +37,6 @@ $pandocArgs = @(
     "--lua-filter=scripts/vid_filter.lua",
     "-H", $HeaderFile,
     "-V", "classoption=twocolumn",
-    "-V", "geometry:landscape,left=0.82in,right=0.82in,top=0.656in,bottom=0.656in",
     "-V", "mainfont=Ubuntu",
     "-V", "sansfont=Ubuntu",
     "-V", "monofont=Ubuntu Mono",
@@ -47,7 +46,6 @@ $pandocArgs = @(
     "--toc-depth=3",
     "--number-sections",
     "-V", "toc-title=Table of Contents",
-    "-V", "papersize=letter",
     "--syntax-highlighting=none"
 )
 
