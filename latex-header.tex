@@ -339,7 +339,12 @@
 %% Set code block line spacing and font size using the settings above
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
     baselinestretch=\CodeBlockLineSpacing,
-    fontsize=\CodeBlockFontSize pt
+    fontsize=\CodeBlockFontSize pt,
+    breaklines=true,
+    breakanywhere=true,
+    breakautoindent=false,
+    breakindent=0pt,
+    breaksymbolleft={}
 }
 
 \surroundwithmdframed[style=codeboxstyle]{Verbatim}
