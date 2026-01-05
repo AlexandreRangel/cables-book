@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### HttpServer
 ![HttpServer op](images/ops/Ops_Extension_Standalone_Net_HttpServer.svg)

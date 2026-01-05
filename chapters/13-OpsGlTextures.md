@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### Base64ToTexture
 ![Base64ToTexture op](images/ops/Ops_Gl_Textures_Base64ToTexture.svg)

@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### AnimMatrix
 ![AnimMatrix op](images/ops/Ops_Gl_Matrix_AnimMatrix.svg)

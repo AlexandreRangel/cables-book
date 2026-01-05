@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### Area
 ![Area op](images/ops/Ops_Ui_Area.svg)

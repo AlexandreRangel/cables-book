@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### CubeMapFromTextures_v2
 ![CubeMapFromTextures_v2 op](images/ops/Ops_Gl_CubeMap_CubeMapFromTextures_v2.svg)

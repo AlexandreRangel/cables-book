@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### FileInput_v2
 ![FileInput_v2 op](images/ops/Ops_String_File_FileInput_v2.svg)

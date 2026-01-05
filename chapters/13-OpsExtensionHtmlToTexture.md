@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### HtmlToTexture
 ![HtmlToTexture op](images/ops/Ops_Extension_HtmlToTexture_HtmlToTexture.svg)

@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### ComposingGridOverlay
 ![ComposingGridOverlay op](images/ops/Ops_Gl_Meshes_ComposingGridOverlay.svg)

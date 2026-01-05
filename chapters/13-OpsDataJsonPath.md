@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### ArrayGetArrayByPath
 ![ArrayGetArrayByPath op](images/ops/Ops_Data_JsonPath_ArrayGetArrayByPath.svg)

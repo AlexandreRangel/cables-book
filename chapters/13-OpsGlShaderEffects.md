@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### AreaDiscardPixel_v2
 ![AreaDiscardPixel_v2 op](images/ops/Ops_Gl_ShaderEffects_AreaDiscardPixel_v2.svg)

@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### AmmoBody
 ![AmmoBody op](images/ops/Ops_Extension_AmmoPhysics_AmmoBody.svg)

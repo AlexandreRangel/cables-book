@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### FilterIntersections
 ![FilterIntersections op](images/ops/Ops_Graphics_Intersection_FilterIntersections.svg)

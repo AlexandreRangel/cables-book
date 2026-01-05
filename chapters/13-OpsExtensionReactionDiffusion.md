@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### ReactionDiffusionSystem_v2
 ![ReactionDiffusionSystem_v2 op](images/ops/Ops_Extension_ReactionDiffusion_ReactionDiffusionSystem_v2.svg)

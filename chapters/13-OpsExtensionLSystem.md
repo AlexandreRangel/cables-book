@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### Lsystem_v2
 ![Lsystem_v2 op](images/ops/Ops_Extension_LSystem_Lsystem_v2.svg)

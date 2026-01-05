@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### ExampleVizOp
 ![ExampleVizOp op](images/ops/Ops_Templates_ExampleVizOp.svg)

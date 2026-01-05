@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### TimeLineBPM
 ![TimeLineBPM op](images/ops/Ops_TimeLine_Viz_TimeLineBPM.svg)

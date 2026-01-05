@@ -3,7 +3,7 @@
 ---
 
 ```{=latex}
-\stepcounter{subsection}\setcounter{subsubsection}{0}
+\OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
 ```
 ### AudioClassifier
 ![AudioClassifier op](images/ops/Ops_Extension_TeachableMachines_AudioClassifier.svg)

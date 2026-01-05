@@ -15,7 +15,7 @@ import glob
 from pathlib import Path
 
 
-LATEX_COUNTER_STEP = "```{=latex}\n\\stepcounter{subsection}\\setcounter{subsubsection}{0}\n```\n"
+LATEX_COUNTER_STEP = "```{=latex}\n\\OpsSubsubNoSubsectionNumbering\\setcounter{subsubsection}{0}\n```\n"
 
 
 def fix_file(path: Path) -> int:

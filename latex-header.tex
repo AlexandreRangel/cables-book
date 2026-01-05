@@ -55,7 +55,7 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageWidthFraction}{0.80}   % Op image width (0.90 = 90% of column width for 2-col layout)
+\newcommand{\OpImageWidthFraction}{0.50}   % Op image width (0.90 = 90% of column width for 2-col layout)
 \newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
@@ -268,6 +268,14 @@
 %% Commands for colored port symbols (with space after)
 \newcommand{\inputsymbol}{\textcolor{inputportsymbol}{\textgreater} }
 \newcommand{\outputsymbol}{\textcolor{outputportsymbol}{\textless} }
+
+%% Ops numbering helper:
+%% Use section.subsubsection (e.g. 13.12) instead of section.subsection.subsubsection (e.g. 13.1.12)
+%% Used by the small latex block inserted at the top of each ops (chapters/13-*.md) file.
+\newcommand{\OpsSubsubNoSubsectionNumbering}{%
+  \renewcommand{\thesubsubsection}{\thesection.\arabic{subsubsection}}%
+  \renewcommand{\theHsubsubsection}{\theHsection.\arabic{subsubsection}}%
+}
 
 %% Custom header styles using the settings above
 \usepackage{titlesec}
