@@ -106,10 +106,10 @@
 %% ORPHAN CONTROL (Headings)
 %% ------------------------------------------------------------
 % Keep headings with at least a few lines of content after them (prevents orphan titles)
-\newcommand{\NeedspaceSection}{6\baselineskip}
-\newcommand{\NeedspaceSubsection}{5\baselineskip}
-\newcommand{\NeedspaceSubsubsection}{4\baselineskip}
-\newcommand{\NeedspaceParagraph}{3\baselineskip}
+\newcommand{\NeedspaceSection}{10\baselineskip}
+\newcommand{\NeedspaceSubsection}{8\baselineskip}
+\newcommand{\NeedspaceSubsubsection}{6\baselineskip}
+\newcommand{\NeedspaceParagraph}{4\baselineskip}
 \newcommand{\NeedspaceOpHeading}{10\baselineskip} % Ops (###) heading + image + a bit of text (prevents orphan op titles)
 
 %% ============================================================
@@ -149,10 +149,11 @@
 
 %% Prevent orphan headings (heading at end of column/page with no content after)
 \AtBeginDocument{%
-  \pretocmd{\section}{\Needspace{\NeedspaceSection}}{}{}%
-  \pretocmd{\subsection}{\Needspace{\NeedspaceSubsection}}{}{}%
-  \pretocmd{\subsubsection}{\Needspace{\NeedspaceSubsubsection}}{}{}%
-  \pretocmd{\paragraph}{\Needspace{\NeedspaceParagraph}}{}{}%
+  % Reserve space BEFORE the heading, and strongly discourage a break immediately after it.
+  \pretocmd{\section}{\Needspace{\NeedspaceSection}\nopagebreak[4]}{}{}%
+  \pretocmd{\subsection}{\Needspace{\NeedspaceSubsection}\nopagebreak[4]}{}{}%
+  \pretocmd{\subsubsection}{\Needspace{\NeedspaceSubsubsection}\nopagebreak[4]}{}{}%
+  \pretocmd{\paragraph}{\Needspace{\NeedspaceParagraph}\nopagebreak[4]}{}{}%
 }
 
 %% Image handling - scale images and left-align
