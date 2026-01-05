@@ -6,14 +6,14 @@
 %% SECTION HEADINGS - Font Sizes & Leading
 %% Format: FontSize in pt, Leading = line height
 %% ------------------------------------------------------------
-\newcommand{\SectionOneFontSize}{24}      % Chapter titles
-\newcommand{\SectionOneLeading}{19}
-\newcommand{\SectionTwoFontSize}{18}      % Major sections
+\newcommand{\SectionOneFontSize}{22}      % Chapter titles
+\newcommand{\SectionOneLeading}{18}
+\newcommand{\SectionTwoFontSize}{17}      % Major sections
 \newcommand{\SectionTwoLeading}{15}
 \newcommand{\SectionThreeFontSize}{14}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{12}
 \newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
-\newcommand{\SectionThreeSpacingAfter}{1.5ex plus 0.5ex minus 0.2ex}  % Spacing after subsections
+\newcommand{\SectionThreeSpacingAfter}{0.5ex plus 0.3ex minus 0.1ex}  % Spacing after subsections (reduced to minimize gap before op images)
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{11}
 
@@ -28,7 +28,7 @@
 \newcommand{\SectionTwoColorBlue}{120}
 \newcommand{\SectionThreeColorRed}{51}    % Subsections - dark gray
 \newcommand{\SectionThreeColorGreen}{51}
-\newcommand{\SectionThreeColorBlue}{51}
+\newcommand{\SectionThreeColorBlue}{151}
 \newcommand{\SectionFourColorRed}{51}     % Paragraph headers - dark gray
 \newcommand{\SectionFourColorGreen}{51}
 \newcommand{\SectionFourColorBlue}{51}
@@ -46,7 +46,7 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageWidthFraction}{0.45}   % Op image width (0.5 = 50% of line)
+\newcommand{\OpImageWidthFraction}{0.90}   % Op image width (0.90 = 90% of column width for 2-col layout)
 \newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
@@ -55,20 +55,21 @@
 %% CODE BLOCKS
 %% ------------------------------------------------------------
 \newcommand{\CodeBlockFontSize}{10.5}     % Font size in points
-\newcommand{\CodeBlockLineSpacing}{0.85}  % Line spacing (1.0 = normal)
+\newcommand{\CodeBlockLineSpacing}{0.9}  % Line spacing (1.0 = normal)
 
 %% ------------------------------------------------------------
 %% IMAGES
 %% ------------------------------------------------------------
-\newcommand{\ImageWidthFraction}{0.7}     % General image width (0.7 = 70%)
+\newcommand{\ImageWidthFraction}{0.95}     % General image width (0.95 = 95% of column width for 2-col layout)
 
 %% ------------------------------------------------------------
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
-\newcommand{\HeaderHeight}{12}            % Header height in points
-\newcommand{\FooterHeight}{12}          % Footer height in points
-\newcommand{\FooterSkip}{8pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-15pt}  % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\HeaderHeight}{7}            % Header height in points
+\newcommand{\FooterHeight}{9}          % Footer height in points
+\newcommand{\FooterSkip}{6pt}            % Distance from text bottom to footer (lower = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-20pt}  % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\ColumnGutterWidth}{0.33in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
 
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
@@ -82,6 +83,12 @@
 \usepackage{ragged2e} % For better left alignment
 \usepackage{setspace} % For line spacing control
 \usepackage{etoolbox} % For hooks and patches
+\usepackage{multicol} % For flexible column handling
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{needspace} % For preventing orphans
+% longtable is needed even when Pandoc skips it; patched in AtBeginDocument
 
 %% Image handling - scale images and left-align
 \usepackage{adjustbox}
@@ -119,16 +126,25 @@
 \renewenvironment{figure}[1][htbp]{%
   \def\@captype{figure}%
   \global\@opimagefalse
-  \par\vspace{\OpImageSpacing}%
+  % If in section 13 (ops) and this will be an op image, prevent orphan images
+  \ifnum\value{section}=13\relax
+    % Reserve space for op image + at least one line of text after
+    \needspace{4\baselineskip}%
+    % For op images immediately following subsubsection headings:
+    % - Don't add \par (paragraph break) which causes extra line
+    % - Don't add extra vspace - subsubsection spacing handles it
+    % This prevents the weird extra line breaks before op images
+  \else
+    % Regular figures get standard spacing
+    \par\vspace{\OpImageSpacing}%
+  \fi
   \noindent%
   \raggedright%
   \hspace{0pt}%
 }{%
   \if@opimage
-    % Op image: match before-space exactly by using negative space to cancel extra
-    \par\vspace{-\baselineskip}% Cancel default spacing
-    \vspace{-\parskip}% Cancel paragraph skip  
-    \vspace{\OpImageSpacing}% Add exact spacing we want (same as before)
+    % Op image: minimal spacing after (subsubsection spacing handles before)
+    \par\vspace{\OpImageSpacing}%
   \else
     % Regular figure: standard spacing
     \par\vspace{\baselineskip}%
@@ -206,13 +222,21 @@
 \titlespacing*{\subsubsection}{0pt}{\SectionThreeSpacingBefore}{\SectionThreeSpacingAfter}
 
 %% Apply reduced paragraph spacing to ops sections (section 13 content)
+%% Also prevent orphans (op names alone at page bottom)
 \makeatletter
 \pretocmd{\subsubsection}{%
   \ifnum\value{section}=13\relax
     \setlength{\parskip}{\OpParagraphSpacing}%
+    % Prevent orphan op names - require at least 3 lines after heading
+    \needspace{3\baselineskip}%
   \fi
 }{}{}
 \makeatother
+
+%% Orphan and widow control
+\clubpenalty=10000      % Prevent orphan lines at start of page
+\widowpenalty=10000     % Prevent widow lines at end of page
+\displaywidowpenalty=10000  % Prevent widows in display math
 
 %% Section 4 / Paragraph - not numbered
 \titleformat{\paragraph}
@@ -232,8 +256,8 @@
     backgroundcolor=codebg,
     linecolor=codebg,
     linewidth=0pt,
-    innerleftmargin=16pt,
-    innerrightmargin=16pt,
+    innerleftmargin=8pt,
+    innerrightmargin=8pt,
     innertopmargin=12pt,
     innerbottommargin=12pt,
     leftmargin=0pt,
@@ -242,6 +266,9 @@
     skipabove=\baselineskip,
     skipbelow=\baselineskip
 }
+
+% Make code blocks span both columns if they're wide (in 2-column mode)
+% Note: This will be handled at document level, not in preamble
 
 %% Set code block line spacing and font size using the settings above
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
@@ -299,6 +326,45 @@
     \hspace{0pt}%
   }{%
     \par%
+  }
+  % Make TOC span both columns (longtable requires 1-column mode)
+  \let\oldtableofcontents\tableofcontents
+  \renewcommand{\tableofcontents}{%
+    \if@twocolumn
+      \onecolumn
+      \oldtableofcontents
+      \twocolumn
+    \else
+      \oldtableofcontents
+    \fi
+  }
+  % Code blocks will stay in their column for now
+  % (Can be enhanced later to span both columns if needed)
+  \makeatother
+}
+
+% Patch longtable to work in 2-column mode
+% We'll register hooks after document begins to avoid mode issues
+\AtBeginDocument{
+  \makeatletter
+  \newif\iflongtabletwocol
+  \let\origlongtable\longtable
+  \let\endoriglongtable\endlongtable
+  % Automatically switch to single column for longtable, then restore
+  \renewenvironment{longtable}{%
+    \if@twocolumn
+      \longtabletwocoltrue
+      \onecolumn
+      \global\@twocolumnfalse % Satisfy longtable's 1-column requirement
+    \else
+      \longtabletwocolfalse
+    \fi
+    \origlongtable
+  }{%
+    \endoriglongtable
+    \iflongtabletwocol
+      \twocolumn
+    \fi
   }
   \makeatother
 }

@@ -473,12 +473,10 @@ HDRITexture -> IBL/Environment
 
 ### Memory Considerations:
 
-| Size | Approximate Memory |
-|-----|------------------|
-| 512x512 | ~1 MB |
-| 1024x1024 | ~4 MB |
-| 2048x2048 | ~16 MB |
-| 4096x4096 | ~64 MB |
+- 512x512: ~1 MB
+- 1024x1024: ~4 MB
+- 2048x2048: ~16 MB
+- 4096x4096: ~64 MB
 
 ## Practical Examples
 

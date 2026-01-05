@@ -36,15 +36,13 @@
 
 ## Navigation Controls
 
-| Action | Control |
-|-------|--------|
-| Pan the view | Middle mouse drag or Space + drag |
-| Zoom in/out | Mouse scroll wheel |
-| Select op | Left click |
-| Multi-select | Shift + click or drag box |
-| Delete selected | Delete or Backspace |
-| Add new op | Double-click or Tab |
-| Connect ports | Drag from output to input |
+- **Pan the view:** Middle mouse drag or Space + drag
+- **Zoom in/out:** Mouse scroll wheel
+- **Select op:** Left click
+- **Multi-select:** Shift + click or drag box
+- **Delete selected:** Delete or Backspace
+- **Add new op:** Double-click or Tab
+- **Connect ports:** Drag from output to input
 
 ## Keyboard Shortcuts
 
@@ -52,78 +50,64 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 
 ### Essential Shortcuts
 
-| Shortcut | Action |
-|---------|-------|
-| **Tab** or **Double-click** | Add new op (opens search) |
-| **Delete** or **Backspace** | Delete selected op(s) |
-| **Ctrl + C** / **Cmd + C** | Copy selected op(s) |
-| **Ctrl + V** / **Cmd + V** | Paste op(s) |
-| **Ctrl + X** / **Cmd + X** | Cut selected op(s) |
-| **Ctrl + D** / **Cmd + D** | Duplicate selected op(s) |
-| **Ctrl + Z** / **Cmd + Z** | Undo |
-| **Ctrl + Shift + Z** / **Cmd + Shift + Z** | Redo |
+- **Tab** or **Double-click:** Add new op (opens search)
+- **Delete** or **Backspace:** Delete selected op(s)
+- **Ctrl + C / Cmd + C:** Copy selected op(s)
+- **Ctrl + V / Cmd + V:** Paste selected op(s)
+- **Ctrl + X / Cmd + X:** Cut selected op(s)
+- **Ctrl + D / Cmd + D:** Duplicate selected op(s)
+- **Ctrl + Z / Cmd + Z:** Undo
+- **Ctrl + Shift + Z / Cmd + Shift + Z:** Redo
 
 ### Selection & Navigation
 
-| Shortcut | Action |
-|---------|-------|
-| **Ctrl + A** / **Cmd + A** | Select all ops |
-| **Shift + Click** | Add to selection |
-| **Ctrl + Click** / **Cmd + Click** | Toggle selection |
-| **Escape** | Deselect all |
-| **Space + Drag** | Pan the patch view |
-| **Mouse Wheel** | Zoom in/out |
-| **Ctrl + 0** / **Cmd + 0** | Zoom to fit all ops |
-| **F** | Focus/frame selected op(s) |
+- **Ctrl + A / Cmd + A:** Select all ops
+- **Shift + Click:** Add to selection
+- **Ctrl + Click / Cmd + Click:** Toggle selection
+- **Escape:** Deselect all
+- **Space + Drag:** Pan the patch view
+- **Mouse Wheel:** Zoom in/out
+- **Ctrl + 0 / Cmd + 0:** Zoom to fit all ops
+- **F:** Focus/frame selected op(s)
 
 ### Organizing & Aligning
 
-| Shortcut | Action |
-|---------|-------|
-| **Ctrl + Shift + A** / **Cmd + Shift + A** | Align selected ops horizontally |
-| **Ctrl + Shift + D** / **Cmd + Shift + D** | Distribute selected ops evenly |
-| **Ctrl + G** / **Cmd + G** | Group selected ops |
-| **Arrow Keys** | Nudge selected op(s) by small amount |
-| **Shift + Arrow Keys** | Nudge selected op(s) by larger amount |
+- **Ctrl + Shift + A / Cmd + Shift + A:** Align selected ops horizontally
+- **Ctrl + Shift + D / Cmd + Shift + D:** Distribute selected ops evenly
+- **Ctrl + G / Cmd + G:** Group selected ops
+- **Arrow Keys:** Nudge selected op(s) by small amount
+- **Shift + Arrow Keys:** Nudge selected op(s) by larger amount
 
 ### Working with Ops
 
-| Shortcut | Action |
-|---------|-------|
-| **Enter** | Open/edit selected op's parameters |
-| **Ctrl + E** / **Cmd + E** | Enable/disable selected op |
-| **Ctrl + M** / **Cmd + M** | Mute selected op |
-| **R** | Rename selected op |
-| **C** | Add comment node |
-| **Ctrl + F** / **Cmd + F** | Find/search ops in patch |
+- **Enter:** Open/edit selected op's parameters
+- **Ctrl + E / Cmd + E:** Enable/disable selected op
+- **Ctrl + M / Cmd + M:** Mute selected op
+- **R:** Rename selected op
+- **C:** Add comment node
+- **Ctrl + F / Cmd + F:** Find/search ops in patch
 
 ### Cables & Connections
 
-| Shortcut | Action |
-|---------|-------|
-| **Drag from port** | Create connection |
-| **Click connection** | Select cable |
-| **Alt + Click connection** | Delete cable |
-| **Shift + Drag port** | Create cable with search |
+- **Drag from port:** Create connection
+- **Click connection:** Select cable
+- **Alt + Click connection:** Delete cable
+- **Shift + Drag port:** Create cable with search
 
 ### View & Interface
 
-| Shortcut | Action |
-|---------|-------|
-| **T** | Toggle timeline |
-| **Ctrl + /** / **Cmd + /** | Toggle op library |
-| **H** | Toggle patch editor visibility |
-| **P** | Toggle parameters panel |
-| **Ctrl + S** / **Cmd + S** | Save patch |
-| **Ctrl + Shift + S** / **Cmd + Shift + S** | Save as... |
+- **T:** Toggle timeline
+- **Ctrl + /** / **Cmd + /**: Toggle op library
+- **H:** Toggle patch editor visibility
+- **P:** Toggle parameters panel
+- **Ctrl + S / Cmd + S:** Save patch
+- **Ctrl + Shift + S / Cmd + Shift + S:** Save as...
 
 ### Performance & Debugging
 
-| Shortcut | Action |
-|---------|-------|
-| **Ctrl + Shift + P** / **Cmd + Shift + P** | Performance monitor |
-| **Ctrl + Shift + L** / **Cmd + Shift + L** | Show patch loading info |
-| **Alt + Click op** | View op documentation |
+- **Ctrl + Shift + P / Cmd + Shift + P:** Performance monitor
+- **Ctrl + Shift + L / Cmd + Shift + L:** Show patch loading info
+- **Alt + Click op:** View op documentation
 
 ### Pro Tips
 

@@ -331,6 +331,7 @@ Enable GitHub Pages in repository settings.
 
 ### As a Hero Section
 
+
 ```html
 <section class="hero">
     <div id="cables-hero"></div>

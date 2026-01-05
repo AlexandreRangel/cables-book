@@ -38,6 +38,13 @@ import argparse
 from datetime import datetime
 from typing import Dict, List, Optional, Any
 
+# Try to import Playwright for JavaScript-rendered content
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
+
 # Configuration
 BASE_URL = "https://cables.gl"
 OUTPUT_DIR = "../chapters/images/ops"
@@ -170,6 +177,7 @@ def scrape_op_page(full_name: str, url: str) -> Dict:
         'description': '',
         'input_ports': [],
         'output_ports': [],
+        'patch_links': [],  # List of dicts: [{'name': 'Patch Name', 'url': 'https://...'}]
         'scraped_at': datetime.now().isoformat(),
         'scrape_status': 'failed'
     }
@@ -224,6 +232,18 @@ def scrape_op_page(full_name: str, url: str) -> Dict:
             output_text = output_section.group(1)
             op_info['output_ports'] = parse_ports(output_text)
         
+        # ===== EXTRACT PATCH LINKS (requires JavaScript rendering) =====
+        if PLAYWRIGHT_AVAILABLE:
+            try:
+                patch_links = extract_patch_links_with_browser(url)
+                op_info['patch_links'] = patch_links
+            except Exception as e:
+                log(f"Failed to extract patch links for {full_name}: {e}", "WARN")
+                op_info['patch_links'] = []
+        else:
+            # Without Playwright, we can't get patch links (they're JS-loaded)
+            op_info['patch_links'] = []
+        
         op_info['scrape_status'] = 'success'
         return op_info
         
@@ -274,6 +294,120 @@ def parse_ports(port_text: str) -> List[Dict]:
                     })
     
     return ports
+
+
+def extract_patch_links_with_browser(url: str) -> List[Dict[str, str]]:
+    """
+    Extract patch links from an op page using Playwright (handles JavaScript).
+    Returns list of dicts with 'name' and 'url' keys.
+    """
+    if not PLAYWRIGHT_AVAILABLE:
+        return []
+    
+    patch_links = []
+    
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            
+            # Load the page - use domcontentloaded for faster loading
+            page.goto(url, wait_until='domcontentloaded', timeout=30000)
+            
+            # Wait for patches to potentially load
+            try:
+                page.wait_for_selector('a[href*="/patch/"]', timeout=5000)
+            except:
+                pass  # Patches might not exist, that's okay
+            
+            time.sleep(2)  # Additional wait for dynamic content
+            
+            # Look for patch links - they might be in various formats
+            # Method 1: Look for links with /patch/ in href
+            patch_elements = page.query_selector_all('a[href*="/patch/"]')
+            
+            for elem in patch_elements:
+                try:
+                    href = elem.get_attribute('href')
+                    text = elem.inner_text().strip()
+                    
+                    if href and '/patch/' in href:
+                        # Only accept actual cables.gl patch links
+                        if any(excluded in href.lower() for excluded in ['youtube.com', 'youtu.be', 'github.com', 'developer.mozilla.org', 'w3.org', '/op/', '/github']):
+                            continue
+                        
+                        # Must be from cables.gl domain or relative path to /patch/
+                        if href.startswith('/patch/'):
+                            href = f"{BASE_URL}{href}"
+                        elif href.startswith('http') and 'cables.gl/patch/' not in href:
+                            continue
+                        elif not href.startswith('http'):
+                            continue
+                        
+                        # Verify it's actually a patch URL
+                        if 'cables.gl/patch/' not in href:
+                            continue
+                        
+                        # Clean up the text
+                        if text and len(text) > 0:
+                            patch_links.append({
+                                'name': text[:100],  # Limit name length
+                                'url': href
+                            })
+                except Exception as e:
+                    continue
+            
+            # Method 2: Look for patch links in "Patches using" section
+            # Find sections containing "Patches using" text
+            try:
+                all_sections = page.query_selector_all('section, h2, div')
+                for section in all_sections:
+                    try:
+                        text = section.inner_text()
+                        if 'Patches using' in text or 'patches using' in text.lower():
+                            # Get all links in this section
+                            section_links = section.query_selector_all('a[href]')
+                            for link in section_links:
+                                try:
+                                    href = link.get_attribute('href')
+                                    link_text = link.inner_text().strip()
+                                    
+                                if href and '/patch/' in href:
+                                    # Only accept actual cables.gl patch links
+                                    if any(excluded in href.lower() for excluded in ['youtube.com', 'youtu.be', 'github.com', 'developer.mozilla.org', 'w3.org', '/op/', '/github']):
+                                        continue
+                                    
+                                    if href.startswith('/patch/'):
+                                        href = f"{BASE_URL}{href}"
+                                    elif href.startswith('http') and 'cables.gl/patch/' not in href:
+                                        continue
+                                    elif not href.startswith('http'):
+                                        continue
+                                    
+                                    # Verify it's actually a patch URL
+                                    if 'cables.gl/patch/' not in href:
+                                        continue
+                                    
+                                    # Avoid duplicates
+                                    if not any(p['url'] == href for p in patch_links):
+                                        patch_links.append({
+                                            'name': link_text[:100] if link_text else 'Patch',
+                                            'url': href
+                                        })
+                                except:
+                                    continue
+                            break  # Found the section, no need to continue
+                    except:
+                        continue
+            except:
+                pass
+            
+            browser.close()
+            
+    except Exception as e:
+        log(f"Error extracting patch links with browser: {e}", "WARN")
+    
+    return patch_links
 
 
 def download_op_image(full_name: str) -> bool:
@@ -344,9 +478,17 @@ def generate_op_markdown(op: Dict) -> str:
     
     md += f"""
 **Example Patch:** [Open in Editor]({url}#example)
-
-**Patches Using This Op:** *Search [cables.gl patches](https://cables.gl/patches) for "{short_name}"*
-
+"""
+    
+    # Add patch links if available, otherwise omit the line entirely
+    if op.get('patch_links') and len(op['patch_links']) > 0:
+        patch_links_text = ", ".join([f"[{p['name']}]({p['url']})" for p in op['patch_links']])
+        md += f"""
+**Patches Using This Op:** {patch_links_text}
+"""
+    # If no patches, omit the line entirely
+    
+    md += f"""
 **Docs:** [{url}]({url})
 
 ---
