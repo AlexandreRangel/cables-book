@@ -11,11 +11,11 @@
 
 **Description:** Patchfield cable routing helper for array cables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -30,11 +30,11 @@
 
 **Description:** Patchfield cable routing helper for number cables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -49,11 +49,11 @@
 
 **Description:** Patchfield cable routing helper for object cables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Object)
 
@@ -68,11 +68,11 @@
 
 **Description:** Patchfield cable routing helper for string cables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -87,11 +87,11 @@
 
 **Description:** Routing Helper for trigger cables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 

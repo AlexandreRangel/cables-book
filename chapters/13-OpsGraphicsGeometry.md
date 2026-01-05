@@ -11,14 +11,14 @@
 
 **Description:** align a geometry / change its pivot / center / origin point
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **X Index** (Number: Integer)
 - **Y Index** (Number: Integer)
 - **Z Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -33,13 +33,13 @@
 
 **Description:** create a simple bounding box from width,height,depth
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Width** (Number)
 - **Height** (Number)
 - **Depth** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -54,13 +54,13 @@
 
 **Description:** calculate normals of a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Smooth** (Number: Boolean)
 - **Force Z Up** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry Out** (Object)
 
@@ -75,11 +75,11 @@
 
 **Description:** disconnect faces/polygons of a mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -94,13 +94,13 @@
 
 **Description:** flip all normals of a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Flip** (Number: Boolean)
 - **Normalize** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -115,11 +115,11 @@
 
 **Description:** capture all following meshes into one geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Capture** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry** (Object)
 - **Next** (Trigger)
@@ -135,11 +135,11 @@
 
 **Description:** Get vertices of a geometry as array3x (vertex vertices)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Faces** (Array)
 - **Vertices** (Array)
@@ -160,7 +160,7 @@
 
 **Description:** basic extrusion of flat geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object:Geometry)
 - **Height** (Number)
@@ -169,7 +169,7 @@
 - **Top** (Number: Boolean)
 - **Bottom** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Geometry** (Object)
 
@@ -184,7 +184,7 @@
 
 **Description:** Create a geometry from array data
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Vertices** (Array)
@@ -192,7 +192,7 @@
 - **Texture Coords** (Array)
 - **Normals** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -208,11 +208,11 @@
 
 **Description:** information about a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object:Geometry)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Indexed** (Number)
 - **Faces** (Number)
@@ -236,14 +236,14 @@
 
 **Description:** merge two geometries to one
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Geometry 2** (Object)
 - **Merge** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry Result** (Object)
 
@@ -258,11 +258,11 @@
 
 **Description:** Generate an .obj file as string from a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object:Geometry)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Obj** (String)
 
@@ -277,11 +277,11 @@
 
 **Description:** generate an array of lines from a mesh to render a wireframe
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 
@@ -296,11 +296,11 @@
 
 **Description:** convert geometry to only flat triangles without reusing vertices positions
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object:Geometry)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -315,11 +315,11 @@
 
 **Description:** parse an obj string to a geometry object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Obj** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry** (Object)
 - **Status** (String)
@@ -335,12 +335,12 @@
 
 **Description:** randomize order of triangles in a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -355,12 +355,12 @@
 
 **Description:** Reverses the order of vertices in a geometry, back facing triangles become front facing ones
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Flip** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -375,12 +375,12 @@
 
 **Description:** uniform scaling of geometry vertices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Scale** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -395,13 +395,13 @@
 
 **Description:** sort geometry triangles by position
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Sort Index** (Number: Integer)
 - **Reverse** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -416,13 +416,13 @@
 
 **Description:** Generate a SVG path string of a string using an opentype font
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **SVG Path** (String)
 - **Bezier Stepsize** (Number)
 - **Rescale** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry** (Object)
 
@@ -437,12 +437,12 @@
 
 **Description:** create new triangles in a mesh (subdivide)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Iterations** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 - **Num Vertices** (Number)
@@ -458,7 +458,7 @@
 
 **Description:** transform vertices of geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Translate X** (Number)
@@ -471,7 +471,7 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -486,7 +486,7 @@
 
 **Description:** Draws multiple triangles using coordinates from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Points** (Array)
@@ -495,7 +495,7 @@
 - **Flat** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -511,14 +511,14 @@
 
 **Description:** Triangulate a 2d path to a flat and filled 3d geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Combine Index** (Number: Integer)
 - **Path 2** (Array)
 - **Path 3** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)

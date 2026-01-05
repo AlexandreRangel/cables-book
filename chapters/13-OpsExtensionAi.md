@@ -11,13 +11,13 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String1** (String)
 - **Headers** (Object)
 - **Reload** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Z2gtag4y7** (Array)
 - **Jcju8npa2** (booleanNumber)
@@ -34,7 +34,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Prompt** (String)
 - **Value** (String)
@@ -43,7 +43,7 @@
 - **Run** (Trigger)
 - **Auto Request** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **I4feefw9n** (Object)
 - **Klu6r35ga** (booleanNumber)

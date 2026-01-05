@@ -11,11 +11,11 @@
 
 **Description:** Output the current patch coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.Debug.PatchUiCoords documentation](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)

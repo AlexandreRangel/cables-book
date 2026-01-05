@@ -11,7 +11,7 @@
 
 **Description:** uses mespeak.js to convert text-to-speech
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 - **Say** (Trigger)
@@ -29,7 +29,7 @@
 - **Log Console** (Number: Boolean)
 - **Pan** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Speaking** (booleanNumber)
@@ -46,7 +46,7 @@
 
 **Description:** Text-to-Speech, speaks different languages (speech synthesis)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update State** (Trigger)
 - **Text** (String)
@@ -60,7 +60,7 @@
 - **Resume** (Trigger)
 - **Cancel** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Speaking** (Number)
@@ -78,13 +78,13 @@
 
 **Description:** speech to text recognition
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Language** (String)
 - **Active** (Number: Boolean)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Confidence** (Number)

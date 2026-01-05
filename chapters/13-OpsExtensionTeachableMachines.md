@@ -11,13 +11,13 @@
 
 **Description:** Use the Teachable Machines audio classifier for your microphone. Insert the uploaded model URL.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Initialize** (Trigger)
 - **Model URL** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)
@@ -34,14 +34,14 @@
 
 **Description:** Use the Teachable Machines image classifier. Insert the uploaded model URL.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Initialize** (Trigger)
 - **Model URL** (String)
 - **Webcam Element** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)
@@ -58,7 +58,7 @@
 
 **Description:** Use the Teachable Machines pose detection with your webcam. Insert the uploaded model URL.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Initialize** (Trigger)
@@ -66,7 +66,7 @@
 - **Webcam Element** (Object)
 - **Flip Image** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Initialized** (Trigger)

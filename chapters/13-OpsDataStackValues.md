@@ -11,12 +11,12 @@
 
 **Description:** read a value from the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array** (Array)
@@ -32,12 +32,12 @@
 
 **Description:** read a value from the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Value** (Number)
@@ -53,12 +53,12 @@
 
 **Description:** read a value from the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -74,12 +74,12 @@
 
 **Description:** push a value on to the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -94,13 +94,13 @@
 
 **Description:** push a value on to the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Name** (String)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -115,13 +115,13 @@
 
 **Description:** push a value on to the stack to use it later in the trigger branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 

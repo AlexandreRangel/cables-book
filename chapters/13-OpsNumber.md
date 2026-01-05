@@ -11,7 +11,7 @@
 
 **Description:** delay a value by seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Value** (Number)
@@ -19,7 +19,7 @@
 - **Clear On Change** (Number: Boolean)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -34,12 +34,12 @@
 
 **Description:** delay the value data flow by x seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Delay** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Value** (Number)
 
@@ -54,12 +54,12 @@
 
 **Description:** Filter valid numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Invalid When 0** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Last Valid Number** (Number)
 - **Is Valid** (booleanNumber)
@@ -75,12 +75,12 @@
 
 **Description:** capture the current input and copy it to the output, even after a reload
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Button** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Frozen Number** (Number)
 
@@ -95,13 +95,13 @@
 
 **Description:** Let’s a number through only if control bool is true, like a gate
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value In** (Number)
 - **Pass Through** (Number: Boolean)
 - **Custom Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value Out** (Number)
 
@@ -116,11 +116,11 @@
 
 **Description:** Number op which only outputs integers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Integer** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number Out** (Number)
 
@@ -135,11 +135,11 @@
 
 **Description:** Returns the maximum safe integer (number, constant)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Number.MaximumSafeInteger documentation](https://cables.gl/op/Ops.Number.MaximumSafeInteger) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Max Int** (Number)
 
@@ -154,11 +154,11 @@
 
 **Description:** Returns the minimum safe integer (number, constant)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Number.MinimumSafeInteger documentation](https://cables.gl/op/Ops.Number.MinimumSafeInteger) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Min Int** (Number)
 
@@ -173,11 +173,11 @@
 
 **Description:** Stores a value, use the same value in different places (was: value.value)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -192,11 +192,11 @@
 
 **Description:** Copies the input value to the (value sequence)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **In Value** (Number)
 - **Value Changed** (Trigger)
@@ -216,7 +216,7 @@
 
 **Description:** State management of all parameters connected to it - Create presets of multiple ops
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (String)
 - **Sets** (String)
@@ -234,7 +234,7 @@
 - **Delete** (Trigger)
 - **Rename** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Create Variable** (Dynamic)
 - **Num Presets** (Number)
@@ -253,11 +253,11 @@
 
 **Description:** remember/store last set number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Current Value** (Number)
 - **Previous Value** (Number)
@@ -273,12 +273,12 @@
 
 **Description:** Routes the value to one of the (based on index, relay)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index** (Number: Integer)
 - **Value** (Number)
@@ -306,7 +306,7 @@
 
 **Description:** control order and flow of numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number 0** (Number)
 - **Number 1** (Number)
@@ -325,7 +325,7 @@
 - **Number 14** (Number)
 - **Number 15** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output 0** (Number)
 - **Output 1** (Number)
@@ -355,12 +355,12 @@
 
 **Description:** Switch between multiple number inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Numbers_0** (Number)
 - **Add Port** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
 - **Num Values** (Number)
@@ -376,7 +376,7 @@
 
 **Description:** switch between number values by index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Value 0** (Number)
@@ -396,7 +396,7 @@
 - **Value 14** (Number)
 - **Value 15** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -411,13 +411,13 @@
 
 **Description:** Switch between multiple number inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Numbers_0** (Number)
 - **Add Port** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
 - **Num Values** (Number)
@@ -433,7 +433,7 @@
 
 **Description:** Sets a specific output value on trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger 0** (Trigger)
 - **Value 0** (Number)
@@ -453,7 +453,7 @@
 - **Value 7** (Number)
 - **Default Value** (Number: String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Number)
 - **Last Value** (Number)
@@ -470,14 +470,14 @@
 
 **Description:** Stores a 3D coordinate (was Value3)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Value X** (Number)
 - **Value Y** (Number)
 - **Value Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Exe** (Trigger)
 - **Value X** (Number)
@@ -498,11 +498,11 @@
 
 **Description:** triggers every time the input value changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Number** (Number)

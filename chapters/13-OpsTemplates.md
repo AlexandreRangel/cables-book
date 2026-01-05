@@ -11,11 +11,11 @@
 
 **Description:** example how to code a viz layer op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Templates.ExampleVizOp documentation](https://cables.gl/op/Ops.Templates.ExampleVizOp) for output port details*
 
@@ -30,12 +30,12 @@
 
 **Description:** Material Example Template
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Red** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -50,11 +50,11 @@
 
 **Description:** Is a template for creating Array ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -69,11 +69,11 @@
 
 **Description:** Is a template for creating Boolean ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Boolean In** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Boolean Out** (Number)
 
@@ -88,11 +88,11 @@
 
 **Description:** Is a template for creating Object ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object In** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Out** (Object)
 
@@ -107,11 +107,11 @@
 
 **Description:** Is a template for creating String ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String In** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String Out** (String)
 
@@ -126,12 +126,12 @@
 
 **Description:** Is a template for creating Trigger ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Press Me** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -146,11 +146,11 @@
 
 **Description:** Is a template for creating Value ports
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number In** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value Out** (Number)
 
@@ -165,12 +165,12 @@
 
 **Description:** shader effect example template
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -185,7 +185,7 @@
 
 **Description:** UI indicators example op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Loading Task** (Number: Boolean)
 - **Loading** (Number: Boolean)
@@ -203,7 +203,7 @@
 - **Open Modal** (Trigger)
 - **Open New Tab** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Something** (Number)
 

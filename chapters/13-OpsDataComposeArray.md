@@ -11,14 +11,14 @@
 
 **Description:** Compose an Array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Active** (Number: Boolean)
 - **Clear** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -34,11 +34,11 @@
 
 **Description:** pop/remove the last number from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -54,12 +54,12 @@
 
 **Description:** push/append an array to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -74,12 +74,12 @@
 
 **Description:** push/append an array to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -94,12 +94,12 @@
 
 **Description:** push/append a number to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -114,7 +114,7 @@
 
 **Description:** push/append multiple numbers to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **X** (Number)
@@ -122,7 +122,7 @@
 - **Z** (Number)
 - **W** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -137,12 +137,12 @@
 
 **Description:** push/append an object to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -157,12 +157,12 @@
 
 **Description:** push/append a string to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -177,12 +177,12 @@
 
 **Description:** push/append a texture to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -197,13 +197,13 @@
 
 **Description:** set a number to an array at index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Index** (Number)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -218,13 +218,13 @@
 
 **Description:** push/append a number to an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Index** (Number)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -239,11 +239,11 @@
 
 **Description:** shift/remove the first number from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -259,11 +259,11 @@
 
 **Description:** get a copy of the current state of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)

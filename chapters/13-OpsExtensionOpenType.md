@@ -11,11 +11,11 @@
 
 **Description:** Load OTF & TTF fonts via OpenType library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Font File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Opentype Font** (Object)
 
@@ -30,13 +30,13 @@
 
 **Description:** get svg path from (OTF) OpentypeFont using the opentype library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Opentype Font** (Object)
 - **Text** (String)
 - **Letter Spacing** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Path String** (String)
 

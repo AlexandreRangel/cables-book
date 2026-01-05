@@ -11,12 +11,12 @@
 
 **Description:** Create a new empty file on your local harddrive
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Default Path** (String)
 - **Create File** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Path** (String)
 - **Next** (Trigger)
@@ -32,12 +32,12 @@
 
 **Description:** Check if a file exists on the local file system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 - **Execute** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Exists** (booleanNumber)
 
@@ -52,11 +52,11 @@
 
 **Description:** convert file-url to path
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **FileUrl** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Path** (String)
 
@@ -71,12 +71,12 @@
 
 **Description:** Create a directory on the local file system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 - **Create** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -91,12 +91,12 @@
 
 **Description:** Open the native file manager application using that path
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 - **Open File Manager** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.Standalone.Files.OpenFileManager documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for output port details*
 
@@ -111,11 +111,11 @@
 
 **Description:** convert local path to file-url
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **FileUrl** (String)
 
@@ -130,12 +130,12 @@
 
 **Description:** Read all entries in a directory
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 - **Reload** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Entries** (Array)
 - **Has Error** (booleanNumber)
@@ -152,11 +152,11 @@
 
 **Description:** Resolves a paths into an absolute path
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -171,12 +171,12 @@
 
 **Description:** Choose a directory on your hard drive
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Default Path** (String)
 - **Select Directory** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Path** (String)
 - **Next** (Trigger)
@@ -192,12 +192,12 @@
 
 **Description:** Choose a file on your hard drive
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Default Path** (String)
 - **Select File** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Path** (String)
 - **Next** (Trigger)
@@ -213,11 +213,11 @@
 
 **Description:** Get statistics about a file on the local file system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Stats** (Object)
 - **Is Directory** (booleanNumber)
@@ -236,11 +236,11 @@
 
 **Description:** Get Default System Directories Paths
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Extension.Standalone.Files.SystemDirs documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Home** (String)
 - **Downloads** (String)
@@ -259,12 +259,12 @@
 
 **Description:** Watch a directory, get a trigger when a file changes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Path** (String)
 - **Read** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Event Type** (String)
 - **Event Filename** (String)
@@ -284,13 +284,13 @@
 
 **Description:** Create a binary file on the local file system from a base64 string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Base64** (String)
 - **Filename** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64 documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for output port details*
 
@@ -305,13 +305,13 @@
 
 **Description:** Write a string to a text file on the local file system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Filename** (String)
 - **Content** (String)
 - **Write** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Has Error** (booleanNumber)

@@ -11,12 +11,12 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Image DataUrl** (String)
 - **Progress** (Number)

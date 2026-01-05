@@ -11,14 +11,14 @@
 
 **Description:** animate values in a matrix to a new matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Next Matrix** (Array)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Matrix** (Array)
@@ -34,7 +34,7 @@
 
 **Description:** interpolate position on a spline/array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
@@ -43,7 +43,7 @@
 - **Offset** (Number)
 - **Look Ahead** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Transform Lookat** (Trigger)
@@ -60,7 +60,7 @@
 
 **Description:** render lots of particles following a path/spline/array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Points** (Array)
@@ -71,7 +71,7 @@
 - **Max Distance** (Number)
 - **RandomSpeed** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -86,11 +86,11 @@
 
 **Description:** rotate an object to always face the camera
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -105,7 +105,7 @@
 
 **Description:** Transforms and projects the scene from the point of view of the camera.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Identity** (Number: Boolean)
@@ -129,7 +129,7 @@
 - **Pan** (Number)
 - **Roll** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Aspect** (Number)
@@ -146,12 +146,12 @@
 
 **Description:** get camera attributes from current camera/orbit controls
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Camera Type Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -186,11 +186,11 @@
 
 **Description:** get the current position of viewmatrix/camera eye
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -208,11 +208,11 @@
 
 **Description:** current xyz coordinates (modelmatrix)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -230,11 +230,11 @@
 
 **Description:** gyroscope motionsensor camera
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Window Orientation** (Number)
@@ -250,12 +250,12 @@
 
 **Description:** Get the scalar scaling of a matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Scaling** (Number)
@@ -271,11 +271,11 @@
 
 **Description:** Get current modelmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Matrix** (Array)
@@ -291,11 +291,11 @@
 
 **Description:** get current projectionmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Matrix** (Array)
@@ -311,11 +311,11 @@
 
 **Description:** get current viewmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Matrix** (Array)
@@ -331,14 +331,14 @@
 
 **Description:** interpolate between two matrices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Perc** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -354,11 +354,11 @@
 
 **Description:** outputs an inverted matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -373,7 +373,7 @@
 
 **Description:** transforms view to look from eye to center
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **EyeX** (Number)
@@ -386,7 +386,7 @@
 - **UpY** (Number)
 - **UpZ** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Array** (Array)
@@ -402,12 +402,12 @@
 
 **Description:** get translation of a matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -425,13 +425,13 @@
 
 **Description:** multiply model matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Identity** (Number: Boolean)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -446,13 +446,13 @@
 
 **Description:** multiply view matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Matrix** (Array)
 - **Identity** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -467,7 +467,7 @@
 
 **Description:** multiplies current modelmatrix with a quaternion
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number)
@@ -475,7 +475,7 @@
 - **Z** (Number)
 - **W** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -490,7 +490,7 @@
 
 **Description:** Set up a camera, rotated by a quaternion
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **EyeX** (Number)
@@ -504,7 +504,7 @@
 - **UpY** (Number)
 - **UpZ** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -519,7 +519,7 @@
 
 **Description:** place random objects on a grid
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Max Depth** (Number)
@@ -529,7 +529,7 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Index** (Number)
@@ -546,7 +546,7 @@
 
 **Description:** Place random objects on a grid
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Max Depth** (Number)
@@ -556,7 +556,7 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Positions** (Array)
 - **Scalings** (Array)
@@ -574,7 +574,7 @@
 
 **Description:** Scale all child objects (scaleXYZ)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Scale** (Number)
@@ -582,7 +582,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -597,14 +597,14 @@
 
 **Description:** scale xyz of viewmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -619,12 +619,12 @@
 
 **Description:** screen/pixel coordinates of the current transform
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Pixel Unit Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -642,14 +642,14 @@
 
 **Description:** convert screen coordinates to a 3d position
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Input Type Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Result X** (Number)
@@ -666,12 +666,12 @@
 
 **Description:** set a projection matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -686,13 +686,13 @@
 
 **Description:** displaces each point of a mesh in fixed direction
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **ShearX** (Number)
 - **ShearY** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -707,7 +707,7 @@
 
 **Description:** transform a matrix (mat4)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Transform** (Trigger)
 - **Matrix** (Array)
@@ -721,7 +721,7 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -737,12 +737,12 @@
 
 **Description:** multiply current modelmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mul** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -757,14 +757,14 @@
 
 **Description:** Translate objects (move / position in 3D space)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -779,14 +779,14 @@
 
 **Description:** translate the view/camera matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -801,7 +801,7 @@
 
 **Description:** Translate any geometry underneath it using vectors and speed.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Speed** (Number)
@@ -814,7 +814,7 @@
 - **Reset** (Trigger)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -829,7 +829,7 @@
 
 **Description:** simple camera you control with W,A,S,D keys like in a FPS game
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Enable Pointer Lock** (Number: Boolean)
@@ -841,7 +841,7 @@
 - **Move Y-** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **IsLocked** (booleanNumber)

@@ -11,11 +11,11 @@
 
 **Description:** Organize and group your patch operators
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Delete** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.Area documentation](https://cables.gl/op/Ops.Ui.Area) for output port details*
 
@@ -30,11 +30,11 @@
 
 **Description:** Cables UI Event Triggers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Set Changed Patch** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Saving Patch** (Trigger)
 - **PortValueEdited** (Trigger)
@@ -50,11 +50,11 @@
 
 **Description:** Displays a comment in the patch area
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.Comment_v2 documentation](https://cables.gl/op/Ops.Ui.Comment_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.Comment_v2 documentation](https://cables.gl/op/Ops.Ui.Comment_v2) for output port details*
 
@@ -69,11 +69,11 @@
 
 **Description:** Get the default theme colors of the cables editor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.GetCablesDefaultTheme documentation](https://cables.gl/op/Ops.Ui.GetCablesDefaultTheme) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Theme** (Object)
 
@@ -88,11 +88,11 @@
 
 **Description:** maximize renderer to window size
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Toggle Maximized** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Maximized** (booleanNumber)
 
@@ -107,11 +107,11 @@
 
 **Description:** Helper op for sub-patches
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.PatchInput documentation](https://cables.gl/op/Ops.Ui.PatchInput) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Create Port** (Dynamic)
 
@@ -126,11 +126,11 @@
 
 **Description:** Helper op for sub-patches
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Create Port** (Dynamic)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.PatchOutput documentation](https://cables.gl/op/Ops.Ui.PatchOutput) for output port details*
 
@@ -145,11 +145,11 @@
 
 **Description:** Set cables editor colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Theme** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Missing** (Object)
 
@@ -164,13 +164,13 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatch) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Create Port** (Dynamic)
 - **DataStr** (Number)
 - **PatchId** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Create Port Out** (Dynamic)
 
@@ -185,12 +185,12 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.Subpatch2Template) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **PatchId** (String)
 - **Public** (3): 1
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.Subpatch2Template documentation](https://cables.gl/op/Ops.Ui.Subpatch2Template) for output port details*
 
@@ -205,11 +205,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatchInput) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.SubPatchInput documentation](https://cables.gl/op/Ops.Ui.SubPatchInput) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **A1jf8yr1w** (Number)
 
@@ -224,11 +224,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Ui.SubPatchOutput documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.SubPatchOutput documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for output port details*
 
@@ -243,12 +243,12 @@
 
 **Description:** Displays information of the distribution of numerical values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array Numbers** (Array)
 - **Titles** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.VizArrayChart documentation](https://cables.gl/op/Ops.Ui.VizArrayChart) for output port details*
 
@@ -263,12 +263,12 @@
 
 **Description:** Visualize Array as line graph
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array Numbers** (Array)
 - **Curve** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Passthrough Array** (Array)
 
@@ -283,13 +283,13 @@
 
 **Description:** Show the contents of the input array in a table in the patch, useful for debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Stride** (Number: Integer)
 - **Scroll** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Passthrough Array** (Array)
 
@@ -304,11 +304,11 @@
 
 **Description:** Visualize the state of a boolean input in the patch, useful for debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Bool** (booleanNumber)
 
@@ -323,7 +323,7 @@
 
 **Description:** Displays graphs for the numbers on the input port in the patchfield
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number 1** (Number)
 - **Number 2** (Number)
@@ -336,7 +336,7 @@
 - **Fill Graph** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.VizGraph documentation](https://cables.gl/op/Ops.Ui.VizGraph) for output port details*
 
@@ -351,11 +351,11 @@
 
 **Description:** preview an image URL or a data/base64 URL
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Width** (Number)
 - **Height** (Number)
@@ -372,14 +372,14 @@
 
 **Description:** Log changes of input values line by line, use like a logfile for debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **String** (String)
 - **Object** (Object)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.VizLogger documentation](https://cables.gl/op/Ops.Ui.VizLogger) for output port details*
 
@@ -394,11 +394,11 @@
 
 **Description:** Displays input string on the patchfield
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -413,11 +413,11 @@
 
 **Description:** Visualize numbers as a bar in patch, useful for debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Passthrough** (Number)
 
@@ -432,7 +432,7 @@
 
 **Description:** Show information about any object for patch debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **ZoomText** (Number: Boolean)
@@ -442,7 +442,7 @@
 - **Font Size** (Number)
 - **Scroll** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.VizObject documentation](https://cables.gl/op/Ops.Ui.VizObject) for output port details*
 
@@ -457,7 +457,7 @@
 
 **Description:** Displays long input string on the patchfield
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **ZoomText** (Number: Boolean)
@@ -468,7 +468,7 @@
 - **Font Size** (Number)
 - **Scroll** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Passthrough String** (String)
 
@@ -483,7 +483,7 @@
 
 **Description:** Displays texture at input port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture In** (Object:Texture)
 - **Show Info** (Number: Boolean)
@@ -491,7 +491,7 @@
 - **X** (Number)
 - **Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture Out** (Object)
 - **Info** (String)
@@ -507,12 +507,12 @@
 
 **Description:** Show pixel colors of connected texture as a table, useful for debugging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture** (Object:Texture)
 - **Row Start** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Ui.VizTextureTable documentation](https://cables.gl/op/Ops.Ui.VizTextureTable) for output port details*
 
@@ -527,13 +527,13 @@
 
 **Description:** Visualize triggering for debugging reasons
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 - **Count Overlay** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Count** (Number)
 - **Next** (Trigger)

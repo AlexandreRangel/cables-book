@@ -11,11 +11,11 @@
 
 **Description:** Reports the browser being used
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Is Mobile** (booleanNumber)
 - **Is Touchscreen** (booleanNumber)
@@ -51,11 +51,11 @@
 
 **Description:** Get light/dark color scheme preference of the browser
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Color Scheme** (String)
 - **Dark Mode** (booleanNumber)
@@ -73,12 +73,12 @@
 
 **Description:** Move back or forward in the browser navigation history
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Back** (Trigger)
 - **Forward** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
@@ -93,11 +93,11 @@
 
 **Description:** evaluate a javascript expression
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **JS Expression** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result String** (String)
 - **Result Number** (Number)
@@ -116,11 +116,11 @@
 
 **Description:** browser js memory consumption
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Used Heap Size** (Number)
 - **Total Heap Size** (Number)
@@ -136,11 +136,11 @@
 
 **Description:** detect if the user interacted with or activated the page
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **User Is Or Was Active** (booleanNumber)
@@ -159,7 +159,7 @@
 
 **Description:** Opens a sharing dialog to share text and images
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 - **URL** (String)
@@ -169,7 +169,7 @@
 - **Filename** (String)
 - **Share** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Status** (String)
 - **Supported** (Number)

@@ -11,12 +11,12 @@
 
 **Description:** Outputs the button states of a gamepad
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **GamePad Data** (Object)
 - **Analog To Digital** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ID** (String)
 - **Axes** (Array)
@@ -44,12 +44,12 @@
 
 **Description:** get axis and angle of a joystick/thumbstick
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Axis** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -67,11 +67,11 @@
 
 **Description:** list connected gamepads - press a button to connect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num Gamepads** (Number)
 - **Pad 0** (Object)

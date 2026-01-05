@@ -11,7 +11,7 @@
 
 **Description:** Map the range of color number values to another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Old Min** (Number)
@@ -24,7 +24,7 @@
 - **B** (Number: Boolean)
 - **A** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -39,13 +39,13 @@
 
 **Description:** normalize texture rgb values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Fade** (Number)
 - **Size** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -60,7 +60,7 @@
 
 **Description:** Convert a RGBE texture to HDR/floating point texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -69,7 +69,7 @@
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -84,7 +84,7 @@
 
 **Description:** This OP enables you to use precise values to modify the pixels in your texture. For example adjusting texture values that are modifying your geometry or array values, or even your post processing compositions.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Operation Index** (Number: Integer)
@@ -100,7 +100,7 @@
 - **Multiply Texture** (Number)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -115,7 +115,7 @@
 
 **Description:** Execute a glsl code math expression in a image compose
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Update Shader** (Trigger)
@@ -127,7 +127,7 @@
 - **TexB** (Object:Texture)
 - **TexC** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Code** (String)
@@ -143,7 +143,7 @@
 
 **Description:** transform RGB values interpreted as XYZ coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Translate** (Number: Boolean)
@@ -160,7 +160,7 @@
 - **Rotation Z** (Number)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -175,13 +175,13 @@
 
 **Description:** Round number values of texture color channels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Multiplier** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -196,7 +196,7 @@
 
 **Description:** compare and pass through of color channel values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Comparison Index** (Number: Integer)
@@ -207,7 +207,7 @@
 - **B Active** (Number: Boolean)
 - **A Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

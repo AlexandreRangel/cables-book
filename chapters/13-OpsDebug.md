@@ -11,12 +11,12 @@
 
 **Description:** Shows console log output on the screen
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Visible** (Number: Boolean)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 
@@ -31,12 +31,12 @@
 
 **Description:** Log incoming values to the console/dev tools
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Debug.ConsoleLog documentation](https://cables.gl/op/Ops.Debug.ConsoleLog) for output port details*
 
@@ -51,7 +51,7 @@
 
 **Description:** Crash the editor in many ways
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Async Crash** (Trigger)
 - **Undefined Crash** (Trigger)
@@ -61,7 +61,7 @@
 - **Promise Fail** (Trigger)
 - **Shader Error** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **NaN** (Number)
 - **Infinity** (Number)
@@ -77,14 +77,14 @@
 
 **Description:** execute glGetError after every gl command and log to browser console
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Limit Error Logs Num** (Number: Integer)
 - **Stop Trigger After Limit** (Number: Boolean)
 - **Show Gl History** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -99,11 +99,11 @@
 
 **Description:** see current gl states and error message
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **GlGetError** (Number)
@@ -130,12 +130,12 @@
 
 **Description:** dump all gl commands of one frame to console
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Debug One Frame** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -150,11 +150,11 @@
 
 **Description:** Measure the time used to render all child nodes in milliseconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Time Used** (Number)

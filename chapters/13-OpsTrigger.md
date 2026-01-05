@@ -11,13 +11,13 @@
 
 **Description:** delay triggering next port by x seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Delay** (Number)
 - **Cancel** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Delaying** (booleanNumber)
@@ -33,12 +33,12 @@
 
 **Description:** Allows a trigger to pass only if the gate is open
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Pass Through** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -53,12 +53,12 @@
 
 **Description:** Timed Trigger every x ms
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Interval** (Number)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -73,11 +73,11 @@
 
 **Description:** outputs true if being triggered last frame
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Was Triggered** (Number)
@@ -93,12 +93,12 @@
 
 **Description:** Lets a trigger through every nth time (trigger limiter)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Nth** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -113,11 +113,11 @@
 
 **Description:** Outputs the last number of the input port which was triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Trigger.NumberByTrigger documentation](https://cables.gl/op/Ops.Trigger.NumberByTrigger) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
 - **Triggered** (Trigger)
@@ -133,12 +133,12 @@
 
 **Description:** output a number by triggering an index port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger_0** (Trigger)
 - **Add Port** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Number Triggered** (Number)
@@ -154,12 +154,12 @@
 
 **Description:** trigger by chance
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Probability** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Output** (Trigger)
 - **Inverse Trigger Output** (Trigger)
@@ -175,14 +175,14 @@
 
 **Description:** randomly trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Num Times** (Number)
 - **Seed** (Number)
 - **Only Once** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Render** (Trigger)
 - **Num Times** (Number)
@@ -209,7 +209,7 @@
 
 **Description:** Triggers all ops underneath Num X * Num Y times
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Num X** (Number: Integer)
@@ -218,7 +218,7 @@
 - **Center** (Number: Boolean)
 - **Centers X and Y around the origin** (0/0)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -237,12 +237,12 @@
 
 **Description:** Triggers all ops below x times (for loop / while)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Repeats** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Index** (Number)
@@ -258,12 +258,12 @@
 
 **Description:** Triggers one of the out ports - value index switch case (was SwitchTrigger)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next Trigger** (Trigger)
 - **Switched Value** (Number)
@@ -305,13 +305,13 @@
 
 **Description:** animated switching between things
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Exe** (Trigger)
 - **Duration** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Qutsn94pc** (Trigger)
 - **Hvyzlh9o8** (Trigger)
@@ -331,12 +331,12 @@
 
 **Description:** Triggers one of the - value index switch case
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Execute** (Trigger)
 - **Switch Value** (Number: Integer)
@@ -372,7 +372,7 @@
 
 **Description:** route trigger output by string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Switch Value** (String)
@@ -401,7 +401,7 @@
 - **String 22** (String)
 - **String 23** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next Trigger** (Trigger)
 - **Switched Index** (Number)
@@ -441,7 +441,7 @@
 
 **Description:** control the order of execution/triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Exe 0** (Trigger)
@@ -460,7 +460,7 @@
 - **Exe 13** (Trigger)
 - **Exe 14** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
@@ -490,12 +490,12 @@
 
 **Description:** sequence trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Input_0** (Trigger)
 - **Add Port** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output_0** (Trigger)
 - **Output_1** (Trigger)
@@ -511,7 +511,7 @@
 
 **Description:** route input triggers by index to one output
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger Index** (Number: Integer)
 - **Trigger In 0** (Trigger)
@@ -531,7 +531,7 @@
 - **Trigger In 14** (Trigger)
 - **Trigger In 15** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -546,11 +546,11 @@
 
 **Description:** Triggers only once when threshold is crossed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Threshold** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Trigger.Threshold documentation](https://cables.gl/op/Ops.Trigger.Threshold) for output port details*
 
@@ -565,14 +565,14 @@
 
 **Description:** timed switching of trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Current** (Number: Integer)
 - **OverwriteTime** (Number: Boolean)
 - **IgnoreInSubPatch** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **TriggerAlways** (Trigger)
 - **Names** (Array)
@@ -622,13 +622,13 @@
 
 **Description:** Get the time since last trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Time** (Number)
@@ -644,11 +644,11 @@
 
 **Description:** simple button to trigger manually
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -663,12 +663,12 @@
 
 **Description:** Counts how often the port was triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **TimesTriggered** (Number)
@@ -684,14 +684,14 @@
 
 **Description:** Increments with each trigger and loops depending on min and max loop values.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Reset** (Trigger)
 - **Loop Min** (Number: Integer)
 - **Loop Max** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Current Count** (Number)
@@ -707,14 +707,14 @@
 
 **Description:** triggers evenly distributed by value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Number** (Number)
 - **Max** (Number)
 - **Num Outputs** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num** (Number)
 - **Trigger 0** (Trigger)
@@ -749,11 +749,11 @@
 
 **Description:** Extends a trigger (useful in big patches for better overview)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -768,11 +768,11 @@
 
 **Description:** trigger if a value decreases / gets smaller
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -787,11 +787,11 @@
 
 **Description:** Outputs a trigger if the value of a number increases
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -806,12 +806,12 @@
 
 **Description:** Limits how often a trigger goes through to x ms
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In Trigger** (Trigger)
 - **Milliseconds** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Trigger** (Trigger)
 - **Progress** (Number)
@@ -827,12 +827,12 @@
 
 **Description:** Outputs a number when triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Set** (Trigger)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Out Value** (Number)
@@ -848,12 +848,12 @@
 
 **Description:** Trigger the following children once
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Was Triggered** (Number)
@@ -869,11 +869,11 @@
 
 **Description:** triggers when array has changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Changed** (Trigger)
 - **Result** (Array)
@@ -889,11 +889,11 @@
 
 **Description:** triggers when Object has changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Changed** (Trigger)
 - **Result** (Object)
@@ -909,11 +909,11 @@
 
 **Description:** triggers when string has changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Changed** (Trigger)
 - **Result** (String)
@@ -929,11 +929,11 @@
 
 **Description:** triggers when texture has changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Changed** (Trigger)
 - **Result** (Object)
@@ -949,11 +949,11 @@
 
 **Description:** Receives triggers from a TriggerSend op with the same variable name
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Trigger.TriggerReceive documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Triggered** (Trigger)
 
@@ -968,11 +968,11 @@
 
 **Description:** receives all named trigges and relays them, optionally using a filter-prefix on the name
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Prefix** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Trigger Name** (String)
@@ -988,11 +988,11 @@
 
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1007,12 +1007,12 @@
 
 **Description:** Allows triggers to be sent to a TriggerReceive op with the same variable name
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Named Trigger** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Trigger.TriggerSendNamed documentation](https://cables.gl/op/Ops.Trigger.TriggerSendNamed) for output port details*
 
@@ -1027,11 +1027,11 @@
 
 **Description:** Counts how often the port is triggered per second
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Cps** (Number)
 
@@ -1046,12 +1046,12 @@
 
 **Description:** trigger a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (String)
@@ -1067,11 +1067,11 @@
 
 **Description:** Triggers when the input value became zero
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Became Zero Trigger** (Trigger)
 

@@ -11,7 +11,7 @@
 
 **Description:** Create a physics body/collision shape using a any geometry or select a shape
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Name** (String)
@@ -34,7 +34,7 @@
 - **Reset** (Trigger)
 - **Activate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Ray Hit** (booleanNumber)
@@ -51,7 +51,7 @@
 
 **Description:** Check if physics bodies are colliding
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Name 1** (String)
@@ -61,7 +61,7 @@
 - **Match Name 2 Index** (Number: Integer)
 - **match name 2** (if set)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Colliding** (Number)
@@ -80,7 +80,7 @@
 
 **Description:** Control and move a character in a physics environment
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Radius** (Number)
@@ -105,7 +105,7 @@
 - **Speed** (Number)
 - **Add Velocity Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Position X** (Number)
@@ -124,7 +124,7 @@
 
 **Description:** First person camera to use with AmmoCharacter
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Enable Pointer Lock** (Number: Boolean)
@@ -133,7 +133,7 @@
 - **Mouse Speed** (Number)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **IsLocked** (Number)
@@ -157,7 +157,7 @@
 
 **Description:** Visualize the physical bodies as lines and points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Draw Wireframe** (Number: Boolean)
@@ -167,7 +167,7 @@
 - **Depth** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -182,7 +182,7 @@
 
 **Description:** Emit Ammo physics bodies by triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Limit Bodies** (Number: Integer)
@@ -201,7 +201,7 @@
 - **Remove All** (Trigger)
 - **Activate All** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Total Bodies** (Number)
@@ -219,7 +219,7 @@
 
 **Description:** Cast a ray and detect colliding bodies
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Screen X** (Number)
@@ -230,7 +230,7 @@
 - **Active** (Number: Boolean)
 - **Change Cursor** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
@@ -250,7 +250,7 @@
 
 **Description:** Simulate physical world
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Simulate** (Number: Boolean)
@@ -261,7 +261,7 @@
 - **Activate All** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Total Bodies** (Number)
@@ -280,7 +280,7 @@
 
 **Description:** Create physics bodies from a GLTF File
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Shape Index** (Number: Integer)
@@ -288,7 +288,7 @@
 - **Mass Kg** (Number)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Meshes** (Number)
 

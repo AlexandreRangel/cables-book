@@ -11,13 +11,13 @@
 
 **Description:** render mesh normals as colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Absolute** (Number: Boolean)
 - **World Space** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
@@ -33,7 +33,7 @@
 
 **Description:** A material without shading
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -53,7 +53,7 @@
 - **Crop TexCoords** (Number: Boolean)
 - **Billboard** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
@@ -69,7 +69,7 @@
 
 **Description:** display texture and replace a color with transparency
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture** (Object)
@@ -84,7 +84,7 @@
 - **Tex Offset X** (Number)
 - **Tex Offset Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -99,7 +99,7 @@
 
 **Description:** Write your own custom shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Fragment Code** (String)
@@ -113,7 +113,7 @@
 - **Samples** (Array)
 - **Projection** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
@@ -130,11 +130,11 @@
 
 **Description:** draw meshes using the cables error material shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -149,11 +149,11 @@
 
 **Description:** visualize which faces are facing the camera
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -168,11 +168,11 @@
 
 **Description:** get current set shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Shader** (Object)
@@ -188,7 +188,7 @@
 
 **Description:** Easy to use image based lighting Material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **MatCap** (Object:Texture)
@@ -215,7 +215,7 @@
 - **Opacity TexCoords Transform** (Number: Boolean)
 - **Discard Transparent Pixels** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Shader** (Object)
@@ -231,11 +231,11 @@
 
 **Description:** Minify GLSL shader source code
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Shader Source** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Minified Shader Source** (String)
 
@@ -250,7 +250,7 @@
 
 **Description:** Draw all vertices as points / circles
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **PointSize** (Number)
@@ -279,7 +279,7 @@
 - **Rotate Texture** (Object:Texture)
 - **Min Point Size** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
@@ -295,11 +295,11 @@
 
 **Description:** draw meshes using XYZ position coordinates as RGB color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -314,12 +314,12 @@
 
 **Description:** Reuse another shader at different points in the patch.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Shader** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -334,7 +334,7 @@
 
 **Description:** set a uniform value of the current shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Uniform Index** (Number: Integer)
@@ -343,7 +343,7 @@
 - **Z** (Number)
 - **W** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Type** (String)
@@ -360,13 +360,13 @@
 
 **Description:** set a uniform value of the current shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Uniform Index** (Number: Integer)
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -382,7 +382,7 @@
 
 **Description:** Set shader defines
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Shader** (Object)
 - **Name** (String)
@@ -390,7 +390,7 @@
 - **Active** (Number: Boolean)
 - **Public** (4): 1
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Gl.Shader.ShaderDefine documentation](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine) for output port details*
 
@@ -405,7 +405,7 @@
 
 **Description:** view current shader source code
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Show Fragment** (Trigger)
@@ -414,7 +414,7 @@
 - **Show Uniforms** (Trigger)
 - **State Info** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Source Frag** (String)
@@ -438,11 +438,11 @@
 
 **Description:** read back all uniforms values of the current bound shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Uniforms** (Array)
@@ -458,7 +458,7 @@
 
 **Description:** render a shader into a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Shader** (Object:Shader)
@@ -468,7 +468,7 @@
 - **Wrap Index** (Number: Integer)
 - **Pixel Format Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -487,12 +487,12 @@
 
 **Description:** Draw a mesh, showing only its vertex colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Opacity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -507,11 +507,11 @@
 
 **Description:** visually debug vertices of your 3D geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -526,7 +526,7 @@
 
 **Description:** Renders following meshes as wireframes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Enable Depth Testing** (Number: Boolean)
@@ -542,7 +542,7 @@
 - **Fill B** (Number)
 - **Fill A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

@@ -11,11 +11,11 @@
 
 **Description:** Returns the absolute, positive value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **The absolute value of Number** (always positive)
@@ -31,7 +31,7 @@
 
 **Description:** Add to and multiply a number, set to current value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Add To Number** (Number)
@@ -39,7 +39,7 @@
 - **Default Value** (Number)
 - **Set Default Value** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Current Value** (Number)
 
@@ -54,13 +54,13 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.AddUp) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Add** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -75,14 +75,14 @@
 
 **Description:** outputs the angle between two points (degree)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Point 1 X** (Number)
 - **Point 1 Y** (Number)
 - **Point 2 X** (Number)
 - **Point 2 Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Angle** (Number)
 
@@ -97,13 +97,13 @@
 
 **Description:** multiply every XYZ coordinate with a matrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array** (Array)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -118,7 +118,7 @@
 
 **Description:** calculate 2d positions of an array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Array3x** (Array)
@@ -129,7 +129,7 @@
 - **Pos Y** (Number)
 - **Mul** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array2x** (Array)
@@ -145,14 +145,14 @@
 
 **Description:** Calculates the angle from a specified point to the coordinate origin.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
 - **Phase** (Number)
 - **Frequency** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -167,12 +167,12 @@
 
 **Description:** average of last two values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Influence** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -187,11 +187,11 @@
 
 **Description:** generate coordinates of a butterfly curve
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -207,11 +207,11 @@
 
 **Description:** Returns the smallest integer greater than or equal to a given number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -226,12 +226,12 @@
 
 **Description:** x and y coordinates of a circle
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Position** (Number)
 - **Radius** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -247,14 +247,14 @@
 
 **Description:** Makes sure a value is within range cuts off the rest
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Val** (Number)
 - **Min** (Number)
 - **Max** (Number)
 - **Ignore Outside Values** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -269,7 +269,7 @@
 
 **Description:** Calculates the cosine of an angle.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Phase** (Number)
@@ -277,7 +277,7 @@
 - **Amplitude** (Number)
 - **Asine** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -292,7 +292,7 @@
 
 **Description:** Computes the cross product of two vec3's
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **X1** (Number)
@@ -302,7 +302,7 @@
 - **Y2** (Number)
 - **Z2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **X** (Number)
@@ -320,11 +320,11 @@
 
 **Description:** Converts a radian measurement to its corresponding value in degrees.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Radians** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -339,12 +339,12 @@
 
 **Description:** Calculates a vector (x and y) based on an angle in degrees
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Degree** (Number)
 - **The angle you want to convert** (in degrees)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -360,13 +360,13 @@
 
 **Description:** difference to the last value (previous, store)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Change Always** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Delta** (Number)
 
@@ -381,7 +381,7 @@
 
 **Description:** add delta values to an clamped absolute value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Delta Value** (Number)
 - **Default Value** (Number)
@@ -392,7 +392,7 @@
 - **Max** (Number)
 - **Rubberband** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Absolute Value** (Number)
 
@@ -407,12 +407,12 @@
 
 **Description:** Difference between two numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number A** (Number)
 - **Number B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -427,14 +427,14 @@
 
 **Description:** Calculates the Distance between two 2d points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X1** (Number)
 - **Y1** (Number)
 - **X2** (Number)
 - **Y2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Distance** (Number)
 
@@ -449,7 +449,7 @@
 
 **Description:** distance between two 3d points, calculated when triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Calc** (Trigger)
 - **X1** (Number)
@@ -459,7 +459,7 @@
 - **Y2** (Number)
 - **Z2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Distance** (Number)
@@ -475,12 +475,12 @@
 
 **Description:** Divides a number by another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -495,14 +495,14 @@
 
 **Description:** map a value to an easing curve
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Min** (Number)
 - **Max** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -517,11 +517,11 @@
 
 **Description:** Calculates the power of Euler’s number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -536,11 +536,11 @@
 
 **Description:** positive numbers become negative and vice versa (negate)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -555,11 +555,11 @@
 
 **Description:** returns the largest integer less than or equal to a given number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -574,11 +574,11 @@
 
 **Description:** returns the fractional part of a number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -593,13 +593,13 @@
 
 **Description:** random numbers fitting a Gaussian, or normal, distribution
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Num** (Number: Integer)
 - **Deviation** (Number)
 - **Random Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 
@@ -614,7 +614,7 @@
 
 **Description:** increment a number by triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Increment** (Trigger)
 - **Decrement** (Trigger)
@@ -623,7 +623,7 @@
 - **Default** (Number: Integer)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Changed** (Trigger)
 - **Value** (Number)
@@ -640,12 +640,12 @@
 
 **Description:** return fraction of value by index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -660,13 +660,13 @@
 
 **Description:** Interpolate between values, lerp, linear interpolate
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value 1** (Number)
 - **Value 2** (Number)
 - **Percentage** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -681,11 +681,11 @@
 
 **Description:** detect if a number rising or falling
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Rising** (Number)
 
@@ -700,11 +700,11 @@
 
 **Description:** Calculates the logarithm of Number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -719,12 +719,12 @@
 
 **Description:** map geo locations (latitude - longitude) to spherical coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Coordinates** (Array)
 - **Radius** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -739,7 +739,7 @@
 
 **Description:** Maps a value from one range into another.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Old Min** (Number)
@@ -749,7 +749,7 @@
 - **Easing Index** (Number: Integer)
 - **Clamp** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -764,13 +764,13 @@
 
 **Description:** Allows different mathematical operations to be applied to two numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number 0** (Number)
 - **Number 1** (Number)
 - **Math Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -785,7 +785,7 @@
 
 **Description:** calculates a user defined mathematical expression
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **A** (Number)
 - **B** (Number)
@@ -793,7 +793,7 @@
 - **D** (Number)
 - **Expression** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
@@ -809,12 +809,12 @@
 
 **Description:** Sets the output to the input value which is higher
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Maximum** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -829,12 +829,12 @@
 
 **Description:** Outputs the maximum value since reset has been triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Maximum** (Number)
 
@@ -849,14 +849,14 @@
 
 **Description:** project mercator coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Latitude** (Number)
 - **Longitude** (Number)
 - **MapWidth** (Number)
 - **MapHeight** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -872,14 +872,14 @@
 
 **Description:** Mercator map and center an array of latitudes and longitudes to a local coordinate system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **LatLon Array** (Array)
 - **MapWidth** (Number)
 - **Center Lat** (Number)
 - **Center Lon** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -894,12 +894,12 @@
 
 **Description:** Result will be the smaller number of the inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value 1** (Number)
 - **Value 2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -914,12 +914,12 @@
 
 **Description:** Outputs the minimum value since reset has been triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Minimum** (Number)
 
@@ -934,13 +934,13 @@
 
 **Description:** outputs the remainder after division of one number by another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 - **Pingpong** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -955,7 +955,7 @@
 
 **Description:** multiply XYZ values with a gl matrix vec3 x mat4
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **X** (Number)
@@ -963,7 +963,7 @@
 - **Z** (Number)
 - **Matrix** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result X** (Number)
@@ -981,12 +981,12 @@
 
 **Description:** Multiplies two numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1001,14 +1001,14 @@
 
 **Description:** multiply three numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **Multiply** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ResultR** (Number)
 - **ResultG** (Number)
@@ -1025,13 +1025,13 @@
 
 **Description:** normalize a vector
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result X** (Number)
 - **Result Y** (Number)
@@ -1048,12 +1048,12 @@
 
 **Description:** is a number capable of being divided.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Divisor** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1068,11 +1068,11 @@
 
 **Description:** subtract a number from one
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1087,7 +1087,7 @@
 
 **Description:** outputs a perlin noise value like random
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
@@ -1095,7 +1095,7 @@
 - **Scale** (Number)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1110,11 +1110,11 @@
 
 **Description:** returns PI (3.141592653589793) * multiply amount
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Multiply Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Pi** (Number)
 
@@ -1129,7 +1129,7 @@
 
 **Description:** test if a point is in or outside of a rectangle
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
@@ -1138,7 +1138,7 @@
 - **Rect Right** (Number)
 - **Rect Bottom** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **Pos X** (Number)
@@ -1155,12 +1155,12 @@
 
 **Description:** value of x to the power of y
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Base** (Number)
 - **Exponent** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1175,13 +1175,13 @@
 
 **Description:** Return the next values as power of two
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 - **Strategy Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Width Result** (Number)
 - **Height Result** (Number)
@@ -1197,11 +1197,11 @@
 
 **Description:** Converts a degree measurement to its corresponding value in radians.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Degrees** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1216,13 +1216,13 @@
 
 **Description:** add up random numbers by triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Count** (Trigger)
 - **Step Min** (Number)
 - **Step Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1237,13 +1237,13 @@
 
 **Description:** Simple way to get random numbers without using arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Seed** (Number)
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -1261,12 +1261,12 @@
 
 **Description:** Random number generator from a string seed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Input String** (String)
 - **Random Number Count** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Random Value** (Number)
 - **Random Numbers** (Array)
@@ -1282,14 +1282,14 @@
 
 **Description:** Create rotation matrix from normal
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Normal X** (Number)
 - **Normal Y** (Number)
 - **Normal Z** (Number)
 - **Recalculate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **RotationMatrix** (Array)
 
@@ -1304,12 +1304,12 @@
 
 **Description:** Outputs number rounded to the nearest integer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Decimal Places** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1324,12 +1324,12 @@
 
 **Description:** round to the next even number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1344,13 +1344,13 @@
 
 **Description:** Custom easing curve via schlick bias and gain
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Gain** (Number)
 - **Bias** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1365,12 +1365,12 @@
 
 **Description:** get sign of value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Remove Zero** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1385,12 +1385,12 @@
 
 **Description:** Calculate the Average of the last X values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Number Of Values** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1405,7 +1405,7 @@
 
 **Description:** Calculates the sine of an angle.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Phase** (Number)
@@ -1413,7 +1413,7 @@
 - **Amplitude** (Number)
 - **Asine** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1428,12 +1428,12 @@
 
 **Description:** measure speed of how much a value changes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Speed** (Number)
 
@@ -1448,11 +1448,11 @@
 
 **Description:** square root of a number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1467,12 +1467,12 @@
 
 **Description:** Subtracts Number2 from Number1 (minus, -)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1487,12 +1487,12 @@
 
 **Description:** Result of the addition
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1507,7 +1507,7 @@
 
 **Description:** Calculates the ratio of the sine and cosine of an angle.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Phase** (Number)
@@ -1515,7 +1515,7 @@
 - **Amplitude** (Number)
 - **Asine** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1530,7 +1530,7 @@
 
 **Description:** calculates a user defined mathematical expression
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Calculate** (Trigger)
 - **Expression** (String)
@@ -1544,7 +1544,7 @@
 - **D** (Number)
 - **I** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -1561,7 +1561,7 @@
 
 **Description:** Generate random number between min and max
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Generate** (Trigger)
 - **Min** (Number)
@@ -1569,7 +1569,7 @@
 - **Integer** (Number: Boolean)
 - **No Consecutive Duplicates** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -1585,13 +1585,13 @@
 
 **Description:** length of a vector
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Length** (Number)
 

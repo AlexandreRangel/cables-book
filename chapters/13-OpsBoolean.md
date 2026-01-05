@@ -11,12 +11,12 @@
 
 **Description:** Outputs `true` if both input values are `true` (boolean)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Bool 1** (Number: Boolean)
 - **Bool 2** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -31,12 +31,12 @@
 
 **Description:** Outputs `true` if all input values are `true` (boolean)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Booleans_0** (Number: Boolean)
 - **Add Port** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -51,12 +51,12 @@
 
 **Description:** Trigger true or false values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **True** (Trigger)
 - **False** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -71,11 +71,11 @@
 
 **Description:** Stores a boolean value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 
@@ -90,7 +90,7 @@
 
 **Description:** Convert boolean to RGB color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Boolean** (Number: Boolean)
 - **R True** (Number)
@@ -102,7 +102,7 @@
 - **B False** (Number)
 - **A False** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **R** (Number)
 - **G** (Number)
@@ -120,13 +120,13 @@
 
 **Description:** Switches two number values using a boolean
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Use Value 1** (Number: Boolean)
 - **Value 0** (Number)
 - **Value 1** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Value** (Number)
 
@@ -141,13 +141,13 @@
 
 **Description:** convert boolean to string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Boolean** (Number: Boolean)
 - **False** (String)
 - **True** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -162,13 +162,13 @@
 
 **Description:** Delay the input/output of a boolean by x seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Delay True** (Number)
 - **Delay False** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Value** (Number)
 
@@ -183,12 +183,12 @@
 
 **Description:** Triggers if input value is `false`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
@@ -206,12 +206,12 @@
 
 **Description:** Switch, trigger one or the other trigger port based on the input value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Then** (Trigger)
 - **Else** (Trigger)
@@ -227,11 +227,11 @@
 
 **Description:** Returns `true` if input value is `1`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -246,11 +246,11 @@
 
 **Description:** Returns `true` if input value is `0`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -265,7 +265,7 @@
 
 **Description:** Sets output to `1` when triggered, turns back to `0` automatically after x seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Duration** (Number)
@@ -273,7 +273,7 @@
 - **Value False** (Number)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Activated** (Trigger)
 - **Ended** (Trigger)
@@ -290,11 +290,11 @@
 
 **Description:** result is false if input is true and vice versa (negate/toggle/switch/!=)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -309,7 +309,7 @@
 
 **Description:** Returns `true` if one or more of the input booleans are `true`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Bool 1** (Number: Boolean)
 - **Bool 2** (Number: Boolean)
@@ -322,7 +322,7 @@
 - **Bool 9** (Number: Boolean)
 - **Bool 10** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 
@@ -337,7 +337,7 @@
 
 **Description:** Output another number if input number is zero
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Number 2** (Number)
@@ -348,7 +348,7 @@
 - **Number 7** (Number)
 - **Number 8** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -363,11 +363,11 @@
 
 **Description:** parse boolean from string/number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 
@@ -382,13 +382,13 @@
 
 **Description:** Route a boolean to an output port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Boolean In** (Number: Boolean)
 - **Default Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index 0 Boolean** (booleanNumber)
 - **Index 1 Boolean** (booleanNumber)
@@ -412,13 +412,13 @@
 
 **Description:** Toggle a boolean value by triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Reset** (Trigger)
 - **Default** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (booleanNumber)
@@ -434,11 +434,11 @@
 
 **Description:** Triggers next only after value has changed to `false`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -453,11 +453,11 @@
 
 **Description:** Triggers next only after value has changed to `true`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -472,11 +472,11 @@
 
 **Description:** Triggers when boolean value has changed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **True** (Trigger)
 - **False** (Trigger)

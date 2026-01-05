@@ -11,12 +11,12 @@
 
 **Description:** FxHash simulator / generator of seeded random numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hash** (String)
 - **Randomize Hash** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Fxhash** (String)
 - **Fxrand 1** (Number)

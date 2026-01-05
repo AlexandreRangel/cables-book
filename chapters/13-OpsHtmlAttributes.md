@@ -11,14 +11,14 @@
 
 **Description:** Element Accessibility properties for screen reader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Aria Label** (String)
 - **Aria Labeled By** (String)
 - **Aria Hidden** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -33,11 +33,11 @@
 
 **Description:** Get all attributes from an element an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Attribs** (Object)
 
@@ -52,12 +52,12 @@
 
 **Description:** Read or Get the value of an HTML element Attribute
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Attribute Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (String)
 - **Has Attribute** (booleanNumber)
@@ -73,14 +73,14 @@
 
 **Description:** Write or Set the value of an HTML element Attribute
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Attribute** (String)
 - **Value** (String)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 

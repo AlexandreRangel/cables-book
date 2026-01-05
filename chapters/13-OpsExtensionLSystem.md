@@ -11,7 +11,7 @@
 
 **Description:** Lsystem generator
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Iterations** (Number: Integer)
@@ -22,7 +22,7 @@
 - **Random Seed** (Number)
 - **Random Strength** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Trigger Geometry** (Trigger)
 - **Points Out** (Array)

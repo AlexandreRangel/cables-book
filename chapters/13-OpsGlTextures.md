@@ -11,12 +11,12 @@
 
 **Description:** Converts a base-64 image string into a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Wrap Index** (Number: Integer)
 - **Pre Multiplied Alpha** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Has Error** (booleanNumber)
@@ -33,14 +33,14 @@
 
 **Description:** Simple texture filled with one color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture_out** (Object)
 
@@ -55,7 +55,7 @@
 
 **Description:** combine multiple textures into one by copying colorchannels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Filter Index** (Number: Integer)
@@ -79,7 +79,7 @@
 - **A Value Index** (Number: Integer)
 - **A Default** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -95,7 +95,7 @@
 
 **Description:** copy a texture and optionally resize it
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
@@ -109,7 +109,7 @@
 - **Flip X** (Number: Boolean)
 - **Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Texture_out** (Object)
@@ -126,12 +126,12 @@
 
 **Description:** A very simple empty transparent texture with an opacity of 0
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 
@@ -146,13 +146,13 @@
 
 **Description:** load .exr floating point texture files
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **EXR File** (String)
 - **Remove Alpha** (Number: Boolean)
 - **Flip** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -171,7 +171,7 @@
 
 **Description:** draw a graph of a value into a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (Number)
@@ -181,7 +181,7 @@
 - **Texture Width** (Number: Integer)
 - **Texture Height** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 
@@ -196,12 +196,12 @@
 
 **Description:** graphical representation of distribution of color in a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Histogram Texture** (Object)
 - **Histogram Data** (Object)
@@ -217,7 +217,7 @@
 
 **Description:** combine multiple textures into one by copying colorchannels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Flip Order** (Number: Boolean)
@@ -242,7 +242,7 @@
 - **Texture 14** (Object:Texture)
 - **Texture 15** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -260,7 +260,7 @@
 
 **Description:** Simple noisetexture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
@@ -282,7 +282,7 @@
 - **Min A** (Number)
 - **Max A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Total Pixel** (Number)
@@ -298,12 +298,12 @@
 
 **Description:** Create a RGB color palette using an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Palette Array** (Array)
 - **Smooth** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Color Array** (Array)
 - **Texture** (Object)
@@ -319,7 +319,7 @@
 
 **Description:** control order and flow of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture 0** (Object:Texture)
 - **Texture 1** (Object:Texture)
@@ -338,7 +338,7 @@
 - **Texture 14** (Object:Texture)
 - **Texture 15** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output 0** (Object)
 - **Output 1** (Object)
@@ -368,7 +368,7 @@
 
 **Description:** screen space ambient occlusion from depth texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Depth Texture** (Object:Texture)
@@ -380,7 +380,7 @@
 - **Base** (Number)
 - **Filter Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **SSAO** (Object)
@@ -396,13 +396,13 @@
 
 **Description:** Switch between multiple textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Textures_0** (Object)
 - **Add Port** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Num Textures** (Number)
@@ -418,7 +418,7 @@
 
 **Description:** Switch between different textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Num** (Number: Integer)
@@ -440,7 +440,7 @@
 - **Texture14** (Object:Texture)
 - **Texture15** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -456,7 +456,7 @@
 
 **Description:** Generates a texture of Text using one of the font ops
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Text** (String)
@@ -488,7 +488,7 @@
 - **Background A** (Number)
 - **Force Redraw** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Ratio** (Number)
@@ -508,11 +508,11 @@
 
 **Description:** Information about Textures in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Names** (Array)
 - **Widths** (Array)
@@ -529,11 +529,11 @@
 
 **Description:** Outputs information about the connected texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Name** (String)
 - **PixelFormat** (String)
@@ -560,7 +560,7 @@
 
 **Description:** Load a SVG image and convert to a texture of pixels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **Texture Width** (Number: Integer)
@@ -568,7 +568,7 @@
 - **Wrap Index** (Number: Integer)
 - **Filter Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Loaded** (booleanNumber)
@@ -584,14 +584,14 @@
 
 **Description:** Converts a texture into a base-64 image string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
 - **Quality** (Number)
 - **Output DataUrl** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Binary Size** (Number)
@@ -610,7 +610,7 @@
 
 **Description:** convert a texture to a 3d coordinate grid storing coordinates in texture RGB channels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Texture** (Object:Texture)
@@ -619,7 +619,7 @@
 - **Repeats** (Number: Integer)
 - **Repeats Spacing** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **HDR Texture** (Object)
@@ -635,7 +635,7 @@
 
 **Description:** Play a video file and use it as a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **File** (String)
@@ -652,7 +652,7 @@
 - **Preload** (Number: Boolean)
 - **Show Interaction Needed Button** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)
@@ -681,7 +681,7 @@
 
 **Description:** Use your webcam camera as a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
@@ -696,7 +696,7 @@
 - **Element Flip X** (Number: Boolean)
 - **Element Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture** (Object)

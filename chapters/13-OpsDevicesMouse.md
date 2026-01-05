@@ -11,7 +11,7 @@
 
 **Description:** Get mouse/touchscreen/pointer coordinates and events
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Area Index** (Number: Integer)
 - **Flip Y** (Number: Boolean)
@@ -20,7 +20,7 @@
 - **Element** (Object)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -43,12 +43,12 @@
 
 **Description:** Get the state of mouse buttons
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Area Index** (Number: Integer)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Click Left** (Trigger)
 - **Click Right** (Trigger)
@@ -74,14 +74,14 @@
 
 **Description:** get delta of mouse position while dragging
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Active** (Number: Boolean)
 - **Speed** (Number)
 - **Input Type Index** (Number: Integer)
 - **Area Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Delta X** (Number)
 - **Delta Y** (Number)
@@ -98,7 +98,7 @@
 
 **Description:** outputs delta values controlled by the mousewheel (scroll, zoom)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Speed** (Number)
 - **Prevent Scroll** (Number: Boolean)
@@ -106,7 +106,7 @@
 - **Simple Delta** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Delta** (Number)
 - **Delta X** (Number)
@@ -124,12 +124,12 @@
 
 **Description:** locks the pointer to the canvas and hides the cursor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Supported** (booleanNumber)

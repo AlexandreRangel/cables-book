@@ -11,7 +11,7 @@
 
 **Description:** FFmpeg video converter toolbox op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Source Video** (String)
 - **Destination File** (String)
@@ -27,7 +27,7 @@
 - **Duration** (String)
 - **Process** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Processing** (booleanNumber)
 

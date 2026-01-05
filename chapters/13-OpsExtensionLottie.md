@@ -11,7 +11,7 @@
 
 **Description:** Play Bodymovin/Lottie animations as SVG in a HTML element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **HTML Element** (Object:Element)
 - **JSON Data** (Object)
@@ -22,7 +22,7 @@
 - **Rewind** (Trigger)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Completed** (booleanNumber)
 - **Progress** (Number)
@@ -39,7 +39,7 @@
 
 **Description:** Play a Lottie animation in a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **JSON Data** (Object)
@@ -54,7 +54,7 @@
 - **Wrap Index** (Number: Integer)
 - **Scale Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Total Frames** (Number)

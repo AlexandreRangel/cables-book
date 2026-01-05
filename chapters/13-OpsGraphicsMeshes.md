@@ -11,13 +11,13 @@
 
 **Description:** cables logo mesh/geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -33,7 +33,7 @@
 
 **Description:** Draws a circle to the canvas.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Radius** (Number)
@@ -45,7 +45,7 @@
 - **Spline** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -61,7 +61,7 @@
 
 **Description:** Draws a cross with controllable thickness and length.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -73,7 +73,7 @@
 - **Bottom** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -89,7 +89,7 @@
 
 **Description:** Draws a cube to the canvas. Please note that without doing a rotation you will only see a rectangle.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Render Mesh** (Number: Boolean)
@@ -106,7 +106,7 @@
 - **Front** (Number: Boolean)
 - **Back** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -122,7 +122,7 @@
 
 **Description:** draw a rectangle (plane, square)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Render** (Number: Boolean)
@@ -133,7 +133,7 @@
 - **Num Columns** (Number: Integer)
 - **Num Rows** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -149,7 +149,7 @@
 
 **Description:** Draw parameterizable sphere
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Radius** (Number)
@@ -157,7 +157,7 @@
 - **Slices** (Number)
 - **Filloffset** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -173,7 +173,7 @@
 
 **Description:** draw a star mesh (saw,gear)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Segments** (Number)
@@ -185,7 +185,7 @@
 - **Fill** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -201,14 +201,14 @@
 
 **Description:** Renders a triangle to the canvas.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
 - **Height** (Number)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)

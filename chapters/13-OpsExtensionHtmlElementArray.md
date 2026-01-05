@@ -11,7 +11,7 @@
 
 **Description:** create an array of div elements
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Class** (String)
 - **Parent** (Object:Element)
@@ -20,7 +20,7 @@
 - **Text** (Array)
 - **Reset Hover** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Elements** (Array)
 - **Index Clicked** (Number)
@@ -39,7 +39,7 @@
 
 **Description:** Set css style properties of a html element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Update** (Trigger)
@@ -47,7 +47,7 @@
 - **Value** (Number)
 - **Value Suffix** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -62,7 +62,7 @@
 
 **Description:** set css properties
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Update** (Trigger)
@@ -70,7 +70,7 @@
 - **Value** (String)
 - **Value Suffix** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 

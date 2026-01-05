@@ -11,7 +11,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -30,7 +30,7 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -45,7 +45,7 @@
 
 **Description:** fractional brownian motion noise
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -66,7 +66,7 @@
 - **Layer 4** (Number: Boolean)
 - **Tileable** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -81,7 +81,7 @@
 
 **Description:** Render "gabor noise" into a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -91,7 +91,7 @@
 - **X** (Number)
 - **Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -106,7 +106,7 @@
 
 **Description:** Creates a black and white glitched texture to use for displacement
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -122,7 +122,7 @@
 - **Scroll X** (Number)
 - **Scroll Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -137,7 +137,7 @@
 
 **Description:** Creates a hexagonal noise
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -154,7 +154,7 @@
 - **Z** (Number)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -169,7 +169,7 @@
 
 **Description:** Multilayer perlin noise variation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -186,7 +186,7 @@
 - **ScrollZ** (Number)
 - **Tileable** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -201,7 +201,7 @@
 
 **Description:** White noise pixel effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -212,7 +212,7 @@
 - **Normalize** (Number: Boolean)
 - **Multiply** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -227,7 +227,7 @@
 
 **Description:** Draw perlin noise into an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -247,7 +247,7 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -262,7 +262,7 @@
 
 **Description:** Amount of blend mode to apply
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -280,7 +280,7 @@
 - **Seed** (Number)
 - **Centered** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -295,7 +295,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -310,7 +310,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -325,7 +325,7 @@
 
 **Description:** Render "shard noise" into a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -337,7 +337,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -352,7 +352,7 @@
 
 **Description:** simplex noise generator
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mask** (Object:Texture)
@@ -371,7 +371,7 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -386,7 +386,7 @@
 
 **Description:** noise made from triangles
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -396,7 +396,7 @@
 - **Angle** (Number)
 - **Add** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -411,7 +411,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -421,7 +421,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -436,7 +436,7 @@
 
 **Description:** Voronoi Noise function
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -451,7 +451,7 @@
 - **Draw Distance** (Number: Boolean)
 - **Draw Center** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -466,7 +466,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -490,7 +490,7 @@
 - **Offset Y Index** (Number: Integer)
 - **Offset Z Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

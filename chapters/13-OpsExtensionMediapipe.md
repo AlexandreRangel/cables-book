@@ -11,12 +11,12 @@
 
 **Description:** Generate an animated geometry from MpFaceTracking Point Coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geom** (Object)
 - **Points** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Geom** (Object)
 
@@ -31,12 +31,12 @@
 
 **Description:** Get face mesh from webcam/video using mediapipe library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Refine LandMarks** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Points** (Array)
 - **Found** (Number)
@@ -53,13 +53,13 @@
 
 **Description:** Get points and lines for left/right hand from mediapipe
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hands Result** (Object)
 - **Hand Index** (Number: Integer)
 - **Min Score** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Points** (Array)
 - **Lines** (Array)
@@ -78,12 +78,12 @@
 
 **Description:** Get individual coordinates of fingers or wrist from an array of mediapipe data
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hand Points** (Array)
 - **Joint Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -100,13 +100,13 @@
 
 **Description:** Get hand data from mediapipe library, use with MpHand
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Min Confidence Detect** (Number)
 - **Min Confidence Tracking** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 - **Found Hands** (Number)
@@ -122,12 +122,12 @@
 
 **Description:** Get coordinates of specific body parts from mediapipe data
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Landmarks** (Array)
 - **Landmark Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -144,7 +144,7 @@
 
 **Description:** Get pose-data (points/landmarks/lines) from webcam using mediapipe library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Smooth Landmarks** (Number: Boolean)
@@ -156,7 +156,7 @@
 - **Flip X** (Number: Boolean)
 - **Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Points** (Array)
 - **Segmentation Mask** (Object)

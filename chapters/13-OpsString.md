@@ -11,12 +11,12 @@
 
 **Description:** Insert a line break in a string of words
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Max Characters Per Line** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -31,12 +31,12 @@
 
 **Description:** Check if an array contains a string which can also be a number (find,search,indexOf)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **SearchValue** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found** (booleanNumber)
 - **Index** (Number)
@@ -52,13 +52,13 @@
 
 **Description:** Create an array of strings and optionally attach index-number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Length** (Number: Integer)
 - **Attach Number** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 
@@ -73,7 +73,7 @@
 
 **Description:** String rotate characters like a split-flap display
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Reset** (Trigger)
@@ -81,7 +81,7 @@
 - **Random Seed** (Number)
 - **Characters** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -96,14 +96,14 @@
 
 **Description:** Joins two strings together
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String1** (String)
 - **String2** (String)
 - **New Line** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -118,7 +118,7 @@
 
 **Description:** Joins multiple strings together
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String 0** (String)
 - **String 1** (String)
@@ -129,7 +129,7 @@
 - **String 6** (String)
 - **String 7** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Concat String** (String)
 
@@ -144,12 +144,12 @@
 
 **Description:** concatinate/join multiple string inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Strings_0** (String)
 - **Add Port** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 - **Num Strings** (Number)
@@ -165,12 +165,12 @@
 
 **Description:** Copy string to clipboard on trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Copy** (Trigger)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Success** (booleanNumber)
 
@@ -185,12 +185,12 @@
 
 **Description:** delay the output of a string by n seconds
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 - **Delay** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Value** (String)
 
@@ -205,12 +205,12 @@
 
 **Description:** does a string starts with another string?
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Search** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Ends With** (booleanNumber)
 
@@ -225,12 +225,12 @@
 
 **Description:** create an array from multiple string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Strings_0** (String)
 - **Add Port** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Values** (Number)
@@ -246,7 +246,7 @@
 
 **Description:** filter valid strings (not null,undefined or empty)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Invalid If Null** (Number: Boolean)
@@ -254,7 +254,7 @@
 - **Invalid If Empty** (Number: Boolean)
 - **Invalid If 0** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Last Valid String** (String)
 - **Is Valid** (Number)
@@ -270,12 +270,12 @@
 
 **Description:** capture the current input and copy it to the output, even after a reload
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Button** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Frozen String** (String)
 
@@ -290,13 +290,13 @@
 
 **Description:** Output string if pass through is true
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String In** (String)
 - **Pass Through** (Number: Boolean)
 - **Custom Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String Out** (String)
 
@@ -311,13 +311,13 @@
 
 **Description:** string conversion using handlebars template engine
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Template** (String)
 - **Data** (Object)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Errors** (String)
@@ -333,11 +333,11 @@
 
 **Description:** convert a html encoded string to a normal UTF8 string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -352,11 +352,11 @@
 
 **Description:** encode a string to html
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -371,13 +371,13 @@
 
 **Description:** create a fixed length string from a number 1 -> 0001
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 - **Char** (String)
 - **Num** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -392,14 +392,14 @@
 
 **Description:** Limit number of lines in a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Num Lines** (Number: Integer)
 - **Reverse** (Number: Boolean)
 - **Force Num Lines** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -414,11 +414,11 @@
 
 **Description:** Outputs a linebreak, or adds a linebreak to a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -433,12 +433,12 @@
 
 **Description:** Convert linebreaks to html breaks
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Add Num Breaks** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML** (String)
 
@@ -453,11 +453,11 @@
 
 **Description:** Lorem ipsum dolor sit amet
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.String.LoremIpsum documentation](https://cables.gl/op/Ops.String.LoremIpsum) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 - **HTML String** (String)
@@ -474,11 +474,11 @@
 
 **Description:** convert all characters to small letters
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -493,11 +493,11 @@
 
 **Description:** Create a md5 hash of a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MD5 Hash** (String)
 
@@ -512,7 +512,7 @@
 
 **Description:** Format a number to a string in the given locale and format
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Input Number** (Number)
 - **Locale String** (String)
@@ -524,7 +524,7 @@
 - **Use Grouping** (Number: Boolean)
 - **Currency Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Formatted Number** (String)
 - **Has Error** (booleanNumber)
@@ -540,7 +540,7 @@
 
 **Description:** associate numbers by strings
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **String 1** (String)
@@ -564,7 +564,7 @@
 - **String 10** (String)
 - **Number 10** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -579,12 +579,12 @@
 
 **Description:** Convert a number to a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Number)
 - **Decimal Places** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -599,11 +599,11 @@
 
 **Description:** Count number of line breaks in a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Total Lines** (Number)
 
@@ -618,7 +618,7 @@
 
 **Description:** outputs the first valid string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String 1** (String)
 - **String 2** (String)
@@ -629,7 +629,7 @@
 - **String 7** (String)
 - **String 8** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -644,11 +644,11 @@
 
 **Description:** Parse a string to a integer number / string to number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
 
@@ -663,13 +663,13 @@
 
 **Description:** Generate a random string of given characters
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Chars** (String)
 - **Length** (Number: Integer)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -684,13 +684,13 @@
 
 **Description:** create a string with a fixed length filling the space with a character
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 - **Char** (String)
 - **Num** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -705,12 +705,12 @@
 
 **Description:** Converts a number to a string with num decimal places, adds 0's
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Num** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -725,14 +725,14 @@
 
 **Description:** Route a string to an output port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **String In** (String)
 - **Default String** (String)
 - **Set Inactive To Default** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index 0 String** (String)
 - **Index 1 String** (String)
@@ -756,13 +756,13 @@
 
 **Description:** download a textfile containing the input string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Download** (Trigger)
 - **Filename** (String)
 - **Content String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.String.SaveTextFile documentation](https://cables.gl/op/Ops.String.SaveTextFile) for output port details*
 
@@ -777,7 +777,7 @@
 
 **Description:** control order and flow of strings
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String 0** (String)
 - **String 1** (String)
@@ -796,7 +796,7 @@
 - **String 14** (String)
 - **String 15** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output 0** (String)
 - **Output 1** (String)
@@ -826,12 +826,12 @@
 
 **Description:** does a string starts with another string?
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Search** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Starts With** (booleanNumber)
 
@@ -846,11 +846,11 @@
 
 **Description:** String input/output
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -865,7 +865,7 @@
 
 **Description:** Combine multiple Values to a new String
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Format** (String)
 - **String A** (String)
@@ -875,7 +875,7 @@
 - **String E** (String)
 - **String F** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -890,12 +890,12 @@
 
 **Description:** check if string contains another string (find,search,indexOf)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **SearchValue** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found** (Number)
 - **Index** (Number)
@@ -911,12 +911,12 @@
 
 **Description:** string text editor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 - **Syntax Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -931,12 +931,12 @@
 
 **Description:** check if content of two strings is the same
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String 1** (String)
 - **String 2** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 
@@ -951,12 +951,12 @@
 
 **Description:** output the line number at the character index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Line** (Number)
 - **Found** (Number)
@@ -972,12 +972,12 @@
 
 **Description:** iterate over every character of a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Character** (String)
@@ -995,11 +995,11 @@
 
 **Description:** number of characters in a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -1014,13 +1014,13 @@
 
 **Description:** Remove every occurances of given characters from a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Characters** (String)
 - **Replace** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1035,14 +1035,14 @@
 
 **Description:** replace occurrences of a string with another string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Search For** (String)
 - **Replace** (String)
 - **Replace What Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1057,12 +1057,12 @@
 
 **Description:** sort each line of a string alphabetically
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Reverse** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1077,12 +1077,12 @@
 
 **Description:** create an array from multiple string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Strings_0** (String)
 - **Add Port** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Values** (Number)
@@ -1098,7 +1098,7 @@
 
 **Description:** Switch between multiple strings by a string index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Default** (String)
@@ -1123,7 +1123,7 @@
 - **String 10** (String)
 - **Result String 10** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1138,11 +1138,11 @@
 
 **Description:** Parses a string and returns a floating point number / string to number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
 - **Not A Number** (booleanNumber)
@@ -1158,11 +1158,11 @@
 
 **Description:** Remove whitespace from both ends of a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1177,11 +1177,11 @@
 
 **Description:** remove html tags from a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1196,14 +1196,14 @@
 
 **Description:** Subset of a string between one index and another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Start** (Number: Integer)
 - **End** (Number: Integer)
 - **End Of String** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1218,7 +1218,7 @@
 
 **Description:** Switch between multiple strings with an index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **String 0** (String)
@@ -1232,7 +1232,7 @@
 - **String 8** (String)
 - **String 9** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1247,13 +1247,13 @@
 
 **Description:** switch between multiple string inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Strings_0** (String)
 - **Add Port** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 - **Num Values** (Number)
@@ -1269,11 +1269,11 @@
 
 **Description:** Convert all characters in a string to upperase
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -1288,11 +1288,11 @@
 
 **Description:** outputs a unique identifier string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Generate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Id** (String)
 

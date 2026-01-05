@@ -11,12 +11,12 @@
 
 **Description:** create a cables logo which links to cables gl
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Size** (Number)
 - **Opacity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.Utils.CablesLink documentation](https://cables.gl/op/Ops.Html.Utils.CablesLink) for output port details*
 
@@ -31,11 +31,11 @@
 
 **Description:** show a typical web loading/progress indicator animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Center Position** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Elment** (Object)
 - **Requests** (Array)
@@ -51,7 +51,7 @@
 
 **Description:** Trigger a simple pop up notification on the screen
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger Animation** (Trigger)
 - **Text** (String)
@@ -67,7 +67,7 @@
 - **Starting Position** (Number)
 - **Ending Position** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Finished Trigger** (Trigger)
 - **Finished** (booleanNumber)
@@ -84,7 +84,7 @@
 
 **Description:** shows a playbutton for forcing a simple user interaction
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Only If Audio Suspended** (Number: Boolean)
@@ -93,7 +93,7 @@
 - **Style Inner** (String)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Not Clicked** (Trigger)
@@ -113,7 +113,7 @@
 
 **Description:** simple html ui for timeline/mediaplayers (was: TimeLineUI)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Length** (Number)
 - **Current** (Number)
@@ -123,7 +123,7 @@
 - **Show Time** (Number: Boolean)
 - **Show Skip Buttons** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Play Clicked** (Trigger)
 - **Pause Clicked** (Trigger)
@@ -146,11 +146,11 @@
 
 **Description:** Generate a qr code as a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Image DataUrl** (String)
 - **Element** (Object)
@@ -166,7 +166,7 @@
 
 **Description:** play a youtube video in a HTML element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Video Id** (String)
 - **Active** (Number: Boolean)
@@ -179,7 +179,7 @@
 - **Hide Controls** (Number: Boolean)
 - **Start At Second** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 - **Direct Link** (String)

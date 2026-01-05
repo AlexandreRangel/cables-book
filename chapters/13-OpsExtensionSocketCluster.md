@@ -11,7 +11,7 @@
 
 **Description:** connect to a socketcluster server and manage the connection
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Channel** (String)
 - **Server Hostname** (String)
@@ -25,7 +25,7 @@
 - **additional data send with every message** (can be used for auth-token)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Ready** (booleanNumber)
 - **Socket** (Object)
@@ -44,13 +44,13 @@
 
 **Description:** Receives object from the socketcluster socket/topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Receive Own Data** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Client Id** (String)
 - **Data** (Object)
@@ -67,14 +67,14 @@
 
 **Description:** Receives trigger from the socketcluster socket/topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Receive Own Data** (Number: Boolean)
 - **Use Named Trigger** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Client Id** (String)
 - **Trigger Name** (String)
@@ -91,14 +91,14 @@
 
 **Description:** sends an object via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (Object)
 - **Send** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sent Data** (Trigger)
 
@@ -113,7 +113,7 @@
 
 **Description:** sends a trigger via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (Trigger)
 - **Socket** (Object:Socketcluster)
@@ -121,7 +121,7 @@
 - **Trigger Name** (String)
 - **the name of the trigger** (created with TriggerSend)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.SocketCluster.SocketClusterSendTrigger documentation](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger) for output port details*
 
@@ -136,7 +136,7 @@
 
 **Description:** get info for clients listening on a socketcluster topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
@@ -146,7 +146,7 @@
 - **Update** (Trigger)
 - **Receive My Data** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Active Clients** (Array)
 - **Will Time Out** (Object)

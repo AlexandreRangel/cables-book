@@ -11,13 +11,13 @@
 
 **Description:** Rule of thirds image composition helper
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Scale** (Number)
 - **Show Center** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Gl.Meshes.ComposingGridOverlay documentation](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay) for output port details*
 
@@ -32,7 +32,7 @@
 
 **Description:** number of horizontal segments
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Slices** (Number)
@@ -41,7 +41,7 @@
 - **Height** (Number)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -57,7 +57,7 @@
 
 **Description:** render a rectangular corner
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -67,7 +67,7 @@
 - **Pivot X Index** (Number: Integer)
 - **Pivot Y Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -83,7 +83,7 @@
 
 **Description:** draw parameterizable cylinder (aka tube,pipe,round,circle)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Render Mesh** (Number: Boolean)
@@ -96,7 +96,7 @@
 - **Caps** (Number: Boolean)
 - **Flat Normals** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -112,12 +112,12 @@
 
 **Description:** draw a grid on the floor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -132,7 +132,7 @@
 
 **Description:** A freely deformable plane, rectangle, polygon
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X 1** (Number)
@@ -156,7 +156,7 @@
 - **Tc X 4** (Number)
 - **Tc Y 4** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -172,14 +172,14 @@
 
 **Description:** Draws a rectangle using the full WebGL canvas size
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Flip Y** (Number: Boolean)
 - **Flip X** (Number: Boolean)
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -194,7 +194,7 @@
 
 **Description:** Convert vertices of a geometry to a data texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
@@ -208,7 +208,7 @@
 - **Pixel Format Index** (Number: Integer)
 - **Color Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Total Vertices** (Number)
@@ -225,7 +225,7 @@
 
 **Description:** Draw a simple grid of lines
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Num** (Number: Integer)
@@ -233,7 +233,7 @@
 - **Center** (Number: Boolean)
 - **Axis Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -248,7 +248,7 @@
 
 **Description:** generate a rectangular mesh where the height is defined by the luminance of an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **File** (String)
@@ -260,7 +260,7 @@
 - **TexCoords Slice** (Number: Boolean)
 - **Flat** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -276,7 +276,7 @@
 
 **Description:** generates a helix, spiral spline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
@@ -286,7 +286,7 @@
 - **Radius End** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Points** (Array)
@@ -302,13 +302,13 @@
 
 **Description:** Renders a icosahedron (polyhedron with 20 faces)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -324,7 +324,7 @@
 
 **Description:** Draw a line between two points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X 1** (Number)
@@ -334,7 +334,7 @@
 - **Y 2** (Number)
 - **Z 2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array** (Array)
@@ -350,7 +350,7 @@
 
 **Description:** an array of lines
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -362,7 +362,7 @@
 - **Num Rows** (Number: Integer)
 - **Axis Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Point Arrays** (Array)
@@ -378,7 +378,7 @@
 
 **Description:** Draw the same mesh multiple times on the GPU
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Geometry** (Object:Geometry)
@@ -395,7 +395,7 @@
 - **Multiply Pos Y** (Number)
 - **Multiply Pos Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Num** (Number)
@@ -411,7 +411,7 @@
 
 **Description:** Creates a 3d mesh from a 2d area expressions
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Shapes Index** (Number: Integer)
 - **Render** (Trigger)
@@ -433,7 +433,7 @@
 - **Scale Z** (Number)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -452,7 +452,7 @@
 
 **Description:** visualize an array of coordinates as points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Positions** (Array)
@@ -463,7 +463,7 @@
 - **Point Sizes** (Array)
 - **Vertex Colors** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
@@ -479,7 +479,7 @@
 
 **Description:** Visualize a RGB texture as XYZ coordinates as points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Num Points** (Number: Integer)
@@ -489,7 +489,7 @@
 - **Remove Point At 0** (Number: Boolean)
 - **Ignore Alpha 0** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Total Points** (Number)
@@ -505,11 +505,11 @@
 
 **Description:** Generate polyhedron meshes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Receipt** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry** (Object)
 
@@ -524,7 +524,7 @@
 
 **Description:** render a pyramid mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -533,7 +533,7 @@
 - **Smooth** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -549,7 +549,7 @@
 
 **Description:** Warp a texture mapped quad (projection mapping)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **A X** (Number)
@@ -564,7 +564,7 @@
 - **Flip X** (Number: Boolean)
 - **Texture** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -579,7 +579,7 @@
 
 **Description:** nine slice image format texture mapped rectangle
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -591,7 +591,7 @@
 - **Pivot X Index** (Number: Integer)
 - **Pivot Y Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -607,7 +607,7 @@
 
 **Description:** Draws a rectangle frame
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -619,7 +619,7 @@
 - **Draw Right** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -635,7 +635,7 @@
 
 **Description:** Draws a rectangle with rounded corners
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
@@ -648,7 +648,7 @@
 - **Bottom Right** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -664,7 +664,7 @@
 
 **Description:** Draws a simple spline only one pixel wide
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Points** (Array)
@@ -673,7 +673,7 @@
 - **TexCoords Array** (Array)
 - **Vertex Colors** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry** (Object)
 - **Next** (Trigger)
@@ -689,12 +689,12 @@
 
 **Description:** Simple Wireframe Line Renderer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -709,14 +709,14 @@
 
 **Description:** draw splines/lines
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Points** (Array)
 - **Tesselate Edges** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -731,7 +731,7 @@
 
 **Description:** material for splinemesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -747,7 +747,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Shader** (Object)
@@ -763,7 +763,7 @@
 
 **Description:** Draws text in 3d space using one of the font ops
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Text** (String)
@@ -781,7 +781,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Total Lines** (Number)
@@ -799,7 +799,7 @@
 
 **Description:** Draw a torus (doughnut, donut, ring mesh)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Sides** (Number)
@@ -808,7 +808,7 @@
 - **OuterRadius** (Number)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Geometry** (Object)
@@ -824,14 +824,14 @@
 
 **Description:** A sphere mesh with uniform distributed vertices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Iterations** (Number)
 - **Flat** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)

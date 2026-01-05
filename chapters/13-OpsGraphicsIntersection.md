@@ -11,7 +11,7 @@
 
 **Description:** Define filters to get colliding and intersecting bodies
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Collisions** (Array)
 - **Name 1** (String)
@@ -19,7 +19,7 @@
 - **Name 2** (String)
 - **Match Name 2 Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Colliding** (booleanNumber)
 - **Num Collisions** (Number)
@@ -36,7 +36,7 @@
 
 **Description:** Add Bodies and check if they intersect/collide with each other
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Name** (String)
@@ -47,7 +47,7 @@
 - **Positions** (Array)
 - **Append Index To Name** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -62,13 +62,13 @@
 
 **Description:** test one body against all bodies in the world
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Name** (String)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
@@ -85,7 +85,7 @@
 
 **Description:** test intersect bodies collision against a point/coordinate
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -93,7 +93,7 @@
 - **Z** (Number)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
@@ -113,7 +113,7 @@
 
 **Description:** Cast a ray and check if it intersect/collide with bodies
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **X** (Number)
@@ -125,7 +125,7 @@
 - **Active** (Number: Boolean)
 - **Change Cursor** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Has Hit** (booleanNumber)
@@ -145,12 +145,12 @@
 
 **Description:** Define a world to check for intersections and collisions
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Check Body Collisions** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Total Bodies** (Number)

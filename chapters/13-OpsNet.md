@@ -11,13 +11,13 @@
 
 **Description:** create a cables.gl CORS proxy URL
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 - **Use In Export** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **CORS URL** (String)
 

@@ -11,7 +11,7 @@
 
 **Description:** Add a custom event listener
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Event Name** (String)
@@ -19,7 +19,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Stop Propagation** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element Passthrough** (Object)
 - **Event Trigger** (Trigger)
@@ -36,7 +36,7 @@
 
 **Description:** Listen to events of an element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Dom Element** (Object)
 - **Mouse Down Active** (Number: Boolean)
@@ -48,7 +48,7 @@
 - **Touch End Active** (Number: Boolean)
 - **Touch Cancel Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Event Object** (Object)
 - **Mouse Down** (Trigger)
@@ -72,7 +72,7 @@
 
 **Description:** listen to events on multiple html elements
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Elements** (Array)
 - **Event Name** (String)
@@ -80,7 +80,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Stop Propagation** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Event Trigger** (Trigger)
 - **Index** (Number)
@@ -98,12 +98,12 @@
 
 **Description:** Prevents the default on a JavaScript event
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Event In** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Event Out** (Object)
@@ -119,12 +119,12 @@
 
 **Description:** Stop a JavaScript event (bubbling / capturing)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Event In** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Event Out** (Object)

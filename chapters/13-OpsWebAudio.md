@@ -11,7 +11,7 @@
 
 **Description:** Creates a spectrogram texture from an audio FFT array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Refresh** (Trigger)
 - **FFT Array** (Array)
@@ -19,7 +19,7 @@
 - **Mirror Width** (Number)
 - **Texture Size Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture Out** (Object)
 - **Position** (Number)
@@ -35,7 +35,7 @@
 
 **Description:** Extracts FFT, RMS & Waveform data from an incoming audio signal
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Audio In** (Object:AudioNode)
@@ -45,7 +45,7 @@
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Audio Out** (Object)
@@ -68,13 +68,13 @@
 
 **Description:** Holds an audio file / sample in a buffer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 - **Create Loading Task** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Buffer** (Object)
 - **Finished Loading** (booleanNumber)
@@ -95,7 +95,7 @@
 
 **Description:** Route audio from one input channel to any output channel
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio Buffer** (Object:AudioBuffer)
 - **Channel In** (Number: Integer)
@@ -103,7 +103,7 @@
 - **Clear Others** (Number: Boolean)
 - **Channel Offset** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Buffer Out** (Object)
 - **Output Channels** (Number)
@@ -119,7 +119,7 @@
 
 **Description:** Play back audio data stored in an AudioBuffer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio Buffer** (Object:AudioBuffer)
 - **Loop** (Number: Boolean)
@@ -128,7 +128,7 @@
 - **Playback Rate** (Number)
 - **Detune** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Is Playing** (booleanNumber)
@@ -145,7 +145,7 @@
 
 **Description:** Outputs the waveform of an audio file as a spline array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Audio Buffer** (Object:AudioBuffer)
@@ -153,7 +153,7 @@
 - **Height** (Number)
 - **Samples Per Pixel** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array Out** (Array)
@@ -169,12 +169,12 @@
 
 **Description:** stereo pan an audio signal from left to right
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Pan** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 
@@ -189,7 +189,7 @@
 
 **Description:** record, playback and download audio
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Start Recording** (Trigger)
@@ -201,7 +201,7 @@
 - **Playback Gain** (Number)
 - **Loop Playback** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Recorded Audio Out** (Object)
@@ -222,7 +222,7 @@
 
 **Description:** Different kinds of audio filters
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Type Index** (Number: Integer)
@@ -232,7 +232,7 @@
 - **Detune** (in cents)
 - **Frequency Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Magnitude Response Array** (Array)
@@ -250,7 +250,7 @@
 
 **Description:** send bpm based triggers like a clocked trigger sequencer / clock divider
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **BPM** (Number: Integer)
 - **beats per minute** (tempo)
@@ -258,7 +258,7 @@
 - **Stop** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sequencer Running** (booleanNumber)
 - **BPM Out** (Number)
@@ -277,7 +277,7 @@
 
 **Description:** sequence triggers by defining a pattern (like a drum machine)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Clock Trigger Input** (Trigger)
 - **Sequence Array** (Array)
@@ -285,7 +285,7 @@
 - **Steps** (Number: String)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sequence Trigger Output** (Trigger)
 - **Sequenced Value** (Number)
@@ -302,7 +302,7 @@
 
 **Description:** Audio reverb using an impulse response (sample)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Impulse Response** (String)
@@ -310,7 +310,7 @@
 - **IR Gain** (Number)
 - **Output Gain** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Wet Out** (Object)
@@ -326,7 +326,7 @@
 
 **Description:** dj style filter (lowpass and highpass)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Highpass Active** (Number: Boolean)
@@ -336,7 +336,7 @@
 - **High Frequency** (Number)
 - **High Q** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 
@@ -351,7 +351,7 @@
 
 **Description:** add a delay effect to an audio stream
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Feedback** (Number)
@@ -364,7 +364,7 @@
 - **LFO Intensity** (Number)
 - **LFO Waveform Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Mix Out** (Object)
 - **Wet Out** (Object)
@@ -380,7 +380,7 @@
 
 **Description:** get average value in an area of a fft audio analysis buffer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Refresh** (Trigger)
 - **FFT Array** (Array)
@@ -390,7 +390,7 @@
 - **Height** (Number)
 - **Create Texture** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture Out** (Object)
 - **Area Average Volume** (Number)
@@ -406,13 +406,13 @@
 
 **Description:** Changes the gain / volume
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Gain** (Number)
 - **Mute** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 
@@ -427,7 +427,7 @@
 
 **Description:** Generates notes based on key presses
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **C Note On** (Trigger)
 - **C Note Off** (Trigger)
@@ -455,7 +455,7 @@
 - **B Note Off** (Trigger)
 - **Octave** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Frequency** (Number)
 - **Is Pressed** (Number)
@@ -471,14 +471,14 @@
 
 **Description:** Access to the microphone and/or audio input devices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio Input Index** (Number: Integer)
 - **Volume** (Number)
 - **Mute** (Number: Boolean)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Listening** (booleanNumber)
@@ -495,12 +495,12 @@
 
 **Description:** Converts a midi value to a frequency
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Value** (Number)
 - **Tuning** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Frequency** (Number)
 
@@ -515,7 +515,7 @@
 
 **Description:** Mix audio signals together
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In 0** (Object:AudioNode)
 - **Audio In 1** (Object:AudioNode)
@@ -543,7 +543,7 @@
 - **In 7 Pan** (Number)
 - **Output Gain** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 
@@ -558,7 +558,7 @@
 
 **Description:** Outputs a musical scale array (major, minor, ...) as strings, steps and midi notes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Root Note Index** (Number: Integer)
 - **Root Note** (Number: String)
@@ -569,7 +569,7 @@
 - **the octave of the scale** (only for string & midi note outputs)
 - **Append Octave To Names** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Note Names Array** (Array)
 - **Note Step Number Array** (Array)
@@ -587,14 +587,14 @@
 
 **Description:** Sends an audio signal to your speakers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Volume** (Number)
 - **Mute** (Number: Boolean)
 - **Show Audio Suspended Button** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Current Volume** (Number)
 - **Number Of Channels** (Number)
@@ -611,7 +611,7 @@
 
 **Description:** 3 filters in one - an eq to quickly process an audio signal
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Low Filter Type Index** (Number: Integer)
@@ -630,7 +630,7 @@
 - **High Q** (Number)
 - **High Gain** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 
@@ -645,7 +645,7 @@
 
 **Description:** Outputs the waveform of an audio file as a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Audio Buffer** (Object:AudioBuffer)
@@ -656,7 +656,7 @@
 - **Samples Per Pixel** (Number: Integer)
 - **Calculate Tex Coords** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Spline Points** (Array)
 - **Next** (Trigger)
@@ -673,7 +673,7 @@
 
 **Description:** add waveshaping (distortion, overdrive, fuzz) to an audio stream
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Audio In** (Object:AudioNode)
 - **Oversampling Index** (Number: Integer)
@@ -682,7 +682,7 @@
 - **array input for the waveshaper** (custom distortion transfer function)
 - **Output Gain** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Audio Out** (Object)
 - **Curve Out** (Array)

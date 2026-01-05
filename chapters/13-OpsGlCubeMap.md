@@ -11,7 +11,7 @@
 
 **Description:** generate a cubemap from 6 textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Posx** (String)
 - **Negx** (String)
@@ -21,7 +21,7 @@
 - **Negz** (String)
 - **Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Cubemap** (Object)
 
@@ -36,7 +36,7 @@
 
 **Description:** use a cubemap or equirectangular texture as a material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Cubemap** (Object)
@@ -51,7 +51,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -66,7 +66,7 @@
 
 **Description:** visualize cubemap as folded texture or equirectangular texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In Trigger** (Trigger)
 - **Cubemap** (Object)
@@ -76,7 +76,7 @@
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Trigger** (Trigger)
 - **Result** (Object)
@@ -92,7 +92,7 @@
 
 **Description:** convert an equirectangular map to a cubemap
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Equirectangular Map** (Object:Texture)
@@ -100,7 +100,7 @@
 - **Advanced** (Number: Boolean)
 - **Filter Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Cubemap Projection** (Object)
@@ -116,14 +116,14 @@
 
 **Description:** render a scene into a cubemap
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size Index** (Number: Integer)
 - **Pixel Format Index** (Number: Integer)
 - **MSAA Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Cubemap** (Object)
@@ -139,7 +139,7 @@
 
 **Description:** render an equirectangular map or a cubemap as scene background
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Render** (Number: Boolean)
@@ -149,7 +149,7 @@
 - **Exposure** (Number)
 - **Gamma** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 

@@ -11,14 +11,14 @@
 
 **Description:** sidebar push button/trigger element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Pressed Trigger** (Trigger)
@@ -34,7 +34,7 @@
 
 **Description:** Shows a color-picker in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -45,7 +45,7 @@
 - **Set Default** (Trigger)
 - **Show Opacity** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Red** (Number)
@@ -65,13 +65,13 @@
 
 **Description:** display a value or string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 
@@ -86,7 +86,7 @@
 
 **Description:** Shows a drop-down (select) element in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -97,7 +97,7 @@
 - **Lines** (Number: Integer)
 - **Set Default** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Result** (String)
@@ -115,7 +115,7 @@
 
 **Description:** organize sidebar elements into groups
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -123,7 +123,7 @@
 - **Default Minimized** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Object)
 - **Childs** (Object)
@@ -139,7 +139,7 @@
 
 **Description:** steps through numerical or array values one by one
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Label** (String)
@@ -153,7 +153,7 @@
 - **Set Default** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Value** (Number)
@@ -170,7 +170,7 @@
 
 **Description:** load a local file and output as data url
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -183,7 +183,7 @@
 - **Show Dialog** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Data URL** (String)
@@ -205,13 +205,13 @@
 
 **Description:** Enter a number in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
 - **Set Default** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Result** (Number)
@@ -227,7 +227,7 @@
 
 **Description:** manage sidebar presets
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -250,7 +250,7 @@
 - **Preset Title 7** (String)
 - **Preset 7** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Index** (Number)
@@ -266,7 +266,7 @@
 
 **Description:** Sidebar overlay to control values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Visible** (Number: Boolean)
 - **Opacity** (Number)
@@ -278,7 +278,7 @@
 - **Side** (Number: Boolean)
 - **Default CSS** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Opfened** (booleanNumber)
@@ -294,7 +294,7 @@
 
 **Description:** date or datetime picker in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -305,7 +305,7 @@
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Result** (String)
@@ -322,14 +322,14 @@
 
 **Description:** Add custom HTML Elements into the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Child Element** (Object)
 - **Border** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 
@@ -344,12 +344,12 @@
 
 **Description:** Display an image in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Image Element** (Object)
@@ -365,14 +365,14 @@
 
 **Description:** adjust appearance of sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Width** (Number: Integer)
 - **Round Corners** (Number)
 - **Special Color** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 
@@ -387,7 +387,7 @@
 
 **Description:** add tabs or switchbar to a sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Names** (Array)
@@ -396,7 +396,7 @@
 - **Grey Out** (Number: Boolean)
 - **Default** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Index** (Number)
@@ -413,14 +413,14 @@
 
 **Description:** Display text in the sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
 - **Id** (String)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 
@@ -435,13 +435,13 @@
 
 **Description:** show values of all variables in a sidebar
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Id** (Number: String)
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 
@@ -456,7 +456,7 @@
 
 **Description:** Sidebar slider element (range)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -469,7 +469,7 @@
 - **Set Default** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Result** (Number)
@@ -485,7 +485,7 @@
 
 **Description:** Get a string from an sidebar input field
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Where to attach the sidebar item to** (Sidebar / Sidebar Group)
@@ -500,7 +500,7 @@
 - **Clear** (Trigger)
 - **Focus Input** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **Result** (String)
@@ -519,7 +519,7 @@
 
 **Description:** sidebar boolean toggle/switch element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -527,7 +527,7 @@
 - **Grey Out** (Number: Boolean)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Object)
 - **Value** (booleanNumber)
@@ -544,7 +544,7 @@
 
 **Description:** 2d coordinate input element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Link** (Object)
 - **Text** (String)
@@ -555,7 +555,7 @@
 - **Set Default** (Trigger)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Children** (Object)
 - **X** (Number)

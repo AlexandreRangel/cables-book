@@ -11,11 +11,11 @@
 
 **Description:** Get an array variable value at time of trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Value** (Array)
@@ -31,11 +31,11 @@
 
 **Description:** Get a number variable value at time of trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Value** (Number)
@@ -51,11 +51,11 @@
 
 **Description:** Get an object variable value at time of trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Value** (Object)
@@ -71,11 +71,11 @@
 
 **Description:** Get a string variable value at time of trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Value** (String)
@@ -91,11 +91,11 @@
 
 **Description:** Get a variable array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Vars.VarGetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetArray_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Array)
 
@@ -110,11 +110,11 @@
 
 **Description:** read a variable number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Vars.VarGetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetNumber_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Number)
 
@@ -129,11 +129,11 @@
 
 **Description:** Get a variable object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Variable** (Number: String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Object)
 
@@ -148,11 +148,11 @@
 
 **Description:** String variable getter
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Vars.VarGetString documentation](https://cables.gl/op/Ops.Vars.VarGetString) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (String)
 
@@ -167,11 +167,11 @@
 
 **Description:** get a texture from a variable
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Vars.VarGetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetTexture_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Object)
 
@@ -186,12 +186,12 @@
 
 **Description:** outputs an object containing all variables
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Filter Prefix** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -206,11 +206,11 @@
 
 **Description:** Set a variable array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Vars.VarSetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetArray_v2) for output port details*
 
@@ -225,11 +225,11 @@
 
 **Description:** set a variable number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Vars.VarSetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetNumber_v2) for output port details*
 
@@ -244,11 +244,11 @@
 
 **Description:** Set a variable object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Vars.VarSetObject_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetObject_v2) for output port details*
 
@@ -263,11 +263,11 @@
 
 **Description:** Set string variable
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Vars.VarSetString_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetString_v2) for output port details*
 
@@ -282,11 +282,11 @@
 
 **Description:** set a texture variable
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Vars.VarSetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetTexture_v2) for output port details*
 
@@ -301,12 +301,12 @@
 
 **Description:** Set an array variable by a trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -321,12 +321,12 @@
 
 **Description:** set number variable by trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -341,12 +341,12 @@
 
 **Description:** Set an object variable by trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -361,12 +361,12 @@
 
 **Description:** set string variable by trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -381,12 +381,12 @@
 
 **Description:** Set an object variable by trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Value** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 

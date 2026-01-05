@@ -11,7 +11,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Shape Index** (Number: Integer)
@@ -33,7 +33,7 @@
 - **Param 14** (Number)
 - **Param 15** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Coords** (Array)
@@ -51,7 +51,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Render** (Number: Boolean)
@@ -74,7 +74,7 @@
 - **Param 14** (Number)
 - **Param 15** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 

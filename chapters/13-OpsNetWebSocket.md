@@ -11,11 +11,11 @@
 
 **Description:** Create a websocket connection and receive data from it
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 - **Valid JSON** (booleanNumber)
@@ -35,14 +35,14 @@
 
 **Description:** send an object to a websocket connection
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Connection** (Object:Websocket)
 - **Object** (Object)
 - **Send** (Trigger)
 - **Send String** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sent** (Number)
 

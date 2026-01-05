@@ -11,13 +11,13 @@
 
 **Description:** Modify current alpha/opacity
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Clamp** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -32,7 +32,7 @@
 
 **Description:** Set alphachannel of current imagecompose via a texture mask
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -40,7 +40,7 @@
 - **Image** (Object:Texture)
 - **Method Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -55,14 +55,14 @@
 
 **Description:** Simulate fisheye effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
 - **Intensity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -77,7 +77,7 @@
 
 **Description:** Blur the pixels of an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -86,7 +86,7 @@
 - **Fast** (Number: Boolean)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -101,7 +101,7 @@
 
 **Description:** Draws a Border (rectangular frame) around the current ImageCompose
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -117,7 +117,7 @@
 - **Side C** (Number)
 - **Side D** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -132,13 +132,13 @@
 
 **Description:** adjust image brightness and contrast
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Contrast** (Number)
 - **Brightness** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -153,7 +153,7 @@
 
 **Description:** bulge and pinch an image (deform,stretch,distort)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Radius** (Number)
@@ -161,7 +161,7 @@
 - **Center X** (Number)
 - **Center Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -176,7 +176,7 @@
 
 **Description:** Draw a checkerboard pattern
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -188,7 +188,7 @@
 - **Rotate** (Number)
 - **Centered** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -203,7 +203,7 @@
 
 **Description:** simulating lens effect by shifting rgb channels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -213,7 +213,7 @@
 - **Smooth** (Number: Boolean)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -228,7 +228,7 @@
 
 **Description:** Draw 2d circle into texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -248,7 +248,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -263,7 +263,7 @@
 
 **Description:** Clamps a texture to min and max values - Also has remap modes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -279,7 +279,7 @@
 - **B Min** (Number)
 - **B Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -294,12 +294,12 @@
 
 **Description:** Increase contrast in midtones
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -314,7 +314,7 @@
 
 **Description:** fill image using a color (overlay)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -327,7 +327,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -342,7 +342,7 @@
 
 **Description:** change intensity of r,g,b channels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Tone Index** (Number: Integer)
@@ -350,7 +350,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -365,7 +365,7 @@
 
 **Description:** enable disable RGB color channels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **ChannelR** (Number: Boolean)
@@ -374,7 +374,7 @@
 - **ChannelA** (Number: Boolean)
 - **Mono** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -389,7 +389,7 @@
 
 **Description:** colorize a black and white image using a gradient texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -400,7 +400,7 @@
 - **Max** (Number)
 - **Position** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -415,12 +415,12 @@
 
 **Description:** Denoise texture effect - used to smooth out noisy images
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Exponent** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -435,7 +435,7 @@
 
 **Description:** draw the content of a depth texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Image** (Object:Texture)
@@ -445,7 +445,7 @@
 - **Nearplane** (Number)
 - **Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -460,7 +460,7 @@
 
 **Description:** draws a gradient from white to black back to white over distance of the scene
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Depth Texture** (Object)
@@ -472,7 +472,7 @@
 - **Nearplane** (Number)
 - **Farplane** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -487,14 +487,14 @@
 
 **Description:** Remove colors from image / greyscale
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 - **Mask** (Object)
 - **Invert Mask** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -509,7 +509,7 @@
 
 **Description:** convert color to black and white patterns
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -518,7 +518,7 @@
 - **Strength** (Number)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -533,7 +533,7 @@
 
 **Description:** Draws an image into a composition
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **BlendMode Index** (Number: Integer)
@@ -559,7 +559,7 @@
 - **Rotation** (Number)
 - **Clip Repeat** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -574,7 +574,7 @@
 
 **Description:** Draw only the edges of an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -583,7 +583,7 @@
 - **Width** (Number)
 - **Mul Color** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -598,13 +598,13 @@
 
 **Description:** Emboss / bevel effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Clear** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -619,7 +619,7 @@
 
 **Description:** Blurs a texture - simple and fast
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Passes** (Number: Integer)
@@ -628,7 +628,7 @@
 - **Mask** (Object:Texture)
 - **Mask Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -643,13 +643,13 @@
 
 **Description:** flip the image on x or y axis
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number: Boolean)
 - **Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -664,11 +664,11 @@
 
 **Description:** Convert a Float32 bit/HDR texture to RGBE format (only positive numbers)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -683,7 +683,7 @@
 
 **Description:** add post processing fog (nebula) to a scene
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **BlendMode Index** (Number: Integer)
@@ -702,7 +702,7 @@
 - **Fog B** (Number)
 - **Fog A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -717,7 +717,7 @@
 
 **Description:** post processing antialiasing
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Span Index** (Number: Integer)
@@ -727,7 +727,7 @@
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -742,7 +742,7 @@
 
 **Description:** Allows for Gamma correction of a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -750,7 +750,7 @@
 - **Multiply Texture** (Number)
 - **Gamma Correction** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -765,7 +765,7 @@
 
 **Description:** Draws a simple gradient between three colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -788,7 +788,7 @@
 - **B3** (Number)
 - **Randomize** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -803,7 +803,7 @@
 
 **Description:** Creates a grid texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -821,7 +821,7 @@
 - **Line Green** (Number)
 - **Line Blue** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -836,7 +836,7 @@
 
 **Description:** Make one pixel lines thicker via postprocessing
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -847,7 +847,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -862,14 +862,14 @@
 
 **Description:** Adjust Hue of current ImageCompose
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Hue** (Number)
 - **Mask** (Object:Texture)
 - **Offset** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -884,7 +884,7 @@
 
 **Description:** Compose Images and effects as layers to generate new Images
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Base Texture** (Object:Texture)
@@ -899,7 +899,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture_out** (Object)
@@ -918,12 +918,12 @@
 
 **Description:** Adjust aspect ratio of an image compose branch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Aspect** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -938,11 +938,11 @@
 
 **Description:** capture the current state of an imageCompose branch by copying the texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Texture** (Object)
@@ -958,7 +958,7 @@
 
 **Description:** Tv scanlines effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -969,7 +969,7 @@
 - **Add** (Number)
 - **Scroll** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -984,7 +984,7 @@
 
 **Description:** Invert image colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -995,7 +995,7 @@
 - **Invert G** (Number: Boolean)
 - **Invert B** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1010,7 +1010,7 @@
 
 **Description:** Kaleidoscope effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1023,7 +1023,7 @@
 - **Center Y** (Number)
 - **Aspect Ratio** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1038,7 +1038,7 @@
 
 **Description:** Creates a lens dirt like texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1052,7 +1052,7 @@
 - **Spot Edge** (Number)
 - **Gamma** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1067,7 +1067,7 @@
 
 **Description:** Creates a procedural texture simulating scratches on a lens
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1082,7 +1082,7 @@
 - **Frequency** (Number)
 - **Frequency Step Size** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1097,7 +1097,7 @@
 
 **Description:** adjust levels to correct the tonal range of an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **In Min** (Number)
@@ -1106,7 +1106,7 @@
 - **Out Min** (Number)
 - **Out Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1121,7 +1121,7 @@
 
 **Description:** Remove darkest or brightest parts of the image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Invert** (Number: Boolean)
@@ -1131,7 +1131,7 @@
 - **Threshold Low** (Number)
 - **Threshold High** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1146,13 +1146,13 @@
 
 **Description:** apply color filter/effects by using a lookup texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **LUT Image** (Object:Texture)
 - **Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1167,7 +1167,7 @@
 
 **Description:** mirroring image effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
@@ -1175,7 +1175,7 @@
 - **Offset** (Number)
 - **Flip** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1190,14 +1190,14 @@
 
 **Description:** simple mix/fade of two input images
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture 1** (Object:Texture)
 - **Fade** (Number)
 - **Texture 2** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1212,7 +1212,7 @@
 
 **Description:** draw multiple images at once
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mask Invert** (Number: Boolean)
@@ -1265,7 +1265,7 @@
 - **Opacity 8 Index** (Number: Integer)
 - **Amount 8** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1280,7 +1280,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.OnePassBlur) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1289,7 +1289,7 @@
 - **Mask** (Object:Texture)
 - **Mask Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1304,7 +1304,7 @@
 
 **Description:** map a pattern to value levels of your texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Multiplier** (Object)
@@ -1313,7 +1313,7 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1328,7 +1328,7 @@
 
 **Description:** Pixelate an image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
@@ -1337,7 +1337,7 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1352,7 +1352,7 @@
 
 **Description:** fill image with one color picked at a position
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Source Texture** (Object:Texture)
@@ -1361,7 +1361,7 @@
 - **Pos X** (Number)
 - **Pos Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1376,7 +1376,7 @@
 
 **Description:** visualize the difference of neighbouring pixels (slope)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
@@ -1388,7 +1388,7 @@
 - **Blue Index** (Number: Integer)
 - **Blue Flip** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1403,7 +1403,7 @@
 
 **Description:** Changes color lookup for every pixel using a displacement map
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **DisplaceTex** (Object:Texture)
@@ -1413,7 +1413,7 @@
 - **Amount Y** (Number)
 - **Input Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1428,7 +1428,7 @@
 
 **Description:** Renders a plasma effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1449,7 +1449,7 @@
 - **Offset Time Index** (Number: Integer)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1464,14 +1464,14 @@
 
 **Description:** display texture using polar/radial coordinate system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Radius Inner** (Number)
 - **Radius Outer** (Number)
 - **Crop** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1486,14 +1486,14 @@
 
 **Description:** reduce number of colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
 - **Amount** (Number)
 - **Levels** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1508,7 +1508,7 @@
 
 **Description:** simulate lens flare effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Ghosts** (Number)
@@ -1518,7 +1518,7 @@
 - **Halo Width** (Number)
 - **Color Lookup** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1533,7 +1533,7 @@
 
 **Description:** Set random numbers into an imagecompose
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1549,7 +1549,7 @@
 - **Max A** (Number)
 - **Multiply** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1564,7 +1564,7 @@
 
 **Description:** draws a 2d rectangle into a texture.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -1588,7 +1588,7 @@
 - **Map Height** (Number)
 - **Mask** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1603,11 +1603,11 @@
 
 **Description:** Remove alpha information from image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1622,7 +1622,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.RepeatTexture_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1632,7 +1632,7 @@
 - **Clear** (Number: Boolean)
 - **Multiply** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1647,14 +1647,14 @@
 
 **Description:** multiply image colors by color channel
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1669,7 +1669,7 @@
 
 **Description:** Offsets the xy components of an RGB texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1687,7 +1687,7 @@
 - **Blue Amount** (Number)
 - **amount of blue** (fade, hide, show)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1702,12 +1702,12 @@
 
 **Description:** Convert a RGB Texture to Hue/Saturation/Lightness values as RGB colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Output RGB Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1722,7 +1722,7 @@
 
 **Description:** Rotates a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
@@ -1732,7 +1732,7 @@
 - **Crop** (Number: Boolean)
 - **Clear** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1747,7 +1747,7 @@
 
 **Description:** Draw round corners around image (border)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Radius** (Number)
@@ -1756,7 +1756,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1771,7 +1771,7 @@
 
 **Description:** Scales a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Multiplier** (Object:Texture)
@@ -1785,7 +1785,7 @@
 - **Center Y** (Number)
 - **Clear** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1800,7 +1800,7 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.ScrollTexture) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **AmountX** (Number)
@@ -1808,7 +1808,7 @@
 - **Mask** (Object:Texture)
 - **Repeat** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1823,7 +1823,7 @@
 
 **Description:** Generates different 2d shapes to use as a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1845,7 +1845,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1860,12 +1860,12 @@
 
 **Description:** Adjust image sharpness
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1880,7 +1880,7 @@
 
 **Description:** skew / stretch an image by rendering scaled sides
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1891,7 +1891,7 @@
 - **Stretch Left** (Number)
 - **Stretch Right** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1906,7 +1906,7 @@
 
 **Description:** Create a texture of stripes /lines
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1923,7 +1923,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1938,7 +1938,7 @@
 
 **Description:** modulo pixel color values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -1947,7 +1947,7 @@
 - **Amount** (Number)
 - **Modulo** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1962,13 +1962,13 @@
 
 **Description:** render the difference of two textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -1983,13 +1983,13 @@
 
 **Description:** Convert a black and white map to a normal map
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
 - **Step Multiplier** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2004,7 +2004,7 @@
 
 **Description:** Creates a twirl/swirl/spiral effect in a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -2014,7 +2014,7 @@
 - **Center X** (Number)
 - **Center Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -2029,12 +2029,12 @@
 
 **Description:** adjust vibrance/saturation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2049,7 +2049,7 @@
 
 **Description:** Simulating an old camera effect of fading away the edges of the image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -2064,7 +2064,7 @@
 - **B** (Number)
 - **Alpha** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2079,7 +2079,7 @@
 
 **Description:** Generates 4 different waveform textures. Sine, sawtooth,Triangle, Square.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -2099,7 +2099,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2114,7 +2114,7 @@
 
 **Description:** Generate different texture waveforms. Sine, sawtooth and triangle.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blend Mode Index** (Number: Integer)
@@ -2129,7 +2129,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2144,7 +2144,7 @@
 
 **Description:** waving wobble motion effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Time** (Number)
@@ -2157,7 +2157,7 @@
 - **Source Amount Map Index** (Number: Integer)
 - **Invert Amount Map** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -2172,7 +2172,7 @@
 
 **Description:** Directional blur effect
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
@@ -2183,7 +2183,7 @@
 - **Source Strength Map Index** (Number: Integer)
 - **Invert Strength Map** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

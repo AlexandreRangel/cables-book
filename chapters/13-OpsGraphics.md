@@ -11,7 +11,7 @@
 
 **Description:** convert and download an array of numbers as an .exr image file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Width** (Number: Integer)
@@ -20,7 +20,7 @@
 - **Filename** (String)
 - **Download** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
 
@@ -35,14 +35,14 @@
 
 **Description:** change depth testing method (depthMask,depthWrite,depthFunc)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Enable Depth Testing** (Number: Boolean)
 - **Depth Test Method Index** (Number: Integer)
 - **Write To Depth Buffer** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -57,12 +57,12 @@
 
 **Description:** merge two geometries into one
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 - **Geometry 2** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Geometry Result** (Object)
 
@@ -77,11 +77,11 @@
 
 **Description:** get the id/index of the current set material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Material Id** (Number)
@@ -97,11 +97,11 @@
 
 **Description:** get the id/index of the current object/mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Material Id** (Number)
@@ -117,7 +117,7 @@
 
 **Description:** rotate your object by clicking and dragging the mouse
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Min Distance** (Number)
@@ -138,7 +138,7 @@
 - **Identity** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Radius** (Number)
@@ -156,7 +156,7 @@
 
 **Description:** Transform objects in 3d space (rotate, translate, scale)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **PosX** (Number)
@@ -167,7 +167,7 @@
 - **RotY** (Number)
 - **RotZ** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -182,7 +182,7 @@
 
 **Description:** the most simple camera op / transform the viewmatrix
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **PosX** (Number)
@@ -193,7 +193,7 @@
 - **RotY** (Number)
 - **RotZ** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

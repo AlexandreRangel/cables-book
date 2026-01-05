@@ -11,12 +11,12 @@
 
 **Description:** Create a Web/Http server locally
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hostname** (String)
 - **Port** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Request** (Trigger)
 - **Response** (Object)
@@ -35,13 +35,13 @@
 
 **Description:** Answer http requests by sending string to the browser/client
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Response** (Object)
 - **Body** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.Standalone.Net.HttpServerResponse documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse) for output port details*
 
@@ -56,11 +56,11 @@
 
 **Description:** Outputs your local IP Adress
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Extension.Standalone.Net.IpAddress documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Local IP** (String)
 - **Interface** (String)
@@ -77,11 +77,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Port** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Message Received** (Trigger)
 - **Message** (Object)
@@ -99,7 +99,7 @@
 
 **Description:** send data to a OSC device
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Connection** (Object)
 - **Net Address** (String)
@@ -109,7 +109,7 @@
 - **Send** (Trigger)
 - **Public** (1): OSC: READ / SEND
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.Standalone.Net.OscSend documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend) for output port details*
 
@@ -124,12 +124,12 @@
 
 **Description:** Read a text file as string from the local file system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Filename** (String)
 - **Read** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Content** (String)
@@ -147,14 +147,14 @@
 
 **Description:** start a socketcluster server
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Active** (Number: Boolean)
 - **Hostname** (String)
 - **Port** (Number: Integer)
 - **Path** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Receiving** (Trigger)
 - **Data** (Object)

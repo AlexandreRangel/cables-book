@@ -11,11 +11,11 @@
 
 **Description:** Outputs the currently active/focused element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Active Element** (Object)
 
@@ -30,7 +30,7 @@
 
 **Description:** Align a HTML element to another, keep positioning
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Align Element** (Object:Element)
@@ -38,7 +38,7 @@
 - **Offset X** (Number)
 - **Offset Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element Passthrough** (Object)
 - **Aligned Element** (Object)
@@ -54,12 +54,12 @@
 
 **Description:** Appends a HTML DOM Element to another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Parent** (Object:Element)
 - **Child** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Parent Out** (Object)
 - **Child Out** (Object)
@@ -75,7 +75,7 @@
 
 **Description:** set file dependant on browser
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Chrome File** (String)
 - **Firefox File** (String)
@@ -84,7 +84,7 @@
 - **Opera File** (String)
 - **Default File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Browser Specific File** (String)
 - **Detected Browser** (String)
@@ -100,14 +100,14 @@
 
 **Description:** Create an image file from a canvas
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Texture** (Object)
 - **Quality** (Number)
 - **Output DataUrl** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Binary Size** (Number)
@@ -126,13 +126,13 @@
 
 **Description:** compares two images and shows the difference as a pink color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Image 1** (String)
 - **Image 2** (String)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Difference Image** (String)
 - **Mismatch Percentage** (Number)
@@ -151,11 +151,11 @@
 
 **Description:** Outputs the current document body element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Html.DocumentBody documentation](https://cables.gl/op/Ops.Html.DocumentBody) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Body** (Object)
 
@@ -170,11 +170,11 @@
 
 **Description:** Make a HTML element draggable to move it around with the mouse
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element Out** (Object)
 - **X** (Number)
@@ -191,11 +191,11 @@
 
 **Description:** Serialize HTML/SVG elements to a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Parent** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML String** (String)
 
@@ -210,7 +210,7 @@
 
 **Description:** Set childs of a HTML Element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Parent** (Object:Element)
 - **Child 1** (Object:Element)
@@ -224,7 +224,7 @@
 - **Child 9** (Object:Element)
 - **Child 10** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Parent Out** (Object)
 
@@ -239,13 +239,13 @@
 
 **Description:** add child elements to another HTML Element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Parent** (Object:Element)
 - **Childs_0** (Object)
 - **Add Port** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Parent Out** (Object)
 - **Num Values** (Number)
@@ -261,12 +261,12 @@
 
 **Description:** get html element absolute position and size in pixels on screen
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -284,7 +284,7 @@
 
 **Description:** Set the mouse cursor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **CSS Cursors Index** (Number: Integer)
@@ -292,7 +292,7 @@
 - **Offset X** (Number: Integer)
 - **Offset Y** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -307,11 +307,11 @@
 
 **Description:** Output css attributes of an element as a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **CSS** (String)
 
@@ -326,11 +326,11 @@
 
 **Description:** Get the data-attributes and values of an HTML element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **HTML Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Dataset** (Object)
 
@@ -345,12 +345,12 @@
 
 **Description:** Check if two HTML element objects are equal
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **HTML Element** (Object:Element)
 - **HTML Element 2** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Equal** (booleanNumber)
 
@@ -365,14 +365,14 @@
 
 **Description:** fade html elements in or out
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **HTML Element** (Object)
 - **Visible** (Number: Boolean)
 - **Duration** (Number)
 - **Opacity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **PassThrough** (Object)
 - **Is Showing** (booleanNumber)
@@ -388,12 +388,12 @@
 
 **Description:** get the closest parent element matching the query selector
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **HTML Element** (Object:Element)
 - **Query** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 
@@ -408,14 +408,14 @@
 
 **Description:** Use a cables gradient as HTML element background
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Rect Color Space Index** (Number: Integer)
 - **Angle** (Number)
 - **Gradient Object** (Object:Gradient)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 - **CSS String** (String)
@@ -431,13 +431,13 @@
 
 **Description:** Does the element currenty have a specific class set
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Classname** (String)
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Has Class** (booleanNumber)
 
@@ -452,11 +452,11 @@
 
 **Description:** Get information about an element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Tagname** (String)
 - **Id** (String)
@@ -472,12 +472,12 @@
 
 **Description:** Is the connected element currently focused
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Has Focus** (booleanNumber)
 
@@ -492,12 +492,12 @@
 
 **Description:** get html element absolute positions and sizes by classname
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Classname** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Position** (Array)
 - **Size** (Array)
@@ -514,13 +514,13 @@
 
 **Description:** Load a font file like .otf, .ttf, .woff via css
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **Family** (String)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Loaded** (booleanNumber)
 - **Loaded Trigger** (Trigger)
@@ -536,11 +536,11 @@
 
 **Description:** triggers when asynchronous requests finised loading
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Html.FontsLoaded documentation](https://cables.gl/op/Ops.Html.FontsLoaded) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Font Loaded** (Trigger)
 
@@ -555,12 +555,12 @@
 
 **Description:** Switch webgl to fullscreen
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Request Fullscreen** (Trigger)
 - **Exit Fullscreen** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Is Fullscreen** (booleanNumber)
 - **Supported** (booleanNumber)
@@ -576,13 +576,13 @@
 
 **Description:** Copy GL canvas content to another canvas
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Canvas** (Object:Element)
 - **Smooth** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -597,7 +597,7 @@
 
 **Description:** Open another website
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Open** (Trigger)
 - **URL** (String)
@@ -605,7 +605,7 @@
 - **Win Specs** (String)
 - **Rel Attribute** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.HyperLink_v3 documentation](https://cables.gl/op/Ops.Html.HyperLink_v3) for output port details*
 
@@ -620,14 +620,14 @@
 
 **Description:** Set innerHTML or innerTEXT of an HTML element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Value** (String)
 - **Active** (Number: Boolean)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -642,13 +642,13 @@
 
 **Description:** Append string to the inner html or an element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Html** (String)
 - **Trigger** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -663,13 +663,13 @@
 
 **Description:** creates a mailto: link to open the default email app
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Email** (String)
 - **Subject** (String)
 - **Execute** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.MailtoLink documentation](https://cables.gl/op/Ops.Html.MailtoLink) for output port details*
 
@@ -684,12 +684,12 @@
 
 **Description:** markdown markup language to html parser
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Markdown** (String)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Html** (String)
 
@@ -704,7 +704,7 @@
 
 **Description:** create a modal HTML overlay with a darkened background
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Content Element** (Object)
 - **Show** (Trigger)
@@ -712,7 +712,7 @@
 - **Show Closebutton** (Number: Boolean)
 - **Opacity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Visible** (booleanNumber)
 - **Closed** (Trigger)
@@ -729,7 +729,7 @@
 
 **Description:** Selects an element in the DOM
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Query** (String)
@@ -737,7 +737,7 @@
 - **Document** (String)
 - **Input Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 
@@ -752,7 +752,7 @@
 
 **Description:** Selects all matching elements in the DOM
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Query** (String)
 - **Mode Index** (Number: Integer)
@@ -761,7 +761,7 @@
 - **Element** (Object:Element)
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Elements** (Array)
 
@@ -776,11 +776,11 @@
 
 **Description:** reload the website
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.ReloadPage documentation](https://cables.gl/op/Ops.Html.ReloadPage) for output port details*
 
@@ -795,12 +795,12 @@
 
 **Description:** Scroll an area, so the html element is visible/in view
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Scroll Into View** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -815,13 +815,13 @@
 
 **Description:** the current x y top left scrolling position of html page or element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Element** (Object:Element)
 - **Scroll To Top** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Left** (Number)
@@ -840,13 +840,13 @@
 
 **Description:** Trigger the browser to scroll to top or bottom of an element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Scroll To Top** (Trigger)
 - **Scroll To Bottom** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.ScrollTo documentation](https://cables.gl/op/Ops.Html.ScrollTo) for output port details*
 
@@ -861,11 +861,11 @@
 
 **Description:** close current window
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Close** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Html.WindowClose documentation](https://cables.gl/op/Ops.Html.WindowClose) for output port details*
 
@@ -880,11 +880,11 @@
 
 **Description:** detect if the browser window/tab has focus
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Html.WindowHasFocus documentation](https://cables.gl/op/Ops.Html.WindowHasFocus) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Has Focus** (booleanNumber)
 - **Tab Visible** (booleanNumber)
@@ -900,11 +900,11 @@
 
 **Description:** size of browser window in pixels
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Html.WindowInfo documentation](https://cables.gl/op/Ops.Html.WindowInfo) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ClientWidth** (Number)
 - **ClientHeight** (Number)
@@ -925,11 +925,11 @@
 
 **Description:** Get the current scroll position of the window
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Scoll X** (Number)
 - **Scoll Y** (Number)

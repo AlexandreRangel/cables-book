@@ -11,7 +11,7 @@
 
 **Description:** Remove points from an array3 with different shapes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In Trigger** (Trigger)
 - **In Array** (Array)
@@ -22,7 +22,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Trigger** (Trigger)
 - **Out Array** (Array)
@@ -42,7 +42,7 @@
 
 **Description:** Visually edit positions in an array of point coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Total Points** (Number: Integer)
@@ -52,7 +52,7 @@
 - **Copy Coordinates** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Coordinates** (Array)
@@ -68,7 +68,7 @@
 
 **Description:** Repeat an array by transforming it x times
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Array** (Array)
@@ -84,7 +84,7 @@
 - **Rotation Z** (Number)
 - **Position Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -100,12 +100,12 @@
 
 **Description:** Return the distance between 2 points from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In 1** (Array)
 - **Array In 2** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -120,7 +120,7 @@
 
 **Description:** Particle spray simulation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Time** (Number)
@@ -138,7 +138,7 @@
 - **Lifetime** (Number)
 - **Lifetime Minimum** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Positions** (Array)
@@ -155,7 +155,7 @@
 
 **Description:** Create arrays for circular shapes, helix, circle, etc.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Radius** (Number)
 - **Round Segments** (Number)
@@ -168,7 +168,7 @@
 - **Offset Rotation** (Number)
 - **Loop** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Points** (Array)
 - **Rotation** (Array)
@@ -186,13 +186,13 @@
 
 **Description:** Fill an XYZ array with existing duplicate points until it reaches the length
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Num Elements** (Number: Integer)
 - **Calculate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -207,7 +207,7 @@
 
 **Description:** Generate a 3d point field with controllable amount of xyz points (was PointsField3d)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Num X** (Number: Integer)
 - **Num Y** (Number: Integer)
@@ -215,7 +215,7 @@
 - **Mul** (Number)
 - **Center** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Total Points** (Number)
@@ -232,7 +232,7 @@
 
 **Description:** Generate coordinates for a hexagon grid, outputs array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Rows** (Number: Integer)
 - **Colums** (Number: Integer)
@@ -243,7 +243,7 @@
 - **Tile Y Offset** (Number)
 - **Multiplier** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -258,7 +258,7 @@
 
 **Description:** Generate coordinates for a rectangular field / grid of points
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Rows** (Number: Integer)
 - **Columns** (Number: Integer)
@@ -267,7 +267,7 @@
 - **Row Offset** (Number)
 - **Center** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Total Points** (Number)
@@ -286,7 +286,7 @@
 
 **Description:** Generate an array of XYZ coordinates of an rectangle
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Line Strip** (Number: Boolean)
 - **Segments** (Number: Integer)
@@ -299,7 +299,7 @@
 - **Bottom Left** (Number: Boolean)
 - **Bottom Right** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Points** (Array)
 
@@ -314,7 +314,7 @@
 
 **Description:** Generate an array of points of a rectangle with rounded corners
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Segments** (Number: Integer)
@@ -327,7 +327,7 @@
 - **Bottom Right** (Number: Boolean)
 - **Draw** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Points** (Array)
@@ -343,7 +343,7 @@
 
 **Description:** Generate a point field mapped to the surface of a sphere
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Amount Of Points** (Number: Integer)
 - **Sphere Size** (Number)
@@ -351,7 +351,7 @@
 - **Random Distance From Sphere** (Number)
 - **Distribution Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Total Points** (Number)
@@ -368,14 +368,14 @@
 
 **Description:** Recalculate a spline / change number of points of a spline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 - **Num Points** (Number: Integer)
 - **Calculate** (Trigger)
 - **Normalized** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Spline Length** (Number)
@@ -391,11 +391,11 @@
 
 **Description:** Sort an array3, by the distance of each point to the previous point
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Result Index** (Array)
@@ -411,14 +411,14 @@
 
 **Description:** Get position in array3/spline at distance from start
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Calculate** (Trigger)
 - **Array3x** (Array)
 - **Distance** (Number)
 - **Normalized** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **X** (Number)
@@ -437,14 +437,14 @@
 
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Points** (Array)
 - **Num Subdivs** (Number: Integer)
 - **Smooth** (Number: Boolean)
 - **Loop** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -459,7 +459,7 @@
 
 **Description:** Transform (translate, rotate, scale) positions in an array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Transform** (Trigger)
 - **Array** (Array)
@@ -473,7 +473,7 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)

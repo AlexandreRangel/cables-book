@@ -11,7 +11,7 @@
 
 **Description:** do not draw pixels inside a defined 3d area
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Invert** (Number: Boolean)
@@ -28,7 +28,7 @@
 - **Z** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -43,7 +43,7 @@
 
 **Description:** rotate vertices in an area around a center point
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -53,7 +53,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -68,7 +68,7 @@
 
 **Description:** Scales the size of meshes within the area of influence
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Area Size** (Number)
@@ -83,7 +83,7 @@
 - **Pos Y** (Number)
 - **Pos Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -98,7 +98,7 @@
 
 **Description:** Area size of noise
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -113,7 +113,7 @@
 - **Noise Y** (Number)
 - **Noise Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -128,7 +128,7 @@
 
 **Description:** Change the position of all meshes inside of the area of influence
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -140,7 +140,7 @@
 - **Multiply Y** (Number)
 - **Multiply Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -155,7 +155,7 @@
 
 **Description:** bend objects along an axis
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Amount** (Number)
@@ -166,7 +166,7 @@
 - **Offset** (Number)
 - **Limited** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -181,7 +181,7 @@
 
 **Description:** clamp/restrict the vertex position to min/max values per axis
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
@@ -189,7 +189,7 @@
 - **Max** (Number)
 - **Update Normals** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -204,7 +204,7 @@
 
 **Description:** Colorize all meshes around current position
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
@@ -226,7 +226,7 @@
 - **Texture** (Object:Texture)
 - **Priority** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -241,7 +241,7 @@
 
 **Description:** deform a spherical area of a mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size** (Number)
@@ -252,7 +252,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -267,13 +267,13 @@
 
 **Description:** discard transparent pixels in material textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Method Index** (Number: Integer)
 - **Threshold** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -288,7 +288,7 @@
 
 **Description:** explode a (divided) mesh in the direction of faces normals
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Distance** (Number)
@@ -304,7 +304,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -319,7 +319,7 @@
 
 **Description:** Fog as a shadereffect applied to a material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -330,7 +330,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -345,7 +345,7 @@
 
 **Description:** add fresnel glow to any material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Active** (Number: Boolean)
@@ -355,7 +355,7 @@
 - **Fresnel Intensity** (Number)
 - **Fresnel Exponent** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -370,7 +370,7 @@
 
 **Description:** displace positions of instanced meshes using a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
@@ -391,7 +391,7 @@
 - **Y** (Number: Boolean)
 - **Z** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -406,7 +406,7 @@
 
 **Description:** displace position of instanced object by perlin noise value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
@@ -422,7 +422,7 @@
 - **Min Scale** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -437,7 +437,7 @@
 
 **Description:** colorize instanced meshes using a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Texture** (Object:Texture)
@@ -449,7 +449,7 @@
 - **Offset Y** (Number)
 - **Method Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -464,7 +464,7 @@
 
 **Description:** discard pixel if texture coordinate is below threshold
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
@@ -475,7 +475,7 @@
 - **Frequency** (Number)
 - **Amplitude** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -490,7 +490,7 @@
 
 **Description:** 3d space noise for mesh materials
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Scale** (Number)
@@ -505,7 +505,7 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -520,13 +520,13 @@
 
 **Description:** vertex shader modulo operation on vertex position
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Axis Index** (Number: Integer)
 - **Modulo** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -541,7 +541,7 @@
 
 **Description:** Displace vertices using perlin noise animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Scale** (Number)
@@ -560,7 +560,7 @@
 - **Scroll Z** (Number)
 - **WorldSpace** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -575,12 +575,12 @@
 
 **Description:** Scale vertices of an object in the direction of face normals
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Strength** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -595,7 +595,7 @@
 
 **Description:** add shadow capabilities to any material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Cast Shadow** (Number: Boolean)
@@ -609,7 +609,7 @@
 - **Opacity Texture** (Object:Texture)
 - **Cull Backfacing** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -624,14 +624,14 @@
 
 **Description:** Deform a mesh along a spline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Size** (Number)
 - **Offset** (Number)
 - **Points** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -646,7 +646,7 @@
 
 **Description:** texture projection on meshes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
@@ -663,7 +663,7 @@
 - **Discard** (Number: Boolean)
 - **WorldSpace** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -678,7 +678,7 @@
 
 **Description:** Transform and repeat texture coordinates of a mesh via vertex shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Translate X** (Number)
@@ -689,7 +689,7 @@
 - **Flip Y** (Number: Boolean)
 - **Rotation** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -704,7 +704,7 @@
 
 **Description:** transform vertices of a mesh via vertex shader
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Translate X** (Number)
@@ -718,7 +718,7 @@
 - **Rotation Z** (Number)
 - **Transform Normals** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -733,7 +733,7 @@
 
 **Description:** twist a mesh around an axis
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Degree** (Number)
@@ -741,7 +741,7 @@
 - **Axis Index** (Number: Integer)
 - **Axis** (Number: String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -756,11 +756,11 @@
 
 **Description:** Use vertex color as basecolor/diffuse color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -775,7 +775,7 @@
 
 **Description:** transform an area of a mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Area Index** (Number: Integer)
@@ -795,7 +795,7 @@
 - **Scale Y** (Number)
 - **Scale Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -810,13 +810,13 @@
 
 **Description:** Use mesh vertexcolor as Alpha/Opacity
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Input Index** (Number: Integer)
 - **Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -831,7 +831,7 @@
 
 **Description:** Displace the vertices of a mesh with the pixels brightness values from a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Extrude** (Number)
@@ -845,7 +845,7 @@
 - **Colorize Min** (Number)
 - **Colorize Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -860,14 +860,14 @@
 
 **Description:** only draw the first X vertices of a mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Min** (Number: Integer)
 - **Max** (Number: Integer)
 - **Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -882,13 +882,13 @@
 
 **Description:** set vertex positions of a mesh from a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture** (Object:Texture)
 - **Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -903,7 +903,7 @@
 
 **Description:** sine wave vertex displacement
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Source Index** (Number: Integer)
@@ -922,7 +922,7 @@
 - **WorldSpace** (Number: Boolean)
 - **Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 

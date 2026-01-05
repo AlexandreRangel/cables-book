@@ -11,11 +11,11 @@
 
 **Description:** get URL of a file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **URL** (String)
 
@@ -30,7 +30,7 @@
 
 **Description:** switch between filenames
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **File 0** (String)
@@ -50,7 +50,7 @@
 - **File 14** (String)
 - **File 15** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 

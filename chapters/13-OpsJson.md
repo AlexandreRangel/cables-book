@@ -11,12 +11,12 @@
 
 **Description:** create an array with multiple objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Num Values** (Number)
@@ -32,11 +32,11 @@
 
 **Description:** Creates a copy of a JSON object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Json.CopyObject documentation](https://cables.gl/op/Ops.Json.CopyObject) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Valid** (booleanNumber)
 
@@ -51,11 +51,11 @@
 
 **Description:** parse CSV files as array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Items** (Number)
@@ -71,13 +71,13 @@
 
 **Description:** get all values of a CSV column as array of strings
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Column Name** (String)
 - **CSV Array** (Array)
 - **Numbers** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -92,11 +92,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.EmptyObject) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Json.EmptyObject documentation](https://cables.gl/op/Ops.Json.EmptyObject) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -111,11 +111,11 @@
 
 **Description:** Filter valid objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Last Valid Object** (Object)
 - **Is Valid** (booleanNumber)
@@ -131,13 +131,13 @@
 
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object In** (Object)
 - **Pass Through** (Number: Boolean)
 - **Only Valid Objects** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Out** (Object)
 
@@ -152,11 +152,11 @@
 
 **Description:** HttpRequest/Fetch Streaming
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Fetch Response** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 - **Received Result** (Trigger)
@@ -173,7 +173,7 @@
 
 **Description:** Request a json file and output an object (ajax, url, json,fetch)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 - **HTTP Method Index** (Number: Integer)
@@ -188,7 +188,7 @@
 - **Retry On Error** (Number: Boolean)
 - **Reload** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Response Json Object** (Object)
 - **Response String** (String)
@@ -212,11 +212,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Json.Object) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -231,12 +231,12 @@
 
 **Description:** Remove a Property from an Object by Key
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Result** (Object)
 
@@ -251,13 +251,13 @@
 
 **Description:** filter values from an object if key starts with input string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Name** (String)
 - **Remove Null** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -272,7 +272,7 @@
 
 **Description:** outputs the last changed object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object1** (Object)
 - **Object2** (Object)
@@ -280,7 +280,7 @@
 - **Object4** (Object)
 - **Object5** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Object** (Object)
 
@@ -295,12 +295,12 @@
 
 **Description:** Returns an array from a JSON-object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (Object)
 - **Key** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Length** (Number)
@@ -316,12 +316,12 @@
 
 **Description:** Get a number from an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (Object)
 - **Key** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **Found** (booleanNumber)
@@ -337,12 +337,12 @@
 
 **Description:** Get an object from an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -357,12 +357,12 @@
 
 **Description:** Get string from object by key
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (Object)
 - **Key** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Found** (booleanNumber)
@@ -378,11 +378,11 @@
 
 **Description:** check if object is null or a valid object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -397,11 +397,11 @@
 
 **Description:** returns an array of strings, which contain the keys of the object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Keys** (Array)
 - **Num Keys** (Number)
@@ -417,12 +417,12 @@
 
 **Description:** merge key+values of two objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object 1** (Object)
 - **Object 2** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Result** (Object)
 
@@ -437,7 +437,7 @@
 
 **Description:** result is first connected valid object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object 1** (Object)
 - **Object 2** (Object)
@@ -448,7 +448,7 @@
 - **Object 7** (Object)
 - **Object 8** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -463,14 +463,14 @@
 
 **Description:** record objects and download as json file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Reset** (Trigger)
 - **Download** (Trigger)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Objects** (Number)
@@ -486,13 +486,13 @@
 
 **Description:** Set array by key in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 - **Value** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 
@@ -507,13 +507,13 @@
 
 **Description:** set number at key in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 - **Boolean** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 
@@ -528,7 +528,7 @@
 
 **Description:** Set rgba array by key in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
@@ -537,7 +537,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 - **Out R** (Number)
@@ -556,13 +556,13 @@
 
 **Description:** set number at key in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 
@@ -577,13 +577,13 @@
 
 **Description:** set object as value in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 - **Object Value** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 
@@ -598,13 +598,13 @@
 
 **Description:** set a string value by key in an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Key** (String)
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Object** (Object)
 
@@ -619,12 +619,12 @@
 
 **Description:** Convert object to string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 - **Beautify** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Error** (booleanNumber)
@@ -640,11 +640,11 @@
 
 **Description:** cast an object port to an array port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 
@@ -659,11 +659,11 @@
 
 **Description:** extract all object values as an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Values** (Array)
 - **Num Values** (Number)
@@ -679,11 +679,11 @@
 
 **Description:** Parses a string to a JSON object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **JSON String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 - **Valid** (booleanNumber)
@@ -699,11 +699,11 @@
 
 **Description:** Removes data URL prefix from a string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String Input** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String Output** (String)
 
@@ -718,13 +718,13 @@
 
 **Description:** Route an object to an output port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Object In** (Object)
 - **Default Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index 0 Object** (Object)
 - **Index 1 Object** (Object)
@@ -748,13 +748,13 @@
 
 **Description:** save/download an object as json file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Download** (Trigger)
 - **Filename** (String)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Json.SaveJsonFile documentation](https://cables.gl/op/Ops.Json.SaveJsonFile) for output port details*
 
@@ -769,7 +769,7 @@
 
 **Description:** control order and flow of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number 0** (Object)
 - **Number 1** (Object)
@@ -788,7 +788,7 @@
 - **Number 14** (Object)
 - **Number 15** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output 0** (Object)
 - **Output 1** (Object)
@@ -818,7 +818,7 @@
 
 **Description:** Allows switching between objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object Index** (Number: Integer)
 - **Object Port 0** (Object)
@@ -830,7 +830,7 @@
 - **Object Port 6** (Object)
 - **Object Port 7** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Out** (Object)
 
@@ -845,13 +845,13 @@
 
 **Description:** Switch between multiple object inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Objects_0** (Object)
 - **Add Port** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object** (Object)
 - **Num Values** (Number)
@@ -867,12 +867,12 @@
 
 **Description:** set output object when triggered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Object)
@@ -888,14 +888,14 @@
 
 **Description:** set a number value of an object using trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Object)
@@ -911,14 +911,14 @@
 
 **Description:** set a string value of an object using trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Object** (Object)
 - **Key** (String)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Object)

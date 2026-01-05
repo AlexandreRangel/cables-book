@@ -11,11 +11,11 @@
 
 **Description:** vibrating a mobile device
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Vibrate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Supported** (Number)
 
@@ -30,11 +30,11 @@
 
 **Description:** tries to get the geo coordinates from the mobile device/browser
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Mobile.GeoLocation documentation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Browser Support** (booleanNumber)
 - **Latitude** (Number)
@@ -52,12 +52,12 @@
 
 **Description:** locks orientation to landscape or portrait mode
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Portrait** (Number: Boolean)
 - **Landscape** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Supported** (Number)
 - **Locked** (Number)
@@ -73,12 +73,12 @@
 
 **Description:** get values from the device motion sensor mobile
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Mul Orientation** (Number)
 - **Request Permissions** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Orientation Alpha** (Number)
 - **Orientation Beta** (Number)
@@ -106,7 +106,7 @@
 
 **Description:** detect two finger pinch gestures on touchscreens
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Enabled** (Number: Boolean)
 - **Min Scale** (Number)
@@ -114,7 +114,7 @@
 - **Reset Scale** (Trigger)
 - **Limit** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Scale** (Number)
 - **Event Details** (Object)
@@ -131,11 +131,11 @@
 
 **Description:** get orientation of the physical screen
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Mobile.ScreenOrientation_v2 documentation](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Angle** (Number)
 - **Type** (String)
@@ -151,11 +151,11 @@
 
 **Description:** Reads the accelerometer data from a mobile device
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Mobile.ShakeGesture documentation](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Acceleration X** (Number)
 - **Acceleration Y** (Number)

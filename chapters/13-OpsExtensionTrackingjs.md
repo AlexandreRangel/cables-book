@@ -11,7 +11,7 @@
 
 **Description:** Track a position of a specific color in the current webcam stream
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Video Element** (Object)
@@ -21,7 +21,7 @@
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Positions** (Array)
 - **Sizes** (Array)

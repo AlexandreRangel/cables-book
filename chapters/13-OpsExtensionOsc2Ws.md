@@ -11,13 +11,13 @@
 
 **Description:** Outputs an array of data from a user defined OSC address
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Message** (Object)
 - **Address** (String)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Message** (Object)
 - **Array Out** (Array)
@@ -35,11 +35,11 @@
 
 **Description:** Shows the current active address of an incoming OSC message
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Message** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Adress** (String)
 - **Arguments** (Array)
@@ -56,13 +56,13 @@
 
 **Description:** Outputs a single number from a user defined OSC address
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Message** (Object)
 - **Address** (String)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Message** (Object)
 - **Value** (Number)
@@ -79,13 +79,13 @@
 
 **Description:** Outputs up to 4 numbers from a user defined OSC address
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Message In** (Object)
 - **Osc Address** (String)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Message Through** (Object)
 - **Received** (Trigger)

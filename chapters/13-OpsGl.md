@@ -11,7 +11,7 @@
 
 **Description:** create a texture from an array of number values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array** (Array)
@@ -22,7 +22,7 @@
 - **Pixel Format Index** (Number: Integer)
 - **Wrap Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Texture Out** (Object)
@@ -40,13 +40,13 @@
 
 **Description:** change how colors are mixed (blending/mixing modes)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Blendmode Index** (Number: Integer)
 - **Premultiplied** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -61,11 +61,11 @@
 
 **Description:** is canvas focussed ?
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Focus** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Has Focus** (booleanNumber)
 
@@ -80,11 +80,11 @@
 
 **Description:** the size of the canvas in pixels, aspect ratio and pixel density
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Gl.CanvasInfo_v3 documentation](https://cables.gl/op/Ops.Gl.CanvasInfo_v3) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **CSS Width** (Number)
 - **CSS Height** (Number)
@@ -108,14 +108,14 @@
 
 **Description:** convert a canvas to texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Canvas** (Object)
 - **Filter Index** (Number: Integer)
 - **Wrap Index** (Number: Integer)
 - **Force Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -132,7 +132,7 @@
 
 **Description:** sets all cleared pixels to one colour. Use to change the background colour.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -140,7 +140,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -155,11 +155,11 @@
 
 **Description:** Clears the depth buffer (zbuffer, z buffer)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -174,7 +174,7 @@
 
 **Description:** enable/disable RGBA color channels of your entire scene
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Red** (Number: Boolean)
@@ -182,7 +182,7 @@
 - **Blue** (Number: Boolean)
 - **Alpha** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -197,13 +197,13 @@
 
 **Description:** pick a color at x,y coordinates of canvas
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **X** (Number)
 - **Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **R** (Number)
 - **G** (Number)
@@ -221,13 +221,13 @@
 
 **Description:** translate away from a point in space
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Center Model Matrix** (Array)
 - **Amount** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -242,14 +242,14 @@
 
 **Description:** Download a texture as an image file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture** (Object:Texture)
 - **Quality** (Number)
 - **Filename** (String)
 - **Download** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Jcrmz8mnz** (Trigger)
 
@@ -264,13 +264,13 @@
 
 **Description:** draw texture mapping coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Num Points** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -285,12 +285,12 @@
 
 **Description:** check if webgl canvas element is in the current browser viewport
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Element** (Object:Element)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Fully Visible** (booleanNumber)
@@ -307,7 +307,7 @@
 
 **Description:** Open a new window that shows a copy of the patch canvas
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Pos X** (Number: Integer)
@@ -321,7 +321,7 @@
 - **Fullscreen** (Trigger)
 - **Close** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Element** (Object)
@@ -337,12 +337,12 @@
 
 **Description:** Disable the rendering of front or back facing triangles with culling
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -357,7 +357,7 @@
 
 **Description:** Load MSDF Font data and texture to use
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Font Name** (String)
 - **Font Data** (String)
@@ -366,7 +366,7 @@
 - **Font Image 2** (String)
 - **Font Image 3** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Loaded** (booleanNumber)
 - **Total Chars** (Number)
@@ -383,7 +383,7 @@
 
 **Description:** Resize canvas element to a specific pixel size or aspect ratio
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Active** (Number: Boolean)
@@ -395,7 +395,7 @@
 - **Ratio** (Number)
 - **Fill Parent Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Width** (Number)
@@ -414,13 +414,13 @@
 
 **Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Object In** (Object:Texture)
 - **Pass Through** (Number: Boolean)
 - **Only Valid Textures** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Object Out** (Object)
 
@@ -435,7 +435,7 @@
 
 **Description:** set gl blendmodes directly
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Src RGB Index** (Number: Integer)
@@ -444,7 +444,7 @@
 - **Dst Alpha Index** (Number: Integer)
 - **Blend Equation Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -459,11 +459,11 @@
 
 **Description:** information about the webgl context
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Gl.GlInfo_v2 documentation](https://cables.gl/op/Ops.Gl.GlInfo_v2) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **WebGl Version Short** (Number)
 - **WebGl Version** (String)
@@ -489,12 +489,12 @@
 
 **Description:** force rendering of meshes using points,lines or triangles
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Primitive Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -509,7 +509,7 @@
 
 **Description:** texture containing a colour gradient that can be altered with an editor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Gradient** (Number)
 - **Direction Index** (Number: Integer)
@@ -524,7 +524,7 @@
 - **Gradient Array** (Array)
 - **Randomize Colors** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Alpha Mask** (Object)
@@ -542,7 +542,7 @@
 
 **Description:** transform and arrange elements into a grid
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Num X** (Number: Integer)
@@ -550,7 +550,7 @@
 - **Space X** (Number)
 - **Space Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Index** (Number)
@@ -568,11 +568,11 @@
 
 **Description:** reset all transforms (modelmatrix)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -587,11 +587,11 @@
 
 **Description:** reset the view matrix (cameras etc.)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -606,7 +606,7 @@
 
 **Description:** play a image sprite animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Time** (Number)
 - **FPS** (Number)
@@ -615,7 +615,7 @@
 - **Max Frames** (Number: Integer)
 - **Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Repeat X** (Number)
 - **Repeat Y** (Number)
@@ -635,7 +635,7 @@
 
 **Description:** An area which is interactive
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Width** (Number)
@@ -651,7 +651,7 @@
 - **Cursor Index** (Number: Integer)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
@@ -677,11 +677,11 @@
 
 **Description:** Render Multiple Layers in a specific order
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
@@ -711,13 +711,13 @@
 
 **Description:** A Simple way to write text on the screen.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Text** (String)
 - **Letter Spacing** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Lines** (Array)
 
@@ -732,7 +732,7 @@
 
 **Description:** Trigger other ops once every frame to create smooth animations
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **FPS Limit** (Number)
 - **Reduce FPS Unfocussed** (Number: Boolean)
@@ -740,7 +740,7 @@
 - **Active** (Number: Boolean)
 - **Focus Canvas** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Width** (Number)
@@ -758,7 +758,7 @@
 
 **Description:** Record the renderer-output to video
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Recording** (Number: Boolean)
 - **Filename** (String)
@@ -770,7 +770,7 @@
 - **Audio In** (Object:AudioNode)
 - **Video Canvas Id** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **State** (String)
 - **Error** (String)
@@ -791,7 +791,7 @@
 
 **Description:** Draw the same mesh multiple times on the GPU
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Geom** (Object:Geometry)
@@ -804,7 +804,7 @@
 - **Colors** (Array)
 - **TexCoords** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Num** (Number)
@@ -820,7 +820,7 @@
 
 **Description:** morph from one geometry to another
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Geometry** (Number: Integer)
@@ -846,7 +846,7 @@
 - **Geometry 14** (Object)
 - **Geometry 15** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Finished** (booleanNumber)
 - **Trigger** (Trigger)
@@ -862,12 +862,12 @@
 
 **Description:** convert screen pixel coordinates to range 0-1
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **X** (Number)
 - **Y** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result X** (Number)
 - **Result Y** (Number)
@@ -883,7 +883,7 @@
 
 **Description:** outputs the first valid texture of the
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture 1** (Object:Texture)
 - **Texture 2** (Object:Texture)
@@ -894,7 +894,7 @@
 - **Texture 7** (Object:Texture)
 - **Texture 8** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -909,7 +909,7 @@
 
 **Description:** Orthogonal projection / objects in distance don't appear smaller (isometric)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Bounds** (Number)
@@ -917,7 +917,7 @@
 - **Frustum Near** (Number)
 - **Frustum Far** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Ratio** (Number)
@@ -935,13 +935,13 @@
 
 **Description:** Force a manually set viewport size for connected ops
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -956,7 +956,7 @@
 
 **Description:** Show WebGl Performance Statistics
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Active** (Number: Boolean)
@@ -967,7 +967,7 @@
 - **Scale** (Number)
 - **Size** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Trigger)
 - **Canvas** (Object)
@@ -984,12 +984,12 @@
 
 **Description:** Measure the time used to execute all child ops
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Childs** (Trigger)
 - **Time Used** (Number)
@@ -1005,7 +1005,7 @@
 
 **Description:** Adjust FOV, field of view, and frustum clipping
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **FOV Degrees** (Number)
@@ -1014,7 +1014,7 @@
 - **Auto Aspect Ratio** (Number: Boolean)
 - **Aspect Ratio** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Aspect** (Number)
@@ -1030,7 +1030,7 @@
 
 **Description:** Remaps world co-ordinates to a pixel co-ordinate system
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Width** (Number)
@@ -1041,7 +1041,7 @@
 - **Flip Y** (Number: Boolean)
 - **Zero Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Size Width** (Number)
@@ -1058,12 +1058,12 @@
 
 **Description:** save points/coordinates in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Absolute** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Points** (Array)
@@ -1079,11 +1079,11 @@
 
 **Description:** collect world space coordinates into an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1098,11 +1098,11 @@
 
 **Description:** collect screen pixel coordinates into an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1117,7 +1117,7 @@
 
 **Description:** Transforms objects randomly in space
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Num** (Number: Integer)
@@ -1132,7 +1132,7 @@
 - **Rotate Z** (Number)
 - **Scroll X** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Index** (Number)
@@ -1149,7 +1149,7 @@
 
 **Description:** record, render an animation and save as webm video file or png image sequence
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **File Type Index** (Number: Integer)
@@ -1165,7 +1165,7 @@
 - **Texture Height** (Number: Integer)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Progress** (Number)
@@ -1186,14 +1186,14 @@
 
 **Description:** Render a geometry as mesh
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Geometry** (Object:Geometry)
 - **Add Vertex Numbers** (Number: Boolean)
 - **Render Mesh** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1208,7 +1208,7 @@
 
 **Description:** Render into an Image
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture Width** (Number: Integer)
@@ -1218,7 +1218,7 @@
 - **Depth** (Number: Boolean)
 - **Clear** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Texture** (Object)
@@ -1235,7 +1235,7 @@
 
 **Description:** render to multiple textures at the same time
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Texture Width** (Number: Integer)
@@ -1253,7 +1253,7 @@
 - **Texture 6 Index** (Number: Integer)
 - **Texture 7 Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result Texture 0** (Object)
@@ -1277,14 +1277,14 @@
 
 **Description:** reset current transforms to initial value (identity)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Reset Model Transform** (Number: Boolean)
 - **Reset View Transform** (Number: Boolean)
 - **Default View** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -1299,7 +1299,7 @@
 
 **Description:** Download the current screen content as png file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Filename** (String)
 - **Use Canvas Size** (Number: Boolean)
@@ -1307,7 +1307,7 @@
 - **Width** (Number: Integer)
 - **Height** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Finished** (Trigger)
 
@@ -1322,7 +1322,7 @@
 
 **Description:** visualize normals, tangents or bitangents
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
@@ -1334,7 +1334,7 @@
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Line Geom** (Object)
@@ -1350,7 +1350,7 @@
 
 **Description:** Scatter an object on the surface of a mesh with different distribution methods
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Draw** (Number: Boolean)
@@ -1365,7 +1365,7 @@
 - **Limit Num** (Number: Integer)
 - **Random Rotate** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Positions** (Array)
@@ -1383,7 +1383,7 @@
 
 **Description:** draw text using the FontMSDF operator
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Text** (String)
@@ -1411,7 +1411,7 @@
 - **Colors** (Array)
 - **Premultiply** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Positions Original** (Array)
@@ -1433,7 +1433,7 @@
 
 **Description:** Load an image as a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **Wrap Index** (Number: Integer)
@@ -1443,7 +1443,7 @@
 - **Add Cachebuster** (Number: Boolean)
 - **Reload** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -1463,7 +1463,7 @@
 
 **Description:** create an array of textures
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture 0** (Object:Texture)
 - **Texture 1** (Object:Texture)
@@ -1481,7 +1481,7 @@
 - **Texture 13** (Object:Texture)
 - **Texture 14** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Count** (Number)
@@ -1497,7 +1497,7 @@
 
 **Description:** load multiple images into an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Url** (String)
 - **Left Pad** (Number: Boolean)
@@ -1508,7 +1508,7 @@
 - **Flip** (Number: Boolean)
 - **UnpackPreMultipliedAlpha** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **TextureArray** (Array)
 - **Width** (Number)
@@ -1527,7 +1527,7 @@
 
 **Description:** load multiple texture from filenames given as an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Urls** (Array)
 - **Filter Index** (Number: Integer)
@@ -1537,7 +1537,7 @@
 - **Caching** (Number: Boolean)
 - **Asset In Patch** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **TextureArray** (Array)
 - **Width** (Number)
@@ -1556,7 +1556,7 @@
 
 **Description:** get the color of a pixel in a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **X** (Number: Integer)
@@ -1564,7 +1564,7 @@
 - **Texture** (Object:Texture)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Red** (Number)
@@ -1583,12 +1583,12 @@
 
 **Description:** extract colors from a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Texture** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Colors** (Array)
@@ -1606,7 +1606,7 @@
 
 **Description:** generate an array3 of grid positions from a texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Center** (Number: Boolean)
@@ -1616,7 +1616,7 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Points** (Array)
@@ -1635,7 +1635,7 @@
 
 **Description:** Create points by sampling texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Num Points** (Number: Integer)
@@ -1644,7 +1644,7 @@
 - **Z Multiply** (Number)
 - **Texture** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Points** (Array)
@@ -1661,11 +1661,11 @@
 
 **Description:** will trigger when canvas was resized
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Gl.TriggerOnCanvasResize documentation](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Resized** (Trigger)
 
@@ -1680,11 +1680,11 @@
 
 **Description:** output current input texture or a default texture
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Texture** (Object:Texture)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
 
@@ -1699,11 +1699,11 @@
 
 **Description:** Outputs current viewport size
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **X** (Number)

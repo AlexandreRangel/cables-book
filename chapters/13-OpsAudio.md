@@ -11,7 +11,7 @@
 
 **Description:** Let’s you tap in a beat, useful to synchronise visuals to music (VJ, sync, sound)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Tap** (Trigger)
@@ -20,7 +20,7 @@
 - **NudgeRight** (Trigger)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Beat** (Trigger)
 - **Bpm** (Number)
@@ -39,12 +39,12 @@
 
 **Description:** read MIDI information at time x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MidiJson** (Object)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Beat** (Number)
 - **Track Names** (Array)
@@ -66,7 +66,7 @@
 
 **Description:** Filter MidiJson for notes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Data** (Object)
 - **Note** (String)
@@ -74,7 +74,7 @@
 - **Beat Start** (Number: Integer)
 - **Beat End** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Count** (Number)
 - **Progress** (Number)

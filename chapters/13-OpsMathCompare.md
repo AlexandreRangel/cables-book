@@ -11,13 +11,13 @@
 
 **Description:** result is true if value is between number1 and number2
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -32,13 +32,13 @@
 
 **Description:** result is true if value is between or equal number1 and number2
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Range 1** (Number)
 - **Range 2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -53,14 +53,14 @@
 
 **Description:** Performs logical comparisons on numbers (compare, operators)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value In** (Number)
 - **Comparison Mode Index** (Number: Integer)
 - **Condition Value** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -75,12 +75,12 @@
 
 **Description:** result is true if number1 and number2 are equal
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -95,12 +95,12 @@
 
 **Description:** result is true if number 1 is greater or equals number 2
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -115,12 +115,12 @@
 
 **Description:** result is true if number1 is greater than number2
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 
@@ -135,14 +135,14 @@
 
 **Description:** triggers when value is between min and max
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Number** (Number)
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Then** (Trigger)
 - **Else** (Trigger)
@@ -159,11 +159,11 @@
 
 **Description:** Checks if Value is even or not
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -178,12 +178,12 @@
 
 **Description:** Is n1 smaller than n2? (lesser, less)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number1** (Number)
 - **Number2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (booleanNumber)
 

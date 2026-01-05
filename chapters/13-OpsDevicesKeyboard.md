@@ -11,14 +11,14 @@
 
 **Description:** get the state of your keyboards arrow keys
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Canvas Only** (Number: Boolean)
 - **Cursor Keys** (Number: Boolean)
 - **WASD** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Degree** (Number)
 - **Up** (booleanNumber)
@@ -42,13 +42,13 @@
 
 **Description:** Triggers when a key is pressed
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Area Index** (Number: Integer)
 - **Prevent Default** (Number: Boolean)
 - **Enabled** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **On Press** (Trigger)
 - **Key Code** (Number)
@@ -65,7 +65,7 @@
 
 **Description:** Triggers when certain key is pressed or released
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Key Code** (Number: Integer)
 - **Canvas Only** (Number: Boolean)
@@ -74,7 +74,7 @@
 - **Prevent Default** (Number: Boolean)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **On Press** (Trigger)
 - **On Release** (Trigger)
@@ -92,7 +92,7 @@
 
 **Description:** simple controller example op for game characters
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Speed** (Number)
@@ -102,7 +102,7 @@
 - **West** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -119,11 +119,11 @@
 
 **Description:** Emulates a MIDI keyboard using your regular keyboard
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Canvas Only** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Note Number** (Number)
 - **Velocity** (Number)

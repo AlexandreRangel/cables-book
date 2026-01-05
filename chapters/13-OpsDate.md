@@ -11,12 +11,12 @@
 
 **Description:** Returns current date and time and timestamp
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update Rate** (Number)
 - **How often the op should update the output** (in milliseconds)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Year** (Number)
 - **Month** (Number)
@@ -37,7 +37,7 @@
 
 **Description:** Perform date calculations
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Timestamp** (Number)
 - **Difference** (Number: Integer)
@@ -45,7 +45,7 @@
 - **Update** (Trigger)
 - **Update time value** (not needed if an timestamp input is used)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Date** (Object)
 - **Timestamp** (Number)
@@ -61,13 +61,13 @@
 
 **Description:** Calculates the difference between two timestamps
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Timestamp 1** (Number)
 - **Timestamp 2** (Number)
 - **Stop At 0** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Year** (Number)
 - **Month** (Number)
@@ -89,13 +89,13 @@
 
 **Description:** String representation of a date
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Timestamp** (Number)
 - **Date** (Object)
 - **Format** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **StringDate** (String)
 
@@ -110,11 +110,11 @@
 
 **Description:** parses a date and time in iso format and outputs a millisecond timestamp
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Datetime** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Timestamp** (Number)
 
@@ -129,7 +129,7 @@
 
 **Description:** Calculates the timestamp of a date by year / month / day / hour / minute
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Year** (Number: Integer)
 - **Month** (Number: Integer)
@@ -137,7 +137,7 @@
 - **Hour** (Number: Integer)
 - **Minute** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Timestamp** (Number)
 
@@ -152,11 +152,11 @@
 
 **Description:** Value since the time origin in milliseconds (performance.now())
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -171,11 +171,11 @@
 
 **Description:** convert a timestamp to an ISO date string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Timestamp** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ISO Date** (String)
 

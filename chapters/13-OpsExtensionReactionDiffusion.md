@@ -11,7 +11,7 @@
 
 **Description:** Cellular automata system as feedback loop texture.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Reset** (Trigger)
@@ -32,7 +32,7 @@
 - **Noise Scale** (Number)
 - **Separate Fields** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Texture Out** (Object)

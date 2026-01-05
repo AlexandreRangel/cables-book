@@ -11,7 +11,7 @@
 
 **Description:** ambient light for phong material shading
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **R** (Number)
@@ -19,7 +19,7 @@
 - **B** (Number)
 - **Intensity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -34,7 +34,7 @@
 
 **Description:** Directional light for phong shading
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -68,7 +68,7 @@
 - **Anisotropic Index** (Number: Integer)
 - **Anisotropic** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
@@ -84,7 +84,7 @@
 
 **Description:** a simple shaded material
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Diffuse R** (Number)
@@ -94,7 +94,7 @@
 - **Diffuse Texture** (Object:Texture)
 - **Colorize Texture** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Shader** (Object)
@@ -110,7 +110,7 @@
 
 **Description:** A shaded material for lighting objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **R** (Number)
@@ -155,7 +155,7 @@
 - **Env Map Intensity** (Number)
 - **Env Mask Intensity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Shader** (Object)
@@ -171,7 +171,7 @@
 
 **Description:** Point light for phong shading
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -195,7 +195,7 @@
 - **Bias** (Number)
 - **Polygon Offset** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Cubemap** (Object)
@@ -214,12 +214,12 @@
 
 **Description:** reset lights for everything triggered after
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Reset Lights** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 
@@ -234,7 +234,7 @@
 
 **Description:** spot light that emits a cone of light
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Cast Light** (Number: Boolean)
@@ -260,7 +260,7 @@
 - **Rendering Active** (Number: Boolean)
 - **Shadow Strength** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)

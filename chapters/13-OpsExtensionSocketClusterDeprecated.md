@@ -11,12 +11,12 @@
 
 **Description:** receive an array from the socketcluster topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Client Id** (String)
 - **Data** (Array)
@@ -33,12 +33,12 @@
 
 **Description:** Receive boolean value from the socketcluster socket/topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Client Id** (String)
 - **Data** (booleanNumber)
@@ -55,12 +55,12 @@
 
 **Description:** receive number from the socketcluster socket/topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object)
 - **Topic** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Client Id** (String)
 - **Data** (Number)
@@ -77,12 +77,12 @@
 
 **Description:** receives string from the socketcluster socket/topic
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Data** (String)
 - **Client Id** (String)
@@ -99,7 +99,7 @@
 
 **Description:** sends an array via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
@@ -107,7 +107,7 @@
 - **Data** (Array)
 - **Public** (2): MOUSE MOVEMENT SEND
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for output port details*
 
@@ -122,14 +122,14 @@
 
 **Description:** Sends boolean value via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
 
@@ -144,14 +144,14 @@
 
 **Description:** sends a number via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Send** (Trigger)
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
 
@@ -166,14 +166,14 @@
 
 **Description:** sends a string via socketcluster/websocket
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Send** (Trigger)
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*
 

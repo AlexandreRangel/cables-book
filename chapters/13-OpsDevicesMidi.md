@@ -11,11 +11,11 @@
 
 **Description:** list of midi devices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Devices.Midi.DeviceList documentation](https://cables.gl/op/Ops.Devices.Midi.DeviceList) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num Devices** (Number)
 - **Midi Support** (booleanNumber)
@@ -32,7 +32,7 @@
 
 **Description:** read CC value from Midi controller
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -41,7 +41,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **CC Value Out** (Number)
 - **Event** (Object)
@@ -59,7 +59,7 @@
 
 **Description:** send MIDI CC data to a midi output
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Send** (Trigger)
 - **MIDI Channel Index** (Number: Integer)
@@ -67,7 +67,7 @@
 - **CC Value** (Number: Integer)
 - **Auto Send Value Change** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 
@@ -82,7 +82,7 @@
 
 **Description:** Map 3 midi notes to values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -93,7 +93,7 @@
 - **Learn** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -118,12 +118,12 @@
 
 **Description:** sends out midi clock signals as triggers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **Timing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Tick Out** (Trigger)
@@ -151,12 +151,12 @@
 
 **Description:** connect to MIDI device output port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Device Index** (Number: Integer)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Event** (Object)
 - **Note** (Object)
@@ -176,11 +176,11 @@
 
 **Description:** detailed information about Midi events being sent
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Event** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -208,7 +208,7 @@
 
 **Description:** Read a single midi note
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -218,7 +218,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -238,7 +238,7 @@
 
 **Description:** Only read a range of notes (e.g. C1 to C2)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -248,7 +248,7 @@
 - **Learn** (Trigger)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Event** (Object)
 - **Trigger Out** (Trigger)
@@ -267,7 +267,7 @@
 
 **Description:** send midi note data to a midi output
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Channel Index** (Number: Integer)
 - **Note Index** (Number: Integer)
@@ -277,7 +277,7 @@
 - **Max In Velocity** (Number)
 - **Velocity Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 
@@ -292,7 +292,7 @@
 
 **Description:** read NRPN value from controller
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
@@ -301,7 +301,7 @@
 - **Learn** (Trigger)
 - **Clear** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -319,7 +319,7 @@
 
 **Description:** send midi NRPN data to a midi output
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Channel Index** (Number: Integer)
 - **NRPN Index** (Number: Integer)
@@ -327,7 +327,7 @@
 - **Min In Value** (Number)
 - **Max In Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 
@@ -342,14 +342,14 @@
 
 **Description:** Connect to MIDI device input port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Device Index** (Number: Integer)
 - **Note** (Object)
 - **CC** (Object)
 - **NRPN** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Devices.Midi.MidiOutputDevice documentation](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice) for output port details*
 
@@ -364,14 +364,14 @@
 
 **Description:** transpose incoming midi notes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **MIDI Event In** (Object)
 - **MIDI Channel Index** (Number: Integer)
 - **Transpose Amount** (Number: Integer)
 - **Learn** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
@@ -387,11 +387,11 @@
 
 **Description:** Converts a MIDI value to a note string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Midi Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Note** (String)
 

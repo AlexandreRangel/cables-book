@@ -11,14 +11,14 @@
 
 **Description:** Always animates to the current value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -35,14 +35,14 @@
 
 **Description:** Trigger a simple bang animation going from 1 to 0
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Bang** (Trigger)
 - **Duration** (Number)
 - **Invert** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Value** (Number)
@@ -58,7 +58,7 @@
 
 **Description:** Animate between two numbers based on a boolean value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Bool** (Number: Boolean)
@@ -68,7 +68,7 @@
 - **Value False** (Number)
 - **Value True** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Value** (Number)
@@ -86,14 +86,14 @@
 
 **Description:** Crossfade between 2 values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Crossfade** (Number)
 - **Out Min** (Number)
 - **Out Max** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **A** (Number)
 - **B** (Number)
@@ -109,7 +109,7 @@
 
 **Description:** Parses string containing ranges of frames and play as coherent animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Time** (Number)
 - **Frames** (String)
@@ -117,7 +117,7 @@
 - **Loop** (Number: Boolean)
 - **Rewind** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Time** (Number)
 - **Expanded Frames** (Array)
@@ -137,7 +137,7 @@
 
 **Description:** Switch between multiple anim ranges of a keyframed 3d scene
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Duration** (Number)
@@ -153,7 +153,7 @@
 - **Value 8** (Number)
 - **Value 9** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Time 1** (Number)
 - **Time Fade** (Number)
@@ -170,7 +170,7 @@
 
 **Description:** Animates after a trigger from 1 to 0 to 1
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Duration In** (Number)
@@ -182,7 +182,7 @@
 - **Value Out** (Number)
 - **Start** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -201,7 +201,7 @@
 
 **Description:** Low-frequency oscillation for animations
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Time** (Number)
 - **Frequency** (Number)
@@ -210,7 +210,7 @@
 - **Range Min** (Number)
 - **Range Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -225,7 +225,7 @@
 
 **Description:** Animates between random values defined by a min and max value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Min** (Number)
@@ -234,7 +234,7 @@
 - **Pause Between** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -251,7 +251,7 @@
 
 **Description:** Simple animation between two values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Reset** (Trigger)
@@ -263,7 +263,7 @@
 - **Wait For Reset** (Number: Boolean)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -281,7 +281,7 @@
 
 **Description:** Animation in the form of a sine/cosine curve (sinus/cos)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Mode Index** (Number: Integer)
@@ -289,7 +289,7 @@
 - **Frequency** (Number)
 - **Amplitude** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Result** (Number)
@@ -305,13 +305,13 @@
 
 **Description:** Smooths out jumps in values (AverageInterpolation)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Value** (Number)
 - **Dec Factor** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Number)
@@ -327,7 +327,7 @@
 
 **Description:** Snap at certain points (e.g. while scrolling)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Delta** (Number)
 - **Snap At Values** (Array)
@@ -341,7 +341,7 @@
 - **Value Mul** (Number)
 - **Enabled** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **Distance** (Number)
@@ -359,14 +359,14 @@
 
 **Description:** Spring simulation based on input target value.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Value** (Number)
 - **Damping** (Number)
 - **Stiffness** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Result** (Number)
@@ -382,7 +382,7 @@
 
 **Description:** Animates a text/string, like it is being typed out by a person
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 - **Restart** (Trigger)
@@ -390,7 +390,7 @@
 - **Speed Variation** (Number)
 - **Show Cursor** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Changed** (Trigger)
@@ -407,13 +407,13 @@
 
 **Description:** Measure the time difference between two triggers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Smooth** (Number: Boolean)
 - **Seconds** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Result** (Number)
@@ -429,14 +429,14 @@
 
 **Description:** A timer that can be started, paused and reset by triggering
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Speed** (Number)
 - **Play** (Number: Boolean)
 - **Reset** (Trigger)
 - **Sync To Timeline** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
 

@@ -11,7 +11,7 @@
 
 **Description:** Test if a boundingbox could be visible in the current viewport
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Boundings** (Object)
@@ -21,7 +21,7 @@
 - **Height** (Number)
 - **Length** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Visible** (booleanNumber)
@@ -37,11 +37,11 @@
 
 **Description:** Calculate a bounding box from a geometry
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Geometry** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Boundings** (Object)
 - **Min X** (Number)

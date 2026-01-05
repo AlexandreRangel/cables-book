@@ -11,7 +11,7 @@
 
 **Description:** rendering on webxr virtual reality immersive devices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Mainloop** (Trigger)
 - **Stop** (Trigger)
@@ -20,7 +20,7 @@
 - **Render To Texture** (Number: Boolean)
 - **Shader** (Object:Shader)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Render After Eyes** (Trigger)
@@ -45,12 +45,12 @@
 
 **Description:** tracking of vr hand controller
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Handedness Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Axis 1** (Number)

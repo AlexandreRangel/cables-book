@@ -11,7 +11,7 @@
 
 **Description:** PBR image based lighting setup
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Intensity** (Number)
@@ -32,7 +32,7 @@
 - **Box Max Y** (Number)
 - **Box Max Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Render** (Trigger)
 - **Intensity** (Number)
@@ -68,7 +68,7 @@
 
 **Description:** PBR/Physical Based Rendering Material for realistic materials
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **R** (Number)
@@ -111,7 +111,7 @@
 - **Lightmap Is RGBE** (Number: Boolean)
 - **Lightmap Intensity** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Shader** (Object)

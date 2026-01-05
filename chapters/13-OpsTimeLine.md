@@ -11,13 +11,13 @@
 
 **Description:** timeline keyframable animation object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Clip** (Number: Boolean)
 - **Clip Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Anim** (Object)
 - **Loop Length** (Number)
@@ -34,12 +34,12 @@
 
 **Description:** Get data from a single key in an animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Anim** (Object)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index** (Number)
 - **Key Value** (Number)
@@ -56,12 +56,12 @@
 
 **Description:** get the animated value at time x of an animation object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Anim** (Object)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Number)
 - **Loop** (Number)
@@ -77,11 +77,11 @@
 
 **Description:** Get information about an anim object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Anim** (Object)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Total Keys** (Number)
 - **Length Seconds** (Number)
@@ -97,11 +97,11 @@
 
 **Description:** Automatically starts the timeline playback when opening patch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for output port details*
 
@@ -116,7 +116,7 @@
 
 **Description:** Prerenderer based on timeline progress
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Manual Timestamps** (Array)
@@ -125,7 +125,7 @@
 - **Clear** (Trigger)
 - **ReRender On Resize** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Prerendered Frame** (Trigger)
@@ -143,11 +143,11 @@
 
 **Description:** jump to a key in the timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Frame** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.TimeLine.GotoFrame documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for output port details*
 
@@ -162,14 +162,14 @@
 
 **Description:** Render the patch at certain times
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Max Time** (Number: Integer)
 - **Step** (Number: Integer)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Render Progress** (Trigger)
@@ -187,13 +187,13 @@
 
 **Description:** configure the timeline for the current patch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **FPS** (Number: Integer)
 - **Restrict To Frames** (Number: Boolean)
 - **Fade In Frames** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Duration Seconds** (Number)
 
@@ -208,11 +208,11 @@
 
 **Description:** use position and play pause state of cables timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.TimeLine.TimeLineControls documentation](https://cables.gl/op/Ops.TimeLine.TimeLineControls) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
 
@@ -227,11 +227,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineDebug) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Data** (Object)
 - **Time Cursor** (Number)
@@ -257,11 +257,11 @@
 
 **Description:** Returns the current frame number of the timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.TimeLine.TimeLineFrame documentation](https://cables.gl/op/Ops.TimeLine.TimeLineFrame) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
 
@@ -276,11 +276,11 @@
 
 **Description:** current set length of the timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Length** (Number)
 
@@ -295,13 +295,13 @@
 
 **Description:** Automatic rewind of timeline at a certain time
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Duration** (Number)
 - **How long the loop should be** (in seconds)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -316,12 +316,12 @@
 
 **Description:** overwrite timeline time value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **New Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 
@@ -336,12 +336,12 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlay) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Play** (Trigger)
 - **Pause** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -356,14 +356,14 @@
 
 **Description:** Player controls for the timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Play** (Trigger)
 - **Pause** (Trigger)
 - **Rewind** (Trigger)
 - **Set Current Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Play Trigger** (Trigger)
 - **Pause Trigger** (Trigger)
@@ -384,11 +384,11 @@
 
 **Description:** set time of timeline to 0 (rewind, restart)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -403,12 +403,12 @@
 
 **Description:** set current time of timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 
@@ -423,11 +423,11 @@
 
 **Description:** Returns the current time of the timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.TimeLine.TimeLineTime documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTime) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
 - **The current time of the timeline** (in seconds)
@@ -443,12 +443,12 @@
 
 **Description:** toggle between timeline playing and being paused
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Play** (Number: Boolean)
 - **Public** (20): MY IDENTITY PATTERN
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.TimeLine.TimeLineTogglePlay documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay) for output port details*
 
@@ -463,13 +463,13 @@
 
 **Description:** Animate and get value at "time" of timeline
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Time** (Number)
 - **Value** (Number)
 - **Unit Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 - **Anim Array** (Array)

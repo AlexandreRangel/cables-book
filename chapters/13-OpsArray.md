@@ -11,13 +11,13 @@
 
 **Description:** Outputs the angle between points in 3D space (degree)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Points** (Array)
 - **Theta** (Number)
 - **Phi** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Rotations** (Array)
 
@@ -32,14 +32,14 @@
 
 **Description:** Animate values in an array to another array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Next Array** (Array)
 - **Duration** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Matrix** (Array)
@@ -55,11 +55,11 @@
 
 **Description:** convert an array1 to array2,3,4 by choosing content for new axis
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array1x** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array3x** (Array)
 - **Total Points** (Number)
@@ -76,11 +76,11 @@
 
 **Description:** Inserts zeroes every third item
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array2x** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array3x** (Array)
 - **Total Points** (Number)
@@ -97,14 +97,14 @@
 
 **Description:** Create an array of num triplets set to default values xyz
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Num Triplets** (Number: Integer)
 - **X** (Number)
 - **Y** (Number)
 - **Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Total Points** (Number)
@@ -121,11 +121,11 @@
 
 **Description:** Average x,y,z values of an array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Average X** (Number)
 - **Average Y** (Number)
@@ -142,12 +142,12 @@
 
 **Description:** Get 3 values XYZ from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -164,14 +164,14 @@
 
 **Description:** Interpolate between two arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Progress** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Array Length** (Number)
@@ -187,13 +187,13 @@
 
 **Description:** Iterate over an array in steps of three and outputs three values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Array** (Array)
 - **Step** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Triggers for every iteration step** (triplet in the array)
@@ -216,14 +216,14 @@
 
 **Description:** Multiply every XYZ member of array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 - **Mul X** (Number)
 - **Mul Y** (Number)
 - **Mul Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -238,7 +238,7 @@
 
 **Description:** Push three numbers to the end of an array (was ArrayPushValue3x)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Array** (Array)
@@ -247,7 +247,7 @@
 - **Value 3** (Number)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result Array** (Array)
@@ -263,13 +263,13 @@
 
 **Description:** Extract definable amount of random xyz points from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Elements** (Number: Integer)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Total Points** (Number)
@@ -286,7 +286,7 @@
 
 **Description:** Set three numbers at index in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
@@ -294,7 +294,7 @@
 - **Value Y** (Number)
 - **Value Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -309,14 +309,14 @@
 
 **Description:** Add number to every XYZ member of array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 - **Add X** (Number)
 - **Add Y** (Number)
 - **Add Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -331,11 +331,11 @@
 
 **Description:** Remove every 3rd item of an array - changes array length
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array2x** (Array)
 
@@ -350,11 +350,11 @@
 
 **Description:** Convert an array3 to an array4 by filling it up with 1
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array4x** (Array)
 - **Total Points** (Number)
@@ -371,11 +371,11 @@
 
 **Description:** Return the length of a vector from an array 3
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Array Lengths** (Number)
@@ -391,7 +391,7 @@
 
 **Description:** Create an array of num quadruples set to default values xyz
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Num Quadruplets** (Number: Integer)
 - **X** (Number)
@@ -399,7 +399,7 @@
 - **Z** (Number)
 - **W** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Total Quadruplets** (Number)
@@ -416,12 +416,12 @@
 
 **Description:** Get 4 values from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -439,7 +439,7 @@
 
 **Description:** Set four numbers at index in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
@@ -448,7 +448,7 @@
 - **Value Z** (Number)
 - **Value W** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -463,11 +463,11 @@
 
 **Description:** Convert an array4 to array3 by dropping every 4th number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Array Length** (Number)
@@ -483,14 +483,14 @@
 
 **Description:** Can generate 3 kinds of arrays: Number - 1,2,3,4 - Normalized - (ContinuousNumberArray)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array Length** (Number: Integer)
 - **Mode Select Index** (Number: Integer)
 - **Default Value** (Number)
 - **Reverse** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Array Length Out** (Number)
@@ -506,11 +506,11 @@
 
 **Description:** Converts array contents to absolute values - converts all negative numbers to positive numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -525,13 +525,13 @@
 
 **Description:** Append an array to an existing array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Join** (Trigger)
 - **Array** (Array)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Array Length** (Number)
@@ -547,14 +547,14 @@
 
 **Description:** Store values in an array / fifo array buffer
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Value** (Number)
 - **Max Length** (Number: Integer)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Result** (Array)
@@ -571,7 +571,7 @@
 
 **Description:** Circular buffer for xyz values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Max Num Elements** (Number)
@@ -580,7 +580,7 @@
 - **Value Z** (Number)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Result** (Array)
@@ -597,11 +597,11 @@
 
 **Description:** Round numbers up
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -616,14 +616,14 @@
 
 **Description:** Extracts x elements from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Input Array** (Array)
 - **Begin Index** (Number: Integer)
 - **Chunk Size** (Number: Integer)
 - **Circular** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Output Array** (Array)
 - **Array Length** (Number)
@@ -639,13 +639,13 @@
 
 **Description:** Repeat chunks of an array multiple times
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Chunk Size** (Number: Integer)
 - **Repeats** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -660,13 +660,13 @@
 
 **Description:** Clamp the values of an array to a min and max value
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -681,12 +681,12 @@
 
 **Description:** Check if an array contains a number (find,search,indexOf)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **SearchValue** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found** (booleanNumber)
 - **Index** (Number)
@@ -702,12 +702,12 @@
 
 **Description:** Divide all values in an array by one number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -722,12 +722,12 @@
 
 **Description:** Return all the indexes of a string in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **SearchValue** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index** (Array)
 - **Found** (booleanNumber)
@@ -743,11 +743,11 @@
 
 **Description:** Round numbers down
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -762,11 +762,11 @@
 
 **Description:** Return the fractional remainder of all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -781,7 +781,7 @@
 
 **Description:** Simple way to create small arrays of numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Limit** (Number: Integer)
@@ -817,7 +817,7 @@
 - **Index 28** (Number)
 - **Index 29** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array** (Array)
@@ -833,12 +833,12 @@
 
 **Description:** Get an array from an array of arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array Of Arrays** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Array** (Array)
 
@@ -853,13 +853,13 @@
 
 **Description:** Return a value from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 - **Value Invalid Index** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Number)
 - **Valid Index** (booleanNumber)
@@ -875,12 +875,12 @@
 
 **Description:** Get an object from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Object)
 
@@ -895,12 +895,12 @@
 
 **Description:** Get a string from an array at [index]
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 - **Found** (booleanNumber)
@@ -916,12 +916,12 @@
 
 **Description:** Get texture from array at index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Value** (Object)
 
@@ -936,13 +936,13 @@
 
 **Description:** Pick values from input array at given indices and stride
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Array Stride Index** (Number: Integer)
 - **Indices** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Results** (Array)
 
@@ -957,12 +957,12 @@
 
 **Description:** Output index where value is greater than number and smaller then next number
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index** (Number)
 
@@ -977,11 +977,11 @@
 
 **Description:** Find lowest/highest numbers in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Max** (Number)
 - **Index Max** (Number)
@@ -999,12 +999,12 @@
 
 **Description:** Iterate over an array of arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Index** (Number)
@@ -1021,12 +1021,12 @@
 
 **Description:** Loop over every element of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Index** (Number)
@@ -1043,12 +1043,12 @@
 
 **Description:** Iterate over an array of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Finished** (Trigger)
@@ -1066,12 +1066,12 @@
 
 **Description:** Loop over every element of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Index** (Number)
@@ -1088,12 +1088,12 @@
 
 **Description:** Iterate over an array of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Finished** (Trigger)
@@ -1111,11 +1111,11 @@
 
 **Description:** Number of items in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Length** (Number)
 
@@ -1130,7 +1130,7 @@
 
 **Description:** Performs logical comparison operations on a single array of numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Comparison Mode Index** (Number: Integer)
@@ -1138,7 +1138,7 @@
 - **Value If True** (Number)
 - **Value If False** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Result** (Array)
 - **Array Length** (Number)
@@ -1154,7 +1154,7 @@
 
 **Description:** Performs logical comparison operations on two arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Array 1** (Array)
@@ -1162,7 +1162,7 @@
 - **Value If False** (Number)
 - **Comparison Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Result** (Array)
 - **Array Length** (Number)
@@ -1178,14 +1178,14 @@
 
 **Description:** If value of array is between min and max then the value is 1 else 0
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Min** (Number)
 - **Max** (Number)
 - **Pass Value When True** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1200,13 +1200,13 @@
 
 **Description:** Create an array that is filled with values looked up by index from another array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Indices** (Array)
 - **Values** (Array)
 - **Stride** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1221,13 +1221,13 @@
 
 **Description:** Pick from multiple mathematical modes which can all be applied to a single array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Number For Math** (Number)
 - **Math Function Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Result** (Array)
 - **Array Length** (Number)
@@ -1243,13 +1243,13 @@
 
 **Description:** Perform a math operations on two arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Array 1** (Array)
 - **Math Function Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Result** (Array)
 - **Array Length** (Number)
@@ -1265,7 +1265,7 @@
 
 **Description:** Calculate a user-defined mathematical expression
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **A** (Array)
 - **B** (Array)
@@ -1275,7 +1275,7 @@
 - **Z** (Number)
 - **Expression** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Array** (Array)
 - **Array Length** (Number)
@@ -1292,7 +1292,7 @@
 
 **Description:** Calculate a user-defined mathematical expression
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **A** (Array)
@@ -1303,7 +1303,7 @@
 - **Z** (Number)
 - **Expression** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result Array** (Array)
@@ -1321,12 +1321,12 @@
 
 **Description:** Apply a max operation to all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1341,7 +1341,7 @@
 
 **Description:** Merge multiple arrays - in consecutive order
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Array 1** (Array)
@@ -1352,7 +1352,7 @@
 - **Array 6** (Array)
 - **Array 7** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Array Length** (Number)
@@ -1368,7 +1368,7 @@
 
 **Description:** Merge / concatenate arrays by trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Merge** (Trigger)
 - **Array 0** (Array)
@@ -1384,7 +1384,7 @@
 - **Array 10** (Array)
 - **Array 11** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -1401,12 +1401,12 @@
 
 **Description:** Apply a min operation to all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1421,12 +1421,12 @@
 
 **Description:** Apply a modulo operation to all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1441,12 +1441,12 @@
 
 **Description:** Multiply every number in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1461,13 +1461,13 @@
 
 **Description:** Create an array that contains X numbers between start and end values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Start Value** (Number)
 - **End Value** (Number)
 - **Entries** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1482,7 +1482,7 @@
 
 **Description:** Create an array filled with other arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Array 0** (Array)
@@ -1496,7 +1496,7 @@
 - **Array 8** (Array)
 - **Array 9** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1511,7 +1511,7 @@
 
 **Description:** Filter key-value pairs in objects in an array of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Filter Key** (String)
@@ -1519,7 +1519,7 @@
 - **Invert Filter** (Number: Boolean)
 - **invert result** (discard all objects that have key-value pair)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ArrayOut** (Array)
 
@@ -1534,14 +1534,14 @@
 
 **Description:** Remove key-value pairs from objects in an array of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Keys** (String)
 - **Seperator** (String)
 - **Invert Filter** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1556,11 +1556,11 @@
 
 **Description:** Convert an array of objects into readable string format
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **String** (String)
 
@@ -1575,7 +1575,7 @@
 
 **Description:** Pack multiple arrays into a new array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 0** (Array)
 - **Array 1** (Array)
@@ -1586,7 +1586,7 @@
 - **Array 6** (Array)
 - **Array 7** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1601,13 +1601,13 @@
 
 **Description:** Pack two individual arrays into a new array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Array Out** (Array)
@@ -1624,12 +1624,12 @@
 
 **Description:** Pack 2 individual arrays into an array2 - without needing a trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 1** (Array)
 - **Array 2** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Num Points** (Number)
@@ -1646,14 +1646,14 @@
 
 **Description:** Pack 3 individual arrays into a xyz array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Array 3** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Array Out** (Array)
@@ -1671,13 +1671,13 @@
 
 **Description:** Pack 3 individual arrays into an array3 - without needing a trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Array 3** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Num Points** (Number)
@@ -1694,7 +1694,7 @@
 
 **Description:** Pack 4 arrays into one array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger In** (Trigger)
 - **Array 1** (Array)
@@ -1702,7 +1702,7 @@
 - **Array 3** (Array)
 - **Array 4** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Array Out** (Array)
@@ -1719,14 +1719,14 @@
 
 **Description:** Pack 3 individual arrays into an array3 - without needing a trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Array 3** (Array)
 - **Array 4** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Num Points** (Number)
@@ -1743,12 +1743,12 @@
 
 **Description:** Values below 0 are not accepted. 1 = Array in is unaltered
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Pow Factor** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1763,12 +1763,12 @@
 
 **Description:** Push/Append a string to the end of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1783,12 +1783,12 @@
 
 **Description:** Quantize input to nearest number in array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Constraints Array Input** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Quantized Value** (Number)
 - **Quantization Error** (Number)
@@ -1804,13 +1804,13 @@
 
 **Description:** Extract a definable amount of values from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Elements** (Number: Integer)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Array Length** (Number)
@@ -1826,12 +1826,12 @@
 
 **Description:** Remove falsy items from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Remove Falsy** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Array** (Array)
 
@@ -1846,11 +1846,11 @@
 
 **Description:** Reverse an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1865,13 +1865,13 @@
 
 **Description:** Round numbers up
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 - **Method Index** (Number: Integer)
 - **Decimal Places** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1886,13 +1886,13 @@
 
 **Description:** Set a number at index in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1907,13 +1907,13 @@
 
 **Description:** Set a string at index in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Index** (Number: Integer)
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1928,7 +1928,7 @@
 
 **Description:** Perform a sin or cos operation on the contents of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Math Function Index** (Number: Integer)
@@ -1936,7 +1936,7 @@
 - **Frequency** (Number)
 - **Amplitude** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Result** (Array)
 
@@ -1951,13 +1951,13 @@
 
 **Description:** The fancy way of saying it is Perform Hermite interpolation between two values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Min** (Number)
 - **Max** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -1972,11 +1972,11 @@
 
 **Description:** Return the square root of all values in the array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -1991,13 +1991,13 @@
 
 **Description:** Create an array from multiple string
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Arrays_0** (Array)
 - **Arrays_1** (Array)
 - **Add Port** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Values** (Number)
@@ -2013,12 +2013,12 @@
 
 **Description:** Subtract one number from all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -2033,12 +2033,12 @@
 
 **Description:** Add one number to all values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **In** (Array)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2053,12 +2053,12 @@
 
 **Description:** Sum up every number in an array with the sum of the previous
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Padding** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2073,11 +2073,11 @@
 
 **Description:** Sum of every number in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sum** (Number)
 
@@ -2092,11 +2092,11 @@
 
 **Description:** Manage/re-order components of an array (stride)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2111,12 +2111,12 @@
 
 **Description:** Split an array up into an array of arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Stride** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2131,11 +2131,11 @@
 
 **Description:** Convert an array to a byte buffer (Uint8ClampedArray)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Buffer** (Object)
 
@@ -2150,13 +2150,13 @@
 
 **Description:** Join array values to a string (concat)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Seperator** (String)
 - **New Line** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -2171,12 +2171,12 @@
 
 **Description:** Trigger an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Out** (Trigger)
 - **Result** (Array)
@@ -2192,13 +2192,13 @@
 
 **Description:** Filter an array for duplicate items and returns all unique items in a new array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Format Index** (Number: Integer)
 - **Format** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ArrayOut** (Array)
 - **Array Length Out** (Number)
@@ -2214,11 +2214,11 @@
 
 **Description:** Return information about the count of "duplicates" in an array, as an object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ObjectOut** (Object)
 
@@ -2233,11 +2233,11 @@
 
 **Description:** Unpack an xy array into separate arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In Xyz** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array 1 Out** (Array)
 - **Array 2 Out** (Array)
@@ -2254,11 +2254,11 @@
 
 **Description:** Split an xyz array into 3 individual arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In Xyz** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array 1 Out** (Array)
 - **Array 2 Out** (Array)
@@ -2276,11 +2276,11 @@
 
 **Description:** Split an xyzw array into 4 individual arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In Xyzw** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array 1 Out** (Array)
 - **Array 2 Out** (Array)
@@ -2299,12 +2299,12 @@
 
 **Description:** Insert/add/unshift a string to the beginning of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2319,13 +2319,13 @@
 
 **Description:** Smooth/average values in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Iterations** (Number: Integer)
 - **Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Smoothed Array** (Array)
 - **Array Length** (Number)
@@ -2341,14 +2341,14 @@
 
 **Description:** Array filled with `0`, only one can be `1`
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array Length** (Number)
 - **Active Index** (Number)
 - **Inactive Value** (Number)
 - **Active Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **State Array** (Array)
 
@@ -2363,14 +2363,14 @@
 
 **Description:** Copy an array with a trigger, reset to use a default array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 - **Array** (Array)
 - **Reset** (Trigger)
 - **Default** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2385,11 +2385,11 @@
 
 **Description:** Create a copy of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Array.CopyArraySimple documentation](https://cables.gl/op/Ops.Array.CopyArraySimple) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2404,13 +2404,13 @@
 
 **Description:** The array to crop
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Source Array** (Array)
 - **Start Index** (Number: Integer)
 - **New Length** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Cropped Array** (Array)
 - **Array Length** (Number)
@@ -2426,13 +2426,13 @@
 
 **Description:** Remove elements from an array from the beginning and/or the end
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Source Array** (Array)
 - **Remove From Start** (Number: Integer)
 - **Remove From End** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Cut Array** (Array)
 - **Array Length** (Number)
@@ -2448,14 +2448,14 @@
 
 **Description:** Apply easing curve to numbers in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Min** (Number)
 - **Max** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Array** (Array)
 
@@ -2470,11 +2470,11 @@
 
 **Description:** *Visit [documentation](https://cables.gl/op/Ops.Array.EmptyArray) for details*
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Array.EmptyArray documentation](https://cables.gl/op/Ops.Array.EmptyArray) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2489,13 +2489,13 @@
 
 **Description:** Fill an array with random duplicates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Num Elements** (Number: Integer)
 - **Random Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2510,7 +2510,7 @@
 
 **Description:** Compare elements from an array and remove not matching ones
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Stride Index** (Number: Integer)
@@ -2520,7 +2520,7 @@
 - **Filter Method Index** (Number: Integer)
 - **Compare To** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2535,12 +2535,12 @@
 
 **Description:** Filter valid arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Invalid When Length Is 0** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Last Valid Array** (Array)
 - **Is Valid** (booleanNumber)
@@ -2556,11 +2556,11 @@
 
 **Description:** Create a new array with all sub-array elements concatenated into it
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2575,12 +2575,12 @@
 
 **Description:** Capture the current input and copy it to the output, even after a reload
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Number** (Array)
 - **Button** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Frozen Array** (Array)
 
@@ -2595,12 +2595,12 @@
 
 **Description:** Only allow an array through if pass through is true
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Pass Through** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -2615,13 +2615,13 @@
 
 **Description:** Get an array of values by key of objects in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Key** (String)
 - **Numbers Only** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2636,7 +2636,7 @@
 
 **Description:** Generate an RGBA array from up to 4 arrays (HSBA)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger Input** (Trigger)
 - **In Hue Array** (Array)
@@ -2644,7 +2644,7 @@
 - **In Brightness Array** (Array)
 - **In Alpha Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger Output** (Trigger)
 - **Result Array** (Array)
@@ -2662,11 +2662,11 @@
 
 **Description:** Min, Max and Average value from an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Min** (Number)
 - **Max** (Number)
@@ -2683,11 +2683,11 @@
 
 **Description:** Min, Max and Average values of an array2
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num Items** (Number)
 - **Min X** (Number)
@@ -2708,11 +2708,11 @@
 
 **Description:** Min, Max and Average values of an array3
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num Items** (Number)
 - **Min X** (Number)
@@ -2739,14 +2739,14 @@
 
 **Description:** Interpolate between two arrays (lerp) - linear interpolation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Perc** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -2762,7 +2762,7 @@
 
 **Description:** Interpolate between two arrays, only a few numbers at the same time
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array 1** (Array)
@@ -2772,7 +2772,7 @@
 - **Easing Index** (Number: Integer)
 - **Reverse** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Result** (Array)
@@ -2788,12 +2788,12 @@
 
 **Description:** Interpolate between all values of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index Position** (Number)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Number)
 
@@ -2808,12 +2808,12 @@
 
 **Description:** Get interpolated values between the indices of an array3x
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index Position** (Number)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **X** (Number)
 - **Y** (Number)
@@ -2830,7 +2830,7 @@
 
 **Description:** Generate spline using lissajous formulas
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Formula Index** (Number: Integer)
 - **A** (Number: Integer)
@@ -2838,7 +2838,7 @@
 - **C** (Number: Integer)
 - **D** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Total Points** (Number)
@@ -2855,11 +2855,11 @@
 
 **Description:** Make the 1st and last point of an array the same, good for closing splines and shapes
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -2874,7 +2874,7 @@
 
 **Description:** Map values in an array from one range into another.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Old Min** (Number)
@@ -2883,7 +2883,7 @@
 - **New Max** (Number)
 - **Easing Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -2898,12 +2898,12 @@
 
 **Description:** Create an array from multiple number inputs
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Numbers_0** (Number)
 - **Add Port** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Num Values** (Number)
@@ -2919,12 +2919,12 @@
 
 **Description:** Iterate over an array of objects
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Trigger** (Trigger)
 - **Finished** (Trigger)
@@ -2942,11 +2942,11 @@
 
 **Description:** Contains a collection of color palettes in groups of 5 in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Array.PaletteLibrary documentation](https://cables.gl/op/Ops.Array.PaletteLibrary) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Palette Array Out** (Array)
 
@@ -2961,7 +2961,7 @@
 
 **Description:** Create an array filled with Perlin noise values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In X** (Array)
 - **Array Time** (Array)
@@ -2969,7 +2969,7 @@
 - **Seed 0-1** (Number)
 - **Frequency** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Array Length Out** (Number)
@@ -2985,14 +2985,14 @@
 
 **Description:** Coordinate generation like arrangement of leaves in some plants
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Num** (Number: Integer)
 - **Scale** (Number)
 - **Param** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Coordinates** (Array)
 
@@ -3007,7 +3007,7 @@
 
 **Description:** Create a random array of 1 to 4 dimensions
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Num Values** (Number: Integer)
 - **Mode Index** (Number: Integer)
@@ -3022,7 +3022,7 @@
 - **Min D** (Number)
 - **Max D** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Chunks Amount** (Number)
@@ -3039,12 +3039,12 @@
 
 **Description:** Generate an array filled with random english words
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Random Seed** (Number)
 - **Content Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Words** (Array)
 
@@ -3059,7 +3059,7 @@
 
 **Description:** Remove points from an array, e.g. xth points, random, duplicates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Remove Index** (Number: Integer)
@@ -3067,7 +3067,7 @@
 - **Threshold** (Number)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result Array** (Array)
 
@@ -3082,12 +3082,12 @@
 
 **Description:** Reverse an array with value triplets [x, y, z, ...]
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **The Array you want to reverse** (containing triplets)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Reversed Array** (Array)
 
@@ -3102,14 +3102,14 @@
 
 **Description:** Array of fixed size, index is automatically incremented and restarts after reaching the end
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
 - **Write** (Trigger)
 - **Length** (Number: Integer)
 - **Reset Index** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **Index** (Number)
@@ -3125,12 +3125,12 @@
 
 **Description:** Shift array contents based upon rotate amount
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In** (Array)
 - **Rotate Amount** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **ArrayOut** (Array)
 
@@ -3145,13 +3145,13 @@
 
 **Description:** Route an array to an output port
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Array In** (Array)
 - **Default Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Index 0 Array** (Array)
 - **Index 1 Array** (Array)
@@ -3175,14 +3175,14 @@
 
 **Description:** Change the number of an array at an index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
 - **Index** (Number: Integer)
 - **Value** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Values** (Array)
@@ -3198,7 +3198,7 @@
 
 **Description:** Set three values at position index in an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exe** (Trigger)
 - **Array** (Array)
@@ -3207,7 +3207,7 @@
 - **Value 2** (Number)
 - **Value 3** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Values** (Array)
 
@@ -3222,12 +3222,12 @@
 
 **Description:** Shuffle/Randomize the order of an array of triplets
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3** (Array)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3242,12 +3242,12 @@
 
 **Description:** Randomize the order of elements inside an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3** (Array)
 - **Seed** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3262,7 +3262,7 @@
 
 **Description:** Create an array filled with Simplex noise values (Range: -1, 1)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array In X** (Array)
 - **Array Time** (Array)
@@ -3270,7 +3270,7 @@
 - **Seed 0-1** (Number)
 - **Frequency** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 - **Array Length Out** (Number)
@@ -3286,14 +3286,14 @@
 
 **Description:** Smooth out changes in values of an array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Execute** (Trigger)
 - **Array In** (Array)
 - **Inc Factor** (Number)
 - **Dec Factor** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Array Out** (Array)
@@ -3309,11 +3309,11 @@
 
 **Description:** Sort an array of numbers with one of two modes - ascending or descending
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array To Sort** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sorted Array** (Array)
 
@@ -3328,12 +3328,12 @@
 
 **Description:** Sort an array with the lowest values of the selected component.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **What Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 - **The sorted array** (new array)
@@ -3349,13 +3349,13 @@
 
 **Description:** Sort an array of objects by the values of a key
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 - **Key** (String)
 - **Reverse** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3370,12 +3370,12 @@
 
 **Description:** Sort an array of numbers and also get sorted indices
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array To Sort** (Array)
 - **Sorting Mode Index** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Sorted Array** (Array)
 - **Sorted Indices** (Array)
@@ -3391,12 +3391,12 @@
 
 **Description:** Return a number with the total distance between the points/items in an array3
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array3x** (Array)
 - **Calculate** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Length** (Number)
 
@@ -3411,11 +3411,11 @@
 
 **Description:** Convert an array of splines to one "line stripped" array
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3430,7 +3430,7 @@
 
 **Description:** Parse a string into an array (create, split string, stringToArray)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 - **Separator** (String)
@@ -3438,7 +3438,7 @@
 - **Trim** (Number: Boolean)
 - **Split Lines** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)
 - **Parsed** (Trigger)
@@ -3455,12 +3455,12 @@
 
 **Description:** Turn a string into an array of single characters or ASCII numbers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 - **Convert To Numbers** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Array Out** (Array)
 
@@ -3475,11 +3475,11 @@
 
 **Description:** Output an array containing a line number for every character
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3494,13 +3494,13 @@
 
 **Description:** For subdividing splines, smoothing lines using cubic bezier interpolation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Points** (Array)
 - **Num Subdivs** (Number: Integer)
 - **Smooth** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3515,7 +3515,7 @@
 
 **Description:** Switch between multiple arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Array 0** (Array)
@@ -3529,7 +3529,7 @@
 - **Array 8** (Array)
 - **Array 9** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3544,13 +3544,13 @@
 
 **Description:** Switch between multiple input arrays
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Arrays_0** (Array)
 - **Add Port** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Number** (Array)
 - **Num Values** (Number)
@@ -3566,7 +3566,7 @@
 
 **Description:** Switch between multiple arrays on trigger
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger 1** (Trigger)
 - **Array 1** (Array)
@@ -3585,7 +3585,7 @@
 - **Trigger 8** (Trigger)
 - **Array 8** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Array** (Array)
 
@@ -3600,7 +3600,7 @@
 
 **Description:** Store various textures in an array, starts at the beginning again when end reached
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Write** (Trigger)
 - **Texture** (Object:Texture)
@@ -3609,7 +3609,7 @@
 - **Order** (Number: Boolean)
 - **Clear** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
 
@@ -3624,13 +3624,13 @@
 
 **Description:** Weave two arrays together (combine, join, merge)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Array 1** (Array)
 - **Array 2** (Array)
 - **Chunk Size** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Combined Array** (Array)
 

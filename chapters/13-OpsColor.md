@@ -11,11 +11,11 @@
 
 **Description:** Sort an array of colors by saturation/lightness etc.
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Colors** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **New Colors** (Array)
 
@@ -30,12 +30,12 @@
 
 **Description:** Contains a collection of nice color palettes output to texture or array via index
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Index** (Number: Integer)
 - **Smooth** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Color Array** (Array)
@@ -52,14 +52,14 @@
 
 **Description:** Use a color value on multiple places
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 - **A** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Outr** (Number)
 - **Outg** (Number)
@@ -79,11 +79,11 @@
 
 **Description:** Native color picker
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Open** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Hex** (String)
 - **R** (Number)
@@ -102,12 +102,12 @@
 
 **Description:** gradient editor,outputs an objects with gradient information
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Gradient** (Number)
 - **Randomize Colors** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Gradient Object** (Object)
 
@@ -122,7 +122,7 @@
 
 **Description:** texture containing a colour gradient that can be altered with an editor
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Gradient** (Number)
 - **Direction Index** (Number: Integer)
@@ -136,7 +136,7 @@
 - **Gradient Array** (Array)
 - **Randomize Colors** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Color Array** (Array)
 - **Width** (Number)
@@ -155,12 +155,12 @@
 
 **Description:** Converts a hex color like `#ff0000` to number values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hex** (String)
 - **Bytes** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **R** (Number)
 - **G** (Number)
@@ -178,13 +178,13 @@
 
 **Description:** Convert HSL to RGB
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hue** (Number)
 - **Saturation** (Number)
 - **Lightness** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **R** (Number)
 - **G** (Number)
@@ -201,7 +201,7 @@
 
 **Description:** Calculate the luminance contrast between two colors
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R 1** (Number)
 - **G 1** (Number)
@@ -210,7 +210,7 @@
 - **G 2** (Number)
 - **B 2** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Contrast** (Number)
 
@@ -225,13 +225,13 @@
 
 **Description:** Calculate the luminance of a RGB color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Luminance** (Number)
 
@@ -246,13 +246,13 @@
 
 **Description:** Output the CMYK value of a RGB color
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **C** (Number)
 - **M** (Number)
@@ -270,13 +270,13 @@
 
 **Description:** convert RGB float values to HEX color String
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 
@@ -291,13 +291,13 @@
 
 **Description:** convert RGB color to HSB Hue, Saturation, Brightness
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Hue** (Number)
 - **Saturation** (Number)
@@ -314,13 +314,13 @@
 
 **Description:** Convert RGB color to HSL values
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **R** (Number)
 - **G** (Number)
 - **B** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Hue** (Number)
 - **Saturation** (Number)

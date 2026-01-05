@@ -11,11 +11,11 @@
 
 **Description:** cookie of the current website as object
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Website.Cookie documentation](https://cables.gl/op/Ops.Website.Cookie) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Cookie** (Object)
 - **Cookie String** (String)
@@ -31,11 +31,11 @@
 
 **Description:** information about a filename, like url protocol, suffix etc
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Protocol** (String)
 - **Host** (String)
@@ -57,11 +57,11 @@
 
 **Description:** will redirect to same URL using https protocol
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for output port details*
 
@@ -76,11 +76,11 @@
 
 **Description:** Information about the current URL
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Website.InfoURL documentation](https://cables.gl/op/Ops.Website.InfoURL) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **URL** (String)
 - **Host** (String)
@@ -101,11 +101,11 @@
 
 **Description:** Outputs true if the patch is inside of an iframe
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Website.InIframe documentation](https://cables.gl/op/Ops.Website.InIframe) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **In Iframe** (booleanNumber)
 
@@ -120,13 +120,13 @@
 
 **Description:** Store and retreive a number in browser localstorage
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Key** (String)
 - **Number** (Number)
 - **Store** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Stored Number** (Number)
 - **Storage Support** (Number)
@@ -142,13 +142,13 @@
 
 **Description:** Store and retreive a string in browser localstorage
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Key** (String)
 - **String** (String)
 - **Store** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Stored String** (String)
 - **Storage Support** (booleanNumber)
@@ -164,12 +164,12 @@
 
 **Description:** gives updated information about window.location.hash
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Route** (String)
 - **pattern for url and variables** (i.e. /scene/:id)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Values** (Object)
 - **Changed** (Trigger)
@@ -186,7 +186,7 @@
 
 **Description:** sets window.location.hash to the specified value(s)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Hash** (String)
 - **Update** (Trigger)
@@ -194,7 +194,7 @@
 - **Silent** (Number: Boolean)
 - **Allow Empty** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Website.SetLocationHash documentation](https://cables.gl/op/Ops.Website.SetLocationHash) for output port details*
 
@@ -209,12 +209,12 @@
 
 **Description:** Returns a URL query parameter
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Parameter** (String)
 - **Default** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Result** (String)
 

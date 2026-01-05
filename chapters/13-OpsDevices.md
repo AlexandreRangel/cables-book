@@ -11,13 +11,13 @@
 
 **Description:** detect touch gestures like swipe and pan
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Active** (Number: Boolean)
 - **Vertical Swipe** (Number: Boolean)
 - **Vertical Pan** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Press** (Trigger)
 - **Press Up** (Trigger)
@@ -40,7 +40,7 @@
 
 **Description:** touch screen input: e.g. position of fingers
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Disable Scaling** (Number: Boolean)
 - **Disable Scroll** (Number: Boolean)
@@ -49,7 +49,7 @@
 - **Normalize Coordinates** (Number: Boolean)
 - **Flip Y** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Touched** (Number)
 - **Fingers** (Number)

@@ -11,7 +11,7 @@
 
 **Description:** Convert an animation into an array of coordinates
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -20,7 +20,7 @@
 - **Start** (Number)
 - **Length** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -37,12 +37,12 @@
 
 **Description:** get view matrix from a gltf camera
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Node Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Matrix** (Array)
 - **Found** (booleanNumber)
@@ -58,11 +58,11 @@
 
 **Description:** gltf draco compression library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for input port details*
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for output port details*
 
@@ -77,13 +77,13 @@
 
 **Description:** expose geometry from gltf meshes, also possible to expose submaterial geometries
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Name** (String)
 - **Submesh** (Number: Integer)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -100,12 +100,12 @@
 
 **Description:** export array of positions from a hierarchy of a branch structure in a gltf, e.g. a skeleton bones
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Trigger** (Trigger)
 - **Node Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Bones Lines** (Array)
@@ -121,11 +121,11 @@
 
 **Description:** output some infos about the current parent GLTF scene
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Num Nodes** (Number)
 - **Num Cams** (Number)
@@ -144,7 +144,7 @@
 
 **Description:** switch between meshes e.g. like a stop motion animation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Index** (Number: Integer)
@@ -152,7 +152,7 @@
 - **Transformation** (Number: Boolean)
 - **Ignore Material** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (Number)
@@ -169,7 +169,7 @@
 
 **Description:** render weighted morph targets/shape keys from a gltf file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -178,7 +178,7 @@
 - **Submesh** (Number: Integer)
 - **Target Weights** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
@@ -197,7 +197,7 @@
 
 **Description:** Control a single node from the GLTFscene op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -208,7 +208,7 @@
 - **Use Scene Time** (Number: Boolean)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Geometry** (Object)
@@ -225,7 +225,7 @@
 
 **Description:** sine animate gltf nodes by a filter
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Update** (Trigger)
 - **Filter** (String)
@@ -236,7 +236,7 @@
 - **Axis Y** (Number)
 - **Axis Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (Number)
@@ -252,13 +252,13 @@
 
 **Description:** Get the transform from the GLTFscene op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Set Matrix** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -275,7 +275,7 @@
 
 **Description:** output all transformations of nodes starting with [search]
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Search** (String)
@@ -283,7 +283,7 @@
 - **Space Index** (Number: Integer)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Positions** (Array)
@@ -302,7 +302,7 @@
 
 **Description:** Load GLTF/GLB 3d files
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Glb File** (String)
@@ -320,7 +320,7 @@
 - **Use Material Properties** (Number: Boolean)
 - **Active** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Render Before** (Trigger)
 - **Next** (Trigger)
@@ -347,12 +347,12 @@
 
 **Description:** Assigns a material to a node inside of the gltfScene op
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Shader** (Object:Shader)
 - **Material Name** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Material** (Object)
 
@@ -367,7 +367,7 @@
 
 **Description:** render a skinned mesh (bone/rigging/rigged animation)
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -375,7 +375,7 @@
 - **Time** (Number)
 - **Blend Anims** (Array)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found Node** (booleanNumber)
 - **Found Skin** (booleanNumber)
@@ -392,7 +392,7 @@
 
 **Description:** Load textures from inside a .glb file
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Name** (String)
@@ -402,7 +402,7 @@
 - **Flip** (Number: Boolean)
 - **Pre Multiplied Alpha** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Texture** (Object)
 - **Width** (Number)
@@ -421,7 +421,7 @@
 
 **Description:** set transformation of a gltf node
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
@@ -432,7 +432,7 @@
 - **Rotation Y** (Number)
 - **Rotation Z** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Next** (Trigger)
 - **Found** (booleanNumber)
@@ -448,14 +448,14 @@
 
 **Description:** play gltf vertex anim directly with its own timing
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Render** (Trigger)
 - **Node Name** (String)
 - **Scene Time** (Number: Boolean)
 - **Time** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Found Node** (Number)
 - **Next** (Trigger)

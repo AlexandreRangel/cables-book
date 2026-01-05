@@ -11,14 +11,14 @@
 
 **Description:** Simple Audio Player, using HTML5 Audio, does not need WebAudio
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **Play** (Number: Boolean)
 - **Volume** (Number)
 - **Loop** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Playing** (Number)
 - **Element** (Object)
@@ -35,7 +35,7 @@
 
 **Description:** A more convinient version of div element op, that can be used for creating html without writing much css code
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Text** (String)
 - **Set Size** (Number: Boolean)
@@ -50,7 +50,7 @@
 - **Propagate Click-Events** (Number: Boolean)
 - **Add To DOM** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **DOM Element** (Object)
 - **Hovering** (booleanNumber)
@@ -67,14 +67,14 @@
 
 **Description:** Show another website in an iframe element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **URL** (String)
 - **ID** (String)
 - **Active** (Number: Boolean)
 - **Style** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 
@@ -89,14 +89,14 @@
 
 **Description:** create an image(img) html element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **Class** (String)
 - **Style** (String)
 - **Alt Text** (String)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Image Element** (Object)
 - **Width** (Number)
@@ -116,7 +116,7 @@
 
 **Description:** HTML input/textarea element to allow the user to enter text
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Default Value** (String)
 - **Placeholder** (String)
@@ -132,7 +132,7 @@
 - **Clear** (Trigger)
 - **Select** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **DOM Element** (Object)
 - **Value** (String)
@@ -151,7 +151,7 @@
 
 **Description:** html video player element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **File** (String)
 - **ID** (String)
@@ -164,7 +164,7 @@
 - **Style** (String)
 - **Rewind** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Element** (Object)
 - **Playing** (booleanNumber)

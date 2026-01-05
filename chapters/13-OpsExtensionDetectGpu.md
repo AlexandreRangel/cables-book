@@ -11,11 +11,11 @@
 
 **Description:** Use the detect-gpu library to assess performance of the client running the patch
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Run** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Finished** (Trigger)
 - **Tier** (Number)

@@ -11,7 +11,7 @@
 
 **Description:** Set CSS backdrop filter like blur, contrast, brightness, saturation
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object)
 - **Blur** (Number)
@@ -22,7 +22,7 @@
 - **Saturate** (Number)
 - **Sepia** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 
@@ -37,7 +37,7 @@
 
 **Description:** Set CSS margins of a html element
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Element** (Object:Element)
 - **Margin** (Number)
@@ -46,7 +46,7 @@
 - **Margin Left** (Number)
 - **Margin Right** (Number)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **HTML Element** (Object)
 

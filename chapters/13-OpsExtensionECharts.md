@@ -11,7 +11,7 @@
 
 **Description:** wrapper for echarts-library
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **Create** (Trigger)
 - **Parent DOM Element** (Object)
@@ -29,7 +29,7 @@
 - **Style** (Number: String)
 - **Visible** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **DOM Element** (Object)
 - **ECharts Instance** (Object)
@@ -47,7 +47,7 @@
 
 **Description:** capture echart-library-events
 
-**`\inputsymbol`{=latex} Input Ports:**
+**`\inputsymbol`{=latex} Inputs**
 
 - **ECharts Instance** (Object)
 - **Event Name** (String)
@@ -55,7 +55,7 @@
 - **Query Object** (Object)
 - **Refresh Event Binding** (Trigger)
 
-**`\outputsymbol`{=latex} Output Ports:**
+**`\outputsymbol`{=latex} Output**
 
 - **Out Chart** (Object)
 - **Trigger** (Trigger)
