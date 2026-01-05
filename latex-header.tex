@@ -15,7 +15,7 @@
 %% SECTION HEADINGS - Font Sizes & Leading
 %% Format: FontSize in pt, Leading = line height
 %% ------------------------------------------------------------
-\newcommand{\SectionOneFontSize}{18}      % Chapter titles
+\newcommand{\SectionOneFontSize}{19}      % Chapter titles
 \newcommand{\SectionOneLeading}{16}
 \newcommand{\SectionTwoFontSize}{17}      % Major sections
 \newcommand{\SectionTwoLeading}{13}
@@ -258,11 +258,11 @@
 \definecolor{inputportsymbol}{RGB}{\InputPortSymbolRed,\InputPortSymbolGreen,\InputPortSymbolBlue}
 \definecolor{outputportsymbol}{RGB}{\OutputPortSymbolRed,\OutputPortSymbolGreen,\OutputPortSymbolBlue}
 
-%% TOC: color ONLY level-2 entries (subsections) in blue; keep others dark gray
-\renewcommand{\cftsecfont}{\color{sectiononecolor}}
-\renewcommand{\cftsecpagefont}{\color{sectiononecolor}}
-\renewcommand{\cftsubsecfont}{\color{sectiontwocolor}}
-\renewcommand{\cftsubsecpagefont}{\color{sectiontwocolor}}
+%% TOC: color ONLY level-1 entries (sections) in blue; keep others dark gray
+\renewcommand{\cftsecfont}{\color{sectiontwocolor}}
+\renewcommand{\cftsecpagefont}{\color{sectiontwocolor}}
+\renewcommand{\cftsubsecfont}{\color{sectiononecolor}}
+\renewcommand{\cftsubsecpagefont}{\color{sectiononecolor}}
 \renewcommand{\cftsubsubsecfont}{\color{sectiononecolor}}
 \renewcommand{\cftsubsubsecpagefont}{\color{sectiononecolor}}
 \renewcommand{\cftparafont}{\color{sectiononecolor}}
@@ -429,6 +429,8 @@
     citecolor=sectiononecolor,
     filecolor=sectiononecolor
   }
+  % Add a hard page break after the TOC
+  \apptocmd{\tableofcontents}{\clearpage}{}{}
   % Final override to ensure figures are left-aligned
   \makeatletter
   \renewcommand{\centering}{%
