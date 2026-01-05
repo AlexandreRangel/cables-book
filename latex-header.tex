@@ -55,7 +55,8 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageWidthFraction}{0.40}   % Op image width fraction of \columnwidth (0.90 = 90% of column)
+\newcommand{\OpImageHeightFraction}{0.18}  % Op image MAX height fraction of \textheight (smaller = smaller images)
+\newcommand{\OpImageWidthFraction}{1.00}   % Safety cap: max width fraction of \columnwidth
 \newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.9\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
@@ -225,8 +226,9 @@
   \isopimage{#2}{%
     % Op image: mark flag globally and insert image
     \global\@opimagetrue
-    % Use \columnwidth (not \linewidth) so the fraction is stable even inside floats/minipages.
-    \noindent\oldincludegraphics[width=\OpImageWidthFraction\columnwidth,keepaspectratio]{#2}%
+    % Ops images: scale by a fixed max HEIGHT (consistent across varying aspect ratios),
+    % with a width cap to prevent overflow in a column.
+    \noindent\oldincludegraphics[height=\OpImageHeightFraction\textheight,width=\OpImageWidthFraction\columnwidth,keepaspectratio]{#2}%
   }{%
     % Regular image: use standard settings
     \global\@opimagefalse
