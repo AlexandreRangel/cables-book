@@ -55,9 +55,9 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageWidthFraction}{0.50}   % Op image width (0.90 = 90% of column width for 2-col layout)
+\newcommand{\OpImageWidthFraction}{0.40}   % Op image width fraction of \columnwidth (0.90 = 90% of column)
 \newcommand{\OpImageSpacing}{0.15\baselineskip}  % Spacing before/after op images
-\newcommand{\OpParagraphSpacing}{0.95\parskip}  % Paragraph spacing in ops
+\newcommand{\OpParagraphSpacing}{0.9\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.1}      % Line spacing in ops sections
 
 %% ------------------------------------------------------------
@@ -84,7 +84,7 @@
 \newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{6}            % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-5pt} % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-7pt} % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\PageNumberGrayPercent}{50}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
 \newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
@@ -225,7 +225,8 @@
   \isopimage{#2}{%
     % Op image: mark flag globally and insert image
     \global\@opimagetrue
-    \noindent\oldincludegraphics[width=\OpImageWidthFraction\linewidth,keepaspectratio]{#2}%
+    % Use \columnwidth (not \linewidth) so the fraction is stable even inside floats/minipages.
+    \noindent\oldincludegraphics[width=\OpImageWidthFraction\columnwidth,keepaspectratio]{#2}%
   }{%
     % Regular image: use standard settings
     \global\@opimagefalse
