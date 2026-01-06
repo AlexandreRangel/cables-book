@@ -68,7 +68,7 @@ Author: cables_gl
 
 ```vid
 https://youtu.be/XvVBnPakE28
-Title: Midi Input Device - intro to MIDI in cables -  Byte Size
+Title: Midi Input Device - intro to MIDI in cables - Byte Size
 Author: cables_gl
 ```
 
@@ -238,7 +238,7 @@ Author: cables_gl
 
 ```vid
 https://youtu.be/GQc6JF_jy6M
-Title: Debug View in Cables.gl | Setting up multiple views in your patch
+Title: Debug View in Cables.gl Setting up multiple views in your patch
 Author: Jaalibandar
 ```
 
@@ -252,7 +252,7 @@ Author: FahmiMursyid
 
 ```vid
 https://youtu.be/wERboDg6zOI
-Title: Impactful Transitions under 10 minutes using cables.gl | Genuary 04: Intersections
+Title: Impactful Transitions under 10 minutes using cables.gl Genuary 04: Intersections
 Author: Jaalibandar
 ```
 
@@ -266,21 +266,21 @@ Author: Jaalibandar
 
 ```vid
 https://youtu.be/5Jc3woVozNc
-Title: Cables.gl | Generative Poster 05
+Title: Cables.gl Generative Poster 05
 Author: Karthik Dondeti
 ```
 
 
 ```vid
 https://youtu.be/DsSPcNSLyAw
-Title: Cables.gl | Generative Poster 06
+Title: Cables.gl Generative Poster 06
 Author: Karthik Dondeti
 ```
 
 
 ```vid
 https://youtu.be/gRV0DqpSd-4
-Title: Cables.gl | Generative Poster 09
+Title: Cables.gl Generative Poster 09
 Author: Karthik Dondeti
 ```
 
@@ -329,7 +329,7 @@ Author: Jaalibandar
 
 ```vid
 https://youtu.be/3KSS1nrv6t0
-Title: cables.gl web demo - realtime visualizer soundcloud globe | Exyl - Ping! Moai
+Title: cables.gl web demo - realtime visualizer soundcloud globe Exyl - Ping! Moai
 Author: stobelights
 ```
 
@@ -405,7 +405,7 @@ Author: cables_gl
 
 ```vid
 https://youtu.be/j_ins4RW0c8
-Title: Shadertoy to cables - part  01
+Title: Shadertoy to cables - part 01
 Author: cables_gl
 ```
 
@@ -442,7 +442,7 @@ Author: Alberto Barrios L. (nahui-ocelotl.com)
 
 ```vid
 https://youtu.be/KZbhVCIahv4
-Title: Páginas WEB Interactivas con cables.gl | 13 Audio
+Title: Páginas WEB Interactivas con cables.gl 13 Audio
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
@@ -532,7 +532,7 @@ Author: cables_gl
 
 ```vid
 https://youtu.be/DX0slSkR_Hg
-Title: Páginas WEB Interactivas con cables.gl | 20 Exportación
+Title: Páginas WEB Interactivas con cables.gl 20 Exportación
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
@@ -592,7 +592,7 @@ Author: wirmachenbunt
 
 ```vid
 https://youtu.be/FvC3Ec_38Jo
-Title: Inércia 2023 | Seminar: Cables.gl as a demo making tool by anticore feat. liqube
+Title: Inércia 2023 Seminar: Cables.gl as a demo making tool by anticore feat. liqube
 Author: Associação Inércia
 ```
 
@@ -715,35 +715,35 @@ Author: Alberto Barrios L. (nahui-ocelotl.com)
 
 ```vid
 https://youtu.be/oBoH_7uHv-E
-Title: Páginas WEB Interactivas con cables.gl | 02 Enlace
+Title: Páginas WEB Interactivas con cables.gl 02 Enlace
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
 
 ```vid
 https://youtu.be/-9QrZSoAPpQ
-Title: Páginas WEB Interactivas con cables.gl | 07 Botones
+Title: Páginas WEB Interactivas con cables.gl 07 Botones
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
 
 ```vid
 https://youtu.be/MTeI06T-kGw
-Title: Páginas WEB Interactivas con cables.gl | 08 Menu
+Title: Páginas WEB Interactivas con cables.gl 08 Menu
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
 
 ```vid
 https://youtu.be/iFDD4tm7-Uw
-Title: Páginas WEB Interactivas con cables.gl | 15 Valores Aleatorios
+Title: Páginas WEB Interactivas con cables.gl 15 Valores Aleatorios
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
 
 ```vid
 https://youtu.be/a2H8vk3Ko1M
-Title: Páginas WEB Interactivas con cables.gl | 18 FPS
+Title: Páginas WEB Interactivas con cables.gl 18 FPS
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 ```
 
@@ -869,7 +869,7 @@ Author: Video Art Duo
 
 ```vid
 https://youtu.be/9UR8upg0g54
-Title: Pod005 - Flicker | Distortion | cables.gl
+Title: Pod005 - Flicker Distortion cables.gl
 Author: zuggamasta
 ```
 

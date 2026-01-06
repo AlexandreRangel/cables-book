@@ -9,34 +9,24 @@ Cables.gl provides powerful tools for creating real-time 3D graphics using WebGL
 A basic 3D setup requires:
 
 ```
-+-------------------------------------------------------------+
-|                    3D RENDERING PIPELINE                     |
-+-------------------------------------------------------------+
-|                                                               |
-|  MainLoop (Frame Start)                                      |
-|    |                                                          |
-|  Camera (View Setup)                                          |
-|    +-> Position (X, Y, Z)                                     |
-|    +-> Rotation / LookAt                                      |
-|    +-> Projection (Perspective/Orthographic)                  |
-|    |                                                          |
-|  Lighting (Optional)                                          |
-|    +-> Directional Light                                      |
-|    +-> Point Light                                             |
-|    +-> Ambient Light                                           |
-|    |                                                          |
-|  Materials (Surface Properties)                               |
-|    +-> BasicMaterial / StandardMaterial                        |
-|    +-> Color / Texture                                         |
-|    +-> Shading Properties                                      |
-|    |                                                          |
-|  Mesh/Geometry (3D Shapes)                                   |
-|    +-> Box, Sphere, Plane, etc.                                |
-|    +-> Custom Models                                           |
-|    |                                                          |
-|  Rendered Output (Canvas)                                    |
-|                                                               |
-+-------------------------------------------------------------+
+3D RENDERING PIPELINE
+MainLoop (Frame Start)
+Camera (View Setup)
++-> Position (X, Y, Z)
++-> Rotation / LookAt
++-> Projection (Perspective/Orthographic)
+Lighting (Optional)
++-> Directional Light
++-> Point Light
++-> Ambient Light
+Materials (Surface Properties)
++-> BasicMaterial / StandardMaterial
++-> Color / Texture
++-> Shading Properties
+Mesh/Geometry (3D Shapes)
++-> Box, Sphere, Plane, etc.
++-> Custom Models
+Rendered Output (Canvas)
 ```
 
 ## Cameras
@@ -120,9 +110,7 @@ Follow a predefined path:
 
 ```
 ArrayIterator (path points)
-    |
 Smooth interpolation between points
-    |
 Camera Position
 ```
 
@@ -200,13 +188,9 @@ Professional lighting arrangement:
 
 ```
 MainLoop -> Camera
-    |
 AmbientLight (subtle, 0.2 intensity) - Fill light
-    |
 DirectionalLight (main, from top-left) - Key light
-    |
 PointLight (weaker, opposite side) - Rim light
-    |
 [Your scene]
 ```
 
@@ -314,20 +298,15 @@ Create geometry programmatically:
 **Example: Procedural Terrain**
 ```
 IteratorLoop (grid)
-    |
 NoiseTexture (sample at position) -> Height
-    |
 Calculate vertex positions
-    |
 Generate normals
-    |
 CustomGeometry
 ```
 
 **Example: Parametric Surfaces**
 ```
 U/V parameters -> Math functions -> Vertex positions
-    |
 CustomGeometry
 ```
 
@@ -387,27 +366,18 @@ Mesh distortion works by modifying vertex positions in real-time. Each vertex ha
 - **UV Coordinates** (U, V) - Texture mapping coordinates
 
 ```
-+-------------------------------------------------------------+
-|              MESH DISTORTION PIPELINE                         |
-+-------------------------------------------------------------+
-|                                                               |
-|  Base Mesh (Plane, Box, etc.)                                 |
-|    |                                                          |
-|  Vertex Data Extraction                                      |
-|    +-> Positions Array                                       |
-|    +-> Normals Array                                         |
-|    +-> UVs Array                                             |
-|    |                                                          |
-|  Distortion Function                                          |
-|    +-> Calculate new positions                               |
-|    +-> Update normals (if needed)                            |
-|    +-> Preserve UVs                                          |
-|    |                                                          |
-|  CustomGeometry (with distorted vertices)                     |
-|    |                                                          |
-|  Material -> Render                                           |
-|                                                               |
-+-------------------------------------------------------------+
+MESH DISTORTION PIPELINE
+Base Mesh (Plane, Box, etc.)
+Vertex Data Extraction
++-> Positions Array
++-> Normals Array
++-> UVs Array
+Distortion Function
++-> Calculate new positions
++-> Update normals (if needed)
++-> Preserve UVs
+CustomGeometry (with distorted vertices)
+Material -> Render
 ```
 
 ### Method 1: Node-Based Distortion
@@ -419,26 +389,15 @@ Using built-in cables.gl ops to distort meshes.
 Transform a plain wall into different sizes using procedural scaling:
 
 ```
-+-------------------------------------------------------------+
-|              WALL SCALING SETUP                               |
-+-------------------------------------------------------------+
-|                                                               |
-|  Plane (Base Wall)                                            |
-|    |                                                          |
-|  GetVertices -> Positions Array                              |
-|    |                                                          |
-|  Scale Factor (X, Y, Z)                                       |
-|    |                                                          |
-|  ArrayMap (multiply each vertex by scale)                    |
-|    |                                                          |
-|  GetNormals -> Normals Array                                  |
-|  GetUVs -> UVs Array                                          |
-|    |                                                          |
-|  CustomGeometry (new positions, normals, UVs)                |
-|    |                                                          |
-|  Material -> Render                                           |
-|                                                               |
-+-------------------------------------------------------------+
+WALL SCALING SETUP
+Plane (Base Wall)
+GetVertices -> Positions Array
+Scale Factor (X, Y, Z)
+ArrayMap (multiply each vertex by scale)
+GetNormals -> Normals Array
+GetUVs -> UVs Array
+CustomGeometry (new positions, normals, UVs)
+Material -> Render
 ```
 
 **Step-by-Step Node Setup:**
@@ -473,24 +432,14 @@ Transform a plain wall into different sizes using procedural scaling:
 Bend a plain wall into a curved wall with controllable angle:
 
 ```
-+-------------------------------------------------------------+
-|              WALL BENDING SETUP                               |
-+-------------------------------------------------------------+
-|                                                               |
-|  Plane (Base Wall)                                            |
-|    |                                                          |
-|  GetVertices -> Positions Array                              |
-|    |                                                          |
-|  Bend Angle (Slider/Number)                                   |
-|  Bend Center (X position where bend occurs)                   |
-|    |                                                          |
-|  ArrayMap (apply bend transformation)                        |
-|    |                                                          |
-|  Calculate New Normals (for proper lighting)                 |
-|    |                                                          |
-|  CustomGeometry -> Material -> Render                        |
-|                                                               |
-+-------------------------------------------------------------+
+WALL BENDING SETUP
+Plane (Base Wall)
+GetVertices -> Positions Array
+Bend Angle (Slider/Number)
+Bend Center (X position where bend occurs)
+ArrayMap (apply bend transformation)
+Calculate New Normals (for proper lighting)
+CustomGeometry -> Material -> Render
 ```
 
 **Bending Algorithm (Node-Based):**
@@ -505,23 +454,15 @@ For each vertex:
 
 ```
 Plane
-  |
 GetVertices -> ArrayIterator
-  |
 For each vertex:
-  |
   Vertex X -> Subtract (Bend Center) -> Distance from center
-  |
   Distance -> Multiply (Bend Angle) -> Rotation angle
-  |
   Vertex Y -> Sin(Rotation) -> New Y position
   Vertex Z -> Cos(Rotation) -> New Z position
   Vertex X -> Keep original
-  |
   Combine -> New Vertex Position
-  |
 ArrayCollect -> All Distorted Vertices
-  |
 CustomGeometry
 ```
 
@@ -561,7 +502,7 @@ function distortVertices() {
     const normals = inNormals.get();
     const uvs = inUVs.get();
     
-    if (!vertices || vertices.length === 0) {
+    if (!vertices vertices.length === 0) {
         outVertices.set([]);
         outNormals.set([]);
         outUVs.set([]);
@@ -702,15 +643,12 @@ inBendAxis.onChange = distortVertices;
 
 ```
 Plane (Base Wall)
-  |
 GetVertices -> WallDistorter (Input Vertices)
 GetNormals -> WallDistorter (Input Normals)
 GetUVs -> WallDistorter (Input UVs)
-  |
 WallDistorter (Distorted Vertices) -> CustomGeometry
 WallDistorter (Distorted Normals) -> CustomGeometry
 WallDistorter (Output UVs) -> CustomGeometry
-  |
 Material -> Render
 ```
 
@@ -735,7 +673,7 @@ const inUVs = op.inArray("Input UVs");
 // Animation parameters
 const inTime = op.inFloat("Time", 0.0);
 const inAnimationSpeed = op.inFloat("Animation Speed", 1.0);
-const inAnimationType = op.inSwitch("Animation Type", 
+const inAnimationType = op.inSwitch("Animation Type",
     ["None", "Pulse", "Wave", "Oscillate"], "None");
 
 // Distortion parameters (same as before)
@@ -778,7 +716,7 @@ function distortVertices() {
     const normals = inNormals.get();
     const uvs = inUVs.get();
     
-    if (!vertices || vertices.length === 0) {
+    if (!vertices vertices.length === 0) {
         outVertices.set([]);
         outNormals.set([]);
         outUVs.set([]);
@@ -870,32 +808,21 @@ inBendCenter.onChange = distortVertices;
 Complete setup for an interactive curved wall with real-time controls:
 
 ```
-+-------------------------------------------------------------+
-|              INTERACTIVE CURVED WALL SETUP                   |
-+-------------------------------------------------------------+
-|                                                               |
-|  MainLoop                                                     |
-|    |                                                          |
-|  Plane (Base Wall)                                            |
-|    Width: 10, Height: 5                                       |
-|    Segments: 30x15 (for smooth curves)                       |
-|    |                                                          |
-|  GetVertices -> WallDistorter                                 |
-|  GetNormals -> WallDistorter                                  |
-|  GetUVs -> WallDistorter                                      |
-|    |                                                          |
-|  Slider (Bend Angle: 0 to PI/2) -> WallDistorter            |
-|  Slider (Bend Center: -5 to 5) -> WallDistorter             |
-|  Slider (Scale X: 0.5 to 2.0) -> WallDistorter              |
-|  Slider (Scale Y: 0.5 to 2.0) -> WallDistorter              |
-|    |                                                          |
-|  WallDistorter -> CustomGeometry                              |
-|    |                                                          |
-|  StandardMaterial -> Render                                   |
-|    |                                                          |
-|  Camera -> OrbitControls                                      |
-|                                                               |
-+-------------------------------------------------------------+
+INTERACTIVE CURVED WALL SETUP
+MainLoop
+Plane (Base Wall)
+Width: 10, Height: 5
+Segments: 30x15 (for smooth curves)
+GetVertices -> WallDistorter
+GetNormals -> WallDistorter
+GetUVs -> WallDistorter
+Slider (Bend Angle: 0 to PI/2) -> WallDistorter
+Slider (Bend Center: -5 to 5) -> WallDistorter
+Slider (Scale X: 0.5 to 2.0) -> WallDistorter
+Slider (Scale Y: 0.5 to 2.0) -> WallDistorter
+WallDistorter -> CustomGeometry
+StandardMaterial -> Render
+Camera -> OrbitControls
 ```
 
 ### Performance Optimization
@@ -1134,9 +1061,7 @@ Create parent-child relationships:
 
 ```
 Transform (parent)
-    |
 Transform (child) - inherits parent's transform
-    |
 Mesh
 ```
 
@@ -1171,7 +1096,6 @@ Control chains of objects:
 
 ```
 End Effector Position -> IK Solver -> Joint Angles
-    |
 Transform chain
 ```
 
@@ -1199,11 +1123,8 @@ Opaque objects should render before transparent ones:
 
 ```
 MainLoop -> Camera
-    |
 [Opaque objects]
-    |
 EnableBlending
-    |
 [Transparent objects]
 ```
 
@@ -1213,9 +1134,7 @@ Create effects like glow, depth of field, or reflections:
 
 ```
 MainLoop -> Camera -> RenderToTexture -> [Scene]
-                |
             TextureEffect
-                |
             RenderToScreen
 ```
 
@@ -1238,9 +1157,7 @@ Add depth and realism:
 
 ```
 MainLoop -> Camera -> RenderToTexture (depth)
-    |
 SSAO Effect
-    |
 Apply to scene
 ```
 
@@ -1311,19 +1228,12 @@ Combine multiple effects:
 
 ```
 Scene
-    |
 RenderToTexture
-    |
 SSAO
-    |
 Bloom
-    |
 ColorGrading
-    |
 ChromaticAberration
-    |
 Vignette
-    |
 Final Output
 ```
 
@@ -1335,19 +1245,18 @@ Organize complex scenes:
 
 ```
 MainLoop -> Camera
-    |
 Scene (root)
     +-- Environment
-    |   +-- Skybox
-    |   +-- Fog
+    +-- Skybox
+    +-- Fog
     +-- Lighting
-    |   +-- AmbientLight
-    |   +-- DirectionalLight
-    |   +-- PointLights (array)
+    +-- AmbientLight
+    +-- DirectionalLight
+    +-- PointLights (array)
     +-- Static Objects
-    |   +-- [Buildings, terrain, etc.]
+    +-- [Buildings, terrain, etc.]
     +-- Dynamic Objects
-    |   +-- [Characters, vehicles, etc.]
+    +-- [Characters, vehicles, etc.]
     +-- Effects
         +-- Particles
         +-- Post-processing
@@ -1398,15 +1307,10 @@ Distance from camera -> If > threshold -> Use LOD model
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 DirectionalLight
-    |
 Time -> RotateY input
-    |
 PhongMaterial
-    |
 Cube
 ```
 
@@ -1414,15 +1318,10 @@ Cube
 
 ```
 MainLoop
-    |
 PerspectiveCamera -> OrbitControls
-    |
 AmbientLight (subtle)
-    |
 PointLight
-    |
 PBRMaterial (metalness: 1, roughness: 0.2)
-    |
 Sphere
 ```
 
@@ -1430,13 +1329,9 @@ Sphere
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 DirectionalLight
-    |
 GLTFLoader (your model.glb)
-    |
 Transform (scale/position)
 ```
 
@@ -1444,20 +1339,14 @@ Transform (scale/position)
 
 ```
 MainLoop
-    |
 PerspectiveCamera -> OrbitControls
-    |
 AmbientLight (space ambient)
-    |
 DirectionalLight (sun)
-    |
 [Sun] - Static sphere with emissive material
-    |
 [Planet1] - Transform (orbit around sun)
-    |   +-- Time -> RotateY (orbit)
-    |   +-- Time -> RotateY (self-rotation)
-    |       +-- Sphere
-    |
+    +-- Time -> RotateY (orbit)
+    +-- Time -> RotateY (self-rotation)
+    +-- Sphere
 [Planet2] - Different orbit speed
     +-- [Moon] - Orbits planet
 ```
@@ -1466,21 +1355,13 @@ DirectionalLight (sun)
 
 ```
 MainLoop
-    |
 PerspectiveCamera -> OrbitControls
-    |
 DirectionalLight
-    |
 IteratorLoop (grid: 100x100)
-    |
 Position -> NoiseTexture (3D noise) -> Height
-    |
 Calculate vertex (X, height, Z)
-    |
 Calculate normal from neighbors
-    |
 CustomGeometry
-    |
 PBRMaterial (terrain textures)
 ```
 
@@ -1488,20 +1369,13 @@ PBRMaterial (terrain textures)
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 DirectionalLight
-    |
 TreeModel (loaded GLTF)
-    |
 ArrayIterator (1000 positions)
-    |
 Random -> Scale variation
 Random -> Rotation variation
-    |
 InstanceTransform
-    |
 InstancedMesh
 ```
 
@@ -1509,16 +1383,11 @@ InstancedMesh
 
 ```
 MainLoop
-    |
 PerspectiveCamera -> OrbitControls
-    |
 MouseX -> Map -> Light Direction X
 MouseY -> Map -> Light Direction Y
-    |
 DirectionalLight
-    |
 MouseClick -> Toggle -> Object visibility
-    |
 [Scene objects]
 ```
 
@@ -1526,21 +1395,15 @@ MouseClick -> Toggle -> Object visibility
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 DirectionalLight
-    |
 CharacterModel
-    |
 Timeline
     +-- Frame 0: Idle pose
     +-- Frame 30: Walk cycle start
     +-- Frame 60: Walk cycle end
     +-- [Loop]
-    |
 Apply to skeleton
-    |
 AnimatedMesh
 ```
 
@@ -1548,21 +1411,15 @@ AnimatedMesh
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 ArrayIterator (particles)
-    |
 Particle Data
     +-- Position (update with velocity)
     +-- Velocity (update with forces)
     +-- Life (decrease over time)
     +-- Size (scale with life)
-    |
 Transform (position, scale)
-    |
 BasicMaterial (color from life)
-    |
 Sphere (small)
 ```
 
@@ -1570,17 +1427,11 @@ Sphere (small)
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 [Scene to reflect]
-    |
 RenderToTexture (reflection view)
-    |
 CubemapTexture
-    |
 PBRMaterial (reflection map)
-    |
 Plane (mirror surface)
 ```
 
@@ -1588,18 +1439,13 @@ Plane (mirror surface)
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 Scene
-    |
 RenderToTexture (depth)
-    |
 VolumetricFog
     +-- Depth texture
     +-- Noise texture (for variation)
     +-- Light direction
-    |
 Blend with scene
 ```
 
@@ -1607,20 +1453,14 @@ Blend with scene
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 Time -> Sin -> Sun angle
-    |
 Sun angle -> Calculate direction
-    |
 DirectionalLight (sun)
     +-- Color (warm -> cool based on angle)
     +-- Intensity (day -> night)
-    |
 AmbientLight
     +-- Intensity (complement sun)
-    |
 [Scene]
 ```
 
@@ -1628,13 +1468,9 @@ AmbientLight
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 Time -> Sin -> Morph factor (0 to 1)
-    |
 Mesh1 -> Morph -> Mesh2
-    |
 Material
 ```
 
@@ -1642,20 +1478,15 @@ Material
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 PhysicsWorld
     +-- Gravity
     +-- Colliders
-    |
 PhysicsBody (rigid body)
     +-- Mass
     +-- Forces
     +-- Collisions
-    |
 Transform (from physics)
-    |
 Mesh
 ```
 
@@ -1663,30 +1494,19 @@ Mesh
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 [Render scene]
-    |
 RenderToTexture
-    |
 SSAO
-    |
 Bloom (extract bright areas)
-    |
 Blur (bloom)
-    |
 Add bloom back
-    |
 ColorGrading
     +-- Exposure
     +-- Contrast
     +-- Saturation
-    |
 ChromaticAberration
-    |
 Vignette
-    |
 Final output
 ```
 
@@ -1694,17 +1514,11 @@ Final output
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 AudioAnalyzer -> FFTArray
-    |
 ArrayIterator (frequency bands)
-    |
 FFT Value -> Scale Y
-    |
 Transform (position from index, scale from FFT)
-    |
 Cube (bar visualization)
 ```
 
@@ -1712,20 +1526,13 @@ Cube (bar visualization)
 
 ```
 MainLoop
-    |
 PerspectiveCamera -> OrbitControls
-    |
 DirectionalLight
-    |
 IteratorLoop (grid: city blocks)
-    |
 NoiseTexture -> Building height
 Random -> Building type
-    |
 Transform (position, height)
-    |
 Cube (building)
-    |
 PBRMaterial (building texture)
 ```
 
@@ -1733,15 +1540,10 @@ PBRMaterial (building texture)
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 Time -> Sin -> Wave offset
-    |
 Plane (subdivided)
-    |
 Vertex shader (displace vertices)
-    |
 WaterMaterial
     +-- Normal map (animated)
     +-- Reflection (scene)
@@ -1753,19 +1555,12 @@ WaterMaterial
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 [Main scene]
-    |
 PortalCamera (different view)
-    |
 RenderToTexture (portal view)
-    |
 Plane (portal frame)
-    |
 Material (portal texture)
-    |
 Stencil buffer (mask to portal shape)
 ```
 
@@ -1773,21 +1568,13 @@ Stencil buffer (mask to portal shape)
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 [Pass 1: Opaque objects]
-    |
 RenderToTexture
-    |
 [Pass 2: Transparent objects]
-    |
 Blend with Pass 1
-    |
 [Pass 3: Effects]
-    |
 Blend all passes
-    |
 Post-processing
 ```
 
@@ -1799,11 +1586,8 @@ Animate characters with bones:
 
 ```
 Skeleton (bone hierarchy)
-    |
 Animation data (keyframes)
-    |
 Skin weights (vertex -> bone influence)
-    |
 AnimatedMesh
 ```
 
@@ -1827,7 +1611,6 @@ Generate animation with code:
 
 ```
 Time -> Math functions -> Transform values
-    |
 Apply to objects
 ```
 
@@ -1921,11 +1704,8 @@ Reuse objects instead of creating/destroying:
 
 ```
 Pool of inactive objects
-    |
 Activate when needed
-    |
 Deactivate when done
-    |
 Return to pool
 ```
 
@@ -1949,7 +1729,6 @@ Decouple object interactions:
 EventEmitter
     +-- Subscribe (listener)
     +-- Emit (event)
-    |
 Objects react to events
 ```
 
@@ -2052,29 +1831,29 @@ Author: Channel Name
 
 ### Intermediate
 
-6. Create a procedural terrain with noise
-7. Build an instanced forest with 100+ trees
-8. Implement a three-point lighting setup
-9. Create a water surface with animated waves
-10. Build a particle system with physics
-11. Create a portal effect with dual cameras
-12. Implement post-processing effects (bloom, SSAO)
-13. Build an audio-reactive 3D visualization
-14. Create a morphing object animation
-15. Implement a character with skeletal animation
+1. Create a procedural terrain with noise
+2. Build an instanced forest with 100+ trees
+3. Implement a three-point lighting setup
+4. Create a water surface with animated waves
+5. Build a particle system with physics
+6. Create a portal effect with dual cameras
+7. Implement post-processing effects (bloom, SSAO)
+8. Build an audio-reactive 3D visualization
+9. Create a morphing object animation
+10. Implement a character with skeletal animation
 
 ### Advanced
 
-16. Build a complete scene with LOD system
-17. Create a volumetric fog effect
-18. Implement screen-space reflections
-19. Build a physics-based simulation
-20. Create a procedural city generator
-21. Implement a multi-pass rendering pipeline
-22. Build an interactive 3D game scene
-23. Create advanced post-processing chain
-24. Implement custom shader materials
-25. Build a complex scene with optimization techniques
+1. Build a complete scene with LOD system
+2. Create a volumetric fog effect
+3. Implement screen-space reflections
+4. Build a physics-based simulation
+5. Create a procedural city generator
+6. Implement a multi-pass rendering pipeline
+7. Build an interactive 3D game scene
+8. Create advanced post-processing chain
+9. Implement custom shader materials
+10. Build a complex scene with optimization techniques
 
 ## Project Ideas
 

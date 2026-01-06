@@ -62,7 +62,6 @@ The core op for audio-reactive visuals:
 
 ```
 AudioSource -> AudioAnalyzer
-                   |
     Outputs: FFT, Volume, Bass, Mid, High
 ```
 
@@ -79,7 +78,6 @@ Breaks audio into frequency bands:
 
 ```
 AudioAnalyzer -> FFTArray -> ArrayIterator
-                              |
                         Visualize each band
 ```
 
@@ -107,17 +105,11 @@ AudioAnalyzer (volume) -> Scale input of shape
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 AudioAnalyzer -> FFTArray
-    |
 ArrayIterator
-    |
 Transform (X position from index)
-    |
 Transform (Y scale from FFT value)
-    |
 Rectangle
 ```
 
@@ -132,7 +124,6 @@ HSBtoRGB -> BasicMaterial (color input)
 
 ```
 AudioAnalyzer (volume) -> Threshold -> Trigger
-                             |
                     (triggers on beat)
 ```
 
@@ -190,7 +181,6 @@ AudioSource -> Compressor -> Output
 
 ```
 AudioFile (your music)
-    |
 AudioAnalyzer
 ```
 
@@ -198,7 +188,6 @@ AudioAnalyzer
 
 ```
 MainLoop
-    |
 Camera (for 3D) or BasicMaterial (for 2D)
 ```
 
@@ -208,13 +197,9 @@ Camera (for 3D) or BasicMaterial (for 2D)
 
 ```
 MainLoop -> BasicMaterial
-                |
 AudioAnalyzer (volume)
-    |
 Smooth (for smoother animation)
-    |
 Math (multiply by desired scale)
-    |
 Circle (size input)
 ```
 
@@ -222,13 +207,9 @@ Circle (size input)
 
 ```
 AudioAnalyzer -> FFTArray
-    |
 ArrayIterator (iterate through frequencies)
-    |
 Index -> Calculate X position
-    |
 FFT Value -> Calculate height/color
-    |
 Rectangle (bar for each frequency)
 ```
 
@@ -238,9 +219,7 @@ Rectangle (bar for each frequency)
 
 ```
 AudioFile
-    |
 BPMSync (set your song's BPM)
-    |
 Beat triggers for animations
 ```
 
@@ -332,11 +311,8 @@ The simplest fix for “machine-gun” beats is gating:
 
 ```
 AudioAnalyzer (volume or bass)
-  |
 Threshold (set just above noise floor)
-  |
 (Gate / minimum time between triggers)
-  |
 Trigger (spawn / flash / step timeline)
 ```
 
@@ -362,11 +338,8 @@ Conceptually:
 
 ```
 AudioAnalyzer -> FFTArray
-  |
 ArrayIterator (N bands)
-  |
 Transform (X from index, Y scale from FFT)
-  |
 Cube (bar)
 ```
 
@@ -386,17 +359,11 @@ HSBtoRGB -> BasicMaterial (color)
 
 ```
 MainLoop
-    |
 AudioFile -> AudioAnalyzer (bass)
-    |
 Smooth (0.9)
-    |
 Map (0-1 to desired range)
-    |
 HSBtoRGB (bass controls saturation) -> BasicMaterial (color input)
-    |
 BasicMaterial
-    |
 FullscreenRectangle
 ```
 
@@ -404,17 +371,11 @@ FullscreenRectangle
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 AudioAnalyzer -> FFTArray
-    |
 ArrayIterator
-    |
 Transform (rotate based on index)
-    |
 Transform (translate by FFT value)
-    |
 Circle (small)
 ```
 
@@ -422,11 +383,8 @@ Circle (small)
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 AudioAnalyzer -> WaveformArray
-    |
 PointCloud or LineStrip
 ```
 
@@ -434,17 +392,11 @@ PointCloud or LineStrip
 
 ```
 MainLoop
-    |
 Camera -> OrbitControls
-    |
 AudioAnalyzer -> FFTArray
-    |
 ArrayIterator (creates ring)
-    |
 Transform (position in circle)
-    |
 Transform (scale Y by FFT)
-    |
 Cube
 ```
 

@@ -50,7 +50,7 @@ bool c = true;
 
 // Vectors
 vec2 uv = vec2(0.5, 0.5);
-vec3 color = vec3(1.0, 0.0, 0.0);  // RGB
+vec3 color = vec3(1.0, 0.0, 0.0); // RGB
 vec4 rgba = vec4(1.0, 1.0, 1.0, 1.0);
 
 // Matrices
@@ -66,10 +66,10 @@ Access vector components in any order:
 
 ```glsl
 vec4 color = vec4(1.0, 0.5, 0.25, 1.0);
-vec3 rgb = color.rgb;    // (1.0, 0.5, 0.25)
-vec2 rg = color.rg;      // (1.0, 0.5)
-float r = color.r;       // 1.0
-vec3 bgr = color.bgr;    // (0.25, 0.5, 1.0) - reversed!
+vec3 rgb = color.rgb; // (1.0, 0.5, 0.25)
+vec2 rg = color.rg; // (1.0, 0.5)
+float r = color.r; // 1.0
+vec3 bgr = color.bgr; // (0.25, 0.5, 1.0) - reversed!
 ```
 
 ### Built-in Functions
@@ -84,7 +84,7 @@ min(a, b), max(a, b)
 clamp(x, min, max)
 
 // Interpolation
-mix(a, b, t)           // Linear interpolation
+mix(a, b, t) // Linear interpolation
 smoothstep(edge0, edge1, x)
 
 // Vector operations
@@ -106,7 +106,7 @@ A simple color gradient:
 // Fragment Shader
 precision mediump float;
 
-varying vec2 vUV;  // UV coordinates from vertex shader
+varying vec2 vUV; // UV coordinates from vertex shader
 
 void main() {
     // Create gradient based on UV
@@ -122,7 +122,7 @@ void main() {
 
 ```glsl
 void main() {
-    gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);  // Red
+    gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); // Red
 }
 ```
 
@@ -174,10 +174,10 @@ void main() {
 Uniforms are values passed from cables.gl to your shader:
 
 ```glsl
-uniform float time;        // Current time
-uniform vec2 resolution;   // Canvas size
-uniform sampler2D tex;     // Texture
-uniform vec3 color;        // Custom color
+uniform float time; // Current time
+uniform vec2 resolution; // Canvas size
+uniform sampler2D tex; // Texture
+uniform vec3 color; // Custom color
 ```
 
 In cables.gl, connect ops to shader uniform inputs.
@@ -799,8 +799,8 @@ void main() {
     vec2 correctedUV = applyHomography(homographyMatrix, vUV);
     
     // Check if point is within bounds
-    if (correctedUV.x < 0.0 || correctedUV.x > 1.0 || 
-        correctedUV.y < 0.0 || correctedUV.y > 1.0) {
+    if (correctedUV.x < 0.0 correctedUV.x > 1.0 
+        correctedUV.y < 0.0 correctedUV.y > 1.0) {
         gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0); // Black outside bounds
     } else {
         vec3 color = texture2D(tex, correctedUV).rgb;
@@ -839,8 +839,8 @@ void main() {
     vec2 correctedUV = barrelDistortion(vUV, barrelStrength);
     
     // Only sample if within bounds
-    if (correctedUV.x < 0.0 || correctedUV.x > 1.0 || 
-        correctedUV.y < 0.0 || correctedUV.y > 1.0) {
+    if (correctedUV.x < 0.0 correctedUV.x > 1.0 
+        correctedUV.y < 0.0 correctedUV.y > 1.0) {
         gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
     } else {
         vec3 color = texture2D(tex, correctedUV).rgb;
@@ -878,8 +878,8 @@ vec2 pincushionDistortion(vec2 uv, float strength) {
 void main() {
     vec2 correctedUV = pincushionDistortion(vUV, pincushionStrength);
     
-    if (correctedUV.x < 0.0 || correctedUV.x > 1.0 || 
-        correctedUV.y < 0.0 || correctedUV.y > 1.0) {
+    if (correctedUV.x < 0.0 correctedUV.x > 1.0 
+        correctedUV.y < 0.0 correctedUV.y > 1.0) {
         gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
     } else {
         vec3 color = texture2D(tex, correctedUV).rgb;
@@ -942,7 +942,7 @@ void main() {
     uv = applyDistortion(uv, barrelAmount, pincushionAmount);
     uv = perspectiveTransform(uv, topLeft, topRight, bottomLeft, bottomRight);
     
-    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {
+    if (uv.x < 0.0 uv.x > 1.0 uv.y < 0.0 uv.y > 1.0) {
         gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
     } else {
         vec3 color = texture2D(tex, uv).rgb;
@@ -989,8 +989,8 @@ float getZoneMask(vec2 uv, vec4 zone) {
     }
     
     // Check if outside zone
-    if (uv.x < zoneMin.x || uv.x > zoneMax.x || 
-        uv.y < zoneMin.y || uv.y > zoneMax.y) {
+    if (uv.x < zoneMin.x uv.x > zoneMax.x 
+        uv.y < zoneMin.y uv.y > zoneMax.y) {
         mask = 0.0;
     }
     
@@ -1029,7 +1029,7 @@ float getBlendMask(vec2 uv, vec4 zone, float width, float direction) {
     float mask = 1.0;
     
     // Use float comparisons instead of int (cables.gl compatibility)
-    if (direction < 0.5 || direction > 1.5) {
+    if (direction < 0.5 direction > 1.5) {
         // Horizontal blend (direction == 0.0 or 2.0)
         float distToCenter = abs(uv.x - zoneCenter.x);
         float zoneWidth = zone.z;
@@ -1039,7 +1039,7 @@ float getBlendMask(vec2 uv, vec4 zone, float width, float direction) {
         }
     }
     
-    if (direction > 0.5 && direction < 1.5 || direction > 1.5) {
+    if (direction > 0.5 && direction < 1.5 direction > 1.5) {
         // Vertical blend (direction == 1.0 or 2.0)
         float distToCenter = abs(uv.y - zoneCenter.y);
         float zoneHeight = zone.w;
@@ -1253,8 +1253,8 @@ float getFeatherBlend(vec2 uv, vec4 rect, float feather, float curve) {
     }
     
     // Check if outside rectangle
-    if (uv.x < rectMin.x || uv.x > rectMax.x || 
-        uv.y < rectMin.y || uv.y > rectMax.y) {
+    if (uv.x < rectMin.x uv.x > rectMax.x 
+        uv.y < rectMin.y uv.y > rectMax.y) {
         mask = 0.0;
     }
     
@@ -1636,7 +1636,7 @@ void main() {
     uv = perspectiveTransform(uv, topLeft, topRight, bottomLeft, bottomRight);
     
     // Step 2: Sample texture
-    if (uv.x < 0.0 || uv.x > 1.0 || uv.y < 0.0 || uv.y > 1.0) {
+    if (uv.x < 0.0 uv.x > 1.0 uv.y < 0.0 uv.y > 1.0) {
         gl_FragColor = vec4(0.0, 0.0, 0.0, 0.0);
         return;
     }
@@ -2104,7 +2104,7 @@ Author: cables_gl
 
 ```vid
 https://youtu.be/j_ins4RW0c8
-Title: Shadertoy to cables - part  01
+Title: Shadertoy to cables - part 01
 Author: cables_gl
 ```
 

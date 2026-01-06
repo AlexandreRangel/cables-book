@@ -96,22 +96,14 @@ Use texture-based gradients or shader-generated gradients for smooth color trans
 The `Transform` op modifies position, rotation, and scale of all following shapes.
 
 ```
-+-------------------------------------------------------------+
-|                    TRANSFORM PIPELINE                        |
-+-------------------------------------------------------------+
-|                                                               |
-|  MainLoop                                                     |
-|    |                                                          |
-|  BasicMaterial                                               |
-|    |                                                          |
-|  Transform                                                    |
-|    +-> Position (X, Y, Z)                                    |
-|    +-> Rotation (X, Y, Z)                                    |
-|    +-> Scale                                                   |
-|    |                                                          |
-|  Shape (Circle, Rectangle, etc.)                            |
-|                                                               |
-+-------------------------------------------------------------+
+TRANSFORM PIPELINE
+MainLoop
+BasicMaterial
+Transform
++-> Position (X, Y, Z)
++-> Rotation (X, Y, Z)
++-> Scale
+Shape (Circle, Rectangle, etc.)
 ```
 
 **Parameters:**
@@ -125,23 +117,15 @@ Transformations are applied in order. These produce different results:
 
 **Rotate then Translate:**
 ```
-+-------------------------------------------------------------+
-|              ROTATE THEN TRANSLATE                           |
-+-------------------------------------------------------------+
-|                                                               |
-|  Original Position                                            |
-|      o                                                        |
-|                                                               |
-|  Step 1: Rotate 45 degrees                                    |
-|      o                                                        |
-|      (rotate)                                                 |
-|                                                               |
-|  Step 2: Translate Right                                      |
-|            -> o                                                 |
-|                                                               |
-|  Result: Object rotates around origin, then moves            |
-|                                                               |
-+-------------------------------------------------------------+
+ROTATE THEN TRANSLATE
+Original Position
+o
+Step 1: Rotate 45 degrees
+o
+(rotate)
+Step 2: Translate Right
+-> o
+Result: Object rotates around origin, then moves
 ```
 
 ```
@@ -150,22 +134,14 @@ Transform (rotate) -> Transform (translate) -> Shape
 
 **Translate then Rotate:**
 ```
-+-------------------------------------------------------------+
-|              TRANSLATE THEN ROTATE                          |
-+-------------------------------------------------------------+
-|                                                               |
-|  Original Position                                            |
-|      o                                                        |
-|                                                               |
-|  Step 1: Translate Right                                      |
-|            -> o                                                |
-|                                                               |
-|  Step 2: Rotate 45 degrees (around new position)              |
-|            (rotate) o                                         |
-|                                                               |
-|  Result: Object moves first, then rotates around new origin  |
-|                                                               |
-+-------------------------------------------------------------+
+TRANSLATE THEN ROTATE
+Original Position
+o
+Step 1: Translate Right
+-> o
+Step 2: Rotate 45 degrees (around new position)
+(rotate) o
+Result: Object moves first, then rotates around new origin
 ```
 
 ```
@@ -177,10 +153,8 @@ Transform (translate) -> Transform (rotate) -> Shape
 Create hierarchies by chaining transforms:
 
 ```
-Transform (parent) 
-    |
+Transform (parent)
 Transform (child)
-    |
 Shape
 ```
 
@@ -271,11 +245,8 @@ Build complex motion by layering transforms:
 **Example: Orbital Motion**
 ```
 Transform (parent orbit)
-    |
 Transform (child rotation)
-    |
 Transform (child offset)
-    |
 Shape
 ```
 
@@ -289,7 +260,7 @@ Create draggable, clickable UI elements:
 
 ```
 InteractiveRectangle
-    | (outputs X, Y, Width, Height on interaction)
+    (outputs X, Y, Width, Height on interaction)
 Control other ops with mouse input
 ```
 
@@ -317,12 +288,9 @@ Mouse -> Map (screen to world coords) -> Visual property
 
 ```
 MainLoop
-    |
 MouseX -> Map (0 to 1) -> Hue
 MouseY -> Map (0 to 1) -> Brightness
-    |
 HSBtoRGB -> BasicMaterial (color input)
-    |
 FullscreenRectangle
 ```
 
@@ -335,17 +303,11 @@ Create evolving, self-referential visuals by feeding output back as input:
 **Basic Feedback Setup:**
 ```
 MainLoop
-    |
 RenderToTexture (previous frame)
-    |
 ImageCompose (blend with new content)
-    |
 Transform (slight scale/rotate)
-    |
 TextureEffects (blur, fade)
-    |
 Draw new shapes
-    |
 Output (becomes next frame's input)
 ```
 
@@ -363,11 +325,8 @@ Create optical illusions with overlapping patterns:
 
 ```
 IteratorLoop (creates grid)
-    |
 Time -> Sin -> Rotation angle
-    |
 IteratorLoop (nested for lines)
-    |
 Rectangle (thin line)
 ```
 
@@ -384,20 +343,15 @@ Use noise and math to create endless variations:
 **Perlin Noise-Based Patterns:**
 ```
 IteratorLoop
-    |
 Position -> NoiseTexture sample
-    |
 Noise value -> Circle size
-    |
 Noise value -> Color
 ```
 
 **Grid Distortion:**
 ```
 IteratorLoop (grid)
-    |
 Position + (Noise * distortion amount)
-    |
 Shape
 ```
 
@@ -411,9 +365,7 @@ Layer multiple render passes for rich effects:
 RenderToTexture (Pass 1: Shapes)
 RenderToTexture (Pass 2: Glow)
 RenderToTexture (Pass 3: Noise)
-    |
 ImageCompose (blend all layers)
-    |
 Final Output
 ```
 
@@ -429,18 +381,15 @@ RenderToTexture -> TextureEffects (Blur) -> Output
 **Color Grading:**
 ```
 RenderToTexture -> ColorCorrection
-    | (adjust hue, saturation, brightness, contrast)
+    (adjust hue, saturation, brightness, contrast)
 Output
 ```
 
 **Glow Effect:**
 ```
 Original scene
-    |
 RenderToTexture (bright pass)
-    |
 Blur (large radius)
-    |
 ImageCompose (add to original)
 ```
 
@@ -475,11 +424,8 @@ Simple particle engine structure:
 
 ```
 ArrayLoop (particle count)
-    |
 Particle data (position, velocity, life)
-    |
 Physics update (gravity, friction)
-    |
 Transform -> Circle (particle visual)
 ```
 
@@ -489,11 +435,8 @@ Cellular automata and Game of Life patterns:
 
 ```
 ArrayIterator (grid cells)
-    |
 Cell state + neighbor count
-    |
 Update rules (Conway's rules, etc.)
-    |
 Visual representation
 ```
 
@@ -506,19 +449,15 @@ Create custom charts and graphs:
 **Bar Chart:**
 ```
 ArrayIterator (data values)
-    |
 Index -> X position
 Value -> Rectangle height
-    |
 Rectangle (bar)
 ```
 
 **Line Chart:**
 ```
 ArrayIterator (data points)
-    |
 Connect points with Lines op
-    |
 Add circles for data points
 ```
 
@@ -544,12 +483,10 @@ Apache ECharts is a powerful open-source charting library that integrates seamle
 
 ```
 MainLoop
-    |
 ECharts Op
     +-> Option (JSON configuration)
     +-> Width / Height
     +-> Data inputs
-    |
 ECharts Instance -> Use in other ops
 ```
 
@@ -576,15 +513,10 @@ ECharts Instance -> Use in other ops
 
 ```
 WebSocket (data stream)
-    |
 ParseJSON -> Extract values
-    |
 Array (rolling buffer of last N values)
-    |
 ECharts Op (line chart config)
-    |
 Render to texture
-    |
 Apply glow effect
 ```
 
@@ -592,11 +524,9 @@ Apply glow effect
 
 ```
 ECharts Op (pie chart)
-    |
 EChartsEvent Op
     +-> Click event -> Trigger actions
     +-> Hover event -> Show details
-    |
 Update other visuals based on selection
 ```
 
@@ -604,11 +534,8 @@ Update other visuals based on selection
 
 ```
 ECharts Op -> Render to texture
-    |
 Plane3D (apply texture)
-    |
 Transform (rotate in 3D space)
-    |
 Post-processing (glow, bloom)
 ```
 
@@ -638,9 +565,7 @@ Visualize live data streams:
 
 ```
 WebSocket/API -> Parse data
-    |
 ArrayIterator -> Visualize each value
-    |
 Smooth/Interpolate for fluid animation
 ```
 
@@ -650,15 +575,10 @@ Smooth/Interpolate for fluid animation
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 IteratorLoop (6 segments)
-    |
 Transform (rotate by index * 60°)
-    |
 Transform (mirror flip alternating)
-    |
 Your content (shapes, webcam, etc.)
 ```
 
@@ -666,14 +586,10 @@ Your content (shapes, webcam, etc.)
 
 ```
 AudioAnalyzer (beat detection)
-    |
 IteratorLoop (circle of dots)
-    |
 Index + Time -> Rotation
 Beat amplitude -> Scale pulse
-    |
 SetColor (beat changes color)
-    |
 Circle (dot)
 ```
 
@@ -681,13 +597,10 @@ Circle (dot)
 
 ```
 API -> Fetch weather data
-    |
 Parse JSON -> Extract values
-    |
 Temperature -> Background color
 Humidity -> Particle density
 Wind -> Animation speed
-    |
 Animated scene reflecting weather
 ```
 
@@ -695,15 +608,10 @@ Animated scene reflecting weather
 
 ```
 RenderToTexture (previous frame)
-    |
 Transform (scale 1.05, center pivot)
-    |
 SetAlpha (0.98 for fade)
-    |
 Draw to screen
-    |
 Add new circles at edges
-    |
 Feed back into texture
 ```
 
@@ -713,13 +621,9 @@ Creates an infinite tunnel effect.
 
 ```
 MousePosition
-    |
 RenderToTexture (with feedback)
-    |
 ColorCorrection (reduce brightness)
-    |
 Draw circle at mouse position
-    |
 Blend with previous frame
 ```
 
@@ -765,11 +669,8 @@ Group similar operations:
 
 ```
 SetColor once
-    |
 Draw all shapes of same color
-    |
 SetColor again
-    |
 Draw next batch
 ```
 
@@ -783,13 +684,9 @@ Use shapes as masks for other shapes:
 
 ```
 EnableStencil
-    |
 Draw mask shape (Circle)
-    |
 SetStencilMode (draw only inside)
-    |
 Draw content (Rectangle)
-    |
 DisableStencil
 ```
 
@@ -799,7 +696,6 @@ Use texture alpha for complex masks:
 
 ```
 MaskTexture -> AlphaMask
-    |
 Your content (masked by texture)
 ```
 
@@ -836,9 +732,7 @@ Smooth color transitions:
 **Linear Gradient:**
 ```
 IteratorLoop (steps)
-    |
 Index / TotalSteps -> Mix (Color1, Color2, t)
-    |
 SetColor -> Rectangle strip
 ```
 
@@ -865,9 +759,7 @@ Use text rendering for effects:
 
 ```
 TextTexture (render text to texture)
-    |
 Apply shader effects
-    |
 Use as sprite or background
 ```
 
@@ -877,11 +769,8 @@ Animate individual letters:
 
 ```
 TextArray (split into chars)
-    |
 ArrayIterator
-    |
 Transform (unique per character)
-    |
 DrawText (single char)
 ```
 
@@ -891,11 +780,8 @@ DrawText (single char)
 
 ```
 MainLoop
-    |
 BasicMaterial (set your color)
-    |
 Time -> Sin -> Scale input
-    |
 Circle
 ```
 
@@ -903,15 +789,10 @@ Circle
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 IteratorLoop (10x10)
-    |
 Transform (position from iterator)
-    |
 Transform (rotation from Time)
-    |
 Rectangle
 ```
 
@@ -919,13 +800,9 @@ Rectangle
 
 ```
 MainLoop
-    |
 IteratorLoop (for each ring)
-    |
 IteratorIndex -> Map to Hue -> HSBtoRGB -> BasicMaterial (color input)
-    |
 BasicMaterial
-    |
 Circle (radius from iterator index)
 ```
 
@@ -961,7 +838,6 @@ Document complex sections:
 
 ```
 Comment ("This section creates the feedback loop")
-    |
 Your complex patch area
 ```
 
@@ -973,11 +849,9 @@ Arrange shapes in a circle:
 
 ```
 IteratorLoop (count)
-    |
 Index * (360 / count) -> Angle
 Angle -> Cos -> X position
 Angle -> Sin -> Y position
-    |
 Transform -> Shape
 ```
 
@@ -987,11 +861,8 @@ Create wave motion across a grid:
 
 ```
 IteratorLoop (rows)
-    |
 IteratorLoop (columns)
-    |
 (X + Time) -> Sin -> Y offset
-    |
 Transform -> Shape
 ```
 
@@ -1001,12 +872,9 @@ Generate spiral patterns:
 
 ```
 IteratorLoop
-    |
 Index -> Angle (index * goldenAngle)
 Index -> Radius (sqrt(index) * spacing)
-    |
 Polar to Cartesian
-    |
 Transform -> Shape
 ```
 
@@ -1017,9 +885,7 @@ Grid that adapts to screen size:
 ```
 ViewportWidth / CellSize -> Columns
 ViewportHeight / CellSize -> Rows
-    |
 IteratorLoop (columns * rows)
-    |
 Grid positioning logic
 ```
 
@@ -1091,22 +957,25 @@ Author: Kirell Benzi
 ## Exercises
 
 ### Beginner
+
 1. Create a colorful loading spinner using rotating circles
 2. Build a grid of squares that change color based on mouse position
 3. Make a simple particle system with random positions and sizes
 
 ### Intermediate
-4. Create a kaleidoscope effect with 8 mirrored segments
-5. Build an interactive color picker using mouse position
-6. Implement a feedback tunnel with infinite zoom effect
-7. Create a data visualization showing time-series data as animated bars
+
+1. Create a kaleidoscope effect with 8 mirrored segments
+2. Build an interactive color picker using mouse position
+3. Implement a feedback tunnel with infinite zoom effect
+4. Create a data visualization showing time-series data as animated bars
 
 ### Advanced
-8. Build a generative Op Art piece using feedback loops
-9. Create a particle system with physics (gravity, collision)
-10. Implement a cellular automaton (Game of Life or similar)
-11. Create an audio-reactive geometric pattern generator
-12. Build a real-time weather visualization using API data
+
+1. Build a generative Op Art piece using feedback loops
+2. Create a particle system with physics (gravity, collision)
+3. Implement a cellular automaton (Game of Life or similar)
+4. Create an audio-reactive geometric pattern generator
+5. Build a real-time weather visualization using API data
 
 ## Project Ideas
 

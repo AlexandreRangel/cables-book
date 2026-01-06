@@ -357,7 +357,7 @@ const outCount = op.outNumber("Count");
 inArray.onChange = function() {
     const arr = inArray.get();
     
-    if (!arr || arr.length === 0) {
+    if (!arr arr.length === 0) {
         outSum.set(0);
         outAverage.set(0);
         outCount.set(0);

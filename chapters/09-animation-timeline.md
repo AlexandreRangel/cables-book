@@ -62,8 +62,8 @@ Transform linear time into smooth curves:
 
 **Ease In (slow start):**
 ```glsl
-t * t  // Quadratic
-t * t * t  // Cubic
+t * t // Quadratic
+t * t * t // Cubic
 ```
 
 **Ease Out (slow end):**
@@ -109,15 +109,11 @@ TargetValue -> Spring -> AnimatedValue
 ### Timeline Interface
 
 ```
-+-----------------------------------------------------+
-| [Play][Pause][Stop] [Time: 00:00:00]  [BPM: 120]   |
-+-----------------------------------------------------+
-| Property Name  | o----o--------o----o---------     |
-| Property 2     | o---------o------o--------        |
-| Property 3     | o---------------o----------       |
-+-----------------------------------------------------+
-| <- 0s        5s        10s       15s       20s ->    |
-+-----------------------------------------------------+
+[Play][Pause][Stop] [Time: 00:00:00] [BPM: 120]
+Property Name o----o--------o----o---------
+Property 2 o---------o------o--------
+Property 3 o---------------o----------
+<- 0s 5s 10s 15s 20s ->
 ```
 
 ### Adding Keyframes
@@ -217,13 +213,9 @@ Multiple clips can be **added together** to create combined effects:
 
 ```
 Base Value
-    |
 Anim Clip 1 ("bounce") -> Add
-    |
 Anim Clip 2 ("rotate") -> Add
-    |
 Anim Clip 3 ("scale") -> Add
-    |
 Final Animated Value
 ```
 
@@ -236,11 +228,8 @@ Final Animated Value
 **Example: Character Animation**
 ```
 Idle Clip (continuous breathing)
-    |
 Walk Clip (additive, triggered on movement)
-    |
 Jump Clip (additive, triggered on jump)
-    |
 Final Position
 ```
 
@@ -250,8 +239,7 @@ Clips can be **mixed** with different weights to blend between animations:
 
 ```
 Clip A ("walk") -> Mix (weight: 0.7)
-Clip B ("run")  -> Mix (weight: 0.3)
-    |
+Clip B ("run") -> Mix (weight: 0.3)
 Blended Animation
 ```
 
@@ -263,8 +251,7 @@ Blended Animation
 **Example: Walk-to-Run Transition**
 ```
 Walk Clip -> Mix (weight: 1.0 - runProgress)
-Run Clip  -> Mix (weight: runProgress)
-    |
+Run Clip -> Mix (weight: runProgress)
 Smooth transition from walk to run
 ```
 
@@ -294,7 +281,6 @@ Apply clips at different time offsets:
 
 ```
 Clip "bounce" (duration: 2s)
-    |
 Apply at t=0s: Full clip
 Apply at t=5s: Clip starts here
 Apply at t=10s: Clip with 0.5x speed (time remap)
@@ -307,7 +293,6 @@ Use clips to mask or modulate other animations:
 ```
 Base Animation -> Multiply
 Clip "mask" (0 to 1) -> Multiply
-    |
 Masked Animation (only active where mask = 1)
 ```
 
@@ -480,7 +465,7 @@ inTime.onChange = function() {
     const blend = inBlendFactor.get();
     const t = inTime.get();
     
-    if (!clipA || !clipB) return;
+    if (!clipA !clipB) return;
     
     // Sample both clips at time t
     const valueA = sampleClip(clipA, t);
@@ -493,7 +478,7 @@ inTime.onChange = function() {
 
 function sampleClip(clip, time) {
     const keyframes = clip.keyframes;
-    if (!keyframes || keyframes.length === 0) return 0;
+    if (!keyframes keyframes.length === 0) return 0;
     
     // Clamp time to clip duration
     time = time % clip.duration;
@@ -528,7 +513,7 @@ inTime.onChange = function() {
     const clips = inClips.get();
     const t = inTime.get();
     
-    if (!clips || clips.length === 0) {
+    if (!clips clips.length === 0) {
         outCombinedValue.set(0);
         return;
     }
@@ -550,7 +535,7 @@ inTime.onChange = function() {
 ```javascript
 // Custom op with advanced easing functions
 const inValue = op.inFloat("Input (0-1)", 0);
-const inEasingType = op.inSwitch("Easing", 
+const inEasingType = op.inSwitch("Easing",
     ["linear", "easeInQuad", "easeOutQuad", "easeInOutQuad", 
      "easeInCubic", "easeOutCubic", "easeInOutCubic",
      "easeInElastic", "easeOutBounce"], 
@@ -810,9 +795,7 @@ Animate multiple items with offset timing:
 
 ```
 ArrayIterator
-    |
 Index -> Delay offset
-    |
 AnimatedProperty
 ```
 
@@ -1026,13 +1009,9 @@ This produces camera movement that feels “alive” but still controlled.
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 Time -> Sin -> Abs -> Y position
-    |
 Transform
-    |
 Circle
 ```
 
@@ -1040,16 +1019,11 @@ Circle
 
 ```
 MainLoop
-    |
 Camera
-    |
 ArrayIterator (items)
-    |
 Time + (Index * offset) -> Cos -> X position
 Time + (Index * offset) -> Sin -> Z position
-    |
 Transform
-    |
 Item
 ```
 
@@ -1057,13 +1031,9 @@ Item
 
 ```
 MainLoop
-    |
 BasicMaterial
-    |
 ArrayIterator
-    |
 Time - (Index * staggerDelay) -> Clamp (0, 1) -> BasicMaterial (alpha input)
-    |
 Shape
 ```
 
@@ -1084,13 +1054,9 @@ Create a character with multiple animation layers:
 
 ```
 Base Position (0, 0, 0)
-    |
 Anim Clip "idleBreath" (vertical oscillation) -> Add
-    |
 Anim Clip "walkCycle" (horizontal movement, triggered) -> Add
-    |
 Anim Clip "jump" (vertical boost, triggered) -> Add
-    |
 Final Position -> Transform
 ```
 
@@ -1107,8 +1073,7 @@ Smooth transition between walk and run:
 
 ```
 Walk Clip -> Anim (weight: 1.0 - runBlend)
-Run Clip  -> Anim (weight: runBlend)
-    |
+Run Clip -> Anim (weight: runBlend)
 Mix -> Final Position
 ```
 
@@ -1146,7 +1111,6 @@ Game State -> Custom Op
     +-> State = "walk": Play "walk" clip
     +-> State = "run": Play "run" clip
     +-> State = "jump": Play "jump" clip (one-shot)
-    |
 Selected Clip -> Anim -> Position
 ```
 
@@ -1195,10 +1159,8 @@ Combine procedural physics with keyframed animation:
 
 ```
 Anim Clip "baseMotion" (keyframed path)
-    |
 Add
 Physics Force (gravity, wind) -> Integrate -> Add
-    |
 Final Position
 ```
 
@@ -1236,9 +1198,7 @@ Play different clips based on conditions:
 ```
 Condition A -> If (True: Clip A, False: Clip B)
 Condition B -> If (True: Clip C, False: Clip D)
-    |
 Mix (blend between conditional results)
-    |
 Final Animation
 ```
 
@@ -1281,27 +1241,29 @@ Author: Channel Name
 ## Exercises
 
 ### Basic Animation
+
 1. Create a loading animation with staggered dots
 2. Build an interactive hover animation
 3. Design a full intro sequence with timeline
-4. Create a physics-based pendulum
+4. Create a physics-based pendulumw
 
 ### Animation Clips
-5. Create a reusable "bounce" clip and apply it to 5 different objects
-6. Build a character animation system with 3 additive clips (idle, walk, jump)
-7. Create a smooth walk-to-run transition using clip blending
-8. Design a clip library with 5 common animations (fade, slide, scale, rotate, bounce)
+
+1. Create a reusable "bounce" clip and apply it to 5 different objects
+2. Build a character animation system with 3 additive clips (idle, walk, jump)
+3. Create a smooth walk-to-run transition using clip blending
+4. Design a clip library with 5 common animations (fade, slide, scale, rotate, bounce)
 
 ### JavaScript Integration
-9. Build a custom op that generates a sine wave animation clip programmatically
-10. Create an animation controller op with play/pause/stop/seek functionality
-11. Design a custom op that blends two animation clips with a configurable blend factor
-12. Build a state machine op that switches between different animation clips based on input
+
+1. Build a custom op that generates a sine wave animation clip programmatically
+2. Create an animation controller op with play/pause/stop/seek functionality
+3. Design a custom op that blends two animation clips with a configurable blend factor
+4. Build a state machine op that switches between different animation clips based on input
 
 ### Advanced
-13. Combine procedural animation (Time -> Sin) with a keyframed clip using additive blending
-14. Create a custom easing function op and apply it to an animation clip
-15. Build a system that plays different animation clips based on user interaction (mouse, keyboard, touch)
-16. Design a complex scene with multiple objects, each using a combination of clips and procedural motion
 
----
+1. Combine procedural animation (Time -> Sin) with a keyframed clip using additive blending
+2. Create a custom easing function op and apply it to an animation clip
+3. Build a system that plays different animation clips based on user interaction (mouse, keyboard, touch)
+4. Design a complex scene with multiple objects, each using a combination of clips and procedural motion

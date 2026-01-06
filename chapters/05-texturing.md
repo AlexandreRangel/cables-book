@@ -62,31 +62,16 @@ WebcamTexture -> Material (texture input)
 UV coordinates define how textures wrap onto geometry:
 
 ```
-+-------------------------------------------------------------+
-|                    UV COORDINATE SYSTEM                      |
-+-------------------------------------------------------------+
-|                                                               |
-|  Texture (Image)                                              |
-|  +-------------------------+                                |
-|  | U=0,V=0        U=1,V=0  |  <- Top edge                    |
-|  |                         |                                |
-|  |                         |                                |
-|  |                         |                                |
-|  | U=0,V=1        U=1,V=1  |  <- Bottom edge                |
-|  +-------------------------+                                |
-|                                                               |
-|  Mapped to 3D Geometry:                                      |
-|                                                               |
-|        U=0,V=0 ------------ U=1,V=0                         |
-|           |                      |                           |
-|           |     3D Surface      |                           |
-|           |                      |                           |
-|        U=0,V=1 ------------ U=1,V=1                         |
-|                                                               |
-|  - U = Horizontal (0 to 1, left to right)                   |
-|  - V = Vertical (0 to 1, top to bottom)                    |
-|                                                               |
-+-------------------------------------------------------------+
+UV COORDINATE SYSTEM
+Texture (Image)
+U=0,V=0 U=1,V=0 <- Top edge
+U=0,V=1 U=1,V=1 <- Bottom edge
+Mapped to 3D Geometry:
+U=0,V=0 ------------ U=1,V=0
+3D Surface
+U=0,V=1 ------------ U=1,V=1
+- U = Horizontal (0 to 1, left to right)
+- V = Vertical (0 to 1, top to bottom)
 ```
 
 - **U** = Horizontal position (0 to 1)
@@ -99,37 +84,19 @@ Most primitive shapes have automatic UV mapping.
 Modify texture coordinates:
 
 ```
-+-------------------------------------------------------------+
-|                  UV TRANSFORM OPERATIONS                     |
-+-------------------------------------------------------------+
-|                                                               |
-|  Original Texture                                            |
-|  +---------+                                                 |
-|  |         |                                                 |
-|  | Texture |                                                 |
-|  |         |                                                 |
-|  +---------+                                                 |
-|                                                               |
-|  Offset U/V: Shift texture position                          |
-|  +---------+                                                 |
-|  |    +---------+                                           |
-|  |    | Texture |  <- Moved right/up                        |
-|  |    +---------+                                           |
-|  +---------+                                                 |
-|                                                               |
-|  Scale U/V: Tile or shrink texture                           |
-|  +-----+-----+-----+                                        |
-|  |Tex  |Tex  |Tex  |  <- Tiled horizontally                  |
-|  +-----+-----+-----+                                        |
-|                                                               |
-|  Rotate: Rotate texture around center                       |
-|      +-----+                                                 |
-|     /       \                                                |
-|    / Texture \  <- Rotated                                     |
-|     \       /                                                |
-|      +-----+                                                 |
-|                                                               |
-+-------------------------------------------------------------+
+UV TRANSFORM OPERATIONS
+Original Texture
+Texture
+Offset U/V: Shift texture position
++---------+
+Texture <- Moved right/up
++---------+
+Scale U/V: Tile or shrink texture
+Tex Tex Tex <- Tiled horizontally
+Rotate: Rotate texture around center
+/ \
+/ Texture \ <- Rotated
+\ /
 ```
 
 ```
@@ -248,9 +215,7 @@ Render your scene to a texture, apply effects, then output.
 
 ```
 MainLoop -> Camera -> RenderToTexture
-              |
            [Scene]
-              |
 TextureEffects -> Output
 ```
 
@@ -269,11 +234,8 @@ High-level structure:
 
 ```
 Previous Frame Texture
-        |
 TextureEffects (fade/blur)
-        |
 Combine with New Frame Content
-        |
 RenderToTexture (becomes “previous frame” next tick)
 ```
 
@@ -401,9 +363,7 @@ Capture your scene as a texture for post-processing or effects:
 
 ```
 MainLoop -> Camera -> RenderToTexture
-              |
            [Scene to capture]
-              |
            TextureOutput -> Use elsewhere
 ```
 
@@ -487,15 +447,10 @@ HDRITexture -> IBL/Environment
 
 ```
 MainLoop
-    |
 PerspectiveCamera
-    |
 DirectionalLight
-    |
 Time -> RotateY
-    |
 ImageTexture -> PhongMaterial (texture input)
-    |
 Cube
 ```
 
@@ -503,9 +458,7 @@ Cube
 
 ```
 MainLoop
-    |
 VideoTexture -> BasicMaterial
-    |
 Plane (aspect ratio matching video)
 ```
 
@@ -513,11 +466,8 @@ Plane (aspect ratio matching video)
 
 ```
 MainLoop
-    |
 Time -> NoiseTexture (animate offset)
-    |
 BasicMaterial
-    |
 FullscreenRectangle
 ```
 
@@ -528,9 +478,8 @@ ImageTexture (albedo)
 ImageTexture (normal)
 ImageTexture (roughness)
 ImageTexture (metalness)
-    | (all connected to PBRMaterial)
+    (all connected to PBRMaterial)
 PBRMaterial
-    |
 Mesh
 ```
 

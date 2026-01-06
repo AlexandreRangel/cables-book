@@ -12,18 +12,10 @@
 ### Main Areas
 
 ```
-+-------------------------------------------------------------+
-|                       TOOLBAR                                |
-+----------------------+--------------------------------------+
-|                      |                                       |
-|      OP LIBRARY      |           CANVAS (Preview)           |
-|                      |                                       |
-+----------------------+                                       |
-|                      |                                       |
-|    PATCH EDITOR      |                                       |
-|   (Node workspace)   |                                       |
-|                      |                                       |
-+----------------------+--------------------------------------+
+TOOLBAR
+OP LIBRARY CANVAS (Preview)
+PATCH EDITOR
+(Node workspace)
 ```
 
 ### Key Interface Elements
@@ -155,8 +147,8 @@ Open [HTML Version](images/basic-render-chain-html.html) in your browser for an 
 
 ```mermaid
 graph TD
-    MainLoop[MainLoop] -->|trigger| BasicMaterial[BasicMaterial]
-    BasicMaterial -->|trigger| Circle[Circle]
+    MainLoop[MainLoop] --> trigger BasicMaterial[BasicMaterial]
+    BasicMaterial --> trigger Circle[Circle]
     
     style MainLoop fill:#2d2d2d,stroke:#4a4a4a,color:#e0e0e0
     style BasicMaterial fill:#2d2d2d,stroke:#4a4a4a,color:#e0e0e0
@@ -186,9 +178,7 @@ Data flows from **top to bottom** and **left to right**:
 
 ```
 MainLoop (starts the frame)
-    |
 BasicMaterial (defines appearance and color)
-    |
 Circle (draws the shape)
 ```
 

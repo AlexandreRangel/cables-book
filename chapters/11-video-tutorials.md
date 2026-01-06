@@ -81,7 +81,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/XvVBnPakE28
-Title: Midi Input Device - intro to MIDI in cables -  Byte Size
+Title: Midi Input Device - intro to MIDI in cables - Byte Size
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/XvVBnPakE28/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -275,7 +275,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/GQc6JF_jy6M
-Title: Debug View in Cables.gl | Setting up multiple views in your patch
+Title: Debug View in Cables.gl Setting up multiple views in your patch
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/GQc6JF_jy6M/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -291,7 +291,7 @@ AuthorUrl: https://www.youtube.com/@fahmimursyid
 
 ```vid
 https://youtu.be/wERboDg6zOI
-Title: Impactful Transitions under 10 minutes using cables.gl | Genuary 04: Intersections
+Title: Impactful Transitions under 10 minutes using cables.gl Genuary 04: Intersections
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/wERboDg6zOI/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -307,7 +307,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/5Jc3woVozNc
-Title: Cables.gl | Generative Poster 05
+Title: Cables.gl Generative Poster 05
 Author: Karthik Dondeti
 Thumbnail: https://i.ytimg.com/vi/5Jc3woVozNc/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@karthikdondeti1672
@@ -315,7 +315,7 @@ AuthorUrl: https://www.youtube.com/@karthikdondeti1672
 
 ```vid
 https://youtu.be/DsSPcNSLyAw
-Title: Cables.gl | Generative Poster 06
+Title: Cables.gl Generative Poster 06
 Author: Karthik Dondeti
 Thumbnail: https://i.ytimg.com/vi/DsSPcNSLyAw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@karthikdondeti1672
@@ -323,7 +323,7 @@ AuthorUrl: https://www.youtube.com/@karthikdondeti1672
 
 ```vid
 https://youtu.be/gRV0DqpSd-4
-Title: Cables.gl | Generative Poster 09
+Title: Cables.gl Generative Poster 09
 Author: Karthik Dondeti
 Thumbnail: https://i.ytimg.com/vi/gRV0DqpSd-4/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@karthikdondeti1672
@@ -379,7 +379,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/3KSS1nrv6t0
-Title: cables.gl web demo - realtime visualizer soundcloud globe | Exyl - Ping! Moai
+Title: cables.gl web demo - realtime visualizer soundcloud globe Exyl - Ping! Moai
 Author: stobelights
 Thumbnail: https://i.ytimg.com/vi/3KSS1nrv6t0/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@stobelights
@@ -465,7 +465,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/j_ins4RW0c8
-Title: Shadertoy to cables - part  01
+Title: Shadertoy to cables - part 01
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/j_ins4RW0c8/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -507,7 +507,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/KZbhVCIahv4
-Title: Páginas WEB Interactivas con cables.gl | 13 Audio
+Title: Páginas WEB Interactivas con cables.gl 13 Audio
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/KZbhVCIahv4/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -607,7 +607,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/DX0slSkR_Hg
-Title: Páginas WEB Interactivas con cables.gl | 20 Exportación
+Title: Páginas WEB Interactivas con cables.gl 20 Exportación
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/DX0slSkR_Hg/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -675,7 +675,7 @@ AuthorUrl: https://www.youtube.com/@wirmachenbunt
 
 ```vid
 https://youtu.be/FvC3Ec_38Jo
-Title: Inércia 2023 | Seminar: Cables.gl as a demo making tool by anticore feat. liqube
+Title: Inércia 2023 Seminar: Cables.gl as a demo making tool by anticore feat. liqube
 Author: Associação Inércia
 Thumbnail: https://i.ytimg.com/vi/FvC3Ec_38Jo/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@inercia_pt
@@ -815,7 +815,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/oBoH_7uHv-E
-Title: Páginas WEB Interactivas con cables.gl | 02 Enlace
+Title: Páginas WEB Interactivas con cables.gl 02 Enlace
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/oBoH_7uHv-E/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -823,7 +823,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/-9QrZSoAPpQ
-Title: Páginas WEB Interactivas con cables.gl | 07 Botones
+Title: Páginas WEB Interactivas con cables.gl 07 Botones
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/-9QrZSoAPpQ/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -831,7 +831,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/MTeI06T-kGw
-Title: Páginas WEB Interactivas con cables.gl | 08 Menu
+Title: Páginas WEB Interactivas con cables.gl 08 Menu
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/MTeI06T-kGw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -839,7 +839,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/iFDD4tm7-Uw
-Title: Páginas WEB Interactivas con cables.gl | 15 Valores Aleatorios
+Title: Páginas WEB Interactivas con cables.gl 15 Valores Aleatorios
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/iFDD4tm7-Uw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -847,7 +847,7 @@ AuthorUrl: https://www.youtube.com/@4183RtdF
 
 ```vid
 https://youtu.be/a2H8vk3Ko1M
-Title: Páginas WEB Interactivas con cables.gl | 18 FPS
+Title: Páginas WEB Interactivas con cables.gl 18 FPS
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/a2H8vk3Ko1M/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -991,7 +991,7 @@ AuthorUrl: https://www.youtube.com/@videoartduo
 
 ```vid
 https://youtu.be/9UR8upg0g54
-Title: Pod005 - Flicker | Distortion | cables.gl
+Title: Pod005 - Flicker Distortion cables.gl
 Author: zuggamasta
 Thumbnail: https://i.ytimg.com/vi/9UR8upg0g54/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@zuggamasta

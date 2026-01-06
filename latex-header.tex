@@ -66,9 +66,19 @@
 %% CODE BLOCKS
 %% ------------------------------------------------------------
 \newcommand{\CodeBlockFontSize}{10.75}     % Font size in points
-\newcommand{\CodeBlockLeadingPt}{12.0}  % Line height (leading) in points (~+10% over 10.5pt)
-\newcommand{\CodeBlockLineSpacing}{1.0}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
-\newcommand{\CodeBlockSpacingBefore}{0.75\baselineskip}  % Space before code blocks (50% of previous 1.5\baselineskip)
+\newcommand{\CodeBlockLeadingPt}{12.0}  % Line height (leading) in points
+\newcommand{\CodeBlockLineSpacing}{1.1}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
+\newcommand{\CodeBlockSpacingBefore}{0.75\baselineskip}  % Space before code blocks
+\newcommand{\CodeBlockPaddingTop}{8pt}    % Top padding inside code blocks
+\newcommand{\CodeBlockPaddingBottom}{8pt} % Bottom padding inside code blocks
+\newcommand{\CodeBlockPaddingLeft}{10pt}    % Left padding inside code blocks
+\newcommand{\CodeBlockPaddingRight}{8pt}  % Right padding inside code blocks
+
+%% ------------------------------------------------------------
+%% BODY TEXT
+%% ------------------------------------------------------------
+\newcommand{\BodyTextFontSize}{11pt}      % Body text font size
+\newcommand{\BodyTextLeading}{13.3pt}    % Body text line height (leading) - typically 1.2x font size
 
 %% ------------------------------------------------------------
 %% IMAGES
@@ -79,18 +89,19 @@
 %% ------------------------------------------------------------
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
-\newcommand{\PagePaper}{a4paper}         % Page size (a4paper, letterpaper, ...)
-\newcommand{\PageMarginLeft}{0.45in}     % Left margin (25% smaller than 0.82in)
-\newcommand{\PageMarginRight}{0.45in}    % Right margin (25% smaller than 0.82in)
-\newcommand{\PageMarginTop}{0.6in}       % Top margin
+\newcommand{\PagePaper}{a4paper}         % Page size
+\newcommand{\PageMarginLeft}{0.4in}      % Left margin
+\newcommand{\PageMarginRight}{0.3in}     % Right margin
+\newcommand{\PageMarginTop}{0.3in}       % Top margin
 \newcommand{\PageMarginBottom}{0.24in}   % Bottom margin
 \newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{6}            % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
 \newcommand{\FooterVerticalOffset}{-6pt} % Vertical offset for page number (negative = closer to page edge)
-\newcommand{\PageNumberGrayPercent}{50}  % Page number color (black!75)
+\newcommand{\PageNumberGrayPercent}{45}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
-\newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
+\newcommand{\PageNumberFontSize}{10.5pt}   % Page number font size
+\newcommand{\ColumnGutterWidth}{0.30in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
 
 %% ------------------------------------------------------------
 %% CARDS (Video blocks + Code blocks)
@@ -351,10 +362,20 @@
     skipbelow=\baselineskip
 }
 
-% Code blocks use the same card style, but with reduced spacing before
+% Code blocks use card style but with custom padding
 \mdfdefinestyle{codeboxstyle}{
-    style=cardstyle,
-    skipabove=\CodeBlockSpacingBefore
+    backgroundcolor=cardbg,
+    linecolor=cardbg,
+    linewidth=0pt,
+    innerleftmargin=\CodeBlockPaddingLeft,
+    innerrightmargin=\CodeBlockPaddingRight,
+    innertopmargin=\CodeBlockPaddingTop,
+    innerbottommargin=\CodeBlockPaddingBottom,
+    leftmargin=0pt,
+    rightmargin=0pt,
+    roundcorner=\CardCornerRadius,
+    skipabove=\CodeBlockSpacingBefore,
+    skipbelow=\baselineskip
 }
 
 % Video cards: keep cardstyle, but make left/right padding match the (good) top padding
@@ -405,7 +426,7 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{} % Clear all headers and footers
-\fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
+\fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontsize{\PageNumberFontSize}{\PageNumberFontSize}\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
 \renewcommand{\headrulewidth}{0pt} % No header rule
 \renewcommand{\footrulewidth}{0pt} % No footer rule
 
@@ -420,13 +441,15 @@
 % Fix page 1 (plain style) to also have right-aligned page number
 \fancypagestyle{plain}{%
   \fancyhf{} % Clear all headers and footers
-  \fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
+  \fancyfoot[R]{\raisebox{\FooterVerticalOffset}{\textcolor{black!\PageNumberGrayPercent}{{\fontsize{\PageNumberFontSize}{\PageNumberFontSize}\fontseries{\PageNumberFontSeries}\selectfont\thepage}}}} % Right-aligned page number (styled)
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
 
 %% Link colors and final image alignment fixes
 \AtBeginDocument{
+  % Set body text font size and leading (only affects body text, not headings or code blocks)
+  \fontsize{\BodyTextFontSize}{\BodyTextLeading}\selectfont
   \hypersetup{
     colorlinks=true,
     linkcolor=sectiononecolor,

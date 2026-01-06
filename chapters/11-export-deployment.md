@@ -25,7 +25,7 @@ The simplest way to share - just make your patch public and share the URL.
 Embed your patch in any website:
 
 ```html
-<iframe 
+<iframe
     src="https://cables.gl/view/YOUR_PATCH_ID" 
     width="800" 
     height="600"
@@ -72,17 +72,17 @@ You'll receive a ZIP file containing:
 
 ```
 exported-patch/
-+-- index.html          # Main HTML file
++-- index.html # Main HTML file
 +-- js/
-|   +-- cables.min.js   # Cables runtime
-|   +-- ops.js          # Your patch's operators
-|   +-- patch.js        # Patch configuration
++-- cables.min.js # Cables runtime
++-- ops.js # Your patch's operators
++-- patch.js # Patch configuration
 +-- assets/
-|   +-- textures/       # Image files
-|   +-- audio/          # Sound files
-|   +-- models/         # 3D models
++-- textures/ # Image files
++-- audio/ # Sound files
++-- models/ # 3D models
 +-- css/
-    +-- style.css       # Optional styles
+    +-- style.css # Optional styles
 ```
 
 ### Step 4: Test Locally
@@ -211,7 +211,7 @@ For performance and battery life, consider pausing expensive animation when the 
 
 ```javascript
 document.addEventListener("visibilitychange", () => {
-  if (!window.CABLES || !CABLES.patch) return;
+  if (!window.CABLES !CABLES.patch) return;
   // Depending on your patch/runtime, you may gate updates via a variable:
   CABLES.patch.setVariable("isVisible", !document.hidden);
 });
@@ -236,7 +236,7 @@ iframe.contentWindow.postMessage(
 ```javascript
 window.addEventListener("message", (event) => {
   const msg = event.data;
-  if (!msg || !window.CABLES || !CABLES.patch) return;
+  if (!msg !window.CABLES !CABLES.patch) return;
 
   if (msg.type === "CABLES_SET") {
     CABLES.patch.setVariable(msg.name, msg.value);
@@ -505,7 +505,7 @@ self.addEventListener('install', event => {
 self.addEventListener('fetch', event => {
     event.respondWith(
         caches.match(event.request)
-            .then(response => response || fetch(event.request))
+            .then(response => response fetch(event.request))
     );
 });
 ```
@@ -540,20 +540,20 @@ After exporting your cables.gl patch, set up an Electron project:
 ```
 electron-app/
 +-- package.json
-+-- main.js              # Main Electron process
-+-- preload.js           # Preload script (optional)
++-- main.js # Main Electron process
++-- preload.js # Preload script (optional)
 +-- renderer/
-|   +-- index.html       # Your exported cables HTML
-|   +-- js/
-|   |   +-- cables.min.js
-|   |   +-- ops.js
-|   |   +-- patch.js
-|   +-- assets/          # Your exported assets
++-- index.html # Your exported cables HTML
++-- js/
++-- cables.min.js
++-- ops.js
++-- patch.js
++-- assets/ # Your exported assets
 +-- assets/
-|   +-- icon.ico         # Windows icon
-|   +-- icon.icns        # macOS icon
-|   +-- icon.png         # Linux icon
-+-- build/               # Build configuration
++-- icon.ico # Windows icon
++-- icon.icns # macOS icon
++-- icon.png # Linux icon
++-- build/ # Build configuration
     +-- mac/
     +-- win/
     +-- linux/
@@ -627,7 +627,7 @@ let mainWindow;
 let splashWindow;
 
 // Determine if we're in development
-const isDev = process.env.NODE_ENV === 'development' || !app.isPackaged;
+const isDev = process.env.NODE_ENV === 'development' !app.isPackaged;
 
 function createSplashWindow() {
   splashWindow = new BrowserWindow({
@@ -1077,8 +1077,8 @@ function createMainWindow() {
   const windowState = store.get('windowState', {});
   
   const mainWindow = new BrowserWindow({
-    width: windowState.width || 1280,
-    height: windowState.height || 720,
+    width: windowState.width 1280,
+    height: windowState.height 720,
     x: windowState.x,
     y: windowState.y,
     // ... other options
@@ -1615,14 +1615,14 @@ async function initializeApp() {
 
 // Save cables patch state
 async function savePatchState() {
-  if (!window.CABLES || !window.CABLES.patch) return;
+  if (!window.CABLES !window.CABLES.patch) return;
   
   const state = {
     timestamp: new Date().toISOString(),
     variables: {},
     camera: {
-      position: window.CABLES.patch.cgl?.camera?.position || null,
-      rotation: window.CABLES.patch.cgl?.camera?.rotation || null
+      position: window.CABLES.patch.cgl?.camera?.position null,
+      rotation: window.CABLES.patch.cgl?.camera?.rotation null
     }
   };
   
@@ -1882,7 +1882,7 @@ exports.default = async function(configuration) {
   const certPath = process.env.CERTIFICATE_PATH;
   const certPassword = process.env.CERTIFICATE_PASSWORD;
   
-  if (!certPath || !certPassword) {
+  if (!certPath !certPassword) {
     console.warn('Certificate not configured, skipping signing');
     return;
   }
