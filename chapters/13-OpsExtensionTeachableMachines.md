@@ -1,6 +1,5 @@
 # Ops.Extension.TeachableMachines
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

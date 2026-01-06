@@ -1,6 +1,5 @@
 # Ops.Graphics.Intersection
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

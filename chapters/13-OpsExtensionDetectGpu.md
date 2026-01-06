@@ -1,6 +1,5 @@
 # Ops.Extension.DetectGpu
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

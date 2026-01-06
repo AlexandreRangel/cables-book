@@ -1,6 +1,5 @@
 # Ops.Array
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

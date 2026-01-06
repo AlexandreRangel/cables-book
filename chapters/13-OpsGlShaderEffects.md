@@ -1,6 +1,5 @@
 # Ops.Gl.ShaderEffects
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

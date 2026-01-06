@@ -1,6 +1,5 @@
 # Ops.Devices.Keyboard
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

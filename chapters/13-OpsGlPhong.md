@@ -1,6 +1,5 @@
 # Ops.Gl.Phong
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

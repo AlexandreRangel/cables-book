@@ -1,6 +1,5 @@
 # Ops.Devices.Mouse
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

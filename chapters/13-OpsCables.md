@@ -1,6 +1,5 @@
 # Ops.Cables
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

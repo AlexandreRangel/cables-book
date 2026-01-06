@@ -1,6 +1,5 @@
 # Ops.Extension.OpenType
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

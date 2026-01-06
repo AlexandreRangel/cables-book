@@ -102,4 +102,3 @@ Author: Kirell Benzi
 - **Official Documentation**: [cables.gl/docs](https://cables.gl/docs)
 - **Example Patches**: Browse public patches for inspiration
 
----

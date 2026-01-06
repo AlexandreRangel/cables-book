@@ -2251,9 +2251,7 @@ Author: Decode GL
 9. **Electron Exercise**: Implement window state persistence (save/restore window position and size)
 10. **Electron Exercise**: Add a system tray icon with context menu for your Electron app
 
----
 
----
 
 ## Congratulations!
 

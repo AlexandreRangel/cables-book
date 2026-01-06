@@ -1,6 +1,5 @@
 # Ops.Data
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

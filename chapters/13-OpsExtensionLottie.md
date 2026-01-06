@@ -1,6 +1,5 @@
 # Ops.Extension.Lottie
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

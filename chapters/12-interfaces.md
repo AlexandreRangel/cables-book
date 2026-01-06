@@ -1545,6 +1545,5 @@ observer.observe(document.querySelector('.cables-sidebar'), {
 
 6. **Advanced Styling**: Implement glassmorphism or other modern design trends in your sidebar
 
----
 
 

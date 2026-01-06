@@ -1,6 +1,5 @@
 # Ops.Extension.ECharts
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

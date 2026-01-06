@@ -1,6 +1,5 @@
 # Ops.Gl.Geometry
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

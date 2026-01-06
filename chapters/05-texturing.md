@@ -503,5 +503,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 3. Create a procedural noise-based animated background
 4. Apply PBR textures to a loaded 3D model
 
----
 

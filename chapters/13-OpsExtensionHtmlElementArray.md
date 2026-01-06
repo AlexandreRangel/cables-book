@@ -1,6 +1,5 @@
 # Ops.Extension.HtmlElementArray
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

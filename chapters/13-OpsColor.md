@@ -1,6 +1,5 @@
 # Ops.Color
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

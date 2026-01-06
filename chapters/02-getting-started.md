@@ -229,5 +229,4 @@ Thumbnail: https://i.ytimg.com/vi/XXXXX/mqdefault.jpg
 - Ensure Time op is connected
 - Check that the animated value is actually changing (view the port value)
 
----
 

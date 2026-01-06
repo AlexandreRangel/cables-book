@@ -1,6 +1,5 @@
 # Ops.Devices.WebXr.Vr
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

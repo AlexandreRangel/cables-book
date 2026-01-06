@@ -1,6 +1,5 @@
 # Ops.Extension.HtmlToTexture
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

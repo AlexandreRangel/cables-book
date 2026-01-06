@@ -1,6 +1,5 @@
 # Ops.Extension.GlParticles
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

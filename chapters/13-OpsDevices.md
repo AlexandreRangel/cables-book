@@ -1,6 +1,5 @@
 # Ops.Devices
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

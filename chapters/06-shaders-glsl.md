@@ -2134,4 +2134,3 @@ Author: Meletou1
 9. **Projection Mapping**: Create a debug visualization shader showing projection zones and blend areas
 10. **Projection Mapping**: Implement projector stacking with additive and average blend modes
 
----

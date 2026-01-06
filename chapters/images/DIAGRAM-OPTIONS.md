@@ -32,7 +32,6 @@ Clean, vector-based graphics that closely mimic cables.gl styling with:
 - Print materials
 - When file size matters
 
----
 
 ## Option 2: Real Cables.gl Screenshots (Most Authentic)
 
@@ -61,7 +60,6 @@ Actual cables.gl interface - 100% authentic appearance including real fonts, por
 - Quick documentation
 - When authenticity is critical
 
----
 
 ## Option 3: HTML/CSS Interactive
 
@@ -89,7 +87,6 @@ HTML/CSS recreation that mimics cables.gl styling. Can be viewed in browser.
 - When you need hover effects or interactions
 - Teaching tool with live demos
 
----
 
 ## Option 4: Mermaid Diagrams (Simplest)
 
@@ -121,7 +118,6 @@ graph TD
 - GitHub documentation
 - When appearance doesn't matter
 
----
 
 ## Recommendations by Use Case
 
@@ -135,7 +131,6 @@ graph TD
 | **Simple concepts** | Option 1: SVG | Clean and clear |
 | **Print materials** | Option 1: SVG | Vector scales perfectly |
 
----
 
 ## Hybrid Approach
 
@@ -146,7 +141,6 @@ Consider using multiple options throughout the book:
 - **Quick references**: Mermaid for simple flow concepts
 - **Interactive sections**: HTML/CSS for special cases
 
----
 
 ## Creating More Diagrams
 

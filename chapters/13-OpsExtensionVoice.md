@@ -1,6 +1,5 @@
 # Ops.Extension.Voice
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

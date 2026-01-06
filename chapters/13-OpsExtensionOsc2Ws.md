@@ -1,6 +1,5 @@
 # Ops.Extension.Osc2Ws
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

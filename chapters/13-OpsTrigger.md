@@ -1,6 +1,5 @@
 # Ops.Trigger
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

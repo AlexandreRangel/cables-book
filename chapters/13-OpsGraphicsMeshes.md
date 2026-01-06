@@ -1,6 +1,5 @@
 # Ops.Graphics.Meshes
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

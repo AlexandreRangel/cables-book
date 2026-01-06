@@ -1,6 +1,5 @@
 # Ops.Extension.SocketCluster.Deprecated
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

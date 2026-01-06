@@ -1,6 +1,5 @@
 # Ops.Gl.Matrix
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

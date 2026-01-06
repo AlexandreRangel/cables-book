@@ -1,6 +1,5 @@
 # Ops.Extension.ReactionDiffusion
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

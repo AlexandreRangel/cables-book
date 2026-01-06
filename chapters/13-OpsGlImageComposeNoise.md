@@ -1,6 +1,5 @@
 # Ops.Gl.ImageCompose.Noise
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

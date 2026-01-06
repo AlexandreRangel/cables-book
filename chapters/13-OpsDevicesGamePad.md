@@ -1,6 +1,5 @@
 # Ops.Devices.GamePad
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

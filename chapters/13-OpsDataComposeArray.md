@@ -1,6 +1,5 @@
 # Ops.Data.Compose.Array
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

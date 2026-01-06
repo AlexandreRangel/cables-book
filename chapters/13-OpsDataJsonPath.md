@@ -1,6 +1,5 @@
 # Ops.Data.JsonPath
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

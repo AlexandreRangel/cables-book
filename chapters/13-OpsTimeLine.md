@@ -1,6 +1,5 @@
 # Ops.TimeLine
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

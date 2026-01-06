@@ -1,6 +1,5 @@
 # Ops.Extension.AmmoPhysics
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

@@ -1,6 +1,5 @@
 # Ops.Extension.SuperShapes
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

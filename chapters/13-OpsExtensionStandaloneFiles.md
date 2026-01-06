@@ -1,6 +1,5 @@
 # Ops.Extension.Standalone.Files
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

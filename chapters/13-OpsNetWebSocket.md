@@ -1,6 +1,5 @@
 # Ops.Net.WebSocket
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

@@ -443,4 +443,3 @@ Author: Channel Name
 3. Make a 3D landscape that morphs to music
 4. Create a beat-triggered strobe effect
 
----

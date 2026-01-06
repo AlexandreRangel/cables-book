@@ -1,6 +1,5 @@
 # Ops.Boolean
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

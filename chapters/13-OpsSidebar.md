@@ -1,6 +1,5 @@
 # Ops.Sidebar
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

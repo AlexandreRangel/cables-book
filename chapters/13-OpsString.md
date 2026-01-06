@@ -1,6 +1,5 @@
 # Ops.String
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

@@ -1,6 +1,5 @@
 # Ops.Gl.CubeMap
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

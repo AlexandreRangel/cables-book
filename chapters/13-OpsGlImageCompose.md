@@ -1,6 +1,5 @@
 # Ops.Gl.ImageCompose
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

@@ -1,6 +1,5 @@
 # Ops.Math.Compare
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

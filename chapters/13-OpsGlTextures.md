@@ -1,6 +1,5 @@
 # Ops.Gl.Textures
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

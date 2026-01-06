@@ -1,6 +1,5 @@
 # Ops.Devices.Browser
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

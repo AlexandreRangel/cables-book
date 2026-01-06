@@ -1,6 +1,5 @@
 # Ops.Extension.WebGpu
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

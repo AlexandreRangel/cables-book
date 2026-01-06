@@ -1,6 +1,5 @@
 # Ops.Data.StackValues
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

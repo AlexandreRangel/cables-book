@@ -1,6 +1,5 @@
 # Ops.Extension.Mediapipe
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}

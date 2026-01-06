@@ -1,6 +1,5 @@
 # Ops.Anim
 
----
 
 ```{=latex}
 \OpsSubsubNoSubsectionNumbering\setcounter{subsubsection}{0}
