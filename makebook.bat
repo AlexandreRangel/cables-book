@@ -102,23 +102,15 @@ if exist %OUTPUT_PDF% (
     REM Optional: compress PDF (requires Ghostscript). Replaces output only if smaller.
     REM You can change the profile: /screen (smallest), /ebook (balanced), /printer (higher quality)
     set PDF_COMPRESS_PROFILE=/ebook
-    where gswin64c >nul 2>&1
-    if %ERRORLEVEL% EQU 0 (
+    if exist scripts\compress_pdf.ps1 (
         echo.
         echo ============================================
         echo Compressing PDF with Ghostscript (%PDF_COMPRESS_PROFILE%)...
         echo ============================================
-        set COMPRESSED_PDF=%OUTPUT_PDF%.compressed.pdf
-        gswin64c -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=%PDF_COMPRESS_PROFILE% -dNOPAUSE -dQUIET -dBATCH -sOutputFile="%COMPRESSED_PDF%" "%OUTPUT_PDF%"
-        if %ERRORLEVEL% EQU 0 (
-            powershell -NoProfile -Command "$orig=(Get-Item '%OUTPUT_PDF%').Length; $cmp=(Get-Item '%COMPRESSED_PDF%').Length; if ($cmp -lt $orig) { Move-Item -Force '%COMPRESSED_PDF%' '%OUTPUT_PDF%'; Write-Host ('  Compressed: ' + [math]::Round(($orig/1MB),2) + 'MB -> ' + [math]::Round(($cmp/1MB),2) + 'MB') } else { Remove-Item -Force '%COMPRESSED_PDF%'; Write-Host ('  Skipped: compressed not smaller (' + [math]::Round(($orig/1MB),2) + 'MB <= ' + [math]::Round(($cmp/1MB),2) + 'MB)') }"
-        ) else (
-            echo WARNING: Ghostscript compression failed, keeping original PDF.
-            if exist "%COMPRESSED_PDF%" del "%COMPRESSED_PDF%"
-        )
+        powershell -ExecutionPolicy Bypass -File "scripts\compress_pdf.ps1" -InputFile "%OUTPUT_PDF%" -Profile "%PDF_COMPRESS_PROFILE%"
     ) else (
         echo.
-        echo NOTE: Ghostscript not found (gswin64c). Skipping PDF compression.
+        echo NOTE: compress_pdf.ps1 not found. Skipping PDF compression.
     )
 
     powershell -Command "$startTime = Import-Clixml -Path 'timer_start.xml'; $elapsed = (Get-Date) - $startTime; $h = [math]::Floor($elapsed.TotalHours); $m = $elapsed.Minutes; $s = $elapsed.Seconds; Write-Host ('[Total Time: ' + $h.ToString('00') + ':' + $m.ToString('00') + ':' + $s.ToString('00') + ']')"
