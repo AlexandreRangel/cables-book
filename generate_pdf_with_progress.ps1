@@ -34,9 +34,9 @@ $pandocArgs = @(
     "--pdf-engine=xelatex",
     "--pdf-engine-opt=-interaction=nonstopmode",
     "--resource-path=chapters",
-    "--lua-filter=scripts/vid_filter.lua",
     "-H", $HeaderFile,
-    "-V", "classoption=twocolumn",
+    "--lua-filter=scripts/vid_filter.lua",
+    "-V", "geometry:left=0.82in,right=0.82in,top=0.656in,bottom=0.656in",
     "-V", "mainfont=Ubuntu",
     "-V", "sansfont=Ubuntu",
     "-V", "monofont=Ubuntu Mono",
@@ -46,6 +46,7 @@ $pandocArgs = @(
     "--toc-depth=3",
     "--number-sections",
     "-V", "toc-title=Table of Contents",
+    "-V", "papersize=letter",
     "--syntax-highlighting=none"
 )
 
