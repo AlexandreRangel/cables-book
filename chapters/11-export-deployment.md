@@ -92,13 +92,15 @@ exported-patch/
 python -m http.server 8000
 
 # Using Node.js
-npx serve .
+npx --yes serve .
 
 # Using PHP
 php -S localhost:8000
 ```
 
 Then open `http://localhost:8000` in your browser.
+
+**Why this matters:** don’t test an exported patch via `file://...` (double-clicking `index.html`). Browsers block or restrict a bunch of features in that mode (fetching assets, some audio policies, etc.). A tiny local server makes your test match real deployment much more closely.
 
 ## Customizing the Export
 
@@ -211,7 +213,7 @@ For performance and battery life, consider pausing expensive animation when the 
 
 ```javascript
 document.addEventListener("visibilitychange", () => {
-  if (!window.CABLES !CABLES.patch) return;
+  if (!window.CABLES || !CABLES.patch) return;
   // Depending on your patch/runtime, you may gate updates via a variable:
   CABLES.patch.setVariable("isVisible", !document.hidden);
 });
@@ -226,23 +228,30 @@ If you embed via iframe, `postMessage` is the clean way to send commands and dat
 **Parent page -> iframe:**
 ```javascript
 const iframe = document.getElementById("cablesFrame");
+const targetOrigin = new URL(iframe.src).origin; // avoid "*" in production
 iframe.contentWindow.postMessage(
   { type: "CABLES_SET", name: "myValue", value: 0.75 },
-  "*"
+  targetOrigin
 );
 ```
 
 **Inside the exported patch wrapper page:**
 ```javascript
 window.addEventListener("message", (event) => {
+  // IMPORTANT: validate sender. In production, never blindly accept "*" messages.
+  // Example:
+  // if (event.origin !== "https://your-site.example") return;
+
   const msg = event.data;
-  if (!msg !window.CABLES !CABLES.patch) return;
+  if (!msg || !window.CABLES || !CABLES.patch) return;
 
   if (msg.type === "CABLES_SET") {
     CABLES.patch.setVariable(msg.name, msg.value);
   }
 });
 ```
+
+**Tip:** treat `postMessage` payloads as an API. Version them (`{ v: 1, type: ... }`), validate types, and consider allowing only a small, explicit set of variable names you’re willing to expose.
 
 ### Environment-Specific Configuration (dev / test / prod)
 
@@ -1615,14 +1624,14 @@ async function initializeApp() {
 
 // Save cables patch state
 async function savePatchState() {
-  if (!window.CABLES !window.CABLES.patch) return;
+  if (!window.CABLES || !window.CABLES.patch) return;
   
   const state = {
     timestamp: new Date().toISOString(),
     variables: {},
     camera: {
-      position: window.CABLES.patch.cgl?.camera?.position null,
-      rotation: window.CABLES.patch.cgl?.camera?.rotation null
+      position: window.CABLES.patch.cgl?.camera?.position ?? null,
+      rotation: window.CABLES.patch.cgl?.camera?.rotation ?? null
     }
   };
   
@@ -1882,7 +1891,7 @@ exports.default = async function(configuration) {
   const certPath = process.env.CERTIFICATE_PATH;
   const certPassword = process.env.CERTIFICATE_PASSWORD;
   
-  if (!certPath !certPassword) {
+  if (!certPath || !certPassword) {
     console.warn('Certificate not configured, skipping signing');
     return;
   }

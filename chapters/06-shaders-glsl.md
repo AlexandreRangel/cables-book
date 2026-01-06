@@ -4,6 +4,12 @@
 
 Shaders are programs that run on the GPU, enabling custom visual effects and rendering techniques. Cables.gl provides powerful tools for writing and using GLSL (OpenGL Shading Language) shaders.
 
+**Official reference:** start with [cables.gl docs](https://cables.gl/docs) and search for **Shaders**, **TextureEffect**, **ShaderMaterial**, and **CustomShader**. The exact shader “template” and available built-ins can vary depending on the op/runtime version.
+
+Quick links (official operator reference examples):
+- [`Ops.Gl.Shader.ShaderMaterial`](https://cables.gl/op/Ops.Gl.Shader.ShaderMaterial)
+- [`Ops.Gl.Shader.TextureEffect`](https://cables.gl/op/Ops.Gl.Shader.TextureEffect)
+
 ## What Are Shaders?
 
 Shaders are small programs that determine how graphics are rendered:
@@ -95,6 +101,10 @@ cross(a, b)
 reflect(incident, normal)
 
 // Texture sampling
+// WebGL1 / GLSL ES 1.00:
+texture2D(sampler, uv)
+
+// WebGL2 / GLSL ES 3.00:
 texture(sampler, uv)
 ```
 
@@ -115,6 +125,8 @@ void main() {
     gl_FragColor = vec4(color, 1.0);
 }
 ```
+
+Note: many cables.gl shader ops use a WebGL1-style fragment shader where `gl_FragColor` is valid. If you run into compile errors mentioning `gl_FragColor` or `texture2D`, check which shader op you’re using and whether it targets WebGL2 / GLSL ES 3.00.
 
 ## Common Shader Patterns
 
@@ -580,7 +592,9 @@ Projection mapping (also called video mapping or spatial augmented reality) invo
    - Pixel size = `1.0 / resolution`
    - **Important:** `resolution` is NOT automatically provided - you must connect a `CanvasInfo` or `GetResolution` op to the `resolution` port
 
-2. **Texture Sampling**: Always use `texture2D()` (WebGL 1.0 style) in cables.gl, not `texture()`.
+2. **Texture Sampling**: Most cables.gl shader ops are **WebGL 1.0 / GLSL ES 1.00 style**, where you sample with `texture2D()`. Some WebGL2-based contexts use `texture()` instead.
+   - If you’re using **TextureEffect** and a classic fragment shader template (`gl_FragColor`), `texture2D()` is the safe default.
+   - If your shader template uses `out vec4 fragColor;` and GLSL 3.00 style syntax, you may need `texture()`.
 
 3. **Coordinate Systems**: 
    - UV space: `vUV` (0.0 to 1.0) - automatically provided
@@ -608,7 +622,7 @@ Projection mapping (also called video mapping or spatial augmented reality) invo
 Before using any shader in cables.gl, verify:
 
 - [ ] Shader starts with `precision mediump float;`
-- [ ] Uses `texture2D()` not `texture()` for sampling
+- [ ] Texture sampling matches your shader context (`texture2D()` for most WebGL1-style cables ops; `texture()` for GLSL 3.00 / WebGL2 contexts)
 - [ ] Uses `varying vec2 vUV` (auto-provided, don't declare in vertex shader for TextureEffect)
 - [ ] No `uniform int` - converted to `uniform float` with float comparisons
 - [ ] All uniforms are properly typed (float, vec2, vec3, vec4, sampler2D)
@@ -621,7 +635,7 @@ Before using any shader in cables.gl, verify:
 
 **Issue: "Shader won't compile"**
 - Check for `precision mediump float;` at the top
-- Verify all `texture()` calls are `texture2D()`
+- Verify texture sampling matches the shader context (WebGL1-style: `texture2D`; WebGL2-style: `texture`)
 - Ensure no WebGL 2.0 features are used
 - Check for syntax errors (missing semicolons, etc.)
 

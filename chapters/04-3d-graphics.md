@@ -4,6 +4,11 @@
 
 Cables.gl provides powerful tools for creating real-time 3D graphics using WebGL. This chapter covers everything from basic 3D concepts to advanced rendering techniques, scene management, and performance optimization. Whether you're creating simple 3D visualizations or complex interactive experiences, this guide will give you the knowledge to master 3D graphics in cables.gl.
 
+**Official reference:** start with [cables.gl docs](https://cables.gl/docs) and search for **Cameras**, **Lights**, **Materials**, **GLTF**, **Textures**, and **Post Processing**. Operator names and ports can differ between versions, but the underlying concepts stay the same.
+
+Quick links (official):
+- GLTF op reference example: [`Ops.Gl.GLTF.GltfScene_v4`](https://cables.gl/op/Ops.Gl.GLTF.GltfScene_v4) (operator pages are often the most direct “what ports exist?” reference)
+
 ## The 3D Pipeline
 
 A basic 3D setup requires:
@@ -502,7 +507,8 @@ function distortVertices() {
     const normals = inNormals.get();
     const uvs = inUVs.get();
     
-    if (!vertices vertices.length === 0) {
+    // `vertices` may be an Array or a TypedArray depending on where it comes from.
+    if (!vertices || vertices.length === 0) {
         outVertices.set([]);
         outNormals.set([]);
         outUVs.set([]);
@@ -716,7 +722,7 @@ function distortVertices() {
     const normals = inNormals.get();
     const uvs = inUVs.get();
     
-    if (!vertices vertices.length === 0) {
+    if (!vertices || vertices.length === 0) {
         outVertices.set([]);
         outNormals.set([]);
         outUVs.set([]);
@@ -762,7 +768,7 @@ function distortVertices() {
                 distortedNormals.push(
                     nx,
                     ny * cosA - nz * sinA,
-                    ny * sinA + z * cosA
+                    ny * sinA + nz * cosA
                 );
             }
         } else {
@@ -847,10 +853,12 @@ For real-time distortion, optimize your setup:
        if (cachedVertices && 
            cachedBendAngle === bendAngle && 
            cachedScale === scale) {
+           outVertices.set(cachedVertices);
            return; // Use cached result
        }
        
        // Recalculate...
+       // (distortedVertices should be computed above)
        cachedVertices = distortedVertices;
        cachedBendAngle = bendAngle;
        cachedScale = scale;

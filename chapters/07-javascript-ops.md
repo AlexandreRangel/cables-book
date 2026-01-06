@@ -4,6 +4,8 @@
 
 While cables.gl's visual node system is powerful, sometimes you need custom functionality. JavaScript allows you to create your own operators (ops) and extend cables.gl's capabilities.
 
+**Official reference:** if you ever wonder “is this a real API?”, start with [cables.gl docs](https://cables.gl/docs) and search for terms like **Custom Ops**, **JavaScript Op**, **Ports**, or **Standalone Export**. The editor/runtime evolves, so keeping one “source of truth” bookmark helps.
+
 ## When to Use Custom Ops
 
 - Processing data in ways built-in ops don't support
@@ -19,6 +21,8 @@ While cables.gl's visual node system is powerful, sometimes you need custom func
 1. In your patch, click the "+" button
 2. Select "Create Op"
 3. Choose a name (e.g., `Ops.User.YourName.MyFirstOp`)
+
+**Naming tip:** treat op names like package names. Keep them stable and descriptive (e.g. `Ops.User.Rangel.Math.ClampSmooth`), because you’ll likely reuse the op across patches and exports.
 
 ### Step 2: Understanding the Structure
 
@@ -247,7 +251,10 @@ inUrl.onChange = function() {
     if (!url) return;
     
     fetch(url)
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response.json();
+        })
         .then(data => {
             outData.set(data);
         })
@@ -256,6 +263,11 @@ inUrl.onChange = function() {
         });
 };
 ```
+
+Notes:
+
+- Many APIs require CORS headers; if `fetch()` fails in the browser console, it’s often *not* your code.
+- If this request should block “patch is ready”, pair it with `op.patch.loading.start()` / `finished()` (see the **Async Ops** section later in this chapter).
 
 ## Using External Libraries
 
@@ -271,6 +283,8 @@ script.onload = function() {
 };
 document.head.appendChild(script);
 ```
+
+**Best practice:** prefer shipping a local copy for standalone exports (and environments with strict CSP), and load from CDN only when you control the hosting/security headers.
 
 ### Or use op.patch.loading for proper load tracking:
 
@@ -289,6 +303,255 @@ script.onerror = function() {
 };
 document.head.appendChild(script);
 ```
+
+## Integrating Hydra (by Olivia Jack)
+
+**Hydra** (by Olivia Jack) is a live-coded, GPU-accelerated visual synth for the browser. In practice it’s a **shader graph you can write as code**: generators like `osc()` / `noise()` / `shape()` chained with modifiers like `kaleid()` / `rotate()` / `modulate()` and sent to buffers with `.out()`.
+
+Hydra pairs extremely well with cables.gl because cables already has a strong “everything is a texture” workflow: you can treat Hydra as a **procedural texture source** (2D or 3D), then run it through your usual cables effects chain.
+
+**Official resources:**
+- Hydra editor: [Hydra](https://hydra.ojack.xyz/)
+- Docs: [Hydra documentation](https://hydra.ojack.xyz/docs/)
+- Source: [ojack/hydra](https://github.com/ojack/hydra)
+- npm package commonly used in-browser: `hydra-synth` (often loaded as a single bundled JS file)
+
+### Where Hydra fits in cables.gl
+
+- **Procedural textures**: drive a `BasicMaterial` / `PBRMaterial` texture input with Hydra output.
+- **2D overlays**: layer Hydra output over your render.
+- **Feedback & post**: render-to-texture, then `TextureEffect` chains on Hydra output.
+- **Audio-reactive visuals**: use cables audio analysis to drive Hydra parameters (without Hydra’s own audio system).
+
+### Integration paths (choose based on your export target)
+
+#### Option A: Fastest (editor / hosted patch) — load Hydra from a CDN
+
+- **Pros**: quick, no build step.
+- **Cons**: requires network, can be blocked by CSP, less deterministic for offline installs.
+
+#### Option B: Standalone export — ship a local `hydra-synth.js`
+
+If you export a standalone patch, you can include `hydra-synth.js` inside the exported folder and load it locally (no CDN). This is best for **galleries, offline installations, kiosks**.
+
+#### Option C: npm package export / external JS project — bundle Hydra with your app
+
+If you export as an npm package and integrate into another JS project, you can add Hydra as a dependency and bundle it with your build pipeline. That keeps everything versioned and reproducible.
+
+### Most stable approach: Hydra > hidden `<canvas>` > `HtmlToTexture`
+
+Instead of trying to push Hydra pixels into a custom WebGL texture manually (fragile, runtime-specific), use this pattern:
+
+- **Hydra renders into a hidden HTML `<canvas>`**
+- cables.gl uses **`Ops.Extension.HtmlToTexture.HtmlToTexture`** to capture that canvas as a texture
+
+This stays close to cables.gl’s existing patterns and tends to survive exports better.
+
+#### Step 1: Create a “Hydra Host” custom op (creates and runs the Hydra canvas)
+
+This op:
+- loads Hydra once (CDN or local)
+- creates a canvas with a known `id`
+- initializes Hydra to render into that canvas
+- exposes a few numeric parameters you can drive from the patch
+
+```javascript
+// Op: Ops.User.Hydra.HydraHost
+//
+// Patch wiring idea:
+// - Trigger this op from MainLoop (Render)
+// - Use HtmlToTexture to capture the canvas by ID: #hydra-canvas
+
+const inInit = op.inTriggerButton("Init");
+const inRender = op.inTrigger("Render");
+
+const inCanvasId = op.inString("Canvas Id", "hydra-canvas");
+const inWidth = op.inInt("Width", 1024);
+const inHeight = op.inInt("Height", 1024);
+
+const inPreset = op.inSwitch("Preset", ["osc", "noise", "kaleid"], "osc");
+const inP1 = op.inFloat("P1", 0.5);
+const inP2 = op.inFloat("P2", 0.5);
+const inP3 = op.inFloat("P3", 0.5);
+
+const outReady = op.outBool("Ready");
+const outError = op.outString("Error");
+const outNext = op.outTrigger("Next");
+
+let hydra = null;
+let canvasEl = null;
+let presetApplied = null;
+
+// Keep params as plain JS variables so Hydra can read them via functions.
+let p1 = inP1.get();
+let p2 = inP2.get();
+let p3 = inP3.get();
+inP1.onChange = () => (p1 = inP1.get());
+inP2.onChange = () => (p2 = inP2.get());
+inP3.onChange = () => (p3 = inP3.get());
+
+function ensureCanvas() {
+  const id = inCanvasId.get();
+  const w = Math.max(16, inWidth.get() | 0);
+  const h = Math.max(16, inHeight.get() | 0);
+
+  let el = document.getElementById(id);
+  if (!el) {
+    el = document.createElement("canvas");
+    el.id = id;
+    // keep it out of the way
+    el.style.position = "fixed";
+    el.style.left = "-10000px";
+    el.style.top = "-10000px";
+    document.body.appendChild(el);
+  }
+  el.width = w;
+  el.height = h;
+  return el;
+}
+
+function loadHydraScriptOnce(url) {
+  // Cache the promise globally so multiple ops don’t race-load.
+  if (window.__hydraSynthLoading) return window.__hydraSynthLoading;
+  window.__hydraSynthLoading = new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = url;
+    script.onload = resolve;
+    script.onerror = () => reject(new Error("Failed to load Hydra script"));
+    document.head.appendChild(script);
+  });
+  return window.__hydraSynthLoading;
+}
+
+function initHydra() {
+  try {
+    canvasEl = ensureCanvas();
+
+    // If Hydra is already global, reuse it.
+    if (window.__hydraInstance) {
+      hydra = window.__hydraInstance;
+      outReady.set(true);
+      return;
+    }
+
+    // Hydra constructor is typically global after loading the script.
+    // makeGlobal=true gives you global functions like osc(), noise(), shape(), etc.
+    hydra = new Hydra({
+      canvas: canvasEl,
+      detectAudio: false,
+      makeGlobal: true,
+    });
+
+    window.__hydraInstance = hydra;
+    outReady.set(true);
+    outError.set("");
+  } catch (e) {
+    outReady.set(false);
+    outError.set(String(e && e.message ? e.message : e));
+  }
+}
+
+function applyPreset(name) {
+  // Only apply when changed; many Hydra params can be functions so they stay “live”.
+  if (!outReady.get()) return;
+  if (presetApplied === name) return;
+  presetApplied = name;
+
+  // Clear output first (simple “reset”).
+  // solid(0,0,0,1).out() would be an alternative, depending on your desired baseline.
+  try {
+    if (name === "osc") {
+      osc(
+        () => 5 + p1 * 40,     // frequency
+        () => p2 * 2,         // sync
+        () => p3              // offset
+      ).kaleid(() => 1 + Math.floor(p1 * 6)).out();
+      return;
+    }
+
+    if (name === "noise") {
+      noise(() => 1 + p1 * 8, () => p2).colorama(() => p3 * 4).out();
+      return;
+    }
+
+    if (name === "kaleid") {
+      shape(() => 3 + Math.floor(p1 * 8), () => p2 * 0.5, () => p3 * 0.5)
+        .kaleid(() => 2 + Math.floor(p1 * 10))
+        .rotate(() => p2 * Math.PI * 2)
+        .out();
+      return;
+    }
+  } catch (e) {
+    outError.set(String(e && e.message ? e.message : e));
+  }
+}
+
+inInit.onTriggered = async function () {
+  outError.set("");
+  outReady.set(false);
+
+  op.patch.loading.start();
+  try {
+    // CDN option. For offline/standalone, point this to a local file you ship.
+    await loadHydraScriptOnce("https://cdn.jsdelivr.net/npm/hydra-synth@latest/dist/hydra-synth.js");
+    initHydra();
+  } catch (e) {
+    outError.set(String(e && e.message ? e.message : e));
+  } finally {
+    op.patch.loading.finished();
+  }
+};
+
+inRender.onTriggered = function () {
+  // Ensure canvas stays at chosen size even if width/height ports change.
+  if (outReady.get()) {
+    canvasEl = ensureCanvas();
+    applyPreset(inPreset.get());
+  }
+  outNext.trigger();
+};
+```
+
+#### Step 2: Capture the Hydra canvas as a texture
+
+Use the op documentation entry for:
+
+- `Ops.Extension.HtmlToTexture.HtmlToTexture` (see the corresponding ops chapter page)
+
+The key idea is: configure `HtmlToTexture` to target the canvas id you created (default `#hydra-canvas`) and then treat the output like any other texture.
+
+### Why presets (instead of “Hydra code as a string”)?
+
+Running arbitrary code strings (via `eval` / `new Function`) is powerful, but it’s also:
+- **unsafe** (especially in exported / embedded contexts)
+- **hard to debug** (errors happen in dynamic code paths)
+- **often blocked** by stricter Content Security Policy configurations
+
+The preset approach gives you 90% of the creative power with better stability. If you *do* want live-coded strings, keep it as an explicit “advanced / unsafe” path and gate it behind a boolean toggle in the op UI.
+
+### Audio-reactive Hydra (cables-driven)
+
+Hydra has its own audio features, but in cables.gl it’s usually cleaner to drive Hydra using audio analysis you already have in the patch:
+
+- Use cables FFT / RMS → map into `P1/P2/P3` → Hydra preset reads them via functions.
+
+Example mapping:
+- **bass** → `P1` (structure)
+- **mid** → `P2` (motion)
+- **treble** → `P3` (color/detail)
+
+### Performance & quality tips
+
+- **Resolution matters**: start at 512–1024 square for Hydra canvas; scale up only if needed.
+- **Avoid re-building the Hydra graph every frame**: set up the chain once (preset), then let parameters be functions.
+- **Export/offline**: prefer local Hydra JS file rather than CDN.
+- **One Hydra instance**: with `makeGlobal=true`, treat Hydra like a singleton (simple + reliable).
+
+### Troubleshooting
+
+- **Hydra canvas exists but texture is blank**: confirm the canvas is in the DOM and its `id` matches your `HtmlToTexture` selector.
+- **Nothing renders after export**: CDN might be blocked; switch to a local Hydra file shipped with the export.
+- **Errors like “Hydra is not defined”**: the script didn’t load; check network/CSP and the script URL.
 
 ## Error Handling
 
@@ -357,7 +620,7 @@ const outCount = op.outNumber("Count");
 inArray.onChange = function() {
     const arr = inArray.get();
     
-    if (!arr arr.length === 0) {
+    if (!Array.isArray(arr) || arr.length === 0) {
         outSum.set(0);
         outAverage.set(0);
         outCount.set(0);

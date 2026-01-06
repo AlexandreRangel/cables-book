@@ -4,6 +4,8 @@
 
 Cables.gl provides multiple ways to create animations, from simple time-based movements to complex keyframed sequences using the timeline.
 
+**Official reference:** start with [cables.gl docs](https://cables.gl/docs) and search for **Timeline**, **Anim**, **Keyframes**, and **Easing**. UI labels and available features can change between releases, so using the docs as the “source of truth” helps.
+
 ## Types of Animation
 
 ### 1. Procedural Animation
@@ -61,20 +63,25 @@ Time -> Sin -> Y position
 Transform linear time into smooth curves:
 
 **Ease In (slow start):**
-```glsl
-t * t // Quadratic
-t * t * t // Cubic
+```javascript
+// Assume: t is normalized to [0..1]
+t * t;       // Quadratic
+t * t * t;   // Cubic
 ```
 
 **Ease Out (slow end):**
-```glsl
-1 - (1 - t) * (1 - t)
+```javascript
+// Assume: t is normalized to [0..1]
+1 - (1 - t) * (1 - t);
 ```
 
 **Ease In-Out (smooth both):**
-```glsl
-t < 0.5 ? 2 * t * t : 1 - pow(-2 * t + 2, 2) / 2
+```javascript
+// Assume: t is normalized to [0..1]
+t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
 ```
+
+Tip: easing functions expect a **normalized** input \(t\) in \([0,1]\). In patches, that often means `Time -> Range/Map -> Clamp` before easing (or using timeline curves directly).
 
 ### The Smooth Op
 
@@ -316,8 +323,10 @@ The new animation system integrates seamlessly with JavaScript custom operators,
 
 ```javascript
 // Get current animation value from an Anim op
-const animOp = op.patch.findOpByName("MyAnimOp");
-if (animOp) {
+// NOTE: patch inspection APIs can vary between cables versions/runtimes.
+// Treat this as a pattern: find the op you care about, then read its output port.
+const animOp = op.patch.findOpByName ? op.patch.findOpByName("MyAnimOp") : null;
+if (animOp && animOp.outValue && typeof animOp.outValue.get === "function") {
     const currentValue = animOp.outValue.get();
     // Use the animated value
 }
@@ -334,7 +343,7 @@ let animOp = null;
 
 // Find the Anim op (call once on init)
 op.onInit = function() {
-    animOp = op.patch.findOpByName("MyAnimOp");
+    animOp = op.patch.findOpByName ? op.patch.findOpByName("MyAnimOp") : null;
 };
 
 inTrigger.onTriggered = function() {
@@ -465,7 +474,7 @@ inTime.onChange = function() {
     const blend = inBlendFactor.get();
     const t = inTime.get();
     
-    if (!clipA !clipB) return;
+    if (!clipA || !clipB) return;
     
     // Sample both clips at time t
     const valueA = sampleClip(clipA, t);
@@ -478,10 +487,17 @@ inTime.onChange = function() {
 
 function sampleClip(clip, time) {
     const keyframes = clip.keyframes;
-    if (!keyframes keyframes.length === 0) return 0;
+    if (!Array.isArray(keyframes) || keyframes.length === 0) return 0;
     
-    // Clamp time to clip duration
-    time = time % clip.duration;
+    // Clamp / wrap time to clip duration (and handle negative times)
+    const duration = Number(clip.duration) || 0;
+    if (duration > 0) {
+        time = ((time % duration) + duration) % duration;
+    } else {
+        // No duration (or invalid): treat as "hold last keyframe"
+        const last = keyframes[keyframes.length - 1];
+        return last && typeof last.value === "number" ? last.value : 0;
+    }
     
     // Find surrounding keyframes
     for (let i = 0; i < keyframes.length - 1; i++) {
@@ -493,6 +509,9 @@ function sampleClip(clip, time) {
             const v1 = keyframes[i + 1].value;
             
             const t = (time - t0) / (t1 - t0);
+            // NOTE: this demo uses linear interpolation only.
+            // If you want per-keyframe easing, apply an easing function to `t` here
+            // based on keyframe metadata (e.g. keyframes[i + 1].easing).
             return v0 + (v1 - v0) * t;
         }
     }
@@ -513,7 +532,7 @@ inTime.onChange = function() {
     const clips = inClips.get();
     const t = inTime.get();
     
-    if (!clips clips.length === 0) {
+    if (!Array.isArray(clips) || clips.length === 0) {
         outCombinedValue.set(0);
         return;
     }
@@ -1145,8 +1164,10 @@ inState.onChange = function() {
 inTime.onChange = function() {
     // Sample the current clip
     if (currentClip) {
-        const animOp = op.patch.findOpByName("Anim_" + currentClip);
-        if (animOp) {
+        // Convention example: if you name your Anim ops predictably, you can locate them.
+        // (API availability may vary; treat as a pattern.)
+        const animOp = op.patch.findOpByName ? op.patch.findOpByName("Anim_" + currentClip) : null;
+        if (animOp && animOp.outValue && typeof animOp.outValue.get === "function") {
             outValue.set(animOp.outValue.get());
         }
     }
