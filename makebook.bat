@@ -98,39 +98,48 @@ if exist %TEMP_MD% del %TEMP_MD%
 if exist temp_debug.tex del temp_debug.tex
 
 REM Check if PDF was created
-if exist %OUTPUT_PDF% (
-    REM Optional: compress PDF (requires Ghostscript). Replaces output only if smaller.
-    REM You can change the profile: /screen (smallest), /ebook (balanced), /printer (higher quality)
-    set PDF_COMPRESS_PROFILE=/ebook
-    if exist scripts\compress_pdf.ps1 (
-        echo.
-        echo ============================================
-        echo Compressing PDF with Ghostscript (%PDF_COMPRESS_PROFILE%)...
-        echo ============================================
-        powershell -ExecutionPolicy Bypass -File "scripts\compress_pdf.ps1" -InputFile "%OUTPUT_PDF%" -Profile "%PDF_COMPRESS_PROFILE%"
-    ) else (
-        echo.
-        echo NOTE: compress_pdf.ps1 not found. Skipping PDF compression.
-    )
+if not exist %OUTPUT_PDF% goto pdf_fail
 
-    powershell -Command "$startTime = Import-Clixml -Path 'timer_start.xml'; $elapsed = (Get-Date) - $startTime; $h = [math]::Floor($elapsed.TotalHours); $m = $elapsed.Minutes; $s = $elapsed.Seconds; Write-Host ('[Total Time: ' + $h.ToString('00') + ':' + $m.ToString('00') + ':' + $s.ToString('00') + ']')"
-    echo.
-    echo ============================================
-    echo SUCCESS! PDF created: %OUTPUT_PDF%
-    echo ============================================
-    echo.
-    REM Play sound notification using PowerShell text-to-speech at 50% volume
-    powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep Beeep Cursor said: the pdf generation is complete.')"
-    if exist timer_start.xml del timer_start.xml
-    exit /b 0
-) else (
-    echo.
-    echo ERROR: PDF generation failed.
-    echo.
-    echo Make sure you have:
-    echo   - XeLaTeX installed (MiKTeX or TeX Live)
-    echo   - Ubuntu fonts installed
-    echo.
-    if exist timer_start.xml del timer_start.xml
-    exit /b 1
-)
+REM Optional: compress PDF (requires Ghostscript). Replaces output only if smaller.
+REM You can change the profile: /screen (smallest), /ebook (balanced), /printer (higher quality)
+set PDF_COMPRESS_PROFILE=/ebook
+if exist scripts\compress_pdf.ps1 call :compress_pdf
+if not exist scripts\compress_pdf.ps1 echo NOTE: compress_pdf.ps1 not found. Skipping PDF compression.
+
+call :show_total_time
+echo.
+echo ============================================
+echo SUCCESS! PDF created: %OUTPUT_PDF%
+echo ============================================
+echo.
+call :play_completion_sound
+if exist timer_start.xml del timer_start.xml
+exit /b 0
+
+:pdf_fail
+echo.
+echo ERROR: PDF generation failed.
+echo.
+echo Make sure you have:
+echo   - XeLaTeX installed (MiKTeX or TeX Live)
+echo   - Ubuntu fonts installed
+echo.
+if exist timer_start.xml del timer_start.xml
+exit /b 1
+
+REM Subroutines to avoid batch file parentheses parsing issues
+:show_total_time
+powershell -Command "$startTime = Import-Clixml -Path 'timer_start.xml'; $elapsed = (Get-Date) - $startTime; $h = [math]::Floor($elapsed.TotalHours); $m = $elapsed.Minutes; $s = $elapsed.Seconds; Write-Host ('[Total Time: ' + $h.ToString('00') + ':' + $m.ToString('00') + ':' + $s.ToString('00') + ']')"
+goto :eof
+
+:play_completion_sound
+powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep Beeep Cursor said: the pdf generation is complete.')"
+goto :eof
+
+:compress_pdf
+echo.
+echo ============================================
+echo Compressing PDF with Ghostscript profile: %PDF_COMPRESS_PROFILE%
+echo ============================================
+powershell -ExecutionPolicy Bypass -File "scripts\compress_pdf.ps1" -InputFile "%OUTPUT_PDF%" -Profile "%PDF_COMPRESS_PROFILE%"
+goto :eof
