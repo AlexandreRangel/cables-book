@@ -23,8 +23,8 @@
 \newcommand{\SectionThreeLeading}{12}
 \newcommand{\SectionThreeSpacingBefore}{4.0ex}  % Spacing before subsections
 \newcommand{\SectionThreeSpacingAfter}{1.5ex plus 0.5ex minus 0.2ex}  % Spacing after subsections
-\newcommand{\SubsubsectionSpacingBefore}{2.68ex}  % Spacing before subsubsections (33% smaller than SectionThree)
-\newcommand{\SubsubsectionSpacingAfter}{1.0ex plus 0.33ex minus 0.13ex}  % Spacing after subsubsections (33% smaller than SectionThree)
+\newcommand{\SubsubsectionSpacingBefore}{2.5ex}  % Spacing before subsubsections 
+\newcommand{\SubsubsectionSpacingAfter}{1.25ex }  
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{10}
 
@@ -68,6 +68,7 @@
 \newcommand{\CodeBlockFontSize}{10.75}     % Font size in points
 \newcommand{\CodeBlockLeadingPt}{12.0}  % Line height (leading) in points (~+10% over 10.5pt)
 \newcommand{\CodeBlockLineSpacing}{1.0}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
+\newcommand{\CodeBlockSpacingBefore}{0.75\baselineskip}  % Space before code blocks (50% of previous 1.5\baselineskip)
 
 %% ------------------------------------------------------------
 %% IMAGES
@@ -350,8 +351,11 @@
     skipbelow=\baselineskip
 }
 
-% Code blocks use the same card style
-\mdfdefinestyle{codeboxstyle}{style=cardstyle}
+% Code blocks use the same card style, but with reduced spacing before
+\mdfdefinestyle{codeboxstyle}{
+    style=cardstyle,
+    skipabove=\CodeBlockSpacingBefore
+}
 
 % Video cards: keep cardstyle, but make left/right padding match the (good) top padding
 \mdfdefinestyle{videocardstyle}{
