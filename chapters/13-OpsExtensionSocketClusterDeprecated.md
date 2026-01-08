@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray`
 
-**Description:** receive an array from the socketcluster topic
+receive an array from the socketcluster topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,16 +22,16 @@
 - **Data** (Array)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray)
 
 ### SocketClusterReceiveBoolean
 ![SocketClusterReceiveBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveBoolean.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean`
 
-**Description:** Receive boolean value from the socketcluster socket/topic
+Receive boolean value from the socketcluster socket/topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -44,16 +44,16 @@
 - **Data** (booleanNumber)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean)
 
 ### SocketClusterReceiveNumber
 ![SocketClusterReceiveNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveNumber.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber`
 
-**Description:** receive number from the socketcluster socket/topic
+receive number from the socketcluster socket/topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -66,16 +66,16 @@
 - **Data** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber)
 
 ### SocketClusterReceiveString
 ![SocketClusterReceiveString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterReceiveString.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString`
 
-**Description:** receives string from the socketcluster socket/topic
+receives string from the socketcluster socket/topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -88,16 +88,16 @@
 - **Client Id** (String)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString)
 
 ### SocketClusterSendArray
 ![SocketClusterSendArray op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendArray.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray`
 
-**Description:** sends an array via socketcluster/websocket
+sends an array via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -111,16 +111,16 @@
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray)
 
 ### SocketClusterSendBoolean
 ![SocketClusterSendBoolean op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendBoolean.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean`
 
-**Description:** Sends boolean value via socketcluster/websocket
+Sends boolean value via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -133,16 +133,16 @@
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean)
 
 ### SocketClusterSendNumber
 ![SocketClusterSendNumber op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendNumber.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber`
 
-**Description:** sends a number via socketcluster/websocket
+sends a number via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -155,16 +155,16 @@
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber)
 
 ### SocketClusterSendString
 ![SocketClusterSendString op](images/ops/Ops_Extension_SocketCluster_Deprecated_SocketClusterSendString.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString`
 
-**Description:** sends a string via socketcluster/websocket
+sends a string via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -177,8 +177,8 @@
 
 - *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString)
 
 

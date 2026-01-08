@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Sidebar.Button_v2`
 
-**Description:** sidebar push button/trigger element
+sidebar push button/trigger element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 - **Childs** (Object)
 - **Pressed Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Button_v2](https://cables.gl/op/Ops.Sidebar.Button_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.Button_v2](https://cables.gl/op/Ops.Sidebar.Button_v2)
 
 ### ColorPicker_v3
 ![ColorPicker_v3 op](images/ops/Ops_Sidebar_ColorPicker_v3.svg)
 
 **Full Name:** `Ops.Sidebar.ColorPicker_v3`
 
-**Description:** Shows a color-picker in the sidebar
+Shows a color-picker in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -54,16 +54,16 @@
 - **Opacity** (Number)
 - **Hex** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/8-XQ5d)
+**Example Patch:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.ColorPicker_v3](https://cables.gl/op/Ops.Sidebar.ColorPicker_v3)
+**Doc:** [cables.gl/op/Ops.Sidebar.ColorPicker_v3](https://cables.gl/op/Ops.Sidebar.ColorPicker_v3)
 
 ### DisplayValue_v2
 ![DisplayValue_v2 op](images/ops/Ops_Sidebar_DisplayValue_v2.svg)
 
 **Full Name:** `Ops.Sidebar.DisplayValue_v2`
 
-**Description:** display a value or string
+display a value or string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -75,16 +75,16 @@
 
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.DisplayValue_v2](https://cables.gl/op/Ops.Sidebar.DisplayValue_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.DisplayValue_v2](https://cables.gl/op/Ops.Sidebar.DisplayValue_v2)
 
 ### DropDown_v2
 ![DropDown_v2 op](images/ops/Ops_Sidebar_DropDown_v2.svg)
 
 **Full Name:** `Ops.Sidebar.DropDown_v2`
 
-**Description:** Shows a drop-down (select) element in the sidebar
+Shows a drop-down (select) element in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -104,16 +104,16 @@
 - **Index** (Number)
 - **Selected Values** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0wKJ5d)
+**Example Patch:** [cables.gl/edit/0wKJ5d](https://cables.gl/edit/0wKJ5d)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.DropDown_v2](https://cables.gl/op/Ops.Sidebar.DropDown_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.DropDown_v2](https://cables.gl/op/Ops.Sidebar.DropDown_v2)
 
 ### Group
 ![Group op](images/ops/Ops_Sidebar_Group.svg)
 
 **Full Name:** `Ops.Sidebar.Group`
 
-**Description:** organize sidebar elements into groups
+organize sidebar elements into groups.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -128,16 +128,16 @@
 - **Next** (Object)
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Sidebar.Group#example)
+**Example Patch:** [cables.gl/op/Ops.Sidebar.Group#example](https://cables.gl/op/Ops.Sidebar.Group#example)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Group](https://cables.gl/op/Ops.Sidebar.Group)
+**Doc:** [cables.gl/op/Ops.Sidebar.Group](https://cables.gl/op/Ops.Sidebar.Group)
 
 ### Incrementor_v3
 ![Incrementor_v3 op](images/ops/Ops_Sidebar_Incrementor_v3.svg)
 
 **Full Name:** `Ops.Sidebar.Incrementor_v3`
 
-**Description:** steps through numerical or array values one by one
+steps through numerical or array values one by one.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -159,16 +159,16 @@
 - **Value** (Number)
 - **Changed** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/DLV0n6)
+**Example Patch:** [cables.gl/edit/DLV0n6](https://cables.gl/edit/DLV0n6)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Incrementor_v3](https://cables.gl/op/Ops.Sidebar.Incrementor_v3)
+**Doc:** [cables.gl/op/Ops.Sidebar.Incrementor_v3](https://cables.gl/op/Ops.Sidebar.Incrementor_v3)
 
 ### LocalFileToDataUrl
 ![LocalFileToDataUrl op](images/ops/Ops_Sidebar_LocalFileToDataUrl.svg)
 
 **Full Name:** `Ops.Sidebar.LocalFileToDataUrl`
 
-**Description:** load a local file and output as data url
+load a local file and output as data url.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -194,16 +194,16 @@
 - **Filenames** (Array)
 - **File Changed** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/a0V6xn)
+**Example Patch:** [cables.gl/edit/a0V6xn](https://cables.gl/edit/a0V6xn)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl](https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl)
+**Doc:** [cables.gl/op/Ops.Sidebar.LocalFileToDataUrl](https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl)
 
 ### NumberInput_v2
 ![NumberInput_v2 op](images/ops/Ops_Sidebar_NumberInput_v2.svg)
 
 **Full Name:** `Ops.Sidebar.NumberInput_v2`
 
-**Description:** Enter a number in the sidebar
+Enter a number in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -216,16 +216,16 @@
 - **Children** (Object)
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.NumberInput_v2](https://cables.gl/op/Ops.Sidebar.NumberInput_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.NumberInput_v2](https://cables.gl/op/Ops.Sidebar.NumberInput_v2)
 
 ### Presets_v2
 ![Presets_v2 op](images/ops/Ops_Sidebar_Presets_v2.svg)
 
 **Full Name:** `Ops.Sidebar.Presets_v2`
 
-**Description:** manage sidebar presets
+manage sidebar presets.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -255,16 +255,16 @@
 - **Children** (Object)
 - **Index** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KKabBN)
+**Example Patch:** [cables.gl/edit/KKabBN](https://cables.gl/edit/KKabBN)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Presets_v2](https://cables.gl/op/Ops.Sidebar.Presets_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.Presets_v2](https://cables.gl/op/Ops.Sidebar.Presets_v2)
 
 ### Sidebar
 ![Sidebar op](images/ops/Ops_Sidebar_Sidebar.svg)
 
 **Full Name:** `Ops.Sidebar.Sidebar`
 
-**Description:** Sidebar overlay to control values
+Sidebar overlay to control values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -283,16 +283,16 @@
 - **Childs** (Object)
 - **Opfened** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Sidebar](https://cables.gl/op/Ops.Sidebar.Sidebar)
+**Doc:** [cables.gl/op/Ops.Sidebar.Sidebar](https://cables.gl/op/Ops.Sidebar.Sidebar)
 
 ### SidebarDateTime
 ![SidebarDateTime op](images/ops/Ops_Sidebar_SidebarDateTime.svg)
 
 **Full Name:** `Ops.Sidebar.SidebarDateTime`
 
-**Description:** date or datetime picker in the sidebar
+date or datetime picker in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -311,16 +311,16 @@
 - **Result** (String)
 - **Focus** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Bkzmci)
+**Example Patch:** [cables.gl/edit/Bkzmci](https://cables.gl/edit/Bkzmci)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarDateTime](https://cables.gl/op/Ops.Sidebar.SidebarDateTime)
+**Doc:** [cables.gl/op/Ops.Sidebar.SidebarDateTime](https://cables.gl/op/Ops.Sidebar.SidebarDateTime)
 
 ### SidebarElement
 ![SidebarElement op](images/ops/Ops_Sidebar_SidebarElement.svg)
 
 **Full Name:** `Ops.Sidebar.SidebarElement`
 
-**Description:** Add custom HTML Elements into the sidebar
+Add custom HTML Elements into the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -333,16 +333,16 @@
 
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CQrFox)
+**Example Patch:** [cables.gl/edit/CQrFox](https://cables.gl/edit/CQrFox)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarElement](https://cables.gl/op/Ops.Sidebar.SidebarElement)
+**Doc:** [cables.gl/op/Ops.Sidebar.SidebarElement](https://cables.gl/op/Ops.Sidebar.SidebarElement)
 
 ### SideBarImage
 ![SideBarImage op](images/ops/Ops_Sidebar_SideBarImage.svg)
 
 **Full Name:** `Ops.Sidebar.SideBarImage`
 
-**Description:** Display an image in the sidebar
+Display an image in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -354,16 +354,16 @@
 - **Childs** (Object)
 - **Image Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nLvdby)
+**Example Patch:** [cables.gl/edit/nLvdby](https://cables.gl/edit/nLvdby)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarImage](https://cables.gl/op/Ops.Sidebar.SideBarImage)
+**Doc:** [cables.gl/op/Ops.Sidebar.SideBarImage](https://cables.gl/op/Ops.Sidebar.SideBarImage)
 
 ### SideBarStyle
 ![SideBarStyle op](images/ops/Ops_Sidebar_SideBarStyle.svg)
 
 **Full Name:** `Ops.Sidebar.SideBarStyle`
 
-**Description:** adjust appearance of sidebar
+adjust appearance of sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -376,16 +376,16 @@
 
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/o1fXgI)
+**Example Patch:** [cables.gl/edit/o1fXgI](https://cables.gl/edit/o1fXgI)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarStyle](https://cables.gl/op/Ops.Sidebar.SideBarStyle)
+**Doc:** [cables.gl/op/Ops.Sidebar.SideBarStyle](https://cables.gl/op/Ops.Sidebar.SideBarStyle)
 
 ### SideBarSwitch
 ![SideBarSwitch op](images/ops/Ops_Sidebar_SideBarSwitch.svg)
 
 **Full Name:** `Ops.Sidebar.SideBarSwitch`
 
-**Description:** add tabs or switchbar to a sidebar
+add tabs or switchbar to a sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -402,16 +402,16 @@
 - **Index** (Number)
 - **String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7uuz6D)
+**Example Patch:** [cables.gl/edit/7uuz6D](https://cables.gl/edit/7uuz6D)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SideBarSwitch](https://cables.gl/op/Ops.Sidebar.SideBarSwitch)
+**Doc:** [cables.gl/op/Ops.Sidebar.SideBarSwitch](https://cables.gl/op/Ops.Sidebar.SideBarSwitch)
 
 ### SidebarText_v3
 ![SidebarText_v3 op](images/ops/Ops_Sidebar_SidebarText_v3.svg)
 
 **Full Name:** `Ops.Sidebar.SidebarText_v3`
 
-**Description:** Display text in the sidebar
+Display text in the sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -424,16 +424,16 @@
 
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Ut4y8i)
+**Example Patch:** [cables.gl/edit/Ut4y8i](https://cables.gl/edit/Ut4y8i)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarText_v3](https://cables.gl/op/Ops.Sidebar.SidebarText_v3)
+**Doc:** [cables.gl/op/Ops.Sidebar.SidebarText_v3](https://cables.gl/op/Ops.Sidebar.SidebarText_v3)
 
 ### SidebarVariables
 ![SidebarVariables op](images/ops/Ops_Sidebar_SidebarVariables.svg)
 
 **Full Name:** `Ops.Sidebar.SidebarVariables`
 
-**Description:** show values of all variables in a sidebar
+show values of all variables in a sidebar.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -445,16 +445,16 @@
 
 - **Childs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/H2kYgL)
+**Example Patch:** [cables.gl/edit/H2kYgL](https://cables.gl/edit/H2kYgL)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.SidebarVariables](https://cables.gl/op/Ops.Sidebar.SidebarVariables)
+**Doc:** [cables.gl/op/Ops.Sidebar.SidebarVariables](https://cables.gl/op/Ops.Sidebar.SidebarVariables)
 
 ### Slider_v3
 ![Slider_v3 op](images/ops/Ops_Sidebar_Slider_v3.svg)
 
 **Full Name:** `Ops.Sidebar.Slider_v3`
 
-**Description:** Sidebar slider element (range)
+Sidebar slider element (range).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -474,16 +474,16 @@
 - **Childs** (Object)
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Slider_v3](https://cables.gl/op/Ops.Sidebar.Slider_v3)
+**Doc:** [cables.gl/op/Ops.Sidebar.Slider_v3](https://cables.gl/op/Ops.Sidebar.Slider_v3)
 
 ### TextInput_v2
 ![TextInput_v2 op](images/ops/Ops_Sidebar_TextInput_v2.svg)
 
 **Full Name:** `Ops.Sidebar.TextInput_v2`
 
-**Description:** Get a string from an sidebar input field
+Get a string from an sidebar input field.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -508,16 +508,16 @@
 - **Keypress Enter** (Trigger)
 - **Keypress ESC** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/wa-KH-)
+**Example Patch:** [cables.gl/edit/wa-KH-](https://cables.gl/edit/wa-KH-)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.TextInput_v2](https://cables.gl/op/Ops.Sidebar.TextInput_v2)
+**Doc:** [cables.gl/op/Ops.Sidebar.TextInput_v2](https://cables.gl/op/Ops.Sidebar.TextInput_v2)
 
 ### Toggle_v4
 ![Toggle_v4 op](images/ops/Ops_Sidebar_Toggle_v4.svg)
 
 **Full Name:** `Ops.Sidebar.Toggle_v4`
 
-**Description:** sidebar boolean toggle/switch element
+sidebar boolean toggle/switch element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -533,16 +533,16 @@
 - **Value** (booleanNumber)
 - **Toggled** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDgYX5)
+**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.Toggle_v4](https://cables.gl/op/Ops.Sidebar.Toggle_v4)
+**Doc:** [cables.gl/op/Ops.Sidebar.Toggle_v4](https://cables.gl/op/Ops.Sidebar.Toggle_v4)
 
 ### XYPad
 ![XYPad op](images/ops/Ops_Sidebar_XYPad.svg)
 
 **Full Name:** `Ops.Sidebar.XYPad`
 
-**Description:** 2d coordinate input element
+2d coordinate input element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -562,8 +562,8 @@
 - **Y** (Number)
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0NF2FL)
+**Example Patch:** [cables.gl/edit/0NF2FL](https://cables.gl/edit/0NF2FL)
 
-**Docs:** [https://cables.gl/op/Ops.Sidebar.XYPad](https://cables.gl/op/Ops.Sidebar.XYPad)
+**Doc:** [cables.gl/op/Ops.Sidebar.XYPad](https://cables.gl/op/Ops.Sidebar.XYPad)
 
 

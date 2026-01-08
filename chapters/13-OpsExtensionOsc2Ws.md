@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Osc2Ws.Osc2WsArray`
 
-**Description:** Outputs an array of data from a user defined OSC address
+Outputs an array of data from a user defined OSC address.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -24,16 +24,16 @@
 - **Array Length** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
+**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray)
+**Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray)
 
 ### Osc2WsMessage
 ![Osc2WsMessage op](images/ops/Ops_Extension_Osc2Ws_Osc2WsMessage.svg)
 
 **Full Name:** `Ops.Extension.Osc2Ws.Osc2WsMessage`
 
-**Description:** Shows the current active address of an incoming OSC message
+Shows the current active address of an incoming OSC message.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -45,16 +45,16 @@
 - **Arguments** (Array)
 - **Total Arguments** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
+**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage)
+**Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage)
 
 ### Osc2WsNumber
 ![Osc2WsNumber op](images/ops/Ops_Extension_Osc2Ws_Osc2WsNumber.svg)
 
 **Full Name:** `Ops.Extension.Osc2Ws.Osc2WsNumber`
 
-**Description:** Outputs a single number from a user defined OSC address
+Outputs a single number from a user defined OSC address.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -68,16 +68,16 @@
 - **Value** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
+**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber)
+**Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber)
 
 ### Osc2WsNumbers
 ![Osc2WsNumbers op](images/ops/Ops_Extension_Osc2Ws_Osc2WsNumbers.svg)
 
 **Full Name:** `Ops.Extension.Osc2Ws.Osc2WsNumbers`
 
-**Description:** Outputs up to 4 numbers from a user defined OSC address
+Outputs up to 4 numbers from a user defined OSC address.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -94,8 +94,8 @@
 - **Number 2** (Number)
 - **Number 3** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/F77YvQ)
+**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers)
+**Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers)
 
 

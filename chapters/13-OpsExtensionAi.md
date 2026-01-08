@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Ai.LLmModelList`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LLmModelList) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 - **Jcju8npa2** (booleanNumber)
 - **Ozg9pnd1z** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Ai.LLmModelList#example](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Ai.LLmModelList](https://cables.gl/op/Ops.Extension.Ai.LLmModelList)
+**Doc:** [cables.gl/op/Ops.Extension.Ai.LLmModelList](https://cables.gl/op/Ops.Extension.Ai.LLmModelList)
 
 ### LlmPrompt
 ![LlmPrompt op](images/ops/Ops_Extension_Ai_LlmPrompt.svg)
 
 **Full Name:** `Ops.Extension.Ai.LlmPrompt`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -50,8 +50,8 @@
 - **Xs18z73z0** (booleanNumber)
 - **Aosval1gx** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Ai.LlmPrompt#example](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Ai.LlmPrompt](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt)
+**Doc:** [cables.gl/op/Ops.Extension.Ai.LlmPrompt](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt)
 
 

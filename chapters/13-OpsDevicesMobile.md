@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.Mobile.DeviceVibrate`
 
-**Description:** vibrating a mobile device
+vibrating a mobile device.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **Supported** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/H4NGFU)
+**Example Patch:** [cables.gl/edit/H4NGFU](https://cables.gl/edit/H4NGFU)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.DeviceVibrate](https://cables.gl/op/Ops.Devices.Mobile.DeviceVibrate)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.DeviceVibrate](https://cables.gl/op/Ops.Devices.Mobile.DeviceVibrate)
 
 ### GeoLocation
 ![GeoLocation op](images/ops/Ops_Devices_Mobile_GeoLocation.svg)
 
 **Full Name:** `Ops.Devices.Mobile.GeoLocation`
 
-**Description:** tries to get the geo coordinates from the mobile device/browser
+tries to get the geo coordinates from the mobile device/browser.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -41,16 +41,16 @@
 - **Longitude** (Number)
 - **Data** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/kIZ3Ms)
+**Example Patch:** [cables.gl/edit/kIZ3Ms](https://cables.gl/edit/kIZ3Ms)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.GeoLocation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.GeoLocation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation)
 
 ### LockOrientation
 ![LockOrientation op](images/ops/Ops_Devices_Mobile_LockOrientation.svg)
 
 **Full Name:** `Ops.Devices.Mobile.LockOrientation`
 
-**Description:** locks orientation to landscape or portrait mode
+locks orientation to landscape or portrait mode.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -62,16 +62,16 @@
 - **Supported** (Number)
 - **Locked** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.LockOrientation#example](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.LockOrientation](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.LockOrientation](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation)
 
 ### MotionSensor_v2
 ![MotionSensor_v2 op](images/ops/Ops_Devices_Mobile_MotionSensor_v2.svg)
 
 **Full Name:** `Ops.Devices.Mobile.MotionSensor_v2`
 
-**Description:** get values from the device motion sensor mobile
+get values from the device motion sensor mobile.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -95,16 +95,16 @@
 - **Permissions** (String)
 - **Object** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dZ8wQ0)
+**Example Patch:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2](https://cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2](https://cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2)
 
 ### Pinch
 ![Pinch op](images/ops/Ops_Devices_Mobile_Pinch.svg)
 
 **Full Name:** `Ops.Devices.Mobile.Pinch`
 
-**Description:** detect two finger pinch gestures on touchscreens
+detect two finger pinch gestures on touchscreens.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -120,16 +120,16 @@
 - **Event Details** (Object)
 - **Delta** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.Pinch#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.Pinch#example](https://cables.gl/op/Ops.Devices.Mobile.Pinch#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.Pinch](https://cables.gl/op/Ops.Devices.Mobile.Pinch)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.Pinch](https://cables.gl/op/Ops.Devices.Mobile.Pinch)
 
 ### ScreenOrientation_v2
 ![ScreenOrientation_v2 op](images/ops/Ops_Devices_Mobile_ScreenOrientation_v2.svg)
 
 **Full Name:** `Ops.Devices.Mobile.ScreenOrientation_v2`
 
-**Description:** get orientation of the physical screen
+get orientation of the physical screen.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -140,16 +140,16 @@
 - **Angle** (Number)
 - **Type** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Zc398i)
+**Example Patch:** [cables.gl/edit/Zc398i](https://cables.gl/edit/Zc398i)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2)
 
 ### ShakeGesture
 ![ShakeGesture op](images/ops/Ops_Devices_Mobile_ShakeGesture.svg)
 
 **Full Name:** `Ops.Devices.Mobile.ShakeGesture`
 
-**Description:** Reads the accelerometer data from a mobile device
+Reads the accelerometer data from a mobile device.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -161,8 +161,8 @@
 - **Acceleration Y** (Number)
 - **Acceleration Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture)
+**Doc:** [cables.gl/op/Ops.Devices.Mobile.ShakeGesture](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture)
 
 

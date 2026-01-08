@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Data.SpreadSheetArray`
 
-**Description:** Enter data in a spreadsheet table
+Enter data in a spreadsheet table.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,8 +22,8 @@
 - **Height** (Number)
 - **Column Names** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/wDITt1)
+**Example Patch:** [cables.gl/edit/wDITt1](https://cables.gl/edit/wDITt1)
 
-**Docs:** [https://cables.gl/op/Ops.Data.SpreadSheetArray](https://cables.gl/op/Ops.Data.SpreadSheetArray)
+**Doc:** [cables.gl/op/Ops.Data.SpreadSheetArray](https://cables.gl/op/Ops.Data.SpreadSheetArray)
 
 

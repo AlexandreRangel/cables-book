@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Data.Compose.String.CompString`
 
-**Description:** Compose a string
+Compose a string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,16 +22,16 @@
 - **Next** (Trigger)
 - **Result** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GUpzJB)
+**Example Patch:** [cables.gl/edit/GUpzJB](https://cables.gl/edit/GUpzJB)
 
-**Docs:** [https://cables.gl/op/Ops.Data.Compose.String.CompString](https://cables.gl/op/Ops.Data.Compose.String.CompString)
+**Doc:** [cables.gl/op/Ops.Data.Compose.String.CompString](https://cables.gl/op/Ops.Data.Compose.String.CompString)
 
 ### CompStringAppend
 ![CompStringAppend op](images/ops/Ops_Data_Compose_String_CompStringAppend.svg)
 
 **Full Name:** `Ops.Data.Compose.String.CompStringAppend`
 
-**Description:** Append a string to a string
+Append a string to a string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -43,16 +43,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)
+**Example Patch:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
 
-**Docs:** [https://cables.gl/op/Ops.Data.Compose.String.CompStringAppend](https://cables.gl/op/Ops.Data.Compose.String.CompStringAppend)
+**Doc:** [cables.gl/op/Ops.Data.Compose.String.CompStringAppend](https://cables.gl/op/Ops.Data.Compose.String.CompStringAppend)
 
 ### CompStringShorten
 ![CompStringShorten op](images/ops/Ops_Data_Compose_String_CompStringShorten.svg)
 
 **Full Name:** `Ops.Data.Compose.String.CompStringShorten`
 
-**Description:** Remove characters from the beginning or end of a string
+Remove characters from the beginning or end of a string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -64,8 +64,8 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Yqj7eG)
+**Example Patch:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
 
-**Docs:** [https://cables.gl/op/Ops.Data.Compose.String.CompStringShorten](https://cables.gl/op/Ops.Data.Compose.String.CompStringShorten)
+**Doc:** [cables.gl/op/Ops.Data.Compose.String.CompStringShorten](https://cables.gl/op/Ops.Data.Compose.String.CompStringShorten)
 
 

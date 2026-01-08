@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.DetectGpu.DetectGPU`
 
-**Description:** Use the detect-gpu library to assess performance of the client running the patch
+Use the detect-gpu library to assess performance of the client running the patch.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,8 +23,8 @@
 - **GPU Name** (String)
 - **FPS** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU)
+**Doc:** [cables.gl/op/Ops.Extension.DetectGpu.DetectGPU](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU)
 
 

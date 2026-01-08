@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.LSystem.Lsystem_v2`
 
-**Description:** Lsystem generator
+Lsystem generator.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -29,8 +29,8 @@
 - **Max Size** (Number)
 - **Final Generated String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/xk724p)
+**Example Patch:** [cables.gl/edit/xk724p](https://cables.gl/edit/xk724p)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2](https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2)
+**Doc:** [cables.gl/op/Ops.Extension.LSystem.Lsystem_v2](https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2)
 
 

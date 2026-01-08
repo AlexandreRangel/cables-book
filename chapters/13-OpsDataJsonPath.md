@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Data.JsonPath.ArrayGetArrayByPath`
 
-**Description:** returns the array at the position defined by a path
+returns the array at the position defined by a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -21,16 +21,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/uqXSWr)
+**Example Patch:** [cables.gl/edit/uqXSWr](https://cables.gl/edit/uqXSWr)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath)
 
 ### ArrayGetArrayValuesByPath
 ![ArrayGetArrayValuesByPath op](images/ops/Ops_Data_JsonPath_ArrayGetArrayValuesByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ArrayGetArrayValuesByPath`
 
-**Description:** Outputs all the values of the properties of an array of objects given a path
+Outputs all the values of the properties of an array of objects given a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -42,16 +42,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Y3pXWr)
+**Example Patch:** [cables.gl/edit/Y3pXWr](https://cables.gl/edit/Y3pXWr)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath)
 
 ### ArrayGetNumberByPath
 ![ArrayGetNumberByPath op](images/ops/Ops_Data_JsonPath_ArrayGetNumberByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ArrayGetNumberByPath`
 
-**Description:** finds a number at a position in an array defined by path
+finds a number at a position in an array defined by path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -63,16 +63,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7kSVWr)
+**Example Patch:** [cables.gl/edit/7kSVWr](https://cables.gl/edit/7kSVWr)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath)
 
 ### ArrayGetObjectByPath
 ![ArrayGetObjectByPath op](images/ops/Ops_Data_JsonPath_ArrayGetObjectByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ArrayGetObjectByPath`
 
-**Description:** Returns the object at the position defined by a path
+Returns the object at the position defined by a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -83,16 +83,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/AapUWr)
+**Example Patch:** [cables.gl/edit/AapUWr](https://cables.gl/edit/AapUWr)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath)
 
 ### ArrayGetStringByPath_v2
 ![ArrayGetStringByPath_v2 op](images/ops/Ops_Data_JsonPath_ArrayGetStringByPath_v2.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ArrayGetStringByPath_v2`
 
-**Description:** Finds a string at a position in an array defined by path
+Finds a string at a position in an array defined by path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/rs0XWr)
+**Example Patch:** [cables.gl/edit/rs0XWr](https://cables.gl/edit/rs0XWr)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2)
 
 ### ObjectGetArrayByPath
 ![ObjectGetArrayByPath op](images/ops/Ops_Data_JsonPath_ObjectGetArrayByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ObjectGetArrayByPath`
 
-**Description:** returns the array at the position defined by a path
+returns the array at the position defined by a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -126,16 +126,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oghmln)
+**Example Patch:** [cables.gl/edit/oghmln](https://cables.gl/edit/oghmln)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath)
 
 ### ObjectGetArrayValuesByPath
 ![ObjectGetArrayValuesByPath op](images/ops/Ops_Data_JsonPath_ObjectGetArrayValuesByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ObjectGetArrayValuesByPath`
 
-**Description:** Outputs all the values of the properties of an array of objects given a path
+Outputs all the values of the properties of an array of objects given a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -147,16 +147,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/fBcgln)
+**Example Patch:** [cables.gl/edit/fBcgln](https://cables.gl/edit/fBcgln)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath)
 
 ### ObjectGetNumberByPath
 ![ObjectGetNumberByPath op](images/ops/Ops_Data_JsonPath_ObjectGetNumberByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ObjectGetNumberByPath`
 
-**Description:** finds a number at a position in an object defined by path
+finds a number at a position in an object defined by path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -168,16 +168,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RrYnln)
+**Example Patch:** [cables.gl/edit/RrYnln](https://cables.gl/edit/RrYnln)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath)
 
 ### ObjectGetObjectByPath
 ![ObjectGetObjectByPath op](images/ops/Ops_Data_JsonPath_ObjectGetObjectByPath.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ObjectGetObjectByPath`
 
-**Description:** Returns the object at the position defined by a path
+Returns the object at the position defined by a path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -188,16 +188,16 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/-Zlrln)
+**Example Patch:** [cables.gl/edit/-Zlrln](https://cables.gl/edit/-Zlrln)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath)
 
 ### ObjectGetStringByPath_v2
 ![ObjectGetStringByPath_v2 op](images/ops/Ops_Data_JsonPath_ObjectGetStringByPath_v2.svg)
 
 **Full Name:** `Ops.Data.JsonPath.ObjectGetStringByPath_v2`
 
-**Description:** Finds a string at a position in an object defined by path
+Finds a string at a position in an object defined by path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -210,8 +210,8 @@
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/eJIqln)
+**Example Patch:** [cables.gl/edit/eJIqln](https://cables.gl/edit/eJIqln)
 
-**Docs:** [https://cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2)
+**Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2)
 
 

@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.SuperShapes.SuperShapesCpu`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -40,16 +40,16 @@
 - **Faces** (Array)
 - **TexCoords** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/LgcEiq)
+**Example Patch:** [cables.gl/edit/LgcEiq](https://cables.gl/edit/LgcEiq)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu)
+**Doc:** [cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu)
 
 ### SuperShapesGpu
 ![SuperShapesGpu op](images/ops/Ops_Extension_SuperShapes_SuperShapesGpu.svg)
 
 **Full Name:** `Ops.Extension.SuperShapes.SuperShapesGpu`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -78,8 +78,8 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ka9Vxq)
+**Example Patch:** [cables.gl/edit/ka9Vxq](https://cables.gl/edit/ka9Vxq)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu)
+**Doc:** [cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu)
 
 

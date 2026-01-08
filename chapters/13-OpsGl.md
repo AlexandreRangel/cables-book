@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.ArrayToTexture_v2`
 
-**Description:** create a texture from an array of number values
+create a texture from an array of number values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -29,16 +29,16 @@
 - **Tex Width** (Number)
 - **Tex Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/cOlh_C)
+**Example Patch:** [cables.gl/edit/cOlh_C](https://cables.gl/edit/cOlh_C)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ArrayToTexture_v2](https://cables.gl/op/Ops.Gl.ArrayToTexture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ArrayToTexture_v2](https://cables.gl/op/Ops.Gl.ArrayToTexture_v2)
 
 ### BlendMode
 ![BlendMode op](images/ops/Ops_Gl_BlendMode.svg)
 
 **Full Name:** `Ops.Gl.BlendMode`
 
-**Description:** change how colors are mixed (blending/mixing modes)
+change how colors are mixed (blending/mixing modes).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -50,16 +50,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/x1-Fvc)
+**Example Patch:** [cables.gl/edit/x1-Fvc](https://cables.gl/edit/x1-Fvc)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.BlendMode](https://cables.gl/op/Ops.Gl.BlendMode)
+**Doc:** [cables.gl/op/Ops.Gl.BlendMode](https://cables.gl/op/Ops.Gl.BlendMode)
 
 ### CanvasFocus
 ![CanvasFocus op](images/ops/Ops_Gl_CanvasFocus.svg)
 
 **Full Name:** `Ops.Gl.CanvasFocus`
 
-**Description:** is canvas focussed ?
+is canvas focussed ?.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -69,16 +69,16 @@
 
 - **Has Focus** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vGwM7f)
+**Example Patch:** [cables.gl/edit/vGwM7f](https://cables.gl/edit/vGwM7f)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CanvasFocus](https://cables.gl/op/Ops.Gl.CanvasFocus)
+**Doc:** [cables.gl/op/Ops.Gl.CanvasFocus](https://cables.gl/op/Ops.Gl.CanvasFocus)
 
 ### CanvasInfo_v3
 ![CanvasInfo_v3 op](images/ops/Ops_Gl_CanvasInfo_v3.svg)
 
 **Full Name:** `Ops.Gl.CanvasInfo_v3`
 
-**Description:** the size of the canvas in pixels, aspect ratio and pixel density
+the size of the canvas in pixels, aspect ratio and pixel density.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -97,16 +97,16 @@
 - **Canvas Parent** (Object)
 - **Resized** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/2yaD8i)
+**Example Patch:** [cables.gl/edit/2yaD8i](https://cables.gl/edit/2yaD8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CanvasInfo_v3](https://cables.gl/op/Ops.Gl.CanvasInfo_v3)
+**Doc:** [cables.gl/op/Ops.Gl.CanvasInfo_v3](https://cables.gl/op/Ops.Gl.CanvasInfo_v3)
 
 ### CanvasToTexture
 ![CanvasToTexture op](images/ops/Ops_Gl_CanvasToTexture.svg)
 
 **Full Name:** `Ops.Gl.CanvasToTexture`
 
-**Description:** convert a canvas to texture
+convert a canvas to texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -121,16 +121,16 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QjlEo-)
+**Example Patch:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CanvasToTexture](https://cables.gl/op/Ops.Gl.CanvasToTexture)
+**Doc:** [cables.gl/op/Ops.Gl.CanvasToTexture](https://cables.gl/op/Ops.Gl.CanvasToTexture)
 
 ### ClearColor
 ![ClearColor op](images/ops/Ops_Gl_ClearColor.svg)
 
 **Full Name:** `Ops.Gl.ClearColor`
 
-**Description:** sets all cleared pixels to one colour. Use to change the background colour.
+sets all cleared pixels to one colour. Use to change the background colour.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -144,16 +144,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/_UEjvr)
+**Example Patch:** [cables.gl/edit/_UEjvr](https://cables.gl/edit/_UEjvr)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ClearColor](https://cables.gl/op/Ops.Gl.ClearColor)
+**Doc:** [cables.gl/op/Ops.Gl.ClearColor](https://cables.gl/op/Ops.Gl.ClearColor)
 
 ### ClearDepth
 ![ClearDepth op](images/ops/Ops_Gl_ClearDepth.svg)
 
 **Full Name:** `Ops.Gl.ClearDepth`
 
-**Description:** Clears the depth buffer (zbuffer, z buffer)
+Clears the depth buffer (zbuffer, z buffer).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -163,16 +163,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/rEesag)
+**Example Patch:** [cables.gl/edit/rEesag](https://cables.gl/edit/rEesag)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ClearDepth](https://cables.gl/op/Ops.Gl.ClearDepth)
+**Doc:** [cables.gl/op/Ops.Gl.ClearDepth](https://cables.gl/op/Ops.Gl.ClearDepth)
 
 ### ColorMask
 ![ColorMask op](images/ops/Ops_Gl_ColorMask.svg)
 
 **Full Name:** `Ops.Gl.ColorMask`
 
-**Description:** enable/disable RGBA color channels of your entire scene
+enable/disable RGBA color channels of your entire scene.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -186,16 +186,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/MqQSR7)
+**Example Patch:** [cables.gl/edit/MqQSR7](https://cables.gl/edit/MqQSR7)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ColorMask](https://cables.gl/op/Ops.Gl.ColorMask)
+**Doc:** [cables.gl/op/Ops.Gl.ColorMask](https://cables.gl/op/Ops.Gl.ColorMask)
 
 ### ColorPick
 ![ColorPick op](images/ops/Ops_Gl_ColorPick.svg)
 
 **Full Name:** `Ops.Gl.ColorPick`
 
-**Description:** pick a color at x,y coordinates of canvas
+pick a color at x,y coordinates of canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -210,16 +210,16 @@
 - **B** (Number)
 - **A** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/YEjkgg)
+**Example Patch:** [cables.gl/edit/YEjkgg](https://cables.gl/edit/YEjkgg)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ColorPick](https://cables.gl/op/Ops.Gl.ColorPick)
+**Doc:** [cables.gl/op/Ops.Gl.ColorPick](https://cables.gl/op/Ops.Gl.ColorPick)
 
 ### DirectionalTranslate
 ![DirectionalTranslate op](images/ops/Ops_Gl_DirectionalTranslate.svg)
 
 **Full Name:** `Ops.Gl.DirectionalTranslate`
 
-**Description:** translate away from a point in space
+translate away from a point in space.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -231,16 +231,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/5gL9On)
+**Example Patch:** [cables.gl/edit/5gL9On](https://cables.gl/edit/5gL9On)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.DirectionalTranslate](https://cables.gl/op/Ops.Gl.DirectionalTranslate)
+**Doc:** [cables.gl/op/Ops.Gl.DirectionalTranslate](https://cables.gl/op/Ops.Gl.DirectionalTranslate)
 
 ### DownloadTexture_v3
 ![DownloadTexture_v3 op](images/ops/Ops_Gl_DownloadTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.DownloadTexture_v3`
 
-**Description:** Download a texture as an image file
+Download a texture as an image file.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -253,16 +253,16 @@
 
 - **Jcrmz8mnz** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/15LaTs)
+**Example Patch:** [cables.gl/edit/15LaTs](https://cables.gl/edit/15LaTs)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.DownloadTexture_v3](https://cables.gl/op/Ops.Gl.DownloadTexture_v3)
+**Doc:** [cables.gl/op/Ops.Gl.DownloadTexture_v3](https://cables.gl/op/Ops.Gl.DownloadTexture_v3)
 
 ### DrawTextureMapping
 ![DrawTextureMapping op](images/ops/Ops_Gl_DrawTextureMapping.svg)
 
 **Full Name:** `Ops.Gl.DrawTextureMapping`
 
-**Description:** draw texture mapping coordinates
+draw texture mapping coordinates.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -274,16 +274,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Nu7dJ5)
+**Example Patch:** [cables.gl/edit/Nu7dJ5](https://cables.gl/edit/Nu7dJ5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.DrawTextureMapping](https://cables.gl/op/Ops.Gl.DrawTextureMapping)
+**Doc:** [cables.gl/op/Ops.Gl.DrawTextureMapping](https://cables.gl/op/Ops.Gl.DrawTextureMapping)
 
 ### ElementInBrowserViewport
 ![ElementInBrowserViewport op](images/ops/Ops_Gl_ElementInBrowserViewport.svg)
 
 **Full Name:** `Ops.Gl.ElementInBrowserViewport`
 
-**Description:** check if webgl canvas element is in the current browser viewport
+check if webgl canvas element is in the current browser viewport.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -296,16 +296,16 @@
 - **Fully Visible** (booleanNumber)
 - **Partly Visible** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.ElementInBrowserViewport#example](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ElementInBrowserViewport](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport)
+**Doc:** [cables.gl/op/Ops.Gl.ElementInBrowserViewport](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport)
 
 ### ExternalCanvas
 ![ExternalCanvas op](images/ops/Ops_Gl_ExternalCanvas.svg)
 
 **Full Name:** `Ops.Gl.ExternalCanvas`
 
-**Description:** Open a new window that shows a copy of the patch canvas
+Open a new window that shows a copy of the patch canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -326,16 +326,16 @@
 - **Next** (Trigger)
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/HnG3fB)
+**Example Patch:** [cables.gl/edit/HnG3fB](https://cables.gl/edit/HnG3fB)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ExternalCanvas](https://cables.gl/op/Ops.Gl.ExternalCanvas)
+**Doc:** [cables.gl/op/Ops.Gl.ExternalCanvas](https://cables.gl/op/Ops.Gl.ExternalCanvas)
 
 ### FaceCulling_v2
 ![FaceCulling_v2 op](images/ops/Ops_Gl_FaceCulling_v2.svg)
 
 **Full Name:** `Ops.Gl.FaceCulling_v2`
 
-**Description:** Disable the rendering of front or back facing triangles with culling
+Disable the rendering of front or back facing triangles with culling.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -346,16 +346,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mPwnD-)
+**Example Patch:** [cables.gl/edit/mPwnD-](https://cables.gl/edit/mPwnD-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.FaceCulling_v2](https://cables.gl/op/Ops.Gl.FaceCulling_v2)
+**Doc:** [cables.gl/op/Ops.Gl.FaceCulling_v2](https://cables.gl/op/Ops.Gl.FaceCulling_v2)
 
 ### FontMSDF_v2
 ![FontMSDF_v2 op](images/ops/Ops_Gl_FontMSDF_v2.svg)
 
 **Full Name:** `Ops.Gl.FontMSDF_v2`
 
-**Description:** Load MSDF Font data and texture to use
+Load MSDF Font data and texture to use.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -372,16 +372,16 @@
 - **Total Chars** (Number)
 - **Chars** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
+**Example Patch:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.FontMSDF_v2](https://cables.gl/op/Ops.Gl.FontMSDF_v2)
+**Doc:** [cables.gl/op/Ops.Gl.FontMSDF_v2](https://cables.gl/op/Ops.Gl.FontMSDF_v2)
 
 ### ForceCanvasSize
 ![ForceCanvasSize op](images/ops/Ops_Gl_ForceCanvasSize.svg)
 
 **Full Name:** `Ops.Gl.ForceCanvasSize`
 
-**Description:** Resize canvas element to a specific pixel size or aspect ratio
+Resize canvas element to a specific pixel size or aspect ratio.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -403,16 +403,16 @@
 - **Margin Left** (Number)
 - **Margin Top** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/f9UbD-)
+**Example Patch:** [cables.gl/edit/f9UbD-](https://cables.gl/edit/f9UbD-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ForceCanvasSize](https://cables.gl/op/Ops.Gl.ForceCanvasSize)
+**Doc:** [cables.gl/op/Ops.Gl.ForceCanvasSize](https://cables.gl/op/Ops.Gl.ForceCanvasSize)
 
 ### GateTexture
 ![GateTexture op](images/ops/Ops_Gl_GateTexture.svg)
 
 **Full Name:** `Ops.Gl.GateTexture`
 
-**Description:** Will only allow an Object to to be output if the the pass through parameter evaluates to true
+Will only allow an Object to to be output if the the pass through parameter evaluates to true.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -424,16 +424,16 @@
 
 - **Object Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.GateTexture#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.GateTexture#example](https://cables.gl/op/Ops.Gl.GateTexture#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GateTexture](https://cables.gl/op/Ops.Gl.GateTexture)
+**Doc:** [cables.gl/op/Ops.Gl.GateTexture](https://cables.gl/op/Ops.Gl.GateTexture)
 
 ### GlBlendFunc
 ![GlBlendFunc op](images/ops/Ops_Gl_GlBlendFunc.svg)
 
 **Full Name:** `Ops.Gl.GlBlendFunc`
 
-**Description:** set gl blendmodes directly
+set gl blendmodes directly.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -448,16 +448,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/24qZz7)
+**Example Patch:** [cables.gl/edit/24qZz7](https://cables.gl/edit/24qZz7)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GlBlendFunc](https://cables.gl/op/Ops.Gl.GlBlendFunc)
+**Doc:** [cables.gl/op/Ops.Gl.GlBlendFunc](https://cables.gl/op/Ops.Gl.GlBlendFunc)
 
 ### GlInfo_v2
 ![GlInfo_v2 op](images/ops/Ops_Gl_GlInfo_v2.svg)
 
 **Full Name:** `Ops.Gl.GlInfo_v2`
 
-**Description:** information about the webgl context
+information about the webgl context.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -478,16 +478,16 @@
 - **Vendor** (String)
 - **Renderer** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0zHu8i)
+**Example Patch:** [cables.gl/edit/0zHu8i](https://cables.gl/edit/0zHu8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GlInfo_v2](https://cables.gl/op/Ops.Gl.GlInfo_v2)
+**Doc:** [cables.gl/op/Ops.Gl.GlInfo_v2](https://cables.gl/op/Ops.Gl.GlInfo_v2)
 
 ### GlPrimitive
 ![GlPrimitive op](images/ops/Ops_Gl_GlPrimitive.svg)
 
 **Full Name:** `Ops.Gl.GlPrimitive`
 
-**Description:** force rendering of meshes using points,lines or triangles
+force rendering of meshes using points,lines or triangles.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -498,16 +498,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/a5Mz8i)
+**Example Patch:** [cables.gl/edit/a5Mz8i](https://cables.gl/edit/a5Mz8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GlPrimitive](https://cables.gl/op/Ops.Gl.GlPrimitive)
+**Doc:** [cables.gl/op/Ops.Gl.GlPrimitive](https://cables.gl/op/Ops.Gl.GlPrimitive)
 
 ### GradientTexture
 ![GradientTexture op](images/ops/Ops_Gl_GradientTexture.svg)
 
 **Full Name:** `Ops.Gl.GradientTexture`
 
-**Description:** texture containing a colour gradient that can be altered with an editor
+texture containing a colour gradient that can be altered with an editor.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -531,16 +531,16 @@
 - **Colors** (Array)
 - **Colors Pos** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/_wQNDW)
+**Example Patch:** [cables.gl/edit/_wQNDW](https://cables.gl/edit/_wQNDW)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GradientTexture](https://cables.gl/op/Ops.Gl.GradientTexture)
+**Doc:** [cables.gl/op/Ops.Gl.GradientTexture](https://cables.gl/op/Ops.Gl.GradientTexture)
 
 ### GridTransform
 ![GridTransform op](images/ops/Ops_Gl_GridTransform.svg)
 
 **Full Name:** `Ops.Gl.GridTransform`
 
-**Description:** transform and arrange elements into a grid
+transform and arrange elements into a grid.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -557,16 +557,16 @@
 - **X Index** (Number)
 - **Y Index** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/J-XMNQ)
+**Example Patch:** [cables.gl/edit/J-XMNQ](https://cables.gl/edit/J-XMNQ)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.GridTransform](https://cables.gl/op/Ops.Gl.GridTransform)
+**Doc:** [cables.gl/op/Ops.Gl.GridTransform](https://cables.gl/op/Ops.Gl.GridTransform)
 
 ### Identity
 ![Identity op](images/ops/Ops_Gl_Identity.svg)
 
 **Full Name:** `Ops.Gl.Identity`
 
-**Description:** reset all transforms (modelmatrix)
+reset all transforms (modelmatrix).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -576,16 +576,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KUVJ8i)
+**Example Patch:** [cables.gl/edit/KUVJ8i](https://cables.gl/edit/KUVJ8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Identity](https://cables.gl/op/Ops.Gl.Identity)
+**Doc:** [cables.gl/op/Ops.Gl.Identity](https://cables.gl/op/Ops.Gl.Identity)
 
 ### IdentityViewMatrix
 ![IdentityViewMatrix op](images/ops/Ops_Gl_IdentityViewMatrix.svg)
 
 **Full Name:** `Ops.Gl.IdentityViewMatrix`
 
-**Description:** reset the view matrix (cameras etc.)
+reset the view matrix (cameras etc.).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -595,16 +595,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/H01Ici)
+**Example Patch:** [cables.gl/edit/H01Ici](https://cables.gl/edit/H01Ici)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.IdentityViewMatrix](https://cables.gl/op/Ops.Gl.IdentityViewMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.IdentityViewMatrix](https://cables.gl/op/Ops.Gl.IdentityViewMatrix)
 
 ### ImageSequenceAnim_v2
 ![ImageSequenceAnim_v2 op](images/ops/Ops_Gl_ImageSequenceAnim_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageSequenceAnim_v2`
 
-**Description:** play a image sprite animation
+play a image sprite animation.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -624,16 +624,16 @@
 - **Frame** (Number)
 - **Progress** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/n0iMSq)
+**Example Patch:** [cables.gl/edit/n0iMSq](https://cables.gl/edit/n0iMSq)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2](https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageSequenceAnim_v2](https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2)
 
 ### InteractiveRectangle_v2
 ![InteractiveRectangle_v2 op](images/ops/Ops_Gl_InteractiveRectangle_v2.svg)
 
 **Full Name:** `Ops.Gl.InteractiveRectangle_v2`
 
-**Description:** An area which is interactive
+An area which is interactive.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -666,16 +666,16 @@
 - **Left Click** (Trigger)
 - **Dom Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/P_SED0)
+**Example Patch:** [cables.gl/edit/P_SED0](https://cables.gl/edit/P_SED0)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2](https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2)
+**Doc:** [cables.gl/op/Ops.Gl.InteractiveRectangle_v2](https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2)
 
 ### LayerSequence
 ![LayerSequence op](images/ops/Ops_Gl_LayerSequence.svg)
 
 **Full Name:** `Ops.Gl.LayerSequence`
 
-**Description:** Render Multiple Layers in a specific order
+Render Multiple Layers in a specific order.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -700,16 +700,16 @@
 - **Trigger 14** (Trigger)
 - **Trigger 15** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/VH4Oxj)
+**Example Patch:** [cables.gl/edit/VH4Oxj](https://cables.gl/edit/VH4Oxj)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.LayerSequence](https://cables.gl/op/Ops.Gl.LayerSequence)
+**Doc:** [cables.gl/op/Ops.Gl.LayerSequence](https://cables.gl/op/Ops.Gl.LayerSequence)
 
 ### LineFont_v2
 ![LineFont_v2 op](images/ops/Ops_Gl_LineFont_v2.svg)
 
 **Full Name:** `Ops.Gl.LineFont_v2`
 
-**Description:** A Simple way to write text on the screen.
+A Simple way to write text on the screen.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -721,16 +721,16 @@
 
 - **Lines** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/1JzPLu)
+**Example Patch:** [cables.gl/edit/1JzPLu](https://cables.gl/edit/1JzPLu)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.LineFont_v2](https://cables.gl/op/Ops.Gl.LineFont_v2)
+**Doc:** [cables.gl/op/Ops.Gl.LineFont_v2](https://cables.gl/op/Ops.Gl.LineFont_v2)
 
 ### MainLoop_v2
 ![MainLoop_v2 op](images/ops/Ops_Gl_MainLoop_v2.svg)
 
 **Full Name:** `Ops.Gl.MainLoop_v2`
 
-**Description:** Trigger other ops once every frame to create smooth animations
+Trigger other ops once every frame to create smooth animations.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -747,16 +747,16 @@
 - **Height** (Number)
 - **Pixel Density** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/uZxfQc)
+**Example Patch:** [cables.gl/edit/uZxfQc](https://cables.gl/edit/uZxfQc)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.MainLoop_v2](https://cables.gl/op/Ops.Gl.MainLoop_v2)
+**Doc:** [cables.gl/op/Ops.Gl.MainLoop_v2](https://cables.gl/op/Ops.Gl.MainLoop_v2)
 
 ### MediaRecorder_v2
 ![MediaRecorder_v2 op](images/ops/Ops_Gl_MediaRecorder_v2.svg)
 
 **Full Name:** `Ops.Gl.MediaRecorder_v2`
 
-**Description:** Record the renderer-output to video
+Record the renderer-output to video.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -780,16 +780,16 @@
 - **Finished Recording** (Trigger)
 - **Video DataUrl** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ioiDIR)
+**Example Patch:** [cables.gl/edit/ioiDIR](https://cables.gl/edit/ioiDIR)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.MediaRecorder_v2](https://cables.gl/op/Ops.Gl.MediaRecorder_v2)
+**Doc:** [cables.gl/op/Ops.Gl.MediaRecorder_v2](https://cables.gl/op/Ops.Gl.MediaRecorder_v2)
 
 ### MeshInstancer_v4
 ![MeshInstancer_v4 op](images/ops/Ops_Gl_MeshInstancer_v4.svg)
 
 **Full Name:** `Ops.Gl.MeshInstancer_v4`
 
-**Description:** Draw the same mesh multiple times on the GPU
+Draw the same mesh multiple times on the GPU.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -809,16 +809,16 @@
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oOsjJ5)
+**Example Patch:** [cables.gl/edit/oOsjJ5](https://cables.gl/edit/oOsjJ5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.MeshInstancer_v4](https://cables.gl/op/Ops.Gl.MeshInstancer_v4)
+**Doc:** [cables.gl/op/Ops.Gl.MeshInstancer_v4](https://cables.gl/op/Ops.Gl.MeshInstancer_v4)
 
 ### MeshMorph
 ![MeshMorph op](images/ops/Ops_Gl_MeshMorph.svg)
 
 **Full Name:** `Ops.Gl.MeshMorph`
 
-**Description:** morph from one geometry to another
+morph from one geometry to another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -851,16 +851,16 @@
 - **Finished** (booleanNumber)
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PdhglN)
+**Example Patch:** [cables.gl/edit/PdhglN](https://cables.gl/edit/PdhglN)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.MeshMorph](https://cables.gl/op/Ops.Gl.MeshMorph)
+**Doc:** [cables.gl/op/Ops.Gl.MeshMorph](https://cables.gl/op/Ops.Gl.MeshMorph)
 
 ### NormalizeScreenCoordinates
 ![NormalizeScreenCoordinates op](images/ops/Ops_Gl_NormalizeScreenCoordinates.svg)
 
 **Full Name:** `Ops.Gl.NormalizeScreenCoordinates`
 
-**Description:** convert screen pixel coordinates to range 0-1
+convert screen pixel coordinates to range 0-1.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -872,16 +872,16 @@
 - **Result X** (Number)
 - **Result Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates)
+**Doc:** [cables.gl/op/Ops.Gl.NormalizeScreenCoordinates](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates)
 
 ### OrTexture
 ![OrTexture op](images/ops/Ops_Gl_OrTexture.svg)
 
 **Full Name:** `Ops.Gl.OrTexture`
 
-**Description:** outputs the first valid texture of the
+outputs the first valid texture of the.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -898,16 +898,16 @@
 
 - **Result** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oKRY7i)
+**Example Patch:** [cables.gl/edit/oKRY7i](https://cables.gl/edit/oKRY7i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.OrTexture](https://cables.gl/op/Ops.Gl.OrTexture)
+**Doc:** [cables.gl/op/Ops.Gl.OrTexture](https://cables.gl/op/Ops.Gl.OrTexture)
 
 ### Orthogonal_v2
 ![Orthogonal_v2 op](images/ops/Ops_Gl_Orthogonal_v2.svg)
 
 **Full Name:** `Ops.Gl.Orthogonal_v2`
 
-**Description:** Orthogonal projection / objects in distance don't appear smaller (isometric)
+Orthogonal projection / objects in distance don't appear smaller (isometric).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -924,16 +924,16 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/94Aycg)
+**Example Patch:** [cables.gl/edit/94Aycg](https://cables.gl/edit/94Aycg)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Orthogonal_v2](https://cables.gl/op/Ops.Gl.Orthogonal_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Orthogonal_v2](https://cables.gl/op/Ops.Gl.Orthogonal_v2)
 
 ### OverwriteViewportSize
 ![OverwriteViewportSize op](images/ops/Ops_Gl_OverwriteViewportSize.svg)
 
 **Full Name:** `Ops.Gl.OverwriteViewportSize`
 
-**Description:** Force a manually set viewport size for connected ops
+Force a manually set viewport size for connected ops.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -945,16 +945,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.OverwriteViewportSize#example](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.OverwriteViewportSize](https://cables.gl/op/Ops.Gl.OverwriteViewportSize)
+**Doc:** [cables.gl/op/Ops.Gl.OverwriteViewportSize](https://cables.gl/op/Ops.Gl.OverwriteViewportSize)
 
 ### Performance
 ![Performance op](images/ops/Ops_Gl_Performance.svg)
 
 **Full Name:** `Ops.Gl.Performance`
 
-**Description:** Show WebGl Performance Statistics
+Show WebGl Performance Statistics.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -973,16 +973,16 @@
 - **Canvas** (Object)
 - **FPS** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/zFR8z5)
+**Example Patch:** [cables.gl/edit/zFR8z5](https://cables.gl/edit/zFR8z5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Performance](https://cables.gl/op/Ops.Gl.Performance)
+**Doc:** [cables.gl/op/Ops.Gl.Performance](https://cables.gl/op/Ops.Gl.Performance)
 
 ### PerformanceMeasure
 ![PerformanceMeasure op](images/ops/Ops_Gl_PerformanceMeasure.svg)
 
 **Full Name:** `Ops.Gl.PerformanceMeasure`
 
-**Description:** Measure the time used to execute all child ops
+Measure the time used to execute all child ops.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -994,16 +994,16 @@
 - **Childs** (Trigger)
 - **Time Used** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.PerformanceMeasure#example](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.PerformanceMeasure](https://cables.gl/op/Ops.Gl.PerformanceMeasure)
+**Doc:** [cables.gl/op/Ops.Gl.PerformanceMeasure](https://cables.gl/op/Ops.Gl.PerformanceMeasure)
 
 ### Perspective
 ![Perspective op](images/ops/Ops_Gl_Perspective.svg)
 
 **Full Name:** `Ops.Gl.Perspective`
 
-**Description:** Adjust FOV, field of view, and frustum clipping
+Adjust FOV, field of view, and frustum clipping.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1019,16 +1019,16 @@
 - **Trigger** (Trigger)
 - **Aspect** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RJXV7i)
+**Example Patch:** [cables.gl/edit/RJXV7i](https://cables.gl/edit/RJXV7i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Perspective](https://cables.gl/op/Ops.Gl.Perspective)
+**Doc:** [cables.gl/op/Ops.Gl.Perspective](https://cables.gl/op/Ops.Gl.Perspective)
 
 ### PixelProjection_v3
 ![PixelProjection_v3 op](images/ops/Ops_Gl_PixelProjection_v3.svg)
 
 **Full Name:** `Ops.Gl.PixelProjection_v3`
 
-**Description:** Remaps world co-ordinates to a pixel co-ordinate system
+Remaps world co-ordinates to a pixel co-ordinate system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1047,16 +1047,16 @@
 - **Size Width** (Number)
 - **Size Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/fsOPNS)
+**Example Patch:** [cables.gl/edit/fsOPNS](https://cables.gl/edit/fsOPNS)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.PixelProjection_v3](https://cables.gl/op/Ops.Gl.PixelProjection_v3)
+**Doc:** [cables.gl/op/Ops.Gl.PixelProjection_v3](https://cables.gl/op/Ops.Gl.PixelProjection_v3)
 
 ### PointCollector
 ![PointCollector op](images/ops/Ops_Gl_PointCollector.svg)
 
 **Full Name:** `Ops.Gl.PointCollector`
 
-**Description:** save points/coordinates in an array
+save points/coordinates in an array.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1068,16 +1068,16 @@
 - **Trigger** (Trigger)
 - **Points** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollector#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.PointCollector#example](https://cables.gl/op/Ops.Gl.PointCollector#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.PointCollector](https://cables.gl/op/Ops.Gl.PointCollector)
+**Doc:** [cables.gl/op/Ops.Gl.PointCollector](https://cables.gl/op/Ops.Gl.PointCollector)
 
 ### PointCollectorCollect
 ![PointCollectorCollect op](images/ops/Ops_Gl_PointCollectorCollect.svg)
 
 **Full Name:** `Ops.Gl.PointCollectorCollect`
 
-**Description:** collect world space coordinates into an array
+collect world space coordinates into an array.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1087,16 +1087,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.PointCollectorCollect#example](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.PointCollectorCollect](https://cables.gl/op/Ops.Gl.PointCollectorCollect)
+**Doc:** [cables.gl/op/Ops.Gl.PointCollectorCollect](https://cables.gl/op/Ops.Gl.PointCollectorCollect)
 
 ### PointCollectorScreenCoords
 ![PointCollectorScreenCoords op](images/ops/Ops_Gl_PointCollectorScreenCoords.svg)
 
 **Full Name:** `Ops.Gl.PointCollectorScreenCoords`
 
-**Description:** collect screen pixel coordinates into an array
+collect screen pixel coordinates into an array.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1106,16 +1106,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords)
+**Doc:** [cables.gl/op/Ops.Gl.PointCollectorScreenCoords](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords)
 
 ### RandomCluster
 ![RandomCluster op](images/ops/Ops_Gl_RandomCluster.svg)
 
 **Full Name:** `Ops.Gl.RandomCluster`
 
-**Description:** Transforms objects randomly in space
+Transforms objects randomly in space.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1138,16 +1138,16 @@
 - **Index** (Number)
 - **Rnd** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Ah6Rj6)
+**Example Patch:** [cables.gl/edit/Ah6Rj6](https://cables.gl/edit/Ah6Rj6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.RandomCluster](https://cables.gl/op/Ops.Gl.RandomCluster)
+**Doc:** [cables.gl/op/Ops.Gl.RandomCluster](https://cables.gl/op/Ops.Gl.RandomCluster)
 
 ### RenderAnim_v2
 ![RenderAnim_v2 op](images/ops/Ops_Gl_RenderAnim_v2.svg)
 
 **Full Name:** `Ops.Gl.RenderAnim_v2`
 
-**Description:** record, render an animation and save as webm video file or png image sequence
+record, render an animation and save as webm video file or png image sequence.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1175,16 +1175,16 @@
 - **Data URL** (String)
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bQhm8i)
+**Example Patch:** [cables.gl/edit/bQhm8i](https://cables.gl/edit/bQhm8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.RenderAnim_v2](https://cables.gl/op/Ops.Gl.RenderAnim_v2)
+**Doc:** [cables.gl/op/Ops.Gl.RenderAnim_v2](https://cables.gl/op/Ops.Gl.RenderAnim_v2)
 
 ### RenderGeometry_v2
 ![RenderGeometry_v2 op](images/ops/Ops_Gl_RenderGeometry_v2.svg)
 
 **Full Name:** `Ops.Gl.RenderGeometry_v2`
 
-**Description:** Render a geometry as mesh
+Render a geometry as mesh.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1197,16 +1197,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/w6QYlH)
+**Example Patch:** [cables.gl/edit/w6QYlH](https://cables.gl/edit/w6QYlH)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.RenderGeometry_v2](https://cables.gl/op/Ops.Gl.RenderGeometry_v2)
+**Doc:** [cables.gl/op/Ops.Gl.RenderGeometry_v2](https://cables.gl/op/Ops.Gl.RenderGeometry_v2)
 
 ### RenderToTexture_v3
 ![RenderToTexture_v3 op](images/ops/Ops_Gl_RenderToTexture_v3.svg)
 
 **Full Name:** `Ops.Gl.RenderToTexture_v3`
 
-**Description:** Render into an Image
+Render into an Image.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1224,16 +1224,16 @@
 - **Texture** (Object)
 - **TextureDepth** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/G2_my7)
+**Example Patch:** [cables.gl/edit/G2_my7](https://cables.gl/edit/G2_my7)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.RenderToTexture_v3](https://cables.gl/op/Ops.Gl.RenderToTexture_v3)
+**Doc:** [cables.gl/op/Ops.Gl.RenderToTexture_v3](https://cables.gl/op/Ops.Gl.RenderToTexture_v3)
 
 ### RenderToTextures_v3
 ![RenderToTextures_v3 op](images/ops/Ops_Gl_RenderToTextures_v3.svg)
 
 **Full Name:** `Ops.Gl.RenderToTextures_v3`
 
-**Description:** render to multiple textures at the same time
+render to multiple textures at the same time.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1266,16 +1266,16 @@
 - **Result Texture 7** (Object)
 - **TextureDepth** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/muH2jG)
+**Example Patch:** [cables.gl/edit/muH2jG](https://cables.gl/edit/muH2jG)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.RenderToTextures_v3](https://cables.gl/op/Ops.Gl.RenderToTextures_v3)
+**Doc:** [cables.gl/op/Ops.Gl.RenderToTextures_v3](https://cables.gl/op/Ops.Gl.RenderToTextures_v3)
 
 ### ResetTransform
 ![ResetTransform op](images/ops/Ops_Gl_ResetTransform.svg)
 
 **Full Name:** `Ops.Gl.ResetTransform`
 
-**Description:** reset current transforms to initial value (identity)
+reset current transforms to initial value (identity).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1288,16 +1288,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/kY3J8i)
+**Example Patch:** [cables.gl/edit/kY3J8i](https://cables.gl/edit/kY3J8i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ResetTransform](https://cables.gl/op/Ops.Gl.ResetTransform)
+**Doc:** [cables.gl/op/Ops.Gl.ResetTransform](https://cables.gl/op/Ops.Gl.ResetTransform)
 
 ### SaveScreenShot_v3
 ![SaveScreenShot_v3 op](images/ops/Ops_Gl_SaveScreenShot_v3.svg)
 
 **Full Name:** `Ops.Gl.SaveScreenShot_v3`
 
-**Description:** Download the current screen content as png file
+Download the current screen content as png file.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1311,16 +1311,16 @@
 
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/OB0Qmi)
+**Example Patch:** [cables.gl/edit/OB0Qmi](https://cables.gl/edit/OB0Qmi)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.SaveScreenShot_v3](https://cables.gl/op/Ops.Gl.SaveScreenShot_v3)
+**Doc:** [cables.gl/op/Ops.Gl.SaveScreenShot_v3](https://cables.gl/op/Ops.Gl.SaveScreenShot_v3)
 
 ### ShowNormals_v2
 ![ShowNormals_v2 op](images/ops/Ops_Gl_ShowNormals_v2.svg)
 
 **Full Name:** `Ops.Gl.ShowNormals_v2`
 
-**Description:** visualize normals, tangents or bitangents
+visualize normals, tangents or bitangents.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1339,16 +1339,16 @@
 - **Trigger** (Trigger)
 - **Line Geom** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/4NeG02)
+**Example Patch:** [cables.gl/edit/4NeG02](https://cables.gl/edit/4NeG02)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShowNormals_v2](https://cables.gl/op/Ops.Gl.ShowNormals_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShowNormals_v2](https://cables.gl/op/Ops.Gl.ShowNormals_v2)
 
 ### SurfaceScatter_v2
 ![SurfaceScatter_v2 op](images/ops/Ops_Gl_SurfaceScatter_v2.svg)
 
 **Full Name:** `Ops.Gl.SurfaceScatter_v2`
 
-**Description:** Scatter an object on the surface of a mesh with different distribution methods
+Scatter an object on the surface of a mesh with different distribution methods.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1372,16 +1372,16 @@
 - **Scale** (Array)
 - **Quaternions** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/cfUzre)
+**Example Patch:** [cables.gl/edit/cfUzre](https://cables.gl/edit/cfUzre)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.SurfaceScatter_v2](https://cables.gl/op/Ops.Gl.SurfaceScatter_v2)
+**Doc:** [cables.gl/op/Ops.Gl.SurfaceScatter_v2](https://cables.gl/op/Ops.Gl.SurfaceScatter_v2)
 
 ### TextMeshMSDF_v2
 ![TextMeshMSDF_v2 op](images/ops/Ops_Gl_TextMeshMSDF_v2.svg)
 
 **Full Name:** `Ops.Gl.TextMeshMSDF_v2`
 
-**Description:** draw text using the FontMSDF operator
+draw text using the FontMSDF operator.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1422,16 +1422,16 @@
 - **Start Y** (Number)
 - **Num Chars** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9COr26)
+**Example Patch:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2](https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2)
+**Doc:** [cables.gl/op/Ops.Gl.TextMeshMSDF_v2](https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2)
 
 ### Texture_v2
 ![Texture_v2 op](images/ops/Ops_Gl_Texture_v2.svg)
 
 **Full Name:** `Ops.Gl.Texture_v2`
 
-**Description:** Load an image as a texture
+Load an image as a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1452,16 +1452,16 @@
 - **Loaded** (booleanNumber)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/iRKrD-)
+**Example Patch:** [cables.gl/edit/iRKrD-](https://cables.gl/edit/iRKrD-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Texture_v2](https://cables.gl/op/Ops.Gl.Texture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Texture_v2](https://cables.gl/op/Ops.Gl.Texture_v2)
 
 ### TextureArray
 ![TextureArray op](images/ops/Ops_Gl_TextureArray.svg)
 
 **Full Name:** `Ops.Gl.TextureArray`
 
-**Description:** create an array of textures
+create an array of textures.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1486,16 +1486,16 @@
 - **Array** (Array)
 - **Count** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vS5fjz)
+**Example Patch:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureArray](https://cables.gl/op/Ops.Gl.TextureArray)
+**Doc:** [cables.gl/op/Ops.Gl.TextureArray](https://cables.gl/op/Ops.Gl.TextureArray)
 
 ### TextureArrayLoader_v2
 ![TextureArrayLoader_v2 op](images/ops/Ops_Gl_TextureArrayLoader_v2.svg)
 
 **Full Name:** `Ops.Gl.TextureArrayLoader_v2`
 
-**Description:** load multiple images into an array
+load multiple images into an array.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1516,16 +1516,16 @@
 - **Loading** (booleanNumber)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/OeGdjT)
+**Example Patch:** [cables.gl/edit/OeGdjT](https://cables.gl/edit/OeGdjT)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2](https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2)
+**Doc:** [cables.gl/op/Ops.Gl.TextureArrayLoader_v2](https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2)
 
 ### TextureArrayLoaderFromArray_v3
 ![TextureArrayLoaderFromArray_v3 op](images/ops/Ops_Gl_TextureArrayLoaderFromArray_v3.svg)
 
 **Full Name:** `Ops.Gl.TextureArrayLoaderFromArray_v3`
 
-**Description:** load multiple texture from filenames given as an array
+load multiple texture from filenames given as an array.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1545,16 +1545,16 @@
 - **Loading** (booleanNumber)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/jFv097)
+**Example Patch:** [cables.gl/edit/jFv097](https://cables.gl/edit/jFv097)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3](https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3)
+**Doc:** [cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3](https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3)
 
 ### TextureColorPick
 ![TextureColorPick op](images/ops/Ops_Gl_TextureColorPick.svg)
 
 **Full Name:** `Ops.Gl.TextureColorPick`
 
-**Description:** get the color of a pixel in a texture
+get the color of a pixel in a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1572,16 +1572,16 @@
 - **Blue** (Number)
 - **Alpha** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bzVSwn)
+**Example Patch:** [cables.gl/edit/bzVSwn](https://cables.gl/edit/bzVSwn)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureColorPick](https://cables.gl/op/Ops.Gl.TextureColorPick)
+**Doc:** [cables.gl/op/Ops.Gl.TextureColorPick](https://cables.gl/op/Ops.Gl.TextureColorPick)
 
 ### TextureToArray_v4
 ![TextureToArray_v4 op](images/ops/Ops_Gl_TextureToArray_v4.svg)
 
 **Full Name:** `Ops.Gl.TextureToArray_v4`
 
-**Description:** extract colors from a texture
+extract colors from a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1595,16 +1595,16 @@
 - **Floating Point** (booleanNumber)
 - **Num Pixel** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/uZkd3x)
+**Example Patch:** [cables.gl/edit/uZkd3x](https://cables.gl/edit/uZkd3x)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureToArray_v4](https://cables.gl/op/Ops.Gl.TextureToArray_v4)
+**Doc:** [cables.gl/op/Ops.Gl.TextureToArray_v4](https://cables.gl/op/Ops.Gl.TextureToArray_v4)
 
 ### TextureToPointArray3
 ![TextureToPointArray3 op](images/ops/Ops_Gl_TextureToPointArray3.svg)
 
 **Full Name:** `Ops.Gl.TextureToPointArray3`
 
-**Description:** generate an array3 of grid positions from a texture
+generate an array3 of grid positions from a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1624,16 +1624,16 @@
 - **Min Z** (Number)
 - **Max Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/U8IO1k)
+**Example Patch:** [cables.gl/edit/U8IO1k](https://cables.gl/edit/U8IO1k)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureToPointArray3](https://cables.gl/op/Ops.Gl.TextureToPointArray3)
+**Doc:** [cables.gl/op/Ops.Gl.TextureToPointArray3](https://cables.gl/op/Ops.Gl.TextureToPointArray3)
 
 ### TextureToRandomPoints
 ![TextureToRandomPoints op](images/ops/Ops_Gl_TextureToRandomPoints.svg)
 
 **Full Name:** `Ops.Gl.TextureToRandomPoints`
 
-**Description:** Create points by sampling texture
+Create points by sampling texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1650,16 +1650,16 @@
 - **Points** (Array)
 - **NumPoints** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/LAoKVJ)
+**Example Patch:** [cables.gl/edit/LAoKVJ](https://cables.gl/edit/LAoKVJ)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TextureToRandomPoints](https://cables.gl/op/Ops.Gl.TextureToRandomPoints)
+**Doc:** [cables.gl/op/Ops.Gl.TextureToRandomPoints](https://cables.gl/op/Ops.Gl.TextureToRandomPoints)
 
 ### TriggerOnCanvasResize
 ![TriggerOnCanvasResize op](images/ops/Ops_Gl_TriggerOnCanvasResize.svg)
 
 **Full Name:** `Ops.Gl.TriggerOnCanvasResize`
 
-**Description:** will trigger when canvas was resized
+will trigger when canvas was resized.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1669,16 +1669,16 @@
 
 - **Resized** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize)
+**Doc:** [cables.gl/op/Ops.Gl.TriggerOnCanvasResize](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize)
 
 ### ValidTexture
 ![ValidTexture op](images/ops/Ops_Gl_ValidTexture.svg)
 
 **Full Name:** `Ops.Gl.ValidTexture`
 
-**Description:** output current input texture or a default texture
+output current input texture or a default texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1688,16 +1688,16 @@
 
 - **Result** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ValidTexture#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.ValidTexture#example](https://cables.gl/op/Ops.Gl.ValidTexture#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ValidTexture](https://cables.gl/op/Ops.Gl.ValidTexture)
+**Doc:** [cables.gl/op/Ops.Gl.ValidTexture](https://cables.gl/op/Ops.Gl.ValidTexture)
 
 ### ViewPortSize
 ![ViewPortSize op](images/ops/Ops_Gl_ViewPortSize.svg)
 
 **Full Name:** `Ops.Gl.ViewPortSize`
 
-**Description:** Outputs current viewport size
+Outputs current viewport size.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1711,8 +1711,8 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.ViewPortSize#example](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ViewPortSize](https://cables.gl/op/Ops.Gl.ViewPortSize)
+**Doc:** [cables.gl/op/Ops.Gl.ViewPortSize](https://cables.gl/op/Ops.Gl.ViewPortSize)
 
 

@@ -13,7 +13,7 @@ REM Initialize start time in a file
 powershell -Command "$startTime = Get-Date; $startTime | Export-Clixml -Path 'timer_start.xml'"
 
 REM Announce PDF generation started
-powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep! Beep! Cursor says: PDF generation started.')"
+powershell -Command "Add-Type -AssemblyName System.Speech; $synth = New-Object System.Speech.Synthesis.SpeechSynthesizer; $synth.Volume = 50; $synth.Speak('Beep! Cursor says: PDF generation started.')"
 
 REM Refresh PATH to include Pandoc
 call refreshenv >nul 2>&1

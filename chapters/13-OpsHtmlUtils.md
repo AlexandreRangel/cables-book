@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Html.Utils.CablesLink`
 
-**Description:** create a cables logo which links to cables gl
+create a cables logo which links to cables gl.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -20,16 +20,16 @@
 
 - *Visit [Ops.Html.Utils.CablesLink documentation](https://cables.gl/op/Ops.Html.Utils.CablesLink) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
+**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.CablesLink](https://cables.gl/op/Ops.Html.Utils.CablesLink)
+**Doc:** [cables.gl/op/Ops.Html.Utils.CablesLink](https://cables.gl/op/Ops.Html.Utils.CablesLink)
 
 ### LoadingIndicator_v2
 ![LoadingIndicator_v2 op](images/ops/Ops_Html_Utils_LoadingIndicator_v2.svg)
 
 **Full Name:** `Ops.Html.Utils.LoadingIndicator_v2`
 
-**Description:** show a typical web loading/progress indicator animation
+show a typical web loading/progress indicator animation.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -40,16 +40,16 @@
 - **Elment** (Object)
 - **Requests** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EsV74q)
+**Example Patch:** [cables.gl/edit/EsV74q](https://cables.gl/edit/EsV74q)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2](https://cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2)
+**Doc:** [cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2](https://cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2)
 
 ### Notification
 ![Notification op](images/ops/Ops_Html_Utils_Notification.svg)
 
 **Full Name:** `Ops.Html.Utils.Notification`
 
-**Description:** Trigger a simple pop up notification on the screen
+Trigger a simple pop up notification on the screen.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -73,16 +73,16 @@
 - **Finished** (booleanNumber)
 - **DOM Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/2Rue0j)
+**Example Patch:** [cables.gl/edit/2Rue0j](https://cables.gl/edit/2Rue0j)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.Notification](https://cables.gl/op/Ops.Html.Utils.Notification)
+**Doc:** [cables.gl/op/Ops.Html.Utils.Notification](https://cables.gl/op/Ops.Html.Utils.Notification)
 
 ### PlayButton
 ![PlayButton op](images/ops/Ops_Html_Utils_PlayButton.svg)
 
 **Full Name:** `Ops.Html.Utils.PlayButton`
 
-**Description:** shows a playbutton for forcing a simple user interaction
+shows a playbutton for forcing a simple user interaction.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -102,16 +102,16 @@
 - **Clicked** (booleanNumber)
 - **Clicked Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/WoGy8s)
+**Example Patch:** [cables.gl/edit/WoGy8s](https://cables.gl/edit/WoGy8s)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.PlayButton](https://cables.gl/op/Ops.Html.Utils.PlayButton)
+**Doc:** [cables.gl/op/Ops.Html.Utils.PlayButton](https://cables.gl/op/Ops.Html.Utils.PlayButton)
 
 ### PlayerControlPanel_v2
 ![PlayerControlPanel_v2 op](images/ops/Ops_Html_Utils_PlayerControlPanel_v2.svg)
 
 **Full Name:** `Ops.Html.Utils.PlayerControlPanel_v2`
 
-**Description:** simple html ui for timeline/mediaplayers (was: TimeLineUI)
+simple html ui for timeline/mediaplayers (was: TimeLineUI).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -135,16 +135,16 @@
 - **Dragging** (booleanNumber)
 - **DOM Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
+**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2](https://cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2)
+**Doc:** [cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2](https://cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2)
 
 ### QrCode
 ![QrCode op](images/ops/Ops_Html_Utils_QrCode.svg)
 
 **Full Name:** `Ops.Html.Utils.QrCode`
 
-**Description:** Generate a qr code as a texture
+Generate a qr code as a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -155,16 +155,16 @@
 - **Image DataUrl** (String)
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QjlEo-)
+**Example Patch:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.QrCode](https://cables.gl/op/Ops.Html.Utils.QrCode)
+**Doc:** [cables.gl/op/Ops.Html.Utils.QrCode](https://cables.gl/op/Ops.Html.Utils.QrCode)
 
 ### YoutubePlayer
 ![YoutubePlayer op](images/ops/Ops_Html_Utils_YoutubePlayer.svg)
 
 **Full Name:** `Ops.Html.Utils.YoutubePlayer`
 
-**Description:** play a youtube video in a HTML element
+play a youtube video in a HTML element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -184,8 +184,8 @@
 - **Element** (Object)
 - **Direct Link** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aMkD16)
+**Example Patch:** [cables.gl/edit/aMkD16](https://cables.gl/edit/aMkD16)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Utils.YoutubePlayer](https://cables.gl/op/Ops.Html.Utils.YoutubePlayer)
+**Doc:** [cables.gl/op/Ops.Html.Utils.YoutubePlayer](https://cables.gl/op/Ops.Html.Utils.YoutubePlayer)
 
 

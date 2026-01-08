@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Trackingjs.TrackWebcamColor`
 
-**Description:** Track a position of a specific color in the current webcam stream
+Track a position of a specific color in the current webcam stream.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -26,8 +26,8 @@
 - **Positions** (Array)
 - **Sizes** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vSwLsT)
+**Example Patch:** [cables.gl/edit/vSwLsT](https://cables.gl/edit/vSwLsT)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor](https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor)
+**Doc:** [cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor](https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor)
 
 

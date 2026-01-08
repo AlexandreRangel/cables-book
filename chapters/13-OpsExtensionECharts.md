@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.ECharts.ECharts`
 
-**Description:** wrapper for echarts-library
+wrapper for echarts-library.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -36,16 +36,16 @@
 - **Chart Updated** (Trigger)
 - **Theme Changed** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
+**Example Patch:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
+**Doc:** [cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
 
 ### EChartsEvent
 ![EChartsEvent op](images/ops/Ops_Extension_ECharts_EChartsEvent.svg)
 
 **Full Name:** `Ops.Extension.ECharts.EChartsEvent`
 
-**Description:** capture echart-library-events
+capture echart-library-events.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -61,8 +61,8 @@
 - **Trigger** (Trigger)
 - **Event Params** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/iY6lbI)
+**Example Patch:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
+**Doc:** [cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
 
 

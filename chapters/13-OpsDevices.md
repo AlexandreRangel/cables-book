@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.TouchGesture`
 
-**Description:** detect touch gestures like swipe and pan
+detect touch gestures like swipe and pan.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -29,16 +29,16 @@
 - **Swipe Down** (Trigger)
 - **Event** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchGesture#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.TouchGesture#example](https://cables.gl/op/Ops.Devices.TouchGesture#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.TouchGesture](https://cables.gl/op/Ops.Devices.TouchGesture)
+**Doc:** [cables.gl/op/Ops.Devices.TouchGesture](https://cables.gl/op/Ops.Devices.TouchGesture)
 
 ### TouchScreen
 ![TouchScreen op](images/ops/Ops_Devices_TouchScreen.svg)
 
 **Full Name:** `Ops.Devices.TouchScreen`
 
-**Description:** touch screen input: e.g. position of fingers
+touch screen input: e.g. position of fingers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -63,8 +63,8 @@
 - **Touch Start** (Trigger)
 - **Touch End** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.TouchScreen#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.TouchScreen#example](https://cables.gl/op/Ops.Devices.TouchScreen#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.TouchScreen](https://cables.gl/op/Ops.Devices.TouchScreen)
+**Doc:** [cables.gl/op/Ops.Devices.TouchScreen](https://cables.gl/op/Ops.Devices.TouchScreen)
 
 

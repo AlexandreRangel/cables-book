@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.Browser.BrowserInfo_v3`
 
-**Description:** Reports the browser being used
+Reports the browser being used.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -40,16 +40,16 @@
 - **User Agent** (String)
 - **Platform Object** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/YOJiIk)
+**Example Patch:** [cables.gl/edit/YOJiIk](https://cables.gl/edit/YOJiIk)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
 
 ### ColorScheme
 ![ColorScheme op](images/ops/Ops_Devices_Browser_ColorScheme.svg)
 
 **Full Name:** `Ops.Devices.Browser.ColorScheme`
 
-**Description:** Get light/dark color scheme preference of the browser
+Get light/dark color scheme preference of the browser.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -62,16 +62,16 @@
 - **Light Mode** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/An48HJ)
+**Example Patch:** [cables.gl/edit/An48HJ](https://cables.gl/edit/An48HJ)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
 
 ### History
 ![History op](images/ops/Ops_Devices_Browser_History.svg)
 
 **Full Name:** `Ops.Devices.Browser.History`
 
-**Description:** Move back or forward in the browser navigation history
+Move back or forward in the browser navigation history.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -82,16 +82,16 @@
 
 - *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Devices.Browser.History#example)
+**Example Patch:** [cables.gl/op/Ops.Devices.Browser.History#example](https://cables.gl/op/Ops.Devices.Browser.History#example)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.History](https://cables.gl/op/Ops.Devices.Browser.History)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.History](https://cables.gl/op/Ops.Devices.Browser.History)
 
 ### JsExpression
 ![JsExpression op](images/ops/Ops_Devices_Browser_JsExpression.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsExpression`
 
-**Description:** evaluate a javascript expression
+evaluate a javascript expression.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 - **Result Object** (Object)
 - **Error** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/gpp4O8)
+**Example Patch:** [cables.gl/edit/gpp4O8](https://cables.gl/edit/gpp4O8)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
 
 ### JsMemory
 ![JsMemory op](images/ops/Ops_Devices_Browser_JsMemory.svg)
 
 **Full Name:** `Ops.Devices.Browser.JsMemory`
 
-**Description:** browser js memory consumption
+browser js memory consumption.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -125,16 +125,16 @@
 - **Used Heap Size** (Number)
 - **Total Heap Size** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/_UyS0f)
+**Example Patch:** [cables.gl/edit/_UyS0f](https://cables.gl/edit/_UyS0f)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
 
 ### UserActivation
 ![UserActivation op](images/ops/Ops_Devices_Browser_UserActivation.svg)
 
 **Full Name:** `Ops.Devices.Browser.UserActivation`
 
-**Description:** detect if the user interacted with or activated the page
+detect if the user interacted with or activated the page.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -148,16 +148,16 @@
 - **User Is Active** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3S26Qc)
+**Example Patch:** [cables.gl/edit/3S26Qc](https://cables.gl/edit/3S26Qc)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
 
 ### WebShare
 ![WebShare op](images/ops/Ops_Devices_Browser_WebShare.svg)
 
 **Full Name:** `Ops.Devices.Browser.WebShare`
 
-**Description:** Opens a sharing dialog to share text and images
+Opens a sharing dialog to share text and images.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -174,8 +174,8 @@
 - **Status** (String)
 - **Supported** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pQ49m4)
+**Example Patch:** [cables.gl/edit/pQ49m4](https://cables.gl/edit/pQ49m4)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
+**Doc:** [cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
 
 

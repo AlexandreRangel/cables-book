@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterClient_v2`
 
-**Description:** connect to a socketcluster server and manage the connection
+connect to a socketcluster server and manage the connection.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -33,16 +33,16 @@
 - **Can Send** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
+**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2)
 
 ### SocketClusterReceiveObject
 ![SocketClusterReceiveObject op](images/ops/Ops_Extension_SocketCluster_SocketClusterReceiveObject.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterReceiveObject`
 
-**Description:** Receives object from the socketcluster socket/topic
+Receives object from the socketcluster socket/topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -56,16 +56,16 @@
 - **Data** (Object)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
+**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject)
 
 ### SocketClusterReceiveTrigger
 ![SocketClusterReceiveTrigger op](images/ops/Ops_Extension_SocketCluster_SocketClusterReceiveTrigger.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterReceiveTrigger`
 
-**Description:** Receives trigger from the socketcluster socket/topic
+Receives trigger from the socketcluster socket/topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -80,16 +80,16 @@
 - **Trigger Name** (String)
 - **Received** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mecjP3)
+**Example Patch:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger)
 
 ### SocketClusterSendObject
 ![SocketClusterSendObject op](images/ops/Ops_Extension_SocketCluster_SocketClusterSendObject.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterSendObject`
 
-**Description:** sends an object via socketcluster/websocket
+sends an object via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -102,16 +102,16 @@
 
 - **Sent Data** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
+**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject)
 
 ### SocketClusterSendTrigger
 ![SocketClusterSendTrigger op](images/ops/Ops_Extension_SocketCluster_SocketClusterSendTrigger.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterSendTrigger`
 
-**Description:** sends a trigger via socketcluster/websocket
+sends a trigger via socketcluster/websocket.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -125,16 +125,16 @@
 
 - *Visit [Ops.Extension.SocketCluster.SocketClusterSendTrigger documentation](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mecjP3)
+**Example Patch:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger)
 
 ### SocketClusterTopicInfo_v2
 ![SocketClusterTopicInfo_v2 op](images/ops/Ops_Extension_SocketCluster_SocketClusterTopicInfo_v2.svg)
 
 **Full Name:** `Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2`
 
-**Description:** get info for clients listening on a socketcluster topic
+get info for clients listening on a socketcluster topic.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -154,8 +154,8 @@
 - **Messages** (Object)
 - **Updated** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EJvr0a)
+**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2)
+**Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2)
 
 

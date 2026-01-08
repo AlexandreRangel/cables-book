@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Ui.Debug.PatchUiCoords`
 
-**Description:** Output the current patch coordinates
+Output the current patch coordinates.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -20,8 +20,8 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
+**Example Patch:** [cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords)
+**Doc:** [cables.gl/op/Ops.Ui.Debug.PatchUiCoords](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords)
 
 

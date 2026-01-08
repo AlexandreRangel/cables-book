@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Html.ActiveElement`
 
-**Description:** Outputs the currently active/focused element
+Outputs the currently active/focused element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **Active Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0iRDu1)
+**Example Patch:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ActiveElement](https://cables.gl/op/Ops.Html.ActiveElement)
+**Doc:** [cables.gl/op/Ops.Html.ActiveElement](https://cables.gl/op/Ops.Html.ActiveElement)
 
 ### AlignElement
 ![AlignElement op](images/ops/Ops_Html_AlignElement.svg)
 
 **Full Name:** `Ops.Html.AlignElement`
 
-**Description:** Align a HTML element to another, keep positioning
+Align a HTML element to another, keep positioning.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -43,16 +43,16 @@
 - **Element Passthrough** (Object)
 - **Aligned Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/jKcTdv)
+**Example Patch:** [cables.gl/edit/jKcTdv](https://cables.gl/edit/jKcTdv)
 
-**Docs:** [https://cables.gl/op/Ops.Html.AlignElement](https://cables.gl/op/Ops.Html.AlignElement)
+**Doc:** [cables.gl/op/Ops.Html.AlignElement](https://cables.gl/op/Ops.Html.AlignElement)
 
 ### AppendChild_v2
 ![AppendChild_v2 op](images/ops/Ops_Html_AppendChild_v2.svg)
 
 **Full Name:** `Ops.Html.AppendChild_v2`
 
-**Description:** Appends a HTML DOM Element to another
+Appends a HTML DOM Element to another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -64,16 +64,16 @@
 - **Parent Out** (Object)
 - **Child Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PakK8i)
+**Example Patch:** [cables.gl/edit/PakK8i](https://cables.gl/edit/PakK8i)
 
-**Docs:** [https://cables.gl/op/Ops.Html.AppendChild_v2](https://cables.gl/op/Ops.Html.AppendChild_v2)
+**Doc:** [cables.gl/op/Ops.Html.AppendChild_v2](https://cables.gl/op/Ops.Html.AppendChild_v2)
 
 ### BrowserSpecificFile_v2
 ![BrowserSpecificFile_v2 op](images/ops/Ops_Html_BrowserSpecificFile_v2.svg)
 
 **Full Name:** `Ops.Html.BrowserSpecificFile_v2`
 
-**Description:** set file dependant on browser
+set file dependant on browser.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -89,16 +89,16 @@
 - **Browser Specific File** (String)
 - **Detected Browser** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CfJkIk)
+**Example Patch:** [cables.gl/edit/CfJkIk](https://cables.gl/edit/CfJkIk)
 
-**Docs:** [https://cables.gl/op/Ops.Html.BrowserSpecificFile_v2](https://cables.gl/op/Ops.Html.BrowserSpecificFile_v2)
+**Doc:** [cables.gl/op/Ops.Html.BrowserSpecificFile_v2](https://cables.gl/op/Ops.Html.BrowserSpecificFile_v2)
 
 ### CanvasToBase64
 ![CanvasToBase64 op](images/ops/Ops_Html_CanvasToBase64.svg)
 
 **Full Name:** `Ops.Html.CanvasToBase64`
 
-**Description:** Create an image file from a canvas
+Create an image file from a canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -115,16 +115,16 @@
 - **Loading** (booleanNumber)
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.CanvasToBase64#example)
+**Example Patch:** [cables.gl/op/Ops.Html.CanvasToBase64#example](https://cables.gl/op/Ops.Html.CanvasToBase64#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.CanvasToBase64](https://cables.gl/op/Ops.Html.CanvasToBase64)
+**Doc:** [cables.gl/op/Ops.Html.CanvasToBase64](https://cables.gl/op/Ops.Html.CanvasToBase64)
 
 ### CompareImages_v2
 ![CompareImages_v2 op](images/ops/Ops_Html_CompareImages_v2.svg)
 
 **Full Name:** `Ops.Html.CompareImages_v2`
 
-**Description:** compares two images and shows the difference as a pink color
+compares two images and shows the difference as a pink color.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -140,16 +140,16 @@
 - **Resemble Data** (Object)
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/1xkRN8)
+**Example Patch:** [cables.gl/edit/1xkRN8](https://cables.gl/edit/1xkRN8)
 
-**Docs:** [https://cables.gl/op/Ops.Html.CompareImages_v2](https://cables.gl/op/Ops.Html.CompareImages_v2)
+**Doc:** [cables.gl/op/Ops.Html.CompareImages_v2](https://cables.gl/op/Ops.Html.CompareImages_v2)
 
 ### DocumentBody
 ![DocumentBody op](images/ops/Ops_Html_DocumentBody.svg)
 
 **Full Name:** `Ops.Html.DocumentBody`
 
-**Description:** Outputs the current document body element
+Outputs the current document body element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -159,16 +159,16 @@
 
 - **Body** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.DocumentBody#example)
+**Example Patch:** [cables.gl/op/Ops.Html.DocumentBody#example](https://cables.gl/op/Ops.Html.DocumentBody#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.DocumentBody](https://cables.gl/op/Ops.Html.DocumentBody)
+**Doc:** [cables.gl/op/Ops.Html.DocumentBody](https://cables.gl/op/Ops.Html.DocumentBody)
 
 ### DraggableElement
 ![DraggableElement op](images/ops/Ops_Html_DraggableElement.svg)
 
 **Full Name:** `Ops.Html.DraggableElement`
 
-**Description:** Make a HTML element draggable to move it around with the mouse
+Make a HTML element draggable to move it around with the mouse.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -180,16 +180,16 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/WSi9iO)
+**Example Patch:** [cables.gl/edit/WSi9iO](https://cables.gl/edit/WSi9iO)
 
-**Docs:** [https://cables.gl/op/Ops.Html.DraggableElement](https://cables.gl/op/Ops.Html.DraggableElement)
+**Doc:** [cables.gl/op/Ops.Html.DraggableElement](https://cables.gl/op/Ops.Html.DraggableElement)
 
 ### ElementAsHtmlString
 ![ElementAsHtmlString op](images/ops/Ops_Html_ElementAsHtmlString.svg)
 
 **Full Name:** `Ops.Html.ElementAsHtmlString`
 
-**Description:** Serialize HTML/SVG elements to a string
+Serialize HTML/SVG elements to a string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -199,16 +199,16 @@
 
 - **HTML String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3kGgr5)
+**Example Patch:** [cables.gl/edit/3kGgr5](https://cables.gl/edit/3kGgr5)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementAsHtmlString](https://cables.gl/op/Ops.Html.ElementAsHtmlString)
+**Doc:** [cables.gl/op/Ops.Html.ElementAsHtmlString](https://cables.gl/op/Ops.Html.ElementAsHtmlString)
 
 ### ElementChilds_v2
 ![ElementChilds_v2 op](images/ops/Ops_Html_ElementChilds_v2.svg)
 
 **Full Name:** `Ops.Html.ElementChilds_v2`
 
-**Description:** Set childs of a HTML Element
+Set childs of a HTML Element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -228,16 +228,16 @@
 
 - **Parent Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/S4VD0H)
+**Example Patch:** [cables.gl/edit/S4VD0H](https://cables.gl/edit/S4VD0H)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementChilds_v2](https://cables.gl/op/Ops.Html.ElementChilds_v2)
+**Doc:** [cables.gl/op/Ops.Html.ElementChilds_v2](https://cables.gl/op/Ops.Html.ElementChilds_v2)
 
 ### ElementChildsMultiPort_v2
 ![ElementChildsMultiPort_v2 op](images/ops/Ops_Html_ElementChildsMultiPort_v2.svg)
 
 **Full Name:** `Ops.Html.ElementChildsMultiPort_v2`
 
-**Description:** add child elements to another HTML Element
+add child elements to another HTML Element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -250,16 +250,16 @@
 - **Parent Out** (Object)
 - **Num Values** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/zC9iWh)
+**Example Patch:** [cables.gl/edit/zC9iWh](https://cables.gl/edit/zC9iWh)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementChildsMultiPort_v2](https://cables.gl/op/Ops.Html.ElementChildsMultiPort_v2)
+**Doc:** [cables.gl/op/Ops.Html.ElementChildsMultiPort_v2](https://cables.gl/op/Ops.Html.ElementChildsMultiPort_v2)
 
 ### ElementClientRect
 ![ElementClientRect op](images/ops/Ops_Html_ElementClientRect.svg)
 
 **Full Name:** `Ops.Html.ElementClientRect`
 
-**Description:** get html element absolute position and size in pixels on screen
+get html element absolute position and size in pixels on screen.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -273,16 +273,16 @@
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/1Z8oLu)
+**Example Patch:** [cables.gl/edit/1Z8oLu](https://cables.gl/edit/1Z8oLu)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementClientRect](https://cables.gl/op/Ops.Html.ElementClientRect)
+**Doc:** [cables.gl/op/Ops.Html.ElementClientRect](https://cables.gl/op/Ops.Html.ElementClientRect)
 
 ### ElementCssCursor_v3
 ![ElementCssCursor_v3 op](images/ops/Ops_Html_ElementCssCursor_v3.svg)
 
 **Full Name:** `Ops.Html.ElementCssCursor_v3`
 
-**Description:** Set the mouse cursor
+Set the mouse cursor.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -296,16 +296,16 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/_f5W8s)
+**Example Patch:** [cables.gl/edit/_f5W8s](https://cables.gl/edit/_f5W8s)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementCssCursor_v3](https://cables.gl/op/Ops.Html.ElementCssCursor_v3)
+**Doc:** [cables.gl/op/Ops.Html.ElementCssCursor_v3](https://cables.gl/op/Ops.Html.ElementCssCursor_v3)
 
 ### ElementCssString
 ![ElementCssString op](images/ops/Ops_Html_ElementCssString.svg)
 
 **Full Name:** `Ops.Html.ElementCssString`
 
-**Description:** Output css attributes of an element as a string
+Output css attributes of an element as a string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -315,16 +315,16 @@
 
 - **CSS** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/8JmrBZ)
+**Example Patch:** [cables.gl/edit/8JmrBZ](https://cables.gl/edit/8JmrBZ)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementCssString](https://cables.gl/op/Ops.Html.ElementCssString)
+**Doc:** [cables.gl/op/Ops.Html.ElementCssString](https://cables.gl/op/Ops.Html.ElementCssString)
 
 ### ElementDataSet
 ![ElementDataSet op](images/ops/Ops_Html_ElementDataSet.svg)
 
 **Full Name:** `Ops.Html.ElementDataSet`
 
-**Description:** Get the data-attributes and values of an HTML element
+Get the data-attributes and values of an HTML element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -334,16 +334,16 @@
 
 - **Dataset** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/MgdKjH)
+**Example Patch:** [cables.gl/edit/MgdKjH](https://cables.gl/edit/MgdKjH)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementDataSet](https://cables.gl/op/Ops.Html.ElementDataSet)
+**Doc:** [cables.gl/op/Ops.Html.ElementDataSet](https://cables.gl/op/Ops.Html.ElementDataSet)
 
 ### ElementEquals
 ![ElementEquals op](images/ops/Ops_Html_ElementEquals.svg)
 
 **Full Name:** `Ops.Html.ElementEquals`
 
-**Description:** Check if two HTML element objects are equal
+Check if two HTML element objects are equal.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -354,16 +354,16 @@
 
 - **Equal** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/LZSRjH)
+**Example Patch:** [cables.gl/edit/LZSRjH](https://cables.gl/edit/LZSRjH)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementEquals](https://cables.gl/op/Ops.Html.ElementEquals)
+**Doc:** [cables.gl/op/Ops.Html.ElementEquals](https://cables.gl/op/Ops.Html.ElementEquals)
 
 ### ElementFadeInOut_v2
 ![ElementFadeInOut_v2 op](images/ops/Ops_Html_ElementFadeInOut_v2.svg)
 
 **Full Name:** `Ops.Html.ElementFadeInOut_v2`
 
-**Description:** fade html elements in or out
+fade html elements in or out.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -377,16 +377,16 @@
 - **PassThrough** (Object)
 - **Is Showing** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Whj018)
+**Example Patch:** [cables.gl/edit/Whj018](https://cables.gl/edit/Whj018)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementFadeInOut_v2](https://cables.gl/op/Ops.Html.ElementFadeInOut_v2)
+**Doc:** [cables.gl/op/Ops.Html.ElementFadeInOut_v2](https://cables.gl/op/Ops.Html.ElementFadeInOut_v2)
 
 ### ElementGetClosest
 ![ElementGetClosest op](images/ops/Ops_Html_ElementGetClosest.svg)
 
 **Full Name:** `Ops.Html.ElementGetClosest`
 
-**Description:** get the closest parent element matching the query selector
+get the closest parent element matching the query selector.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -397,16 +397,16 @@
 
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ojHGjH)
+**Example Patch:** [cables.gl/edit/ojHGjH](https://cables.gl/edit/ojHGjH)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementGetClosest](https://cables.gl/op/Ops.Html.ElementGetClosest)
+**Doc:** [cables.gl/op/Ops.Html.ElementGetClosest](https://cables.gl/op/Ops.Html.ElementGetClosest)
 
 ### ElementGradientBg
 ![ElementGradientBg op](images/ops/Ops_Html_ElementGradientBg.svg)
 
 **Full Name:** `Ops.Html.ElementGradientBg`
 
-**Description:** Use a cables gradient as HTML element background
+Use a cables gradient as HTML element background.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -420,16 +420,16 @@
 - **HTML Element** (Object)
 - **CSS String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QB7br5)
+**Example Patch:** [cables.gl/edit/QB7br5](https://cables.gl/edit/QB7br5)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementGradientBg](https://cables.gl/op/Ops.Html.ElementGradientBg)
+**Doc:** [cables.gl/op/Ops.Html.ElementGradientBg](https://cables.gl/op/Ops.Html.ElementGradientBg)
 
 ### ElementHasClass
 ![ElementHasClass op](images/ops/Ops_Html_ElementHasClass.svg)
 
 **Full Name:** `Ops.Html.ElementHasClass`
 
-**Description:** Does the element currenty have a specific class set
+Does the element currenty have a specific class set.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -441,16 +441,16 @@
 
 - **Has Class** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ElementHasClass#example)
+**Example Patch:** [cables.gl/op/Ops.Html.ElementHasClass#example](https://cables.gl/op/Ops.Html.ElementHasClass#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementHasClass](https://cables.gl/op/Ops.Html.ElementHasClass)
+**Doc:** [cables.gl/op/Ops.Html.ElementHasClass](https://cables.gl/op/Ops.Html.ElementHasClass)
 
 ### ElementInfo
 ![ElementInfo op](images/ops/Ops_Html_ElementInfo.svg)
 
 **Full Name:** `Ops.Html.ElementInfo`
 
-**Description:** Get information about an element
+Get information about an element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -461,16 +461,16 @@
 - **Tagname** (String)
 - **Id** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0iRDu1)
+**Example Patch:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementInfo](https://cables.gl/op/Ops.Html.ElementInfo)
+**Doc:** [cables.gl/op/Ops.Html.ElementInfo](https://cables.gl/op/Ops.Html.ElementInfo)
 
 ### ElementIsFocused
 ![ElementIsFocused op](images/ops/Ops_Html_ElementIsFocused.svg)
 
 **Full Name:** `Ops.Html.ElementIsFocused`
 
-**Description:** Is the connected element currently focused
+Is the connected element currently focused.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -481,16 +481,16 @@
 
 - **Has Focus** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9jTwz1)
+**Example Patch:** [cables.gl/edit/9jTwz1](https://cables.gl/edit/9jTwz1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementIsFocused](https://cables.gl/op/Ops.Html.ElementIsFocused)
+**Doc:** [cables.gl/op/Ops.Html.ElementIsFocused](https://cables.gl/op/Ops.Html.ElementIsFocused)
 
 ### ElementsPositionsByClass
 ![ElementsPositionsByClass op](images/ops/Ops_Html_ElementsPositionsByClass.svg)
 
 **Full Name:** `Ops.Html.ElementsPositionsByClass`
 
-**Description:** get html element absolute positions and sizes by classname
+get html element absolute positions and sizes by classname.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -503,16 +503,16 @@
 - **Size** (Array)
 - **Total Elements** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ElementsPositionsByClass#example)
+**Example Patch:** [cables.gl/op/Ops.Html.ElementsPositionsByClass#example](https://cables.gl/op/Ops.Html.ElementsPositionsByClass#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ElementsPositionsByClass](https://cables.gl/op/Ops.Html.ElementsPositionsByClass)
+**Doc:** [cables.gl/op/Ops.Html.ElementsPositionsByClass](https://cables.gl/op/Ops.Html.ElementsPositionsByClass)
 
 ### FontFile_v2
 ![FontFile_v2 op](images/ops/Ops_Html_FontFile_v2.svg)
 
 **Full Name:** `Ops.Html.FontFile_v2`
 
-**Description:** Load a font file like .otf, .ttf, .woff via css
+Load a font file like .otf, .ttf, .woff via css.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -525,16 +525,16 @@
 - **Loaded** (booleanNumber)
 - **Loaded Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/xR9zIR)
+**Example Patch:** [cables.gl/edit/xR9zIR](https://cables.gl/edit/xR9zIR)
 
-**Docs:** [https://cables.gl/op/Ops.Html.FontFile_v2](https://cables.gl/op/Ops.Html.FontFile_v2)
+**Doc:** [cables.gl/op/Ops.Html.FontFile_v2](https://cables.gl/op/Ops.Html.FontFile_v2)
 
 ### FontsLoaded
 ![FontsLoaded op](images/ops/Ops_Html_FontsLoaded.svg)
 
 **Full Name:** `Ops.Html.FontsLoaded`
 
-**Description:** triggers when asynchronous requests finised loading
+triggers when asynchronous requests finised loading.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -544,16 +544,16 @@
 
 - **Font Loaded** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/xP04r1)
+**Example Patch:** [cables.gl/edit/xP04r1](https://cables.gl/edit/xP04r1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.FontsLoaded](https://cables.gl/op/Ops.Html.FontsLoaded)
+**Doc:** [cables.gl/op/Ops.Html.FontsLoaded](https://cables.gl/op/Ops.Html.FontsLoaded)
 
 ### FullscreenMode
 ![FullscreenMode op](images/ops/Ops_Html_FullscreenMode.svg)
 
 **Full Name:** `Ops.Html.FullscreenMode`
 
-**Description:** Switch webgl to fullscreen
+Switch webgl to fullscreen.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -565,16 +565,16 @@
 - **Is Fullscreen** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CCoJji)
+**Example Patch:** [cables.gl/edit/CCoJji](https://cables.gl/edit/CCoJji)
 
-**Docs:** [https://cables.gl/op/Ops.Html.FullscreenMode](https://cables.gl/op/Ops.Html.FullscreenMode)
+**Doc:** [cables.gl/op/Ops.Html.FullscreenMode](https://cables.gl/op/Ops.Html.FullscreenMode)
 
 ### GlCopyToCanvas
 ![GlCopyToCanvas op](images/ops/Ops_Html_GlCopyToCanvas.svg)
 
 **Full Name:** `Ops.Html.GlCopyToCanvas`
 
-**Description:** Copy GL canvas content to another canvas
+Copy GL canvas content to another canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -586,16 +586,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/u2vAu1)
+**Example Patch:** [cables.gl/edit/u2vAu1](https://cables.gl/edit/u2vAu1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.GlCopyToCanvas](https://cables.gl/op/Ops.Html.GlCopyToCanvas)
+**Doc:** [cables.gl/op/Ops.Html.GlCopyToCanvas](https://cables.gl/op/Ops.Html.GlCopyToCanvas)
 
 ### HyperLink_v3
 ![HyperLink_v3 op](images/ops/Ops_Html_HyperLink_v3.svg)
 
 **Full Name:** `Ops.Html.HyperLink_v3`
 
-**Description:** Open another website
+Open another website.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -609,16 +609,16 @@
 
 - *Visit [Ops.Html.HyperLink_v3 documentation](https://cables.gl/op/Ops.Html.HyperLink_v3) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
+**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
-**Docs:** [https://cables.gl/op/Ops.Html.HyperLink_v3](https://cables.gl/op/Ops.Html.HyperLink_v3)
+**Doc:** [cables.gl/op/Ops.Html.HyperLink_v3](https://cables.gl/op/Ops.Html.HyperLink_v3)
 
 ### InnerHTML
 ![InnerHTML op](images/ops/Ops_Html_InnerHTML.svg)
 
 **Full Name:** `Ops.Html.InnerHTML`
 
-**Description:** Set innerHTML or innerTEXT of an HTML element
+Set innerHTML or innerTEXT of an HTML element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -631,16 +631,16 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/jgArsw)
+**Example Patch:** [cables.gl/edit/jgArsw](https://cables.gl/edit/jgArsw)
 
-**Docs:** [https://cables.gl/op/Ops.Html.InnerHTML](https://cables.gl/op/Ops.Html.InnerHTML)
+**Doc:** [cables.gl/op/Ops.Html.InnerHTML](https://cables.gl/op/Ops.Html.InnerHTML)
 
 ### InnerHtmlAppend
 ![InnerHtmlAppend op](images/ops/Ops_Html_InnerHtmlAppend.svg)
 
 **Full Name:** `Ops.Html.InnerHtmlAppend`
 
-**Description:** Append string to the inner html or an element
+Append string to the inner html or an element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -652,16 +652,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hmTiu1)
+**Example Patch:** [cables.gl/edit/hmTiu1](https://cables.gl/edit/hmTiu1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.InnerHtmlAppend](https://cables.gl/op/Ops.Html.InnerHtmlAppend)
+**Doc:** [cables.gl/op/Ops.Html.InnerHtmlAppend](https://cables.gl/op/Ops.Html.InnerHtmlAppend)
 
 ### MailtoLink
 ![MailtoLink op](images/ops/Ops_Html_MailtoLink.svg)
 
 **Full Name:** `Ops.Html.MailtoLink`
 
-**Description:** creates a mailto: link to open the default email app
+creates a mailto: link to open the default email app.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -673,16 +673,16 @@
 
 - *Visit [Ops.Html.MailtoLink documentation](https://cables.gl/op/Ops.Html.MailtoLink) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ilts7O)
+**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
-**Docs:** [https://cables.gl/op/Ops.Html.MailtoLink](https://cables.gl/op/Ops.Html.MailtoLink)
+**Doc:** [cables.gl/op/Ops.Html.MailtoLink](https://cables.gl/op/Ops.Html.MailtoLink)
 
 ### MarkdownToHtml
 ![MarkdownToHtml op](images/ops/Ops_Html_MarkdownToHtml.svg)
 
 **Full Name:** `Ops.Html.MarkdownToHtml`
 
-**Description:** markdown markup language to html parser
+markdown markup language to html parser.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -693,16 +693,16 @@
 
 - **Html** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/52Zlij)
+**Example Patch:** [cables.gl/edit/52Zlij](https://cables.gl/edit/52Zlij)
 
-**Docs:** [https://cables.gl/op/Ops.Html.MarkdownToHtml](https://cables.gl/op/Ops.Html.MarkdownToHtml)
+**Doc:** [cables.gl/op/Ops.Html.MarkdownToHtml](https://cables.gl/op/Ops.Html.MarkdownToHtml)
 
 ### ModalOverlay
 ![ModalOverlay op](images/ops/Ops_Html_ModalOverlay.svg)
 
 **Full Name:** `Ops.Html.ModalOverlay`
 
-**Description:** create a modal HTML overlay with a darkened background
+create a modal HTML overlay with a darkened background.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -718,16 +718,16 @@
 - **Closed** (Trigger)
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RXU-K2)
+**Example Patch:** [cables.gl/edit/RXU-K2](https://cables.gl/edit/RXU-K2)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ModalOverlay](https://cables.gl/op/Ops.Html.ModalOverlay)
+**Doc:** [cables.gl/op/Ops.Html.ModalOverlay](https://cables.gl/op/Ops.Html.ModalOverlay)
 
 ### QuerySelector_v3
 ![QuerySelector_v3 op](images/ops/Ops_Html_QuerySelector_v3.svg)
 
 **Full Name:** `Ops.Html.QuerySelector_v3`
 
-**Description:** Selects an element in the DOM
+Selects an element in the DOM.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -741,16 +741,16 @@
 
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/C6z3GH)
+**Example Patch:** [cables.gl/edit/C6z3GH](https://cables.gl/edit/C6z3GH)
 
-**Docs:** [https://cables.gl/op/Ops.Html.QuerySelector_v3](https://cables.gl/op/Ops.Html.QuerySelector_v3)
+**Doc:** [cables.gl/op/Ops.Html.QuerySelector_v3](https://cables.gl/op/Ops.Html.QuerySelector_v3)
 
 ### QuerySelectorAll_v2
 ![QuerySelectorAll_v2 op](images/ops/Ops_Html_QuerySelectorAll_v2.svg)
 
 **Full Name:** `Ops.Html.QuerySelectorAll_v2`
 
-**Description:** Selects all matching elements in the DOM
+Selects all matching elements in the DOM.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -765,16 +765,16 @@
 
 - **Elements** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QTs5GH)
+**Example Patch:** [cables.gl/edit/QTs5GH](https://cables.gl/edit/QTs5GH)
 
-**Docs:** [https://cables.gl/op/Ops.Html.QuerySelectorAll_v2](https://cables.gl/op/Ops.Html.QuerySelectorAll_v2)
+**Doc:** [cables.gl/op/Ops.Html.QuerySelectorAll_v2](https://cables.gl/op/Ops.Html.QuerySelectorAll_v2)
 
 ### ReloadPage
 ![ReloadPage op](images/ops/Ops_Html_ReloadPage.svg)
 
 **Full Name:** `Ops.Html.ReloadPage`
 
-**Description:** reload the website
+reload the website.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -784,16 +784,16 @@
 
 - *Visit [Ops.Html.ReloadPage documentation](https://cables.gl/op/Ops.Html.ReloadPage) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/BPeCci)
+**Example Patch:** [cables.gl/edit/BPeCci](https://cables.gl/edit/BPeCci)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ReloadPage](https://cables.gl/op/Ops.Html.ReloadPage)
+**Doc:** [cables.gl/op/Ops.Html.ReloadPage](https://cables.gl/op/Ops.Html.ReloadPage)
 
 ### ScrollIntoView
 ![ScrollIntoView op](images/ops/Ops_Html_ScrollIntoView.svg)
 
 **Full Name:** `Ops.Html.ScrollIntoView`
 
-**Description:** Scroll an area, so the html element is visible/in view
+Scroll an area, so the html element is visible/in view.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -804,16 +804,16 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
+**Example Patch:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ScrollIntoView](https://cables.gl/op/Ops.Html.ScrollIntoView)
+**Doc:** [cables.gl/op/Ops.Html.ScrollIntoView](https://cables.gl/op/Ops.Html.ScrollIntoView)
 
 ### ScrollPosition_v2
 ![ScrollPosition_v2 op](images/ops/Ops_Html_ScrollPosition_v2.svg)
 
 **Full Name:** `Ops.Html.ScrollPosition_v2`
 
-**Description:** the current x y top left scrolling position of html page or element
+the current x y top left scrolling position of html page or element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -829,16 +829,16 @@
 - **Percentage X** (Number)
 - **Percentage Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.ScrollPosition_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Html.ScrollPosition_v2#example](https://cables.gl/op/Ops.Html.ScrollPosition_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ScrollPosition_v2](https://cables.gl/op/Ops.Html.ScrollPosition_v2)
+**Doc:** [cables.gl/op/Ops.Html.ScrollPosition_v2](https://cables.gl/op/Ops.Html.ScrollPosition_v2)
 
 ### ScrollTo
 ![ScrollTo op](images/ops/Ops_Html_ScrollTo.svg)
 
 **Full Name:** `Ops.Html.ScrollTo`
 
-**Description:** Trigger the browser to scroll to top or bottom of an element
+Trigger the browser to scroll to top or bottom of an element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -850,16 +850,16 @@
 
 - *Visit [Ops.Html.ScrollTo documentation](https://cables.gl/op/Ops.Html.ScrollTo) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/JEThu1)
+**Example Patch:** [cables.gl/edit/JEThu1](https://cables.gl/edit/JEThu1)
 
-**Docs:** [https://cables.gl/op/Ops.Html.ScrollTo](https://cables.gl/op/Ops.Html.ScrollTo)
+**Doc:** [cables.gl/op/Ops.Html.ScrollTo](https://cables.gl/op/Ops.Html.ScrollTo)
 
 ### WindowClose
 ![WindowClose op](images/ops/Ops_Html_WindowClose.svg)
 
 **Full Name:** `Ops.Html.WindowClose`
 
-**Description:** close current window
+close current window.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -869,16 +869,16 @@
 
 - *Visit [Ops.Html.WindowClose documentation](https://cables.gl/op/Ops.Html.WindowClose) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/WGBCci)
+**Example Patch:** [cables.gl/edit/WGBCci](https://cables.gl/edit/WGBCci)
 
-**Docs:** [https://cables.gl/op/Ops.Html.WindowClose](https://cables.gl/op/Ops.Html.WindowClose)
+**Doc:** [cables.gl/op/Ops.Html.WindowClose](https://cables.gl/op/Ops.Html.WindowClose)
 
 ### WindowHasFocus
 ![WindowHasFocus op](images/ops/Ops_Html_WindowHasFocus.svg)
 
 **Full Name:** `Ops.Html.WindowHasFocus`
 
-**Description:** detect if the browser window/tab has focus
+detect if the browser window/tab has focus.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -889,16 +889,16 @@
 - **Has Focus** (booleanNumber)
 - **Tab Visible** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/uI9yOg)
+**Example Patch:** [cables.gl/edit/uI9yOg](https://cables.gl/edit/uI9yOg)
 
-**Docs:** [https://cables.gl/op/Ops.Html.WindowHasFocus](https://cables.gl/op/Ops.Html.WindowHasFocus)
+**Doc:** [cables.gl/op/Ops.Html.WindowHasFocus](https://cables.gl/op/Ops.Html.WindowHasFocus)
 
 ### WindowInfo
 ![WindowInfo op](images/ops/Ops_Html_WindowInfo.svg)
 
 **Full Name:** `Ops.Html.WindowInfo`
 
-**Description:** size of browser window in pixels
+size of browser window in pixels.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -914,16 +914,16 @@
 - **Orientation Angle** (Number)
 - **Orientation Type** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/DyHxSP)
+**Example Patch:** [cables.gl/edit/DyHxSP](https://cables.gl/edit/DyHxSP)
 
-**Docs:** [https://cables.gl/op/Ops.Html.WindowInfo](https://cables.gl/op/Ops.Html.WindowInfo)
+**Doc:** [cables.gl/op/Ops.Html.WindowInfo](https://cables.gl/op/Ops.Html.WindowInfo)
 
 ### WindowScroll
 ![WindowScroll op](images/ops/Ops_Html_WindowScroll.svg)
 
 **Full Name:** `Ops.Html.WindowScroll`
 
-**Description:** Get the current scroll position of the window
+Get the current scroll position of the window.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -934,8 +934,8 @@
 - **Scoll X** (Number)
 - **Scoll Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.WindowScroll#example)
+**Example Patch:** [cables.gl/op/Ops.Html.WindowScroll#example](https://cables.gl/op/Ops.Html.WindowScroll#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.WindowScroll](https://cables.gl/op/Ops.Html.WindowScroll)
+**Doc:** [cables.gl/op/Ops.Html.WindowScroll](https://cables.gl/op/Ops.Html.WindowScroll)
 
 

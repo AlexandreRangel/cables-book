@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Graphics.Intersection.FilterIntersections`
 
-**Description:** Define filters to get colliding and intersecting bodies
+Define filters to get colliding and intersecting bodies.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -25,16 +25,16 @@
 - **Num Collisions** (Number)
 - **Result Collisions** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example)
+**Example Patch:** [cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.FilterIntersections](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections)
 
 ### IntersectBody
 ![IntersectBody op](images/ops/Ops_Graphics_Intersection_IntersectBody.svg)
 
 **Full Name:** `Ops.Graphics.Intersection.IntersectBody`
 
-**Description:** Add Bodies and check if they intersect/collide with each other
+Add Bodies and check if they intersect/collide with each other.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -51,16 +51,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
+**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody)
 
 ### IntersectTestBody
 ![IntersectTestBody op](images/ops/Ops_Graphics_Intersection_IntersectTestBody.svg)
 
 **Full Name:** `Ops.Graphics.Intersection.IntersectTestBody`
 
-**Description:** test one body against all bodies in the world
+test one body against all bodies in the world.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -74,16 +74,16 @@
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bg73Qc)
+**Example Patch:** [cables.gl/edit/bg73Qc](https://cables.gl/edit/bg73Qc)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody)
 
 ### IntersectTestPoint
 ![IntersectTestPoint op](images/ops/Ops_Graphics_Intersection_IntersectTestPoint.svg)
 
 **Full Name:** `Ops.Graphics.Intersection.IntersectTestPoint`
 
-**Description:** test intersect bodies collision against a point/coordinate
+test intersect bodies collision against a point/coordinate.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -102,16 +102,16 @@
 - **Hit Y** (Number)
 - **Hit Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/c2DAO8)
+**Example Patch:** [cables.gl/edit/c2DAO8](https://cables.gl/edit/c2DAO8)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint)
 
 ### IntersectTestRaycast
 ![IntersectTestRaycast op](images/ops/Ops_Graphics_Intersection_IntersectTestRaycast.svg)
 
 **Full Name:** `Ops.Graphics.Intersection.IntersectTestRaycast`
 
-**Description:** Cast a ray and check if it intersect/collide with bodies
+Cast a ray and check if it intersect/collide with bodies.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -134,16 +134,16 @@
 - **Hit Y** (Number)
 - **Hit Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
+**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast)
 
 ### IntersectWorld
 ![IntersectWorld op](images/ops/Ops_Graphics_Intersection_IntersectWorld.svg)
 
 **Full Name:** `Ops.Graphics.Intersection.IntersectWorld`
 
-**Description:** Define a world to check for intersections and collisions
+Define a world to check for intersections and collisions.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -156,8 +156,8 @@
 - **Total Bodies** (Number)
 - **Collisions** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ffRjjz)
+**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Intersection.IntersectWorld](https://cables.gl/op/Ops.Graphics.Intersection.IntersectWorld)
+**Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectWorld](https://cables.gl/op/Ops.Graphics.Intersection.IntersectWorld)
 
 

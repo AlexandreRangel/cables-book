@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Voice.MeSpeak`
 
-**Description:** uses mespeak.js to convert text-to-speech
+uses mespeak.js to convert text-to-speech.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -35,16 +35,16 @@
 - **Speaking** (booleanNumber)
 - **Voice Loaded** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Voice.MeSpeak#example](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Voice.MeSpeak](https://cables.gl/op/Ops.Extension.Voice.MeSpeak)
+**Doc:** [cables.gl/op/Ops.Extension.Voice.MeSpeak](https://cables.gl/op/Ops.Extension.Voice.MeSpeak)
 
 ### Say_v2
 ![Say_v2 op](images/ops/Ops_Extension_Voice_Say_v2.svg)
 
 **Full Name:** `Ops.Extension.Voice.Say_v2`
 
-**Description:** Text-to-Speech, speaks different languages (speech synthesis)
+Text-to-Speech, speaks different languages (speech synthesis).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -67,16 +67,16 @@
 - **Pending** (Number)
 - **Paused** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/WubOWc)
+**Example Patch:** [cables.gl/edit/WubOWc](https://cables.gl/edit/WubOWc)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Voice.Say_v2](https://cables.gl/op/Ops.Extension.Voice.Say_v2)
+**Doc:** [cables.gl/op/Ops.Extension.Voice.Say_v2](https://cables.gl/op/Ops.Extension.Voice.Say_v2)
 
 ### SpeechRecognition
 ![SpeechRecognition op](images/ops/Ops_Extension_Voice_SpeechRecognition.svg)
 
 **Full Name:** `Ops.Extension.Voice.SpeechRecognition`
 
-**Description:** speech to text recognition
+speech to text recognition.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -92,8 +92,8 @@
 - **New Result** (Trigger)
 - **Started** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9p7kw4)
+**Example Patch:** [cables.gl/edit/9p7kw4](https://cables.gl/edit/9p7kw4)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition](https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition)
+**Doc:** [cables.gl/op/Ops.Extension.Voice.SpeechRecognition](https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition)
 
 

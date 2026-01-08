@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Graphics.Meshes.CablesLogo`
 
-**Description:** cables logo mesh/geometry
+cables logo mesh/geometry.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,16 +22,16 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/xUMq3j)
+**Example Patch:** [cables.gl/edit/xUMq3j](https://cables.gl/edit/xUMq3j)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.CablesLogo](https://cables.gl/op/Ops.Graphics.Meshes.CablesLogo)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.CablesLogo](https://cables.gl/op/Ops.Graphics.Meshes.CablesLogo)
 
 ### Circle_v3
 ![Circle_v3 op](images/ops/Ops_Graphics_Meshes_Circle_v3.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Circle_v3`
 
-**Description:** Draws a circle to the canvas.
+Draws a circle to the canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -50,16 +50,16 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/DAAkQ6)
+**Example Patch:** [cables.gl/edit/DAAkQ6](https://cables.gl/edit/DAAkQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Circle_v3](https://cables.gl/op/Ops.Graphics.Meshes.Circle_v3)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Circle_v3](https://cables.gl/op/Ops.Graphics.Meshes.Circle_v3)
 
 ### Cross
 ![Cross op](images/ops/Ops_Graphics_Meshes_Cross.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Cross`
 
-**Description:** Draws a cross with controllable thickness and length.
+Draws a cross with controllable thickness and length.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -78,16 +78,16 @@
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ojTS_o)
+**Example Patch:** [cables.gl/edit/ojTS_o](https://cables.gl/edit/ojTS_o)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Cross](https://cables.gl/op/Ops.Graphics.Meshes.Cross)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Cross](https://cables.gl/op/Ops.Graphics.Meshes.Cross)
 
 ### Cube_v2
 ![Cube_v2 op](images/ops/Ops_Graphics_Meshes_Cube_v2.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Cube_v2`
 
-**Description:** Draws a cube to the canvas. Please note that without doing a rotation you will only see a rectangle.
+Draws a cube to the canvas. Please note that without doing a rotation you will only see a rectangle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -111,16 +111,16 @@
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0ghhQ6)
+**Example Patch:** [cables.gl/edit/0ghhQ6](https://cables.gl/edit/0ghhQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Cube_v2](https://cables.gl/op/Ops.Graphics.Meshes.Cube_v2)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Cube_v2](https://cables.gl/op/Ops.Graphics.Meshes.Cube_v2)
 
 ### Rectangle_v4
 ![Rectangle_v4 op](images/ops/Ops_Graphics_Meshes_Rectangle_v4.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Rectangle_v4`
 
-**Description:** draw a rectangle (plane, square)
+draw a rectangle (plane, square).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -138,16 +138,16 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/M3QiQ6)
+**Example Patch:** [cables.gl/edit/M3QiQ6](https://cables.gl/edit/M3QiQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4](https://cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4](https://cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4)
 
 ### Sphere_v3
 ![Sphere_v3 op](images/ops/Ops_Graphics_Meshes_Sphere_v3.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Sphere_v3`
 
-**Description:** Draw parameterizable sphere
+Draw parameterizable sphere.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -162,16 +162,16 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/HvxfQ6)
+**Example Patch:** [cables.gl/edit/HvxfQ6](https://cables.gl/edit/HvxfQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Sphere_v3](https://cables.gl/op/Ops.Graphics.Meshes.Sphere_v3)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Sphere_v3](https://cables.gl/op/Ops.Graphics.Meshes.Sphere_v3)
 
 ### Star_v2
 ![Star_v2 op](images/ops/Ops_Graphics_Meshes_Star_v2.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Star_v2`
 
-**Description:** draw a star mesh (saw,gear)
+draw a star mesh (saw,gear).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -190,16 +190,16 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/eXhAY4)
+**Example Patch:** [cables.gl/edit/eXhAY4](https://cables.gl/edit/eXhAY4)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Star_v2](https://cables.gl/op/Ops.Graphics.Meshes.Star_v2)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Star_v2](https://cables.gl/op/Ops.Graphics.Meshes.Star_v2)
 
 ### Triangle_v2
 ![Triangle_v2 op](images/ops/Ops_Graphics_Meshes_Triangle_v2.svg)
 
 **Full Name:** `Ops.Graphics.Meshes.Triangle_v2`
 
-**Description:** Renders a triangle to the canvas.
+Renders a triangle to the canvas.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -213,8 +213,8 @@
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RnNiQ6)
+**Example Patch:** [cables.gl/edit/RnNiQ6](https://cables.gl/edit/RnNiQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Meshes.Triangle_v2](https://cables.gl/op/Ops.Graphics.Meshes.Triangle_v2)
+**Doc:** [cables.gl/op/Ops.Graphics.Meshes.Triangle_v2](https://cables.gl/op/Ops.Graphics.Meshes.Triangle_v2)
 
 

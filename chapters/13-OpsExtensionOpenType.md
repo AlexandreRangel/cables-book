@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.OpenType.OpentypeFont`
 
-**Description:** Load OTF & TTF fonts via OpenType library
+Load OTF & TTF fonts via OpenType library.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **Opentype Font** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
+**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont](https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont)
+**Doc:** [cables.gl/op/Ops.Extension.OpenType.OpentypeFont](https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont)
 
 ### OpentypeToSvgPath
 ![OpentypeToSvgPath op](images/ops/Ops_Extension_OpenType_OpentypeToSvgPath.svg)
 
 **Full Name:** `Ops.Extension.OpenType.OpentypeToSvgPath`
 
-**Description:** get svg path from (OTF) OpentypeFont using the opentype library
+get svg path from (OTF) OpentypeFont using the opentype library.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -40,8 +40,8 @@
 
 - **Path String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Cp5VS3)
+**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath](https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath)
+**Doc:** [cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath](https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath)
 
 

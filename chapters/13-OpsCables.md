@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Cables.AssetPathURL`
 
-**Description:** outputs the path to the assets
+outputs the path to the assets.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **Path** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mwhthf)
+**Example Patch:** [cables.gl/edit/mwhthf](https://cables.gl/edit/mwhthf)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.AssetPathURL](https://cables.gl/op/Ops.Cables.AssetPathURL)
+**Doc:** [cables.gl/op/Ops.Cables.AssetPathURL](https://cables.gl/op/Ops.Cables.AssetPathURL)
 
 ### CablesInfo
 ![CablesInfo op](images/ops/Ops_Cables_CablesInfo.svg)
 
 **Full Name:** `Ops.Cables.CablesInfo`
 
-**Description:** Output the cables URL of the current editor environment
+Output the cables URL of the current editor environment.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -38,16 +38,16 @@
 
 - **URL** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vaK7iO)
+**Example Patch:** [cables.gl/edit/vaK7iO](https://cables.gl/edit/vaK7iO)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.CablesInfo](https://cables.gl/op/Ops.Cables.CablesInfo)
+**Doc:** [cables.gl/op/Ops.Cables.CablesInfo](https://cables.gl/op/Ops.Cables.CablesInfo)
 
 ### CallBack_v2
 ![CallBack_v2 op](images/ops/Ops_Cables_CallBack_v2.svg)
 
 **Full Name:** `Ops.Cables.CallBack_v2`
 
-**Description:** Useful when a cables patch is embedded into a website. All parameters (`Value 1`, `Value 2`, `Value 3` will be send as a parameter array. So e.g. if `Callback Name` is `foo` cables would call: ``` CABLES.patch.config.foo([Value 1, Value 2, Value 3]) ```
+Useful when a cables patch is embedded into a website. All parameters (`Value 1`, `Value 2`, `Value 3` will be send as a parameter array. So e.g. if `Callback Name` is `foo` cables would call: ``` CABLES.patch.config.foo([Value 1, Value 2, Value 3]) ```.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -63,16 +63,16 @@
 
 - *Visit [Ops.Cables.CallBack_v2 documentation](https://cables.gl/op/Ops.Cables.CallBack_v2) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Cables.CallBack_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Cables.CallBack_v2#example](https://cables.gl/op/Ops.Cables.CallBack_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.CallBack_v2](https://cables.gl/op/Ops.Cables.CallBack_v2)
+**Doc:** [cables.gl/op/Ops.Cables.CallBack_v2](https://cables.gl/op/Ops.Cables.CallBack_v2)
 
 ### FPS_v2
 ![FPS_v2 op](images/ops/Ops_Cables_FPS_v2.svg)
 
 **Full Name:** `Ops.Cables.FPS_v2`
 
-**Description:** output current frames per second
+output current frames per second.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -83,16 +83,16 @@
 - **FPS** (Number)
 - **MS** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KhFA8i)
+**Example Patch:** [cables.gl/edit/KhFA8i](https://cables.gl/edit/KhFA8i)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.FPS_v2](https://cables.gl/op/Ops.Cables.FPS_v2)
+**Doc:** [cables.gl/op/Ops.Cables.FPS_v2](https://cables.gl/op/Ops.Cables.FPS_v2)
 
 ### Function_v2
 ![Function_v2 op](images/ops/Ops_Cables_Function_v2.svg)
 
 **Full Name:** `Ops.Cables.Function_v2`
 
-**Description:** trigger from external function when embedded into a website
+trigger from external function when embedded into a website.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -109,16 +109,16 @@
 - **Parameter 2** (String)
 - **Parameter 3** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Cables.Function_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Cables.Function_v2#example](https://cables.gl/op/Ops.Cables.Function_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.Function_v2](https://cables.gl/op/Ops.Cables.Function_v2)
+**Doc:** [cables.gl/op/Ops.Cables.Function_v2](https://cables.gl/op/Ops.Cables.Function_v2)
 
 ### GetOpName
 ![GetOpName op](images/ops/Ops_Cables_GetOpName.svg)
 
 **Full Name:** `Ops.Cables.GetOpName`
 
-**Description:** Get op name by id
+Get op name by id.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -131,16 +131,16 @@
 - **Shortname** (String)
 - **Version** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Hmk7iO)
+**Example Patch:** [cables.gl/edit/Hmk7iO](https://cables.gl/edit/Hmk7iO)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.GetOpName](https://cables.gl/op/Ops.Cables.GetOpName)
+**Doc:** [cables.gl/op/Ops.Cables.GetOpName](https://cables.gl/op/Ops.Cables.GetOpName)
 
 ### GetSubPatchName
 ![GetSubPatchName op](images/ops/Ops_Cables_GetSubPatchName.svg)
 
 **Full Name:** `Ops.Cables.GetSubPatchName`
 
-**Description:** Outputs the current subpatch op name
+Outputs the current subpatch op name.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -151,16 +151,16 @@
 - **Name** (String)
 - **ShortName** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/20tMrh)
+**Example Patch:** [cables.gl/edit/20tMrh](https://cables.gl/edit/20tMrh)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.GetSubPatchName](https://cables.gl/op/Ops.Cables.GetSubPatchName)
+**Doc:** [cables.gl/op/Ops.Cables.GetSubPatchName](https://cables.gl/op/Ops.Cables.GetSubPatchName)
 
 ### LoadingJob
 ![LoadingJob op](images/ops/Ops_Cables_LoadingJob.svg)
 
 **Full Name:** `Ops.Cables.LoadingJob`
 
-**Description:** Create a loading job while input is true
+Create a loading job while input is true.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -170,16 +170,16 @@
 
 - *Visit [Ops.Cables.LoadingJob documentation](https://cables.gl/op/Ops.Cables.LoadingJob) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bzn9z1)
+**Example Patch:** [cables.gl/edit/bzn9z1](https://cables.gl/edit/bzn9z1)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.LoadingJob](https://cables.gl/op/Ops.Cables.LoadingJob)
+**Doc:** [cables.gl/op/Ops.Cables.LoadingJob](https://cables.gl/op/Ops.Cables.LoadingJob)
 
 ### LoadingStatus_v2
 ![LoadingStatus_v2 op](images/ops/Ops_Cables_LoadingStatus_v2.svg)
 
 **Full Name:** `Ops.Cables.LoadingStatus_v2`
 
-**Description:** trigger events / get information about asset-loading status
+trigger events / get information about asset-loading status.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -195,16 +195,16 @@
 - **Jobs** (Array)
 - **Trigger Loading Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/5FQ08W)
+**Example Patch:** [cables.gl/edit/5FQ08W](https://cables.gl/edit/5FQ08W)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.LoadingStatus_v2](https://cables.gl/op/Ops.Cables.LoadingStatus_v2)
+**Doc:** [cables.gl/op/Ops.Cables.LoadingStatus_v2](https://cables.gl/op/Ops.Cables.LoadingStatus_v2)
 
 ### PatchInfo_v2
 ![PatchInfo_v2 op](images/ops/Ops_Cables_PatchInfo_v2.svg)
 
 **Full Name:** `Ops.Cables.PatchInfo_v2`
 
-**Description:** read patch config when embedding on another page
+read patch config when embedding on another page.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -219,16 +219,16 @@
 - **Last Saved** (Number)
 - **Last Exported** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3hkdqX)
+**Example Patch:** [cables.gl/edit/3hkdqX](https://cables.gl/edit/3hkdqX)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.PatchInfo_v2](https://cables.gl/op/Ops.Cables.PatchInfo_v2)
+**Doc:** [cables.gl/op/Ops.Cables.PatchInfo_v2](https://cables.gl/op/Ops.Cables.PatchInfo_v2)
 
 ### UIMode
 ![UIMode op](images/ops/Ops_Cables_UIMode.svg)
 
 **Full Name:** `Ops.Cables.UIMode`
 
-**Description:** Outputs `true` if patch is executed in the cables editor (UI)
+Outputs `true` if patch is executed in the cables editor (UI).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -243,16 +243,16 @@
 - **Canvas Mode** (Number)
 - **Patch Field Visible** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vyqgR3)
+**Example Patch:** [cables.gl/edit/vyqgR3](https://cables.gl/edit/vyqgR3)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.UIMode](https://cables.gl/op/Ops.Cables.UIMode)
+**Doc:** [cables.gl/op/Ops.Cables.UIMode](https://cables.gl/op/Ops.Cables.UIMode)
 
 ### UploadAsset
 ![UploadAsset op](images/ops/Ops_Cables_UploadAsset.svg)
 
 **Full Name:** `Ops.Cables.UploadAsset`
 
-**Description:** Upload a file into the cables patch assets using a base64 string
+Upload a file into the cables patch assets using a base64 string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -266,16 +266,16 @@
 - **Error** (booleanNumber)
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/6vDCsh)
+**Example Patch:** [cables.gl/edit/6vDCsh](https://cables.gl/edit/6vDCsh)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.UploadAsset](https://cables.gl/op/Ops.Cables.UploadAsset)
+**Doc:** [cables.gl/op/Ops.Cables.UploadAsset](https://cables.gl/op/Ops.Cables.UploadAsset)
 
 ### UploadScreenshot
 ![UploadScreenshot op](images/ops/Ops_Cables_UploadScreenshot.svg)
 
 **Full Name:** `Ops.Cables.UploadScreenshot`
 
-**Description:** Upload an image as screentshot in cables
+Upload an image as screentshot in cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -286,8 +286,8 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Cables.UploadScreenshot#example)
+**Example Patch:** [cables.gl/op/Ops.Cables.UploadScreenshot#example](https://cables.gl/op/Ops.Cables.UploadScreenshot#example)
 
-**Docs:** [https://cables.gl/op/Ops.Cables.UploadScreenshot](https://cables.gl/op/Ops.Cables.UploadScreenshot)
+**Doc:** [cables.gl/op/Ops.Cables.UploadScreenshot](https://cables.gl/op/Ops.Cables.UploadScreenshot)
 
 

@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.HtmlToTexture.HtmlToTexture`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,8 +22,8 @@
 - **Progress** (Number)
 - **Finished** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/fPPga2)
+**Example Patch:** [cables.gl/edit/fPPga2](https://cables.gl/edit/fPPga2)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture)
+**Doc:** [cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture)
 
 

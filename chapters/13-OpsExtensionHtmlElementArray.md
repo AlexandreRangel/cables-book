@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.HtmlElementArray.DivElements`
 
-**Description:** create an array of div elements
+create an array of div elements.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -28,16 +28,16 @@
 - **Pointer Up** (Trigger)
 - **Index Hovered** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lYLMwk)
+**Example Patch:** [cables.gl/edit/lYLMwk](https://cables.gl/edit/lYLMwk)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.HtmlElementArray.DivElements](https://cables.gl/op/Ops.Extension.HtmlElementArray.DivElements)
+**Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.DivElements](https://cables.gl/op/Ops.Extension.HtmlElementArray.DivElements)
 
 ### ElementArrayCssPropertyNumber
 ![ElementArrayCssPropertyNumber op](images/ops/Ops_Extension_HtmlElementArray_ElementArrayCssPropertyNumber.svg)
 
 **Full Name:** `Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber`
 
-**Description:** Set css style properties of a html element
+Set css style properties of a html element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -51,16 +51,16 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber)
+**Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber)
 
 ### ElementArrayCssPropertyString
 ![ElementArrayCssPropertyString op](images/ops/Ops_Extension_HtmlElementArray_ElementArrayCssPropertyString.svg)
 
 **Full Name:** `Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString`
 
-**Description:** set css properties
+set css properties.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -74,8 +74,8 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString)
+**Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString)
 
 

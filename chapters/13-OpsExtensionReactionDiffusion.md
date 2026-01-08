@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2`
 
-**Description:** Cellular automata system as feedback loop texture.
+Cellular automata system as feedback loop texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -37,8 +37,8 @@
 - **Trigger** (Trigger)
 - **Texture Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/XLCybk)
+**Example Patch:** [cables.gl/edit/XLCybk](https://cables.gl/edit/XLCybk)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
+**Doc:** [cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
 
 

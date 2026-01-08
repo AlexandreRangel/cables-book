@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.Pbr.PbrEnvironmentLight`
 
-**Description:** PBR image based lighting setup
+PBR image based lighting setup.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -57,16 +57,16 @@
 - **for PBR Material** (not required)
 - **Number Of Pre-Filtered Mip Levels** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
+**Example Patch:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
+**Doc:** [cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
 
 ### PbrMaterial
 ![PbrMaterial op](images/ops/Ops_Gl_Pbr_PbrMaterial.svg)
 
 **Full Name:** `Ops.Gl.Pbr.PbrMaterial`
 
-**Description:** PBR/Physical Based Rendering Material for realistic materials
+PBR/Physical Based Rendering Material for realistic materials.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -116,8 +116,8 @@
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9z9kFK)
+**Example Patch:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
 
 

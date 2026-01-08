@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Graphics.ArrayToExr`
 
-**Description:** convert and download an array of numbers as an .exr image file
+convert and download an array of numbers as an .exr image file.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -24,16 +24,16 @@
 
 - *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PoAXNA)
+**Example Patch:** [cables.gl/edit/PoAXNA](https://cables.gl/edit/PoAXNA)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
+**Doc:** [cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
 
 ### DepthTest
 ![DepthTest op](images/ops/Ops_Graphics_DepthTest.svg)
 
 **Full Name:** `Ops.Graphics.DepthTest`
 
-**Description:** change depth testing method (depthMask,depthWrite,depthFunc)
+change depth testing method (depthMask,depthWrite,depthFunc).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -46,16 +46,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/A9PD8i)
+**Example Patch:** [cables.gl/edit/A9PD8i](https://cables.gl/edit/A9PD8i)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.DepthTest](https://cables.gl/op/Ops.Graphics.DepthTest)
+**Doc:** [cables.gl/op/Ops.Graphics.DepthTest](https://cables.gl/op/Ops.Graphics.DepthTest)
 
 ### GeometryMergeSimple
 ![GeometryMergeSimple op](images/ops/Ops_Graphics_GeometryMergeSimple.svg)
 
 **Full Name:** `Ops.Graphics.GeometryMergeSimple`
 
-**Description:** merge two geometries into one
+merge two geometries into one.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -66,16 +66,16 @@
 
 - **Geometry Result** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/4gsNve)
+**Example Patch:** [cables.gl/edit/4gsNve](https://cables.gl/edit/4gsNve)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.GeometryMergeSimple](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple)
+**Doc:** [cables.gl/op/Ops.Graphics.GeometryMergeSimple](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple)
 
 ### GetMaterialId
 ![GetMaterialId op](images/ops/Ops_Graphics_GetMaterialId.svg)
 
 **Full Name:** `Ops.Graphics.GetMaterialId`
 
-**Description:** get the id/index of the current set material
+get the id/index of the current set material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -86,16 +86,16 @@
 - **Next** (Trigger)
 - **Material Id** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PYpQit)
+**Example Patch:** [cables.gl/edit/PYpQit](https://cables.gl/edit/PYpQit)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.GetMaterialId](https://cables.gl/op/Ops.Graphics.GetMaterialId)
+**Doc:** [cables.gl/op/Ops.Graphics.GetMaterialId](https://cables.gl/op/Ops.Graphics.GetMaterialId)
 
 ### GetObjectId
 ![GetObjectId op](images/ops/Ops_Graphics_GetObjectId.svg)
 
 **Full Name:** `Ops.Graphics.GetObjectId`
 
-**Description:** get the id/index of the current object/mesh
+get the id/index of the current object/mesh.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -106,16 +106,16 @@
 - **Next** (Trigger)
 - **Material Id** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
+**Example Patch:** [cables.gl/op/Ops.Graphics.GetObjectId#example](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.GetObjectId](https://cables.gl/op/Ops.Graphics.GetObjectId)
+**Doc:** [cables.gl/op/Ops.Graphics.GetObjectId](https://cables.gl/op/Ops.Graphics.GetObjectId)
 
 ### OrbitControls_v3
 ![OrbitControls_v3 op](images/ops/Ops_Graphics_OrbitControls_v3.svg)
 
 **Full Name:** `Ops.Graphics.OrbitControls_v3`
 
-**Description:** rotate your object by clicking and dragging the mouse
+rotate your object by clicking and dragging the mouse.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -145,16 +145,16 @@
 - **Rot X** (Number)
 - **Rot Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Krorsh)
+**Example Patch:** [cables.gl/edit/Krorsh](https://cables.gl/edit/Krorsh)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.OrbitControls_v3](https://cables.gl/op/Ops.Graphics.OrbitControls_v3)
+**Doc:** [cables.gl/op/Ops.Graphics.OrbitControls_v3](https://cables.gl/op/Ops.Graphics.OrbitControls_v3)
 
 ### Transform
 ![Transform op](images/ops/Ops_Graphics_Transform.svg)
 
 **Full Name:** `Ops.Graphics.Transform`
 
-**Description:** Transform objects in 3d space (rotate, translate, scale)
+Transform objects in 3d space (rotate, translate, scale).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -171,16 +171,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/o741ft)
+**Example Patch:** [cables.gl/edit/o741ft](https://cables.gl/edit/o741ft)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.Transform](https://cables.gl/op/Ops.Graphics.Transform)
+**Doc:** [cables.gl/op/Ops.Graphics.Transform](https://cables.gl/op/Ops.Graphics.Transform)
 
 ### TransformView
 ![TransformView op](images/ops/Ops_Graphics_TransformView.svg)
 
 **Full Name:** `Ops.Graphics.TransformView`
 
-**Description:** the most simple camera op / transform the viewmatrix
+the most simple camera op / transform the viewmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -197,8 +197,8 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0GAv8i)
+**Example Patch:** [cables.gl/edit/0GAv8i](https://cables.gl/edit/0GAv8i)
 
-**Docs:** [https://cables.gl/op/Ops.Graphics.TransformView](https://cables.gl/op/Ops.Graphics.TransformView)
+**Doc:** [cables.gl/op/Ops.Graphics.TransformView](https://cables.gl/op/Ops.Graphics.TransformView)
 
 

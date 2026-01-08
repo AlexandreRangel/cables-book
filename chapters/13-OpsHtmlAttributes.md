@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Html.Attributes.ElementAccessibility`
 
-**Description:** Element Accessibility properties for screen reader
+Element Accessibility properties for screen reader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,16 +22,16 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/R5XS8x)
+**Example Patch:** [cables.gl/edit/R5XS8x](https://cables.gl/edit/R5XS8x)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility)
+**Doc:** [cables.gl/op/Ops.Html.Attributes.ElementAccessibility](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility)
 
 ### ElementAttributes
 ![ElementAttributes op](images/ops/Ops_Html_Attributes_ElementAttributes.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementAttributes`
 
-**Description:** Get all attributes from an element an object
+Get all attributes from an element an object.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -41,16 +41,16 @@
 
 - **Attribs** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Gflosw)
+**Example Patch:** [cables.gl/edit/Gflosw](https://cables.gl/edit/Gflosw)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementAttributes](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes)
+**Doc:** [cables.gl/op/Ops.Html.Attributes.ElementAttributes](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes)
 
 ### ElementGetAttribute
 ![ElementGetAttribute op](images/ops/Ops_Html_Attributes_ElementGetAttribute.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementGetAttribute`
 
-**Description:** Read or Get the value of an HTML element Attribute
+Read or Get the value of an HTML element Attribute.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -62,16 +62,16 @@
 - **Value** (String)
 - **Has Attribute** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
+**Example Patch:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute)
+**Doc:** [cables.gl/op/Ops.Html.Attributes.ElementGetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute)
 
 ### ElementSetAttribute
 ![ElementSetAttribute op](images/ops/Ops_Html_Attributes_ElementSetAttribute.svg)
 
 **Full Name:** `Ops.Html.Attributes.ElementSetAttribute`
 
-**Description:** Write or Set the value of an HTML element Attribute
+Write or Set the value of an HTML element Attribute.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -84,8 +84,8 @@
 
 - **HTML Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lfiS8x)
+**Example Patch:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute)
+**Doc:** [cables.gl/op/Ops.Html.Attributes.ElementSetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute)
 
 

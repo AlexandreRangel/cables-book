@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Ui.Routing.RouteArray`
 
-**Description:** Patchfield cable routing helper for array cables
+Patchfield cable routing helper for array cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **Array Out** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
+**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteArray](https://cables.gl/op/Ops.Ui.Routing.RouteArray)
+**Doc:** [cables.gl/op/Ops.Ui.Routing.RouteArray](https://cables.gl/op/Ops.Ui.Routing.RouteArray)
 
 ### RouteNumber
 ![RouteNumber op](images/ops/Ops_Ui_Routing_RouteNumber.svg)
 
 **Full Name:** `Ops.Ui.Routing.RouteNumber`
 
-**Description:** Patchfield cable routing helper for number cables
+Patchfield cable routing helper for number cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -38,16 +38,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
+**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteNumber](https://cables.gl/op/Ops.Ui.Routing.RouteNumber)
+**Doc:** [cables.gl/op/Ops.Ui.Routing.RouteNumber](https://cables.gl/op/Ops.Ui.Routing.RouteNumber)
 
 ### RouteObject
 ![RouteObject op](images/ops/Ops_Ui_Routing_RouteObject.svg)
 
 **Full Name:** `Ops.Ui.Routing.RouteObject`
 
-**Description:** Patchfield cable routing helper for object cables
+Patchfield cable routing helper for object cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -57,16 +57,16 @@
 
 - **Array Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
+**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteObject](https://cables.gl/op/Ops.Ui.Routing.RouteObject)
+**Doc:** [cables.gl/op/Ops.Ui.Routing.RouteObject](https://cables.gl/op/Ops.Ui.Routing.RouteObject)
 
 ### RouteString
 ![RouteString op](images/ops/Ops_Ui_Routing_RouteString.svg)
 
 **Full Name:** `Ops.Ui.Routing.RouteString`
 
-**Description:** Patchfield cable routing helper for string cables
+Patchfield cable routing helper for string cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -76,16 +76,16 @@
 
 - **String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
+**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteString](https://cables.gl/op/Ops.Ui.Routing.RouteString)
+**Doc:** [cables.gl/op/Ops.Ui.Routing.RouteString](https://cables.gl/op/Ops.Ui.Routing.RouteString)
 
 ### RouteTrigger
 ![RouteTrigger op](images/ops/Ops_Ui_Routing_RouteTrigger.svg)
 
 **Full Name:** `Ops.Ui.Routing.RouteTrigger`
 
-**Description:** Routing Helper for trigger cables
+Routing Helper for trigger cables.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -95,8 +95,8 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CLMeDg)
+**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
-**Docs:** [https://cables.gl/op/Ops.Ui.Routing.RouteTrigger](https://cables.gl/op/Ops.Ui.Routing.RouteTrigger)
+**Doc:** [cables.gl/op/Ops.Ui.Routing.RouteTrigger](https://cables.gl/op/Ops.Ui.Routing.RouteTrigger)
 
 

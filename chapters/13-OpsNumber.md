@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Number.DelayedNumber`
 
-**Description:** delay a value by seconds
+delay a value by seconds.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayedNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Number.DelayedNumber#example](https://cables.gl/op/Ops.Number.DelayedNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.DelayedNumber](https://cables.gl/op/Ops.Number.DelayedNumber)
+**Doc:** [cables.gl/op/Ops.Number.DelayedNumber](https://cables.gl/op/Ops.Number.DelayedNumber)
 
 ### DelayNumberSimple
 ![DelayNumberSimple op](images/ops/Ops_Number_DelayNumberSimple.svg)
 
 **Full Name:** `Ops.Number.DelayNumberSimple`
 
-**Description:** delay the value data flow by x seconds
+delay the value data flow by x seconds.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -43,16 +43,16 @@
 
 - **Out Value** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
+**Example Patch:** [cables.gl/op/Ops.Number.DelayNumberSimple#example](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.DelayNumberSimple](https://cables.gl/op/Ops.Number.DelayNumberSimple)
+**Doc:** [cables.gl/op/Ops.Number.DelayNumberSimple](https://cables.gl/op/Ops.Number.DelayNumberSimple)
 
 ### FilterValidNumber
 ![FilterValidNumber op](images/ops/Ops_Number_FilterValidNumber.svg)
 
 **Full Name:** `Ops.Number.FilterValidNumber`
 
-**Description:** Filter valid numbers
+Filter valid numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -64,16 +64,16 @@
 - **Last Valid Number** (Number)
 - **Is Valid** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.FilterValidNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Number.FilterValidNumber#example](https://cables.gl/op/Ops.Number.FilterValidNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.FilterValidNumber](https://cables.gl/op/Ops.Number.FilterValidNumber)
+**Doc:** [cables.gl/op/Ops.Number.FilterValidNumber](https://cables.gl/op/Ops.Number.FilterValidNumber)
 
 ### FreezeNumber
 ![FreezeNumber op](images/ops/Ops_Number_FreezeNumber.svg)
 
 **Full Name:** `Ops.Number.FreezeNumber`
 
-**Description:** capture the current input and copy it to the output, even after a reload
+capture the current input and copy it to the output, even after a reload.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -84,16 +84,16 @@
 
 - **Frozen Number** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/MuPepX)
+**Example Patch:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
 
-**Docs:** [https://cables.gl/op/Ops.Number.FreezeNumber](https://cables.gl/op/Ops.Number.FreezeNumber)
+**Doc:** [cables.gl/op/Ops.Number.FreezeNumber](https://cables.gl/op/Ops.Number.FreezeNumber)
 
 ### GateNumber
 ![GateNumber op](images/ops/Ops_Number_GateNumber.svg)
 
 **Full Name:** `Ops.Number.GateNumber`
 
-**Description:** Let’s a number through only if control bool is true, like a gate
+Let’s a number through only if control bool is true, like a gate.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 
 - **Value Out** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/JJSflJ)
+**Example Patch:** [cables.gl/edit/JJSflJ](https://cables.gl/edit/JJSflJ)
 
-**Docs:** [https://cables.gl/op/Ops.Number.GateNumber](https://cables.gl/op/Ops.Number.GateNumber)
+**Doc:** [cables.gl/op/Ops.Number.GateNumber](https://cables.gl/op/Ops.Number.GateNumber)
 
 ### Integer
 ![Integer op](images/ops/Ops_Number_Integer.svg)
 
 **Full Name:** `Ops.Number.Integer`
 
-**Description:** Number op which only outputs integers
+Number op which only outputs integers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -124,16 +124,16 @@
 
 - **Number Out** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.Integer#example)
+**Example Patch:** [cables.gl/op/Ops.Number.Integer#example](https://cables.gl/op/Ops.Number.Integer#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.Integer](https://cables.gl/op/Ops.Number.Integer)
+**Doc:** [cables.gl/op/Ops.Number.Integer](https://cables.gl/op/Ops.Number.Integer)
 
 ### MaximumSafeInteger
 ![MaximumSafeInteger op](images/ops/Ops_Number_MaximumSafeInteger.svg)
 
 **Full Name:** `Ops.Number.MaximumSafeInteger`
 
-**Description:** Returns the maximum safe integer (number, constant)
+Returns the maximum safe integer (number, constant).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -143,16 +143,16 @@
 
 - **Max Int** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
+**Example Patch:** [cables.gl/op/Ops.Number.MaximumSafeInteger#example](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.MaximumSafeInteger](https://cables.gl/op/Ops.Number.MaximumSafeInteger)
+**Doc:** [cables.gl/op/Ops.Number.MaximumSafeInteger](https://cables.gl/op/Ops.Number.MaximumSafeInteger)
 
 ### MinimumSafeInteger
 ![MinimumSafeInteger op](images/ops/Ops_Number_MinimumSafeInteger.svg)
 
 **Full Name:** `Ops.Number.MinimumSafeInteger`
 
-**Description:** Returns the minimum safe integer (number, constant)
+Returns the minimum safe integer (number, constant).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -162,16 +162,16 @@
 
 - **Min Int** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
+**Example Patch:** [cables.gl/op/Ops.Number.MinimumSafeInteger#example](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.MinimumSafeInteger](https://cables.gl/op/Ops.Number.MinimumSafeInteger)
+**Doc:** [cables.gl/op/Ops.Number.MinimumSafeInteger](https://cables.gl/op/Ops.Number.MinimumSafeInteger)
 
 ### Number
 ![Number op](images/ops/Ops_Number_Number.svg)
 
 **Full Name:** `Ops.Number.Number`
 
-**Description:** Stores a value, use the same value in different places (was: value.value)
+Stores a value, use the same value in different places (was: value.value).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -181,16 +181,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0010r1)
+**Example Patch:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
 
-**Docs:** [https://cables.gl/op/Ops.Number.Number](https://cables.gl/op/Ops.Number.Number)
+**Doc:** [cables.gl/op/Ops.Number.Number](https://cables.gl/op/Ops.Number.Number)
 
 ### NumberSequence
 ![NumberSequence op](images/ops/Ops_Number_NumberSequence.svg)
 
 **Full Name:** `Ops.Number.NumberSequence`
 
-**Description:** Copies the input value to the (value sequence)
+Copies the input value to the (value sequence).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -205,16 +205,16 @@
 - **Out Value 2** (Number)
 - **Out Value 3** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GfgpOb)
+**Example Patch:** [cables.gl/edit/GfgpOb](https://cables.gl/edit/GfgpOb)
 
-**Docs:** [https://cables.gl/op/Ops.Number.NumberSequence](https://cables.gl/op/Ops.Number.NumberSequence)
+**Doc:** [cables.gl/op/Ops.Number.NumberSequence](https://cables.gl/op/Ops.Number.NumberSequence)
 
 ### Preset
 ![Preset op](images/ops/Ops_Number_Preset.svg)
 
 **Full Name:** `Ops.Number.Preset`
 
-**Description:** State management of all parameters connected to it - Create presets of multiple ops
+State management of all parameters connected to it - Create presets of multiple ops.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -242,16 +242,16 @@
 - **Dbg_data** (Array)
 - **Dbg_sets** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KI3veT)
+**Example Patch:** [cables.gl/edit/KI3veT](https://cables.gl/edit/KI3veT)
 
-**Docs:** [https://cables.gl/op/Ops.Number.Preset](https://cables.gl/op/Ops.Number.Preset)
+**Doc:** [cables.gl/op/Ops.Number.Preset](https://cables.gl/op/Ops.Number.Preset)
 
 ### PreviousNumberStore
 ![PreviousNumberStore op](images/ops/Ops_Number_PreviousNumberStore.svg)
 
 **Full Name:** `Ops.Number.PreviousNumberStore`
 
-**Description:** remember/store last set number
+remember/store last set number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -262,16 +262,16 @@
 - **Current Value** (Number)
 - **Previous Value** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/XhZWfo)
+**Example Patch:** [cables.gl/edit/XhZWfo](https://cables.gl/edit/XhZWfo)
 
-**Docs:** [https://cables.gl/op/Ops.Number.PreviousNumberStore](https://cables.gl/op/Ops.Number.PreviousNumberStore)
+**Doc:** [cables.gl/op/Ops.Number.PreviousNumberStore](https://cables.gl/op/Ops.Number.PreviousNumberStore)
 
 ### RouteNumber
 ![RouteNumber op](images/ops/Ops_Number_RouteNumber.svg)
 
 **Full Name:** `Ops.Number.RouteNumber`
 
-**Description:** Routes the value to one of the (based on index, relay)
+Routes the value to one of the (based on index, relay).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -295,16 +295,16 @@
 - **Index 8 Value** (Number)
 - **Index 9 Value** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/qJcKT6)
+**Example Patch:** [cables.gl/edit/qJcKT6](https://cables.gl/edit/qJcKT6)
 
-**Docs:** [https://cables.gl/op/Ops.Number.RouteNumber](https://cables.gl/op/Ops.Number.RouteNumber)
+**Doc:** [cables.gl/op/Ops.Number.RouteNumber](https://cables.gl/op/Ops.Number.RouteNumber)
 
 ### SequenceNumbers
 ![SequenceNumbers op](images/ops/Ops_Number_SequenceNumbers.svg)
 
 **Full Name:** `Ops.Number.SequenceNumbers`
 
-**Description:** control order and flow of numbers
+control order and flow of numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -344,16 +344,16 @@
 - **Output 14** (Number)
 - **Output 15** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SequenceNumbers#example)
+**Example Patch:** [cables.gl/op/Ops.Number.SequenceNumbers#example](https://cables.gl/op/Ops.Number.SequenceNumbers#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.SequenceNumbers](https://cables.gl/op/Ops.Number.SequenceNumbers)
+**Doc:** [cables.gl/op/Ops.Number.SequenceNumbers](https://cables.gl/op/Ops.Number.SequenceNumbers)
 
 ### SumMultiPort_v2
 ![SumMultiPort_v2 op](images/ops/Ops_Number_SumMultiPort_v2.svg)
 
 **Full Name:** `Ops.Number.SumMultiPort_v2`
 
-**Description:** Switch between multiple number inputs
+Switch between multiple number inputs.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -365,16 +365,16 @@
 - **Number** (Number)
 - **Num Values** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/fUoCu1)
+**Example Patch:** [cables.gl/edit/fUoCu1](https://cables.gl/edit/fUoCu1)
 
-**Docs:** [https://cables.gl/op/Ops.Number.SumMultiPort_v2](https://cables.gl/op/Ops.Number.SumMultiPort_v2)
+**Doc:** [cables.gl/op/Ops.Number.SumMultiPort_v2](https://cables.gl/op/Ops.Number.SumMultiPort_v2)
 
 ### SwitchNumber
 ![SwitchNumber op](images/ops/Ops_Number_SwitchNumber.svg)
 
 **Full Name:** `Ops.Number.SwitchNumber`
 
-**Description:** switch between number values by index
+switch between number values by index.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -400,16 +400,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumber#example)
+**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumber#example](https://cables.gl/op/Ops.Number.SwitchNumber#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.SwitchNumber](https://cables.gl/op/Ops.Number.SwitchNumber)
+**Doc:** [cables.gl/op/Ops.Number.SwitchNumber](https://cables.gl/op/Ops.Number.SwitchNumber)
 
 ### SwitchNumberMultiPort_v2
 ![SwitchNumberMultiPort_v2 op](images/ops/Ops_Number_SwitchNumberMultiPort_v2.svg)
 
 **Full Name:** `Ops.Number.SwitchNumberMultiPort_v2`
 
-**Description:** Switch between multiple number inputs
+Switch between multiple number inputs.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -422,16 +422,16 @@
 - **Number** (Number)
 - **Num Values** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2)
+**Doc:** [cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2)
 
 ### SwitchNumberOnTrigger
 ![SwitchNumberOnTrigger op](images/ops/Ops_Number_SwitchNumberOnTrigger.svg)
 
 **Full Name:** `Ops.Number.SwitchNumberOnTrigger`
 
-**Description:** Sets a specific output value on trigger
+Sets a specific output value on trigger.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -459,16 +459,16 @@
 - **Last Value** (Number)
 - **Triggered** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example)
+**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger)
+**Doc:** [cables.gl/op/Ops.Number.SwitchNumberOnTrigger](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger)
 
 ### Trigger3Numbers
 ![Trigger3Numbers op](images/ops/Ops_Number_Trigger3Numbers.svg)
 
 **Full Name:** `Ops.Number.Trigger3Numbers`
 
-**Description:** Stores a 3D coordinate (was Value3)
+Stores a 3D coordinate (was Value3).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -487,16 +487,16 @@
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Number.Trigger3Numbers#example)
+**Example Patch:** [cables.gl/op/Ops.Number.Trigger3Numbers#example](https://cables.gl/op/Ops.Number.Trigger3Numbers#example)
 
-**Docs:** [https://cables.gl/op/Ops.Number.Trigger3Numbers](https://cables.gl/op/Ops.Number.Trigger3Numbers)
+**Doc:** [cables.gl/op/Ops.Number.Trigger3Numbers](https://cables.gl/op/Ops.Number.Trigger3Numbers)
 
 ### TriggerOnChangeNumber_v2
 ![TriggerOnChangeNumber_v2 op](images/ops/Ops_Number_TriggerOnChangeNumber_v2.svg)
 
 **Full Name:** `Ops.Number.TriggerOnChangeNumber_v2`
 
-**Description:** triggers every time the input value changed
+triggers every time the input value changed.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -507,8 +507,8 @@
 - **Next** (Trigger)
 - **Number** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/8y5hVJ)
+**Example Patch:** [cables.gl/edit/8y5hVJ](https://cables.gl/edit/8y5hVJ)
 
-**Docs:** [https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2](https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2)
+**Doc:** [cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2](https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2)
 
 

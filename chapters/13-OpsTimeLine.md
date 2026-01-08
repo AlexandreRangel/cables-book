@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.TimeLine.Anim`
 
-**Description:** timeline keyframable animation object
+timeline keyframable animation object.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 - **Loop Length** (Number)
 - **Length** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/sKguKJ)
+**Example Patch:** [cables.gl/edit/sKguKJ](https://cables.gl/edit/sKguKJ)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.Anim](https://cables.gl/op/Ops.TimeLine.Anim)
+**Doc:** [cables.gl/op/Ops.TimeLine.Anim](https://cables.gl/op/Ops.TimeLine.Anim)
 
 ### AnimGetKey
 ![AnimGetKey op](images/ops/Ops_TimeLine_AnimGetKey.svg)
 
 **Full Name:** `Ops.TimeLine.AnimGetKey`
 
-**Description:** Get data from a single key in an animation
+Get data from a single key in an animation.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -45,16 +45,16 @@
 - **Key Value** (Number)
 - **Key Time** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/gXgDz1)
+**Example Patch:** [cables.gl/edit/gXgDz1](https://cables.gl/edit/gXgDz1)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.AnimGetKey](https://cables.gl/op/Ops.TimeLine.AnimGetKey)
+**Doc:** [cables.gl/op/Ops.TimeLine.AnimGetKey](https://cables.gl/op/Ops.TimeLine.AnimGetKey)
 
 ### AnimGetValue
 ![AnimGetValue op](images/ops/Ops_TimeLine_AnimGetValue.svg)
 
 **Full Name:** `Ops.TimeLine.AnimGetValue`
 
-**Description:** get the animated value at time x of an animation object
+get the animated value at time x of an animation object.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -66,16 +66,16 @@
 - **Value** (Number)
 - **Loop** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/yEIpR1)
+**Example Patch:** [cables.gl/edit/yEIpR1](https://cables.gl/edit/yEIpR1)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.AnimGetValue](https://cables.gl/op/Ops.TimeLine.AnimGetValue)
+**Doc:** [cables.gl/op/Ops.TimeLine.AnimGetValue](https://cables.gl/op/Ops.TimeLine.AnimGetValue)
 
 ### AnimInfo
 ![AnimInfo op](images/ops/Ops_TimeLine_AnimInfo.svg)
 
 **Full Name:** `Ops.TimeLine.AnimInfo`
 
-**Description:** Get information about an anim object
+Get information about an anim object.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -86,16 +86,16 @@
 - **Total Keys** (Number)
 - **Length Seconds** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AnimInfo#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.AnimInfo#example](https://cables.gl/op/Ops.TimeLine.AnimInfo#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.AnimInfo](https://cables.gl/op/Ops.TimeLine.AnimInfo)
+**Doc:** [cables.gl/op/Ops.TimeLine.AnimInfo](https://cables.gl/op/Ops.TimeLine.AnimInfo)
 
 ### AutoPlay
 ![AutoPlay op](images/ops/Ops_TimeLine_AutoPlay.svg)
 
 **Full Name:** `Ops.TimeLine.AutoPlay`
 
-**Description:** Automatically starts the timeline playback when opening patch
+Automatically starts the timeline playback when opening patch.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 
 - *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.AutoPlay#example](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.AutoPlay](https://cables.gl/op/Ops.TimeLine.AutoPlay)
+**Doc:** [cables.gl/op/Ops.TimeLine.AutoPlay](https://cables.gl/op/Ops.TimeLine.AutoPlay)
 
 ### DemoPrerender
 ![DemoPrerender op](images/ops/Ops_TimeLine_DemoPrerender.svg)
 
 **Full Name:** `Ops.TimeLine.DemoPrerender`
 
-**Description:** Prerenderer based on timeline progress
+Prerenderer based on timeline progress.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -132,16 +132,16 @@
 - **Progress** (Number)
 - **Num Events** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/sewM2h)
+**Example Patch:** [cables.gl/edit/sewM2h](https://cables.gl/edit/sewM2h)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.DemoPrerender](https://cables.gl/op/Ops.TimeLine.DemoPrerender)
+**Doc:** [cables.gl/op/Ops.TimeLine.DemoPrerender](https://cables.gl/op/Ops.TimeLine.DemoPrerender)
 
 ### GotoFrame
 ![GotoFrame op](images/ops/Ops_TimeLine_GotoFrame.svg)
 
 **Full Name:** `Ops.TimeLine.GotoFrame`
 
-**Description:** jump to a key in the timeline
+jump to a key in the timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -151,16 +151,16 @@
 
 - *Visit [Ops.TimeLine.GotoFrame documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.GotoFrame#example](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.GotoFrame](https://cables.gl/op/Ops.TimeLine.GotoFrame)
+**Doc:** [cables.gl/op/Ops.TimeLine.GotoFrame](https://cables.gl/op/Ops.TimeLine.GotoFrame)
 
 ### PreRender
 ![PreRender op](images/ops/Ops_TimeLine_PreRender.svg)
 
 **Full Name:** `Ops.TimeLine.PreRender`
 
-**Description:** Render the patch at certain times
+Render the patch at certain times.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -176,16 +176,16 @@
 - **Done** (Trigger)
 - **Progress** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.PreRender#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.PreRender#example](https://cables.gl/op/Ops.TimeLine.PreRender#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.PreRender](https://cables.gl/op/Ops.TimeLine.PreRender)
+**Doc:** [cables.gl/op/Ops.TimeLine.PreRender](https://cables.gl/op/Ops.TimeLine.PreRender)
 
 ### TimelineConfig
 ![TimelineConfig op](images/ops/Ops_TimeLine_TimelineConfig.svg)
 
 **Full Name:** `Ops.TimeLine.TimelineConfig`
 
-**Description:** configure the timeline for the current patch
+configure the timeline for the current patch.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -197,16 +197,16 @@
 
 - **Duration Seconds** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimelineConfig#example](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimelineConfig](https://cables.gl/op/Ops.TimeLine.TimelineConfig)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimelineConfig](https://cables.gl/op/Ops.TimeLine.TimelineConfig)
 
 ### TimeLineControls
 ![TimeLineControls op](images/ops/Ops_TimeLine_TimeLineControls.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineControls`
 
-**Description:** use position and play pause state of cables timeline
+use position and play pause state of cables timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -216,16 +216,16 @@
 
 - **Time** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineControls#example](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineControls](https://cables.gl/op/Ops.TimeLine.TimeLineControls)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineControls](https://cables.gl/op/Ops.TimeLine.TimeLineControls)
 
 ### TimelineDebug
 ![TimelineDebug op](images/ops/Ops_TimeLine_TimelineDebug.svg)
 
 **Full Name:** `Ops.TimeLine.TimelineDebug`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineDebug) for details*
+*Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimelineDebug) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -246,16 +246,16 @@
 - **Selected Times Max** (Number)
 - **Selected Keys** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimelineDebug#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimelineDebug#example](https://cables.gl/op/Ops.TimeLine.TimelineDebug#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimelineDebug](https://cables.gl/op/Ops.TimeLine.TimelineDebug)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimelineDebug](https://cables.gl/op/Ops.TimeLine.TimelineDebug)
 
 ### TimeLineFrame
 ![TimeLineFrame op](images/ops/Ops_TimeLine_TimeLineFrame.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineFrame`
 
-**Description:** Returns the current frame number of the timeline
+Returns the current frame number of the timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -265,16 +265,16 @@
 
 - **Time** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineFrame#example](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineFrame](https://cables.gl/op/Ops.TimeLine.TimeLineFrame)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineFrame](https://cables.gl/op/Ops.TimeLine.TimeLineFrame)
 
 ### TimeLineLength
 ![TimeLineLength op](images/ops/Ops_TimeLine_TimeLineLength.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineLength`
 
-**Description:** current set length of the timeline
+current set length of the timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -284,16 +284,16 @@
 
 - **Length** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/qSMdck)
+**Example Patch:** [cables.gl/edit/qSMdck](https://cables.gl/edit/qSMdck)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineLength](https://cables.gl/op/Ops.TimeLine.TimeLineLength)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineLength](https://cables.gl/op/Ops.TimeLine.TimeLineLength)
 
 ### TimeLineLoop
 ![TimeLineLoop op](images/ops/Ops_TimeLine_TimeLineLoop.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineLoop`
 
-**Description:** Automatic rewind of timeline at a certain time
+Automatic rewind of timeline at a certain time.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -305,16 +305,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GbEqL-)
+**Example Patch:** [cables.gl/edit/GbEqL-](https://cables.gl/edit/GbEqL-)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineLoop](https://cables.gl/op/Ops.TimeLine.TimeLineLoop)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineLoop](https://cables.gl/op/Ops.TimeLine.TimeLineLoop)
 
 ### TimeLineOverwrite
 ![TimeLineOverwrite op](images/ops/Ops_TimeLine_TimeLineOverwrite.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineOverwrite`
 
-**Description:** overwrite timeline time value
+overwrite timeline time value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -325,16 +325,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineOverwrite](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite)
 
 ### TimeLinePlay
 ![TimeLinePlay op](images/ops/Ops_TimeLine_TimeLinePlay.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLinePlay`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlay) for details*
+*Visit [documentation](https://cables.gl/op/Ops.TimeLine.TimeLinePlay) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -345,16 +345,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
+**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLinePlay](https://cables.gl/op/Ops.TimeLine.TimeLinePlay)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLinePlay](https://cables.gl/op/Ops.TimeLine.TimeLinePlay)
 
 ### TimeLinePlayer
 ![TimeLinePlayer op](images/ops/Ops_TimeLine_TimeLinePlayer.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLinePlayer`
 
-**Description:** Player controls for the timeline
+Player controls for the timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -373,16 +373,16 @@
 - **Current Frame** (Number)
 - **Current time in frames** (30fps)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLinePlayer#example](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLinePlayer](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLinePlayer](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer)
 
 ### TimeLineRewind
 ![TimeLineRewind op](images/ops/Ops_TimeLine_TimeLineRewind.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineRewind`
 
-**Description:** set time of timeline to 0 (rewind, restart)
+set time of timeline to 0 (rewind, restart).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -392,16 +392,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
+**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineRewind](https://cables.gl/op/Ops.TimeLine.TimeLineRewind)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineRewind](https://cables.gl/op/Ops.TimeLine.TimeLineRewind)
 
 ### TimeLineSetTime
 ![TimeLineSetTime op](images/ops/Ops_TimeLine_TimeLineSetTime.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineSetTime`
 
-**Description:** set current time of timeline
+set current time of timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -412,16 +412,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3F6DOe)
+**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineSetTime](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineSetTime](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime)
 
 ### TimeLineTime
 ![TimeLineTime op](images/ops/Ops_TimeLine_TimeLineTime.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineTime`
 
-**Description:** Returns the current time of the timeline
+Returns the current time of the timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -432,16 +432,16 @@
 - **Time** (Number)
 - **The current time of the timeline** (in seconds)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineTime#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineTime#example](https://cables.gl/op/Ops.TimeLine.TimeLineTime#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineTime](https://cables.gl/op/Ops.TimeLine.TimeLineTime)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineTime](https://cables.gl/op/Ops.TimeLine.TimeLineTime)
 
 ### TimeLineTogglePlay
 ![TimeLineTogglePlay op](images/ops/Ops_TimeLine_TimeLineTogglePlay.svg)
 
 **Full Name:** `Ops.TimeLine.TimeLineTogglePlay`
 
-**Description:** toggle between timeline playing and being paused
+toggle between timeline playing and being paused.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -452,16 +452,16 @@
 
 - *Visit [Ops.TimeLine.TimeLineTogglePlay documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
+**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay)
 
 ### TimelineValue
 ![TimelineValue op](images/ops/Ops_TimeLine_TimelineValue.svg)
 
 **Full Name:** `Ops.TimeLine.TimelineValue`
 
-**Description:** Animate and get value at "time" of timeline
+Animate and get value at "time" of timeline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -475,8 +475,8 @@
 - **Anim Array** (Array)
 - **Anim Finished** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/xAg8P6)
+**Example Patch:** [cables.gl/edit/xAg8P6](https://cables.gl/edit/xAg8P6)
 
-**Docs:** [https://cables.gl/op/Ops.TimeLine.TimelineValue](https://cables.gl/op/Ops.TimeLine.TimelineValue)
+**Doc:** [cables.gl/op/Ops.TimeLine.TimelineValue](https://cables.gl/op/Ops.TimeLine.TimelineValue)
 
 

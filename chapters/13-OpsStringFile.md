@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.String.File.FileInput_v2`
 
-**Description:** get URL of a file
+get URL of a file.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -19,16 +19,16 @@
 
 - **URL** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
+**Example Patch:** [cables.gl/op/Ops.String.File.FileInput_v2#example](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.String.File.FileInput_v2](https://cables.gl/op/Ops.String.File.FileInput_v2)
+**Doc:** [cables.gl/op/Ops.String.File.FileInput_v2](https://cables.gl/op/Ops.String.File.FileInput_v2)
 
 ### SwitchFile_v2
 ![SwitchFile_v2 op](images/ops/Ops_String_File_SwitchFile_v2.svg)
 
 **Full Name:** `Ops.String.File.SwitchFile_v2`
 
-**Description:** switch between filenames
+switch between filenames.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -54,8 +54,8 @@
 
 - **Result** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/unutii)
+**Example Patch:** [cables.gl/edit/unutii](https://cables.gl/edit/unutii)
 
-**Docs:** [https://cables.gl/op/Ops.String.File.SwitchFile_v2](https://cables.gl/op/Ops.String.File.SwitchFile_v2)
+**Doc:** [cables.gl/op/Ops.String.File.SwitchFile_v2](https://cables.gl/op/Ops.String.File.SwitchFile_v2)
 
 

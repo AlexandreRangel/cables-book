@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Date.DateAndTime`
 
-**Description:** Returns current date and time and timestamp
+Returns current date and time and timestamp.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -26,16 +26,16 @@
 - **Seconds** (Number)
 - **Timestamp** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GuzKSD)
+**Example Patch:** [cables.gl/edit/GuzKSD](https://cables.gl/edit/GuzKSD)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateAndTime](https://cables.gl/op/Ops.Date.DateAndTime)
+**Doc:** [cables.gl/op/Ops.Date.DateAndTime](https://cables.gl/op/Ops.Date.DateAndTime)
 
 ### DateCalc
 ![DateCalc op](images/ops/Ops_Date_DateCalc.svg)
 
 **Full Name:** `Ops.Date.DateCalc`
 
-**Description:** Perform date calculations
+Perform date calculations.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -50,16 +50,16 @@
 - **Date** (Object)
 - **Timestamp** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
+**Example Patch:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateCalc](https://cables.gl/op/Ops.Date.DateCalc)
+**Doc:** [cables.gl/op/Ops.Date.DateCalc](https://cables.gl/op/Ops.Date.DateCalc)
 
 ### DateDifference
 ![DateDifference op](images/ops/Ops_Date_DateDifference.svg)
 
 **Full Name:** `Ops.Date.DateDifference`
 
-**Description:** Calculates the difference between two timestamps
+Calculates the difference between two timestamps.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -78,16 +78,16 @@
 - **Milliseconds** (Number)
 - **Diff** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/d1NUet)
+**Example Patch:** [cables.gl/edit/d1NUet](https://cables.gl/edit/d1NUet)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateDifference](https://cables.gl/op/Ops.Date.DateDifference)
+**Doc:** [cables.gl/op/Ops.Date.DateDifference](https://cables.gl/op/Ops.Date.DateDifference)
 
 ### DateFormatter
 ![DateFormatter op](images/ops/Ops_Date_DateFormatter.svg)
 
 **Full Name:** `Ops.Date.DateFormatter`
 
-**Description:** String representation of a date
+String representation of a date.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -99,16 +99,16 @@
 
 - **StringDate** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mzfGGl)
+**Example Patch:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateFormatter](https://cables.gl/op/Ops.Date.DateFormatter)
+**Doc:** [cables.gl/op/Ops.Date.DateFormatter](https://cables.gl/op/Ops.Date.DateFormatter)
 
 ### DateIsoToTimestamp
 ![DateIsoToTimestamp op](images/ops/Ops_Date_DateIsoToTimestamp.svg)
 
 **Full Name:** `Ops.Date.DateIsoToTimestamp`
 
-**Description:** parses a date and time in iso format and outputs a millisecond timestamp
+parses a date and time in iso format and outputs a millisecond timestamp.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -118,16 +118,16 @@
 
 - **Timestamp** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nsSRrU)
+**Example Patch:** [cables.gl/edit/nsSRrU](https://cables.gl/edit/nsSRrU)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateIsoToTimestamp](https://cables.gl/op/Ops.Date.DateIsoToTimestamp)
+**Doc:** [cables.gl/op/Ops.Date.DateIsoToTimestamp](https://cables.gl/op/Ops.Date.DateIsoToTimestamp)
 
 ### DateTimestamp
 ![DateTimestamp op](images/ops/Ops_Date_DateTimestamp.svg)
 
 **Full Name:** `Ops.Date.DateTimestamp`
 
-**Description:** Calculates the timestamp of a date by year / month / day / hour / minute
+Calculates the timestamp of a date by year / month / day / hour / minute.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -141,16 +141,16 @@
 
 - **Timestamp** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Date.DateTimestamp#example)
+**Example Patch:** [cables.gl/op/Ops.Date.DateTimestamp#example](https://cables.gl/op/Ops.Date.DateTimestamp#example)
 
-**Docs:** [https://cables.gl/op/Ops.Date.DateTimestamp](https://cables.gl/op/Ops.Date.DateTimestamp)
+**Doc:** [cables.gl/op/Ops.Date.DateTimestamp](https://cables.gl/op/Ops.Date.DateTimestamp)
 
 ### Milliseconds
 ![Milliseconds op](images/ops/Ops_Date_Milliseconds.svg)
 
 **Full Name:** `Ops.Date.Milliseconds`
 
-**Description:** Value since the time origin in milliseconds (performance.now())
+Value since the time origin in milliseconds (performance.now()).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -160,16 +160,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dJzVbI)
+**Example Patch:** [cables.gl/edit/dJzVbI](https://cables.gl/edit/dJzVbI)
 
-**Docs:** [https://cables.gl/op/Ops.Date.Milliseconds](https://cables.gl/op/Ops.Date.Milliseconds)
+**Doc:** [cables.gl/op/Ops.Date.Milliseconds](https://cables.gl/op/Ops.Date.Milliseconds)
 
 ### TimestampToIsoDate
 ![TimestampToIsoDate op](images/ops/Ops_Date_TimestampToIsoDate.svg)
 
 **Full Name:** `Ops.Date.TimestampToIsoDate`
 
-**Description:** convert a timestamp to an ISO date string
+convert a timestamp to an ISO date string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -179,8 +179,8 @@
 
 - **ISO Date** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/MqNl8i)
+**Example Patch:** [cables.gl/edit/MqNl8i](https://cables.gl/edit/MqNl8i)
 
-**Docs:** [https://cables.gl/op/Ops.Date.TimestampToIsoDate](https://cables.gl/op/Ops.Date.TimestampToIsoDate)
+**Doc:** [cables.gl/op/Ops.Date.TimestampToIsoDate](https://cables.gl/op/Ops.Date.TimestampToIsoDate)
 
 

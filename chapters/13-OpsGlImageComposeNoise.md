@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.CellularNoise_v2`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -34,16 +34,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9DZmT6)
+**Example Patch:** [cables.gl/edit/9DZmT6](https://cables.gl/edit/9DZmT6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2)
 
 ### FBMNoise_v2
 ![FBMNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_FBMNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.FBMNoise_v2`
 
-**Description:** fractional brownian motion noise
+fractional brownian motion noise.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -70,16 +70,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/DmWmT6)
+**Example Patch:** [cables.gl/edit/DmWmT6](https://cables.gl/edit/DmWmT6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2)
 
 ### GaborNoise
 ![GaborNoise op](images/ops/Ops_Gl_ImageCompose_Noise_GaborNoise.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.GaborNoise`
 
-**Description:** Render "gabor noise" into a texture
+Render "gabor noise" into a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -95,16 +95,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PWDdQm)
+**Example Patch:** [cables.gl/edit/PWDdQm](https://cables.gl/edit/PWDdQm)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise)
 
 ### GlitchNoise_v2
 ![GlitchNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_GlitchNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.GlitchNoise_v2`
 
-**Description:** Creates a black and white glitched texture to use for displacement
+Creates a black and white glitched texture to use for displacement.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -126,16 +126,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/cknm0r)
+**Example Patch:** [cables.gl/edit/cknm0r](https://cables.gl/edit/cknm0r)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2)
 
 ### HexagonNoise_v2
 ![HexagonNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_HexagonNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.HexagonNoise_v2`
 
-**Description:** Creates a hexagonal noise
+Creates a hexagonal noise.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -158,16 +158,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/plbB53)
+**Example Patch:** [cables.gl/edit/plbB53](https://cables.gl/edit/plbB53)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2)
 
 ### LayerNoise_v3
 ![LayerNoise_v3 op](images/ops/Ops_Gl_ImageCompose_Noise_LayerNoise_v3.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.LayerNoise_v3`
 
-**Description:** Multilayer perlin noise variation
+Multilayer perlin noise variation.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -190,16 +190,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/NSYy0t)
+**Example Patch:** [cables.gl/edit/NSYy0t](https://cables.gl/edit/NSYy0t)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3)
 
 ### Noise_v2
 ![Noise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_Noise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.Noise_v2`
 
-**Description:** White noise pixel effect
+White noise pixel effect.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -216,16 +216,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PdHmT6)
+**Example Patch:** [cables.gl/edit/PdHmT6](https://cables.gl/edit/PdHmT6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2)
 
 ### PerlinNoise_v2
 ![PerlinNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_PerlinNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.PerlinNoise_v2`
 
-**Description:** Draw perlin noise into an image
+Draw perlin noise into an image.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -251,16 +251,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/zfzmT6)
+**Example Patch:** [cables.gl/edit/zfzmT6](https://cables.gl/edit/zfzmT6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2)
 
 ### PixelNoise_v3
 ![PixelNoise_v3 op](images/ops/Ops_Gl_ImageCompose_Noise_PixelNoise_v3.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.PixelNoise_v3`
 
-**Description:** Amount of blend mode to apply
+Amount of blend mode to apply.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -284,16 +284,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pdjoOb)
+**Example Patch:** [cables.gl/edit/pdjoOb](https://cables.gl/edit/pdjoOb)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3)
 
 ### PolkaDotNoise_v2
 ![PolkaDotNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_PolkaDotNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -314,16 +314,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pKNTub)
+**Example Patch:** [cables.gl/edit/pKNTub](https://cables.gl/edit/pKNTub)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2)
 
 ### Shardnoise
 ![Shardnoise op](images/ops/Ops_Gl_ImageCompose_Noise_Shardnoise.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.Shardnoise`
 
-**Description:** Render "shard noise" into a texture
+Render "shard noise" into a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -341,16 +341,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GSZtvs)
+**Example Patch:** [cables.gl/edit/GSZtvs](https://cables.gl/edit/GSZtvs)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise)
 
 ### SimplexNoise_v2
 ![SimplexNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_SimplexNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.SimplexNoise_v2`
 
-**Description:** simplex noise generator
+simplex noise generator.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -375,16 +375,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/c3vmUf)
+**Example Patch:** [cables.gl/edit/c3vmUf](https://cables.gl/edit/c3vmUf)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2)
 
 ### TriangleNoise_v2
 ![TriangleNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_TriangleNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.TriangleNoise_v2`
 
-**Description:** noise made from triangles
+noise made from triangles.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -400,16 +400,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/wvkJyC)
+**Example Patch:** [cables.gl/edit/wvkJyC](https://cables.gl/edit/wvkJyC)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2)
 
 ### ValueNoise_v2
 ![ValueNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_ValueNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.ValueNoise_v2`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -425,16 +425,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/SgTmT6)
+**Example Patch:** [cables.gl/edit/SgTmT6](https://cables.gl/edit/SgTmT6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2)
 
 ### Voronoise_v2
 ![Voronoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_Voronoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.Voronoise_v2`
 
-**Description:** Voronoi Noise function
+Voronoi Noise function.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -455,16 +455,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3zb6Us)
+**Example Patch:** [cables.gl/edit/3zb6Us](https://cables.gl/edit/3zb6Us)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2)
 
 ### WorleyNoise_v2
 ![WorleyNoise_v2 op](images/ops/Ops_Gl_ImageCompose_Noise_WorleyNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Noise.WorleyNoise_v2`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -494,8 +494,8 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/sivDJd)
+**Example Patch:** [cables.gl/edit/sivDJd](https://cables.gl/edit/sivDJd)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2)
 
 

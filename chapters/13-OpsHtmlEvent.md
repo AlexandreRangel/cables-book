@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Html.Event.ElementEventListener_v2`
 
-**Description:** Add a custom event listener
+Add a custom event listener.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -25,16 +25,16 @@
 - **Event Trigger** (Trigger)
 - **Event Object** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9ixt13)
+**Example Patch:** [cables.gl/edit/9ixt13](https://cables.gl/edit/9ixt13)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2](https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2)
+**Doc:** [cables.gl/op/Ops.Html.Event.ElementEventListener_v2](https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2)
 
 ### ElementPointerEvents
 ![ElementPointerEvents op](images/ops/Ops_Html_Event_ElementPointerEvents.svg)
 
 **Full Name:** `Ops.Html.Event.ElementPointerEvents`
 
-**Description:** Listen to events of an element
+Listen to events of an element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -61,16 +61,16 @@
 - **Touch Cancel** (Trigger)
 - **Event Name** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
+**Example Patch:** [cables.gl/op/Ops.Html.Event.ElementPointerEvents#example](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Event.ElementPointerEvents](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents)
+**Doc:** [cables.gl/op/Ops.Html.Event.ElementPointerEvents](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents)
 
 ### ElementsArrayEventListener
 ![ElementsArrayEventListener op](images/ops/Ops_Html_Event_ElementsArrayEventListener.svg)
 
 **Full Name:** `Ops.Html.Event.ElementsArrayEventListener`
 
-**Description:** listen to events on multiple html elements
+listen to events on multiple html elements.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -87,16 +87,16 @@
 - **Event Object** (Object)
 - **Event Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/4rKHP0)
+**Example Patch:** [cables.gl/edit/4rKHP0](https://cables.gl/edit/4rKHP0)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener](https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener)
+**Doc:** [cables.gl/op/Ops.Html.Event.ElementsArrayEventListener](https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener)
 
 ### PreventDefault
 ![PreventDefault op](images/ops/Ops_Html_Event_PreventDefault.svg)
 
 **Full Name:** `Ops.Html.Event.PreventDefault`
 
-**Description:** Prevents the default on a JavaScript event
+Prevents the default on a JavaScript event.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -108,16 +108,16 @@
 - **Next** (Trigger)
 - **Event Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
+**Example Patch:** [cables.gl/op/Ops.Html.Event.PreventDefault#example](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Event.PreventDefault](https://cables.gl/op/Ops.Html.Event.PreventDefault)
+**Doc:** [cables.gl/op/Ops.Html.Event.PreventDefault](https://cables.gl/op/Ops.Html.Event.PreventDefault)
 
 ### StopPropagation
 ![StopPropagation op](images/ops/Ops_Html_Event_StopPropagation.svg)
 
 **Full Name:** `Ops.Html.Event.StopPropagation`
 
-**Description:** Stop a JavaScript event (bubbling / capturing)
+Stop a JavaScript event (bubbling / capturing).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -129,8 +129,8 @@
 - **Next** (Trigger)
 - **Event Out** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
+**Example Patch:** [cables.gl/op/Ops.Html.Event.StopPropagation#example](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Event.StopPropagation](https://cables.gl/op/Ops.Html.Event.StopPropagation)
+**Doc:** [cables.gl/op/Ops.Html.Event.StopPropagation](https://cables.gl/op/Ops.Html.Event.StopPropagation)
 
 

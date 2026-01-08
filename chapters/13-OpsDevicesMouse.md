@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.Mouse.Mouse_v4`
 
-**Description:** Get mouse/touchscreen/pointer coordinates and events
+Get mouse/touchscreen/pointer coordinates and events.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -32,16 +32,16 @@
 - **Movement Y** (Number)
 - **Event** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
+**Example Patch:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mouse.Mouse_v4](https://cables.gl/op/Ops.Devices.Mouse.Mouse_v4)
+**Doc:** [cables.gl/op/Ops.Devices.Mouse.Mouse_v4](https://cables.gl/op/Ops.Devices.Mouse.Mouse_v4)
 
 ### MouseButtons
 ![MouseButtons op](images/ops/Ops_Devices_Mouse_MouseButtons.svg)
 
 **Full Name:** `Ops.Devices.Mouse.MouseButtons`
 
-**Description:** Get the state of mouse buttons
+Get the state of mouse buttons.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -63,16 +63,16 @@
 - **Mouse Up Middle** (Trigger)
 - **Mouse Up Right** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/cLtJLO)
+**Example Patch:** [cables.gl/edit/cLtJLO](https://cables.gl/edit/cLtJLO)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mouse.MouseButtons](https://cables.gl/op/Ops.Devices.Mouse.MouseButtons)
+**Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseButtons](https://cables.gl/op/Ops.Devices.Mouse.MouseButtons)
 
 ### MouseDrag
 ![MouseDrag op](images/ops/Ops_Devices_Mouse_MouseDrag.svg)
 
 **Full Name:** `Ops.Devices.Mouse.MouseDrag`
 
-**Description:** get delta of mouse position while dragging
+get delta of mouse position while dragging.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -87,16 +87,16 @@
 - **Delta Y** (Number)
 - **Is Dragging** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
+**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mouse.MouseDrag](https://cables.gl/op/Ops.Devices.Mouse.MouseDrag)
+**Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseDrag](https://cables.gl/op/Ops.Devices.Mouse.MouseDrag)
 
 ### MouseWheel_v2
 ![MouseWheel_v2 op](images/ops/Ops_Devices_Mouse_MouseWheel_v2.svg)
 
 **Full Name:** `Ops.Devices.Mouse.MouseWheel_v2`
 
-**Description:** outputs delta values controlled by the mousewheel (scroll, zoom)
+outputs delta values controlled by the mousewheel (scroll, zoom).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -113,16 +113,16 @@
 - **Browser Event Delta** (Number)
 - **Wheel Action** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
+**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2](https://cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2)
+**Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2](https://cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2)
 
 ### PointerLock
 ![PointerLock op](images/ops/Ops_Devices_Mouse_PointerLock.svg)
 
 **Full Name:** `Ops.Devices.Mouse.PointerLock`
 
-**Description:** locks the pointer to the canvas and hides the cursor
+locks the pointer to the canvas and hides the cursor.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -135,8 +135,8 @@
 - **Supported** (booleanNumber)
 - **Is Locked** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ds6IV2)
+**Example Patch:** [cables.gl/edit/ds6IV2](https://cables.gl/edit/ds6IV2)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Mouse.PointerLock](https://cables.gl/op/Ops.Devices.Mouse.PointerLock)
+**Doc:** [cables.gl/op/Ops.Devices.Mouse.PointerLock](https://cables.gl/op/Ops.Devices.Mouse.PointerLock)
 
 

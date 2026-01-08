@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.GlParticles.VelocityBoundaries`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -44,8 +44,8 @@
 - **Velocity** (Object)
 - **Collision** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries)
+**Doc:** [cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries)
 
 

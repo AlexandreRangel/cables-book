@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.ColorMapRange`
 
-**Description:** Map the range of color number values to another
+Map the range of color number values to another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -28,16 +28,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/TgoiV6)
+**Example Patch:** [cables.gl/edit/TgoiV6](https://cables.gl/edit/TgoiV6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange](https://cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange](https://cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange)
 
 ### Normalize
 ![Normalize op](images/ops/Ops_Gl_ImageCompose_Math_Normalize.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.Normalize`
 
-**Description:** normalize texture rgb values
+normalize texture rgb values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -49,16 +49,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7c4jW2)
+**Example Patch:** [cables.gl/edit/7c4jW2](https://cables.gl/edit/7c4jW2)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize)
 
 ### RgbeToFloat32Texture
 ![RgbeToFloat32Texture op](images/ops/Ops_Gl_ImageCompose_Math_RgbeToFloat32Texture.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture`
 
-**Description:** Convert a RGBE texture to HDR/floating point texture
+Convert a RGBE texture to HDR/floating point texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -73,16 +73,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/adsLpX)
+**Example Patch:** [cables.gl/edit/adsLpX](https://cables.gl/edit/adsLpX)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture)
 
 ### RgbMath
 ![RgbMath op](images/ops/Ops_Gl_ImageCompose_Math_RgbMath.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.RgbMath`
 
-**Description:** This OP enables you to use precise values to modify the pixels in your texture. For example adjusting texture values that are modifying your geometry or array values, or even your post processing compositions.
+This OP enables you to use precise values to modify the pixels in your texture. For example adjusting texture values that are modifying your geometry or array values, or even your post processing compositions.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -104,16 +104,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/H3cEpX)
+**Example Patch:** [cables.gl/edit/H3cEpX](https://cables.gl/edit/H3cEpX)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath)
 
 ### RgbMathExpression
 ![RgbMathExpression op](images/ops/Ops_Gl_ImageCompose_Math_RgbMathExpression.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.RgbMathExpression`
 
-**Description:** Execute a glsl code math expression in a image compose
+Execute a glsl code math expression in a image compose.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -132,16 +132,16 @@
 - **Trigger** (Trigger)
 - **Code** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/tG4xFs)
+**Example Patch:** [cables.gl/edit/tG4xFs](https://cables.gl/edit/tG4xFs)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression)
 
 ### RgbTransform
 ![RgbTransform op](images/ops/Ops_Gl_ImageCompose_Math_RgbTransform.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.RgbTransform`
 
-**Description:** transform RGB values interpreted as XYZ coordinates
+transform RGB values interpreted as XYZ coordinates.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -164,16 +164,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/UJvMbk)
+**Example Patch:** [cables.gl/edit/UJvMbk](https://cables.gl/edit/UJvMbk)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform)
 
 ### Round
 ![Round op](images/ops/Ops_Gl_ImageCompose_Math_Round.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.Round`
 
-**Description:** Round number values of texture color channels
+Round number values of texture color channels.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -185,16 +185,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Round](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round)
 
 ### TexMathCompare
 ![TexMathCompare op](images/ops/Ops_Gl_ImageCompose_Math_TexMathCompare.svg)
 
 **Full Name:** `Ops.Gl.ImageCompose.Math.TexMathCompare`
 
-**Description:** compare and pass through of color channel values
+compare and pass through of color channel values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -211,8 +211,8 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RjKQWp)
+**Example Patch:** [cables.gl/edit/RjKQWp](https://cables.gl/edit/RjKQWp)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare](https://cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare)
+**Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare](https://cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare)
 
 

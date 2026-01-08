@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.FxHash.FxHash`
 
-**Description:** FxHash simulator / generator of seeded random numbers
+FxHash simulator / generator of seeded random numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -26,8 +26,8 @@
 - **Random Numbers** (Array)
 - **Fxhash Environment** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dnDl82)
+**Example Patch:** [cables.gl/edit/dnDl82](https://cables.gl/edit/dnDl82)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
+**Doc:** [cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
 
 

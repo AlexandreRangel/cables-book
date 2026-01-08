@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.Matrix.AnimMatrix`
 
-**Description:** animate values in a matrix to a new matrix
+animate values in a matrix to a new matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 - **Next** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/99cg1x)
+**Example Patch:** [cables.gl/edit/99cg1x](https://cables.gl/edit/99cg1x)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.AnimMatrix](https://cables.gl/op/Ops.Gl.Matrix.AnimMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.AnimMatrix](https://cables.gl/op/Ops.Gl.Matrix.AnimMatrix)
 
 ### ArrayPathFollow
 ![ArrayPathFollow op](images/ops/Ops_Gl_Matrix_ArrayPathFollow.svg)
 
 **Full Name:** `Ops.Gl.Matrix.ArrayPathFollow`
 
-**Description:** interpolate position on a spline/array3x
+interpolate position on a spline/array3x.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -49,16 +49,16 @@
 - **Transform Lookat** (Trigger)
 - **Index** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lL9_EF)
+**Example Patch:** [cables.gl/edit/lL9_EF](https://cables.gl/edit/lL9_EF)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow)
 
 ### ArrayPathFollowParticles_v2
 ![ArrayPathFollowParticles_v2 op](images/ops/Ops_Gl_Matrix_ArrayPathFollowParticles_v2.svg)
 
 **Full Name:** `Ops.Gl.Matrix.ArrayPathFollowParticles_v2`
 
-**Description:** render lots of particles following a path/spline/array3x
+render lots of particles following a path/spline/array3x.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -75,16 +75,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/4wT0J6)
+**Example Patch:** [cables.gl/edit/4wT0J6](https://cables.gl/edit/4wT0J6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2)
 
 ### Billboard
 ![Billboard op](images/ops/Ops_Gl_Matrix_Billboard.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Billboard`
 
-**Description:** rotate an object to always face the camera
+rotate an object to always face the camera.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -94,16 +94,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GVpkrq)
+**Example Patch:** [cables.gl/edit/GVpkrq](https://cables.gl/edit/GVpkrq)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Billboard](https://cables.gl/op/Ops.Gl.Matrix.Billboard)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Billboard](https://cables.gl/op/Ops.Gl.Matrix.Billboard)
 
 ### Camera_v2
 ![Camera_v2 op](images/ops/Ops_Gl_Matrix_Camera_v2.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Camera_v2`
 
-**Description:** Transforms and projects the scene from the point of view of the camera.
+Transforms and projects the scene from the point of view of the camera.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -135,16 +135,16 @@
 - **Aspect** (Number)
 - **Look At Array** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PSw73e)
+**Example Patch:** [cables.gl/edit/PSw73e](https://cables.gl/edit/PSw73e)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Camera_v2](https://cables.gl/op/Ops.Gl.Matrix.Camera_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Camera_v2](https://cables.gl/op/Ops.Gl.Matrix.Camera_v2)
 
 ### CameraInfo
 ![CameraInfo op](images/ops/Ops_Gl_Matrix_CameraInfo.svg)
 
 **Full Name:** `Ops.Gl.Matrix.CameraInfo`
 
-**Description:** get camera attributes from current camera/orbit controls
+get camera attributes from current camera/orbit controls.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -175,16 +175,16 @@
 - **FOV** (Number)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/YfJ4S-)
+**Example Patch:** [cables.gl/edit/YfJ4S-](https://cables.gl/edit/YfJ4S-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.CameraInfo](https://cables.gl/op/Ops.Gl.Matrix.CameraInfo)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.CameraInfo](https://cables.gl/op/Ops.Gl.Matrix.CameraInfo)
 
 ### CameraPosition
 ![CameraPosition op](images/ops/Ops_Gl_Matrix_CameraPosition.svg)
 
 **Full Name:** `Ops.Gl.Matrix.CameraPosition`
 
-**Description:** get the current position of viewmatrix/camera eye
+get the current position of viewmatrix/camera eye.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -197,16 +197,16 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/JwL86R)
+**Example Patch:** [cables.gl/edit/JwL86R](https://cables.gl/edit/JwL86R)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.CameraPosition](https://cables.gl/op/Ops.Gl.Matrix.CameraPosition)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.CameraPosition](https://cables.gl/op/Ops.Gl.Matrix.CameraPosition)
 
 ### Coordinates
 ![Coordinates op](images/ops/Ops_Gl_Matrix_Coordinates.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Coordinates`
 
-**Description:** current xyz coordinates (modelmatrix)
+current xyz coordinates (modelmatrix).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -219,16 +219,16 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/2AtI98)
+**Example Patch:** [cables.gl/edit/2AtI98](https://cables.gl/edit/2AtI98)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Coordinates](https://cables.gl/op/Ops.Gl.Matrix.Coordinates)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Coordinates](https://cables.gl/op/Ops.Gl.Matrix.Coordinates)
 
 ### DeviceOrientationCamera
 ![DeviceOrientationCamera op](images/ops/Ops_Gl_Matrix_DeviceOrientationCamera.svg)
 
 **Full Name:** `Ops.Gl.Matrix.DeviceOrientationCamera`
 
-**Description:** gyroscope motionsensor camera
+gyroscope motionsensor camera.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -239,16 +239,16 @@
 - **Next** (Trigger)
 - **Window Orientation** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dZ8wQ0)
+**Example Patch:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera](https://cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera](https://cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera)
 
 ### GetMatrixScaling
 ![GetMatrixScaling op](images/ops/Ops_Gl_Matrix_GetMatrixScaling.svg)
 
 **Full Name:** `Ops.Gl.Matrix.GetMatrixScaling`
 
-**Description:** Get the scalar scaling of a matrix
+Get the scalar scaling of a matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -260,16 +260,16 @@
 - **Trigger** (Trigger)
 - **Scaling** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling)
 
 ### GetModelMatrix
 ![GetModelMatrix op](images/ops/Ops_Gl_Matrix_GetModelMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.GetModelMatrix`
 
-**Description:** Get current modelmatrix
+Get current modelmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -280,16 +280,16 @@
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/HkYpci)
+**Example Patch:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.GetModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetModelMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.GetModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetModelMatrix)
 
 ### GetProjectionMatrix
 ![GetProjectionMatrix op](images/ops/Ops_Gl_Matrix_GetProjectionMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.GetProjectionMatrix`
 
-**Description:** get current projectionmatrix
+get current projectionmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -300,16 +300,16 @@
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/573_4S)
+**Example Patch:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix)
 
 ### GetViewMatrix
 ![GetViewMatrix op](images/ops/Ops_Gl_Matrix_GetViewMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.GetViewMatrix`
 
-**Description:** get current viewmatrix
+get current viewmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -320,16 +320,16 @@
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hDWuci)
+**Example Patch:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.GetViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetViewMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.GetViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetViewMatrix)
 
 ### InterpolateMatrix
 ![InterpolateMatrix op](images/ops/Ops_Gl_Matrix_InterpolateMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.InterpolateMatrix`
 
-**Description:** interpolate between two matrices
+interpolate between two matrices.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -343,16 +343,16 @@
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix)
 
 ### InvertMatrix
 ![InvertMatrix op](images/ops/Ops_Gl_Matrix_InvertMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.InvertMatrix`
 
-**Description:** outputs an inverted matrix
+outputs an inverted matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -362,16 +362,16 @@
 
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/G51FhI)
+**Example Patch:** [cables.gl/edit/G51FhI](https://cables.gl/edit/G51FhI)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.InvertMatrix](https://cables.gl/op/Ops.Gl.Matrix.InvertMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.InvertMatrix](https://cables.gl/op/Ops.Gl.Matrix.InvertMatrix)
 
 ### LookatCamera
 ![LookatCamera op](images/ops/Ops_Gl_Matrix_LookatCamera.svg)
 
 **Full Name:** `Ops.Gl.Matrix.LookatCamera`
 
-**Description:** transforms view to look from eye to center
+transforms view to look from eye to center.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -391,16 +391,16 @@
 - **Trigger** (Trigger)
 - **Array** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/_JlGz6)
+**Example Patch:** [cables.gl/edit/_JlGz6](https://cables.gl/edit/_JlGz6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.LookatCamera](https://cables.gl/op/Ops.Gl.Matrix.LookatCamera)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.LookatCamera](https://cables.gl/op/Ops.Gl.Matrix.LookatCamera)
 
 ### MatrixTranslation
 ![MatrixTranslation op](images/ops/Ops_Gl_Matrix_MatrixTranslation.svg)
 
 **Full Name:** `Ops.Gl.Matrix.MatrixTranslation`
 
-**Description:** get translation of a matrix
+get translation of a matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -414,16 +414,16 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Zz52On)
+**Example Patch:** [cables.gl/edit/Zz52On](https://cables.gl/edit/Zz52On)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.MatrixTranslation](https://cables.gl/op/Ops.Gl.Matrix.MatrixTranslation)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.MatrixTranslation](https://cables.gl/op/Ops.Gl.Matrix.MatrixTranslation)
 
 ### MultiplyModelMatrix
 ![MultiplyModelMatrix op](images/ops/Ops_Gl_Matrix_MultiplyModelMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.MultiplyModelMatrix`
 
-**Description:** multiply model matrix
+multiply model matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -435,16 +435,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/HkYpci)
+**Example Patch:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix)
 
 ### MulViewMatrix
 ![MulViewMatrix op](images/ops/Ops_Gl_Matrix_MulViewMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.MulViewMatrix`
 
-**Description:** multiply view matrix
+multiply view matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -456,16 +456,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hDWuci)
+**Example Patch:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.MulViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.MulViewMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.MulViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.MulViewMatrix)
 
 ### Quaternion
 ![Quaternion op](images/ops/Ops_Gl_Matrix_Quaternion.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Quaternion`
 
-**Description:** multiplies current modelmatrix with a quaternion
+multiplies current modelmatrix with a quaternion.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -479,16 +479,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.Quaternion#example](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Quaternion](https://cables.gl/op/Ops.Gl.Matrix.Quaternion)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Quaternion](https://cables.gl/op/Ops.Gl.Matrix.Quaternion)
 
 ### QuaternionCamera
 ![QuaternionCamera op](images/ops/Ops_Gl_Matrix_QuaternionCamera.svg)
 
 **Full Name:** `Ops.Gl.Matrix.QuaternionCamera`
 
-**Description:** Set up a camera, rotated by a quaternion
+Set up a camera, rotated by a quaternion.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -508,16 +508,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.QuaternionCamera](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera)
 
 ### RandomGridPlacement
 ![RandomGridPlacement op](images/ops/Ops_Gl_Matrix_RandomGridPlacement.svg)
 
 **Full Name:** `Ops.Gl.Matrix.RandomGridPlacement`
 
-**Description:** place random objects on a grid
+place random objects on a grid.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -535,16 +535,16 @@
 - **Index** (Number)
 - **Depth** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/FsZFVB)
+**Example Patch:** [cables.gl/edit/FsZFVB](https://cables.gl/edit/FsZFVB)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement)
 
 ### RandomGridPlacementArrays
 ![RandomGridPlacementArrays op](images/ops/Ops_Gl_Matrix_RandomGridPlacementArrays.svg)
 
 **Full Name:** `Ops.Gl.Matrix.RandomGridPlacementArrays`
 
-**Description:** Place random objects on a grid
+Place random objects on a grid.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -563,16 +563,16 @@
 - **Array Length** (Number)
 - **Total Points** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PYUHNP)
+**Example Patch:** [cables.gl/edit/PYUHNP](https://cables.gl/edit/PYUHNP)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays)
 
 ### Scale
 ![Scale op](images/ops/Ops_Gl_Matrix_Scale.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Scale`
 
-**Description:** Scale all child objects (scaleXYZ)
+Scale all child objects (scaleXYZ).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -586,16 +586,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/au9U7i)
+**Example Patch:** [cables.gl/edit/au9U7i](https://cables.gl/edit/au9U7i)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Scale](https://cables.gl/op/Ops.Gl.Matrix.Scale)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Scale](https://cables.gl/op/Ops.Gl.Matrix.Scale)
 
 ### ScaleXYZViewMatrix
 ![ScaleXYZViewMatrix op](images/ops/Ops_Gl_Matrix_ScaleXYZViewMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.ScaleXYZViewMatrix`
 
-**Description:** scale xyz of viewmatrix
+scale xyz of viewmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -608,16 +608,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aSB6On)
+**Example Patch:** [cables.gl/edit/aSB6On](https://cables.gl/edit/aSB6On)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix)
 
 ### ScreenCoordinates_v2
 ![ScreenCoordinates_v2 op](images/ops/Ops_Gl_Matrix_ScreenCoordinates_v2.svg)
 
 **Full Name:** `Ops.Gl.Matrix.ScreenCoordinates_v2`
 
-**Description:** screen/pixel coordinates of the current transform
+screen/pixel coordinates of the current transform.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -631,16 +631,16 @@
 - **Y** (Number)
 - **Visible** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/-GNBD-)
+**Example Patch:** [cables.gl/edit/-GNBD-](https://cables.gl/edit/-GNBD-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2](https://cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2](https://cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2)
 
 ### ScreenPosTo3d_v3
 ![ScreenPosTo3d_v3 op](images/ops/Ops_Gl_Matrix_ScreenPosTo3d_v3.svg)
 
 **Full Name:** `Ops.Gl.Matrix.ScreenPosTo3d_v3`
 
-**Description:** convert screen coordinates to a 3d position
+convert screen coordinates to a 3d position.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -655,16 +655,16 @@
 - **Result X** (Number)
 - **Result Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mDiCq6)
+**Example Patch:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3](https://cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3](https://cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3)
 
 ### SetProjectionMatrix
 ![SetProjectionMatrix op](images/ops/Ops_Gl_Matrix_SetProjectionMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.SetProjectionMatrix`
 
-**Description:** set a projection matrix
+set a projection matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -675,16 +675,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/573_4S)
+**Example Patch:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix)
 
 ### Shear
 ![Shear op](images/ops/Ops_Gl_Matrix_Shear.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Shear`
 
-**Description:** displaces each point of a mesh in fixed direction
+displaces each point of a mesh in fixed direction.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -696,16 +696,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PmTYnO)
+**Example Patch:** [cables.gl/edit/PmTYnO](https://cables.gl/edit/PmTYnO)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Shear](https://cables.gl/op/Ops.Gl.Matrix.Shear)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Shear](https://cables.gl/op/Ops.Gl.Matrix.Shear)
 
 ### TransformMatrix
 ![TransformMatrix op](images/ops/Ops_Gl_Matrix_TransformMatrix.svg)
 
 **Full Name:** `Ops.Gl.Matrix.TransformMatrix`
 
-**Description:** transform a matrix (mat4)
+transform a matrix (mat4).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -726,16 +726,16 @@
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/A0W1Jx)
+**Example Patch:** [cables.gl/edit/A0W1Jx](https://cables.gl/edit/A0W1Jx)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.TransformMatrix](https://cables.gl/op/Ops.Gl.Matrix.TransformMatrix)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.TransformMatrix](https://cables.gl/op/Ops.Gl.Matrix.TransformMatrix)
 
 ### TransformMul
 ![TransformMul op](images/ops/Ops_Gl_Matrix_TransformMul.svg)
 
 **Full Name:** `Ops.Gl.Matrix.TransformMul`
 
-**Description:** multiply current modelmatrix
+multiply current modelmatrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -746,16 +746,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.TransformMul#example](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.TransformMul](https://cables.gl/op/Ops.Gl.Matrix.TransformMul)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.TransformMul](https://cables.gl/op/Ops.Gl.Matrix.TransformMul)
 
 ### Translate
 ![Translate op](images/ops/Ops_Gl_Matrix_Translate.svg)
 
 **Full Name:** `Ops.Gl.Matrix.Translate`
 
-**Description:** Translate objects (move / position in 3D space)
+Translate objects (move / position in 3D space).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -768,16 +768,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.Translate#example](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.Translate](https://cables.gl/op/Ops.Gl.Matrix.Translate)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.Translate](https://cables.gl/op/Ops.Gl.Matrix.Translate)
 
 ### TranslateView
 ![TranslateView op](images/ops/Ops_Gl_Matrix_TranslateView.svg)
 
 **Full Name:** `Ops.Gl.Matrix.TranslateView`
 
-**Description:** translate the view/camera matrix
+translate the view/camera matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -790,16 +790,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.TranslateView#example](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.TranslateView](https://cables.gl/op/Ops.Gl.Matrix.TranslateView)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.TranslateView](https://cables.gl/op/Ops.Gl.Matrix.TranslateView)
 
 ### VectorTranslate
 ![VectorTranslate op](images/ops/Ops_Gl_Matrix_VectorTranslate.svg)
 
 **Full Name:** `Ops.Gl.Matrix.VectorTranslate`
 
-**Description:** Translate any geometry underneath it using vectors and speed.
+Translate any geometry underneath it using vectors and speed.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -818,16 +818,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.VectorTranslate](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate)
 
 ### WASDCamera_v2
 ![WASDCamera_v2 op](images/ops/Ops_Gl_Matrix_WASDCamera_v2.svg)
 
 **Full Name:** `Ops.Gl.Matrix.WASDCamera_v2`
 
-**Description:** simple camera you control with W,A,S,D keys like in a FPS game
+simple camera you control with W,A,S,D keys like in a FPS game.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -854,8 +854,8 @@
 - **Dir Y** (Number)
 - **Dir Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oLCaao)
+**Example Patch:** [cables.gl/edit/oLCaao](https://cables.gl/edit/oLCaao)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2](https://cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2](https://cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2)
 
 

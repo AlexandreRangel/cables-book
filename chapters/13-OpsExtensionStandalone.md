@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Standalone.Ffmpeg`
 
-**Description:** FFmpeg video converter toolbox op
+FFmpeg video converter toolbox op.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -31,8 +31,8 @@
 
 - **Processing** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Ffmpeg](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg)
 
 

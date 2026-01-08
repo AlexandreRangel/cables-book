@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.CubeMap.CubeMapFromTextures_v2`
 
-**Description:** generate a cubemap from 6 textures
+generate a cubemap from 6 textures.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -25,16 +25,16 @@
 
 - **Cubemap** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/-QPf26)
+**Example Patch:** [cables.gl/edit/-QPf26](https://cables.gl/edit/-QPf26)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2)
 
 ### CubeMapMaterial_v2
 ![CubeMapMaterial_v2 op](images/ops/Ops_Gl_CubeMap_CubeMapMaterial_v2.svg)
 
 **Full Name:** `Ops.Gl.CubeMap.CubeMapMaterial_v2`
 
-**Description:** use a cubemap or equirectangular texture as a material
+use a cubemap or equirectangular texture as a material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -55,16 +55,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/u5y0Z5)
+**Example Patch:** [cables.gl/edit/u5y0Z5](https://cables.gl/edit/u5y0Z5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2)
 
 ### CubemapToEquirectangularTexture_v2
 ![CubemapToEquirectangularTexture_v2 op](images/ops/Ops_Gl_CubeMap_CubemapToEquirectangularTexture_v2.svg)
 
 **Full Name:** `Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2`
 
-**Description:** visualize cubemap as folded texture or equirectangular texture
+visualize cubemap as folded texture or equirectangular texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -81,16 +81,16 @@
 - **Out Trigger** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pNZHYa)
+**Example Patch:** [cables.gl/edit/pNZHYa](https://cables.gl/edit/pNZHYa)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2)
 
 ### EquirectangularTextureToCubemap
 ![EquirectangularTextureToCubemap op](images/ops/Ops_Gl_CubeMap_EquirectangularTextureToCubemap.svg)
 
 **Full Name:** `Ops.Gl.CubeMap.EquirectangularTextureToCubemap`
 
-**Description:** convert an equirectangular map to a cubemap
+convert an equirectangular map to a cubemap.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 - **Trigger Out** (Trigger)
 - **Cubemap Projection** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/O1NBYa)
+**Example Patch:** [cables.gl/edit/O1NBYa](https://cables.gl/edit/O1NBYa)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap](https://cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap](https://cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap)
 
 ### RenderToCubemap_v3
 ![RenderToCubemap_v3 op](images/ops/Ops_Gl_CubeMap_RenderToCubemap_v3.svg)
 
 **Full Name:** `Ops.Gl.CubeMap.RenderToCubemap_v3`
 
-**Description:** render a scene into a cubemap
+render a scene into a cubemap.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -128,16 +128,16 @@
 - **Next** (Trigger)
 - **Cubemap** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Z3KuUQ)
+**Example Patch:** [cables.gl/edit/Z3KuUQ](https://cables.gl/edit/Z3KuUQ)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3](https://cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3](https://cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3)
 
 ### Skybox
 ![Skybox op](images/ops/Ops_Gl_CubeMap_Skybox.svg)
 
 **Full Name:** `Ops.Gl.CubeMap.Skybox`
 
-**Description:** render an equirectangular map or a cubemap as scene background
+render an equirectangular map or a cubemap as scene background.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -153,8 +153,8 @@
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/40hoYa)
+**Example Patch:** [cables.gl/edit/40hoYa](https://cables.gl/edit/40hoYa)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.CubeMap.Skybox](https://cables.gl/op/Ops.Gl.CubeMap.Skybox)
+**Doc:** [cables.gl/op/Ops.Gl.CubeMap.Skybox](https://cables.gl/op/Ops.Gl.CubeMap.Skybox)
 
 

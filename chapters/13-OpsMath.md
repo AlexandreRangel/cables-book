@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Math.Abs`
 
-**Description:** Returns the absolute, positive value
+Returns the absolute, positive value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -20,16 +20,16 @@
 - **Result** (Number)
 - **The absolute value of Number** (always positive)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vtPZ7i)
+**Example Patch:** [cables.gl/edit/vtPZ7i](https://cables.gl/edit/vtPZ7i)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Abs](https://cables.gl/op/Ops.Math.Abs)
+**Doc:** [cables.gl/op/Ops.Math.Abs](https://cables.gl/op/Ops.Math.Abs)
 
 ### Accumulator
 ![Accumulator op](images/ops/Ops_Math_Accumulator.svg)
 
 **Full Name:** `Ops.Math.Accumulator`
 
-**Description:** Add to and multiply a number, set to current value
+Add to and multiply a number, set to current value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -43,16 +43,16 @@
 
 - **Current Value** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Ejzvsx)
+**Example Patch:** [cables.gl/edit/Ejzvsx](https://cables.gl/edit/Ejzvsx)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Accumulator](https://cables.gl/op/Ops.Math.Accumulator)
+**Doc:** [cables.gl/op/Ops.Math.Accumulator](https://cables.gl/op/Ops.Math.Accumulator)
 
 ### AddUp
 ![AddUp op](images/ops/Ops_Math_AddUp.svg)
 
 **Full Name:** `Ops.Math.AddUp`
 
-**Description:** *Visit [documentation](https://cables.gl/op/Ops.Math.AddUp) for details*
+*Visit [documentation](https://cables.gl/op/Ops.Math.AddUp) for details*.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -64,16 +64,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/cWh78i)
+**Example Patch:** [cables.gl/edit/cWh78i](https://cables.gl/edit/cWh78i)
 
-**Docs:** [https://cables.gl/op/Ops.Math.AddUp](https://cables.gl/op/Ops.Math.AddUp)
+**Doc:** [cables.gl/op/Ops.Math.AddUp](https://cables.gl/op/Ops.Math.AddUp)
 
 ### AngleBetweenPoints
 ![AngleBetweenPoints op](images/ops/Ops_Math_AngleBetweenPoints.svg)
 
 **Full Name:** `Ops.Math.AngleBetweenPoints`
 
-**Description:** outputs the angle between two points (degree)
+outputs the angle between two points (degree).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -86,16 +86,16 @@
 
 - **Angle** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aMsTGc)
+**Example Patch:** [cables.gl/edit/aMsTGc](https://cables.gl/edit/aMsTGc)
 
-**Docs:** [https://cables.gl/op/Ops.Math.AngleBetweenPoints](https://cables.gl/op/Ops.Math.AngleBetweenPoints)
+**Doc:** [cables.gl/op/Ops.Math.AngleBetweenPoints](https://cables.gl/op/Ops.Math.AngleBetweenPoints)
 
 ### Array3MultiplyMatrix
 ![Array3MultiplyMatrix op](images/ops/Ops_Math_Array3MultiplyMatrix.svg)
 
 **Full Name:** `Ops.Math.Array3MultiplyMatrix`
 
-**Description:** multiply every XYZ coordinate with a matrix
+multiply every XYZ coordinate with a matrix.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -107,16 +107,16 @@
 
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Array3MultiplyMatrix#example](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Array3MultiplyMatrix](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix)
+**Doc:** [cables.gl/op/Ops.Math.Array3MultiplyMatrix](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix)
 
 ### Array3To2dProjection
 ![Array3To2dProjection op](images/ops/Ops_Math_Array3To2dProjection.svg)
 
 **Full Name:** `Ops.Math.Array3To2dProjection`
 
-**Description:** calculate 2d positions of an array3x
+calculate 2d positions of an array3x.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -134,16 +134,16 @@
 - **Next** (Trigger)
 - **Array2x** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Array3To2dProjection#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Array3To2dProjection#example](https://cables.gl/op/Ops.Math.Array3To2dProjection#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Array3To2dProjection](https://cables.gl/op/Ops.Math.Array3To2dProjection)
+**Doc:** [cables.gl/op/Ops.Math.Array3To2dProjection](https://cables.gl/op/Ops.Math.Array3To2dProjection)
 
 ### Atan2
 ![Atan2 op](images/ops/Ops_Math_Atan2.svg)
 
 **Full Name:** `Ops.Math.Atan2`
 
-**Description:** Calculates the angle from a specified point to the coordinate origin.
+Calculates the angle from a specified point to the coordinate origin.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -156,16 +156,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Atan2#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Atan2#example](https://cables.gl/op/Ops.Math.Atan2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Atan2](https://cables.gl/op/Ops.Math.Atan2)
+**Doc:** [cables.gl/op/Ops.Math.Atan2](https://cables.gl/op/Ops.Math.Atan2)
 
 ### Average
 ![Average op](images/ops/Ops_Math_Average.svg)
 
 **Full Name:** `Ops.Math.Average`
 
-**Description:** average of last two values
+average of last two values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -176,16 +176,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Average#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Average#example](https://cables.gl/op/Ops.Math.Average#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Average](https://cables.gl/op/Ops.Math.Average)
+**Doc:** [cables.gl/op/Ops.Math.Average](https://cables.gl/op/Ops.Math.Average)
 
 ### ButterflyCurve
 ![ButterflyCurve op](images/ops/Ops_Math_ButterflyCurve.svg)
 
 **Full Name:** `Ops.Math.ButterflyCurve`
 
-**Description:** generate coordinates of a butterfly curve
+generate coordinates of a butterfly curve.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -196,16 +196,16 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.ButterflyCurve#example)
+**Example Patch:** [cables.gl/op/Ops.Math.ButterflyCurve#example](https://cables.gl/op/Ops.Math.ButterflyCurve#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.ButterflyCurve](https://cables.gl/op/Ops.Math.ButterflyCurve)
+**Doc:** [cables.gl/op/Ops.Math.ButterflyCurve](https://cables.gl/op/Ops.Math.ButterflyCurve)
 
 ### Ceil
 ![Ceil op](images/ops/Ops_Math_Ceil.svg)
 
 **Full Name:** `Ops.Math.Ceil`
 
-**Description:** Returns the smallest integer greater than or equal to a given number
+Returns the smallest integer greater than or equal to a given number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -215,16 +215,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
+**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Ceil](https://cables.gl/op/Ops.Math.Ceil)
+**Doc:** [cables.gl/op/Ops.Math.Ceil](https://cables.gl/op/Ops.Math.Ceil)
 
 ### CircleCoordinates
 ![CircleCoordinates op](images/ops/Ops_Math_CircleCoordinates.svg)
 
 **Full Name:** `Ops.Math.CircleCoordinates`
 
-**Description:** x and y coordinates of a circle
+x and y coordinates of a circle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -236,16 +236,16 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/uAkdL5)
+**Example Patch:** [cables.gl/edit/uAkdL5](https://cables.gl/edit/uAkdL5)
 
-**Docs:** [https://cables.gl/op/Ops.Math.CircleCoordinates](https://cables.gl/op/Ops.Math.CircleCoordinates)
+**Doc:** [cables.gl/op/Ops.Math.CircleCoordinates](https://cables.gl/op/Ops.Math.CircleCoordinates)
 
 ### Clamp
 ![Clamp op](images/ops/Ops_Math_Clamp.svg)
 
 **Full Name:** `Ops.Math.Clamp`
 
-**Description:** Makes sure a value is within range cuts off the rest
+Makes sure a value is within range cuts off the rest.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -258,16 +258,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Clamp#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Clamp#example](https://cables.gl/op/Ops.Math.Clamp#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Clamp](https://cables.gl/op/Ops.Math.Clamp)
+**Doc:** [cables.gl/op/Ops.Math.Clamp](https://cables.gl/op/Ops.Math.Clamp)
 
 ### Cosine
 ![Cosine op](images/ops/Ops_Math_Cosine.svg)
 
 **Full Name:** `Ops.Math.Cosine`
 
-**Description:** Calculates the cosine of an angle.
+Calculates the cosine of an angle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -281,16 +281,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RhfUW2)
+**Example Patch:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Cosine](https://cables.gl/op/Ops.Math.Cosine)
+**Doc:** [cables.gl/op/Ops.Math.Cosine](https://cables.gl/op/Ops.Math.Cosine)
 
 ### Cross
 ![Cross op](images/ops/Ops_Math_Cross.svg)
 
 **Full Name:** `Ops.Math.Cross`
 
-**Description:** Computes the cross product of two vec3's
+Computes the cross product of two vec3's.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -309,16 +309,16 @@
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Cross#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Cross#example](https://cables.gl/op/Ops.Math.Cross#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Cross](https://cables.gl/op/Ops.Math.Cross)
+**Doc:** [cables.gl/op/Ops.Math.Cross](https://cables.gl/op/Ops.Math.Cross)
 
 ### Degrees
 ![Degrees op](images/ops/Ops_Math_Degrees.svg)
 
 **Full Name:** `Ops.Math.Degrees`
 
-**Description:** Converts a radian measurement to its corresponding value in degrees.
+Converts a radian measurement to its corresponding value in degrees.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -328,16 +328,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Degrees#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Degrees#example](https://cables.gl/op/Ops.Math.Degrees#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Degrees](https://cables.gl/op/Ops.Math.Degrees)
+**Doc:** [cables.gl/op/Ops.Math.Degrees](https://cables.gl/op/Ops.Math.Degrees)
 
 ### DegreeToVector
 ![DegreeToVector op](images/ops/Ops_Math_DegreeToVector.svg)
 
 **Full Name:** `Ops.Math.DegreeToVector`
 
-**Description:** Calculates a vector (x and y) based on an angle in degrees
+Calculates a vector (x and y) based on an angle in degrees.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -349,16 +349,16 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/k76YnO)
+**Example Patch:** [cables.gl/edit/k76YnO](https://cables.gl/edit/k76YnO)
 
-**Docs:** [https://cables.gl/op/Ops.Math.DegreeToVector](https://cables.gl/op/Ops.Math.DegreeToVector)
+**Doc:** [cables.gl/op/Ops.Math.DegreeToVector](https://cables.gl/op/Ops.Math.DegreeToVector)
 
 ### Delta
 ![Delta op](images/ops/Ops_Math_Delta.svg)
 
 **Full Name:** `Ops.Math.Delta`
 
-**Description:** difference to the last value (previous, store)
+difference to the last value (previous, store).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -370,16 +370,16 @@
 
 - **Delta** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Delta#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Delta#example](https://cables.gl/op/Ops.Math.Delta#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Delta](https://cables.gl/op/Ops.Math.Delta)
+**Doc:** [cables.gl/op/Ops.Math.Delta](https://cables.gl/op/Ops.Math.Delta)
 
 ### DeltaSum
 ![DeltaSum op](images/ops/Ops_Math_DeltaSum.svg)
 
 **Full Name:** `Ops.Math.DeltaSum`
 
-**Description:** add delta values to an clamped absolute value
+add delta values to an clamped absolute value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -396,16 +396,16 @@
 
 - **Absolute Value** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hH8f_6)
+**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
-**Docs:** [https://cables.gl/op/Ops.Math.DeltaSum](https://cables.gl/op/Ops.Math.DeltaSum)
+**Doc:** [cables.gl/op/Ops.Math.DeltaSum](https://cables.gl/op/Ops.Math.DeltaSum)
 
 ### Difference
 ![Difference op](images/ops/Ops_Math_Difference.svg)
 
 **Full Name:** `Ops.Math.Difference`
 
-**Description:** Difference between two numbers
+Difference between two numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -416,16 +416,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Difference#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Difference#example](https://cables.gl/op/Ops.Math.Difference#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Difference](https://cables.gl/op/Ops.Math.Difference)
+**Doc:** [cables.gl/op/Ops.Math.Difference](https://cables.gl/op/Ops.Math.Difference)
 
 ### Distance2d
 ![Distance2d op](images/ops/Ops_Math_Distance2d.svg)
 
 **Full Name:** `Ops.Math.Distance2d`
 
-**Description:** Calculates the Distance between two 2d points
+Calculates the Distance between two 2d points.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -438,16 +438,16 @@
 
 - **Distance** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7mTKgg)
+**Example Patch:** [cables.gl/edit/7mTKgg](https://cables.gl/edit/7mTKgg)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Distance2d](https://cables.gl/op/Ops.Math.Distance2d)
+**Doc:** [cables.gl/op/Ops.Math.Distance2d](https://cables.gl/op/Ops.Math.Distance2d)
 
 ### Distance3d_v2
 ![Distance3d_v2 op](images/ops/Ops_Math_Distance3d_v2.svg)
 
 **Full Name:** `Ops.Math.Distance3d_v2`
 
-**Description:** distance between two 3d points, calculated when triggered
+distance between two 3d points, calculated when triggered.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -464,16 +464,16 @@
 - **Next** (Trigger)
 - **Distance** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Distance3d_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Distance3d_v2#example](https://cables.gl/op/Ops.Math.Distance3d_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Distance3d_v2](https://cables.gl/op/Ops.Math.Distance3d_v2)
+**Doc:** [cables.gl/op/Ops.Math.Distance3d_v2](https://cables.gl/op/Ops.Math.Distance3d_v2)
 
 ### Divide
 ![Divide op](images/ops/Ops_Math_Divide.svg)
 
 **Full Name:** `Ops.Math.Divide`
 
-**Description:** Divides a number by another
+Divides a number by another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -484,16 +484,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Divide#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Divide#example](https://cables.gl/op/Ops.Math.Divide#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Divide](https://cables.gl/op/Ops.Math.Divide)
+**Doc:** [cables.gl/op/Ops.Math.Divide](https://cables.gl/op/Ops.Math.Divide)
 
 ### Ease
 ![Ease op](images/ops/Ops_Math_Ease.svg)
 
 **Full Name:** `Ops.Math.Ease`
 
-**Description:** map a value to an easing curve
+map a value to an easing curve.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -506,16 +506,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/rLxYY6)
+**Example Patch:** [cables.gl/edit/rLxYY6](https://cables.gl/edit/rLxYY6)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Ease](https://cables.gl/op/Ops.Math.Ease)
+**Doc:** [cables.gl/op/Ops.Math.Ease](https://cables.gl/op/Ops.Math.Ease)
 
 ### Exp
 ![Exp op](images/ops/Ops_Math_Exp.svg)
 
 **Full Name:** `Ops.Math.Exp`
 
-**Description:** Calculates the power of Euler’s number
+Calculates the power of Euler’s number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -525,16 +525,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Exp#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Exp#example](https://cables.gl/op/Ops.Math.Exp#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Exp](https://cables.gl/op/Ops.Math.Exp)
+**Doc:** [cables.gl/op/Ops.Math.Exp](https://cables.gl/op/Ops.Math.Exp)
 
 ### FlipSign
 ![FlipSign op](images/ops/Ops_Math_FlipSign.svg)
 
 **Full Name:** `Ops.Math.FlipSign`
 
-**Description:** positive numbers become negative and vice versa (negate)
+positive numbers become negative and vice versa (negate).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -544,16 +544,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.FlipSign#example)
+**Example Patch:** [cables.gl/op/Ops.Math.FlipSign#example](https://cables.gl/op/Ops.Math.FlipSign#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.FlipSign](https://cables.gl/op/Ops.Math.FlipSign)
+**Doc:** [cables.gl/op/Ops.Math.FlipSign](https://cables.gl/op/Ops.Math.FlipSign)
 
 ### Floor
 ![Floor op](images/ops/Ops_Math_Floor.svg)
 
 **Full Name:** `Ops.Math.Floor`
 
-**Description:** returns the largest integer less than or equal to a given number
+returns the largest integer less than or equal to a given number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -563,16 +563,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
+**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Floor](https://cables.gl/op/Ops.Math.Floor)
+**Doc:** [cables.gl/op/Ops.Math.Floor](https://cables.gl/op/Ops.Math.Floor)
 
 ### Fract
 ![Fract op](images/ops/Ops_Math_Fract.svg)
 
 **Full Name:** `Ops.Math.Fract`
 
-**Description:** returns the fractional part of a number
+returns the fractional part of a number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -582,16 +582,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/VWb2t7)
+**Example Patch:** [cables.gl/edit/VWb2t7](https://cables.gl/edit/VWb2t7)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Fract](https://cables.gl/op/Ops.Math.Fract)
+**Doc:** [cables.gl/op/Ops.Math.Fract](https://cables.gl/op/Ops.Math.Fract)
 
 ### GaussianRandomArray
 ![GaussianRandomArray op](images/ops/Ops_Math_GaussianRandomArray.svg)
 
 **Full Name:** `Ops.Math.GaussianRandomArray`
 
-**Description:** random numbers fitting a Gaussian, or normal, distribution
+random numbers fitting a Gaussian, or normal, distribution.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -603,16 +603,16 @@
 
 - **Array** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/i14QNS)
+**Example Patch:** [cables.gl/edit/i14QNS](https://cables.gl/edit/i14QNS)
 
-**Docs:** [https://cables.gl/op/Ops.Math.GaussianRandomArray](https://cables.gl/op/Ops.Math.GaussianRandomArray)
+**Doc:** [cables.gl/op/Ops.Math.GaussianRandomArray](https://cables.gl/op/Ops.Math.GaussianRandomArray)
 
 ### Incrementor
 ![Incrementor op](images/ops/Ops_Math_Incrementor.svg)
 
 **Full Name:** `Ops.Math.Incrementor`
 
-**Description:** increment a number by triggering
+increment a number by triggering.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -629,16 +629,16 @@
 - **Value** (Number)
 - **Restarted** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/OdcvGu)
+**Example Patch:** [cables.gl/edit/OdcvGu](https://cables.gl/edit/OdcvGu)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Incrementor](https://cables.gl/op/Ops.Math.Incrementor)
+**Doc:** [cables.gl/op/Ops.Math.Incrementor](https://cables.gl/op/Ops.Math.Incrementor)
 
 ### IndexFraction
 ![IndexFraction op](images/ops/Ops_Math_IndexFraction.svg)
 
 **Full Name:** `Ops.Math.IndexFraction`
 
-**Description:** return fraction of value by index
+return fraction of value by index.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -649,16 +649,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/SV3NPO)
+**Example Patch:** [cables.gl/edit/SV3NPO](https://cables.gl/edit/SV3NPO)
 
-**Docs:** [https://cables.gl/op/Ops.Math.IndexFraction](https://cables.gl/op/Ops.Math.IndexFraction)
+**Doc:** [cables.gl/op/Ops.Math.IndexFraction](https://cables.gl/op/Ops.Math.IndexFraction)
 
 ### Interpolate
 ![Interpolate op](images/ops/Ops_Math_Interpolate.svg)
 
 **Full Name:** `Ops.Math.Interpolate`
 
-**Description:** Interpolate between values, lerp, linear interpolate
+Interpolate between values, lerp, linear interpolate.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -670,16 +670,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Interpolate#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Interpolate#example](https://cables.gl/op/Ops.Math.Interpolate#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Interpolate](https://cables.gl/op/Ops.Math.Interpolate)
+**Doc:** [cables.gl/op/Ops.Math.Interpolate](https://cables.gl/op/Ops.Math.Interpolate)
 
 ### IsNumberRising
 ![IsNumberRising op](images/ops/Ops_Math_IsNumberRising.svg)
 
 **Full Name:** `Ops.Math.IsNumberRising`
 
-**Description:** detect if a number rising or falling
+detect if a number rising or falling.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -689,16 +689,16 @@
 
 - **Rising** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/UN11cI)
+**Example Patch:** [cables.gl/edit/UN11cI](https://cables.gl/edit/UN11cI)
 
-**Docs:** [https://cables.gl/op/Ops.Math.IsNumberRising](https://cables.gl/op/Ops.Math.IsNumberRising)
+**Doc:** [cables.gl/op/Ops.Math.IsNumberRising](https://cables.gl/op/Ops.Math.IsNumberRising)
 
 ### Log
 ![Log op](images/ops/Ops_Math_Log.svg)
 
 **Full Name:** `Ops.Math.Log`
 
-**Description:** Calculates the logarithm of Number
+Calculates the logarithm of Number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -708,16 +708,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Log#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Log#example](https://cables.gl/op/Ops.Math.Log#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Log](https://cables.gl/op/Ops.Math.Log)
+**Doc:** [cables.gl/op/Ops.Math.Log](https://cables.gl/op/Ops.Math.Log)
 
 ### MapGeoCoordsSpherical
 ![MapGeoCoordsSpherical op](images/ops/Ops_Math_MapGeoCoordsSpherical.svg)
 
 **Full Name:** `Ops.Math.MapGeoCoordsSpherical`
 
-**Description:** map geo locations (latitude - longitude) to spherical coordinates
+map geo locations (latitude - longitude) to spherical coordinates.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -728,16 +728,16 @@
 
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/BvXW5Q)
+**Example Patch:** [cables.gl/edit/BvXW5Q](https://cables.gl/edit/BvXW5Q)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MapGeoCoordsSpherical](https://cables.gl/op/Ops.Math.MapGeoCoordsSpherical)
+**Doc:** [cables.gl/op/Ops.Math.MapGeoCoordsSpherical](https://cables.gl/op/Ops.Math.MapGeoCoordsSpherical)
 
 ### MapRange
 ![MapRange op](images/ops/Ops_Math_MapRange.svg)
 
 **Full Name:** `Ops.Math.MapRange`
 
-**Description:** Maps a value from one range into another.
+Maps a value from one range into another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -753,16 +753,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/YFIVGc)
+**Example Patch:** [cables.gl/edit/YFIVGc](https://cables.gl/edit/YFIVGc)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MapRange](https://cables.gl/op/Ops.Math.MapRange)
+**Doc:** [cables.gl/op/Ops.Math.MapRange](https://cables.gl/op/Ops.Math.MapRange)
 
 ### Math
 ![Math op](images/ops/Ops_Math_Math.svg)
 
 **Full Name:** `Ops.Math.Math`
 
-**Description:** Allows different mathematical operations to be applied to two numbers
+Allows different mathematical operations to be applied to two numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -774,16 +774,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/mTqdVJ)
+**Example Patch:** [cables.gl/edit/mTqdVJ](https://cables.gl/edit/mTqdVJ)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Math](https://cables.gl/op/Ops.Math.Math)
+**Doc:** [cables.gl/op/Ops.Math.Math](https://cables.gl/op/Ops.Math.Math)
 
 ### MathExpression
 ![MathExpression op](images/ops/Ops_Math_MathExpression.svg)
 
 **Full Name:** `Ops.Math.MathExpression`
 
-**Description:** calculates a user defined mathematical expression
+calculates a user defined mathematical expression.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -798,16 +798,16 @@
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/s5-tve)
+**Example Patch:** [cables.gl/edit/s5-tve](https://cables.gl/edit/s5-tve)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MathExpression](https://cables.gl/op/Ops.Math.MathExpression)
+**Doc:** [cables.gl/op/Ops.Math.MathExpression](https://cables.gl/op/Ops.Math.MathExpression)
 
 ### Max
 ![Max op](images/ops/Ops_Math_Max.svg)
 
 **Full Name:** `Ops.Math.Max`
 
-**Description:** Sets the output to the input value which is higher
+Sets the output to the input value which is higher.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -818,16 +818,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hV3X7i)
+**Example Patch:** [cables.gl/edit/hV3X7i](https://cables.gl/edit/hV3X7i)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Max](https://cables.gl/op/Ops.Math.Max)
+**Doc:** [cables.gl/op/Ops.Math.Max](https://cables.gl/op/Ops.Math.Max)
 
 ### MaxSinceReset
 ![MaxSinceReset op](images/ops/Ops_Math_MaxSinceReset.svg)
 
 **Full Name:** `Ops.Math.MaxSinceReset`
 
-**Description:** Outputs the maximum value since reset has been triggered
+Outputs the maximum value since reset has been triggered.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -838,16 +838,16 @@
 
 - **Maximum** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.MaxSinceReset#example)
+**Example Patch:** [cables.gl/op/Ops.Math.MaxSinceReset#example](https://cables.gl/op/Ops.Math.MaxSinceReset#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MaxSinceReset](https://cables.gl/op/Ops.Math.MaxSinceReset)
+**Doc:** [cables.gl/op/Ops.Math.MaxSinceReset](https://cables.gl/op/Ops.Math.MaxSinceReset)
 
 ### MercatorCoord
 ![MercatorCoord op](images/ops/Ops_Math_MercatorCoord.svg)
 
 **Full Name:** `Ops.Math.MercatorCoord`
 
-**Description:** project mercator coordinates
+project mercator coordinates.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -861,16 +861,16 @@
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oi9AI4)
+**Example Patch:** [cables.gl/edit/oi9AI4](https://cables.gl/edit/oi9AI4)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MercatorCoord](https://cables.gl/op/Ops.Math.MercatorCoord)
+**Doc:** [cables.gl/op/Ops.Math.MercatorCoord](https://cables.gl/op/Ops.Math.MercatorCoord)
 
 ### MercatorCoordsArray
 ![MercatorCoordsArray op](images/ops/Ops_Math_MercatorCoordsArray.svg)
 
 **Full Name:** `Ops.Math.MercatorCoordsArray`
 
-**Description:** Mercator map and center an array of latitudes and longitudes to a local coordinate system
+Mercator map and center an array of latitudes and longitudes to a local coordinate system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -883,16 +883,16 @@
 
 - **Result** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vgRDeT)
+**Example Patch:** [cables.gl/edit/vgRDeT](https://cables.gl/edit/vgRDeT)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MercatorCoordsArray](https://cables.gl/op/Ops.Math.MercatorCoordsArray)
+**Doc:** [cables.gl/op/Ops.Math.MercatorCoordsArray](https://cables.gl/op/Ops.Math.MercatorCoordsArray)
 
 ### Min_v3
 ![Min_v3 op](images/ops/Ops_Math_Min_v3.svg)
 
 **Full Name:** `Ops.Math.Min_v3`
 
-**Description:** Result will be the smaller number of the inputs
+Result will be the smaller number of the inputs.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -903,16 +903,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/rvAW7i)
+**Example Patch:** [cables.gl/edit/rvAW7i](https://cables.gl/edit/rvAW7i)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Min_v3](https://cables.gl/op/Ops.Math.Min_v3)
+**Doc:** [cables.gl/op/Ops.Math.Min_v3](https://cables.gl/op/Ops.Math.Min_v3)
 
 ### MinSinceReset
 ![MinSinceReset op](images/ops/Ops_Math_MinSinceReset.svg)
 
 **Full Name:** `Ops.Math.MinSinceReset`
 
-**Description:** Outputs the minimum value since reset has been triggered
+Outputs the minimum value since reset has been triggered.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -923,16 +923,16 @@
 
 - **Minimum** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.MinSinceReset#example)
+**Example Patch:** [cables.gl/op/Ops.Math.MinSinceReset#example](https://cables.gl/op/Ops.Math.MinSinceReset#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MinSinceReset](https://cables.gl/op/Ops.Math.MinSinceReset)
+**Doc:** [cables.gl/op/Ops.Math.MinSinceReset](https://cables.gl/op/Ops.Math.MinSinceReset)
 
 ### Modulo
 ![Modulo op](images/ops/Ops_Math_Modulo.svg)
 
 **Full Name:** `Ops.Math.Modulo`
 
-**Description:** outputs the remainder after division of one number by another
+outputs the remainder after division of one number by another.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -944,16 +944,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Modulo#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Modulo#example](https://cables.gl/op/Ops.Math.Modulo#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Modulo](https://cables.gl/op/Ops.Math.Modulo)
+**Doc:** [cables.gl/op/Ops.Math.Modulo](https://cables.gl/op/Ops.Math.Modulo)
 
 ### MulMatrixXyz
 ![MulMatrixXyz op](images/ops/Ops_Math_MulMatrixXyz.svg)
 
 **Full Name:** `Ops.Math.MulMatrixXyz`
 
-**Description:** multiply XYZ values with a gl matrix vec3 x mat4
+multiply XYZ values with a gl matrix vec3 x mat4.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -970,16 +970,16 @@
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QlOcck)
+**Example Patch:** [cables.gl/edit/QlOcck](https://cables.gl/edit/QlOcck)
 
-**Docs:** [https://cables.gl/op/Ops.Math.MulMatrixXyz](https://cables.gl/op/Ops.Math.MulMatrixXyz)
+**Doc:** [cables.gl/op/Ops.Math.MulMatrixXyz](https://cables.gl/op/Ops.Math.MulMatrixXyz)
 
 ### Multiply
 ![Multiply op](images/ops/Ops_Math_Multiply.svg)
 
 **Full Name:** `Ops.Math.Multiply`
 
-**Description:** Multiplies two numbers
+Multiplies two numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -990,16 +990,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0010r1)
+**Example Patch:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Multiply](https://cables.gl/op/Ops.Math.Multiply)
+**Doc:** [cables.gl/op/Ops.Math.Multiply](https://cables.gl/op/Ops.Math.Multiply)
 
 ### Multiply3Numbers
 ![Multiply3Numbers op](images/ops/Ops_Math_Multiply3Numbers.svg)
 
 **Full Name:** `Ops.Math.Multiply3Numbers`
 
-**Description:** multiply three numbers
+multiply three numbers.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1014,16 +1014,16 @@
 - **ResultG** (Number)
 - **ResultB** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Multiply3Numbers#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Multiply3Numbers#example](https://cables.gl/op/Ops.Math.Multiply3Numbers#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Multiply3Numbers](https://cables.gl/op/Ops.Math.Multiply3Numbers)
+**Doc:** [cables.gl/op/Ops.Math.Multiply3Numbers](https://cables.gl/op/Ops.Math.Multiply3Numbers)
 
 ### Normalize
 ![Normalize op](images/ops/Ops_Math_Normalize.svg)
 
 **Full Name:** `Ops.Math.Normalize`
 
-**Description:** normalize a vector
+normalize a vector.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1037,16 +1037,16 @@
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/O8S5O8)
+**Example Patch:** [cables.gl/edit/O8S5O8](https://cables.gl/edit/O8S5O8)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Normalize](https://cables.gl/op/Ops.Math.Normalize)
+**Doc:** [cables.gl/op/Ops.Math.Normalize](https://cables.gl/op/Ops.Math.Normalize)
 
 ### NumberDivisible
 ![NumberDivisible op](images/ops/Ops_Math_NumberDivisible.svg)
 
 **Full Name:** `Ops.Math.NumberDivisible`
 
-**Description:** is a number capable of being divided.
+is a number capable of being divided.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1057,16 +1057,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/-IqoJ5)
+**Example Patch:** [cables.gl/edit/-IqoJ5](https://cables.gl/edit/-IqoJ5)
 
-**Docs:** [https://cables.gl/op/Ops.Math.NumberDivisible](https://cables.gl/op/Ops.Math.NumberDivisible)
+**Doc:** [cables.gl/op/Ops.Math.NumberDivisible](https://cables.gl/op/Ops.Math.NumberDivisible)
 
 ### OneMinus
 ![OneMinus op](images/ops/Ops_Math_OneMinus.svg)
 
 **Full Name:** `Ops.Math.OneMinus`
 
-**Description:** subtract a number from one
+subtract a number from one.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1076,16 +1076,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/8-XQ5d)
+**Example Patch:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
 
-**Docs:** [https://cables.gl/op/Ops.Math.OneMinus](https://cables.gl/op/Ops.Math.OneMinus)
+**Doc:** [cables.gl/op/Ops.Math.OneMinus](https://cables.gl/op/Ops.Math.OneMinus)
 
 ### PerlinNoise_v2
 ![PerlinNoise_v2 op](images/ops/Ops_Math_PerlinNoise_v2.svg)
 
 **Full Name:** `Ops.Math.PerlinNoise_v2`
 
-**Description:** outputs a perlin noise value like random
+outputs a perlin noise value like random.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1099,16 +1099,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/gOCdhL)
+**Example Patch:** [cables.gl/edit/gOCdhL](https://cables.gl/edit/gOCdhL)
 
-**Docs:** [https://cables.gl/op/Ops.Math.PerlinNoise_v2](https://cables.gl/op/Ops.Math.PerlinNoise_v2)
+**Doc:** [cables.gl/op/Ops.Math.PerlinNoise_v2](https://cables.gl/op/Ops.Math.PerlinNoise_v2)
 
 ### Pi
 ![Pi op](images/ops/Ops_Math_Pi.svg)
 
 **Full Name:** `Ops.Math.Pi`
 
-**Description:** returns PI (3.141592653589793) * multiply amount
+returns PI (3.141592653589793) * multiply amount.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1118,16 +1118,16 @@
 
 - **Pi** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Pi#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Pi#example](https://cables.gl/op/Ops.Math.Pi#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Pi](https://cables.gl/op/Ops.Math.Pi)
+**Doc:** [cables.gl/op/Ops.Math.Pi](https://cables.gl/op/Ops.Math.Pi)
 
 ### PointInRectangle2d
 ![PointInRectangle2d op](images/ops/Ops_Math_PointInRectangle2d.svg)
 
 **Full Name:** `Ops.Math.PointInRectangle2d`
 
-**Description:** test if a point is in or outside of a rectangle
+test if a point is in or outside of a rectangle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1144,16 +1144,16 @@
 - **Pos X** (Number)
 - **Pos Y** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dG4B98)
+**Example Patch:** [cables.gl/edit/dG4B98](https://cables.gl/edit/dG4B98)
 
-**Docs:** [https://cables.gl/op/Ops.Math.PointInRectangle2d](https://cables.gl/op/Ops.Math.PointInRectangle2d)
+**Doc:** [cables.gl/op/Ops.Math.PointInRectangle2d](https://cables.gl/op/Ops.Math.PointInRectangle2d)
 
 ### Pow
 ![Pow op](images/ops/Ops_Math_Pow.svg)
 
 **Full Name:** `Ops.Math.Pow`
 
-**Description:** value of x to the power of y
+value of x to the power of y.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1164,16 +1164,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Pow#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Pow#example](https://cables.gl/op/Ops.Math.Pow#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Pow](https://cables.gl/op/Ops.Math.Pow)
+**Doc:** [cables.gl/op/Ops.Math.Pow](https://cables.gl/op/Ops.Math.Pow)
 
 ### PowerOfTwoSize
 ![PowerOfTwoSize op](images/ops/Ops_Math_PowerOfTwoSize.svg)
 
 **Full Name:** `Ops.Math.PowerOfTwoSize`
 
-**Description:** Return the next values as power of two
+Return the next values as power of two.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1186,16 +1186,16 @@
 - **Width Result** (Number)
 - **Height Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.PowerOfTwoSize#example)
+**Example Patch:** [cables.gl/op/Ops.Math.PowerOfTwoSize#example](https://cables.gl/op/Ops.Math.PowerOfTwoSize#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.PowerOfTwoSize](https://cables.gl/op/Ops.Math.PowerOfTwoSize)
+**Doc:** [cables.gl/op/Ops.Math.PowerOfTwoSize](https://cables.gl/op/Ops.Math.PowerOfTwoSize)
 
 ### Radians
 ![Radians op](images/ops/Ops_Math_Radians.svg)
 
 **Full Name:** `Ops.Math.Radians`
 
-**Description:** Converts a degree measurement to its corresponding value in radians.
+Converts a degree measurement to its corresponding value in radians.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1205,16 +1205,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Radians#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Radians#example](https://cables.gl/op/Ops.Math.Radians#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Radians](https://cables.gl/op/Ops.Math.Radians)
+**Doc:** [cables.gl/op/Ops.Math.Radians](https://cables.gl/op/Ops.Math.Radians)
 
 ### RandomCounter
 ![RandomCounter op](images/ops/Ops_Math_RandomCounter.svg)
 
 **Full Name:** `Ops.Math.RandomCounter`
 
-**Description:** add up random numbers by triggering
+add up random numbers by triggering.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1226,16 +1226,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/I8AxeE)
+**Example Patch:** [cables.gl/edit/I8AxeE](https://cables.gl/edit/I8AxeE)
 
-**Docs:** [https://cables.gl/op/Ops.Math.RandomCounter](https://cables.gl/op/Ops.Math.RandomCounter)
+**Doc:** [cables.gl/op/Ops.Math.RandomCounter](https://cables.gl/op/Ops.Math.RandomCounter)
 
 ### RandomNumbers_v3
 ![RandomNumbers_v3 op](images/ops/Ops_Math_RandomNumbers_v3.svg)
 
 **Full Name:** `Ops.Math.RandomNumbers_v3`
 
-**Description:** Simple way to get random numbers without using arrays
+Simple way to get random numbers without using arrays.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1250,16 +1250,16 @@
 - **Z** (Number)
 - **W** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/W_z9bI)
+**Example Patch:** [cables.gl/edit/W_z9bI](https://cables.gl/edit/W_z9bI)
 
-**Docs:** [https://cables.gl/op/Ops.Math.RandomNumbers_v3](https://cables.gl/op/Ops.Math.RandomNumbers_v3)
+**Doc:** [cables.gl/op/Ops.Math.RandomNumbers_v3](https://cables.gl/op/Ops.Math.RandomNumbers_v3)
 
 ### RandomNumbersFromString
 ![RandomNumbersFromString op](images/ops/Ops_Math_RandomNumbersFromString.svg)
 
 **Full Name:** `Ops.Math.RandomNumbersFromString`
 
-**Description:** Random number generator from a string seed
+Random number generator from a string seed.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1271,16 +1271,16 @@
 - **Random Value** (Number)
 - **Random Numbers** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aAaJgt)
+**Example Patch:** [cables.gl/edit/aAaJgt](https://cables.gl/edit/aAaJgt)
 
-**Docs:** [https://cables.gl/op/Ops.Math.RandomNumbersFromString](https://cables.gl/op/Ops.Math.RandomNumbersFromString)
+**Doc:** [cables.gl/op/Ops.Math.RandomNumbersFromString](https://cables.gl/op/Ops.Math.RandomNumbersFromString)
 
 ### RotationFromNormal
 ![RotationFromNormal op](images/ops/Ops_Math_RotationFromNormal.svg)
 
 **Full Name:** `Ops.Math.RotationFromNormal`
 
-**Description:** Create rotation matrix from normal
+Create rotation matrix from normal.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1293,16 +1293,16 @@
 
 - **RotationMatrix** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.RotationFromNormal#example)
+**Example Patch:** [cables.gl/op/Ops.Math.RotationFromNormal#example](https://cables.gl/op/Ops.Math.RotationFromNormal#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.RotationFromNormal](https://cables.gl/op/Ops.Math.RotationFromNormal)
+**Doc:** [cables.gl/op/Ops.Math.RotationFromNormal](https://cables.gl/op/Ops.Math.RotationFromNormal)
 
 ### Round
 ![Round op](images/ops/Ops_Math_Round.svg)
 
 **Full Name:** `Ops.Math.Round`
 
-**Description:** Outputs number rounded to the nearest integer
+Outputs number rounded to the nearest integer.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1313,16 +1313,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nPvVW2)
+**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Round](https://cables.gl/op/Ops.Math.Round)
+**Doc:** [cables.gl/op/Ops.Math.Round](https://cables.gl/op/Ops.Math.Round)
 
 ### RoundEven
 ![RoundEven op](images/ops/Ops_Math_RoundEven.svg)
 
 **Full Name:** `Ops.Math.RoundEven`
 
-**Description:** round to the next even number
+round to the next even number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1333,16 +1333,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/a0z7hL)
+**Example Patch:** [cables.gl/edit/a0z7hL](https://cables.gl/edit/a0z7hL)
 
-**Docs:** [https://cables.gl/op/Ops.Math.RoundEven](https://cables.gl/op/Ops.Math.RoundEven)
+**Doc:** [cables.gl/op/Ops.Math.RoundEven](https://cables.gl/op/Ops.Math.RoundEven)
 
 ### SchlickBias
 ![SchlickBias op](images/ops/Ops_Math_SchlickBias.svg)
 
 **Full Name:** `Ops.Math.SchlickBias`
 
-**Description:** Custom easing curve via schlick bias and gain
+Custom easing curve via schlick bias and gain.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1354,16 +1354,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/FO9IG3)
+**Example Patch:** [cables.gl/edit/FO9IG3](https://cables.gl/edit/FO9IG3)
 
-**Docs:** [https://cables.gl/op/Ops.Math.SchlickBias](https://cables.gl/op/Ops.Math.SchlickBias)
+**Doc:** [cables.gl/op/Ops.Math.SchlickBias](https://cables.gl/op/Ops.Math.SchlickBias)
 
 ### Sign
 ![Sign op](images/ops/Ops_Math_Sign.svg)
 
 **Full Name:** `Ops.Math.Sign`
 
-**Description:** get sign of value
+get sign of value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1374,16 +1374,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pixllg)
+**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Sign](https://cables.gl/op/Ops.Math.Sign)
+**Doc:** [cables.gl/op/Ops.Math.Sign](https://cables.gl/op/Ops.Math.Sign)
 
 ### SimpleMovingAverage
 ![SimpleMovingAverage op](images/ops/Ops_Math_SimpleMovingAverage.svg)
 
 **Full Name:** `Ops.Math.SimpleMovingAverage`
 
-**Description:** Calculate the Average of the last X values
+Calculate the Average of the last X values.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1394,16 +1394,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.SimpleMovingAverage#example)
+**Example Patch:** [cables.gl/op/Ops.Math.SimpleMovingAverage#example](https://cables.gl/op/Ops.Math.SimpleMovingAverage#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.SimpleMovingAverage](https://cables.gl/op/Ops.Math.SimpleMovingAverage)
+**Doc:** [cables.gl/op/Ops.Math.SimpleMovingAverage](https://cables.gl/op/Ops.Math.SimpleMovingAverage)
 
 ### Sine
 ![Sine op](images/ops/Ops_Math_Sine.svg)
 
 **Full Name:** `Ops.Math.Sine`
 
-**Description:** Calculates the sine of an angle.
+Calculates the sine of an angle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1417,16 +1417,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RhfUW2)
+**Example Patch:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Sine](https://cables.gl/op/Ops.Math.Sine)
+**Doc:** [cables.gl/op/Ops.Math.Sine](https://cables.gl/op/Ops.Math.Sine)
 
 ### Speed
 ![Speed op](images/ops/Ops_Math_Speed.svg)
 
 **Full Name:** `Ops.Math.Speed`
 
-**Description:** measure speed of how much a value changes
+measure speed of how much a value changes.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1437,16 +1437,16 @@
 
 - **Speed** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Sgmd39)
+**Example Patch:** [cables.gl/edit/Sgmd39](https://cables.gl/edit/Sgmd39)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Speed](https://cables.gl/op/Ops.Math.Speed)
+**Doc:** [cables.gl/op/Ops.Math.Speed](https://cables.gl/op/Ops.Math.Speed)
 
 ### Sqrt
 ![Sqrt op](images/ops/Ops_Math_Sqrt.svg)
 
 **Full Name:** `Ops.Math.Sqrt`
 
-**Description:** square root of a number
+square root of a number.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1456,16 +1456,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Sqrt#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Sqrt#example](https://cables.gl/op/Ops.Math.Sqrt#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Sqrt](https://cables.gl/op/Ops.Math.Sqrt)
+**Doc:** [cables.gl/op/Ops.Math.Sqrt](https://cables.gl/op/Ops.Math.Sqrt)
 
 ### Subtract
 ![Subtract op](images/ops/Ops_Math_Subtract.svg)
 
 **Full Name:** `Ops.Math.Subtract`
 
-**Description:** Subtracts Number2 from Number1 (minus, -)
+Subtracts Number2 from Number1 (minus, -).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1476,16 +1476,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Subtract#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Subtract#example](https://cables.gl/op/Ops.Math.Subtract#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Subtract](https://cables.gl/op/Ops.Math.Subtract)
+**Doc:** [cables.gl/op/Ops.Math.Subtract](https://cables.gl/op/Ops.Math.Subtract)
 
 ### Sum
 ![Sum op](images/ops/Ops_Math_Sum.svg)
 
 **Full Name:** `Ops.Math.Sum`
 
-**Description:** Result of the addition
+Result of the addition.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1496,16 +1496,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/P7d1r1)
+**Example Patch:** [cables.gl/edit/P7d1r1](https://cables.gl/edit/P7d1r1)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Sum](https://cables.gl/op/Ops.Math.Sum)
+**Doc:** [cables.gl/op/Ops.Math.Sum](https://cables.gl/op/Ops.Math.Sum)
 
 ### Tangent
 ![Tangent op](images/ops/Ops_Math_Tangent.svg)
 
 **Full Name:** `Ops.Math.Tangent`
 
-**Description:** Calculates the ratio of the sine and cosine of an angle.
+Calculates the ratio of the sine and cosine of an angle.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1519,16 +1519,16 @@
 
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.Tangent#example)
+**Example Patch:** [cables.gl/op/Ops.Math.Tangent#example](https://cables.gl/op/Ops.Math.Tangent#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.Tangent](https://cables.gl/op/Ops.Math.Tangent)
+**Doc:** [cables.gl/op/Ops.Math.Tangent](https://cables.gl/op/Ops.Math.Tangent)
 
 ### TriggerMathExpression
 ![TriggerMathExpression op](images/ops/Ops_Math_TriggerMathExpression.svg)
 
 **Full Name:** `Ops.Math.TriggerMathExpression`
 
-**Description:** calculates a user defined mathematical expression
+calculates a user defined mathematical expression.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1550,16 +1550,16 @@
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/6K7A5f)
+**Example Patch:** [cables.gl/edit/6K7A5f](https://cables.gl/edit/6K7A5f)
 
-**Docs:** [https://cables.gl/op/Ops.Math.TriggerMathExpression](https://cables.gl/op/Ops.Math.TriggerMathExpression)
+**Doc:** [cables.gl/op/Ops.Math.TriggerMathExpression](https://cables.gl/op/Ops.Math.TriggerMathExpression)
 
 ### TriggerRandomNumber_v3
 ![TriggerRandomNumber_v3 op](images/ops/Ops_Math_TriggerRandomNumber_v3.svg)
 
 **Full Name:** `Ops.Math.TriggerRandomNumber_v3`
 
-**Description:** Generate random number between min and max
+Generate random number between min and max.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1574,16 +1574,16 @@
 - **Next** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/s3FP7f)
+**Example Patch:** [cables.gl/edit/s3FP7f](https://cables.gl/edit/s3FP7f)
 
-**Docs:** [https://cables.gl/op/Ops.Math.TriggerRandomNumber_v3](https://cables.gl/op/Ops.Math.TriggerRandomNumber_v3)
+**Doc:** [cables.gl/op/Ops.Math.TriggerRandomNumber_v3](https://cables.gl/op/Ops.Math.TriggerRandomNumber_v3)
 
 ### VectorLength
 ![VectorLength op](images/ops/Ops_Math_VectorLength.svg)
 
 **Full Name:** `Ops.Math.VectorLength`
 
-**Description:** length of a vector
+length of a vector.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -1595,8 +1595,8 @@
 
 - **Length** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Math.VectorLength#example)
+**Example Patch:** [cables.gl/op/Ops.Math.VectorLength#example](https://cables.gl/op/Ops.Math.VectorLength#example)
 
-**Docs:** [https://cables.gl/op/Ops.Math.VectorLength](https://cables.gl/op/Ops.Math.VectorLength)
+**Doc:** [cables.gl/op/Ops.Math.VectorLength](https://cables.gl/op/Ops.Math.VectorLength)
 
 

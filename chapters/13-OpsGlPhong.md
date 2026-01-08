@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.Phong.AmbientLight_v4`
 
-**Description:** ambient light for phong material shading
+ambient light for phong material shading.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -23,16 +23,16 @@
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/g3ioXU)
+**Example Patch:** [cables.gl/edit/g3ioXU](https://cables.gl/edit/g3ioXU)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4](https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.AmbientLight_v4](https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4)
 
 ### DirectionalLight_v5
 ![DirectionalLight_v5 op](images/ops/Ops_Gl_Phong_DirectionalLight_v5.svg)
 
 **Full Name:** `Ops.Gl.Phong.DirectionalLight_v5`
 
-**Description:** Directional light for phong shading
+Directional light for phong shading.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -73,16 +73,16 @@
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/nEWpXU)
+**Example Patch:** [cables.gl/edit/nEWpXU](https://cables.gl/edit/nEWpXU)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5](https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5](https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5)
 
 ### LambertMaterial_v2
 ![LambertMaterial_v2 op](images/ops/Ops_Gl_Phong_LambertMaterial_v2.svg)
 
 **Full Name:** `Ops.Gl.Phong.LambertMaterial_v2`
 
-**Description:** a simple shaded material
+a simple shaded material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -99,16 +99,16 @@
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PAvm26)
+**Example Patch:** [cables.gl/edit/PAvm26](https://cables.gl/edit/PAvm26)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2](https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2](https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2)
 
 ### PhongMaterial_v6
 ![PhongMaterial_v6 op](images/ops/Ops_Gl_Phong_PhongMaterial_v6.svg)
 
 **Full Name:** `Ops.Gl.Phong.PhongMaterial_v6`
 
-**Description:** A shaded material for lighting objects
+A shaded material for lighting objects.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -160,16 +160,16 @@
 - **Trigger Out** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/L3HqYa)
+**Example Patch:** [cables.gl/edit/L3HqYa](https://cables.gl/edit/L3HqYa)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6](https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6](https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6)
 
 ### PointLight_v5
 ![PointLight_v5 op](images/ops/Ops_Gl_Phong_PointLight_v5.svg)
 
 **Full Name:** `Ops.Gl.Phong.PointLight_v5`
 
-**Description:** Point light for phong shading
+Point light for phong shading.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -203,16 +203,16 @@
 - **World Position Y** (Number)
 - **World Position Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/MybtXU)
+**Example Patch:** [cables.gl/edit/MybtXU](https://cables.gl/edit/MybtXU)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.PointLight_v5](https://cables.gl/op/Ops.Gl.Phong.PointLight_v5)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.PointLight_v5](https://cables.gl/op/Ops.Gl.Phong.PointLight_v5)
 
 ### ResetLights
 ![ResetLights op](images/ops/Ops_Gl_Phong_ResetLights.svg)
 
 **Full Name:** `Ops.Gl.Phong.ResetLights`
 
-**Description:** reset lights for everything triggered after
+reset lights for everything triggered after.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -223,16 +223,16 @@
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/eU7obI)
+**Example Patch:** [cables.gl/edit/eU7obI](https://cables.gl/edit/eU7obI)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.ResetLights](https://cables.gl/op/Ops.Gl.Phong.ResetLights)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.ResetLights](https://cables.gl/op/Ops.Gl.Phong.ResetLights)
 
 ### SpotLight_v5
 ![SpotLight_v5 op](images/ops/Ops_Gl_Phong_SpotLight_v5.svg)
 
 **Full Name:** `Ops.Gl.Phong.SpotLight_v5`
 
-**Description:** spot light that emits a cone of light
+spot light that emits a cone of light.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -268,8 +268,8 @@
 - **World Position Y** (Number)
 - **World Position Z** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/D5evXU)
+**Example Patch:** [cables.gl/edit/D5evXU](https://cables.gl/edit/D5evXU)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5](https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5)
+**Doc:** [cables.gl/op/Ops.Gl.Phong.SpotLight_v5](https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5)
 
 

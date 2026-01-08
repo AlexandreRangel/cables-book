@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.GamePad.GamePad`
 
-**Description:** Outputs the button states of a gamepad
+Outputs the button states of a gamepad.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -33,16 +33,16 @@
 - **Right Shoulder** (Number)
 - **Right Shoulder Bottom** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
+**Example Patch:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePad](https://cables.gl/op/Ops.Devices.GamePad.GamePad)
+**Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePad](https://cables.gl/op/Ops.Devices.GamePad.GamePad)
 
 ### GamePadJoystickAxis
 ![GamePadJoystickAxis op](images/ops/Ops_Devices_GamePad_GamePadJoystickAxis.svg)
 
 **Full Name:** `Ops.Devices.GamePad.GamePadJoystickAxis`
 
-**Description:** get axis and angle of a joystick/thumbstick
+get axis and angle of a joystick/thumbstick.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -56,16 +56,16 @@
 - **DeadZone** (Number)
 - **Angle** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bDqHdN)
+**Example Patch:** [cables.gl/edit/bDqHdN](https://cables.gl/edit/bDqHdN)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis](https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis)
+**Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis](https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis)
 
 ### GamePads
 ![GamePads op](images/ops/Ops_Devices_GamePad_GamePads.svg)
 
 **Full Name:** `Ops.Devices.GamePad.GamePads`
 
-**Description:** list connected gamepads - press a button to connect
+list connected gamepads - press a button to connect.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -79,8 +79,8 @@
 - **Pad 2** (Object)
 - **Pad 3** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/XHK7NH)
+**Example Patch:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.GamePad.GamePads](https://cables.gl/op/Ops.Devices.GamePad.GamePads)
+**Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePads](https://cables.gl/op/Ops.Devices.GamePad.GamePads)
 
 

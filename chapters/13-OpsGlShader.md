@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.Shader.AttributeAsColorMaterial`
 
-**Description:** render mesh normals as colors
+render mesh normals as colors.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -22,16 +22,16 @@
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bZEZGc)
+**Example Patch:** [cables.gl/edit/bZEZGc](https://cables.gl/edit/bZEZGc)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial)
 
 ### BasicMaterial_v3
 ![BasicMaterial_v3 op](images/ops/Ops_Gl_Shader_BasicMaterial_v3.svg)
 
 **Full Name:** `Ops.Gl.Shader.BasicMaterial_v3`
 
-**Description:** A material without shading
+A material without shading.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -58,16 +58,16 @@
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/SKCL88)
+**Example Patch:** [cables.gl/edit/SKCL88](https://cables.gl/edit/SKCL88)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3)
 
 ### ChromaKeyMaterial
 ![ChromaKeyMaterial op](images/ops/Ops_Gl_Shader_ChromaKeyMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.ChromaKeyMaterial`
 
-**Description:** display texture and replace a color with transparency
+display texture and replace a color with transparency.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -88,16 +88,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aDqoTq)
+**Example Patch:** [cables.gl/edit/aDqoTq](https://cables.gl/edit/aDqoTq)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial](https://cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial](https://cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial)
 
 ### CustomShader_v2
 ![CustomShader_v2 op](images/ops/Ops_Gl_Shader_CustomShader_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.CustomShader_v2`
 
-**Description:** Write your own custom shader
+Write your own custom shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -119,16 +119,16 @@
 - **Shader** (Object)
 - **Has Errors** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vWyGud)
+**Example Patch:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.CustomShader_v2](https://cables.gl/op/Ops.Gl.Shader.CustomShader_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.CustomShader_v2](https://cables.gl/op/Ops.Gl.Shader.CustomShader_v2)
 
 ### ErrorMaterial
 ![ErrorMaterial op](images/ops/Ops_Gl_Shader_ErrorMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.ErrorMaterial`
 
-**Description:** draw meshes using the cables error material shader
+draw meshes using the cables error material shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -138,16 +138,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ErrorMaterial](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial)
 
 ### FrontBacksideMaterial
 ![FrontBacksideMaterial op](images/ops/Ops_Gl_Shader_FrontBacksideMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.FrontBacksideMaterial`
 
-**Description:** visualize which faces are facing the camera
+visualize which faces are facing the camera.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -157,16 +157,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Lm6p9r)
+**Example Patch:** [cables.gl/edit/Lm6p9r](https://cables.gl/edit/Lm6p9r)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial](https://cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial](https://cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial)
 
 ### GetShader
 ![GetShader op](images/ops/Ops_Gl_Shader_GetShader.svg)
 
 **Full Name:** `Ops.Gl.Shader.GetShader`
 
-**Description:** get current set shader
+get current set shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -177,16 +177,16 @@
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/BweOVl)
+**Example Patch:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.GetShader](https://cables.gl/op/Ops.Gl.Shader.GetShader)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.GetShader](https://cables.gl/op/Ops.Gl.Shader.GetShader)
 
 ### MatCapMaterial_v3
 ![MatCapMaterial_v3 op](images/ops/Ops_Gl_Shader_MatCapMaterial_v3.svg)
 
 **Full Name:** `Ops.Gl.Shader.MatCapMaterial_v3`
 
-**Description:** Easy to use image based lighting Material
+Easy to use image based lighting Material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -220,16 +220,16 @@
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/gWkghi)
+**Example Patch:** [cables.gl/edit/gWkghi](https://cables.gl/edit/gWkghi)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3)
 
 ### MinifyGlsl
 ![MinifyGlsl op](images/ops/Ops_Gl_Shader_MinifyGlsl.svg)
 
 **Full Name:** `Ops.Gl.Shader.MinifyGlsl`
 
-**Description:** Minify GLSL shader source code
+Minify GLSL shader source code.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -239,16 +239,16 @@
 
 - **Minified Shader Source** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/t5H1Qc)
+**Example Patch:** [cables.gl/edit/t5H1Qc](https://cables.gl/edit/t5H1Qc)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.MinifyGlsl](https://cables.gl/op/Ops.Gl.Shader.MinifyGlsl)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.MinifyGlsl](https://cables.gl/op/Ops.Gl.Shader.MinifyGlsl)
 
 ### PointMaterial_v6
 ![PointMaterial_v6 op](images/ops/Ops_Gl_Shader_PointMaterial_v6.svg)
 
 **Full Name:** `Ops.Gl.Shader.PointMaterial_v6`
 
-**Description:** Draw all vertices as points / circles
+Draw all vertices as points / circles.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -284,16 +284,16 @@
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/O9yRO6)
+**Example Patch:** [cables.gl/edit/O9yRO6](https://cables.gl/edit/O9yRO6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.PointMaterial_v6](https://cables.gl/op/Ops.Gl.Shader.PointMaterial_v6)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.PointMaterial_v6](https://cables.gl/op/Ops.Gl.Shader.PointMaterial_v6)
 
 ### PositionAsColorMaterial
 ![PositionAsColorMaterial op](images/ops/Ops_Gl_Shader_PositionAsColorMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.PositionAsColorMaterial`
 
-**Description:** draw meshes using XYZ position coordinates as RGB color
+draw meshes using XYZ position coordinates as RGB color.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -303,16 +303,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/qbiIbk)
+**Example Patch:** [cables.gl/edit/qbiIbk](https://cables.gl/edit/qbiIbk)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial)
 
 ### SetShader
 ![SetShader op](images/ops/Ops_Gl_Shader_SetShader.svg)
 
 **Full Name:** `Ops.Gl.Shader.SetShader`
 
-**Description:** Reuse another shader at different points in the patch.
+Reuse another shader at different points in the patch.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -323,16 +323,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/BweOVl)
+**Example Patch:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.SetShader](https://cables.gl/op/Ops.Gl.Shader.SetShader)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.SetShader](https://cables.gl/op/Ops.Gl.Shader.SetShader)
 
 ### SetUniformFloat_v2
 ![SetUniformFloat_v2 op](images/ops/Ops_Gl_Shader_SetUniformFloat_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.SetUniformFloat_v2`
 
-**Description:** set a uniform value of the current shader
+set a uniform value of the current shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -349,16 +349,16 @@
 - **Type** (String)
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/5W7X2f)
+**Example Patch:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2)
 
 ### SetUniformTexture_v2
 ![SetUniformTexture_v2 op](images/ops/Ops_Gl_Shader_SetUniformTexture_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.SetUniformTexture_v2`
 
-**Description:** set a uniform value of the current shader
+set a uniform value of the current shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -371,16 +371,16 @@
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/5W7X2f)
+**Example Patch:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2)
 
 ### ShaderDefine
 ![ShaderDefine op](images/ops/Ops_Gl_Shader_ShaderDefine.svg)
 
 **Full Name:** `Ops.Gl.Shader.ShaderDefine`
 
-**Description:** Set shader defines
+Set shader defines.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -394,16 +394,16 @@
 
 - *Visit [Ops.Gl.Shader.ShaderDefine documentation](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine#example](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ShaderDefine](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine)
 
 ### ShaderInfo
 ![ShaderInfo op](images/ops/Ops_Gl_Shader_ShaderInfo.svg)
 
 **Full Name:** `Ops.Gl.Shader.ShaderInfo`
 
-**Description:** view current shader source code
+view current shader source code.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -427,16 +427,16 @@
 - **Arributes Names** (Array)
 - **Num Defines** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderInfo#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ShaderInfo](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderInfo](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo)
 
 ### ShaderInfoUniforms_v2
 ![ShaderInfoUniforms_v2 op](images/ops/Ops_Gl_Shader_ShaderInfoUniforms_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.ShaderInfoUniforms_v2`
 
-**Description:** read back all uniforms values of the current bound shader
+read back all uniforms values of the current bound shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -447,16 +447,16 @@
 - **Next** (Trigger)
 - **Uniforms** (Array)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2)
 
 ### ShaderToTexture_v2
 ![ShaderToTexture_v2 op](images/ops/Ops_Gl_Shader_ShaderToTexture_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.ShaderToTexture_v2`
 
-**Description:** render a shader into a texture
+render a shader into a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -476,16 +476,16 @@
 - **Texture 3** (Object)
 - **Texture 4** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/vWyGud)
+**Example Patch:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2)
 
 ### VertexColorMaterial
 ![VertexColorMaterial op](images/ops/Ops_Gl_Shader_VertexColorMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.VertexColorMaterial`
 
-**Description:** Draw a mesh, showing only its vertex colors
+Draw a mesh, showing only its vertex colors.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -496,16 +496,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/6MsLhR)
+**Example Patch:** [cables.gl/edit/6MsLhR](https://cables.gl/edit/6MsLhR)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.VertexColorMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexColorMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.VertexColorMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexColorMaterial)
 
 ### VertexNumberMaterial
 ![VertexNumberMaterial op](images/ops/Ops_Gl_Shader_VertexNumberMaterial.svg)
 
 **Full Name:** `Ops.Gl.Shader.VertexNumberMaterial`
 
-**Description:** visually debug vertices of your 3D geometry
+visually debug vertices of your 3D geometry.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -515,16 +515,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/x2PmHf)
+**Example Patch:** [cables.gl/edit/x2PmHf](https://cables.gl/edit/x2PmHf)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial)
 
 ### WireframeMaterial_v2
 ![WireframeMaterial_v2 op](images/ops/Ops_Gl_Shader_WireframeMaterial_v2.svg)
 
 **Full Name:** `Ops.Gl.Shader.WireframeMaterial_v2`
 
-**Description:** Renders following meshes as wireframes
+Renders following meshes as wireframes.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -546,8 +546,8 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/bRlSDe)
+**Example Patch:** [cables.gl/edit/bRlSDe](https://cables.gl/edit/bRlSDe)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2](https://cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2)
+**Doc:** [cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2](https://cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2)
 
 

@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Lottie.LottieSVGPlayer`
 
-**Description:** Play Bodymovin/Lottie animations as SVG in a HTML element
+Play Bodymovin/Lottie animations as SVG in a HTML element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -28,16 +28,16 @@
 - **Progress** (Number)
 - **Total Frames** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3ezRZH)
+**Example Patch:** [cables.gl/edit/3ezRZH](https://cables.gl/edit/3ezRZH)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer](https://cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer)
+**Doc:** [cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer](https://cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer)
 
 ### LottieTexturePlayer_v2
 ![LottieTexturePlayer_v2 op](images/ops/Ops_Extension_Lottie_LottieTexturePlayer_v2.svg)
 
 **Full Name:** `Ops.Extension.Lottie.LottieTexturePlayer_v2`
 
-**Description:** Play a Lottie animation in a texture
+Play a Lottie animation in a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -59,8 +59,8 @@
 - **Texture** (Object)
 - **Total Frames** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/zW0RFn)
+**Example Patch:** [cables.gl/edit/zW0RFn](https://cables.gl/edit/zW0RFn)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2](https://cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2)
+**Doc:** [cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2](https://cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2)
 
 

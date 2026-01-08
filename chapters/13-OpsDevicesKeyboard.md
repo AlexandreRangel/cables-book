@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.Keyboard.CursorKeys`
 
-**Description:** get the state of your keyboards arrow keys
+get the state of your keyboards arrow keys.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -31,16 +31,16 @@
 - **Right Pressed** (Trigger)
 - **Any Button Pressed** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
+**Example Patch:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys](https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys)
+**Doc:** [cables.gl/op/Ops.Devices.Keyboard.CursorKeys](https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys)
 
 ### KeyPress_v2
 ![KeyPress_v2 op](images/ops/Ops_Devices_Keyboard_KeyPress_v2.svg)
 
 **Full Name:** `Ops.Devices.Keyboard.KeyPress_v2`
 
-**Description:** Triggers when a key is pressed
+Triggers when a key is pressed.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -54,16 +54,16 @@
 - **Key Code** (Number)
 - **Key** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lmGgPZ)
+**Example Patch:** [cables.gl/edit/lmGgPZ](https://cables.gl/edit/lmGgPZ)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2](https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2)
+**Doc:** [cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2](https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2)
 
 ### KeyPressLearn
 ![KeyPressLearn op](images/ops/Ops_Devices_Keyboard_KeyPressLearn.svg)
 
 **Full Name:** `Ops.Devices.Keyboard.KeyPressLearn`
 
-**Description:** Triggers when certain key is pressed or released
+Triggers when certain key is pressed or released.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -81,16 +81,16 @@
 - **Pressed** (booleanNumber)
 - **Key** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ZRY-x3)
+**Example Patch:** [cables.gl/edit/ZRY-x3](https://cables.gl/edit/ZRY-x3)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn](https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn)
+**Doc:** [cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn](https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn)
 
 ### PersonController
 ![PersonController op](images/ops/Ops_Devices_Keyboard_PersonController.svg)
 
 **Full Name:** `Ops.Devices.Keyboard.PersonController`
 
-**Description:** simple controller example op for game characters
+simple controller example op for game characters.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -108,16 +108,16 @@
 - **Y** (Number)
 - **Dir** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/m5V6VB)
+**Example Patch:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.PersonController](https://cables.gl/op/Ops.Devices.Keyboard.PersonController)
+**Doc:** [cables.gl/op/Ops.Devices.Keyboard.PersonController](https://cables.gl/op/Ops.Devices.Keyboard.PersonController)
 
 ### QWERTYtoMidi
 ![QWERTYtoMidi op](images/ops/Ops_Devices_Keyboard_QWERTYtoMidi.svg)
 
 **Full Name:** `Ops.Devices.Keyboard.QWERTYtoMidi`
 
-**Description:** Emulates a MIDI keyboard using your regular keyboard
+Emulates a MIDI keyboard using your regular keyboard.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -130,8 +130,8 @@
 - **Channel** (Number)
 - **Command** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PfZk-4)
+**Example Patch:** [cables.gl/edit/PfZk-4](https://cables.gl/edit/PfZk-4)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi](https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi)
+**Doc:** [cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi](https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi)
 
 

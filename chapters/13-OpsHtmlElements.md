@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Html.Elements.AudioMediaElement`
 
-**Description:** Simple Audio Player, using HTML5 Audio, does not need WebAudio
+Simple Audio Player, using HTML5 Audio, does not need WebAudio.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -24,16 +24,16 @@
 - **Element** (Object)
 - **Has Ended** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ftHtx3)
+**Example Patch:** [cables.gl/edit/ftHtx3](https://cables.gl/edit/ftHtx3)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.AudioMediaElement](https://cables.gl/op/Ops.Html.Elements.AudioMediaElement)
+**Doc:** [cables.gl/op/Ops.Html.Elements.AudioMediaElement](https://cables.gl/op/Ops.Html.Elements.AudioMediaElement)
 
 ### Element_v2
 ![Element_v2 op](images/ops/Ops_Html_Elements_Element_v2.svg)
 
 **Full Name:** `Ops.Html.Elements.Element_v2`
 
-**Description:** A more convinient version of div element op, that can be used for creating html without writing much css code
+A more convinient version of div element op, that can be used for creating html without writing much css code.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -56,16 +56,16 @@
 - **Hovering** (booleanNumber)
 - **Clicked** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/KmnVEm)
+**Example Patch:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.Element_v2](https://cables.gl/op/Ops.Html.Elements.Element_v2)
+**Doc:** [cables.gl/op/Ops.Html.Elements.Element_v2](https://cables.gl/op/Ops.Html.Elements.Element_v2)
 
 ### IFrame_v3
 ![IFrame_v3 op](images/ops/Ops_Html_Elements_IFrame_v3.svg)
 
 **Full Name:** `Ops.Html.Elements.IFrame_v3`
 
-**Description:** Show another website in an iframe element
+Show another website in an iframe element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -78,16 +78,16 @@
 
 - **Element** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/SLesr2)
+**Example Patch:** [cables.gl/edit/SLesr2](https://cables.gl/edit/SLesr2)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.IFrame_v3](https://cables.gl/op/Ops.Html.Elements.IFrame_v3)
+**Doc:** [cables.gl/op/Ops.Html.Elements.IFrame_v3](https://cables.gl/op/Ops.Html.Elements.IFrame_v3)
 
 ### ImageElement_v3
 ![ImageElement_v3 op](images/ops/Ops_Html_Elements_ImageElement_v3.svg)
 
 **Full Name:** `Ops.Html.Elements.ImageElement_v3`
 
-**Description:** create an image(img) html element
+create an image(img) html element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -105,16 +105,16 @@
 - **Error** (booleanNumber)
 - **Loaded** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/OZaVN8)
+**Example Patch:** [cables.gl/edit/OZaVN8](https://cables.gl/edit/OZaVN8)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.ImageElement_v3](https://cables.gl/op/Ops.Html.Elements.ImageElement_v3)
+**Doc:** [cables.gl/op/Ops.Html.Elements.ImageElement_v3](https://cables.gl/op/Ops.Html.Elements.ImageElement_v3)
 
 ### InputElement
 ![InputElement op](images/ops/Ops_Html_Elements_InputElement.svg)
 
 **Full Name:** `Ops.Html.Elements.InputElement`
 
-**Description:** HTML input/textarea element to allow the user to enter text
+HTML input/textarea element to allow the user to enter text.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -140,16 +140,16 @@
 - **Enter Pressed** (Trigger)
 - **Escape Pressed** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/L83aeG)
+**Example Patch:** [cables.gl/edit/L83aeG](https://cables.gl/edit/L83aeG)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.InputElement](https://cables.gl/op/Ops.Html.Elements.InputElement)
+**Doc:** [cables.gl/op/Ops.Html.Elements.InputElement](https://cables.gl/op/Ops.Html.Elements.InputElement)
 
 ### VideoElement
 ![VideoElement op](images/ops/Ops_Html_Elements_VideoElement.svg)
 
 **Full Name:** `Ops.Html.Elements.VideoElement`
 
-**Description:** html video player element
+html video player element.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -176,8 +176,8 @@
 - **Video Width** (Number)
 - **Video Height** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/1QTBve)
+**Example Patch:** [cables.gl/edit/1QTBve](https://cables.gl/edit/1QTBve)
 
-**Docs:** [https://cables.gl/op/Ops.Html.Elements.VideoElement](https://cables.gl/op/Ops.Html.Elements.VideoElement)
+**Doc:** [cables.gl/op/Ops.Html.Elements.VideoElement](https://cables.gl/op/Ops.Html.Elements.VideoElement)
 
 

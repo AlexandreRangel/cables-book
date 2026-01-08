@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Gl.ShaderEffects.AreaDiscardPixel_v2`
 
-**Description:** do not draw pixels inside a defined 3d area
+do not draw pixels inside a defined 3d area.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -32,16 +32,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/GQiw18)
+**Example Patch:** [cables.gl/edit/GQiw18](https://cables.gl/edit/GQiw18)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaDiscardPixel_v2)
 
 ### AreaRotate_v2
 ![AreaRotate_v2 op](images/ops/Ops_Gl_ShaderEffects_AreaRotate_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.AreaRotate_v2`
 
-**Description:** rotate vertices in an area around a center point
+rotate vertices in an area around a center point.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -57,16 +57,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7mss1Q)
+**Example Patch:** [cables.gl/edit/7mss1Q](https://cables.gl/edit/7mss1Q)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaRotate_v2)
 
 ### AreaScaler_v3
 ![AreaScaler_v3 op](images/ops/Ops_Gl_ShaderEffects_AreaScaler_v3.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.AreaScaler_v3`
 
-**Description:** Scales the size of meshes within the area of influence
+Scales the size of meshes within the area of influence.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -87,16 +87,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/LXN7D-)
+**Example Patch:** [cables.gl/edit/LXN7D-](https://cables.gl/edit/LXN7D-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaScaler_v3)
 
 ### AreaTranslateFBMNoise
 ![AreaTranslateFBMNoise op](images/ops/Ops_Gl_ShaderEffects_AreaTranslateFBMNoise.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.AreaTranslateFBMNoise`
 
-**Description:** Area size of noise
+Area size of noise.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -117,16 +117,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/hDcUC-)
+**Example Patch:** [cables.gl/edit/hDcUC-](https://cables.gl/edit/hDcUC-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateFBMNoise)
 
 ### AreaTranslateMeshes_v3
 ![AreaTranslateMeshes_v3 op](images/ops/Ops_Gl_ShaderEffects_AreaTranslateMeshes_v3.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3`
 
-**Description:** Change the position of all meshes inside of the area of influence
+Change the position of all meshes inside of the area of influence.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -144,16 +144,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/yWVQC-)
+**Example Patch:** [cables.gl/edit/yWVQC-](https://cables.gl/edit/yWVQC-)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.AreaTranslateMeshes_v3)
 
 ### Bend_v2
 ![Bend_v2 op](images/ops/Ops_Gl_ShaderEffects_Bend_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.Bend_v2`
 
-**Description:** bend objects along an axis
+bend objects along an axis.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -170,16 +170,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/HtcN9Z)
+**Example Patch:** [cables.gl/edit/HtcN9Z](https://cables.gl/edit/HtcN9Z)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.Bend_v2)
 
 ### ClampVertexPosition_v2
 ![ClampVertexPosition_v2 op](images/ops/Ops_Gl_ShaderEffects_ClampVertexPosition_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.ClampVertexPosition_v2`
 
-**Description:** clamp/restrict the vertex position to min/max values per axis
+clamp/restrict the vertex position to min/max values per axis.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -193,16 +193,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RP4O73)
+**Example Patch:** [cables.gl/edit/RP4O73](https://cables.gl/edit/RP4O73)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ClampVertexPosition_v2)
 
 ### ColorArea_v5
 ![ColorArea_v5 op](images/ops/Ops_Gl_ShaderEffects_ColorArea_v5.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.ColorArea_v5`
 
-**Description:** Colorize all meshes around current position
+Colorize all meshes around current position.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -230,16 +230,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0Ti2gT)
+**Example Patch:** [cables.gl/edit/0Ti2gT](https://cables.gl/edit/0Ti2gT)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.ColorArea_v5)
 
 ### DeformArea
 ![DeformArea op](images/ops/Ops_Gl_ShaderEffects_DeformArea.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.DeformArea`
 
-**Description:** deform a spherical area of a mesh
+deform a spherical area of a mesh.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -256,16 +256,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/CQ0wmo)
+**Example Patch:** [cables.gl/edit/CQ0wmo](https://cables.gl/edit/CQ0wmo)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.DeformArea](https://cables.gl/op/Ops.Gl.ShaderEffects.DeformArea)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.DeformArea](https://cables.gl/op/Ops.Gl.ShaderEffects.DeformArea)
 
 ### DiscardMaterialAlpha
 ![DiscardMaterialAlpha op](images/ops/Ops_Gl_ShaderEffects_DiscardMaterialAlpha.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.DiscardMaterialAlpha`
 
-**Description:** discard transparent pixels in material textures
+discard transparent pixels in material textures.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -277,16 +277,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3r_lf6)
+**Example Patch:** [cables.gl/edit/3r_lf6](https://cables.gl/edit/3r_lf6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.DiscardMaterialAlpha)
 
 ### ExplodeDividedMesh_v2
 ![ExplodeDividedMesh_v2 op](images/ops/Ops_Gl_ShaderEffects_ExplodeDividedMesh_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2`
 
-**Description:** explode a (divided) mesh in the direction of faces normals
+explode a (divided) mesh in the direction of faces normals.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -308,16 +308,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/sYIxm1)
+**Example Patch:** [cables.gl/edit/sYIxm1](https://cables.gl/edit/sYIxm1)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ExplodeDividedMesh_v2)
 
 ### FogEffect
 ![FogEffect op](images/ops/Ops_Gl_ShaderEffects_FogEffect.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.FogEffect`
 
-**Description:** Fog as a shadereffect applied to a material
+Fog as a shadereffect applied to a material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -334,16 +334,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/3L3of6)
+**Example Patch:** [cables.gl/edit/3L3of6](https://cables.gl/edit/3L3of6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.FogEffect](https://cables.gl/op/Ops.Gl.ShaderEffects.FogEffect)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.FogEffect](https://cables.gl/op/Ops.Gl.ShaderEffects.FogEffect)
 
 ### FresnelGlow
 ![FresnelGlow op](images/ops/Ops_Gl_ShaderEffects_FresnelGlow.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.FresnelGlow`
 
-**Description:** add fresnel glow to any material
+add fresnel glow to any material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -359,16 +359,16 @@
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/e02kYa)
+**Example Patch:** [cables.gl/edit/e02kYa](https://cables.gl/edit/e02kYa)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow](https://cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow](https://cables.gl/op/Ops.Gl.ShaderEffects.FresnelGlow)
 
 ### InstancedDisplacementMap_v2
 ![InstancedDisplacementMap_v2 op](images/ops/Ops_Gl_ShaderEffects_InstancedDisplacementMap_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2`
 
-**Description:** displace positions of instanced meshes using a texture
+displace positions of instanced meshes using a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -395,16 +395,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
+**Example Patch:** [cables.gl/edit/yQJfFj](https://cables.gl/edit/yQJfFj)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedDisplacementMap_v2)
 
 ### InstancedPerlinPosition_v2
 ![InstancedPerlinPosition_v2 op](images/ops/Ops_Gl_ShaderEffects_InstancedPerlinPosition_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2`
 
-**Description:** displace position of instanced object by perlin noise value
+displace position of instanced object by perlin noise value.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -426,16 +426,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/33bSY7)
+**Example Patch:** [cables.gl/edit/33bSY7](https://cables.gl/edit/33bSY7)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedPerlinPosition_v2)
 
 ### InstancedTextureColorize
 ![InstancedTextureColorize op](images/ops/Ops_Gl_ShaderEffects_InstancedTextureColorize.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.InstancedTextureColorize`
 
-**Description:** colorize instanced meshes using a texture
+colorize instanced meshes using a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -453,16 +453,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/yQJfFj)
+**Example Patch:** [cables.gl/edit/yQJfFj](https://cables.gl/edit/yQJfFj)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize](https://cables.gl/op/Ops.Gl.ShaderEffects.InstancedTextureColorize)
 
 ### LimitMeshByTexCoord
 ![LimitMeshByTexCoord op](images/ops/Ops_Gl_ShaderEffects_LimitMeshByTexCoord.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.LimitMeshByTexCoord`
 
-**Description:** discard pixel if texture coordinate is below threshold
+discard pixel if texture coordinate is below threshold.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -479,16 +479,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pHfgJ5)
+**Example Patch:** [cables.gl/edit/pHfgJ5](https://cables.gl/edit/pHfgJ5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord](https://cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord](https://cables.gl/op/Ops.Gl.ShaderEffects.LimitMeshByTexCoord)
 
 ### MeshPixelNoise_v2
 ![MeshPixelNoise_v2 op](images/ops/Ops_Gl_ShaderEffects_MeshPixelNoise_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.MeshPixelNoise_v2`
 
-**Description:** 3d space noise for mesh materials
+3d space noise for mesh materials.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -509,16 +509,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/V7rjQ6)
+**Example Patch:** [cables.gl/edit/V7rjQ6](https://cables.gl/edit/V7rjQ6)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.MeshPixelNoise_v2)
 
 ### ModuloVertexPosition
 ![ModuloVertexPosition op](images/ops/Ops_Gl_ShaderEffects_ModuloVertexPosition.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.ModuloVertexPosition`
 
-**Description:** vertex shader modulo operation on vertex position
+vertex shader modulo operation on vertex position.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -530,16 +530,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/lMCl_8)
+**Example Patch:** [cables.gl/edit/lMCl_8](https://cables.gl/edit/lMCl_8)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition](https://cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition](https://cables.gl/op/Ops.Gl.ShaderEffects.ModuloVertexPosition)
 
 ### PerlinAreaDeform_v4
 ![PerlinAreaDeform_v4 op](images/ops/Ops_Gl_ShaderEffects_PerlinAreaDeform_v4.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.PerlinAreaDeform_v4`
 
-**Description:** Displace vertices using perlin noise animation
+Displace vertices using perlin noise animation.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -564,16 +564,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/8RexP8)
+**Example Patch:** [cables.gl/edit/8RexP8](https://cables.gl/edit/8RexP8)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4](https://cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4](https://cables.gl/op/Ops.Gl.ShaderEffects.PerlinAreaDeform_v4)
 
 ### ScaleByNormal_v2
 ![ScaleByNormal_v2 op](images/ops/Ops_Gl_ShaderEffects_ScaleByNormal_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.ScaleByNormal_v2`
 
-**Description:** Scale vertices of an object in the direction of face normals
+Scale vertices of an object in the direction of face normals.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -584,16 +584,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/Ft2xm1)
+**Example Patch:** [cables.gl/edit/Ft2xm1](https://cables.gl/edit/Ft2xm1)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.ScaleByNormal_v2)
 
 ### Shadow_v3
 ![Shadow_v3 op](images/ops/Ops_Gl_ShaderEffects_Shadow_v3.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.Shadow_v3`
 
-**Description:** add shadow capabilities to any material
+add shadow capabilities to any material.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -613,16 +613,16 @@
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/auVl18)
+**Example Patch:** [cables.gl/edit/auVl18](https://cables.gl/edit/auVl18)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Shadow_v3)
 
 ### SplineDeform_v2
 ![SplineDeform_v2 op](images/ops/Ops_Gl_ShaderEffects_SplineDeform_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.SplineDeform_v2`
 
-**Description:** Deform a mesh along a spline
+Deform a mesh along a spline.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -635,16 +635,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/F-UNZ4)
+**Example Patch:** [cables.gl/edit/F-UNZ4](https://cables.gl/edit/F-UNZ4)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.SplineDeform_v2)
 
 ### TextureProjection_v2
 ![TextureProjection_v2 op](images/ops/Ops_Gl_ShaderEffects_TextureProjection_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.TextureProjection_v2`
 
-**Description:** texture projection on meshes
+texture projection on meshes.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -667,16 +667,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/fJHt0e)
+**Example Patch:** [cables.gl/edit/fJHt0e](https://cables.gl/edit/fJHt0e)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.TextureProjection_v2)
 
 ### TransformTextureCoordinates
 ![TransformTextureCoordinates op](images/ops/Ops_Gl_ShaderEffects_TransformTextureCoordinates.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.TransformTextureCoordinates`
 
-**Description:** Transform and repeat texture coordinates of a mesh via vertex shader
+Transform and repeat texture coordinates of a mesh via vertex shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -693,16 +693,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/YzNrx8)
+**Example Patch:** [cables.gl/edit/YzNrx8](https://cables.gl/edit/YzNrx8)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformTextureCoordinates)
 
 ### TransformVertex
 ![TransformVertex op](images/ops/Ops_Gl_ShaderEffects_TransformVertex.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.TransformVertex`
 
-**Description:** transform vertices of a mesh via vertex shader
+transform vertices of a mesh via vertex shader.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -722,16 +722,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/u1iOhI)
+**Example Patch:** [cables.gl/edit/u1iOhI](https://cables.gl/edit/u1iOhI)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex](https://cables.gl/op/Ops.Gl.ShaderEffects.TransformVertex)
 
 ### Twist_v3
 ![Twist_v3 op](images/ops/Ops_Gl_ShaderEffects_Twist_v3.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.Twist_v3`
 
-**Description:** twist a mesh around an axis
+twist a mesh around an axis.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -745,16 +745,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/VYPlJ5)
+**Example Patch:** [cables.gl/edit/VYPlJ5](https://cables.gl/edit/VYPlJ5)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3](https://cables.gl/op/Ops.Gl.ShaderEffects.Twist_v3)
 
 ### UseVertexColor
 ![UseVertexColor op](images/ops/Ops_Gl_ShaderEffects_UseVertexColor.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.UseVertexColor`
 
-**Description:** Use vertex color as basecolor/diffuse color
+Use vertex color as basecolor/diffuse color.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -764,16 +764,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ep1Umu)
+**Example Patch:** [cables.gl/edit/ep1Umu](https://cables.gl/edit/ep1Umu)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor](https://cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor](https://cables.gl/op/Ops.Gl.ShaderEffects.UseVertexColor)
 
 ### VertexArea
 ![VertexArea op](images/ops/Ops_Gl_ShaderEffects_VertexArea.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexArea`
 
-**Description:** transform an area of a mesh
+transform an area of a mesh.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -799,16 +799,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example)
+**Example Patch:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea#example)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexArea](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexArea)
 
 ### VertexColorAsAlpha
 ![VertexColorAsAlpha op](images/ops/Ops_Gl_ShaderEffects_VertexColorAsAlpha.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexColorAsAlpha`
 
-**Description:** Use mesh vertexcolor as Alpha/Opacity
+Use mesh vertexcolor as Alpha/Opacity.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -820,16 +820,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/ChcFXk)
+**Example Patch:** [cables.gl/edit/ChcFXk](https://cables.gl/edit/ChcFXk)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexColorAsAlpha)
 
 ### VertexDisplacementMap_v5
 ![VertexDisplacementMap_v5 op](images/ops/Ops_Gl_ShaderEffects_VertexDisplacementMap_v5.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexDisplacementMap_v5`
 
-**Description:** Displace the vertices of a mesh with the pixels brightness values from a texture
+Displace the vertices of a mesh with the pixels brightness values from a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -849,16 +849,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/aSWlLu)
+**Example Patch:** [cables.gl/edit/aSWlLu](https://cables.gl/edit/aSWlLu)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexDisplacementMap_v5)
 
 ### VertexNumberLimit_v2
 ![VertexNumberLimit_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexNumberLimit_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexNumberLimit_v2`
 
-**Description:** only draw the first X vertices of a mesh
+only draw the first X vertices of a mesh.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -871,16 +871,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/gLrrJV)
+**Example Patch:** [cables.gl/edit/gLrrJV](https://cables.gl/edit/gLrrJV)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexNumberLimit_v2)
 
 ### VertexPositionFromTexture_v2
 ![VertexPositionFromTexture_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexPositionFromTexture_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2`
 
-**Description:** set vertex positions of a mesh from a texture
+set vertex positions of a mesh from a texture.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -892,16 +892,16 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/LDfZgL)
+**Example Patch:** [cables.gl/edit/LDfZgL](https://cables.gl/edit/LDfZgL)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexPositionFromTexture_v2)
 
 ### VertexWobble_v2
 ![VertexWobble_v2 op](images/ops/Ops_Gl_ShaderEffects_VertexWobble_v2.svg)
 
 **Full Name:** `Ops.Gl.ShaderEffects.VertexWobble_v2`
 
-**Description:** sine wave vertex displacement
+sine wave vertex displacement.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -926,8 +926,8 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/0PxhuO)
+**Example Patch:** [cables.gl/edit/0PxhuO](https://cables.gl/edit/0PxhuO)
 
-**Docs:** [https://cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2)
+**Doc:** [cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2](https://cables.gl/op/Ops.Gl.ShaderEffects.VertexWobble_v2)
 
 

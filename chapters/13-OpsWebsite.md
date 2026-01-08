@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Website.Cookie`
 
-**Description:** cookie of the current website as object
+cookie of the current website as object.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -20,16 +20,16 @@
 - **Cookie** (Object)
 - **Cookie String** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/oNMzci)
+**Example Patch:** [cables.gl/edit/oNMzci](https://cables.gl/edit/oNMzci)
 
-**Docs:** [https://cables.gl/op/Ops.Website.Cookie](https://cables.gl/op/Ops.Website.Cookie)
+**Doc:** [cables.gl/op/Ops.Website.Cookie](https://cables.gl/op/Ops.Website.Cookie)
 
 ### FilenameInfo
 ![FilenameInfo op](images/ops/Ops_Website_FilenameInfo.svg)
 
 **Full Name:** `Ops.Website.FilenameInfo`
 
-**Description:** information about a filename, like url protocol, suffix etc
+information about a filename, like url protocol, suffix etc.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -46,16 +46,16 @@
 - **Is URL** (String)
 - **QueryParams** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/RyrLMg)
+**Example Patch:** [cables.gl/edit/RyrLMg](https://cables.gl/edit/RyrLMg)
 
-**Docs:** [https://cables.gl/op/Ops.Website.FilenameInfo](https://cables.gl/op/Ops.Website.FilenameInfo)
+**Doc:** [cables.gl/op/Ops.Website.FilenameInfo](https://cables.gl/op/Ops.Website.FilenameInfo)
 
 ### ForceHttps
 ![ForceHttps op](images/ops/Ops_Website_ForceHttps.svg)
 
 **Full Name:** `Ops.Website.ForceHttps`
 
-**Description:** will redirect to same URL using https protocol
+will redirect to same URL using https protocol.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -65,16 +65,16 @@
 
 - *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Website.ForceHttps#example)
+**Example Patch:** [cables.gl/op/Ops.Website.ForceHttps#example](https://cables.gl/op/Ops.Website.ForceHttps#example)
 
-**Docs:** [https://cables.gl/op/Ops.Website.ForceHttps](https://cables.gl/op/Ops.Website.ForceHttps)
+**Doc:** [cables.gl/op/Ops.Website.ForceHttps](https://cables.gl/op/Ops.Website.ForceHttps)
 
 ### InfoURL
 ![InfoURL op](images/ops/Ops_Website_InfoURL.svg)
 
 **Full Name:** `Ops.Website.InfoURL`
 
-**Description:** Information about the current URL
+Information about the current URL.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -90,16 +90,16 @@
 - **Port** (String)
 - **Hash Changed** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9UM2YG)
+**Example Patch:** [cables.gl/edit/9UM2YG](https://cables.gl/edit/9UM2YG)
 
-**Docs:** [https://cables.gl/op/Ops.Website.InfoURL](https://cables.gl/op/Ops.Website.InfoURL)
+**Doc:** [cables.gl/op/Ops.Website.InfoURL](https://cables.gl/op/Ops.Website.InfoURL)
 
 ### InIframe
 ![InIframe op](images/ops/Ops_Website_InIframe.svg)
 
 **Full Name:** `Ops.Website.InIframe`
 
-**Description:** Outputs true if the patch is inside of an iframe
+Outputs true if the patch is inside of an iframe.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -109,16 +109,16 @@
 
 - **In Iframe** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/qWDDci)
+**Example Patch:** [cables.gl/edit/qWDDci](https://cables.gl/edit/qWDDci)
 
-**Docs:** [https://cables.gl/op/Ops.Website.InIframe](https://cables.gl/op/Ops.Website.InIframe)
+**Doc:** [cables.gl/op/Ops.Website.InIframe](https://cables.gl/op/Ops.Website.InIframe)
 
 ### LocalStorageNumber
 ![LocalStorageNumber op](images/ops/Ops_Website_LocalStorageNumber.svg)
 
 **Full Name:** `Ops.Website.LocalStorageNumber`
 
-**Description:** Store and retreive a number in browser localstorage
+Store and retreive a number in browser localstorage.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -131,16 +131,16 @@
 - **Stored Number** (Number)
 - **Storage Support** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/9di48i)
+**Example Patch:** [cables.gl/edit/9di48i](https://cables.gl/edit/9di48i)
 
-**Docs:** [https://cables.gl/op/Ops.Website.LocalStorageNumber](https://cables.gl/op/Ops.Website.LocalStorageNumber)
+**Doc:** [cables.gl/op/Ops.Website.LocalStorageNumber](https://cables.gl/op/Ops.Website.LocalStorageNumber)
 
 ### LocalStorageString
 ![LocalStorageString op](images/ops/Ops_Website_LocalStorageString.svg)
 
 **Full Name:** `Ops.Website.LocalStorageString`
 
-**Description:** Store and retreive a string in browser localstorage
+Store and retreive a string in browser localstorage.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -153,16 +153,16 @@
 - **Stored String** (String)
 - **Storage Support** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/QKe58i)
+**Example Patch:** [cables.gl/edit/QKe58i](https://cables.gl/edit/QKe58i)
 
-**Docs:** [https://cables.gl/op/Ops.Website.LocalStorageString](https://cables.gl/op/Ops.Website.LocalStorageString)
+**Doc:** [cables.gl/op/Ops.Website.LocalStorageString](https://cables.gl/op/Ops.Website.LocalStorageString)
 
 ### LocationHashRoute
 ![LocationHashRoute op](images/ops/Ops_Website_LocationHashRoute.svg)
 
 **Full Name:** `Ops.Website.LocationHashRoute`
 
-**Description:** gives updated information about window.location.hash
+gives updated information about window.location.hash.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -175,16 +175,16 @@
 - **Changed** (Trigger)
 - **Matching** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EfiWpG)
+**Example Patch:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
 
-**Docs:** [https://cables.gl/op/Ops.Website.LocationHashRoute](https://cables.gl/op/Ops.Website.LocationHashRoute)
+**Doc:** [cables.gl/op/Ops.Website.LocationHashRoute](https://cables.gl/op/Ops.Website.LocationHashRoute)
 
 ### SetLocationHash
 ![SetLocationHash op](images/ops/Ops_Website_SetLocationHash.svg)
 
 **Full Name:** `Ops.Website.SetLocationHash`
 
-**Description:** sets window.location.hash to the specified value(s)
+sets window.location.hash to the specified value(s).
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -198,16 +198,16 @@
 
 - *Visit [Ops.Website.SetLocationHash documentation](https://cables.gl/op/Ops.Website.SetLocationHash) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/EfiWpG)
+**Example Patch:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
 
-**Docs:** [https://cables.gl/op/Ops.Website.SetLocationHash](https://cables.gl/op/Ops.Website.SetLocationHash)
+**Doc:** [cables.gl/op/Ops.Website.SetLocationHash](https://cables.gl/op/Ops.Website.SetLocationHash)
 
 ### UrlQueryParams_v2
 ![UrlQueryParams_v2 op](images/ops/Ops_Website_UrlQueryParams_v2.svg)
 
 **Full Name:** `Ops.Website.UrlQueryParams_v2`
 
-**Description:** Returns a URL query parameter
+Returns a URL query parameter.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -218,8 +218,8 @@
 
 - **Result** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/2SE58i)
+**Example Patch:** [cables.gl/edit/2SE58i](https://cables.gl/edit/2SE58i)
 
-**Docs:** [https://cables.gl/op/Ops.Website.UrlQueryParams_v2](https://cables.gl/op/Ops.Website.UrlQueryParams_v2)
+**Doc:** [cables.gl/op/Ops.Website.UrlQueryParams_v2](https://cables.gl/op/Ops.Website.UrlQueryParams_v2)
 
 

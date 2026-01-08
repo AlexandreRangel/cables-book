@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Extension.Standalone.Files.CreateFile`
 
-**Description:** Create a new empty file on your local harddrive
+Create a new empty file on your local harddrive.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -21,16 +21,16 @@
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/dhvNAs)
+**Example Patch:** [cables.gl/edit/dhvNAs](https://cables.gl/edit/dhvNAs)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.CreateFile](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile)
 
 ### Exist
 ![Exist op](images/ops/Ops_Extension_Standalone_Files_Exist.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Exist`
 
-**Description:** Check if a file exists on the local file system
+Check if a file exists on the local file system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -41,16 +41,16 @@
 
 - **Exists** (booleanNumber)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/XlQrun)
+**Example Patch:** [cables.gl/edit/XlQrun](https://cables.gl/edit/XlQrun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Exist](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Exist](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist)
 
 ### FileUrlToPath
 ![FileUrlToPath op](images/ops/Ops_Extension_Standalone_Files_FileUrlToPath.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.FileUrlToPath`
 
-**Description:** convert file-url to path
+convert file-url to path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -60,16 +60,16 @@
 
 - **Path** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/upnVAs)
+**Example Patch:** [cables.gl/edit/upnVAs](https://cables.gl/edit/upnVAs)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath)
 
 ### Makedir
 ![Makedir op](images/ops/Ops_Extension_Standalone_Files_Makedir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Makedir`
 
-**Description:** Create a directory on the local file system
+Create a directory on the local file system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -80,16 +80,16 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/q5evun)
+**Example Patch:** [cables.gl/edit/q5evun](https://cables.gl/edit/q5evun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Makedir](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir)
 
 ### OpenFileManager
 ![OpenFileManager op](images/ops/Ops_Extension_Standalone_Files_OpenFileManager.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.OpenFileManager`
 
-**Description:** Open the native file manager application using that path
+Open the native file manager application using that path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -100,16 +100,16 @@
 
 - *Visit [Ops.Extension.Standalone.Files.OpenFileManager documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager)
 
 ### PathToFileUrl
 ![PathToFileUrl op](images/ops/Ops_Extension_Standalone_Files_PathToFileUrl.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.PathToFileUrl`
 
-**Description:** convert local path to file-url
+convert local path to file-url.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -119,16 +119,16 @@
 
 - **FileUrl** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/pekPAs)
+**Example Patch:** [cables.gl/edit/pekPAs](https://cables.gl/edit/pekPAs)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl)
 
 ### ReadDir
 ![ReadDir op](images/ops/Ops_Extension_Standalone_Files_ReadDir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.ReadDir`
 
-**Description:** Read all entries in a directory
+Read all entries in a directory.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -141,16 +141,16 @@
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/I6buun)
+**Example Patch:** [cables.gl/edit/I6buun](https://cables.gl/edit/I6buun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.ReadDir](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir)
 
 ### ResolvePath
 ![ResolvePath op](images/ops/Ops_Extension_Standalone_Files_ResolvePath.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.ResolvePath`
 
-**Description:** Resolves a paths into an absolute path
+Resolves a paths into an absolute path.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -160,16 +160,16 @@
 
 - **Result** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath)
 
 ### SelectDir
 ![SelectDir op](images/ops/Ops_Extension_Standalone_Files_SelectDir.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SelectDir`
 
-**Description:** Choose a directory on your hard drive
+Choose a directory on your hard drive.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -181,16 +181,16 @@
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectDir](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir)
 
 ### SelectFile
 ![SelectFile op](images/ops/Ops_Extension_Standalone_Files_SelectFile.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SelectFile`
 
-**Description:** Choose a file on your hard drive
+Choose a file on your hard drive.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -202,16 +202,16 @@
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/M58UAs)
+**Example Patch:** [cables.gl/edit/M58UAs](https://cables.gl/edit/M58UAs)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectFile](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile)
 
 ### Stat
 ![Stat op](images/ops/Ops_Extension_Standalone_Files_Stat.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Stat`
 
-**Description:** Get statistics about a file on the local file system
+Get statistics about a file on the local file system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -225,16 +225,16 @@
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.Stat#example](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Stat](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Stat](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat)
 
 ### SystemDirs
 ![SystemDirs op](images/ops/Ops_Extension_Standalone_Files_SystemDirs.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.SystemDirs`
 
-**Description:** Get Default System Directories Paths
+Get Default System Directories Paths.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -248,16 +248,16 @@
 - **Desktop** (String)
 - **Exe** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/7hftun)
+**Example Patch:** [cables.gl/edit/7hftun](https://cables.gl/edit/7hftun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs)
 
 ### Watch
 ![Watch op](images/ops/Ops_Extension_Standalone_Files_Watch.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.Watch`
 
-**Description:** Watch a directory, get a trigger when a file changes
+Watch a directory, get a trigger when a file changes.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -273,16 +273,16 @@
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
+**Example Patch:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.Watch](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Watch](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch)
 
 ### WriteBinaryFileFromBase64
 ![WriteBinaryFileFromBase64 op](images/ops/Ops_Extension_Standalone_Files_WriteBinaryFileFromBase64.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64`
 
-**Description:** Create a binary file on the local file system from a base64 string
+Create a binary file on the local file system from a base64 string.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -294,16 +294,16 @@
 
 - *Visit [Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64 documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for output port details*
 
-**Example Patch:** [Open in Editor](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
+**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64)
 
 ### WriteTextFile
 ![WriteTextFile op](images/ops/Ops_Extension_Standalone_Files_WriteTextFile.svg)
 
 **Full Name:** `Ops.Extension.Standalone.Files.WriteTextFile`
 
-**Description:** Write a string to a text file on the local file system
+Write a string to a text file on the local file system.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -317,8 +317,8 @@
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/PT9Aun)
+**Example Patch:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
 
-**Docs:** [https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile)
+**Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile)
 
 

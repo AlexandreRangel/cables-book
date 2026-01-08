@@ -9,7 +9,7 @@
 
 **Full Name:** `Ops.Devices.WebXr.Vr.Vr`
 
-**Description:** rendering on webxr virtual reality immersive devices
+rendering on webxr virtual reality immersive devices.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -34,16 +34,16 @@
 - **Texture** (Object)
 - **Texture Depth** (Object)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
+**Example Patch:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr](https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr)
+**Doc:** [cables.gl/op/Ops.Devices.WebXr.Vr.Vr](https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr)
 
 ### VrController
 ![VrController op](images/ops/Ops_Devices_WebXr_Vr_VrController.svg)
 
 **Full Name:** `Ops.Devices.WebXr.Vr.VrController`
 
-**Description:** tracking of vr hand controller
+tracking of vr hand controller.
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -78,8 +78,8 @@
 - **Transformed Position** (Trigger)
 - **Found** (Number)
 
-**Example Patch:** [Open in Editor](https://cables.gl/edit/IzKYx5)
+**Example Patch:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
 
-**Docs:** [https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController](https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController)
+**Doc:** [cables.gl/op/Ops.Devices.WebXr.Vr.VrController](https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController)
 
 
