@@ -16,10 +16,6 @@ create a cables logo which links to cables gl.
 - **Size** (Number)
 - **Opacity** (Number)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.Utils.CablesLink documentation](https://cables.gl/op/Ops.Html.Utils.CablesLink) for output port details*
-
 **Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.CablesLink](https://cables.gl/op/Ops.Html.Utils.CablesLink)

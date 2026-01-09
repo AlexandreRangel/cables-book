@@ -72,7 +72,11 @@ t * t * t;   // Cubic
 **Ease Out (slow end):**
 ```javascript
 // Assume: t is normalized to [0..1]
-1 - (1 - t) * (1 - t);
+1
+
+- (1
+- t) * (1
+- t);
 ```
 
 **Ease In-Out (smooth both):**
@@ -150,7 +154,8 @@ Property 3 o---------------o----------
 
 Organize animations into tracks:
 
-- **Property tracks** - Individual values
+- **Property tracks**
+- Individual values
 - **Trigger tracks** - Fire events at specific times
 - **Audio tracks** - Sync with music
 
@@ -161,7 +166,9 @@ The new animation system in Cables.gl introduces powerful non-linear animation c
 ### What Are Animation Clips?
 
 Animation clips are self-contained animation sequences that can be:
-- **Reusable** - Create once, apply to multiple parameters
+
+- **Reusable**
+- Create once, apply to multiple parameters
 - **Addable** - Layer multiple clips together (additive blending)
 - **Mixable** - Blend between clips with different weights
 - **Non-linear** - Don't require strict sequential playback
@@ -202,7 +209,8 @@ Once created, clips can be applied to any other Anim operator:
 
 Clips support different looping behaviors:
 
-- **None** - Play once and stop
+- **None**
+- Play once and stop
 - **Repeat** - Loop from start to end
 - **Mirror** - Play forward, then backward
 - **Offset** - Continue from end value
@@ -267,7 +275,10 @@ Smooth transition from walk to run
 #### Organizing Clips
 
 Clips are stored within your project and can be:
-- **Renamed** - Right-click clip in timeline -> Rename
+
+- **Renamed**
+- Right
+-click clip in timeline -> Rename
 - **Duplicated** - Copy clip to create variations
 - **Deleted** - Remove unused clips
 - **Exported/Imported** - Share clips between projects

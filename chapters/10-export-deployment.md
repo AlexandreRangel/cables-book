@@ -62,9 +62,10 @@ Export as an npm package for integration with other JavaScript projects.
 1. Click the export/download button in the editor
 2. Choose "Standalone" export
 3. Configure options:
-   - Include minified code
-   - Include source maps (for debugging)
-   - Asset optimization level
+
+- Include minified code
+- Include source maps (for debugging)
+- Asset optimization level
 
 ### Step 3: Download
 
@@ -285,7 +286,8 @@ If you deploy under a sub-path (e.g., `https://site.com/myproject/`), ensure all
 
 Your exported patch is static files - host anywhere:
 
-- **GitHub Pages** - Free, great for projects
+- **GitHub Pages**
+- Free, great for projects
 - **Netlify** - Free tier, easy deployment
 - **Vercel** - Free tier, automatic deploys
 - **Amazon S3** - Scalable, pay-per-use
@@ -1748,6 +1750,7 @@ Code signing is essential for smooth app distribution on macOS and Windows. Unsi
 #### macOS Code Signing
 
 **Requirements:**
+
 - Apple Developer Account ($99/year)
 - Valid code signing certificate
 - Notarization (required for macOS 10.15+)
@@ -1844,6 +1847,7 @@ npm run build:mac
 #### Windows Code Signing
 
 **Requirements:**
+
 - Code signing certificate (purchased from certificate authority)
 - Or use self-signed certificate for testing (not recommended for distribution)
 

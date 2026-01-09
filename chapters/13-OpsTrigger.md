@@ -113,10 +113,6 @@ Lets a trigger through every nth time (trigger limiter).
 
 Outputs the last number of the input port which was triggered.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Trigger.NumberByTrigger documentation](https://cables.gl/op/Ops.Trigger.NumberByTrigger) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Number** (Number)
@@ -550,10 +546,6 @@ Triggers only once when threshold is crossed.
 
 - **Threshold** (Number)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Trigger.Threshold documentation](https://cables.gl/op/Ops.Trigger.Threshold) for output port details*
-
 **Example Patch:** [cables.gl/edit/pG-Mwq](https://cables.gl/edit/pG-Mwq)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Threshold](https://cables.gl/op/Ops.Trigger.Threshold)
@@ -949,10 +941,6 @@ triggers when texture has changed.
 
 Receives triggers from a TriggerSend op with the same variable name.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Trigger.TriggerReceive documentation](https://cables.gl/op/Ops.Trigger.TriggerReceive) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Triggered** (Trigger)
@@ -1011,10 +999,6 @@ Allows triggers to be sent to a TriggerReceive op with the same variable name.
 
 - **Trigger** (Trigger)
 - **Named Trigger** (String)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Trigger.TriggerSendNamed documentation](https://cables.gl/op/Ops.Trigger.TriggerSendNamed) for output port details*
 
 **Example Patch:** [cables.gl/edit/Tc3pcI](https://cables.gl/edit/Tc3pcI)
 

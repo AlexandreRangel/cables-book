@@ -97,14 +97,6 @@ Get information about an anim object.
 
 Automatically starts the timeline playback when opening patch.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.TimeLine.AutoPlay documentation](https://cables.gl/op/Ops.TimeLine.AutoPlay) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.TimeLine.AutoPlay#example](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.AutoPlay](https://cables.gl/op/Ops.TimeLine.AutoPlay)
@@ -146,10 +138,6 @@ jump to a key in the timeline.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Frame** (Number)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.TimeLine.GotoFrame documentation](https://cables.gl/op/Ops.TimeLine.GotoFrame) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.TimeLine.GotoFrame#example](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
 
@@ -208,10 +196,6 @@ configure the timeline for the current patch.
 
 use position and play pause state of cables timeline.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.TimeLine.TimeLineControls documentation](https://cables.gl/op/Ops.TimeLine.TimeLineControls) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
@@ -256,10 +240,6 @@ use position and play pause state of cables timeline.
 **Full Name:** `Ops.TimeLine.TimeLineFrame`
 
 Returns the current frame number of the timeline.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.TimeLine.TimeLineFrame documentation](https://cables.gl/op/Ops.TimeLine.TimeLineFrame) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -423,10 +403,6 @@ set current time of timeline.
 
 Returns the current time of the timeline.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.TimeLine.TimeLineTime documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTime) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Time** (Number)
@@ -447,10 +423,6 @@ toggle between timeline playing and being paused.
 
 - **Play** (Number: Boolean)
 - **Public** (20): MY IDENTITY PATTERN
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.TimeLine.TimeLineTogglePlay documentation](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
 

@@ -107,10 +107,6 @@ sends an array via socketcluster/websocket.
 - **Data** (Array)
 - **Public** (2): MOUSE MOVEMENT SEND
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray)
@@ -128,10 +124,6 @@ Sends boolean value via socketcluster/websocket.
 - **Socket** (Object)
 - **Topic** (String)
 - **Data** (Number: Boolean)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
 
@@ -151,10 +143,6 @@ sends a number via socketcluster/websocket.
 - **Topic** (String)
 - **Data** (Number)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber)
@@ -172,10 +160,6 @@ sends a string via socketcluster/websocket.
 - **Socket** (Object:Socketcluster)
 - **Topic** (String)
 - **Data** (String)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString documentation](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
 

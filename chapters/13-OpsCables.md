@@ -30,10 +30,6 @@ outputs the path to the assets.
 
 Output the cables URL of the current editor environment.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Cables.CablesInfo documentation](https://cables.gl/op/Ops.Cables.CablesInfo) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **URL** (String)
@@ -59,10 +55,6 @@ Useful when a cables patch is embedded into a website. All parameters (`Value 1`
 - **Public** (7): LANDINGPORTAFOLIO
 - **LOGICX BED** (PUBLIC): wirmachenbunt - Published Sep 30, 2021 at 12:25
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Cables.CallBack_v2 documentation](https://cables.gl/op/Ops.Cables.CallBack_v2) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Cables.CallBack_v2#example](https://cables.gl/op/Ops.Cables.CallBack_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Cables.CallBack_v2](https://cables.gl/op/Ops.Cables.CallBack_v2)
@@ -73,10 +65,6 @@ Useful when a cables patch is embedded into a website. All parameters (`Value 1`
 **Full Name:** `Ops.Cables.FPS_v2`
 
 output current frames per second.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Cables.FPS_v2 documentation](https://cables.gl/op/Ops.Cables.FPS_v2) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -142,10 +130,6 @@ Get op name by id.
 
 Outputs the current subpatch op name.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Cables.GetSubPatchName documentation](https://cables.gl/op/Ops.Cables.GetSubPatchName) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Name** (String)
@@ -165,10 +149,6 @@ Create a loading job while input is true.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Loading Active** (Number: Boolean)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Cables.LoadingJob documentation](https://cables.gl/op/Ops.Cables.LoadingJob) for output port details*
 
 **Example Patch:** [cables.gl/edit/bzn9z1](https://cables.gl/edit/bzn9z1)
 
@@ -206,10 +186,6 @@ trigger events / get information about asset-loading status.
 
 read patch config when embedding on another page.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Cables.PatchInfo_v2 documentation](https://cables.gl/op/Ops.Cables.PatchInfo_v2) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Config** (Object)
@@ -229,10 +205,6 @@ read patch config when embedding on another page.
 **Full Name:** `Ops.Cables.UIMode`
 
 Outputs `true` if patch is executed in the cables editor (UI).
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Cables.UIMode documentation](https://cables.gl/op/Ops.Cables.UIMode) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

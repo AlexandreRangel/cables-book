@@ -30,10 +30,6 @@ vibrating a mobile device.
 
 tries to get the geo coordinates from the mobile device/browser.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Mobile.GeoLocation documentation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Browser Support** (booleanNumber)
@@ -131,10 +127,6 @@ detect two finger pinch gestures on touchscreens.
 
 get orientation of the physical screen.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Mobile.ScreenOrientation_v2 documentation](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Angle** (Number)
@@ -150,10 +142,6 @@ get orientation of the physical screen.
 **Full Name:** `Ops.Devices.Mobile.ShakeGesture`
 
 Reads the accelerometer data from a mobile device.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Mobile.ShakeGesture documentation](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

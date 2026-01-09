@@ -91,10 +91,6 @@ Get a string variable value at time of trigger.
 
 Get a variable array.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Vars.VarGetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetArray_v2) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Value** (Array)
@@ -109,10 +105,6 @@ Get a variable array.
 **Full Name:** `Ops.Vars.VarGetNumber_v2`
 
 read a variable number.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Vars.VarGetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetNumber_v2) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -148,10 +140,6 @@ Get a variable object.
 
 String variable getter.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Vars.VarGetString documentation](https://cables.gl/op/Ops.Vars.VarGetString) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Value** (String)
@@ -166,10 +154,6 @@ String variable getter.
 **Full Name:** `Ops.Vars.VarGetTexture_v2`
 
 get a texture from a variable.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Vars.VarGetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarGetTexture_v2) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -210,10 +194,6 @@ Set a variable array.
 
 - **Value** (Array)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Vars.VarSetArray_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetArray_v2) for output port details*
-
 **Example Patch:** [cables.gl/edit/3LkNp6](https://cables.gl/edit/3LkNp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetArray_v2](https://cables.gl/op/Ops.Vars.VarSetArray_v2)
@@ -228,10 +208,6 @@ set a variable number.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Number)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Vars.VarSetNumber_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetNumber_v2) for output port details*
 
 **Example Patch:** [cables.gl/edit/1tfFT6](https://cables.gl/edit/1tfFT6)
 
@@ -248,10 +224,6 @@ Set a variable object.
 
 - **Value** (Object)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Vars.VarSetObject_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetObject_v2) for output port details*
-
 **Example Patch:** [cables.gl/edit/0pVTp6](https://cables.gl/edit/0pVTp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetObject_v2](https://cables.gl/op/Ops.Vars.VarSetObject_v2)
@@ -267,10 +239,6 @@ Set string variable.
 
 - **Value** (String)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Vars.VarSetString_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetString_v2) for output port details*
-
 **Example Patch:** [cables.gl/edit/W14clJ](https://cables.gl/edit/W14clJ)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetString_v2](https://cables.gl/op/Ops.Vars.VarSetString_v2)
@@ -285,10 +253,6 @@ set a texture variable.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Value** (Object:Texture)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Vars.VarSetTexture_v2 documentation](https://cables.gl/op/Ops.Vars.VarSetTexture_v2) for output port details*
 
 **Example Patch:** [cables.gl/edit/lkS998](https://cables.gl/edit/lkS998)
 

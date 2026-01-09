@@ -11,10 +11,6 @@
 
 Reports the browser being used.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Browser.BrowserInfo_v3 documentation](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Is Mobile** (booleanNumber)
@@ -51,10 +47,6 @@ Reports the browser being used.
 
 Get light/dark color scheme preference of the browser.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Browser.ColorScheme documentation](https://cables.gl/op/Ops.Devices.Browser.ColorScheme) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Color Scheme** (String)
@@ -77,10 +69,6 @@ Move back or forward in the browser navigation history.
 
 - **Back** (Trigger)
 - **Forward** (Trigger)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Devices.Browser.History documentation](https://cables.gl/op/Ops.Devices.Browser.History) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Devices.Browser.History#example](https://cables.gl/op/Ops.Devices.Browser.History#example)
 

@@ -135,10 +135,6 @@ Number op which only outputs integers.
 
 Returns the maximum safe integer (number, constant).
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Number.MaximumSafeInteger documentation](https://cables.gl/op/Ops.Number.MaximumSafeInteger) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Max Int** (Number)
@@ -153,10 +149,6 @@ Returns the maximum safe integer (number, constant).
 **Full Name:** `Ops.Number.MinimumSafeInteger`
 
 Returns the minimum safe integer (number, constant).
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Number.MinimumSafeInteger documentation](https://cables.gl/op/Ops.Number.MinimumSafeInteger) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

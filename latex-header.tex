@@ -34,21 +34,25 @@
 %% Format: FontSize in pt, Leading = line height
 %% ------------------------------------------------------------
 \newcommand{\SectionOneFontSize}{19}      % Chapter titles
-\newcommand{\SectionOneLeading}{16}
+\newcommand{\SectionOneLeading}{14}
 
 \newcommand{\SectionTwoFontSize}{16}      % Major sections
-\newcommand{\SectionTwoLeading}{12}
+\newcommand{\SectionTwoLeading}{10}
+\newcommand{\SectionTwoSpacingBefore}{1.0ex}  % Spacing before major sections
+\newcommand{\SectionTwoSpacingAfter}{0.9ex}  % Spacing after major sections
 
 \newcommand{\SectionThreeFontSize}{13.5}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{9}
-\newcommand{\SectionThreeSpacingBefore}{1.5ex}  % Spacing before subsections
-\newcommand{\SectionThreeSpacingAfter}{1.85ex}  % Spacing after subsections
+\newcommand{\SectionThreeSpacingBefore}{0.8ex}  % Spacing before subsections
+\newcommand{\SectionThreeSpacingAfter}{1.2ex}  % Spacing after subsections
 
 \newcommand{\SubsubsectionSpacingBefore}{2.2ex}  % Spacing before subsubsections 
 \newcommand{\SubsubsectionSpacingAfter}{1.2ex }  
 
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
-\newcommand{\SectionFourLeading}{10}
+\newcommand{\SectionFourLeading}{10.5}
+\newcommand{\SectionFourSpacingBefore}{0.4ex}  % Spacing before paragraph headers
+\newcommand{\SectionFourSpacingAfter}{0.8ex} 
 
 %% ------------------------------------------------------------
 %% SECTION HEADINGS - Colors (RGB 0-255)
@@ -84,7 +88,7 @@
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
 \newcommand{\OpImageHeightFraction}{0.055}  % Op image height fraction of \textheight (width scales proportionally)
-\newcommand{\OpImageSpacing}{-0.4\baselineskip}  % Spacing before/after op images
+\newcommand{\OpImageSpacing}{-0.35\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.91\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.0}      % Line spacing in ops sections
 
@@ -94,7 +98,7 @@
 \newcommand{\CodeBlockFontSize}{11}     % Font size in points
 \newcommand{\CodeBlockLeadingPt}{12}  % Line height (leading) in points
 \newcommand{\CodeBlockLineSpacing}{1.15}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
-\newcommand{\CodeBlockSpacingBefore}{0.7\baselineskip}  % Space before code blocks
+\newcommand{\CodeBlockSpacingBefore}{0.85\baselineskip}  % Space before code blocks
 \newcommand{\CodeBlockPaddingTop}{7pt}    % Top padding inside code blocks
 \newcommand{\CodeBlockPaddingBottom}{6pt} % Bottom padding inside code blocks
 \newcommand{\CodeBlockPaddingLeft}{10pt}    % Left padding inside code blocks
@@ -104,22 +108,24 @@
 %% BODY TEXT
 %% ------------------------------------------------------------
 \newcommand{\BodyTextFontSize}{11pt}      % Body text font size
-\newcommand{\BodyTextLeading}{13.3pt}    % Body text line height (leading) - typically 1.2x font size
+\newcommand{\BodyTextLeading}{13.1pt}    % Body text line height (leading) - typically 1.2x font size
+
+\newcommand{\ListItemSpacing}{0.36ex}
 
 %% ------------------------------------------------------------
 %% IMAGES
 %% ------------------------------------------------------------
 \newcommand{\ImageWidthFraction}{1.0}     % General image width (0.95 = 95% of column width for 2-col layout)
-\newcommand{\YouTubeThumbnailWidthFraction}{0.5}     % YouTube thumbnail width (0.33 = 33% of column width for 2-col layout)
+\newcommand{\YouTubeThumbnailWidthFraction}{0.48}     % YouTube thumbnail width (0.33 = 33% of column width for 2-col layout)
 
 
 %% ------------------------------------------------------------
 %% CARDS (Video blocks + Code blocks)
 %% ------------------------------------------------------------
-\newcommand{\CardGrayPercent}{9}         % Background gray level (black!10 ~= very light)
+\newcommand{\CardGrayPercent}{7}         % Background gray level (black!10 ~= very light)
 \newcommand{\CardCornerRadius}{4pt}       % Rounded corners
 \newcommand{\CardPaddingX}{8pt}           % Inner left/right padding
-\newcommand{\CardPaddingY}{12pt}          % Inner top/bottom padding
+\newcommand{\CardPaddingY}{11pt}          % Inner top/bottom padding
 \newcommand{\VideoCardFontSizePt}{14.0}   % Video card font size
 \newcommand{\VideoCardLeadingPt}{18.2}    % Video card leading/line-height
 \newcommand{\VideoCardTitleFontSizePt}{11.0}   % Video card title font size (1pt larger than \small which is ~10pt)
@@ -141,6 +147,7 @@
 %% ============================================================
 %% END OF EASY-TO-CHANGE SETTINGS
 %% ============================================================
+
 
 %% Apply 2-column gutter width (space between columns)
 \AtBeginDocument{%
@@ -171,6 +178,8 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{needspace} % For preventing orphans
+\usepackage{enumitem} % For list spacing control
+\usepackage{microtype} % Better typography and word breaking
 % longtable is needed even when Pandoc skips it; patched in AtBeginDocument
 
 %% Prevent orphan headings (heading at end of column/page with no content after)
@@ -317,6 +326,8 @@
 \titleformat{\subsection}
   {\fontsize{\SectionTwoFontSize}{\SectionTwoLeading}\bfseries\color{sectiontwocolor}}
   {\thesubsection}{1em}{}
+%% Format: \titlespacing{command}{left}{before-sep}{after-sep}
+\titlespacing*{\subsection}{0pt}{\SectionTwoSpacingBefore}{\SectionTwoSpacingAfter}
 
 %% Section 3 (subsections)
 \titleformat{\subsubsection}
@@ -347,9 +358,15 @@
 \titleformat{\paragraph}
   {\fontsize{\SectionFourFontSize}{\SectionFourLeading}\bfseries\color{sectionfourcolor}}
   {}{0em}{}
+%% Format: \titlespacing{command}{left}{before-sep}{after-sep}
+\titlespacing*{\paragraph}{0pt}{\SectionFourSpacingBefore}{\SectionFourSpacingAfter}
 
 %% Set section numbering depth to 3
 \setcounter{secnumdepth}{3}
+
+%% List item spacing
+\setlist[itemize]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt}
+\setlist[enumerate]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt}
 
 %% Code block styling
 \usepackage{fancyvrb}
@@ -462,6 +479,13 @@
 \AtBeginDocument{
   % Set body text font size and leading (only affects body text, not headings or code blocks)
   \fontsize{\BodyTextFontSize}{\BodyTextLeading}\selectfont
+  % Enable better word breaking to prevent overflow
+  \tolerance=1000
+  \emergencystretch=3em
+  \hyphenpenalty=50
+  \exhyphenpenalty=50
+  % Allow breaking of long words (like TextureEffect)
+  \sloppy
   \hypersetup{
     colorlinks=true,
     linkcolor=sectiononecolor,

@@ -58,14 +58,6 @@ get view matrix from a gltf camera.
 
 gltf draco compression library.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Gl.GLTF.GltfDracoCompression documentation](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression) for output port details*
-
 **Example Patch:** [cables.gl/edit/WFva2K](https://cables.gl/edit/WFva2K)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression)

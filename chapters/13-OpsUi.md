@@ -15,10 +15,6 @@ Organize and group your patch operators.
 
 - **Delete** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.Area documentation](https://cables.gl/op/Ops.Ui.Area) for output port details*
-
 **Example Patch:** [cables.gl/edit/ozgnnR](https://cables.gl/edit/ozgnnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.Area](https://cables.gl/op/Ops.Ui.Area)
@@ -50,14 +46,6 @@ Cables UI Event Triggers.
 
 Displays a comment in the patch area.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Ui.Comment_v2 documentation](https://cables.gl/op/Ops.Ui.Comment_v2) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.Comment_v2 documentation](https://cables.gl/op/Ops.Ui.Comment_v2) for output port details*
-
 **Example Patch:** [cables.gl/edit/7Tyqii](https://cables.gl/edit/7Tyqii)
 
 **Doc:** [cables.gl/op/Ops.Ui.Comment_v2](https://cables.gl/op/Ops.Ui.Comment_v2)
@@ -68,10 +56,6 @@ Displays a comment in the patch area.
 **Full Name:** `Ops.Ui.GetCablesDefaultTheme`
 
 Get the default theme colors of the cables editor.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Ui.GetCablesDefaultTheme documentation](https://cables.gl/op/Ops.Ui.GetCablesDefaultTheme) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -107,10 +91,6 @@ maximize renderer to window size.
 
 Helper op for sub-patches.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Ui.PatchInput documentation](https://cables.gl/op/Ops.Ui.PatchInput) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Create Port** (Dynamic)
@@ -129,10 +109,6 @@ Helper op for sub-patches.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Create Port** (Dynamic)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.PatchOutput documentation](https://cables.gl/op/Ops.Ui.PatchOutput) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Ui.PatchOutput#example](https://cables.gl/op/Ops.Ui.PatchOutput#example)
 
@@ -190,10 +166,6 @@ Set cables editor colors.
 - **PatchId** (String)
 - **Public** (3): 1
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.Subpatch2Template documentation](https://cables.gl/op/Ops.Ui.Subpatch2Template) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Ui.Subpatch2Template#example](https://cables.gl/op/Ops.Ui.Subpatch2Template#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.Subpatch2Template](https://cables.gl/op/Ops.Ui.Subpatch2Template)
@@ -204,10 +176,6 @@ Set cables editor colors.
 **Full Name:** `Ops.Ui.SubPatchInput`
 
 *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatchInput) for details*.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Ui.SubPatchInput documentation](https://cables.gl/op/Ops.Ui.SubPatchInput) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -224,14 +192,6 @@ Set cables editor colors.
 
 *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for details*.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Ui.SubPatchOutput documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.SubPatchOutput documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Ui.SubPatchOutput#example](https://cables.gl/op/Ops.Ui.SubPatchOutput#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.SubPatchOutput](https://cables.gl/op/Ops.Ui.SubPatchOutput)
@@ -247,10 +207,6 @@ Displays information of the distribution of numerical values in an array.
 
 - **Array Numbers** (Array)
 - **Titles** (Array)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.VizArrayChart documentation](https://cables.gl/op/Ops.Ui.VizArrayChart) for output port details*
 
 **Example Patch:** [cables.gl/edit/bPWV2f](https://cables.gl/edit/bPWV2f)
 
@@ -336,10 +292,6 @@ Displays graphs for the numbers on the input port in the patchfield.
 - **Fill Graph** (Number: Boolean)
 - **Reset** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.VizGraph documentation](https://cables.gl/op/Ops.Ui.VizGraph) for output port details*
-
 **Example Patch:** [cables.gl/edit/4D2DnR](https://cables.gl/edit/4D2DnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizGraph](https://cables.gl/op/Ops.Ui.VizGraph)
@@ -378,10 +330,6 @@ Log changes of input values line by line, use like a logfile for debugging.
 - **String** (String)
 - **Object** (Object)
 - **Clear** (Trigger)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.VizLogger documentation](https://cables.gl/op/Ops.Ui.VizLogger) for output port details*
 
 **Example Patch:** [cables.gl/edit/-4pkq4](https://cables.gl/edit/-4pkq4)
 
@@ -441,10 +389,6 @@ Show information about any object for patch debugging.
 - **Sort Keys** (Number: Boolean)
 - **Font Size** (Number)
 - **Scroll** (Number)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.VizObject documentation](https://cables.gl/op/Ops.Ui.VizObject) for output port details*
 
 **Example Patch:** [cables.gl/edit/PKAmq4](https://cables.gl/edit/PKAmq4)
 
@@ -511,10 +455,6 @@ Show pixel colors of connected texture as a table, useful for debugging.
 
 - **Texture** (Object:Texture)
 - **Row Start** (Number: Integer)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Ui.VizTextureTable documentation](https://cables.gl/op/Ops.Ui.VizTextureTable) for output port details*
 
 **Example Patch:** [cables.gl/edit/kp6oq4](https://cables.gl/edit/kp6oq4)
 

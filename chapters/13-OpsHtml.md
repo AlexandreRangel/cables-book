@@ -151,10 +151,6 @@ compares two images and shows the difference as a pink color.
 
 Outputs the current document body element.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Html.DocumentBody documentation](https://cables.gl/op/Ops.Html.DocumentBody) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Body** (Object)
@@ -536,10 +532,6 @@ Load a font file like .otf, .ttf, .woff via css.
 
 triggers when asynchronous requests finised loading.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Html.FontsLoaded documentation](https://cables.gl/op/Ops.Html.FontsLoaded) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Font Loaded** (Trigger)
@@ -605,10 +597,6 @@ Open another website.
 - **Win Specs** (String)
 - **Rel Attribute** (String)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.HyperLink_v3 documentation](https://cables.gl/op/Ops.Html.HyperLink_v3) for output port details*
-
 **Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
 **Doc:** [cables.gl/op/Ops.Html.HyperLink_v3](https://cables.gl/op/Ops.Html.HyperLink_v3)
@@ -668,10 +656,6 @@ creates a mailto: link to open the default email app.
 - **Email** (String)
 - **Subject** (String)
 - **Execute** (Trigger)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.MailtoLink documentation](https://cables.gl/op/Ops.Html.MailtoLink) for output port details*
 
 **Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
@@ -780,10 +764,6 @@ reload the website.
 
 - **Exec** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.ReloadPage documentation](https://cables.gl/op/Ops.Html.ReloadPage) for output port details*
-
 **Example Patch:** [cables.gl/edit/BPeCci](https://cables.gl/edit/BPeCci)
 
 **Doc:** [cables.gl/op/Ops.Html.ReloadPage](https://cables.gl/op/Ops.Html.ReloadPage)
@@ -846,10 +826,6 @@ Trigger the browser to scroll to top or bottom of an element.
 - **Scroll To Top** (Trigger)
 - **Scroll To Bottom** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.ScrollTo documentation](https://cables.gl/op/Ops.Html.ScrollTo) for output port details*
-
 **Example Patch:** [cables.gl/edit/JEThu1](https://cables.gl/edit/JEThu1)
 
 **Doc:** [cables.gl/op/Ops.Html.ScrollTo](https://cables.gl/op/Ops.Html.ScrollTo)
@@ -865,10 +841,6 @@ close current window.
 
 - **Close** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Html.WindowClose documentation](https://cables.gl/op/Ops.Html.WindowClose) for output port details*
-
 **Example Patch:** [cables.gl/edit/WGBCci](https://cables.gl/edit/WGBCci)
 
 **Doc:** [cables.gl/op/Ops.Html.WindowClose](https://cables.gl/op/Ops.Html.WindowClose)
@@ -879,10 +851,6 @@ close current window.
 **Full Name:** `Ops.Html.WindowHasFocus`
 
 detect if the browser window/tab has focus.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Html.WindowHasFocus documentation](https://cables.gl/op/Ops.Html.WindowHasFocus) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -899,10 +867,6 @@ detect if the browser window/tab has focus.
 **Full Name:** `Ops.Html.WindowInfo`
 
 size of browser window in pixels.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Html.WindowInfo documentation](https://cables.gl/op/Ops.Html.WindowInfo) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

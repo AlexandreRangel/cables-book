@@ -133,28 +133,6 @@ Let's create a simple animated shape!
 
 Here's what your patch should look like:
 
-#### Visualization Options
-
-**Option 1: Screenshot from Real Cables.gl (Most Authentic)**
-
-See [Screenshot Guide](images/screenshot-guide.md) for instructions on capturing real cables.gl patches.
-
-**Option 3: HTML/CSS Interactive**
-
-Open [HTML Version](images/basic-render-chain-html.html) in your browser for an interactive view.
-
-**Option 4: Mermaid Diagram (Simple Flow)**
-
-```mermaid
-graph TD
-    MainLoop[MainLoop] --> trigger BasicMaterial[BasicMaterial]
-    BasicMaterial --> trigger Circle[Circle]
-    
-    style MainLoop fill:#2d2d2d,stroke:#4a4a4a,color:#e0e0e0
-    style BasicMaterial fill:#2d2d2d,stroke:#4a4a4a,color:#e0e0e0
-    style Circle fill:#2d2d2d,stroke:#4a4a4a,color:#e0e0e0
-```
-
 *The basic render chain: MainLoop triggers the BasicMaterial, which then draws the Circle*
 
 ### Step 4: Add Color

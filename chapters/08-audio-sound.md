@@ -146,7 +146,9 @@ AudioSource -> Filter -> Output
 ```
 
 **Filter Types:**
-- Lowpass - Removes high frequencies
+
+- Lowpass
+- Removes high frequencies
 - Highpass - Removes low frequencies  
 - Bandpass - Keeps only middle frequencies
 - Notch - Removes specific frequency

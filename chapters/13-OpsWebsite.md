@@ -11,10 +11,6 @@
 
 cookie of the current website as object.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Website.Cookie documentation](https://cables.gl/op/Ops.Website.Cookie) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Cookie** (Object)
@@ -57,14 +53,6 @@ information about a filename, like url protocol, suffix etc.
 
 will redirect to same URL using https protocol.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Website.ForceHttps documentation](https://cables.gl/op/Ops.Website.ForceHttps) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Website.ForceHttps#example](https://cables.gl/op/Ops.Website.ForceHttps#example)
 
 **Doc:** [cables.gl/op/Ops.Website.ForceHttps](https://cables.gl/op/Ops.Website.ForceHttps)
@@ -75,10 +63,6 @@ will redirect to same URL using https protocol.
 **Full Name:** `Ops.Website.InfoURL`
 
 Information about the current URL.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Website.InfoURL documentation](https://cables.gl/op/Ops.Website.InfoURL) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -100,10 +84,6 @@ Information about the current URL.
 **Full Name:** `Ops.Website.InIframe`
 
 Outputs true if the patch is inside of an iframe.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Website.InIframe documentation](https://cables.gl/op/Ops.Website.InIframe) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -193,10 +173,6 @@ sets window.location.hash to the specified value(s).
 - **Active** (Number: Boolean)
 - **Silent** (Number: Boolean)
 - **Allow Empty** (Number: Boolean)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Website.SetLocationHash documentation](https://cables.gl/op/Ops.Website.SetLocationHash) for output port details*
 
 **Example Patch:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
 

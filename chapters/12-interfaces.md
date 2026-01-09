@@ -1496,19 +1496,19 @@ Combine native ops with HTML for a data dashboard:
 ### Common Issues
 
 1. **CSS Not Applying**
-   - Check selector specificity
-   - Verify CSS is injected after sidebar renders
-   - Use `!important` sparingly
 
+- Check selector specificity
+- Verify CSS is injected after sidebar renders
+- Use `!important` sparingly
 2. **Elements Not Visible**
    - Check z-index values
    - Verify position properties
    - Check for overflow: hidden
-
 3. **Events Not Firing**
-   - Ensure JavaScript runs after DOM is ready
-   - Check event listener attachment
-   - Verify element selectors
+
+- Ensure JavaScript runs after DOM is ready
+- Check event listener attachment
+- Verify element selectors
 
 ### Debugging Tools
 
@@ -1534,15 +1534,10 @@ observer.observe(document.querySelector('.cables-sidebar'), {
 ## Exercises
 
 1. **Basic HTML Interface**: Create a simple HTML overlay with a button and slider that control patch parameters
-
 2. **Styled Sidebar**: Style native sidebar ops with a cohesive color scheme and modern design
-
 3. **Responsive Panel**: Create a sidebar that adapts to different screen sizes
-
 4. **Interactive Dashboard**: Build a complete control panel combining HTML and native ops
-
 5. **Theme Switcher**: Create a custom op that dynamically changes sidebar styling based on user selection
-
 6. **Advanced Styling**: Implement glassmorphism or other modern design trends in your sidebar
 
 

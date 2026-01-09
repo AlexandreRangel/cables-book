@@ -11,10 +11,6 @@
 
 list of midi devices.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Devices.Midi.DeviceList documentation](https://cables.gl/op/Ops.Devices.Midi.DeviceList) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Num Devices** (Number)
@@ -348,10 +344,6 @@ Connect to MIDI device input port.
 - **Note** (Object)
 - **CC** (Object)
 - **NRPN** (Object)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Devices.Midi.MidiOutputDevice documentation](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice) for output port details*
 
 **Example Patch:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
 

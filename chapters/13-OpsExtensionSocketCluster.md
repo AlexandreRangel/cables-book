@@ -121,10 +121,6 @@ sends a trigger via socketcluster/websocket.
 - **Trigger Name** (String)
 - **the name of the trigger** (created with TriggerSend)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.SocketCluster.SocketClusterSendTrigger documentation](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger) for output port details*
-
 **Example Patch:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger)

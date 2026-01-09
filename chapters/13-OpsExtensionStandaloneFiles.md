@@ -96,10 +96,6 @@ Open the native file manager application using that path.
 - **Path** (String)
 - **Open File Manager** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.Standalone.Files.OpenFileManager documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager)
@@ -236,10 +232,6 @@ Get statistics about a file on the local file system.
 
 Get Default System Directories Paths.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Extension.Standalone.Files.SystemDirs documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Home** (String)
@@ -289,10 +281,6 @@ Create a binary file on the local file system from a base64 string.
 - **Trigger** (Trigger)
 - **Base64** (String)
 - **Filename** (String)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64 documentation](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
 

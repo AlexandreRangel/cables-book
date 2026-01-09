@@ -366,7 +366,9 @@ Real-time mesh distortion allows you to dynamically modify geometry vertices dur
 ### Understanding Vertex Manipulation
 
 Mesh distortion works by modifying vertex positions in real-time. Each vertex has:
-- **Position** (X, Y, Z) - Where the vertex is located
+
+- **Position** (X, Y, Z)
+- Where the vertex is located
 - **Normal** (NX, NY, NZ) - Which direction the surface faces
 - **UV Coordinates** (U, V) - Texture mapping coordinates
 
@@ -408,27 +410,28 @@ Material -> Render
 **Step-by-Step Node Setup:**
 
 1. **Create Base Plane:**
-   - Add `Plane` op
-   - Set Width: 10, Height: 5
-   - Set Segments Width: 20, Segments Height: 10 (for smooth distortion)
 
+- Add `Plane` op
+- Set Width: 10, Height: 5
+- Set Segments Width: 20, Segments Height: 10 (for smooth distortion)
 2. **Extract Vertex Data:**
-   - Add `GetVertices` op
-   - Connect Plane -> GetVertices
+
+- Add `GetVertices` op
+- Connect Plane
+-> GetVertices
    - Output: Array of vertex positions
-
 3. **Create Scale Controls:**
-   - Add `Slider` ops for X, Y, Z scale
-   - Or use `Number` ops with values
 
+- Add `Slider` ops for X, Y, Z scale
+- Or use `Number` ops with values
 4. **Apply Scaling:**
-   - Use `ArrayMap` or `ArrayIterator` to multiply each vertex
+- Use `ArrayMap` or `ArrayIterator` to multiply each vertex
    - For each vertex: `[x, y, z] * [scaleX, scaleY, scaleZ]`
-
 5. **Rebuild Geometry:**
-   - Get original normals and UVs from Plane
-   - Add `CustomGeometry` op
-   - Connect: Scaled Positions -> CustomGeometry
+
+- Get original normals and UVs from Plane
+- Add `CustomGeometry` op
+- Connect: Scaled Positions -> CustomGeometry
    - Connect: Original Normals -> CustomGeometry
    - Connect: Original UVs -> CustomGeometry
 
@@ -836,9 +839,9 @@ Camera -> OrbitControls
 For real-time distortion, optimize your setup:
 
 1. **Reduce Vertex Count When Possible:**
-   - Use fewer segments for static walls
-   - Increase segments only where distortion is visible
 
+- Use fewer segments for static walls
+- Increase segments only where distortion is visible
 2. **Cache Calculations:**
    ```javascript
    let cachedVertices = null;
@@ -866,10 +869,9 @@ For real-time distortion, optimize your setup:
    ```
 
 3. **Use Instancing for Multiple Walls:**
-   - Create one distorted wall
+- Create one distorted wall
    - Use `InstancedMesh` to duplicate it
    - Much faster than distorting each wall separately
-
 4. **Update Only When Needed:**
    ```javascript
    // Only update on frame if animation is active
@@ -922,19 +924,18 @@ outUVs.set(inUVs.get()); // Don't modify UVs during distortion
 ### Common Use Cases
 
 1. **Architectural Visualization:**
-   - Bend walls to show different room layouts
-   - Scale walls to demonstrate space variations
 
+- Bend walls to show different room layouts
+- Scale walls to demonstrate space variations
 2. **Interactive Installations:**
-   - User-controlled wall distortion
+- User-controlled wall distortion
    - Audio-reactive bending
-
 3. **Animation:**
-   - Morphing between straight and curved walls
-   - Dynamic space transformations
 
+- Morphing between straight and curved walls
+- Dynamic space transformations
 4. **Game Mechanics:**
-   - Procedural level generation
+- Procedural level generation
    - Dynamic environment changes
 
 ### Troubleshooting
@@ -1057,7 +1058,9 @@ Transform
 ### Matrix Operations
 
 For advanced control, use matrix ops:
-- `MatrixMultiply` - Combine transformations
+
+- `MatrixMultiply`
+- Combine transformations
 - `LookAt` - Point object at target
 - `Billboard` - Always face camera
 - `MatrixInvert` - Reverse transformation
@@ -1155,7 +1158,9 @@ MainLoop -> Camera -> Fog -> [Scene]
 ```
 
 **Types:**
-- Linear fog - Constant density
+
+- Linear fog
+- Constant density
 - Exponential fog - Density increases with distance
 - Height fog - Fog based on Y position
 

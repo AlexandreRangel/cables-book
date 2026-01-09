@@ -80,10 +80,6 @@ is canvas focussed ?.
 
 the size of the canvas in pixels, aspect ratio and pixel density.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Gl.CanvasInfo_v3 documentation](https://cables.gl/op/Ops.Gl.CanvasInfo_v3) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **CSS Width** (Number)
@@ -458,10 +454,6 @@ set gl blendmodes directly.
 **Full Name:** `Ops.Gl.GlInfo_v2`
 
 information about the webgl context.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Gl.GlInfo_v2 documentation](https://cables.gl/op/Ops.Gl.GlInfo_v2) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -1660,10 +1652,6 @@ Create points by sampling texture.
 **Full Name:** `Ops.Gl.TriggerOnCanvasResize`
 
 will trigger when canvas was resized.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Gl.TriggerOnCanvasResize documentation](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

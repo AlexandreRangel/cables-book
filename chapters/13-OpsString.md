@@ -453,10 +453,6 @@ Convert linebreaks to html breaks.
 
 Lorem ipsum dolor sit amet.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.String.LoremIpsum documentation](https://cables.gl/op/Ops.String.LoremIpsum) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **String** (String)
@@ -761,10 +757,6 @@ download a textfile containing the input string.
 - **Download** (Trigger)
 - **Filename** (String)
 - **Content String** (String)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.String.SaveTextFile documentation](https://cables.gl/op/Ops.String.SaveTextFile) for output port details*
 
 **Example Patch:** [cables.gl/edit/mxybpX](https://cables.gl/edit/mxybpX)
 

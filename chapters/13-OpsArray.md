@@ -481,7 +481,11 @@ Convert an array4 to array3 by dropping every 4th number.
 
 **Full Name:** `Ops.Array.Array_v3`
 
-Can generate 3 kinds of arrays: Number - 1,2,3,4 - Normalized - (ContinuousNumberArray).
+Can generate 3 kinds of arrays:
+
+- Number - 1,2,3,4
+- Normalized
+- (ContinuousNumberArray)
 
 **`\inputsymbol`{=latex} Inputs**
 
@@ -2385,10 +2389,6 @@ Copy an array with a trigger, reset to use a default array.
 
 Create a copy of an array.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Array.CopyArraySimple documentation](https://cables.gl/op/Ops.Array.CopyArraySimple) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Result** (Array)
@@ -2469,10 +2469,6 @@ Apply easing curve to numbers in an array.
 **Full Name:** `Ops.Array.EmptyArray`
 
 *Visit [documentation](https://cables.gl/op/Ops.Array.EmptyArray) for details*.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Array.EmptyArray documentation](https://cables.gl/op/Ops.Array.EmptyArray) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -2941,10 +2937,6 @@ Iterate over an array of objects.
 **Full Name:** `Ops.Array.PaletteLibrary`
 
 Contains a collection of color palettes in groups of 5 in an array.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Array.PaletteLibrary documentation](https://cables.gl/op/Ops.Array.PaletteLibrary) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 

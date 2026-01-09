@@ -390,10 +390,6 @@ Set shader defines.
 - **Active** (Number: Boolean)
 - **Public** (4): 1
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Gl.Shader.ShaderDefine documentation](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine#example](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine)

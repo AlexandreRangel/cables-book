@@ -11,10 +11,6 @@
 
 Enter data in a spreadsheet table.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Data.SpreadSheetArray documentation](https://cables.gl/op/Ops.Data.SpreadSheetArray) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Array** (Array)

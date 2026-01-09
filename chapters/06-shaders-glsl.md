@@ -235,7 +235,10 @@ Hard `step()` edges often look jagged. A common pattern is to use `smoothstep()`
 ```glsl
 float aa(float dist, float radius) {
     float edge = 0.002; // tweak for your resolution / style
-    return 1.0 - smoothstep(radius - edge, radius + edge, dist);
+return 1.0
+
+- smoothstep(radius
+- edge, radius + edge, dist);
 }
 ```
 
@@ -414,7 +417,10 @@ float opIntersect(float d1, float d2) {
 // Smooth union
 float opSmoothUnion(float d1, float d2, float k) {
     float h = clamp(0.5 + 0.5 * (d2 - d1) / k, 0.0, 1.0);
-    return mix(d2, d1, h) - k * h * (1.0 - h);
+return mix(d2, d1, h)
+
+- k * h * (1.0
+- h);
 }
 ```
 
@@ -587,34 +593,56 @@ Projection mapping (also called video mapping or spatial augmented reality) invo
 **Critical Notes for Cables.gl Shaders:**
 
 1. **Resolution Handling**: In cables.gl, `resolution` uniform is typically `vec2(width, height)` in pixels. When working with UV coordinates (`vUV`), remember:
-   - `vUV` ranges from `0.0` to `1.0`
-   - Screen space = `vUV * resolution`
-   - Pixel size = `1.0 / resolution`
-   - **Important:** `resolution` is NOT automatically provided - you must connect a `CanvasInfo` or `GetResolution` op to the `resolution` port
 
+- `vUV` ranges from `0.0` to `1.0`
+- Screen space = `vUV * resolution`
+- Pixel size = `1.0 / resolution`
+
+
+- **Important:** `resolution` is NOT automatically provided
+- you must connect a `CanvasInfo` or `GetResolution` op to the `resolution` port
 2. **Texture Sampling**: Most cables.gl shader ops are **WebGL 1.0 / GLSL ES 1.00 style**, where you sample with `texture2D()`. Some WebGL2-based contexts use `texture()` instead.
    - If you’re using **TextureEffect** and a classic fragment shader template (`gl_FragColor`), `texture2D()` is the safe default.
    - If your shader template uses `out vec4 fragColor;` and GLSL 3.00 style syntax, you may need `texture()`.
-
 3. **Coordinate Systems**: 
-   - UV space: `vUV` (0.0 to 1.0) - automatically provided
+
+
+- UV space: `vUV` (0.0 to 1.0)
+- automatically provided
    - Screen space: `vUV * resolution`
    - Normalized screen space: `(vUV - 0.5) * 2.0` (ranges -1.0 to 1.0)
-
 4. **Shader Headers**: Always include precision declaration at the top:
    ```glsl
    precision mediump float;
    ```
 
 5. **Uniform Types**: 
-   - `float`, `vec2`, `vec3`, `vec4` - Fully supported, become Number/Vector ports
-   - `sampler2D` - Fully supported, becomes Texture port
-   - `mat3`, `mat4` - Supported, but verify with Matrix ops in your cables.gl version
-   - `int` - **Not recommended** - Use `float` instead and compare with `< 0.5` patterns
 
+
+- `float`, `vec2`, `vec3`, `vec4`
+- Fully supported, become Number/Vector ports
+
+
+- `sampler2D`
+- Fully supported, becomes Texture port
+
+
+- `mat3`, `mat4`
+- Supported, but verify with Matrix ops in your cables.gl version
+
+
+- `int`
+- **Not recommended**
+- Use `float` instead and compare with `< 0.5` patterns
 6. **Auto-Provided Variables**:
-   - `varying vec2 vUV` - Always available (no need to declare in vertex shader for TextureEffect)
-   - `uniform float time` - Available if you connect a Time op
+
+
+- `varying vec2 vUV`
+- Always available (no need to declare in vertex shader for TextureEffect)
+
+
+- `uniform float time`
+- Available if you connect a Time op
    - `uniform vec2 resolution` - **NOT auto-provided** - must connect manually
 
 ### Cables.gl Shader Compliance Checklist
@@ -1548,7 +1576,10 @@ void main() {
 
 ### Complete Projection Mapping Pipeline
 
-**Built-in Shader Op Ready** - Paste into TextureEffect (Note: This is a complex shader with many uniforms - consider breaking into multiple passes for easier management)
+**Built-in Shader Op Ready**
+
+- Paste into TextureEffect (Note: This is a complex shader with many uniforms
+- consider breaking into multiple passes for easier management)
 
 A comprehensive shader combining all projection mapping features:
 
@@ -1590,7 +1621,8 @@ vec2 perspectiveTransform(vec2 uv, vec2 tl, vec2 tr, vec2 bl, vec2 br) {
 
 vec2 applyDistortion(vec2 uv, float barrel) {
     vec2 center = vec2(0.5, 0.5);
-    vec2 coord = uv - center;
+    vec2 coord = uv
+- center;
     float dist = length(coord);
     float factor = 1.0 + barrel * dist * dist;
     return center + coord * factor;
@@ -1975,17 +2007,15 @@ void main() {
    - Click "+" in your patch
    - Search for "TextureEffect"
    - Add it to your patch
-
 2. **Paste Shader Code:**
-   - Click on the TextureEffect op
-   - Find the "Fragment Shader" field
-   - Paste the shader code (including `precision mediump float;` and `varying vec2 vUV;`)
 
+- Click on the TextureEffect op
+- Find the "Fragment Shader" field
+- Paste the shader code (including `precision mediump float;` and `varying vec2 vUV;`)
 3. **Connect Inputs:**
    - Input texture -> `tex` port (or `tex0`, `tex1`, etc. for multi-texture shaders)
    - `CanvasInfo` or `GetResolution` -> `resolution` port (if shader uses it)
    - Number/Vector ops -> parameter ports (brightness, contrast, corners, etc.)
-
 4. **Get Output:**
    - Connect TextureEffect output to your render target or next effect
 
@@ -1999,21 +2029,18 @@ void main() {
 ### Best Practices for Projection Mapping in Cables.gl
 
 1. **Resolution Handling**: Always use `resolution` uniform for pixel-perfect calculations. Convert between UV space and screen space as needed. **Remember:** resolution is NOT auto-provided - connect it manually.
-
 2. **Performance**: Projection mapping shaders can be expensive. Consider:
-   - Using lower precision where possible (`mediump` instead of `highp`)
-   - Minimizing texture samples
-   - Pre-computing values in JavaScript ops when possible
 
+- Using lower precision where possible (`mediump` instead of `highp`)
+- Minimizing texture samples
+- Pre-computing values in JavaScript ops when possible
 3. **Modular Approach**: Break complex setups into multiple shader passes:
-   - First pass: Geometric correction
-   - Second pass: Color correction
-   - Third pass: Blending
 
+- First pass: Geometric correction
+- Second pass: Color correction
+- Third pass: Blending
 4. **Testing**: Always test with actual projection surfaces when possible. Screen simulation can differ from real-world results.
-
 5. **Calibration**: Use test patterns (grids, color bars) to calibrate geometric and color corrections.
-
 6. **Masking**: Use alpha channel output for blend masks to composite multiple projectors correctly.
 
 ### Debug Visualization Shaders

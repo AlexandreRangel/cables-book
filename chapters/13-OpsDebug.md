@@ -36,10 +36,6 @@ Log incoming values to the console/dev tools.
 - **Number** (Number)
 - **String** (String)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Debug.ConsoleLog documentation](https://cables.gl/op/Ops.Debug.ConsoleLog) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Debug.ConsoleLog#example](https://cables.gl/op/Ops.Debug.ConsoleLog#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.ConsoleLog](https://cables.gl/op/Ops.Debug.ConsoleLog)

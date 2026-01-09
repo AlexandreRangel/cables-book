@@ -222,10 +222,6 @@ Add a uniform input to a compute shader composition.
 
 Outputs textures.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Extension.WebGpu.DefaultTextures documentation](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Result** (Object)
@@ -434,14 +430,6 @@ render into a texture.
 
 *Visit [documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for details*.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for input port details*
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.WebGpu.SaselHund documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Extension.WebGpu.SaselHund#example](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.SaselHund](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund)
@@ -479,10 +467,6 @@ Vizualize a webgpu texture on the patchfield.
 **`\inputsymbol`{=latex} Inputs**
 
 - **Texture In** (Object:Texture)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.WebGpu.VizTexture documentation](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture) for output port details*
 
 **Example Patch:** [cables.gl/edit/tk5uLB](https://cables.gl/edit/tk5uLB)
 

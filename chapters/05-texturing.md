@@ -424,14 +424,12 @@ HDRITexture -> IBL/Environment
 ### File Size Tips:
 
 1. **Use appropriate formats:**
-   - PNG for transparency
-   - JPG for photos (no transparency)
-   - WebP for best compression
 
+- PNG for transparency
+- JPG for photos (no transparency)
+- WebP for best compression
 2. **Power of 2 sizes:** 256, 512, 1024, 2048, 4096 pixels
-
 3. **Mipmaps:** Enable for textures viewed at varying distances
-
 4. **Compress textures:** Use tools like TinyPNG, Squoosh
 
 ### Memory Considerations:

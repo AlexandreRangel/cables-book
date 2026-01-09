@@ -941,7 +941,7 @@ Author: The Interactive & Immersive HQ
 
 ```vid
 https://youtu.be/xnObNRv8n9I
-Title: Introduction to cables.gl - Data-Driven Gradient from Geo-Located Weather
+Title: Introduction to cables.gl Data-Driven Gradient from Geo-Located Weather
 Author: Kirell Benzi
 ```
 

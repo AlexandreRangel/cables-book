@@ -15,10 +15,6 @@ example how to code a viz layer op.
 
 - **Number** (Number)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Templates.ExampleVizOp documentation](https://cables.gl/op/Ops.Templates.ExampleVizOp) for output port details*
-
 **Example Patch:** [cables.gl/op/Ops.Templates.ExampleVizOp#example](https://cables.gl/op/Ops.Templates.ExampleVizOp#example)
 
 **Doc:** [cables.gl/op/Ops.Templates.ExampleVizOp](https://cables.gl/op/Ops.Templates.ExampleVizOp)

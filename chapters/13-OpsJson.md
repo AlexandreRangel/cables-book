@@ -32,10 +32,6 @@ create an array with multiple objects.
 
 Creates a copy of a JSON object.
 
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Json.CopyObject documentation](https://cables.gl/op/Ops.Json.CopyObject) for input port details*
-
 **`\outputsymbol`{=latex} Output**
 
 - **Valid** (booleanNumber)
@@ -91,10 +87,6 @@ get all values of a CSV column as array of strings.
 **Full Name:** `Ops.Json.EmptyObject`
 
 *Visit [documentation](https://cables.gl/op/Ops.Json.EmptyObject) for details*.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Json.EmptyObject documentation](https://cables.gl/op/Ops.Json.EmptyObject) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -753,10 +745,6 @@ save/download an object as json file.
 - **Download** (Trigger)
 - **Filename** (String)
 - **Object** (Object)
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Json.SaveJsonFile documentation](https://cables.gl/op/Ops.Json.SaveJsonFile) for output port details*
 
 **Example Patch:** [cables.gl/edit/J0c008](https://cables.gl/edit/J0c008)
 

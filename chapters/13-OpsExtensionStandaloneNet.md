@@ -41,10 +41,6 @@ Answer http requests by sending string to the browser/client.
 - **Response** (Object)
 - **Body** (String)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.Standalone.Net.HttpServerResponse documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse) for output port details*
-
 **Example Patch:** [cables.gl/edit/lke9pn](https://cables.gl/edit/lke9pn)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse)
@@ -55,10 +51,6 @@ Answer http requests by sending string to the browser/client.
 **Full Name:** `Ops.Extension.Standalone.Net.IpAddress`
 
 Outputs your local IP Adress.
-
-**`\inputsymbol`{=latex} Inputs**
-
-- *Visit [Ops.Extension.Standalone.Net.IpAddress documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress) for input port details*
 
 **`\outputsymbol`{=latex} Output**
 
@@ -108,10 +100,6 @@ send data to a OSC device.
 - **Number** (Number)
 - **Send** (Trigger)
 - **Public** (1): OSC: READ / SEND
-
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Extension.Standalone.Net.OscSend documentation](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend) for output port details*
 
 **Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example)
 

@@ -17,10 +17,6 @@ Rule of thirds image composition helper.
 - **Scale** (Number)
 - **Show Center** (Number: Boolean)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Gl.Meshes.ComposingGridOverlay documentation](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay) for output port details*
-
 **Example Patch:** [cables.gl/edit/G8mQQ2](https://cables.gl/edit/G8mQQ2)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay)

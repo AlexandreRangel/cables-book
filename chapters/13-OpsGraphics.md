@@ -20,10 +20,6 @@ convert and download an array of numbers as an .exr image file.
 - **Filename** (String)
 - **Download** (Trigger)
 
-**`\outputsymbol`{=latex} Output**
-
-- *Visit [Ops.Graphics.ArrayToExr documentation](https://cables.gl/op/Ops.Graphics.ArrayToExr) for output port details*
-
 **Example Patch:** [cables.gl/edit/PoAXNA](https://cables.gl/edit/PoAXNA)
 
 **Doc:** [cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
