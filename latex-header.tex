@@ -16,8 +16,8 @@
 %% ------------------------------------------------------------
 \newcommand{\PagePaper}{a4paper}         % Page size
 \newcommand{\PageMarginLeft}{0.4in}      % Left margin
-\newcommand{\PageMarginRight}{0.3in}     % Right margin
-\newcommand{\PageMarginTop}{0.25in}       % Top margin
+\newcommand{\PageMarginRight}{0.28in}     % Right margin
+\newcommand{\PageMarginTop}{0.26in}       % Top margin
 \newcommand{\PageMarginBottom}{0.22in}   % Bottom margin
 \newcommand{\HeaderHeight}{6}            % Header height in points
 \newcommand{\FooterHeight}{6}            % Footer height in points
@@ -25,8 +25,8 @@
 \newcommand{\FooterVerticalOffset}{-7pt} % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\PageNumberGrayPercent}{45}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
-\newcommand{\PageNumberFontSize}{10.5pt}   % Page number font size
-\newcommand{\ColumnGutterWidth}{0.33in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
+\newcommand{\PageNumberFontSize}{10.4}   % Page number font size
+\newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
 
 
 %% ------------------------------------------------------------
@@ -35,14 +35,18 @@
 %% ------------------------------------------------------------
 \newcommand{\SectionOneFontSize}{19}      % Chapter titles
 \newcommand{\SectionOneLeading}{16}
+
 \newcommand{\SectionTwoFontSize}{16}      % Major sections
 \newcommand{\SectionTwoLeading}{12}
+
 \newcommand{\SectionThreeFontSize}{13.5}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{9}
 \newcommand{\SectionThreeSpacingBefore}{1.5ex}  % Spacing before subsections
 \newcommand{\SectionThreeSpacingAfter}{1.85ex}  % Spacing after subsections
-\newcommand{\SubsubsectionSpacingBefore}{2.5ex}  % Spacing before subsubsections 
-\newcommand{\SubsubsectionSpacingAfter}{1.25ex }  
+
+\newcommand{\SubsubsectionSpacingBefore}{2.2ex}  % Spacing before subsubsections 
+\newcommand{\SubsubsectionSpacingAfter}{1.2ex }  
+
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
 \newcommand{\SectionFourLeading}{10}
 
@@ -52,12 +56,15 @@
 \newcommand{\SectionOneColorRed}{75}      % Chapter titles - dark gray
 \newcommand{\SectionOneColorGreen}{75}
 \newcommand{\SectionOneColorBlue}{75}
+
 \newcommand{\SectionTwoColorRed}{0}       % Major sections - dark blue
 \newcommand{\SectionTwoColorGreen}{40}
 \newcommand{\SectionTwoColorBlue}{120}
-\newcommand{\SectionThreeColorRed}{51}    % Subsections - dark gray
+
+\newcommand{\SectionThreeColorRed}{0}    % Subsections
 \newcommand{\SectionThreeColorGreen}{51}
 \newcommand{\SectionThreeColorBlue}{151}
+
 \newcommand{\SectionFourColorRed}{51}     % Paragraph headers - dark gray
 \newcommand{\SectionFourColorGreen}{51}
 \newcommand{\SectionFourColorBlue}{51}
@@ -68,6 +75,7 @@
 \newcommand{\InputPortSymbolRed}{0}       % > symbol color (dark green)
 \newcommand{\InputPortSymbolGreen}{128}
 \newcommand{\InputPortSymbolBlue}{0}
+
 \newcommand{\OutputPortSymbolRed}{0}      % < symbol color (dark green)
 \newcommand{\OutputPortSymbolGreen}{128}
 \newcommand{\OutputPortSymbolBlue}{0}
@@ -83,12 +91,12 @@
 %% ------------------------------------------------------------
 %% CODE BLOCKS
 %% ------------------------------------------------------------
-\newcommand{\CodeBlockFontSize}{10.75}     % Font size in points
-\newcommand{\CodeBlockLeadingPt}{12.0}  % Line height (leading) in points
-\newcommand{\CodeBlockLineSpacing}{1.1}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
-\newcommand{\CodeBlockSpacingBefore}{0.75\baselineskip}  % Space before code blocks
-\newcommand{\CodeBlockPaddingTop}{8pt}    % Top padding inside code blocks
-\newcommand{\CodeBlockPaddingBottom}{8pt} % Bottom padding inside code blocks
+\newcommand{\CodeBlockFontSize}{11}     % Font size in points
+\newcommand{\CodeBlockLeadingPt}{12}  % Line height (leading) in points
+\newcommand{\CodeBlockLineSpacing}{1.15}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
+\newcommand{\CodeBlockSpacingBefore}{0.7\baselineskip}  % Space before code blocks
+\newcommand{\CodeBlockPaddingTop}{7pt}    % Top padding inside code blocks
+\newcommand{\CodeBlockPaddingBottom}{6pt} % Bottom padding inside code blocks
 \newcommand{\CodeBlockPaddingLeft}{10pt}    % Left padding inside code blocks
 \newcommand{\CodeBlockPaddingRight}{8pt}  % Right padding inside code blocks
 
@@ -112,8 +120,10 @@
 \newcommand{\CardCornerRadius}{4pt}       % Rounded corners
 \newcommand{\CardPaddingX}{8pt}           % Inner left/right padding
 \newcommand{\CardPaddingY}{12pt}          % Inner top/bottom padding
-\newcommand{\VideoCardFontSizePt}{14.0}   % Video card font size (pt) (~+15% over 11pt)
-\newcommand{\VideoCardLeadingPt}{18.0}    % Video card leading/line-height (pt)
+\newcommand{\VideoCardFontSizePt}{14.0}   % Video card font size
+\newcommand{\VideoCardLeadingPt}{18.2}    % Video card leading/line-height
+\newcommand{\VideoCardTitleFontSizePt}{11.0}   % Video card title font size (1pt larger than \small which is ~10pt)
+\newcommand{\VideoCardTitleLeadingPt}{13.7}    % Video card title leading/line-height
 \newcommand{\VideoCardSpacingBefore}{0.75\baselineskip} % Space before a video card (when not following another video card)
 \newcommand{\VideoCardSpacingBetweenCards}{0.75\baselineskip} % Space between consecutive video cards (2x previous)
 \newcommand{\YouTubeThumbCornerRadius}{5pt} % Rounded corners for YouTube thumbnails only

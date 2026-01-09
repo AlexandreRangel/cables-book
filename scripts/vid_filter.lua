@@ -104,10 +104,10 @@ local function render_vid_card(url, title, author)
   table.insert(lines, string.format("\\noindent\\small\\url{%s}\\par", url))
 
   if title and title ~= "" then
-    table.insert(lines, string.format("\\noindent\\small\\textbf{%s}\\par", latex_escape(title)))
+    table.insert(lines, string.format("\\noindent\\fontsize{\\VideoCardTitleFontSizePt pt}{\\VideoCardTitleLeadingPt pt}\\fontseries{sb}\\selectfont %s\\par", latex_escape(title)))
   end
   if author and author ~= "" then
-    table.insert(lines, string.format("\\noindent\\small by %s\\par", latex_escape(author)))
+    table.insert(lines, string.format("\\noindent\\small\\mdseries by %s\\par", latex_escape(author)))
   end
 
   table.insert(lines, "\\end{minipage}")
