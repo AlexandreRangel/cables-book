@@ -22,7 +22,7 @@
 - **Progress** (Number)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/fPPga2](https://cables.gl/edit/fPPga2)
+**Example:** [cables.gl/edit/fPPga2](https://cables.gl/edit/fPPga2)
 
 **Doc:** [cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture](https://cables.gl/op/Ops.Extension.HtmlToTexture.HtmlToTexture)
 

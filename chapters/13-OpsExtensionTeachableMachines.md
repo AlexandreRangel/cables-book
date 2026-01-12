@@ -23,7 +23,7 @@ Use the Teachable Machines audio classifier for your microphone. Insert the uplo
 - **Initialized** (Trigger)
 - **Classifier** (Array)
 
-**Example Patch:** [cables.gl/edit/-kzrrn](https://cables.gl/edit/-kzrrn)
+**Example:** [cables.gl/edit/-kzrrn](https://cables.gl/edit/-kzrrn)
 
 **Doc:** [cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier](https://cables.gl/op/Ops.Extension.TeachableMachines.AudioClassifier)
 
@@ -47,7 +47,7 @@ Use the Teachable Machines image classifier. Insert the uploaded model URL.
 - **Initialized** (Trigger)
 - **Classifier** (Array)
 
-**Example Patch:** [cables.gl/edit/raewrn](https://cables.gl/edit/raewrn)
+**Example:** [cables.gl/edit/raewrn](https://cables.gl/edit/raewrn)
 
 **Doc:** [cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2](https://cables.gl/op/Ops.Extension.TeachableMachines.ImageClassifier_v2)
 
@@ -74,7 +74,7 @@ Use the Teachable Machines pose detection with your webcam. Insert the uploaded 
 - **Pose Positions** (Array)
 - **Image Flipped** (Number)
 
-**Example Patch:** [cables.gl/edit/xOStrn](https://cables.gl/edit/xOStrn)
+**Example:** [cables.gl/edit/xOStrn](https://cables.gl/edit/xOStrn)
 
 **Doc:** [cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2](https://cables.gl/op/Ops.Extension.TeachableMachines.PoseDetection_v2)
 

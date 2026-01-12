@@ -25,7 +25,7 @@ generate a cubemap from 6 textures.
 
 - **Cubemap** (Object)
 
-**Example Patch:** [cables.gl/edit/-QPf26](https://cables.gl/edit/-QPf26)
+**Example:** [cables.gl/edit/-QPf26](https://cables.gl/edit/-QPf26)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapFromTextures_v2)
 
@@ -55,7 +55,7 @@ use a cubemap or equirectangular texture as a material.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/u5y0Z5](https://cables.gl/edit/u5y0Z5)
+**Example:** [cables.gl/edit/u5y0Z5](https://cables.gl/edit/u5y0Z5)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubeMapMaterial_v2)
 
@@ -81,7 +81,7 @@ visualize cubemap as folded texture or equirectangular texture.
 - **Out Trigger** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/pNZHYa](https://cables.gl/edit/pNZHYa)
+**Example:** [cables.gl/edit/pNZHYa](https://cables.gl/edit/pNZHYa)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2](https://cables.gl/op/Ops.Gl.CubeMap.CubemapToEquirectangularTexture_v2)
 
@@ -105,7 +105,7 @@ convert an equirectangular map to a cubemap.
 - **Trigger Out** (Trigger)
 - **Cubemap Projection** (Object)
 
-**Example Patch:** [cables.gl/edit/O1NBYa](https://cables.gl/edit/O1NBYa)
+**Example:** [cables.gl/edit/O1NBYa](https://cables.gl/edit/O1NBYa)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap](https://cables.gl/op/Ops.Gl.CubeMap.EquirectangularTextureToCubemap)
 
@@ -128,7 +128,7 @@ render a scene into a cubemap.
 - **Next** (Trigger)
 - **Cubemap** (Object)
 
-**Example Patch:** [cables.gl/edit/Z3KuUQ](https://cables.gl/edit/Z3KuUQ)
+**Example:** [cables.gl/edit/Z3KuUQ](https://cables.gl/edit/Z3KuUQ)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3](https://cables.gl/op/Ops.Gl.CubeMap.RenderToCubemap_v3)
 
@@ -153,7 +153,7 @@ render an equirectangular map or a cubemap as scene background.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/40hoYa](https://cables.gl/edit/40hoYa)
+**Example:** [cables.gl/edit/40hoYa](https://cables.gl/edit/40hoYa)
 
 **Doc:** [cables.gl/op/Ops.Gl.CubeMap.Skybox](https://cables.gl/op/Ops.Gl.CubeMap.Skybox)
 

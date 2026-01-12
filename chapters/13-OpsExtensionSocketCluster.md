@@ -33,7 +33,7 @@ connect to a socketcluster server and manage the connection.
 - **Can Send** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
+**Example:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterClient_v2)
 
@@ -56,7 +56,7 @@ Receives object from the socketcluster socket/topic.
 - **Data** (Object)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
+**Example:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveObject)
 
@@ -80,7 +80,7 @@ Receives trigger from the socketcluster socket/topic.
 - **Trigger Name** (String)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
+**Example:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterReceiveTrigger)
 
@@ -102,7 +102,7 @@ sends an object via socketcluster/websocket.
 
 - **Sent Data** (Trigger)
 
-**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
+**Example:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendObject)
 
@@ -121,7 +121,7 @@ sends a trigger via socketcluster/websocket.
 - **Trigger Name** (String)
 - **the name of the trigger** (created with TriggerSend)
 
-**Example Patch:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
+**Example:** [cables.gl/edit/mecjP3](https://cables.gl/edit/mecjP3)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterSendTrigger)
 
@@ -150,7 +150,7 @@ get info for clients listening on a socketcluster topic.
 - **Messages** (Object)
 - **Updated** (Trigger)
 
-**Example Patch:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
+**Example:** [cables.gl/edit/EJvr0a](https://cables.gl/edit/EJvr0a)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2](https://cables.gl/op/Ops.Extension.SocketCluster.SocketClusterTopicInfo_v2)
 

@@ -32,7 +32,7 @@ Get mouse/touchscreen/pointer coordinates and events.
 - **Movement Y** (Number)
 - **Event** (Object)
 
-**Example Patch:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
+**Example:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mouse.Mouse_v4](https://cables.gl/op/Ops.Devices.Mouse.Mouse_v4)
 
@@ -63,7 +63,7 @@ Get the state of mouse buttons.
 - **Mouse Up Middle** (Trigger)
 - **Mouse Up Right** (Trigger)
 
-**Example Patch:** [cables.gl/edit/cLtJLO](https://cables.gl/edit/cLtJLO)
+**Example:** [cables.gl/edit/cLtJLO](https://cables.gl/edit/cLtJLO)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseButtons](https://cables.gl/op/Ops.Devices.Mouse.MouseButtons)
 
@@ -87,7 +87,7 @@ get delta of mouse position while dragging.
 - **Delta Y** (Number)
 - **Is Dragging** (Number)
 
-**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
+**Example:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseDrag](https://cables.gl/op/Ops.Devices.Mouse.MouseDrag)
 
@@ -113,7 +113,7 @@ outputs delta values controlled by the mousewheel (scroll, zoom).
 - **Browser Event Delta** (Number)
 - **Wheel Action** (Trigger)
 
-**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
+**Example:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2](https://cables.gl/op/Ops.Devices.Mouse.MouseWheel_v2)
 
@@ -135,7 +135,7 @@ locks the pointer to the canvas and hides the cursor.
 - **Supported** (booleanNumber)
 - **Is Locked** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/ds6IV2](https://cables.gl/edit/ds6IV2)
+**Example:** [cables.gl/edit/ds6IV2](https://cables.gl/edit/ds6IV2)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mouse.PointerLock](https://cables.gl/op/Ops.Devices.Mouse.PointerLock)
 

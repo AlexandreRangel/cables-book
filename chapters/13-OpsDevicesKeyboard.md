@@ -31,7 +31,7 @@ get the state of your keyboards arrow keys.
 - **Right Pressed** (Trigger)
 - **Any Button Pressed** (Number)
 
-**Example Patch:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
+**Example:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
 
 **Doc:** [cables.gl/op/Ops.Devices.Keyboard.CursorKeys](https://cables.gl/op/Ops.Devices.Keyboard.CursorKeys)
 
@@ -54,7 +54,7 @@ Triggers when a key is pressed.
 - **Key Code** (Number)
 - **Key** (String)
 
-**Example Patch:** [cables.gl/edit/lmGgPZ](https://cables.gl/edit/lmGgPZ)
+**Example:** [cables.gl/edit/lmGgPZ](https://cables.gl/edit/lmGgPZ)
 
 **Doc:** [cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2](https://cables.gl/op/Ops.Devices.Keyboard.KeyPress_v2)
 
@@ -81,7 +81,7 @@ Triggers when certain key is pressed or released.
 - **Pressed** (booleanNumber)
 - **Key** (String)
 
-**Example Patch:** [cables.gl/edit/ZRY-x3](https://cables.gl/edit/ZRY-x3)
+**Example:** [cables.gl/edit/ZRY-x3](https://cables.gl/edit/ZRY-x3)
 
 **Doc:** [cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn](https://cables.gl/op/Ops.Devices.Keyboard.KeyPressLearn)
 
@@ -108,7 +108,7 @@ simple controller example op for game characters.
 - **Y** (Number)
 - **Dir** (Number)
 
-**Example Patch:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
+**Example:** [cables.gl/edit/m5V6VB](https://cables.gl/edit/m5V6VB)
 
 **Doc:** [cables.gl/op/Ops.Devices.Keyboard.PersonController](https://cables.gl/op/Ops.Devices.Keyboard.PersonController)
 
@@ -130,7 +130,7 @@ Emulates a MIDI keyboard using your regular keyboard.
 - **Channel** (Number)
 - **Command** (Number)
 
-**Example Patch:** [cables.gl/edit/PfZk-4](https://cables.gl/edit/PfZk-4)
+**Example:** [cables.gl/edit/PfZk-4](https://cables.gl/edit/PfZk-4)
 
 **Doc:** [cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi](https://cables.gl/op/Ops.Devices.Keyboard.QWERTYtoMidi)
 

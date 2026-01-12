@@ -44,40 +44,40 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 
 - **Tab** or **Double-click:** Add new op (opens search)
 - **Delete** or **Backspace:** Delete selected op(s)
-- **Ctrl + C / Cmd + C:** Copy selected op(s)
-- **Ctrl + V / Cmd + V:** Paste selected op(s)
-- **Ctrl + X / Cmd + X:** Cut selected op(s)
-- **Ctrl + D / Cmd + D:** Duplicate selected op(s)
-- **Ctrl + Z / Cmd + Z:** Undo
-- **Ctrl + Shift + Z / Cmd + Shift + Z:** Redo
+- **Ctrl + C :** Copy selected op(s)
+- **Ctrl + V :** Paste selected op(s)
+- **Ctrl + X :** Cut selected op(s)
+- **Ctrl + D :** Duplicate selected op(s)
+- **Ctrl + Z :** Undo
+- **Ctrl + Shift + Z :** Redo
 
 ### Selection & Navigation
 
-- **Ctrl + A / Cmd + A:** Select all ops
+- **Ctrl + A :** Select all ops
 - **Shift + Click:** Add to selection
-- **Ctrl + Click / Cmd + Click:** Toggle selection
+- **Ctrl + Click :** Toggle selection
 - **Escape:** Deselect all
 - **Space + Drag:** Pan the patch view
 - **Mouse Wheel:** Zoom in/out
-- **Ctrl + 0 / Cmd + 0:** Zoom to fit all ops
+- **Ctrl + 0 :** Zoom to fit all ops
 - **F:** Focus/frame selected op(s)
 
 ### Organizing & Aligning
 
-- **Ctrl + Shift + A / Cmd + Shift + A:** Align selected ops horizontally
-- **Ctrl + Shift + D / Cmd + Shift + D:** Distribute selected ops evenly
-- **Ctrl + G / Cmd + G:** Group selected ops
+- **Ctrl + Shift + A :** Align selected ops horizontally
+- **Ctrl + Shift + D :** Distribute selected ops evenly
+- **Ctrl + G :** Group selected ops
 - **Arrow Keys:** Nudge selected op(s) by small amount
 - **Shift + Arrow Keys:** Nudge selected op(s) by larger amount
 
 ### Working with Ops
 
 - **Enter:** Open/edit selected op's parameters
-- **Ctrl + E / Cmd + E:** Enable/disable selected op
-- **Ctrl + M / Cmd + M:** Mute selected op
+- **Ctrl + E :** Enable/disable selected op
+- **Ctrl + M :** Mute selected op
 - **R:** Rename selected op
 - **C:** Add comment node
-- **Ctrl + F / Cmd + F:** Find/search ops in patch
+- **Ctrl + F :** Find/search ops in patch
 
 ### Cables & Connections
 
@@ -89,16 +89,16 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 ### View & Interface
 
 - **T:** Toggle timeline
-- **Ctrl + /** / **Cmd + /**: Toggle op library
+- **Ctrl + / :** Toggle op library
 - **H:** Toggle patch editor visibility
 - **P:** Toggle parameters panel
-- **Ctrl + S / Cmd + S:** Save patch
-- **Ctrl + Shift + S / Cmd + Shift + S:** Save as...
+- **Ctrl + S :** Save patch
+- **Ctrl + Shift + S :** Save as...
 
 ### Performance & Debugging
 
-- **Ctrl + Shift + P / Cmd + Shift + P:** Performance monitor
-- **Ctrl + Shift + L / Cmd + Shift + L:** Show patch loading info
+- **Ctrl + Shift + P :** Performance monitor
+- **Ctrl + Shift + L :** Show patch loading info
 - **Alt + Click op:** View op documentation
 
 ### Pro Tips

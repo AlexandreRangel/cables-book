@@ -151,6 +151,7 @@ Light from a specific direction (like the sun).
 - Color
 - Intensity
 
+
 ### PointLight
 
 Light emanating from a point in space (like a light bulb).
@@ -161,6 +162,7 @@ Light emanating from a point in space (like a light bulb).
 - Color
 - Intensity
 - Falloff radius
+
 
 ### SpotLight
 
@@ -1666,23 +1668,35 @@ Similar objects -> Batch -> Single draw call
 ```
 
 **Texture Compression:**
+
 - Use compressed texture formats (DXT, ETC)
+
 - Reduce texture resolution when possible
+
 - Use mipmaps for distant objects
 
 **Geometry Optimization:**
+
 - Remove unnecessary vertices
+
 - Use indexed geometry
+
 - Optimize UV mapping
 
 **Shader Optimization:**
+
 - Minimize texture samples
+
 - Use simpler shaders when possible
+
 - Avoid branching in shaders
 
 **Render Target Optimization:**
+
 - Use appropriate render target sizes
+
 - Don't render at higher resolution than display
+
 - Use half-precision floats when possible
 
 ### Performance Monitoring
@@ -1783,28 +1797,45 @@ GridHelper -> Visual reference
 ### Common Issues
 
 **"Objects not visible"**
+
 - Check camera position and direction
+
 - Verify objects are within near/far planes
+
 - Check material alpha values
+
 - Verify lighting setup
 
 **"Shadows look wrong"**
+
 - Adjust shadow bias
+
 - Increase shadow map resolution
+
 - Check light shadow settings
+
 - Verify shadow receiving objects
 
 **"Performance is slow"**
+
 - Reduce polygon count
+
 - Lower texture resolutions
+
 - Disable expensive effects
+
 - Use LOD system
+
 - Optimize shaders
 
 **"Materials look incorrect"**
+
 - Verify texture UV mapping
+
 - Check normal map orientation
+
 - Verify PBR material values
+
 - Check lighting setup
 
 ## Best Practices

@@ -29,7 +29,7 @@ detect touch gestures like swipe and pan.
 - **Swipe Down** (Trigger)
 - **Event** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.TouchGesture#example](https://cables.gl/op/Ops.Devices.TouchGesture#example)
+**Example:** [cables.gl/op/Ops.Devices.TouchGesture#example](https://cables.gl/op/Ops.Devices.TouchGesture#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.TouchGesture](https://cables.gl/op/Ops.Devices.TouchGesture)
 
@@ -63,7 +63,7 @@ touch screen input: e.g. position of fingers.
 - **Touch Start** (Trigger)
 - **Touch End** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.TouchScreen#example](https://cables.gl/op/Ops.Devices.TouchScreen#example)
+**Example:** [cables.gl/op/Ops.Devices.TouchScreen#example](https://cables.gl/op/Ops.Devices.TouchScreen#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.TouchScreen](https://cables.gl/op/Ops.Devices.TouchScreen)
 

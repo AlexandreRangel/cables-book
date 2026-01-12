@@ -40,7 +40,7 @@ Create a physics body/collision shape using a any geometry or select a shape.
 - **Ray Hit** (booleanNumber)
 - **Transformed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/S_jPZ4](https://cables.gl/edit/S_jPZ4)
+**Example:** [cables.gl/edit/S_jPZ4](https://cables.gl/edit/S_jPZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody)
 
@@ -69,7 +69,7 @@ Check if physics bodies are colliding.
 - **Num Collisions** (Number)
 - **Collisions** (Array)
 
-**Example Patch:** [cables.gl/edit/S_jPZ4](https://cables.gl/edit/S_jPZ4)
+**Example:** [cables.gl/edit/S_jPZ4](https://cables.gl/edit/S_jPZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBodyCollision)
 
@@ -113,7 +113,7 @@ Control and move a character in a physics environment.
 - **Position Z** (Number)
 - **Transformed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
+**Example:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacter)
 
@@ -146,7 +146,7 @@ First person camera to use with AmmoCharacter.
 - **Rot X** (Number)
 - **Rot Y** (Number)
 
-**Example Patch:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
+**Example:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoCharacterFpsCamera)
 
@@ -171,7 +171,7 @@ Visualize the physical bodies as lines and points.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
+**Example:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoDebugRenderer)
 
@@ -208,7 +208,7 @@ Emit Ammo physics bodies by triggering.
 - **Positions** (Array)
 - **Rotations Quats** (Array)
 
-**Example Patch:** [cables.gl/edit/5hQROe](https://cables.gl/edit/5hQROe)
+**Example:** [cables.gl/edit/5hQROe](https://cables.gl/edit/5hQROe)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoEmitter)
 
@@ -239,7 +239,7 @@ Cast a ray and detect colliding bodies.
 - **Hit Y** (Number)
 - **Hit Z** (Number)
 
-**Example Patch:** [cables.gl/edit/Gh2f_4](https://cables.gl/edit/Gh2f_4)
+**Example:** [cables.gl/edit/Gh2f_4](https://cables.gl/edit/Gh2f_4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast)
 
@@ -269,7 +269,7 @@ Simulate physical world.
 - **Bodies Meta** (Array)
 - **Collisions** (Array)
 
-**Example Patch:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
+**Example:** [cables.gl/edit/psyNZ4](https://cables.gl/edit/psyNZ4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoWorld)
 
@@ -292,7 +292,7 @@ Create physics bodies from a GLTF File.
 
 - **Meshes** (Number)
 
-**Example Patch:** [cables.gl/edit/Gh2f_4](https://cables.gl/edit/Gh2f_4)
+**Example:** [cables.gl/edit/Gh2f_4](https://cables.gl/edit/Gh2f_4)
 
 **Doc:** [cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies](https://cables.gl/op/Ops.Extension.AmmoPhysics.GltfAmmoBodies)
 

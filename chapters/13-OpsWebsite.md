@@ -16,7 +16,7 @@ cookie of the current website as object.
 - **Cookie** (Object)
 - **Cookie String** (String)
 
-**Example Patch:** [cables.gl/edit/oNMzci](https://cables.gl/edit/oNMzci)
+**Example:** [cables.gl/edit/oNMzci](https://cables.gl/edit/oNMzci)
 
 **Doc:** [cables.gl/op/Ops.Website.Cookie](https://cables.gl/op/Ops.Website.Cookie)
 
@@ -42,7 +42,7 @@ information about a filename, like url protocol, suffix etc.
 - **Is URL** (String)
 - **QueryParams** (String)
 
-**Example Patch:** [cables.gl/edit/RyrLMg](https://cables.gl/edit/RyrLMg)
+**Example:** [cables.gl/edit/RyrLMg](https://cables.gl/edit/RyrLMg)
 
 **Doc:** [cables.gl/op/Ops.Website.FilenameInfo](https://cables.gl/op/Ops.Website.FilenameInfo)
 
@@ -53,7 +53,7 @@ information about a filename, like url protocol, suffix etc.
 
 will redirect to same URL using https protocol.
 
-**Example Patch:** [cables.gl/op/Ops.Website.ForceHttps#example](https://cables.gl/op/Ops.Website.ForceHttps#example)
+**Example:** [cables.gl/op/Ops.Website.ForceHttps#example](https://cables.gl/op/Ops.Website.ForceHttps#example)
 
 **Doc:** [cables.gl/op/Ops.Website.ForceHttps](https://cables.gl/op/Ops.Website.ForceHttps)
 
@@ -74,7 +74,7 @@ Information about the current URL.
 - **Port** (String)
 - **Hash Changed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/9UM2YG](https://cables.gl/edit/9UM2YG)
+**Example:** [cables.gl/edit/9UM2YG](https://cables.gl/edit/9UM2YG)
 
 **Doc:** [cables.gl/op/Ops.Website.InfoURL](https://cables.gl/op/Ops.Website.InfoURL)
 
@@ -89,7 +89,7 @@ Outputs true if the patch is inside of an iframe.
 
 - **In Iframe** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/qWDDci](https://cables.gl/edit/qWDDci)
+**Example:** [cables.gl/edit/qWDDci](https://cables.gl/edit/qWDDci)
 
 **Doc:** [cables.gl/op/Ops.Website.InIframe](https://cables.gl/op/Ops.Website.InIframe)
 
@@ -111,7 +111,7 @@ Store and retreive a number in browser localstorage.
 - **Stored Number** (Number)
 - **Storage Support** (Number)
 
-**Example Patch:** [cables.gl/edit/9di48i](https://cables.gl/edit/9di48i)
+**Example:** [cables.gl/edit/9di48i](https://cables.gl/edit/9di48i)
 
 **Doc:** [cables.gl/op/Ops.Website.LocalStorageNumber](https://cables.gl/op/Ops.Website.LocalStorageNumber)
 
@@ -133,7 +133,7 @@ Store and retreive a string in browser localstorage.
 - **Stored String** (String)
 - **Storage Support** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/QKe58i](https://cables.gl/edit/QKe58i)
+**Example:** [cables.gl/edit/QKe58i](https://cables.gl/edit/QKe58i)
 
 **Doc:** [cables.gl/op/Ops.Website.LocalStorageString](https://cables.gl/op/Ops.Website.LocalStorageString)
 
@@ -155,7 +155,7 @@ gives updated information about window.location.hash.
 - **Changed** (Trigger)
 - **Matching** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
+**Example:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
 
 **Doc:** [cables.gl/op/Ops.Website.LocationHashRoute](https://cables.gl/op/Ops.Website.LocationHashRoute)
 
@@ -174,7 +174,7 @@ sets window.location.hash to the specified value(s).
 - **Silent** (Number: Boolean)
 - **Allow Empty** (Number: Boolean)
 
-**Example Patch:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
+**Example:** [cables.gl/edit/EfiWpG](https://cables.gl/edit/EfiWpG)
 
 **Doc:** [cables.gl/op/Ops.Website.SetLocationHash](https://cables.gl/op/Ops.Website.SetLocationHash)
 
@@ -194,7 +194,7 @@ Returns a URL query parameter.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/2SE58i](https://cables.gl/edit/2SE58i)
+**Example:** [cables.gl/edit/2SE58i](https://cables.gl/edit/2SE58i)
 
 **Doc:** [cables.gl/op/Ops.Website.UrlQueryParams_v2](https://cables.gl/op/Ops.Website.UrlQueryParams_v2)
 

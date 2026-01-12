@@ -19,7 +19,7 @@ get URL of a file.
 
 - **URL** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.File.FileInput_v2#example](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
+**Example:** [cables.gl/op/Ops.String.File.FileInput_v2#example](https://cables.gl/op/Ops.String.File.FileInput_v2#example)
 
 **Doc:** [cables.gl/op/Ops.String.File.FileInput_v2](https://cables.gl/op/Ops.String.File.FileInput_v2)
 
@@ -54,7 +54,7 @@ switch between filenames.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/unutii](https://cables.gl/edit/unutii)
+**Example:** [cables.gl/edit/unutii](https://cables.gl/edit/unutii)
 
 **Doc:** [cables.gl/op/Ops.String.File.SwitchFile_v2](https://cables.gl/op/Ops.String.File.SwitchFile_v2)
 

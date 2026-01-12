@@ -19,7 +19,7 @@ Sort an array of colors by saturation/lightness etc.
 
 - **New Colors** (Array)
 
-**Example Patch:** [cables.gl/edit/zKfluu](https://cables.gl/edit/zKfluu)
+**Example:** [cables.gl/edit/zKfluu](https://cables.gl/edit/zKfluu)
 
 **Doc:** [cables.gl/op/Ops.Color.ColorArraySort](https://cables.gl/op/Ops.Color.ColorArraySort)
 
@@ -41,7 +41,7 @@ Contains a collection of nice color palettes output to texture or array via inde
 - **Color Array** (Array)
 - **The color array containing 5 colors** (15 values in total, 3 values per color – r, g and b)
 
-**Example Patch:** [cables.gl/edit/xRvD98](https://cables.gl/edit/xRvD98)
+**Example:** [cables.gl/edit/xRvD98](https://cables.gl/edit/xRvD98)
 
 **Doc:** [cables.gl/op/Ops.Color.ColorPalettes](https://cables.gl/op/Ops.Color.ColorPalettes)
 
@@ -68,7 +68,7 @@ Use a color value on multiple places.
 - **Hex** (Number)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/19KZet](https://cables.gl/edit/19KZet)
+**Example:** [cables.gl/edit/19KZet](https://cables.gl/edit/19KZet)
 
 **Doc:** [cables.gl/op/Ops.Color.ColorValue](https://cables.gl/op/Ops.Color.ColorValue)
 
@@ -91,7 +91,7 @@ Native color picker.
 - **B** (Number)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/kYsAkv](https://cables.gl/edit/kYsAkv)
+**Example:** [cables.gl/edit/kYsAkv](https://cables.gl/edit/kYsAkv)
 
 **Doc:** [cables.gl/op/Ops.Color.EyeDropper](https://cables.gl/op/Ops.Color.EyeDropper)
 
@@ -111,7 +111,7 @@ gradient editor,outputs an objects with gradient information.
 
 - **Gradient Object** (Object)
 
-**Example Patch:** [cables.gl/edit/QB7br5](https://cables.gl/edit/QB7br5)
+**Example:** [cables.gl/edit/QB7br5](https://cables.gl/edit/QB7br5)
 
 **Doc:** [cables.gl/op/Ops.Color.Gradient](https://cables.gl/op/Ops.Color.Gradient)
 
@@ -144,7 +144,7 @@ texture containing a colour gradient that can be altered with an editor.
 - **Colors** (Array)
 - **Colors Pos** (Array)
 
-**Example Patch:** [cables.gl/edit/xAdV8x](https://cables.gl/edit/xAdV8x)
+**Example:** [cables.gl/edit/xAdV8x](https://cables.gl/edit/xAdV8x)
 
 **Doc:** [cables.gl/op/Ops.Color.GradientColorArray](https://cables.gl/op/Ops.Color.GradientColorArray)
 
@@ -167,7 +167,7 @@ Converts a hex color like `#ff0000` to number values.
 - **B** (Number)
 - **RGB Array** (Array)
 
-**Example Patch:** [cables.gl/edit/IBX1ft](https://cables.gl/edit/IBX1ft)
+**Example:** [cables.gl/edit/IBX1ft](https://cables.gl/edit/IBX1ft)
 
 **Doc:** [cables.gl/op/Ops.Color.HexToRGB_v2](https://cables.gl/op/Ops.Color.HexToRGB_v2)
 
@@ -190,7 +190,7 @@ Convert HSL to RGB.
 - **G** (Number)
 - **B** (Number)
 
-**Example Patch:** [cables.gl/edit/3fOpvs](https://cables.gl/edit/3fOpvs)
+**Example:** [cables.gl/edit/3fOpvs](https://cables.gl/edit/3fOpvs)
 
 **Doc:** [cables.gl/op/Ops.Color.HSLtoRGB](https://cables.gl/op/Ops.Color.HSLtoRGB)
 
@@ -214,7 +214,7 @@ Calculate the luminance contrast between two colors.
 
 - **Contrast** (Number)
 
-**Example Patch:** [cables.gl/edit/lFzrvs](https://cables.gl/edit/lFzrvs)
+**Example:** [cables.gl/edit/lFzrvs](https://cables.gl/edit/lFzrvs)
 
 **Doc:** [cables.gl/op/Ops.Color.LuminanceContrast](https://cables.gl/op/Ops.Color.LuminanceContrast)
 
@@ -235,7 +235,7 @@ Calculate the luminance of a RGB color.
 
 - **Luminance** (Number)
 
-**Example Patch:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
+**Example:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
 
 **Doc:** [cables.gl/op/Ops.Color.RGBLuminance](https://cables.gl/op/Ops.Color.RGBLuminance)
 
@@ -259,7 +259,7 @@ Output the CMYK value of a RGB color.
 - **Y** (Number)
 - **K** (Number)
 
-**Example Patch:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
+**Example:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
 
 **Doc:** [cables.gl/op/Ops.Color.RGBToCMYK](https://cables.gl/op/Ops.Color.RGBToCMYK)
 
@@ -280,7 +280,7 @@ convert RGB float values to HEX color String.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/Up7r8i](https://cables.gl/edit/Up7r8i)
+**Example:** [cables.gl/edit/Up7r8i](https://cables.gl/edit/Up7r8i)
 
 **Doc:** [cables.gl/op/Ops.Color.RgbToHex](https://cables.gl/op/Ops.Color.RgbToHex)
 
@@ -303,7 +303,7 @@ convert RGB color to HSB Hue, Saturation, Brightness.
 - **Saturation** (Number)
 - **Brightness** (Number)
 
-**Example Patch:** [cables.gl/edit/Up7r8i](https://cables.gl/edit/Up7r8i)
+**Example:** [cables.gl/edit/Up7r8i](https://cables.gl/edit/Up7r8i)
 
 **Doc:** [cables.gl/op/Ops.Color.RGBtoHSB](https://cables.gl/op/Ops.Color.RGBtoHSB)
 
@@ -326,7 +326,7 @@ Convert RGB color to HSL values.
 - **Saturation** (Number)
 - **Lightness** (Number)
 
-**Example Patch:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
+**Example:** [cables.gl/edit/Du0rvs](https://cables.gl/edit/Du0rvs)
 
 **Doc:** [cables.gl/op/Ops.Color.RGBtoHSL](https://cables.gl/op/Ops.Color.RGBtoHSL)
 

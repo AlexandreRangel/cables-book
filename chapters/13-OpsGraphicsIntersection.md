@@ -25,7 +25,7 @@ Define filters to get colliding and intersecting bodies.
 - **Num Collisions** (Number)
 - **Result Collisions** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example)
+**Example:** [cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.FilterIntersections](https://cables.gl/op/Ops.Graphics.Intersection.FilterIntersections)
 
@@ -51,7 +51,7 @@ Add Bodies and check if they intersect/collide with each other.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
+**Example:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody)
 
@@ -74,7 +74,7 @@ test one body against all bodies in the world.
 - **Has Hit** (booleanNumber)
 - **Hit Body Name** (String)
 
-**Example Patch:** [cables.gl/edit/bg73Qc](https://cables.gl/edit/bg73Qc)
+**Example:** [cables.gl/edit/bg73Qc](https://cables.gl/edit/bg73Qc)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestBody)
 
@@ -102,7 +102,7 @@ test intersect bodies collision against a point/coordinate.
 - **Hit Y** (Number)
 - **Hit Z** (Number)
 
-**Example Patch:** [cables.gl/edit/c2DAO8](https://cables.gl/edit/c2DAO8)
+**Example:** [cables.gl/edit/c2DAO8](https://cables.gl/edit/c2DAO8)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestPoint)
 
@@ -134,7 +134,7 @@ Cast a ray and check if it intersect/collide with bodies.
 - **Hit Y** (Number)
 - **Hit Z** (Number)
 
-**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
+**Example:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast)
 
@@ -156,7 +156,7 @@ Define a world to check for intersections and collisions.
 - **Total Bodies** (Number)
 - **Collisions** (Array)
 
-**Example Patch:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
+**Example:** [cables.gl/edit/ffRjjz](https://cables.gl/edit/ffRjjz)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Intersection.IntersectWorld](https://cables.gl/op/Ops.Graphics.Intersection.IntersectWorld)
 

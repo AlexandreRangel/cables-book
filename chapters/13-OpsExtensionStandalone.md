@@ -31,7 +31,7 @@ FFmpeg video converter toolbox op.
 
 - **Processing** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Ffmpeg](https://cables.gl/op/Ops.Extension.Standalone.Ffmpeg)
 

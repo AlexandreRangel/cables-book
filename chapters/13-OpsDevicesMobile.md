@@ -19,7 +19,7 @@ vibrating a mobile device.
 
 - **Supported** (Number)
 
-**Example Patch:** [cables.gl/edit/H4NGFU](https://cables.gl/edit/H4NGFU)
+**Example:** [cables.gl/edit/H4NGFU](https://cables.gl/edit/H4NGFU)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.DeviceVibrate](https://cables.gl/op/Ops.Devices.Mobile.DeviceVibrate)
 
@@ -37,7 +37,7 @@ tries to get the geo coordinates from the mobile device/browser.
 - **Longitude** (Number)
 - **Data** (Object)
 
-**Example Patch:** [cables.gl/edit/kIZ3Ms](https://cables.gl/edit/kIZ3Ms)
+**Example:** [cables.gl/edit/kIZ3Ms](https://cables.gl/edit/kIZ3Ms)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.GeoLocation](https://cables.gl/op/Ops.Devices.Mobile.GeoLocation)
 
@@ -58,7 +58,7 @@ locks orientation to landscape or portrait mode.
 - **Supported** (Number)
 - **Locked** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.LockOrientation#example](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation#example)
+**Example:** [cables.gl/op/Ops.Devices.Mobile.LockOrientation#example](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.LockOrientation](https://cables.gl/op/Ops.Devices.Mobile.LockOrientation)
 
@@ -91,7 +91,7 @@ get values from the device motion sensor mobile.
 - **Permissions** (String)
 - **Object** (Object)
 
-**Example Patch:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
+**Example:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2](https://cables.gl/op/Ops.Devices.Mobile.MotionSensor_v2)
 
@@ -116,7 +116,7 @@ detect two finger pinch gestures on touchscreens.
 - **Event Details** (Object)
 - **Delta** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.Pinch#example](https://cables.gl/op/Ops.Devices.Mobile.Pinch#example)
+**Example:** [cables.gl/op/Ops.Devices.Mobile.Pinch#example](https://cables.gl/op/Ops.Devices.Mobile.Pinch#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.Pinch](https://cables.gl/op/Ops.Devices.Mobile.Pinch)
 
@@ -132,7 +132,7 @@ get orientation of the physical screen.
 - **Angle** (Number)
 - **Type** (String)
 
-**Example Patch:** [cables.gl/edit/Zc398i](https://cables.gl/edit/Zc398i)
+**Example:** [cables.gl/edit/Zc398i](https://cables.gl/edit/Zc398i)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2](https://cables.gl/op/Ops.Devices.Mobile.ScreenOrientation_v2)
 
@@ -149,7 +149,7 @@ Reads the accelerometer data from a mobile device.
 - **Acceleration Y** (Number)
 - **Acceleration Z** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example)
+**Example:** [cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.Mobile.ShakeGesture](https://cables.gl/op/Ops.Devices.Mobile.ShakeGesture)
 

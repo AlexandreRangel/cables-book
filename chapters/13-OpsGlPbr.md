@@ -57,7 +57,7 @@ PBR image based lighting setup.
 - **for PBR Material** (not required)
 - **Number Of Pre-Filtered Mip Levels** (Number)
 
-**Example Patch:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
+**Example:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
 
 **Doc:** [cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight](https://cables.gl/op/Ops.Gl.Pbr.PbrEnvironmentLight)
 
@@ -116,7 +116,7 @@ PBR/Physical Based Rendering Material for realistic materials.
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
+**Example:** [cables.gl/edit/9z9kFK](https://cables.gl/edit/9z9kFK)
 
 **Doc:** [cables.gl/op/Ops.Gl.Pbr.PbrMaterial](https://cables.gl/op/Ops.Gl.Pbr.PbrMaterial)
 

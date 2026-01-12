@@ -17,7 +17,7 @@ list of midi devices.
 - **Midi Support** (booleanNumber)
 - **Device Names** (Array)
 
-**Example Patch:** [cables.gl/edit/EEHSl5](https://cables.gl/edit/EEHSl5)
+**Example:** [cables.gl/edit/EEHSl5](https://cables.gl/edit/EEHSl5)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.DeviceList](https://cables.gl/op/Ops.Devices.Midi.DeviceList)
 
@@ -44,7 +44,7 @@ read CC value from Midi controller.
 - **Trigger Out** (Trigger)
 - **CC Index Out** (Number)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiCC_v3](https://cables.gl/op/Ops.Devices.Midi.MidiCC_v3)
 
@@ -67,7 +67,7 @@ send MIDI CC data to a midi output.
 
 - **MIDI Event Out** (Object)
 
-**Example Patch:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
+**Example:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiCCOut_v2](https://cables.gl/op/Ops.Devices.Midi.MidiCCOut_v2)
 
@@ -103,7 +103,7 @@ Map 3 midi notes to values.
 - **Velocity 3** (Number)
 - **Gate 3** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiChord3](https://cables.gl/op/Ops.Devices.Midi.MidiChord3)
 
@@ -136,7 +136,7 @@ sends out midi clock signals as triggers.
 - **outputs a trigger every eigth note** (dotted: trigger every 3/16, triplet: eigth-note triplet)
 - **outputs a trigger every sixteenth note** (dotted: trigger every 3/32, triplet: sixteenth-note triplet)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiClock](https://cables.gl/op/Ops.Devices.Midi.MidiClock)
 
@@ -161,7 +161,7 @@ connect to MIDI device output port.
 - **Program Change** (Object)
 - **Clock** (Object)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiInputDevice_v2](https://cables.gl/op/Ops.Devices.Midi.MidiInputDevice_v2)
 
@@ -193,7 +193,7 @@ detailed information about Midi events being sent.
 - **NRPN Value** (Number)
 - **Program Change Value** (Number)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiMonitor](https://cables.gl/op/Ops.Devices.Midi.MidiMonitor)
 
@@ -223,7 +223,7 @@ Read a single midi note.
 - **Gate** (booleanNumber)
 - **Velocity Array** (Array)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiNote](https://cables.gl/op/Ops.Devices.Midi.MidiNote)
 
@@ -252,7 +252,7 @@ Only read a range of notes (e.g. C1 to C2).
 - **Velocity** (Number)
 - **Gate** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiNoteFilter](https://cables.gl/op/Ops.Devices.Midi.MidiNoteFilter)
 
@@ -277,7 +277,7 @@ send midi note data to a midi output.
 
 - **MIDI Event Out** (Object)
 
-**Example Patch:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
+**Example:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiNoteOut](https://cables.gl/op/Ops.Devices.Midi.MidiNoteOut)
 
@@ -304,7 +304,7 @@ read NRPN value from controller.
 - **NRPN Index Out** (Number)
 - **NRPN Value** (Number)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiNRPN](https://cables.gl/op/Ops.Devices.Midi.MidiNRPN)
 
@@ -327,7 +327,7 @@ send midi NRPN data to a midi output.
 
 - **MIDI Event Out** (Object)
 
-**Example Patch:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
+**Example:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiNRPNOut](https://cables.gl/op/Ops.Devices.Midi.MidiNRPNOut)
 
@@ -345,7 +345,7 @@ Connect to MIDI device input port.
 - **CC** (Object)
 - **NRPN** (Object)
 
-**Example Patch:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
+**Example:** [cables.gl/edit/VbaQXU](https://cables.gl/edit/VbaQXU)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiOutputDevice](https://cables.gl/op/Ops.Devices.Midi.MidiOutputDevice)
 
@@ -368,7 +368,7 @@ transpose incoming midi notes.
 - **MIDI Event Out** (Object)
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
+**Example:** [cables.gl/edit/dfF3DI](https://cables.gl/edit/dfF3DI)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiTranspose](https://cables.gl/op/Ops.Devices.Midi.MidiTranspose)
 
@@ -387,7 +387,7 @@ Converts a MIDI value to a note string.
 
 - **Note** (String)
 
-**Example Patch:** [cables.gl/edit/PfZk-4](https://cables.gl/edit/PfZk-4)
+**Example:** [cables.gl/edit/PfZk-4](https://cables.gl/edit/PfZk-4)
 
 **Doc:** [cables.gl/op/Ops.Devices.Midi.MidiValueToNote_v2](https://cables.gl/op/Ops.Devices.Midi.MidiValueToNote_v2)
 

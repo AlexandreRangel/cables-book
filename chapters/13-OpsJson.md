@@ -21,7 +21,7 @@ create an array with multiple objects.
 - **Array** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2#example](https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2#example](https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2](https://cables.gl/op/Ops.Json.ArrayOfObjectsMultiPort_v2)
 
@@ -36,7 +36,7 @@ Creates a copy of a JSON object.
 
 - **Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/xJCXJK](https://cables.gl/edit/xJCXJK)
+**Example:** [cables.gl/edit/xJCXJK](https://cables.gl/edit/xJCXJK)
 
 **Doc:** [cables.gl/op/Ops.Json.CopyObject](https://cables.gl/op/Ops.Json.CopyObject)
 
@@ -56,7 +56,7 @@ parse CSV files as array.
 - **Result** (Array)
 - **Num Items** (Number)
 
-**Example Patch:** [cables.gl/edit/UlL2G1](https://cables.gl/edit/UlL2G1)
+**Example:** [cables.gl/edit/UlL2G1](https://cables.gl/edit/UlL2G1)
 
 **Doc:** [cables.gl/op/Ops.Json.CsvArray](https://cables.gl/op/Ops.Json.CsvArray)
 
@@ -77,7 +77,7 @@ get all values of a CSV column as array of strings.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Json.CsvColumnArray_v2#example](https://cables.gl/op/Ops.Json.CsvColumnArray_v2#example)
+**Example:** [cables.gl/op/Ops.Json.CsvColumnArray_v2#example](https://cables.gl/op/Ops.Json.CsvColumnArray_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.CsvColumnArray_v2](https://cables.gl/op/Ops.Json.CsvColumnArray_v2)
 
@@ -92,7 +92,7 @@ get all values of a CSV column as array of strings.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/piMxeG](https://cables.gl/edit/piMxeG)
+**Example:** [cables.gl/edit/piMxeG](https://cables.gl/edit/piMxeG)
 
 **Doc:** [cables.gl/op/Ops.Json.EmptyObject](https://cables.gl/op/Ops.Json.EmptyObject)
 
@@ -112,7 +112,7 @@ Filter valid objects.
 - **Last Valid Object** (Object)
 - **Is Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Json.FilterValidObject#example](https://cables.gl/op/Ops.Json.FilterValidObject#example)
+**Example:** [cables.gl/op/Ops.Json.FilterValidObject#example](https://cables.gl/op/Ops.Json.FilterValidObject#example)
 
 **Doc:** [cables.gl/op/Ops.Json.FilterValidObject](https://cables.gl/op/Ops.Json.FilterValidObject)
 
@@ -133,7 +133,7 @@ Will only allow an Object to to be output if the the pass through parameter eval
 
 - **Object Out** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.GateObject#example](https://cables.gl/op/Ops.Json.GateObject#example)
+**Example:** [cables.gl/op/Ops.Json.GateObject#example](https://cables.gl/op/Ops.Json.GateObject#example)
 
 **Doc:** [cables.gl/op/Ops.Json.GateObject](https://cables.gl/op/Ops.Json.GateObject)
 
@@ -154,7 +154,7 @@ HttpRequest/Fetch Streaming.
 - **Received Result** (Trigger)
 - **Started** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Json.HttpFetchStream#example](https://cables.gl/op/Ops.Json.HttpFetchStream#example)
+**Example:** [cables.gl/op/Ops.Json.HttpFetchStream#example](https://cables.gl/op/Ops.Json.HttpFetchStream#example)
 
 **Doc:** [cables.gl/op/Ops.Json.HttpFetchStream](https://cables.gl/op/Ops.Json.HttpFetchStream)
 
@@ -193,7 +193,7 @@ Request a json file and output an object (ajax, url, json,fetch).
 - **Fetch Response** (Object)
 - **Loaded** (Trigger)
 
-**Example Patch:** https://dev.cables.gl/edit/gSRYVQ
+**Example:** https://dev.cables.gl/edit/gSRYVQ
 
 **Doc:** [cables.gl/op/Ops.Json.HttpRequest_v4](https://cables.gl/op/Ops.Json.HttpRequest_v4)
 
@@ -212,7 +212,7 @@ Request a json file and output an object (ajax, url, json,fetch).
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.Object#example](https://cables.gl/op/Ops.Json.Object#example)
+**Example:** [cables.gl/op/Ops.Json.Object#example](https://cables.gl/op/Ops.Json.Object#example)
 
 **Doc:** [cables.gl/op/Ops.Json.Object](https://cables.gl/op/Ops.Json.Object)
 
@@ -232,7 +232,7 @@ Remove a Property from an Object by Key.
 
 - **Object Result** (Object)
 
-**Example Patch:** [cables.gl/edit/piMxeG](https://cables.gl/edit/piMxeG)
+**Example:** [cables.gl/edit/piMxeG](https://cables.gl/edit/piMxeG)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectDeleteKey](https://cables.gl/op/Ops.Json.ObjectDeleteKey)
 
@@ -253,7 +253,7 @@ filter values from an object if key starts with input string.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/KEDALu](https://cables.gl/edit/KEDALu)
+**Example:** [cables.gl/edit/KEDALu](https://cables.gl/edit/KEDALu)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectFilterContentByKey](https://cables.gl/op/Ops.Json.ObjectFilterContentByKey)
 
@@ -276,7 +276,7 @@ outputs the last changed object.
 
 - **Out Object** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectFunnel#example](https://cables.gl/op/Ops.Json.ObjectFunnel#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectFunnel#example](https://cables.gl/op/Ops.Json.ObjectFunnel#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectFunnel](https://cables.gl/op/Ops.Json.ObjectFunnel)
 
@@ -297,7 +297,7 @@ Returns an array from a JSON-object.
 - **Result** (Array)
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/yU2Pet](https://cables.gl/edit/yU2Pet)
+**Example:** [cables.gl/edit/yU2Pet](https://cables.gl/edit/yU2Pet)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectGetArray_v2](https://cables.gl/op/Ops.Json.ObjectGetArray_v2)
 
@@ -318,7 +318,7 @@ Get a number from an object.
 - **Result** (Number)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectGetNumber_v2#example](https://cables.gl/op/Ops.Json.ObjectGetNumber_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectGetNumber_v2#example](https://cables.gl/op/Ops.Json.ObjectGetNumber_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectGetNumber_v2](https://cables.gl/op/Ops.Json.ObjectGetNumber_v2)
 
@@ -338,7 +338,7 @@ Get an object from an object.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectGetObject_v2#example](https://cables.gl/op/Ops.Json.ObjectGetObject_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectGetObject_v2#example](https://cables.gl/op/Ops.Json.ObjectGetObject_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectGetObject_v2](https://cables.gl/op/Ops.Json.ObjectGetObject_v2)
 
@@ -359,7 +359,7 @@ Get string from object by key.
 - **Result** (String)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Sn0k9Q](https://cables.gl/edit/Sn0k9Q)
+**Example:** [cables.gl/edit/Sn0k9Q](https://cables.gl/edit/Sn0k9Q)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectGetString_v2](https://cables.gl/op/Ops.Json.ObjectGetString_v2)
 
@@ -378,7 +378,7 @@ check if object is null or a valid object.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectIsNull#example](https://cables.gl/op/Ops.Json.ObjectIsNull#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectIsNull#example](https://cables.gl/op/Ops.Json.ObjectIsNull#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectIsNull](https://cables.gl/op/Ops.Json.ObjectIsNull)
 
@@ -398,7 +398,7 @@ returns an array of strings, which contain the keys of the object.
 - **Keys** (Array)
 - **Num Keys** (Number)
 
-**Example Patch:** [cables.gl/edit/3pkLji](https://cables.gl/edit/3pkLji)
+**Example:** [cables.gl/edit/3pkLji](https://cables.gl/edit/3pkLji)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectKeys](https://cables.gl/op/Ops.Json.ObjectKeys)
 
@@ -418,7 +418,7 @@ merge key+values of two objects.
 
 - **Object Result** (Object)
 
-**Example Patch:** [cables.gl/edit/LNJHeG](https://cables.gl/edit/LNJHeG)
+**Example:** [cables.gl/edit/LNJHeG](https://cables.gl/edit/LNJHeG)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectMerge](https://cables.gl/op/Ops.Json.ObjectMerge)
 
@@ -444,7 +444,7 @@ result is first connected valid object.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectOr#example](https://cables.gl/op/Ops.Json.ObjectOr#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectOr#example](https://cables.gl/op/Ops.Json.ObjectOr#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectOr](https://cables.gl/op/Ops.Json.ObjectOr)
 
@@ -467,7 +467,7 @@ record objects and download as json file.
 - **Result** (Array)
 - **Num Objects** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectRecorder#example](https://cables.gl/op/Ops.Json.ObjectRecorder#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectRecorder#example](https://cables.gl/op/Ops.Json.ObjectRecorder#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectRecorder](https://cables.gl/op/Ops.Json.ObjectRecorder)
 
@@ -488,7 +488,7 @@ Set array by key in an object.
 
 - **Result Object** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectSetArray_v2#example](https://cables.gl/op/Ops.Json.ObjectSetArray_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectSetArray_v2#example](https://cables.gl/op/Ops.Json.ObjectSetArray_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetArray_v2](https://cables.gl/op/Ops.Json.ObjectSetArray_v2)
 
@@ -509,7 +509,7 @@ set number at key in an object.
 
 - **Result Object** (Object)
 
-**Example Patch:** [cables.gl/edit/w63Au1](https://cables.gl/edit/w63Au1)
+**Example:** [cables.gl/edit/w63Au1](https://cables.gl/edit/w63Au1)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetBool](https://cables.gl/op/Ops.Json.ObjectSetBool)
 
@@ -537,7 +537,7 @@ Set rgba array by key in an object.
 - **Out B** (Number)
 - **Out A** (Number)
 
-**Example Patch:** [cables.gl/edit/joA-JK](https://cables.gl/edit/joA-JK)
+**Example:** [cables.gl/edit/joA-JK](https://cables.gl/edit/joA-JK)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetColorArray](https://cables.gl/op/Ops.Json.ObjectSetColorArray)
 
@@ -558,7 +558,7 @@ set number at key in an object.
 
 - **Result Object** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectSetNumber_v2#example](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectSetNumber_v2#example](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetNumber_v2](https://cables.gl/op/Ops.Json.ObjectSetNumber_v2)
 
@@ -579,7 +579,7 @@ set object as value in an object.
 
 - **Result Object** (Object)
 
-**Example Patch:** [cables.gl/edit/7X58nR](https://cables.gl/edit/7X58nR)
+**Example:** [cables.gl/edit/7X58nR](https://cables.gl/edit/7X58nR)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetObject_v2](https://cables.gl/op/Ops.Json.ObjectSetObject_v2)
 
@@ -600,7 +600,7 @@ set a string value by key in an object.
 
 - **Result Object** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectSetString_v2#example](https://cables.gl/op/Ops.Json.ObjectSetString_v2#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectSetString_v2#example](https://cables.gl/op/Ops.Json.ObjectSetString_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectSetString_v2](https://cables.gl/op/Ops.Json.ObjectSetString_v2)
 
@@ -621,7 +621,7 @@ Convert object to string.
 - **Result** (String)
 - **Error** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/7X58nR](https://cables.gl/edit/7X58nR)
+**Example:** [cables.gl/edit/7X58nR](https://cables.gl/edit/7X58nR)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectStringify_v2](https://cables.gl/op/Ops.Json.ObjectStringify_v2)
 
@@ -640,7 +640,7 @@ cast an object port to an array port.
 
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Json.ObjectToArray#example](https://cables.gl/op/Ops.Json.ObjectToArray#example)
+**Example:** [cables.gl/op/Ops.Json.ObjectToArray#example](https://cables.gl/op/Ops.Json.ObjectToArray#example)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectToArray](https://cables.gl/op/Ops.Json.ObjectToArray)
 
@@ -660,7 +660,7 @@ extract all object values as an array.
 - **Values** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/bIQ8cI](https://cables.gl/edit/bIQ8cI)
+**Example:** [cables.gl/edit/bIQ8cI](https://cables.gl/edit/bIQ8cI)
 
 **Doc:** [cables.gl/op/Ops.Json.ObjectValuesAsArray](https://cables.gl/op/Ops.Json.ObjectValuesAsArray)
 
@@ -680,7 +680,7 @@ Parses a string to a JSON object.
 - **Result** (Object)
 - **Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Z17vG8](https://cables.gl/edit/Z17vG8)
+**Example:** [cables.gl/edit/Z17vG8](https://cables.gl/edit/Z17vG8)
 
 **Doc:** [cables.gl/op/Ops.Json.ParseObject_v2](https://cables.gl/op/Ops.Json.ParseObject_v2)
 
@@ -699,7 +699,7 @@ Removes data URL prefix from a string.
 
 - **String Output** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example)
+**Example:** [cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix#example)
 
 **Doc:** [cables.gl/op/Ops.Json.RemoveDataUrlPrefix](https://cables.gl/op/Ops.Json.RemoveDataUrlPrefix)
 
@@ -729,7 +729,7 @@ Route an object to an output port.
 - **Index 8 Object** (Object)
 - **Index 9 Object** (Object)
 
-**Example Patch:** [cables.gl/edit/-xrxX8](https://cables.gl/edit/-xrxX8)
+**Example:** [cables.gl/edit/-xrxX8](https://cables.gl/edit/-xrxX8)
 
 **Doc:** [cables.gl/op/Ops.Json.RouteObject](https://cables.gl/op/Ops.Json.RouteObject)
 
@@ -746,7 +746,7 @@ save/download an object as json file.
 - **Filename** (String)
 - **Object** (Object)
 
-**Example Patch:** [cables.gl/edit/J0c008](https://cables.gl/edit/J0c008)
+**Example:** [cables.gl/edit/J0c008](https://cables.gl/edit/J0c008)
 
 **Doc:** [cables.gl/op/Ops.Json.SaveJsonFile](https://cables.gl/op/Ops.Json.SaveJsonFile)
 
@@ -795,7 +795,7 @@ control order and flow of objects.
 - **Output 14** (Object)
 - **Output 15** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.SequenceObjects_v2#example](https://cables.gl/op/Ops.Json.SequenceObjects_v2#example)
+**Example:** [cables.gl/op/Ops.Json.SequenceObjects_v2#example](https://cables.gl/op/Ops.Json.SequenceObjects_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Json.SequenceObjects_v2](https://cables.gl/op/Ops.Json.SequenceObjects_v2)
 
@@ -822,7 +822,7 @@ Allows switching between objects.
 
 - **Object Out** (Object)
 
-**Example Patch:** [cables.gl/edit/X55cRo](https://cables.gl/edit/X55cRo)
+**Example:** [cables.gl/edit/X55cRo](https://cables.gl/edit/X55cRo)
 
 **Doc:** [cables.gl/op/Ops.Json.SwitchObject](https://cables.gl/op/Ops.Json.SwitchObject)
 
@@ -844,7 +844,7 @@ Switch between multiple object inputs.
 - **Object** (Object)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/PI2xsh](https://cables.gl/edit/PI2xsh)
+**Example:** [cables.gl/edit/PI2xsh](https://cables.gl/edit/PI2xsh)
 
 **Doc:** [cables.gl/op/Ops.Json.SwitchObjectMultiPort_v2](https://cables.gl/op/Ops.Json.SwitchObjectMultiPort_v2)
 
@@ -865,7 +865,7 @@ set output object when triggered.
 - **Next** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.TriggerObject#example](https://cables.gl/op/Ops.Json.TriggerObject#example)
+**Example:** [cables.gl/op/Ops.Json.TriggerObject#example](https://cables.gl/op/Ops.Json.TriggerObject#example)
 
 **Doc:** [cables.gl/op/Ops.Json.TriggerObject](https://cables.gl/op/Ops.Json.TriggerObject)
 
@@ -888,7 +888,7 @@ set a number value of an object using trigger.
 - **Next** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.TriggerObjectSetNumber#example](https://cables.gl/op/Ops.Json.TriggerObjectSetNumber#example)
+**Example:** [cables.gl/op/Ops.Json.TriggerObjectSetNumber#example](https://cables.gl/op/Ops.Json.TriggerObjectSetNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Json.TriggerObjectSetNumber](https://cables.gl/op/Ops.Json.TriggerObjectSetNumber)
 
@@ -911,7 +911,7 @@ set a string value of an object using trigger.
 - **Next** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Json.TriggerObjectSetString#example](https://cables.gl/op/Ops.Json.TriggerObjectSetString#example)
+**Example:** [cables.gl/op/Ops.Json.TriggerObjectSetString#example](https://cables.gl/op/Ops.Json.TriggerObjectSetString#example)
 
 **Doc:** [cables.gl/op/Ops.Json.TriggerObjectSetString](https://cables.gl/op/Ops.Json.TriggerObjectSetString)
 

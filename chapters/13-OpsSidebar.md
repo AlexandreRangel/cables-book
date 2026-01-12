@@ -23,7 +23,7 @@ sidebar push button/trigger element.
 - **Childs** (Object)
 - **Pressed Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Button_v2](https://cables.gl/op/Ops.Sidebar.Button_v2)
 
@@ -54,7 +54,7 @@ Shows a color-picker in the sidebar.
 - **Opacity** (Number)
 - **Hex** (String)
 
-**Example Patch:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
+**Example:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.ColorPicker_v3](https://cables.gl/op/Ops.Sidebar.ColorPicker_v3)
 
@@ -75,7 +75,7 @@ display a value or string.
 
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.DisplayValue_v2](https://cables.gl/op/Ops.Sidebar.DisplayValue_v2)
 
@@ -104,7 +104,7 @@ Shows a drop-down (select) element in the sidebar.
 - **Index** (Number)
 - **Selected Values** (Array)
 
-**Example Patch:** [cables.gl/edit/0wKJ5d](https://cables.gl/edit/0wKJ5d)
+**Example:** [cables.gl/edit/0wKJ5d](https://cables.gl/edit/0wKJ5d)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.DropDown_v2](https://cables.gl/op/Ops.Sidebar.DropDown_v2)
 
@@ -128,7 +128,7 @@ organize sidebar elements into groups.
 - **Next** (Object)
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Sidebar.Group#example](https://cables.gl/op/Ops.Sidebar.Group#example)
+**Example:** [cables.gl/op/Ops.Sidebar.Group#example](https://cables.gl/op/Ops.Sidebar.Group#example)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Group](https://cables.gl/op/Ops.Sidebar.Group)
 
@@ -159,7 +159,7 @@ steps through numerical or array values one by one.
 - **Value** (Number)
 - **Changed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/DLV0n6](https://cables.gl/edit/DLV0n6)
+**Example:** [cables.gl/edit/DLV0n6](https://cables.gl/edit/DLV0n6)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Incrementor_v3](https://cables.gl/op/Ops.Sidebar.Incrementor_v3)
 
@@ -194,7 +194,7 @@ load a local file and output as data url.
 - **Filenames** (Array)
 - **File Changed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/a0V6xn](https://cables.gl/edit/a0V6xn)
+**Example:** [cables.gl/edit/a0V6xn](https://cables.gl/edit/a0V6xn)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.LocalFileToDataUrl](https://cables.gl/op/Ops.Sidebar.LocalFileToDataUrl)
 
@@ -216,7 +216,7 @@ Enter a number in the sidebar.
 - **Children** (Object)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.NumberInput_v2](https://cables.gl/op/Ops.Sidebar.NumberInput_v2)
 
@@ -255,7 +255,7 @@ manage sidebar presets.
 - **Children** (Object)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/KKabBN](https://cables.gl/edit/KKabBN)
+**Example:** [cables.gl/edit/KKabBN](https://cables.gl/edit/KKabBN)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Presets_v2](https://cables.gl/op/Ops.Sidebar.Presets_v2)
 
@@ -283,7 +283,7 @@ Sidebar overlay to control values.
 - **Childs** (Object)
 - **Opfened** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Sidebar](https://cables.gl/op/Ops.Sidebar.Sidebar)
 
@@ -311,7 +311,7 @@ date or datetime picker in the sidebar.
 - **Result** (String)
 - **Focus** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Bkzmci](https://cables.gl/edit/Bkzmci)
+**Example:** [cables.gl/edit/Bkzmci](https://cables.gl/edit/Bkzmci)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SidebarDateTime](https://cables.gl/op/Ops.Sidebar.SidebarDateTime)
 
@@ -333,7 +333,7 @@ Add custom HTML Elements into the sidebar.
 
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/edit/CQrFox](https://cables.gl/edit/CQrFox)
+**Example:** [cables.gl/edit/CQrFox](https://cables.gl/edit/CQrFox)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SidebarElement](https://cables.gl/op/Ops.Sidebar.SidebarElement)
 
@@ -354,7 +354,7 @@ Display an image in the sidebar.
 - **Childs** (Object)
 - **Image Element** (Object)
 
-**Example Patch:** [cables.gl/edit/nLvdby](https://cables.gl/edit/nLvdby)
+**Example:** [cables.gl/edit/nLvdby](https://cables.gl/edit/nLvdby)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SideBarImage](https://cables.gl/op/Ops.Sidebar.SideBarImage)
 
@@ -376,7 +376,7 @@ adjust appearance of sidebar.
 
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/edit/o1fXgI](https://cables.gl/edit/o1fXgI)
+**Example:** [cables.gl/edit/o1fXgI](https://cables.gl/edit/o1fXgI)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SideBarStyle](https://cables.gl/op/Ops.Sidebar.SideBarStyle)
 
@@ -402,7 +402,7 @@ add tabs or switchbar to a sidebar.
 - **Index** (Number)
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/7uuz6D](https://cables.gl/edit/7uuz6D)
+**Example:** [cables.gl/edit/7uuz6D](https://cables.gl/edit/7uuz6D)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SideBarSwitch](https://cables.gl/op/Ops.Sidebar.SideBarSwitch)
 
@@ -424,7 +424,7 @@ Display text in the sidebar.
 
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/edit/Ut4y8i](https://cables.gl/edit/Ut4y8i)
+**Example:** [cables.gl/edit/Ut4y8i](https://cables.gl/edit/Ut4y8i)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SidebarText_v3](https://cables.gl/op/Ops.Sidebar.SidebarText_v3)
 
@@ -445,7 +445,7 @@ show values of all variables in a sidebar.
 
 - **Childs** (Object)
 
-**Example Patch:** [cables.gl/edit/H2kYgL](https://cables.gl/edit/H2kYgL)
+**Example:** [cables.gl/edit/H2kYgL](https://cables.gl/edit/H2kYgL)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.SidebarVariables](https://cables.gl/op/Ops.Sidebar.SidebarVariables)
 
@@ -474,7 +474,7 @@ Sidebar slider element (range).
 - **Childs** (Object)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Slider_v3](https://cables.gl/op/Ops.Sidebar.Slider_v3)
 
@@ -508,7 +508,7 @@ Get a string from an sidebar input field.
 - **Keypress Enter** (Trigger)
 - **Keypress ESC** (Trigger)
 
-**Example Patch:** [cables.gl/edit/wa-KH-](https://cables.gl/edit/wa-KH-)
+**Example:** [cables.gl/edit/wa-KH-](https://cables.gl/edit/wa-KH-)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.TextInput_v2](https://cables.gl/op/Ops.Sidebar.TextInput_v2)
 
@@ -533,7 +533,7 @@ sidebar boolean toggle/switch element.
 - **Value** (booleanNumber)
 - **Toggled** (Trigger)
 
-**Example Patch:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
+**Example:** [cables.gl/edit/aDgYX5](https://cables.gl/edit/aDgYX5)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.Toggle_v4](https://cables.gl/op/Ops.Sidebar.Toggle_v4)
 
@@ -562,7 +562,7 @@ sidebar boolean toggle/switch element.
 - **Y** (Number)
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/0NF2FL](https://cables.gl/edit/0NF2FL)
+**Example:** [cables.gl/edit/0NF2FL](https://cables.gl/edit/0NF2FL)
 
 **Doc:** [cables.gl/op/Ops.Sidebar.XYPad](https://cables.gl/op/Ops.Sidebar.XYPad)
 

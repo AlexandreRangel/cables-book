@@ -21,7 +21,7 @@ Modify current alpha/opacity.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/y6f1ei](https://cables.gl/edit/y6f1ei)
+**Example:** [cables.gl/edit/y6f1ei](https://cables.gl/edit/y6f1ei)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Alpha](https://cables.gl/op/Ops.Gl.ImageCompose.Alpha)
 
@@ -44,7 +44,7 @@ Set alphachannel of current imagecompose via a texture mask.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2#example](https://cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2#example)
+**Example:** [cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2#example](https://cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2](https://cables.gl/op/Ops.Gl.ImageCompose.AlphaMask_v2)
 
@@ -66,7 +66,7 @@ Simulate fisheye effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/qIOrS-](https://cables.gl/edit/qIOrS-)
+**Example:** [cables.gl/edit/qIOrS-](https://cables.gl/edit/qIOrS-)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.BarrelDistortion_v3](https://cables.gl/op/Ops.Gl.ImageCompose.BarrelDistortion_v3)
 
@@ -90,7 +90,7 @@ Blur the pixels of an image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/1T9f7g](https://cables.gl/edit/1T9f7g)
+**Example:** [cables.gl/edit/1T9f7g](https://cables.gl/edit/1T9f7g)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Blur](https://cables.gl/op/Ops.Gl.ImageCompose.Blur)
 
@@ -121,7 +121,7 @@ Draws a Border (rectangular frame) around the current ImageCompose.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ctPnT6](https://cables.gl/edit/ctPnT6)
+**Example:** [cables.gl/edit/ctPnT6](https://cables.gl/edit/ctPnT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Border_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Border_v2)
 
@@ -142,7 +142,7 @@ adjust image brightness and contrast.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/8p4mT6](https://cables.gl/edit/8p4mT6)
+**Example:** [cables.gl/edit/8p4mT6](https://cables.gl/edit/8p4mT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.BrightnessContrast](https://cables.gl/op/Ops.Gl.ImageCompose.BrightnessContrast)
 
@@ -165,7 +165,7 @@ bulge and pinch an image (deform,stretch,distort).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/2lC9W6](https://cables.gl/edit/2lC9W6)
+**Example:** [cables.gl/edit/2lC9W6](https://cables.gl/edit/2lC9W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.BulgePinch](https://cables.gl/op/Ops.Gl.ImageCompose.BulgePinch)
 
@@ -192,7 +192,7 @@ Draw a checkerboard pattern.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/J4KL_4](https://cables.gl/edit/J4KL_4)
+**Example:** [cables.gl/edit/J4KL_4](https://cables.gl/edit/J4KL_4)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.CheckerBoard_v2](https://cables.gl/op/Ops.Gl.ImageCompose.CheckerBoard_v2)
 
@@ -217,7 +217,7 @@ simulating lens effect by shifting rgb channels.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/X0WkT6](https://cables.gl/edit/X0WkT6)
+**Example:** [cables.gl/edit/X0WkT6](https://cables.gl/edit/X0WkT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ChromaticAberration_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ChromaticAberration_v2)
 
@@ -252,7 +252,7 @@ Draw 2d circle into texture.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/asslT6](https://cables.gl/edit/asslT6)
+**Example:** [cables.gl/edit/asslT6](https://cables.gl/edit/asslT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.CircleTexture_v4](https://cables.gl/op/Ops.Gl.ImageCompose.CircleTexture_v4)
 
@@ -283,7 +283,7 @@ Clamps a texture to min and max values - Also has remap modes.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/eYNP7-](https://cables.gl/edit/eYNP7-)
+**Example:** [cables.gl/edit/eYNP7-](https://cables.gl/edit/eYNP7-)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ClampTexture_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ClampTexture_v2)
 
@@ -303,7 +303,7 @@ Increase contrast in midtones.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.Clarity#example](https://cables.gl/op/Ops.Gl.ImageCompose.Clarity#example)
+**Example:** [cables.gl/op/Ops.Gl.ImageCompose.Clarity#example](https://cables.gl/op/Ops.Gl.ImageCompose.Clarity#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Clarity](https://cables.gl/op/Ops.Gl.ImageCompose.Clarity)
 
@@ -331,7 +331,7 @@ fill image using a color (overlay).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/AnqmT6](https://cables.gl/edit/AnqmT6)
+**Example:** [cables.gl/edit/AnqmT6](https://cables.gl/edit/AnqmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Color_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Color_v2)
 
@@ -354,7 +354,7 @@ change intensity of r,g,b channels.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/FGVncy](https://cables.gl/edit/FGVncy)
+**Example:** [cables.gl/edit/FGVncy](https://cables.gl/edit/FGVncy)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ColorBalance_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ColorBalance_v2)
 
@@ -378,7 +378,7 @@ enable disable RGB color channels.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2#example](https://cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2#example)
+**Example:** [cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2#example](https://cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ColorChannel_v2)
 
@@ -404,7 +404,7 @@ colorize a black and white image using a gradient texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/E7Dou7](https://cables.gl/edit/E7Dou7)
+**Example:** [cables.gl/edit/E7Dou7](https://cables.gl/edit/E7Dou7)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ColorMap_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ColorMap_v2)
 
@@ -424,7 +424,7 @@ Denoise texture effect - used to smooth out noisy images.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/4vWud8](https://cables.gl/edit/4vWud8)
+**Example:** [cables.gl/edit/4vWud8](https://cables.gl/edit/4vWud8)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Denoise](https://cables.gl/op/Ops.Gl.ImageCompose.Denoise)
 
@@ -449,7 +449,7 @@ draw the content of a depth texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/tmLbW6](https://cables.gl/edit/tmLbW6)
+**Example:** [cables.gl/edit/tmLbW6](https://cables.gl/edit/tmLbW6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.DepthTexture_v2](https://cables.gl/op/Ops.Gl.ImageCompose.DepthTexture_v2)
 
@@ -476,7 +476,7 @@ draws a gradient from white to black back to white over distance of the scene.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/6Z8zJm](https://cables.gl/edit/6Z8zJm)
+**Example:** [cables.gl/edit/6Z8zJm](https://cables.gl/edit/6Z8zJm)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.DepthTextureFocus_v2](https://cables.gl/op/Ops.Gl.ImageCompose.DepthTextureFocus_v2)
 
@@ -498,7 +498,7 @@ Remove colors from image / greyscale.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/g1kmT6](https://cables.gl/edit/g1kmT6)
+**Example:** [cables.gl/edit/g1kmT6](https://cables.gl/edit/g1kmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Desaturate](https://cables.gl/op/Ops.Gl.ImageCompose.Desaturate)
 
@@ -522,7 +522,7 @@ convert color to black and white patterns.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/eECnT6](https://cables.gl/edit/eECnT6)
+**Example:** [cables.gl/edit/eECnT6](https://cables.gl/edit/eECnT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Dither_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Dither_v2)
 
@@ -563,7 +563,7 @@ Draws an image into a composition.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/k6ttde](https://cables.gl/edit/k6ttde)
+**Example:** [cables.gl/edit/k6ttde](https://cables.gl/edit/k6ttde)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.DrawImage_v3](https://cables.gl/op/Ops.Gl.ImageCompose.DrawImage_v3)
 
@@ -587,7 +587,7 @@ Draw only the edges of an image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dK8td8](https://cables.gl/edit/dK8td8)
+**Example:** [cables.gl/edit/dK8td8](https://cables.gl/edit/dK8td8)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.EdgeDetection_v4](https://cables.gl/op/Ops.Gl.ImageCompose.EdgeDetection_v4)
 
@@ -608,7 +608,7 @@ Emboss / bevel effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/xsRcay](https://cables.gl/edit/xsRcay)
+**Example:** [cables.gl/edit/xsRcay](https://cables.gl/edit/xsRcay)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Emboss](https://cables.gl/op/Ops.Gl.ImageCompose.Emboss)
 
@@ -632,7 +632,7 @@ Blurs a texture - simple and fast.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/wl2T7i](https://cables.gl/edit/wl2T7i)
+**Example:** [cables.gl/edit/wl2T7i](https://cables.gl/edit/wl2T7i)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.FastBlur_v2](https://cables.gl/op/Ops.Gl.ImageCompose.FastBlur_v2)
 
@@ -653,7 +653,7 @@ flip the image on x or y axis.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/179Jjr](https://cables.gl/edit/179Jjr)
+**Example:** [cables.gl/edit/179Jjr](https://cables.gl/edit/179Jjr)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Flip](https://cables.gl/op/Ops.Gl.ImageCompose.Flip)
 
@@ -672,7 +672,7 @@ Convert a Float32 bit/HDR texture to RGBE format (only positive numbers).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dXLhW2](https://cables.gl/edit/dXLhW2)
+**Example:** [cables.gl/edit/dXLhW2](https://cables.gl/edit/dXLhW2)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Float32ToRgbeTexture](https://cables.gl/op/Ops.Gl.ImageCompose.Float32ToRgbeTexture)
 
@@ -706,7 +706,7 @@ add post processing fog (nebula) to a scene.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/I6pZnO](https://cables.gl/edit/I6pZnO)
+**Example:** [cables.gl/edit/I6pZnO](https://cables.gl/edit/I6pZnO)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Fog_v4](https://cables.gl/op/Ops.Gl.ImageCompose.Fog_v4)
 
@@ -731,7 +731,7 @@ post processing antialiasing.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/c5uYnO](https://cables.gl/edit/c5uYnO)
+**Example:** [cables.gl/edit/c5uYnO](https://cables.gl/edit/c5uYnO)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.FXAA](https://cables.gl/op/Ops.Gl.ImageCompose.FXAA)
 
@@ -754,7 +754,7 @@ Allows for Gamma correction of a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/WugPbx](https://cables.gl/edit/WugPbx)
+**Example:** [cables.gl/edit/WugPbx](https://cables.gl/edit/WugPbx)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.GammaCorrection_v2](https://cables.gl/op/Ops.Gl.ImageCompose.GammaCorrection_v2)
 
@@ -792,7 +792,7 @@ Draws a simple gradient between three colors.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dlSpQ6](https://cables.gl/edit/dlSpQ6)
+**Example:** [cables.gl/edit/dlSpQ6](https://cables.gl/edit/dlSpQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Gradient_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Gradient_v2)
 
@@ -825,7 +825,7 @@ Creates a grid texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/pG_qUH](https://cables.gl/edit/pG_qUH)
+**Example:** [cables.gl/edit/pG_qUH](https://cables.gl/edit/pG_qUH)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.GridTexture_v2](https://cables.gl/op/Ops.Gl.ImageCompose.GridTexture_v2)
 
@@ -851,7 +851,7 @@ Make one pixel lines thicker via postprocessing.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3WSXCU](https://cables.gl/edit/3WSXCU)
+**Example:** [cables.gl/edit/3WSXCU](https://cables.gl/edit/3WSXCU)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.GrowPixels_v2](https://cables.gl/op/Ops.Gl.ImageCompose.GrowPixels_v2)
 
@@ -873,7 +873,7 @@ Adjust Hue of current ImageCompose.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/kubmT6](https://cables.gl/edit/kubmT6)
+**Example:** [cables.gl/edit/kubmT6](https://cables.gl/edit/kubmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Hue](https://cables.gl/op/Ops.Gl.ImageCompose.Hue)
 
@@ -907,7 +907,7 @@ Compose Images and effects as layers to generate new Images.
 - **Texture Width** (Number)
 - **Texture Height** (Number)
 
-**Example Patch:** [cables.gl/edit/dNv2r1](https://cables.gl/edit/dNv2r1)
+**Example:** [cables.gl/edit/dNv2r1](https://cables.gl/edit/dNv2r1)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ImageCompose_v4](https://cables.gl/op/Ops.Gl.ImageCompose.ImageCompose_v4)
 
@@ -927,7 +927,7 @@ Adjust aspect ratio of an image compose branch.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/iwX7v4](https://cables.gl/edit/iwX7v4)
+**Example:** [cables.gl/edit/iwX7v4](https://cables.gl/edit/iwX7v4)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ImageComposeAspectRatio](https://cables.gl/op/Ops.Gl.ImageCompose.ImageComposeAspectRatio)
 
@@ -947,7 +947,7 @@ capture the current state of an imageCompose branch by copying the texture.
 - **Trigger** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/Dc1a-W](https://cables.gl/edit/Dc1a-W)
+**Example:** [cables.gl/edit/Dc1a-W](https://cables.gl/edit/Dc1a-W)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ImageComposeSnapshot](https://cables.gl/op/Ops.Gl.ImageCompose.ImageComposeSnapshot)
 
@@ -973,7 +973,7 @@ Tv scanlines effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/MCpnT6](https://cables.gl/edit/MCpnT6)
+**Example:** [cables.gl/edit/MCpnT6](https://cables.gl/edit/MCpnT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Interlace](https://cables.gl/op/Ops.Gl.ImageCompose.Interlace)
 
@@ -999,7 +999,7 @@ Invert image colors.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Ld3nT6](https://cables.gl/edit/Ld3nT6)
+**Example:** [cables.gl/edit/Ld3nT6](https://cables.gl/edit/Ld3nT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Invert_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Invert_v2)
 
@@ -1027,7 +1027,7 @@ Kaleidoscope effect.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/n4DaW6](https://cables.gl/edit/n4DaW6)
+**Example:** [cables.gl/edit/n4DaW6](https://cables.gl/edit/n4DaW6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Kaleidoscope_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Kaleidoscope_v2)
 
@@ -1056,7 +1056,7 @@ Creates a lens dirt like texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/vwgWMX](https://cables.gl/edit/vwgWMX)
+**Example:** [cables.gl/edit/vwgWMX](https://cables.gl/edit/vwgWMX)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.LensDirt_v2](https://cables.gl/op/Ops.Gl.ImageCompose.LensDirt_v2)
 
@@ -1086,7 +1086,7 @@ Creates a procedural texture simulating scratches on a lens.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ucr5NX](https://cables.gl/edit/ucr5NX)
+**Example:** [cables.gl/edit/ucr5NX](https://cables.gl/edit/ucr5NX)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.LensScratches_v2](https://cables.gl/op/Ops.Gl.ImageCompose.LensScratches_v2)
 
@@ -1110,7 +1110,7 @@ adjust levels to correct the tonal range of an image.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/F8M9W6](https://cables.gl/edit/F8M9W6)
+**Example:** [cables.gl/edit/F8M9W6](https://cables.gl/edit/F8M9W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Levels_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Levels_v2)
 
@@ -1135,7 +1135,7 @@ Remove darkest or brightest parts of the image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ukO5qe](https://cables.gl/edit/ukO5qe)
+**Example:** [cables.gl/edit/ukO5qe](https://cables.gl/edit/ukO5qe)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.LumaKey_v3](https://cables.gl/op/Ops.Gl.ImageCompose.LumaKey_v3)
 
@@ -1156,7 +1156,7 @@ apply color filter/effects by using a lookup texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/2_nZX7](https://cables.gl/edit/2_nZX7)
+**Example:** [cables.gl/edit/2_nZX7](https://cables.gl/edit/2_nZX7)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.LUTMap](https://cables.gl/op/Ops.Gl.ImageCompose.LUTMap)
 
@@ -1179,7 +1179,7 @@ mirroring image effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/MVFoT6](https://cables.gl/edit/MVFoT6)
+**Example:** [cables.gl/edit/MVFoT6](https://cables.gl/edit/MVFoT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Mirror](https://cables.gl/op/Ops.Gl.ImageCompose.Mirror)
 
@@ -1201,7 +1201,7 @@ simple mix/fade of two input images.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/CDaQK2](https://cables.gl/edit/CDaQK2)
+**Example:** [cables.gl/edit/CDaQK2](https://cables.gl/edit/CDaQK2)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Mix](https://cables.gl/op/Ops.Gl.ImageCompose.Mix)
 
@@ -1269,7 +1269,7 @@ draw multiple images at once.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dr8EeE](https://cables.gl/edit/dr8EeE)
+**Example:** [cables.gl/edit/dr8EeE](https://cables.gl/edit/dr8EeE)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.MultiDrawImage](https://cables.gl/op/Ops.Gl.ImageCompose.MultiDrawImage)
 
@@ -1293,7 +1293,7 @@ draw multiple images at once.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/xHp9eG](https://cables.gl/edit/xHp9eG)
+**Example:** [cables.gl/edit/xHp9eG](https://cables.gl/edit/xHp9eG)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.OnePassBlur](https://cables.gl/op/Ops.Gl.ImageCompose.OnePassBlur)
 
@@ -1317,7 +1317,7 @@ map a pattern to value levels of your texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/lj31ZO](https://cables.gl/edit/lj31ZO)
+**Example:** [cables.gl/edit/lj31ZO](https://cables.gl/edit/lj31ZO)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PatternLookup](https://cables.gl/op/Ops.Gl.ImageCompose.PatternLookup)
 
@@ -1341,7 +1341,7 @@ Pixelate an image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/1w_9W6](https://cables.gl/edit/1w_9W6)
+**Example:** [cables.gl/edit/1w_9W6](https://cables.gl/edit/1w_9W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Pixelate_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Pixelate_v2)
 
@@ -1365,7 +1365,7 @@ fill image with one color picked at a position.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/qbiIbk](https://cables.gl/edit/qbiIbk)
+**Example:** [cables.gl/edit/qbiIbk](https://cables.gl/edit/qbiIbk)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PixelColor](https://cables.gl/op/Ops.Gl.ImageCompose.PixelColor)
 
@@ -1392,7 +1392,7 @@ visualize the difference of neighbouring pixels (slope).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/LEMBZ4](https://cables.gl/edit/LEMBZ4)
+**Example:** [cables.gl/edit/LEMBZ4](https://cables.gl/edit/LEMBZ4)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PixelDifference](https://cables.gl/op/Ops.Gl.ImageCompose.PixelDifference)
 
@@ -1417,7 +1417,7 @@ Changes color lookup for every pixel using a displacement map.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Qxb9W6](https://cables.gl/edit/Qxb9W6)
+**Example:** [cables.gl/edit/Qxb9W6](https://cables.gl/edit/Qxb9W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PixelDisplacement_v4](https://cables.gl/op/Ops.Gl.ImageCompose.PixelDisplacement_v4)
 
@@ -1453,7 +1453,7 @@ Renders a plasma effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dD6aW6](https://cables.gl/edit/dD6aW6)
+**Example:** [cables.gl/edit/dD6aW6](https://cables.gl/edit/dD6aW6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Plasma_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Plasma_v2)
 
@@ -1475,7 +1475,7 @@ display texture using polar/radial coordinate system.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/cM2nB2](https://cables.gl/edit/cM2nB2)
+**Example:** [cables.gl/edit/cM2nB2](https://cables.gl/edit/cM2nB2)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PolarCoords](https://cables.gl/op/Ops.Gl.ImageCompose.PolarCoords)
 
@@ -1497,7 +1497,7 @@ reduce number of colors.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/_MMoT6](https://cables.gl/edit/_MMoT6)
+**Example:** [cables.gl/edit/_MMoT6](https://cables.gl/edit/_MMoT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Posterize_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Posterize_v2)
 
@@ -1522,7 +1522,7 @@ simulate lens flare effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/P8heur](https://cables.gl/edit/P8heur)
+**Example:** [cables.gl/edit/P8heur](https://cables.gl/edit/P8heur)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.PseudoLensFlares](https://cables.gl/op/Ops.Gl.ImageCompose.PseudoLensFlares)
 
@@ -1553,7 +1553,7 @@ Set random numbers into an imagecompose.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/j_I1TG](https://cables.gl/edit/j_I1TG)
+**Example:** [cables.gl/edit/j_I1TG](https://cables.gl/edit/j_I1TG)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RandomNumberTexture](https://cables.gl/op/Ops.Gl.ImageCompose.RandomNumberTexture)
 
@@ -1592,7 +1592,7 @@ draws a 2d rectangle into a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/IPPT7i](https://cables.gl/edit/IPPT7i)
+**Example:** [cables.gl/edit/IPPT7i](https://cables.gl/edit/IPPT7i)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RectangleTexture_v5](https://cables.gl/op/Ops.Gl.ImageCompose.RectangleTexture_v5)
 
@@ -1611,7 +1611,7 @@ Remove alpha information from image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha#example](https://cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha#example)
+**Example:** [cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha#example](https://cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha](https://cables.gl/op/Ops.Gl.ImageCompose.RemoveAlpha)
 
@@ -1636,7 +1636,7 @@ Remove alpha information from image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/S6JnT6](https://cables.gl/edit/S6JnT6)
+**Example:** [cables.gl/edit/S6JnT6](https://cables.gl/edit/S6JnT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RepeatTexture_v2](https://cables.gl/op/Ops.Gl.ImageCompose.RepeatTexture_v2)
 
@@ -1658,7 +1658,7 @@ multiply image colors by color channel.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3l_8W6](https://cables.gl/edit/3l_8W6)
+**Example:** [cables.gl/edit/3l_8W6](https://cables.gl/edit/3l_8W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RgbMultiply](https://cables.gl/op/Ops.Gl.ImageCompose.RgbMultiply)
 
@@ -1691,7 +1691,7 @@ Offsets the xy components of an RGB texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/pzC9rn](https://cables.gl/edit/pzC9rn)
+**Example:** [cables.gl/edit/pzC9rn](https://cables.gl/edit/pzC9rn)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RGBOffset_v2](https://cables.gl/op/Ops.Gl.ImageCompose.RGBOffset_v2)
 
@@ -1711,7 +1711,7 @@ Convert a RGB Texture to Hue/Saturation/Lightness values as RGB colors.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/V7z4v4](https://cables.gl/edit/V7z4v4)
+**Example:** [cables.gl/edit/V7z4v4](https://cables.gl/edit/V7z4v4)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RgbToHsvTexture](https://cables.gl/op/Ops.Gl.ImageCompose.RgbToHsvTexture)
 
@@ -1736,7 +1736,7 @@ Rotates a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/flURFr](https://cables.gl/edit/flURFr)
+**Example:** [cables.gl/edit/flURFr](https://cables.gl/edit/flURFr)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RotateTexture_v2](https://cables.gl/op/Ops.Gl.ImageCompose.RotateTexture_v2)
 
@@ -1760,7 +1760,7 @@ Draw round corners around image (border).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/iYLmJ5](https://cables.gl/edit/iYLmJ5)
+**Example:** [cables.gl/edit/iYLmJ5](https://cables.gl/edit/iYLmJ5)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.RoundCorners](https://cables.gl/op/Ops.Gl.ImageCompose.RoundCorners)
 
@@ -1789,7 +1789,7 @@ Scales a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/kj_Zbx](https://cables.gl/edit/kj_Zbx)
+**Example:** [cables.gl/edit/kj_Zbx](https://cables.gl/edit/kj_Zbx)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ScaleTexture_v3](https://cables.gl/op/Ops.Gl.ImageCompose.ScaleTexture_v3)
 
@@ -1812,7 +1812,7 @@ Scales a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/DutaW6](https://cables.gl/edit/DutaW6)
+**Example:** [cables.gl/edit/DutaW6](https://cables.gl/edit/DutaW6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ScrollTexture](https://cables.gl/op/Ops.Gl.ImageCompose.ScrollTexture)
 
@@ -1849,7 +1849,7 @@ Generates different 2d shapes to use as a texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/XBGbPO](https://cables.gl/edit/XBGbPO)
+**Example:** [cables.gl/edit/XBGbPO](https://cables.gl/edit/XBGbPO)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Shapes2d_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Shapes2d_v2)
 
@@ -1869,7 +1869,7 @@ Adjust image sharpness.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Q6uJjr](https://cables.gl/edit/Q6uJjr)
+**Example:** [cables.gl/edit/Q6uJjr](https://cables.gl/edit/Q6uJjr)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Sharpen](https://cables.gl/op/Ops.Gl.ImageCompose.Sharpen)
 
@@ -1895,7 +1895,7 @@ skew / stretch an image by rendering scaled sides.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/M2UA7k](https://cables.gl/edit/M2UA7k)
+**Example:** [cables.gl/edit/M2UA7k](https://cables.gl/edit/M2UA7k)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.SkewStretchImage_v2](https://cables.gl/op/Ops.Gl.ImageCompose.SkewStretchImage_v2)
 
@@ -1927,7 +1927,7 @@ Create a texture of stripes /lines.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dYhlT6](https://cables.gl/edit/dYhlT6)
+**Example:** [cables.gl/edit/dYhlT6](https://cables.gl/edit/dYhlT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Stripes_v4](https://cables.gl/op/Ops.Gl.ImageCompose.Stripes_v4)
 
@@ -1951,7 +1951,7 @@ modulo pixel color values.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/FOpoxm](https://cables.gl/edit/FOpoxm)
+**Example:** [cables.gl/edit/FOpoxm](https://cables.gl/edit/FOpoxm)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.TexMathModulo](https://cables.gl/op/Ops.Gl.ImageCompose.TexMathModulo)
 
@@ -1972,7 +1972,7 @@ render the difference of two textures.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/zCDlTi](https://cables.gl/edit/zCDlTi)
+**Example:** [cables.gl/edit/zCDlTi](https://cables.gl/edit/zCDlTi)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.TextureDifference](https://cables.gl/op/Ops.Gl.ImageCompose.TextureDifference)
 
@@ -1993,7 +1993,7 @@ Convert a black and white map to a normal map.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/L62oT6](https://cables.gl/edit/L62oT6)
+**Example:** [cables.gl/edit/L62oT6](https://cables.gl/edit/L62oT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ToNormalMap_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ToNormalMap_v2)
 
@@ -2018,7 +2018,7 @@ Creates a twirl/swirl/spiral effect in a texture.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/2_pmJ5](https://cables.gl/edit/2_pmJ5)
+**Example:** [cables.gl/edit/2_pmJ5](https://cables.gl/edit/2_pmJ5)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Twirl_v4](https://cables.gl/op/Ops.Gl.ImageCompose.Twirl_v4)
 
@@ -2038,7 +2038,7 @@ adjust vibrance/saturation.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/52iaW6](https://cables.gl/edit/52iaW6)
+**Example:** [cables.gl/edit/52iaW6](https://cables.gl/edit/52iaW6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Vibrance](https://cables.gl/op/Ops.Gl.ImageCompose.Vibrance)
 
@@ -2068,7 +2068,7 @@ Simulating an old camera effect of fading away the edges of the image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/WDPlT6](https://cables.gl/edit/WDPlT6)
+**Example:** [cables.gl/edit/WDPlT6](https://cables.gl/edit/WDPlT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Vignette_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Vignette_v3)
 
@@ -2103,7 +2103,7 @@ Generates 4 different waveform textures. Sine, sawtooth,Triangle, Square.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/9aF_26](https://cables.gl/edit/9aF_26)
+**Example:** [cables.gl/edit/9aF_26](https://cables.gl/edit/9aF_26)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Waveform_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Waveform_v3)
 
@@ -2133,7 +2133,7 @@ Generate different texture waveforms. Sine, sawtooth and triangle.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Hfw7yu](https://cables.gl/edit/Hfw7yu)
+**Example:** [cables.gl/edit/Hfw7yu](https://cables.gl/edit/Hfw7yu)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.WaveformGradient_v4](https://cables.gl/op/Ops.Gl.ImageCompose.WaveformGradient_v4)
 
@@ -2161,7 +2161,7 @@ waving wobble motion effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/wpgXXG](https://cables.gl/edit/wpgXXG)
+**Example:** [cables.gl/edit/wpgXXG](https://cables.gl/edit/wpgXXG)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Wobble_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Wobble_v2)
 
@@ -2187,7 +2187,7 @@ Directional blur effect.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/qjtoT6](https://cables.gl/edit/qjtoT6)
+**Example:** [cables.gl/edit/qjtoT6](https://cables.gl/edit/qjtoT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.ZoomBlur_v2](https://cables.gl/op/Ops.Gl.ImageCompose.ZoomBlur_v2)
 

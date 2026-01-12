@@ -26,7 +26,7 @@ Convert an animation into an array of coordinates.
 - **Found** (booleanNumber)
 - **Positions** (Array)
 
-**Example Patch:** [cables.gl/edit/py-JK0](https://cables.gl/edit/py-JK0)
+**Example:** [cables.gl/edit/py-JK0](https://cables.gl/edit/py-JK0)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfAnimationArray](https://cables.gl/op/Ops.Gl.GLTF.GltfAnimationArray)
 
@@ -47,7 +47,7 @@ get view matrix from a gltf camera.
 - **Matrix** (Array)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/klpdcI](https://cables.gl/edit/klpdcI)
+**Example:** [cables.gl/edit/klpdcI](https://cables.gl/edit/klpdcI)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfCameraViewMatrix](https://cables.gl/op/Ops.Gl.GLTF.GltfCameraViewMatrix)
 
@@ -58,7 +58,7 @@ get view matrix from a gltf camera.
 
 gltf draco compression library.
 
-**Example Patch:** [cables.gl/edit/WFva2K](https://cables.gl/edit/WFva2K)
+**Example:** [cables.gl/edit/WFva2K](https://cables.gl/edit/WFva2K)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression](https://cables.gl/op/Ops.Gl.GLTF.GltfDracoCompression)
 
@@ -81,7 +81,7 @@ expose geometry from gltf meshes, also possible to expose submaterial geometries
 - **Geometry** (Object)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/XKXmf6](https://cables.gl/edit/XKXmf6)
+**Example:** [cables.gl/edit/XKXmf6](https://cables.gl/edit/XKXmf6)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfGeometry](https://cables.gl/op/Ops.Gl.GLTF.GltfGeometry)
 
@@ -102,7 +102,7 @@ export array of positions from a hierarchy of a branch structure in a gltf, e.g.
 - **Next** (Trigger)
 - **Bones Lines** (Array)
 
-**Example Patch:** [cables.gl/edit/3t_mJR](https://cables.gl/edit/3t_mJR)
+**Example:** [cables.gl/edit/3t_mJR](https://cables.gl/edit/3t_mJR)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfHierarchy](https://cables.gl/op/Ops.Gl.GLTF.GltfHierarchy)
 
@@ -125,7 +125,7 @@ output some infos about the current parent GLTF scene.
 - **FileName** (String)
 - **Camera Names** (Array)
 
-**Example Patch:** [cables.gl/edit/Z7tacy](https://cables.gl/edit/Z7tacy)
+**Example:** [cables.gl/edit/Z7tacy](https://cables.gl/edit/Z7tacy)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfInfo](https://cables.gl/op/Ops.Gl.GLTF.GltfInfo)
 
@@ -150,7 +150,7 @@ switch between meshes e.g. like a stop motion animation.
 - **Found** (Number)
 - **Current Index** (Number)
 
-**Example Patch:** [cables.gl/edit/FiJsxn](https://cables.gl/edit/FiJsxn)
+**Example:** [cables.gl/edit/FiJsxn](https://cables.gl/edit/FiJsxn)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfMeshSequence_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfMeshSequence_v2)
 
@@ -178,7 +178,7 @@ render weighted morph targets/shape keys from a gltf file.
 - **MorphTargets Tex** (Object)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/zon4xF](https://cables.gl/edit/zon4xF)
+**Example:** [cables.gl/edit/zon4xF](https://cables.gl/edit/zon4xF)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfMorphTargets](https://cables.gl/op/Ops.Gl.GLTF.GltfMorphTargets)
 
@@ -206,7 +206,7 @@ Control a single node from the GLTFscene op.
 - **Geometry** (Object)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example)
+**Example:** [cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfNode_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfNode_v2)
 
@@ -233,7 +233,7 @@ sine animate gltf nodes by a filter.
 - **Next** (Trigger)
 - **Found** (Number)
 
-**Example Patch:** [cables.gl/edit/w1SPcI](https://cables.gl/edit/w1SPcI)
+**Example:** [cables.gl/edit/w1SPcI](https://cables.gl/edit/w1SPcI)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfNodeSineAnim](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeSineAnim)
 
@@ -256,7 +256,7 @@ Get the transform from the GLTFscene op.
 - **Found** (booleanNumber)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/yrOJve](https://cables.gl/edit/yrOJve)
+**Example:** [cables.gl/edit/yrOJve](https://cables.gl/edit/yrOJve)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfNodeTransform_v2](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransform_v2)
 
@@ -283,7 +283,7 @@ output all transformations of nodes starting with [search].
 - **Rotation** (Array)
 - **Names** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example)
+**Example:** [cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3](https://cables.gl/op/Ops.Gl.GLTF.GltfNodeTransforms_v3)
 
@@ -328,7 +328,7 @@ Load GLTF/GLB 3d files.
 - **Finished** (Trigger)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/XmL8GY](https://cables.gl/edit/XmL8GY)
+**Example:** [cables.gl/edit/XmL8GY](https://cables.gl/edit/XmL8GY)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfScene_v4](https://cables.gl/op/Ops.Gl.GLTF.GltfScene_v4)
 
@@ -348,7 +348,7 @@ Assigns a material to a node inside of the gltfScene op.
 
 - **Material** (Object)
 
-**Example Patch:** [cables.gl/edit/Mk3Dv2](https://cables.gl/edit/Mk3Dv2)
+**Example:** [cables.gl/edit/Mk3Dv2](https://cables.gl/edit/Mk3Dv2)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfSetMaterial](https://cables.gl/op/Ops.Gl.GLTF.GltfSetMaterial)
 
@@ -373,7 +373,7 @@ render a skinned mesh (bone/rigging/rigged animation).
 - **Found Skin** (booleanNumber)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/TWBC-N](https://cables.gl/edit/TWBC-N)
+**Example:** [cables.gl/edit/TWBC-N](https://cables.gl/edit/TWBC-N)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfSkin](https://cables.gl/op/Ops.Gl.GLTF.GltfSkin)
 
@@ -402,7 +402,7 @@ Load textures from inside a .glb file.
 - **Type** (String)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/PBGKve](https://cables.gl/edit/PBGKve)
+**Example:** [cables.gl/edit/PBGKve](https://cables.gl/edit/PBGKve)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfTexture](https://cables.gl/op/Ops.Gl.GLTF.GltfTexture)
 
@@ -429,7 +429,7 @@ set transformation of a gltf node.
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example)
+**Example:** [cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfTransformNode](https://cables.gl/op/Ops.Gl.GLTF.GltfTransformNode)
 
@@ -452,7 +452,7 @@ play gltf vertex anim directly with its own timing.
 - **Found Node** (Number)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example)
+**Example:** [cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim](https://cables.gl/op/Ops.Gl.GLTF.GltfVertexAnim)
 

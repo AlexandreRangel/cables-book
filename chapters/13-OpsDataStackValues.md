@@ -21,7 +21,7 @@ read a value from the stack to use it later in the trigger branch.
 - **Next** (Trigger)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackGetArray](https://cables.gl/op/Ops.Data.StackValues.StackGetArray)
 
@@ -42,7 +42,7 @@ read a value from the stack to use it later in the trigger branch.
 - **Next** (Trigger)
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackGetNumber](https://cables.gl/op/Ops.Data.StackValues.StackGetNumber)
 
@@ -63,7 +63,7 @@ read a value from the stack to use it later in the trigger branch.
 - **Next** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackGetTexture](https://cables.gl/op/Ops.Data.StackValues.StackGetTexture)
 
@@ -83,7 +83,7 @@ push a value on to the stack to use it later in the trigger branch.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackPushArray](https://cables.gl/op/Ops.Data.StackValues.StackPushArray)
 
@@ -104,7 +104,7 @@ push a value on to the stack to use it later in the trigger branch.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackPushNumber](https://cables.gl/op/Ops.Data.StackValues.StackPushNumber)
 
@@ -125,7 +125,7 @@ push a value on to the stack to use it later in the trigger branch.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
+**Example:** [cables.gl/edit/NT30kP](https://cables.gl/edit/NT30kP)
 
 **Doc:** [cables.gl/op/Ops.Data.StackValues.StackPushTexture](https://cables.gl/op/Ops.Data.StackValues.StackPushTexture)
 

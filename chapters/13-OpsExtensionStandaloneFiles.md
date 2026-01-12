@@ -21,7 +21,7 @@ Create a new empty file on your local harddrive.
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dhvNAs](https://cables.gl/edit/dhvNAs)
+**Example:** [cables.gl/edit/dhvNAs](https://cables.gl/edit/dhvNAs)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.CreateFile](https://cables.gl/op/Ops.Extension.Standalone.Files.CreateFile)
 
@@ -41,7 +41,7 @@ Check if a file exists on the local file system.
 
 - **Exists** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/XlQrun](https://cables.gl/edit/XlQrun)
+**Example:** [cables.gl/edit/XlQrun](https://cables.gl/edit/XlQrun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Exist](https://cables.gl/op/Ops.Extension.Standalone.Files.Exist)
 
@@ -60,7 +60,7 @@ convert file-url to path.
 
 - **Path** (String)
 
-**Example Patch:** [cables.gl/edit/upnVAs](https://cables.gl/edit/upnVAs)
+**Example:** [cables.gl/edit/upnVAs](https://cables.gl/edit/upnVAs)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath](https://cables.gl/op/Ops.Extension.Standalone.Files.FileUrlToPath)
 
@@ -80,7 +80,7 @@ Create a directory on the local file system.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/q5evun](https://cables.gl/edit/q5evun)
+**Example:** [cables.gl/edit/q5evun](https://cables.gl/edit/q5evun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Makedir](https://cables.gl/op/Ops.Extension.Standalone.Files.Makedir)
 
@@ -96,7 +96,7 @@ Open the native file manager application using that path.
 - **Path** (String)
 - **Open File Manager** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager](https://cables.gl/op/Ops.Extension.Standalone.Files.OpenFileManager)
 
@@ -115,7 +115,7 @@ convert local path to file-url.
 
 - **FileUrl** (String)
 
-**Example Patch:** [cables.gl/edit/pekPAs](https://cables.gl/edit/pekPAs)
+**Example:** [cables.gl/edit/pekPAs](https://cables.gl/edit/pekPAs)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl](https://cables.gl/op/Ops.Extension.Standalone.Files.PathToFileUrl)
 
@@ -137,7 +137,7 @@ Read all entries in a directory.
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/edit/I6buun](https://cables.gl/edit/I6buun)
+**Example:** [cables.gl/edit/I6buun](https://cables.gl/edit/I6buun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.ReadDir](https://cables.gl/op/Ops.Extension.Standalone.Files.ReadDir)
 
@@ -156,7 +156,7 @@ Resolves a paths into an absolute path.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath](https://cables.gl/op/Ops.Extension.Standalone.Files.ResolvePath)
 
@@ -177,7 +177,7 @@ Choose a directory on your hard drive.
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectDir](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectDir)
 
@@ -198,7 +198,7 @@ Choose a file on your hard drive.
 - **Path** (String)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/M58UAs](https://cables.gl/edit/M58UAs)
+**Example:** [cables.gl/edit/M58UAs](https://cables.gl/edit/M58UAs)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SelectFile](https://cables.gl/op/Ops.Extension.Standalone.Files.SelectFile)
 
@@ -221,7 +221,7 @@ Get statistics about a file on the local file system.
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.Stat#example](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Files.Stat#example](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Stat](https://cables.gl/op/Ops.Extension.Standalone.Files.Stat)
 
@@ -240,7 +240,7 @@ Get Default System Directories Paths.
 - **Desktop** (String)
 - **Exe** (String)
 
-**Example Patch:** [cables.gl/edit/7hftun](https://cables.gl/edit/7hftun)
+**Example:** [cables.gl/edit/7hftun](https://cables.gl/edit/7hftun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs](https://cables.gl/op/Ops.Extension.Standalone.Files.SystemDirs)
 
@@ -265,7 +265,7 @@ Watch a directory, get a trigger when a file changes.
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
+**Example:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.Watch](https://cables.gl/op/Ops.Extension.Standalone.Files.Watch)
 
@@ -282,7 +282,7 @@ Create a binary file on the local file system from a base64 string.
 - **Base64** (String)
 - **Filename** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteBinaryFileFromBase64)
 
@@ -305,7 +305,7 @@ Write a string to a text file on the local file system.
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
+**Example:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile](https://cables.gl/op/Ops.Extension.Standalone.Files.WriteTextFile)
 

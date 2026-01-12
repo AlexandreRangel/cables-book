@@ -22,7 +22,7 @@ delay triggering next port by x seconds.
 - **Next** (Trigger)
 - **Delaying** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/VgtMji](https://cables.gl/edit/VgtMji)
+**Example:** [cables.gl/edit/VgtMji](https://cables.gl/edit/VgtMji)
 
 **Doc:** [cables.gl/op/Ops.Trigger.DelayedTrigger](https://cables.gl/op/Ops.Trigger.DelayedTrigger)
 
@@ -42,7 +42,7 @@ Allows a trigger to pass only if the gate is open.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/xotJAH](https://cables.gl/edit/xotJAH)
+**Example:** [cables.gl/edit/xotJAH](https://cables.gl/edit/xotJAH)
 
 **Doc:** [cables.gl/op/Ops.Trigger.GateTrigger](https://cables.gl/op/Ops.Trigger.GateTrigger)
 
@@ -62,7 +62,7 @@ Timed Trigger every x ms.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ZdvX7i](https://cables.gl/edit/ZdvX7i)
+**Example:** [cables.gl/edit/ZdvX7i](https://cables.gl/edit/ZdvX7i)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Interval](https://cables.gl/op/Ops.Trigger.Interval)
 
@@ -82,7 +82,7 @@ outputs true if being triggered last frame.
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
-**Example Patch:** [cables.gl/edit/kmXCm6](https://cables.gl/edit/kmXCm6)
+**Example:** [cables.gl/edit/kmXCm6](https://cables.gl/edit/kmXCm6)
 
 **Doc:** [cables.gl/op/Ops.Trigger.IsTriggered](https://cables.gl/op/Ops.Trigger.IsTriggered)
 
@@ -102,7 +102,7 @@ Lets a trigger through every nth time (trigger limiter).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/cnVqii](https://cables.gl/edit/cnVqii)
+**Example:** [cables.gl/edit/cnVqii](https://cables.gl/edit/cnVqii)
 
 **Doc:** [cables.gl/op/Ops.Trigger.NthTrigger_v2](https://cables.gl/op/Ops.Trigger.NthTrigger_v2)
 
@@ -118,7 +118,7 @@ Outputs the last number of the input port which was triggered.
 - **Number** (Number)
 - **Triggered** (Trigger)
 
-**Example Patch:** [cables.gl/edit/kzTxsh](https://cables.gl/edit/kzTxsh)
+**Example:** [cables.gl/edit/kzTxsh](https://cables.gl/edit/kzTxsh)
 
 **Doc:** [cables.gl/op/Ops.Trigger.NumberByTrigger](https://cables.gl/op/Ops.Trigger.NumberByTrigger)
 
@@ -139,7 +139,7 @@ output a number by triggering an index port.
 - **Next** (Trigger)
 - **Number Triggered** (Number)
 
-**Example Patch:** [cables.gl/edit/ubuysh](https://cables.gl/edit/ubuysh)
+**Example:** [cables.gl/edit/ubuysh](https://cables.gl/edit/ubuysh)
 
 **Doc:** [cables.gl/op/Ops.Trigger.NumberByTriggerMultiPort_v2](https://cables.gl/op/Ops.Trigger.NumberByTriggerMultiPort_v2)
 
@@ -160,7 +160,7 @@ trigger by chance.
 - **Trigger Output** (Trigger)
 - **Inverse Trigger Output** (Trigger)
 
-**Example Patch:** [cables.gl/edit/I61CCu](https://cables.gl/edit/I61CCu)
+**Example:** [cables.gl/edit/I61CCu](https://cables.gl/edit/I61CCu)
 
 **Doc:** [cables.gl/op/Ops.Trigger.ProbabilityTrigger](https://cables.gl/op/Ops.Trigger.ProbabilityTrigger)
 
@@ -189,12 +189,9 @@ randomly trigger.
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
 - **Trigger 3** (Trigger)
-- **Trigger 4** (Trigger)
-- **Trigger 5** (Trigger)
-- **Trigger 6** (Trigger)
-- **Trigger 7** (Trigger)
+- **...**
 
-**Example Patch:** [cables.gl/edit/3P54t7](https://cables.gl/edit/3P54t7)
+**Example:** [cables.gl/edit/3P54t7](https://cables.gl/edit/3P54t7)
 
 **Doc:** [cables.gl/op/Ops.Trigger.RandomTrigger](https://cables.gl/op/Ops.Trigger.RandomTrigger)
 
@@ -222,7 +219,7 @@ Triggers all ops underneath Num X * Num Y times.
 - **Index** (Number)
 - **Total Iterations** (Number)
 
-**Example Patch:** [cables.gl/edit/lPZfgg](https://cables.gl/edit/lPZfgg)
+**Example:** [cables.gl/edit/lPZfgg](https://cables.gl/edit/lPZfgg)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Repeat2d](https://cables.gl/op/Ops.Trigger.Repeat2d)
 
@@ -243,7 +240,7 @@ Triggers all ops below x times (for loop / while).
 - **Next** (Trigger)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/VFAfgg](https://cables.gl/edit/VFAfgg)
+**Example:** [cables.gl/edit/VFAfgg](https://cables.gl/edit/VFAfgg)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Repeat_v2](https://cables.gl/op/Ops.Trigger.Repeat_v2)
 
@@ -266,31 +263,11 @@ Triggers one of the out ports - value index switch case (was SwitchTrigger).
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
-- **Trigger 3** (Trigger)
-- **Trigger 4** (Trigger)
-- **Trigger 5** (Trigger)
-- **Trigger 6** (Trigger)
-- **Trigger 7** (Trigger)
-- **Trigger 8** (Trigger)
-- **Trigger 9** (Trigger)
-- **Trigger 10** (Trigger)
-- **Trigger 11** (Trigger)
-- **Trigger 12** (Trigger)
-- **Trigger 13** (Trigger)
-- **Trigger 14** (Trigger)
-- **Trigger 15** (Trigger)
-- **Trigger 16** (Trigger)
-- **Trigger 17** (Trigger)
-- **Trigger 18** (Trigger)
-- **Trigger 19** (Trigger)
-- **Trigger 20** (Trigger)
-- **Trigger 21** (Trigger)
-- **Trigger 22** (Trigger)
-- **Trigger 23** (Trigger)
+- **...**
 - **Default Trigger** (Trigger)
 - **Highest Index** (Number)
 
-**Example Patch:** [cables.gl/edit/DzH9S5](https://cables.gl/edit/DzH9S5)
+**Example:** [cables.gl/edit/DzH9S5](https://cables.gl/edit/DzH9S5)
 
 **Doc:** [cables.gl/op/Ops.Trigger.RouteTrigger](https://cables.gl/op/Ops.Trigger.RouteTrigger)
 
@@ -316,7 +293,7 @@ animated switching between things.
 - **R8h4qx4z8** (Trigger)
 - **Cr80a86xi** (Trigger)
 
-**Example Patch:** [cables.gl/edit/pUtH15](https://cables.gl/edit/pUtH15)
+**Example:** [cables.gl/edit/pUtH15](https://cables.gl/edit/pUtH15)
 
 **Doc:** [cables.gl/op/Ops.Trigger.RouteTriggerAnimated](https://cables.gl/op/Ops.Trigger.RouteTriggerAnimated)
 
@@ -341,23 +318,10 @@ Triggers one of the - value index switch case.
 - **Trigger_0** (Trigger)
 - **Trigger_1** (Trigger)
 - **Trigger_2** (Trigger)
-- **Trigger_3** (Trigger)
-- **Trigger_4** (Trigger)
-- **Trigger_5** (Trigger)
-- **Trigger_6** (Trigger)
-- **Trigger_7** (Trigger)
-- **Trigger_8** (Trigger)
-- **Trigger_9** (Trigger)
-- **Trigger_10** (Trigger)
-- **Trigger_11** (Trigger)
-- **Trigger_12** (Trigger)
-- **Trigger_13** (Trigger)
-- **Trigger_14** (Trigger)
-- **Trigger_15** (Trigger)
-- **Trigger_16** (Trigger)
+- **...**
 - **Trigger_17** (Trigger)
 
-**Example Patch:** [cables.gl/edit/NxGysh](https://cables.gl/edit/NxGysh)
+**Example:** [cables.gl/edit/NxGysh](https://cables.gl/edit/NxGysh)
 
 **Doc:** [cables.gl/op/Ops.Trigger.RouteTriggerMultiPort_v2](https://cables.gl/op/Ops.Trigger.RouteTriggerMultiPort_v2)
 
@@ -426,7 +390,7 @@ route trigger output by string.
 - **Trigger 22** (Trigger)
 - **Trigger 23** (Trigger)
 
-**Example Patch:** [cables.gl/edit/8uTjhI](https://cables.gl/edit/8uTjhI)
+**Example:** [cables.gl/edit/8uTjhI](https://cables.gl/edit/8uTjhI)
 
 **Doc:** [cables.gl/op/Ops.Trigger.RouteTriggerString_v2](https://cables.gl/op/Ops.Trigger.RouteTriggerString_v2)
 
@@ -475,7 +439,7 @@ control the order of execution/triggering.
 - **Trigger 14** (Trigger)
 - **Trigger 15** (Trigger)
 
-**Example Patch:** [cables.gl/edit/0bQrii](https://cables.gl/edit/0bQrii)
+**Example:** [cables.gl/edit/0bQrii](https://cables.gl/edit/0bQrii)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Sequence](https://cables.gl/op/Ops.Trigger.Sequence)
 
@@ -496,7 +460,7 @@ sequence trigger.
 - **Output_0** (Trigger)
 - **Output_1** (Trigger)
 
-**Example Patch:** [cables.gl/edit/F5L0sh](https://cables.gl/edit/F5L0sh)
+**Example:** [cables.gl/edit/F5L0sh](https://cables.gl/edit/F5L0sh)
 
 **Doc:** [cables.gl/op/Ops.Trigger.SequenceMultiPort_v2](https://cables.gl/op/Ops.Trigger.SequenceMultiPort_v2)
 
@@ -531,7 +495,7 @@ route input triggers by index to one output.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/upF4rn](https://cables.gl/edit/upF4rn)
+**Example:** [cables.gl/edit/upF4rn](https://cables.gl/edit/upF4rn)
 
 **Doc:** [cables.gl/op/Ops.Trigger.SwitchTrigger](https://cables.gl/op/Ops.Trigger.SwitchTrigger)
 
@@ -546,7 +510,7 @@ Triggers only once when threshold is crossed.
 
 - **Threshold** (Number)
 
-**Example Patch:** [cables.gl/edit/pG-Mwq](https://cables.gl/edit/pG-Mwq)
+**Example:** [cables.gl/edit/pG-Mwq](https://cables.gl/edit/pG-Mwq)
 
 **Doc:** [cables.gl/op/Ops.Trigger.Threshold](https://cables.gl/op/Ops.Trigger.Threshold)
 
@@ -573,37 +537,10 @@ timed switching of trigger.
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
-- **Trigger 3** (Trigger)
-- **Trigger 4** (Trigger)
-- **Trigger 5** (Trigger)
-- **Trigger 6** (Trigger)
-- **Trigger 7** (Trigger)
-- **Trigger 8** (Trigger)
-- **Trigger 9** (Trigger)
-- **Trigger 10** (Trigger)
-- **Trigger 11** (Trigger)
-- **Trigger 12** (Trigger)
-- **Trigger 13** (Trigger)
-- **Trigger 14** (Trigger)
-- **Trigger 15** (Trigger)
-- **Trigger 16** (Trigger)
-- **Trigger 17** (Trigger)
-- **Trigger 18** (Trigger)
-- **Trigger 19** (Trigger)
-- **Trigger 20** (Trigger)
-- **Trigger 21** (Trigger)
-- **Trigger 22** (Trigger)
-- **Trigger 23** (Trigger)
-- **Trigger 24** (Trigger)
-- **Trigger 25** (Trigger)
-- **Trigger 26** (Trigger)
-- **Trigger 27** (Trigger)
-- **Trigger 28** (Trigger)
-- **Trigger 29** (Trigger)
-- **Trigger 30** (Trigger)
+- **...**
 - **Trigger 31** (Trigger)
 
-**Example Patch:** [cables.gl/edit/GbEqL-](https://cables.gl/edit/GbEqL-)
+**Example:** [cables.gl/edit/GbEqL-](https://cables.gl/edit/GbEqL-)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TimedSequence](https://cables.gl/op/Ops.Trigger.TimedSequence)
 
@@ -625,7 +562,7 @@ Get the time since last trigger.
 - **Next** (Trigger)
 - **Time** (Number)
 
-**Example Patch:** [cables.gl/edit/fCN_98](https://cables.gl/edit/fCN_98)
+**Example:** [cables.gl/edit/fCN_98](https://cables.gl/edit/fCN_98)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TimeSinceTrigger](https://cables.gl/op/Ops.Trigger.TimeSinceTrigger)
 
@@ -644,7 +581,7 @@ simple button to trigger manually.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/05Arii](https://cables.gl/edit/05Arii)
+**Example:** [cables.gl/edit/05Arii](https://cables.gl/edit/05Arii)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerButton](https://cables.gl/op/Ops.Trigger.TriggerButton)
 
@@ -665,7 +602,7 @@ Counts how often the port was triggered.
 - **Trigger** (Trigger)
 - **TimesTriggered** (Number)
 
-**Example Patch:** [cables.gl/edit/WNh8pc](https://cables.gl/edit/WNh8pc)
+**Example:** [cables.gl/edit/WNh8pc](https://cables.gl/edit/WNh8pc)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerCounter](https://cables.gl/op/Ops.Trigger.TriggerCounter)
 
@@ -688,7 +625,7 @@ Increments with each trigger and loops depending on min and max loop values.
 - **Trigger Out** (Trigger)
 - **Current Count** (Number)
 
-**Example Patch:** [cables.gl/edit/V8TekF](https://cables.gl/edit/V8TekF)
+**Example:** [cables.gl/edit/V8TekF](https://cables.gl/edit/V8TekF)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerCounterLoop](https://cables.gl/op/Ops.Trigger.TriggerCounterLoop)
 
@@ -712,25 +649,10 @@ triggers evenly distributed by value.
 - **Trigger 0** (Trigger)
 - **Trigger 1** (Trigger)
 - **Trigger 2** (Trigger)
-- **Trigger 3** (Trigger)
-- **Trigger 4** (Trigger)
-- **Trigger 5** (Trigger)
-- **Trigger 6** (Trigger)
-- **Trigger 7** (Trigger)
-- **Trigger 8** (Trigger)
-- **Trigger 9** (Trigger)
-- **Trigger 10** (Trigger)
-- **Trigger 11** (Trigger)
-- **Trigger 12** (Trigger)
-- **Trigger 13** (Trigger)
-- **Trigger 14** (Trigger)
-- **Trigger 15** (Trigger)
-- **Trigger 16** (Trigger)
-- **Trigger 17** (Trigger)
-- **Trigger 18** (Trigger)
+- **...**
 - **Trigger 19** (Trigger)
 
-**Example Patch:** [cables.gl/edit/FsZFVB](https://cables.gl/edit/FsZFVB)
+**Example:** [cables.gl/edit/FsZFVB](https://cables.gl/edit/FsZFVB)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerDistributeByValue](https://cables.gl/op/Ops.Trigger.TriggerDistributeByValue)
 
@@ -749,7 +671,7 @@ Extends a trigger (useful in big patches for better overview).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
+**Example:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerExtender](https://cables.gl/op/Ops.Trigger.TriggerExtender)
 
@@ -768,7 +690,7 @@ trigger if a value decreases / gets smaller.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/AFiCfe](https://cables.gl/edit/AFiCfe)
+**Example:** [cables.gl/edit/AFiCfe](https://cables.gl/edit/AFiCfe)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerIfDecreased](https://cables.gl/op/Ops.Trigger.TriggerIfDecreased)
 
@@ -787,7 +709,7 @@ Outputs a trigger if the value of a number increases.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/AFiCfe](https://cables.gl/edit/AFiCfe)
+**Example:** [cables.gl/edit/AFiCfe](https://cables.gl/edit/AFiCfe)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerIfIncreased](https://cables.gl/op/Ops.Trigger.TriggerIfIncreased)
 
@@ -808,7 +730,7 @@ Limits how often a trigger goes through to x ms.
 - **Out Trigger** (Trigger)
 - **Progress** (Number)
 
-**Example Patch:** [cables.gl/edit/dS8EQm](https://cables.gl/edit/dS8EQm)
+**Example:** [cables.gl/edit/dS8EQm](https://cables.gl/edit/dS8EQm)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerLimiter](https://cables.gl/op/Ops.Trigger.TriggerLimiter)
 
@@ -829,7 +751,7 @@ Outputs a number when triggered.
 - **Next** (Trigger)
 - **Out Value** (Number)
 
-**Example Patch:** [cables.gl/edit/Qq3Y7i](https://cables.gl/edit/Qq3Y7i)
+**Example:** [cables.gl/edit/Qq3Y7i](https://cables.gl/edit/Qq3Y7i)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerNumber](https://cables.gl/op/Ops.Trigger.TriggerNumber)
 
@@ -850,7 +772,7 @@ Trigger the following children once.
 - **Next** (Trigger)
 - **Was Triggered** (Number)
 
-**Example Patch:** [cables.gl/edit/9Eiyci](https://cables.gl/edit/9Eiyci)
+**Example:** [cables.gl/edit/9Eiyci](https://cables.gl/edit/9Eiyci)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerOnce](https://cables.gl/op/Ops.Trigger.TriggerOnce)
 
@@ -870,7 +792,7 @@ triggers when array has changed.
 - **Changed** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example)
+**Example:** [cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeArray_v2)
 
@@ -890,7 +812,7 @@ triggers when Object has changed.
 - **Changed** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example)
+**Example:** [cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeObject_v2)
 
@@ -910,7 +832,7 @@ triggers when string has changed.
 - **Changed** (Trigger)
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/ohxBci](https://cables.gl/edit/ohxBci)
+**Example:** [cables.gl/edit/ohxBci](https://cables.gl/edit/ohxBci)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2)
 
@@ -930,7 +852,7 @@ triggers when texture has changed.
 - **Changed** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/QGqQ7f](https://cables.gl/edit/QGqQ7f)
+**Example:** [cables.gl/edit/QGqQ7f](https://cables.gl/edit/QGqQ7f)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerOnChangeTexture](https://cables.gl/op/Ops.Trigger.TriggerOnChangeTexture)
 
@@ -945,7 +867,7 @@ Receives triggers from a TriggerSend op with the same variable name.
 
 - **Triggered** (Trigger)
 
-**Example Patch:** [cables.gl/edit/hrXVpH](https://cables.gl/edit/hrXVpH)
+**Example:** [cables.gl/edit/hrXVpH](https://cables.gl/edit/hrXVpH)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerReceive](https://cables.gl/op/Ops.Trigger.TriggerReceive)
 
@@ -965,7 +887,7 @@ receives all named trigges and relays them, optionally using a filter-prefix on 
 - **Trigger Out** (Trigger)
 - **Trigger Name** (String)
 
-**Example Patch:** [cables.gl/edit/niHmJt](https://cables.gl/edit/niHmJt)
+**Example:** [cables.gl/edit/niHmJt](https://cables.gl/edit/niHmJt)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerReceiveFilter](https://cables.gl/op/Ops.Trigger.TriggerReceiveFilter)
 
@@ -984,7 +906,7 @@ Allows triggers to be sent to a TriggerReceive op with the same variable name.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/hrXVpH](https://cables.gl/edit/hrXVpH)
+**Example:** [cables.gl/edit/hrXVpH](https://cables.gl/edit/hrXVpH)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerSend](https://cables.gl/op/Ops.Trigger.TriggerSend)
 
@@ -1000,7 +922,7 @@ Allows triggers to be sent to a TriggerReceive op with the same variable name.
 - **Trigger** (Trigger)
 - **Named Trigger** (String)
 
-**Example Patch:** [cables.gl/edit/Tc3pcI](https://cables.gl/edit/Tc3pcI)
+**Example:** [cables.gl/edit/Tc3pcI](https://cables.gl/edit/Tc3pcI)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerSendNamed](https://cables.gl/op/Ops.Trigger.TriggerSendNamed)
 
@@ -1019,7 +941,7 @@ Counts how often the port is triggered per second.
 
 - **Cps** (Number)
 
-**Example Patch:** [cables.gl/edit/JCkpVJ](https://cables.gl/edit/JCkpVJ)
+**Example:** [cables.gl/edit/JCkpVJ](https://cables.gl/edit/JCkpVJ)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggersPerSecond](https://cables.gl/op/Ops.Trigger.TriggersPerSecond)
 
@@ -1040,7 +962,7 @@ trigger a string.
 - **Next** (Trigger)
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/VHsHue](https://cables.gl/edit/VHsHue)
+**Example:** [cables.gl/edit/VHsHue](https://cables.gl/edit/VHsHue)
 
 **Doc:** [cables.gl/op/Ops.Trigger.TriggerString](https://cables.gl/op/Ops.Trigger.TriggerString)
 
@@ -1059,7 +981,7 @@ Triggers when the input value became zero.
 
 - **Became Zero Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example)
+**Example:** [cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger#example)
 
 **Doc:** [cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger](https://cables.gl/op/Ops.Trigger.ValueBecameZeroTrigger)
 

@@ -44,7 +44,7 @@
 - **Velocity** (Object)
 - **Collision** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
+**Example:** [cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries](https://cables.gl/op/Ops.Extension.GlParticles.VelocityBoundaries)
 

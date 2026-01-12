@@ -29,7 +29,7 @@ create a texture from an array of number values.
 - **Tex Width** (Number)
 - **Tex Height** (Number)
 
-**Example Patch:** [cables.gl/edit/cOlh_C](https://cables.gl/edit/cOlh_C)
+**Example:** [cables.gl/edit/cOlh_C](https://cables.gl/edit/cOlh_C)
 
 **Doc:** [cables.gl/op/Ops.Gl.ArrayToTexture_v2](https://cables.gl/op/Ops.Gl.ArrayToTexture_v2)
 
@@ -50,7 +50,7 @@ change how colors are mixed (blending/mixing modes).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/x1-Fvc](https://cables.gl/edit/x1-Fvc)
+**Example:** [cables.gl/edit/x1-Fvc](https://cables.gl/edit/x1-Fvc)
 
 **Doc:** [cables.gl/op/Ops.Gl.BlendMode](https://cables.gl/op/Ops.Gl.BlendMode)
 
@@ -69,7 +69,7 @@ is canvas focussed ?.
 
 - **Has Focus** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/vGwM7f](https://cables.gl/edit/vGwM7f)
+**Example:** [cables.gl/edit/vGwM7f](https://cables.gl/edit/vGwM7f)
 
 **Doc:** [cables.gl/op/Ops.Gl.CanvasFocus](https://cables.gl/op/Ops.Gl.CanvasFocus)
 
@@ -93,7 +93,7 @@ the size of the canvas in pixels, aspect ratio and pixel density.
 - **Canvas Parent** (Object)
 - **Resized** (Trigger)
 
-**Example Patch:** [cables.gl/edit/2yaD8i](https://cables.gl/edit/2yaD8i)
+**Example:** [cables.gl/edit/2yaD8i](https://cables.gl/edit/2yaD8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.CanvasInfo_v3](https://cables.gl/op/Ops.Gl.CanvasInfo_v3)
 
@@ -117,7 +117,7 @@ convert a canvas to texture.
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
+**Example:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
 
 **Doc:** [cables.gl/op/Ops.Gl.CanvasToTexture](https://cables.gl/op/Ops.Gl.CanvasToTexture)
 
@@ -140,7 +140,7 @@ sets all cleared pixels to one colour. Use to change the background colour.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/_UEjvr](https://cables.gl/edit/_UEjvr)
+**Example:** [cables.gl/edit/_UEjvr](https://cables.gl/edit/_UEjvr)
 
 **Doc:** [cables.gl/op/Ops.Gl.ClearColor](https://cables.gl/op/Ops.Gl.ClearColor)
 
@@ -159,7 +159,7 @@ Clears the depth buffer (zbuffer, z buffer).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/rEesag](https://cables.gl/edit/rEesag)
+**Example:** [cables.gl/edit/rEesag](https://cables.gl/edit/rEesag)
 
 **Doc:** [cables.gl/op/Ops.Gl.ClearDepth](https://cables.gl/op/Ops.Gl.ClearDepth)
 
@@ -182,7 +182,7 @@ enable/disable RGBA color channels of your entire scene.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/MqQSR7](https://cables.gl/edit/MqQSR7)
+**Example:** [cables.gl/edit/MqQSR7](https://cables.gl/edit/MqQSR7)
 
 **Doc:** [cables.gl/op/Ops.Gl.ColorMask](https://cables.gl/op/Ops.Gl.ColorMask)
 
@@ -206,7 +206,7 @@ pick a color at x,y coordinates of canvas.
 - **B** (Number)
 - **A** (Number)
 
-**Example Patch:** [cables.gl/edit/YEjkgg](https://cables.gl/edit/YEjkgg)
+**Example:** [cables.gl/edit/YEjkgg](https://cables.gl/edit/YEjkgg)
 
 **Doc:** [cables.gl/op/Ops.Gl.ColorPick](https://cables.gl/op/Ops.Gl.ColorPick)
 
@@ -227,7 +227,7 @@ translate away from a point in space.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/5gL9On](https://cables.gl/edit/5gL9On)
+**Example:** [cables.gl/edit/5gL9On](https://cables.gl/edit/5gL9On)
 
 **Doc:** [cables.gl/op/Ops.Gl.DirectionalTranslate](https://cables.gl/op/Ops.Gl.DirectionalTranslate)
 
@@ -249,7 +249,7 @@ Download a texture as an image file.
 
 - **Jcrmz8mnz** (Trigger)
 
-**Example Patch:** [cables.gl/edit/15LaTs](https://cables.gl/edit/15LaTs)
+**Example:** [cables.gl/edit/15LaTs](https://cables.gl/edit/15LaTs)
 
 **Doc:** [cables.gl/op/Ops.Gl.DownloadTexture_v3](https://cables.gl/op/Ops.Gl.DownloadTexture_v3)
 
@@ -270,7 +270,7 @@ draw texture mapping coordinates.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Nu7dJ5](https://cables.gl/edit/Nu7dJ5)
+**Example:** [cables.gl/edit/Nu7dJ5](https://cables.gl/edit/Nu7dJ5)
 
 **Doc:** [cables.gl/op/Ops.Gl.DrawTextureMapping](https://cables.gl/op/Ops.Gl.DrawTextureMapping)
 
@@ -292,7 +292,7 @@ check if webgl canvas element is in the current browser viewport.
 - **Fully Visible** (booleanNumber)
 - **Partly Visible** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ElementInBrowserViewport#example](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
+**Example:** [cables.gl/op/Ops.Gl.ElementInBrowserViewport#example](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ElementInBrowserViewport](https://cables.gl/op/Ops.Gl.ElementInBrowserViewport)
 
@@ -322,7 +322,7 @@ Open a new window that shows a copy of the patch canvas.
 - **Next** (Trigger)
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/HnG3fB](https://cables.gl/edit/HnG3fB)
+**Example:** [cables.gl/edit/HnG3fB](https://cables.gl/edit/HnG3fB)
 
 **Doc:** [cables.gl/op/Ops.Gl.ExternalCanvas](https://cables.gl/op/Ops.Gl.ExternalCanvas)
 
@@ -342,7 +342,7 @@ Disable the rendering of front or back facing triangles with culling.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/mPwnD-](https://cables.gl/edit/mPwnD-)
+**Example:** [cables.gl/edit/mPwnD-](https://cables.gl/edit/mPwnD-)
 
 **Doc:** [cables.gl/op/Ops.Gl.FaceCulling_v2](https://cables.gl/op/Ops.Gl.FaceCulling_v2)
 
@@ -368,7 +368,7 @@ Load MSDF Font data and texture to use.
 - **Total Chars** (Number)
 - **Chars** (String)
 
-**Example Patch:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
+**Example:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
 
 **Doc:** [cables.gl/op/Ops.Gl.FontMSDF_v2](https://cables.gl/op/Ops.Gl.FontMSDF_v2)
 
@@ -399,7 +399,7 @@ Resize canvas element to a specific pixel size or aspect ratio.
 - **Margin Left** (Number)
 - **Margin Top** (Number)
 
-**Example Patch:** [cables.gl/edit/f9UbD-](https://cables.gl/edit/f9UbD-)
+**Example:** [cables.gl/edit/f9UbD-](https://cables.gl/edit/f9UbD-)
 
 **Doc:** [cables.gl/op/Ops.Gl.ForceCanvasSize](https://cables.gl/op/Ops.Gl.ForceCanvasSize)
 
@@ -420,7 +420,7 @@ Will only allow an Object to to be output if the the pass through parameter eval
 
 - **Object Out** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.GateTexture#example](https://cables.gl/op/Ops.Gl.GateTexture#example)
+**Example:** [cables.gl/op/Ops.Gl.GateTexture#example](https://cables.gl/op/Ops.Gl.GateTexture#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.GateTexture](https://cables.gl/op/Ops.Gl.GateTexture)
 
@@ -444,7 +444,7 @@ set gl blendmodes directly.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/24qZz7](https://cables.gl/edit/24qZz7)
+**Example:** [cables.gl/edit/24qZz7](https://cables.gl/edit/24qZz7)
 
 **Doc:** [cables.gl/op/Ops.Gl.GlBlendFunc](https://cables.gl/op/Ops.Gl.GlBlendFunc)
 
@@ -470,7 +470,7 @@ information about the webgl context.
 - **Vendor** (String)
 - **Renderer** (String)
 
-**Example Patch:** [cables.gl/edit/0zHu8i](https://cables.gl/edit/0zHu8i)
+**Example:** [cables.gl/edit/0zHu8i](https://cables.gl/edit/0zHu8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.GlInfo_v2](https://cables.gl/op/Ops.Gl.GlInfo_v2)
 
@@ -490,7 +490,7 @@ force rendering of meshes using points,lines or triangles.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/a5Mz8i](https://cables.gl/edit/a5Mz8i)
+**Example:** [cables.gl/edit/a5Mz8i](https://cables.gl/edit/a5Mz8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.GlPrimitive](https://cables.gl/op/Ops.Gl.GlPrimitive)
 
@@ -523,7 +523,7 @@ texture containing a colour gradient that can be altered with an editor.
 - **Colors** (Array)
 - **Colors Pos** (Array)
 
-**Example Patch:** [cables.gl/edit/_wQNDW](https://cables.gl/edit/_wQNDW)
+**Example:** [cables.gl/edit/_wQNDW](https://cables.gl/edit/_wQNDW)
 
 **Doc:** [cables.gl/op/Ops.Gl.GradientTexture](https://cables.gl/op/Ops.Gl.GradientTexture)
 
@@ -549,7 +549,7 @@ transform and arrange elements into a grid.
 - **X Index** (Number)
 - **Y Index** (Number)
 
-**Example Patch:** [cables.gl/edit/J-XMNQ](https://cables.gl/edit/J-XMNQ)
+**Example:** [cables.gl/edit/J-XMNQ](https://cables.gl/edit/J-XMNQ)
 
 **Doc:** [cables.gl/op/Ops.Gl.GridTransform](https://cables.gl/op/Ops.Gl.GridTransform)
 
@@ -568,7 +568,7 @@ reset all transforms (modelmatrix).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/KUVJ8i](https://cables.gl/edit/KUVJ8i)
+**Example:** [cables.gl/edit/KUVJ8i](https://cables.gl/edit/KUVJ8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.Identity](https://cables.gl/op/Ops.Gl.Identity)
 
@@ -587,7 +587,7 @@ reset the view matrix (cameras etc.).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/H01Ici](https://cables.gl/edit/H01Ici)
+**Example:** [cables.gl/edit/H01Ici](https://cables.gl/edit/H01Ici)
 
 **Doc:** [cables.gl/op/Ops.Gl.IdentityViewMatrix](https://cables.gl/op/Ops.Gl.IdentityViewMatrix)
 
@@ -616,7 +616,7 @@ play a image sprite animation.
 - **Frame** (Number)
 - **Progress** (Number)
 
-**Example Patch:** [cables.gl/edit/n0iMSq](https://cables.gl/edit/n0iMSq)
+**Example:** [cables.gl/edit/n0iMSq](https://cables.gl/edit/n0iMSq)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageSequenceAnim_v2](https://cables.gl/op/Ops.Gl.ImageSequenceAnim_v2)
 
@@ -658,7 +658,7 @@ An area which is interactive.
 - **Left Click** (Trigger)
 - **Dom Element** (Object)
 
-**Example Patch:** [cables.gl/edit/P_SED0](https://cables.gl/edit/P_SED0)
+**Example:** [cables.gl/edit/P_SED0](https://cables.gl/edit/P_SED0)
 
 **Doc:** [cables.gl/op/Ops.Gl.InteractiveRectangle_v2](https://cables.gl/op/Ops.Gl.InteractiveRectangle_v2)
 
@@ -692,7 +692,7 @@ Render Multiple Layers in a specific order.
 - **Trigger 14** (Trigger)
 - **Trigger 15** (Trigger)
 
-**Example Patch:** [cables.gl/edit/VH4Oxj](https://cables.gl/edit/VH4Oxj)
+**Example:** [cables.gl/edit/VH4Oxj](https://cables.gl/edit/VH4Oxj)
 
 **Doc:** [cables.gl/op/Ops.Gl.LayerSequence](https://cables.gl/op/Ops.Gl.LayerSequence)
 
@@ -713,7 +713,7 @@ A Simple way to write text on the screen.
 
 - **Lines** (Array)
 
-**Example Patch:** [cables.gl/edit/1JzPLu](https://cables.gl/edit/1JzPLu)
+**Example:** [cables.gl/edit/1JzPLu](https://cables.gl/edit/1JzPLu)
 
 **Doc:** [cables.gl/op/Ops.Gl.LineFont_v2](https://cables.gl/op/Ops.Gl.LineFont_v2)
 
@@ -739,7 +739,7 @@ Trigger other ops once every frame to create smooth animations.
 - **Height** (Number)
 - **Pixel Density** (Number)
 
-**Example Patch:** [cables.gl/edit/uZxfQc](https://cables.gl/edit/uZxfQc)
+**Example:** [cables.gl/edit/uZxfQc](https://cables.gl/edit/uZxfQc)
 
 **Doc:** [cables.gl/op/Ops.Gl.MainLoop_v2](https://cables.gl/op/Ops.Gl.MainLoop_v2)
 
@@ -772,7 +772,7 @@ Record the renderer-output to video.
 - **Finished Recording** (Trigger)
 - **Video DataUrl** (String)
 
-**Example Patch:** [cables.gl/edit/ioiDIR](https://cables.gl/edit/ioiDIR)
+**Example:** [cables.gl/edit/ioiDIR](https://cables.gl/edit/ioiDIR)
 
 **Doc:** [cables.gl/op/Ops.Gl.MediaRecorder_v2](https://cables.gl/op/Ops.Gl.MediaRecorder_v2)
 
@@ -801,7 +801,7 @@ Draw the same mesh multiple times on the GPU.
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
-**Example Patch:** [cables.gl/edit/oOsjJ5](https://cables.gl/edit/oOsjJ5)
+**Example:** [cables.gl/edit/oOsjJ5](https://cables.gl/edit/oOsjJ5)
 
 **Doc:** [cables.gl/op/Ops.Gl.MeshInstancer_v4](https://cables.gl/op/Ops.Gl.MeshInstancer_v4)
 
@@ -843,7 +843,7 @@ morph from one geometry to another.
 - **Finished** (booleanNumber)
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PdhglN](https://cables.gl/edit/PdhglN)
+**Example:** [cables.gl/edit/PdhglN](https://cables.gl/edit/PdhglN)
 
 **Doc:** [cables.gl/op/Ops.Gl.MeshMorph](https://cables.gl/op/Ops.Gl.MeshMorph)
 
@@ -864,7 +864,7 @@ convert screen pixel coordinates to range 0-1.
 - **Result X** (Number)
 - **Result Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
+**Example:** [cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.NormalizeScreenCoordinates](https://cables.gl/op/Ops.Gl.NormalizeScreenCoordinates)
 
@@ -890,7 +890,7 @@ outputs the first valid texture of the.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/oKRY7i](https://cables.gl/edit/oKRY7i)
+**Example:** [cables.gl/edit/oKRY7i](https://cables.gl/edit/oKRY7i)
 
 **Doc:** [cables.gl/op/Ops.Gl.OrTexture](https://cables.gl/op/Ops.Gl.OrTexture)
 
@@ -916,7 +916,7 @@ Orthogonal projection / objects in distance don't appear smaller (isometric).
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [cables.gl/edit/94Aycg](https://cables.gl/edit/94Aycg)
+**Example:** [cables.gl/edit/94Aycg](https://cables.gl/edit/94Aycg)
 
 **Doc:** [cables.gl/op/Ops.Gl.Orthogonal_v2](https://cables.gl/op/Ops.Gl.Orthogonal_v2)
 
@@ -937,7 +937,7 @@ Force a manually set viewport size for connected ops.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.OverwriteViewportSize#example](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
+**Example:** [cables.gl/op/Ops.Gl.OverwriteViewportSize#example](https://cables.gl/op/Ops.Gl.OverwriteViewportSize#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.OverwriteViewportSize](https://cables.gl/op/Ops.Gl.OverwriteViewportSize)
 
@@ -965,7 +965,7 @@ Show WebGl Performance Statistics.
 - **Canvas** (Object)
 - **FPS** (Number)
 
-**Example Patch:** [cables.gl/edit/zFR8z5](https://cables.gl/edit/zFR8z5)
+**Example:** [cables.gl/edit/zFR8z5](https://cables.gl/edit/zFR8z5)
 
 **Doc:** [cables.gl/op/Ops.Gl.Performance](https://cables.gl/op/Ops.Gl.Performance)
 
@@ -986,7 +986,7 @@ Measure the time used to execute all child ops.
 - **Childs** (Trigger)
 - **Time Used** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.PerformanceMeasure#example](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
+**Example:** [cables.gl/op/Ops.Gl.PerformanceMeasure#example](https://cables.gl/op/Ops.Gl.PerformanceMeasure#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.PerformanceMeasure](https://cables.gl/op/Ops.Gl.PerformanceMeasure)
 
@@ -1011,7 +1011,7 @@ Adjust FOV, field of view, and frustum clipping.
 - **Trigger** (Trigger)
 - **Aspect** (Number)
 
-**Example Patch:** [cables.gl/edit/RJXV7i](https://cables.gl/edit/RJXV7i)
+**Example:** [cables.gl/edit/RJXV7i](https://cables.gl/edit/RJXV7i)
 
 **Doc:** [cables.gl/op/Ops.Gl.Perspective](https://cables.gl/op/Ops.Gl.Perspective)
 
@@ -1039,7 +1039,7 @@ Remaps world co-ordinates to a pixel co-ordinate system.
 - **Size Width** (Number)
 - **Size Height** (Number)
 
-**Example Patch:** [cables.gl/edit/fsOPNS](https://cables.gl/edit/fsOPNS)
+**Example:** [cables.gl/edit/fsOPNS](https://cables.gl/edit/fsOPNS)
 
 **Doc:** [cables.gl/op/Ops.Gl.PixelProjection_v3](https://cables.gl/op/Ops.Gl.PixelProjection_v3)
 
@@ -1060,7 +1060,7 @@ save points/coordinates in an array.
 - **Trigger** (Trigger)
 - **Points** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.PointCollector#example](https://cables.gl/op/Ops.Gl.PointCollector#example)
+**Example:** [cables.gl/op/Ops.Gl.PointCollector#example](https://cables.gl/op/Ops.Gl.PointCollector#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.PointCollector](https://cables.gl/op/Ops.Gl.PointCollector)
 
@@ -1079,7 +1079,7 @@ collect world space coordinates into an array.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.PointCollectorCollect#example](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
+**Example:** [cables.gl/op/Ops.Gl.PointCollectorCollect#example](https://cables.gl/op/Ops.Gl.PointCollectorCollect#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.PointCollectorCollect](https://cables.gl/op/Ops.Gl.PointCollectorCollect)
 
@@ -1098,7 +1098,7 @@ collect screen pixel coordinates into an array.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
+**Example:** [cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.PointCollectorScreenCoords](https://cables.gl/op/Ops.Gl.PointCollectorScreenCoords)
 
@@ -1130,7 +1130,7 @@ Transforms objects randomly in space.
 - **Index** (Number)
 - **Rnd** (Number)
 
-**Example Patch:** [cables.gl/edit/Ah6Rj6](https://cables.gl/edit/Ah6Rj6)
+**Example:** [cables.gl/edit/Ah6Rj6](https://cables.gl/edit/Ah6Rj6)
 
 **Doc:** [cables.gl/op/Ops.Gl.RandomCluster](https://cables.gl/op/Ops.Gl.RandomCluster)
 
@@ -1167,7 +1167,7 @@ record, render an animation and save as webm video file or png image sequence.
 - **Data URL** (String)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/bQhm8i](https://cables.gl/edit/bQhm8i)
+**Example:** [cables.gl/edit/bQhm8i](https://cables.gl/edit/bQhm8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.RenderAnim_v2](https://cables.gl/op/Ops.Gl.RenderAnim_v2)
 
@@ -1189,7 +1189,7 @@ Render a geometry as mesh.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/w6QYlH](https://cables.gl/edit/w6QYlH)
+**Example:** [cables.gl/edit/w6QYlH](https://cables.gl/edit/w6QYlH)
 
 **Doc:** [cables.gl/op/Ops.Gl.RenderGeometry_v2](https://cables.gl/op/Ops.Gl.RenderGeometry_v2)
 
@@ -1216,7 +1216,7 @@ Render into an Image.
 - **Texture** (Object)
 - **TextureDepth** (Object)
 
-**Example Patch:** [cables.gl/edit/G2_my7](https://cables.gl/edit/G2_my7)
+**Example:** [cables.gl/edit/G2_my7](https://cables.gl/edit/G2_my7)
 
 **Doc:** [cables.gl/op/Ops.Gl.RenderToTexture_v3](https://cables.gl/op/Ops.Gl.RenderToTexture_v3)
 
@@ -1258,7 +1258,7 @@ render to multiple textures at the same time.
 - **Result Texture 7** (Object)
 - **TextureDepth** (Object)
 
-**Example Patch:** [cables.gl/edit/muH2jG](https://cables.gl/edit/muH2jG)
+**Example:** [cables.gl/edit/muH2jG](https://cables.gl/edit/muH2jG)
 
 **Doc:** [cables.gl/op/Ops.Gl.RenderToTextures_v3](https://cables.gl/op/Ops.Gl.RenderToTextures_v3)
 
@@ -1280,7 +1280,7 @@ reset current transforms to initial value (identity).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/kY3J8i](https://cables.gl/edit/kY3J8i)
+**Example:** [cables.gl/edit/kY3J8i](https://cables.gl/edit/kY3J8i)
 
 **Doc:** [cables.gl/op/Ops.Gl.ResetTransform](https://cables.gl/op/Ops.Gl.ResetTransform)
 
@@ -1303,7 +1303,7 @@ Download the current screen content as png file.
 
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/OB0Qmi](https://cables.gl/edit/OB0Qmi)
+**Example:** [cables.gl/edit/OB0Qmi](https://cables.gl/edit/OB0Qmi)
 
 **Doc:** [cables.gl/op/Ops.Gl.SaveScreenShot_v3](https://cables.gl/op/Ops.Gl.SaveScreenShot_v3)
 
@@ -1331,7 +1331,7 @@ visualize normals, tangents or bitangents.
 - **Trigger** (Trigger)
 - **Line Geom** (Object)
 
-**Example Patch:** [cables.gl/edit/4NeG02](https://cables.gl/edit/4NeG02)
+**Example:** [cables.gl/edit/4NeG02](https://cables.gl/edit/4NeG02)
 
 **Doc:** [cables.gl/op/Ops.Gl.ShowNormals_v2](https://cables.gl/op/Ops.Gl.ShowNormals_v2)
 
@@ -1364,7 +1364,7 @@ Scatter an object on the surface of a mesh with different distribution methods.
 - **Scale** (Array)
 - **Quaternions** (Array)
 
-**Example Patch:** [cables.gl/edit/cfUzre](https://cables.gl/edit/cfUzre)
+**Example:** [cables.gl/edit/cfUzre](https://cables.gl/edit/cfUzre)
 
 **Doc:** [cables.gl/op/Ops.Gl.SurfaceScatter_v2](https://cables.gl/op/Ops.Gl.SurfaceScatter_v2)
 
@@ -1414,7 +1414,7 @@ draw text using the FontMSDF operator.
 - **Start Y** (Number)
 - **Num Chars** (Number)
 
-**Example Patch:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
+**Example:** [cables.gl/edit/9COr26](https://cables.gl/edit/9COr26)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextMeshMSDF_v2](https://cables.gl/op/Ops.Gl.TextMeshMSDF_v2)
 
@@ -1444,7 +1444,7 @@ Load an image as a texture.
 - **Loaded** (booleanNumber)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/iRKrD-](https://cables.gl/edit/iRKrD-)
+**Example:** [cables.gl/edit/iRKrD-](https://cables.gl/edit/iRKrD-)
 
 **Doc:** [cables.gl/op/Ops.Gl.Texture_v2](https://cables.gl/op/Ops.Gl.Texture_v2)
 
@@ -1478,7 +1478,7 @@ create an array of textures.
 - **Array** (Array)
 - **Count** (Number)
 
-**Example Patch:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
+**Example:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureArray](https://cables.gl/op/Ops.Gl.TextureArray)
 
@@ -1508,7 +1508,7 @@ load multiple images into an array.
 - **Loading** (booleanNumber)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [cables.gl/edit/OeGdjT](https://cables.gl/edit/OeGdjT)
+**Example:** [cables.gl/edit/OeGdjT](https://cables.gl/edit/OeGdjT)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureArrayLoader_v2](https://cables.gl/op/Ops.Gl.TextureArrayLoader_v2)
 
@@ -1537,7 +1537,7 @@ load multiple texture from filenames given as an array.
 - **Loading** (booleanNumber)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [cables.gl/edit/jFv097](https://cables.gl/edit/jFv097)
+**Example:** [cables.gl/edit/jFv097](https://cables.gl/edit/jFv097)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3](https://cables.gl/op/Ops.Gl.TextureArrayLoaderFromArray_v3)
 
@@ -1564,7 +1564,7 @@ get the color of a pixel in a texture.
 - **Blue** (Number)
 - **Alpha** (Number)
 
-**Example Patch:** [cables.gl/edit/bzVSwn](https://cables.gl/edit/bzVSwn)
+**Example:** [cables.gl/edit/bzVSwn](https://cables.gl/edit/bzVSwn)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureColorPick](https://cables.gl/op/Ops.Gl.TextureColorPick)
 
@@ -1587,7 +1587,7 @@ extract colors from a texture.
 - **Floating Point** (booleanNumber)
 - **Num Pixel** (Number)
 
-**Example Patch:** [cables.gl/edit/uZkd3x](https://cables.gl/edit/uZkd3x)
+**Example:** [cables.gl/edit/uZkd3x](https://cables.gl/edit/uZkd3x)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureToArray_v4](https://cables.gl/op/Ops.Gl.TextureToArray_v4)
 
@@ -1616,7 +1616,7 @@ generate an array3 of grid positions from a texture.
 - **Min Z** (Number)
 - **Max Z** (Number)
 
-**Example Patch:** [cables.gl/edit/U8IO1k](https://cables.gl/edit/U8IO1k)
+**Example:** [cables.gl/edit/U8IO1k](https://cables.gl/edit/U8IO1k)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureToPointArray3](https://cables.gl/op/Ops.Gl.TextureToPointArray3)
 
@@ -1642,7 +1642,7 @@ Create points by sampling texture.
 - **Points** (Array)
 - **NumPoints** (Number)
 
-**Example Patch:** [cables.gl/edit/LAoKVJ](https://cables.gl/edit/LAoKVJ)
+**Example:** [cables.gl/edit/LAoKVJ](https://cables.gl/edit/LAoKVJ)
 
 **Doc:** [cables.gl/op/Ops.Gl.TextureToRandomPoints](https://cables.gl/op/Ops.Gl.TextureToRandomPoints)
 
@@ -1657,7 +1657,7 @@ will trigger when canvas was resized.
 
 - **Resized** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
+**Example:** [cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.TriggerOnCanvasResize](https://cables.gl/op/Ops.Gl.TriggerOnCanvasResize)
 
@@ -1676,7 +1676,7 @@ output current input texture or a default texture.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ValidTexture#example](https://cables.gl/op/Ops.Gl.ValidTexture#example)
+**Example:** [cables.gl/op/Ops.Gl.ValidTexture#example](https://cables.gl/op/Ops.Gl.ValidTexture#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ValidTexture](https://cables.gl/op/Ops.Gl.ValidTexture)
 
@@ -1699,7 +1699,7 @@ Outputs current viewport size.
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ViewPortSize#example](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
+**Example:** [cables.gl/op/Ops.Gl.ViewPortSize#example](https://cables.gl/op/Ops.Gl.ViewPortSize#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ViewPortSize](https://cables.gl/op/Ops.Gl.ViewPortSize)
 

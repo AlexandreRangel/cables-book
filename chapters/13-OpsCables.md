@@ -19,7 +19,7 @@ outputs the path to the assets.
 
 - **Path** (String)
 
-**Example Patch:** [cables.gl/edit/mwhthf](https://cables.gl/edit/mwhthf)
+**Example:** [cables.gl/edit/mwhthf](https://cables.gl/edit/mwhthf)
 
 **Doc:** [cables.gl/op/Ops.Cables.AssetPathURL](https://cables.gl/op/Ops.Cables.AssetPathURL)
 
@@ -34,7 +34,7 @@ Output the cables URL of the current editor environment.
 
 - **URL** (String)
 
-**Example Patch:** [cables.gl/edit/vaK7iO](https://cables.gl/edit/vaK7iO)
+**Example:** [cables.gl/edit/vaK7iO](https://cables.gl/edit/vaK7iO)
 
 **Doc:** [cables.gl/op/Ops.Cables.CablesInfo](https://cables.gl/op/Ops.Cables.CablesInfo)
 
@@ -55,7 +55,7 @@ Useful when a cables patch is embedded into a website. All parameters (`Value 1`
 - **Public** (7): LANDINGPORTAFOLIO
 - **LOGICX BED** (PUBLIC): wirmachenbunt - Published Sep 30, 2021 at 12:25
 
-**Example Patch:** [cables.gl/op/Ops.Cables.CallBack_v2#example](https://cables.gl/op/Ops.Cables.CallBack_v2#example)
+**Example:** [cables.gl/op/Ops.Cables.CallBack_v2#example](https://cables.gl/op/Ops.Cables.CallBack_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Cables.CallBack_v2](https://cables.gl/op/Ops.Cables.CallBack_v2)
 
@@ -71,7 +71,7 @@ output current frames per second.
 - **FPS** (Number)
 - **MS** (Number)
 
-**Example Patch:** [cables.gl/edit/KhFA8i](https://cables.gl/edit/KhFA8i)
+**Example:** [cables.gl/edit/KhFA8i](https://cables.gl/edit/KhFA8i)
 
 **Doc:** [cables.gl/op/Ops.Cables.FPS_v2](https://cables.gl/op/Ops.Cables.FPS_v2)
 
@@ -97,7 +97,7 @@ trigger from external function when embedded into a website.
 - **Parameter 2** (String)
 - **Parameter 3** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Cables.Function_v2#example](https://cables.gl/op/Ops.Cables.Function_v2#example)
+**Example:** [cables.gl/op/Ops.Cables.Function_v2#example](https://cables.gl/op/Ops.Cables.Function_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Cables.Function_v2](https://cables.gl/op/Ops.Cables.Function_v2)
 
@@ -119,7 +119,7 @@ Get op name by id.
 - **Shortname** (String)
 - **Version** (Number)
 
-**Example Patch:** [cables.gl/edit/Hmk7iO](https://cables.gl/edit/Hmk7iO)
+**Example:** [cables.gl/edit/Hmk7iO](https://cables.gl/edit/Hmk7iO)
 
 **Doc:** [cables.gl/op/Ops.Cables.GetOpName](https://cables.gl/op/Ops.Cables.GetOpName)
 
@@ -135,7 +135,7 @@ Outputs the current subpatch op name.
 - **Name** (String)
 - **ShortName** (String)
 
-**Example Patch:** [cables.gl/edit/20tMrh](https://cables.gl/edit/20tMrh)
+**Example:** [cables.gl/edit/20tMrh](https://cables.gl/edit/20tMrh)
 
 **Doc:** [cables.gl/op/Ops.Cables.GetSubPatchName](https://cables.gl/op/Ops.Cables.GetSubPatchName)
 
@@ -150,7 +150,7 @@ Create a loading job while input is true.
 
 - **Loading Active** (Number: Boolean)
 
-**Example Patch:** [cables.gl/edit/bzn9z1](https://cables.gl/edit/bzn9z1)
+**Example:** [cables.gl/edit/bzn9z1](https://cables.gl/edit/bzn9z1)
 
 **Doc:** [cables.gl/op/Ops.Cables.LoadingJob](https://cables.gl/op/Ops.Cables.LoadingJob)
 
@@ -175,7 +175,7 @@ trigger events / get information about asset-loading status.
 - **Jobs** (Array)
 - **Trigger Loading Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/5FQ08W](https://cables.gl/edit/5FQ08W)
+**Example:** [cables.gl/edit/5FQ08W](https://cables.gl/edit/5FQ08W)
 
 **Doc:** [cables.gl/op/Ops.Cables.LoadingStatus_v2](https://cables.gl/op/Ops.Cables.LoadingStatus_v2)
 
@@ -195,7 +195,7 @@ read patch config when embedding on another page.
 - **Last Saved** (Number)
 - **Last Exported** (Number)
 
-**Example Patch:** [cables.gl/edit/3hkdqX](https://cables.gl/edit/3hkdqX)
+**Example:** [cables.gl/edit/3hkdqX](https://cables.gl/edit/3hkdqX)
 
 **Doc:** [cables.gl/op/Ops.Cables.PatchInfo_v2](https://cables.gl/op/Ops.Cables.PatchInfo_v2)
 
@@ -215,7 +215,7 @@ Outputs `true` if patch is executed in the cables editor (UI).
 - **Canvas Mode** (Number)
 - **Patch Field Visible** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/vyqgR3](https://cables.gl/edit/vyqgR3)
+**Example:** [cables.gl/edit/vyqgR3](https://cables.gl/edit/vyqgR3)
 
 **Doc:** [cables.gl/op/Ops.Cables.UIMode](https://cables.gl/op/Ops.Cables.UIMode)
 
@@ -238,7 +238,7 @@ Upload a file into the cables patch assets using a base64 string.
 - **Error** (booleanNumber)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/6vDCsh](https://cables.gl/edit/6vDCsh)
+**Example:** [cables.gl/edit/6vDCsh](https://cables.gl/edit/6vDCsh)
 
 **Doc:** [cables.gl/op/Ops.Cables.UploadAsset](https://cables.gl/op/Ops.Cables.UploadAsset)
 
@@ -258,7 +258,7 @@ Upload an image as screentshot in cables.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Cables.UploadScreenshot#example](https://cables.gl/op/Ops.Cables.UploadScreenshot#example)
+**Example:** [cables.gl/op/Ops.Cables.UploadScreenshot#example](https://cables.gl/op/Ops.Cables.UploadScreenshot#example)
 
 **Doc:** [cables.gl/op/Ops.Cables.UploadScreenshot](https://cables.gl/op/Ops.Cables.UploadScreenshot)
 

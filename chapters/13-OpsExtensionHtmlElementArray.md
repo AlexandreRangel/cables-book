@@ -28,7 +28,7 @@ create an array of div elements.
 - **Pointer Up** (Trigger)
 - **Index Hovered** (Number)
 
-**Example Patch:** [cables.gl/edit/lYLMwk](https://cables.gl/edit/lYLMwk)
+**Example:** [cables.gl/edit/lYLMwk](https://cables.gl/edit/lYLMwk)
 
 **Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.DivElements](https://cables.gl/op/Ops.Extension.HtmlElementArray.DivElements)
 
@@ -51,7 +51,7 @@ Set css style properties of a html element.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
+**Example:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyNumber)
 
@@ -74,7 +74,7 @@ set css properties.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)
+**Example:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString](https://cables.gl/op/Ops.Extension.HtmlElementArray.ElementArrayCssPropertyString)
 

@@ -22,7 +22,7 @@ Compose a string.
 - **Next** (Trigger)
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/GUpzJB](https://cables.gl/edit/GUpzJB)
+**Example:** [cables.gl/edit/GUpzJB](https://cables.gl/edit/GUpzJB)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.String.CompString](https://cables.gl/op/Ops.Data.Compose.String.CompString)
 
@@ -43,7 +43,7 @@ Append a string to a string.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
+**Example:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.String.CompStringAppend](https://cables.gl/op/Ops.Data.Compose.String.CompStringAppend)
 
@@ -64,7 +64,7 @@ Remove characters from the beginning or end of a string.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
+**Example:** [cables.gl/edit/Yqj7eG](https://cables.gl/edit/Yqj7eG)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.String.CompStringShorten](https://cables.gl/op/Ops.Data.Compose.String.CompStringShorten)
 

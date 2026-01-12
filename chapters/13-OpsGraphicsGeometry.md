@@ -22,7 +22,7 @@ align a geometry / change its pivot / center / origin point.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/FbXQ-G](https://cables.gl/edit/FbXQ-G)
+**Example:** [cables.gl/edit/FbXQ-G](https://cables.gl/edit/FbXQ-G)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.AlignGeometry](https://cables.gl/op/Ops.Graphics.Geometry.AlignGeometry)
 
@@ -43,7 +43,7 @@ create a simple bounding box from width,height,depth.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.BoundingBox#example](https://cables.gl/op/Ops.Graphics.Geometry.BoundingBox#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.BoundingBox#example](https://cables.gl/op/Ops.Graphics.Geometry.BoundingBox#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.BoundingBox](https://cables.gl/op/Ops.Graphics.Geometry.BoundingBox)
 
@@ -64,7 +64,7 @@ calculate normals of a geometry.
 
 - **Geometry Out** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.CalculateNormals#example](https://cables.gl/op/Ops.Graphics.Geometry.CalculateNormals#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.CalculateNormals#example](https://cables.gl/op/Ops.Graphics.Geometry.CalculateNormals#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.CalculateNormals](https://cables.gl/op/Ops.Graphics.Geometry.CalculateNormals)
 
@@ -83,7 +83,7 @@ disconnect faces/polygons of a mesh.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/sYIxm1](https://cables.gl/edit/sYIxm1)
+**Example:** [cables.gl/edit/sYIxm1](https://cables.gl/edit/sYIxm1)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.DivideGeometry](https://cables.gl/op/Ops.Graphics.Geometry.DivideGeometry)
 
@@ -104,7 +104,7 @@ flip all normals of a geometry.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/cTfoii](https://cables.gl/edit/cTfoii)
+**Example:** [cables.gl/edit/cTfoii](https://cables.gl/edit/cTfoii)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.FlipNormals](https://cables.gl/op/Ops.Graphics.Geometry.FlipNormals)
 
@@ -124,7 +124,7 @@ capture all following meshes into one geometry.
 - **Geometry** (Object)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/BwxY2f](https://cables.gl/edit/BwxY2f)
+**Example:** [cables.gl/edit/BwxY2f](https://cables.gl/edit/BwxY2f)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.FreezeMeshes](https://cables.gl/op/Ops.Graphics.Geometry.FreezeMeshes)
 
@@ -149,7 +149,7 @@ Get vertices of a geometry as array3x (vertex vertices).
 - **Tangents** (Array)
 - **BiTangents** (Array)
 
-**Example Patch:** [cables.gl/edit/4VpJz6](https://cables.gl/edit/4VpJz6)
+**Example:** [cables.gl/edit/4VpJz6](https://cables.gl/edit/4VpJz6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryAttributes](https://cables.gl/op/Ops.Graphics.Geometry.GeometryAttributes)
 
@@ -173,7 +173,7 @@ basic extrusion of flat geometry.
 
 - **Result Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
+**Example:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryExtrude](https://cables.gl/op/Ops.Graphics.Geometry.GeometryExtrude)
 
@@ -197,7 +197,7 @@ Create a geometry from array data.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/isWvii](https://cables.gl/edit/isWvii)
+**Example:** [cables.gl/edit/isWvii](https://cables.gl/edit/isWvii)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryFromArrays](https://cables.gl/op/Ops.Graphics.Geometry.GeometryFromArrays)
 
@@ -225,7 +225,7 @@ information about a geometry.
 - **VertexColors** (Number)
 - **Other Attributes** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.GeometryInfo#example](https://cables.gl/op/Ops.Graphics.Geometry.GeometryInfo#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.GeometryInfo#example](https://cables.gl/op/Ops.Graphics.Geometry.GeometryInfo#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryInfo](https://cables.gl/op/Ops.Graphics.Geometry.GeometryInfo)
 
@@ -247,7 +247,7 @@ merge two geometries to one.
 
 - **Geometry Result** (Object)
 
-**Example Patch:** [cables.gl/edit/3rCDz6](https://cables.gl/edit/3rCDz6)
+**Example:** [cables.gl/edit/3rCDz6](https://cables.gl/edit/3rCDz6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryMerge](https://cables.gl/op/Ops.Graphics.Geometry.GeometryMerge)
 
@@ -266,7 +266,7 @@ Generate an .obj file as string from a geometry.
 
 - **Obj** (String)
 
-**Example Patch:** [cables.gl/edit/BwxY2f](https://cables.gl/edit/BwxY2f)
+**Example:** [cables.gl/edit/BwxY2f](https://cables.gl/edit/BwxY2f)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryToObj](https://cables.gl/op/Ops.Graphics.Geometry.GeometryToObj)
 
@@ -285,7 +285,7 @@ generate an array of lines from a mesh to render a wireframe.
 
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/r--xve](https://cables.gl/edit/r--xve)
+**Example:** [cables.gl/edit/r--xve](https://cables.gl/edit/r--xve)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryToWireframeArray3](https://cables.gl/op/Ops.Graphics.Geometry.GeometryToWireframeArray3)
 
@@ -304,7 +304,7 @@ convert geometry to only flat triangles without reusing vertices positions.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex#example](https://cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex#example](https://cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex](https://cables.gl/op/Ops.Graphics.Geometry.GeometryUnIndex)
 
@@ -324,7 +324,7 @@ parse an obj string to a geometry object.
 - **Geometry** (Object)
 - **Status** (String)
 
-**Example Patch:** [cables.gl/edit/JeA8ck](https://cables.gl/edit/JeA8ck)
+**Example:** [cables.gl/edit/JeA8ck](https://cables.gl/edit/JeA8ck)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.ObjGeometry](https://cables.gl/op/Ops.Graphics.Geometry.ObjGeometry)
 
@@ -344,7 +344,7 @@ randomize order of triangles in a geometry.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/gLrrJV](https://cables.gl/edit/gLrrJV)
+**Example:** [cables.gl/edit/gLrrJV](https://cables.gl/edit/gLrrJV)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.RandomizeTriangles](https://cables.gl/op/Ops.Graphics.Geometry.RandomizeTriangles)
 
@@ -364,7 +364,7 @@ Reverses the order of vertices in a geometry, back facing triangles become front
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/u9N6v4](https://cables.gl/edit/u9N6v4)
+**Example:** [cables.gl/edit/u9N6v4](https://cables.gl/edit/u9N6v4)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.ReverseVertices](https://cables.gl/op/Ops.Graphics.Geometry.ReverseVertices)
 
@@ -384,7 +384,7 @@ uniform scaling of geometry vertices.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry#example](https://cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry#example](https://cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry](https://cables.gl/op/Ops.Graphics.Geometry.ScaleGeometry)
 
@@ -405,7 +405,7 @@ sort geometry triangles by position.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis#example](https://cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis#example)
+**Example:** [cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis#example](https://cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis](https://cables.gl/op/Ops.Graphics.Geometry.SortGeometryAxis)
 
@@ -426,7 +426,7 @@ Generate a SVG path string of a string using an opentype font.
 
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
+**Example:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.SvgPathToGeometry_v2](https://cables.gl/op/Ops.Graphics.Geometry.SvgPathToGeometry_v2)
 
@@ -447,7 +447,7 @@ create new triangles in a mesh (subdivide).
 - **Result** (Object)
 - **Num Vertices** (Number)
 
-**Example Patch:** [cables.gl/edit/gLrrJV](https://cables.gl/edit/gLrrJV)
+**Example:** [cables.gl/edit/gLrrJV](https://cables.gl/edit/gLrrJV)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.TesselateGeometry](https://cables.gl/op/Ops.Graphics.Geometry.TesselateGeometry)
 
@@ -475,7 +475,7 @@ transform vertices of geometry.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/aoBFz6](https://cables.gl/edit/aoBFz6)
+**Example:** [cables.gl/edit/aoBFz6](https://cables.gl/edit/aoBFz6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.TransformGeometry](https://cables.gl/op/Ops.Graphics.Geometry.TransformGeometry)
 
@@ -500,7 +500,7 @@ Draws multiple triangles using coordinates from an array.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/0fnxrc](https://cables.gl/edit/0fnxrc)
+**Example:** [cables.gl/edit/0fnxrc](https://cables.gl/edit/0fnxrc)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.TriangleArrayToGeometry_v2](https://cables.gl/op/Ops.Graphics.Geometry.TriangleArrayToGeometry_v2)
 
@@ -523,7 +523,7 @@ Triangulate a 2d path to a flat and filled 3d geometry.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/LzTAeT](https://cables.gl/edit/LzTAeT)
+**Example:** [cables.gl/edit/LzTAeT](https://cables.gl/edit/LzTAeT)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Geometry.Triangulate2dPath](https://cables.gl/op/Ops.Graphics.Geometry.Triangulate2dPath)
 

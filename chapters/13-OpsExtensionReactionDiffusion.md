@@ -37,7 +37,7 @@ Cellular automata system as feedback loop texture.
 - **Trigger** (Trigger)
 - **Texture Out** (Object)
 
-**Example Patch:** [cables.gl/edit/XLCybk](https://cables.gl/edit/XLCybk)
+**Example:** [cables.gl/edit/XLCybk](https://cables.gl/edit/XLCybk)
 
 **Doc:** [cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2](https://cables.gl/op/Ops.Extension.ReactionDiffusion.ReactionDiffusionSystem_v2)
 

@@ -20,7 +20,7 @@ Shows console log output on the screen.
 
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/TVIL7f](https://cables.gl/edit/TVIL7f)
+**Example:** [cables.gl/edit/TVIL7f](https://cables.gl/edit/TVIL7f)
 
 **Doc:** [cables.gl/op/Ops.Debug.Console](https://cables.gl/op/Ops.Debug.Console)
 
@@ -36,7 +36,7 @@ Log incoming values to the console/dev tools.
 - **Number** (Number)
 - **String** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Debug.ConsoleLog#example](https://cables.gl/op/Ops.Debug.ConsoleLog#example)
+**Example:** [cables.gl/op/Ops.Debug.ConsoleLog#example](https://cables.gl/op/Ops.Debug.ConsoleLog#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.ConsoleLog](https://cables.gl/op/Ops.Debug.ConsoleLog)
 
@@ -62,7 +62,7 @@ Crash the editor in many ways.
 - **NaN** (Number)
 - **Infinity** (Number)
 
-**Example Patch:** [cables.gl/edit/9TvUBq](https://cables.gl/edit/9TvUBq)
+**Example:** [cables.gl/edit/9TvUBq](https://cables.gl/edit/9TvUBq)
 
 **Doc:** [cables.gl/op/Ops.Debug.CrashOp](https://cables.gl/op/Ops.Debug.CrashOp)
 
@@ -84,7 +84,7 @@ execute glGetError after every gl command and log to browser console.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Debug.GlLogErrors#example](https://cables.gl/op/Ops.Debug.GlLogErrors#example)
+**Example:** [cables.gl/op/Ops.Debug.GlLogErrors#example](https://cables.gl/op/Ops.Debug.GlLogErrors#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.GlLogErrors](https://cables.gl/op/Ops.Debug.GlLogErrors)
 
@@ -115,7 +115,7 @@ see current gl states and error message.
 - **Face Culling** (Number)
 - **Is Shadowpass** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Debug.GlStates#example](https://cables.gl/op/Ops.Debug.GlStates#example)
+**Example:** [cables.gl/op/Ops.Debug.GlStates#example](https://cables.gl/op/Ops.Debug.GlStates#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.GlStates](https://cables.gl/op/Ops.Debug.GlStates)
 
@@ -135,7 +135,7 @@ dump all gl commands of one frame to console.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Debug.ProfileGL#example](https://cables.gl/op/Ops.Debug.ProfileGL#example)
+**Example:** [cables.gl/op/Ops.Debug.ProfileGL#example](https://cables.gl/op/Ops.Debug.ProfileGL#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.ProfileGL](https://cables.gl/op/Ops.Debug.ProfileGL)
 
@@ -156,7 +156,7 @@ Measure the time used to render all child nodes in milliseconds.
 - **Time Used** (Number)
 - **Times** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Debug.StopWatch#example](https://cables.gl/op/Ops.Debug.StopWatch#example)
+**Example:** [cables.gl/op/Ops.Debug.StopWatch#example](https://cables.gl/op/Ops.Debug.StopWatch#example)
 
 **Doc:** [cables.gl/op/Ops.Debug.StopWatch](https://cables.gl/op/Ops.Debug.StopWatch)
 

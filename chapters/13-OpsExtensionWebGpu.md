@@ -19,7 +19,7 @@ Upload an array to the GPU as a GpuBuffer.
 
 - **GPUBuffer** (Object)
 
-**Example Patch:** [cables.gl/edit/VShX3I](https://cables.gl/edit/VShX3I)
+**Example:** [cables.gl/edit/VShX3I](https://cables.gl/edit/VShX3I)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ArrayToGpuBuffer](https://cables.gl/op/Ops.Extension.WebGpu.ArrayToGpuBuffer)
 
@@ -43,7 +43,7 @@ Convert an array of numbers to a webgpu texture.
 - **Next** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/hYt34I](https://cables.gl/edit/hYt34I)
+**Example:** [cables.gl/edit/hYt34I](https://cables.gl/edit/hYt34I)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ArrayToTexture](https://cables.gl/op/Ops.Extension.WebGpu.ArrayToTexture)
 
@@ -62,7 +62,7 @@ Render mesh attribultes as color.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/FM4hQB](https://cables.gl/edit/FM4hQB)
+**Example:** [cables.gl/edit/FM4hQB](https://cables.gl/edit/FM4hQB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.AttributeAsColorMaterial](https://cables.gl/op/Ops.Extension.WebGpu.AttributeAsColorMaterial)
 
@@ -92,7 +92,7 @@ A simple material without shading.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/J0HjQB](https://cables.gl/edit/J0HjQB)
+**Example:** [cables.gl/edit/J0HjQB](https://cables.gl/edit/J0HjQB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.BasicMaterial](https://cables.gl/op/Ops.Extension.WebGpu.BasicMaterial)
 
@@ -116,7 +116,7 @@ A texture containing only one color.
 - **Next** (Trigger)
 - **Texture_out** (Object)
 
-**Example Patch:** [cables.gl/edit/13IW3I](https://cables.gl/edit/13IW3I)
+**Example:** [cables.gl/edit/13IW3I](https://cables.gl/edit/13IW3I)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ColorTexture](https://cables.gl/op/Ops.Extension.WebGpu.ColorTexture)
 
@@ -143,7 +143,7 @@ Compose a compute shader.
 - **Buffer** (Object)
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/1ff0dH](https://cables.gl/edit/1ff0dH)
+**Example:** [cables.gl/edit/1ff0dH](https://cables.gl/edit/1ff0dH)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.CompCompute](https://cables.gl/op/Ops.Extension.WebGpu.CompCompute)
 
@@ -164,7 +164,7 @@ Compute shader GPU buffer storage input.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example)
+**Example:** [cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageInput)
 
@@ -187,7 +187,7 @@ Compute shader GPU buffer storage output.
 - **Buffer** (Object)
 - **Buffer Length** (Number)
 
-**Example Patch:** [cables.gl/edit/1ff0dH](https://cables.gl/edit/1ff0dH)
+**Example:** [cables.gl/edit/1ff0dH](https://cables.gl/edit/1ff0dH)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ComputeStorageOutput](https://cables.gl/op/Ops.Extension.WebGpu.ComputeStorageOutput)
 
@@ -211,7 +211,7 @@ Add a uniform input to a compute shader composition.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example)
+**Example:** [cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.ComputeUniform](https://cables.gl/op/Ops.Extension.WebGpu.ComputeUniform)
 
@@ -226,7 +226,7 @@ Outputs textures.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/nQEVKB](https://cables.gl/edit/nQEVKB)
+**Example:** [cables.gl/edit/nQEVKB](https://cables.gl/edit/nQEVKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.DefaultTextures](https://cables.gl/op/Ops.Extension.WebGpu.DefaultTextures)
 
@@ -245,7 +245,7 @@ cull (do not draw) back or front facing faces/triangles.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/zKLQ3I](https://cables.gl/edit/zKLQ3I)
+**Example:** [cables.gl/edit/zKLQ3I](https://cables.gl/edit/zKLQ3I)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.FaceCulling](https://cables.gl/op/Ops.Extension.WebGpu.FaceCulling)
 
@@ -272,7 +272,7 @@ Show direction of faces as color.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/1Jm1LB](https://cables.gl/edit/1Jm1LB)
+**Example:** [cables.gl/edit/1Jm1LB](https://cables.gl/edit/1Jm1LB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.FrontBacksideMaterial](https://cables.gl/op/Ops.Extension.WebGpu.FrontBacksideMaterial)
 
@@ -294,7 +294,7 @@ Render a rectangle that fills the whole canvas.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PNx2LB](https://cables.gl/edit/PNx2LB)
+**Example:** [cables.gl/edit/PNx2LB](https://cables.gl/edit/PNx2LB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.FullScreenRect](https://cables.gl/op/Ops.Extension.WebGpu.FullScreenRect)
 
@@ -314,7 +314,7 @@ Convert a GpuBuffer to a CPU Array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/bQQYKB](https://cables.gl/edit/bQQYKB)
+**Example:** [cables.gl/edit/bQQYKB](https://cables.gl/edit/bQQYKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.GpuBufferToArray](https://cables.gl/op/Ops.Extension.WebGpu.GpuBufferToArray)
 
@@ -344,7 +344,7 @@ Image based material that uses a matcap environment texture.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/WwXZKB](https://cables.gl/edit/WwXZKB)
+**Example:** [cables.gl/edit/WwXZKB](https://cables.gl/edit/WwXZKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.MatCapMaterial](https://cables.gl/op/Ops.Extension.WebGpu.MatCapMaterial)
 
@@ -370,7 +370,7 @@ Draw the same mesh many times very fast.
 - **Next** (Trigger)
 - **Total Instances** (Number)
 
-**Example Patch:** [cables.gl/edit/bQQYKB](https://cables.gl/edit/bQQYKB)
+**Example:** [cables.gl/edit/bQQYKB](https://cables.gl/edit/bQQYKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.MeshInstancer](https://cables.gl/op/Ops.Extension.WebGpu.MeshInstancer)
 
@@ -396,7 +396,7 @@ show content of last used pipeline for debugging.
 - **Shader Id** (String)
 - **Defines** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.WebGpu.Pipeline#example](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline#example)
+**Example:** [cables.gl/op/Ops.Extension.WebGpu.Pipeline#example](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.Pipeline](https://cables.gl/op/Ops.Extension.WebGpu.Pipeline)
 
@@ -419,7 +419,7 @@ render into a texture.
 - **Next** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/pyXXKB](https://cables.gl/edit/pyXXKB)
+**Example:** [cables.gl/edit/pyXXKB](https://cables.gl/edit/pyXXKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.RenderToTexture](https://cables.gl/op/Ops.Extension.WebGpu.RenderToTexture)
 
@@ -430,7 +430,7 @@ render into a texture.
 
 *Visit [documentation](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund) for details*.
 
-**Example Patch:** [cables.gl/op/Ops.Extension.WebGpu.SaselHund#example](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund#example)
+**Example:** [cables.gl/op/Ops.Extension.WebGpu.SaselHund#example](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.SaselHund](https://cables.gl/op/Ops.Extension.WebGpu.SaselHund)
 
@@ -453,7 +453,7 @@ Load an image file as a texture.
 - **Height** (Number)
 - **Pixelformat** (Number)
 
-**Example Patch:** [cables.gl/edit/08iWKB](https://cables.gl/edit/08iWKB)
+**Example:** [cables.gl/edit/08iWKB](https://cables.gl/edit/08iWKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.Texture](https://cables.gl/op/Ops.Extension.WebGpu.Texture)
 
@@ -468,7 +468,7 @@ Vizualize a webgpu texture on the patchfield.
 
 - **Texture In** (Object:Texture)
 
-**Example Patch:** [cables.gl/edit/tk5uLB](https://cables.gl/edit/tk5uLB)
+**Example:** [cables.gl/edit/tk5uLB](https://cables.gl/edit/tk5uLB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.VizTexture](https://cables.gl/op/Ops.Extension.WebGpu.VizTexture)
 
@@ -496,7 +496,7 @@ Create a canvas for WebGPU.
 - **Canvas Prev** (Object)
 - **Profiler Data** (Object)
 
-**Example Patch:** [cables.gl/edit/ALyYKB](https://cables.gl/edit/ALyYKB)
+**Example:** [cables.gl/edit/ALyYKB](https://cables.gl/edit/ALyYKB)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.WebGpuCanvas](https://cables.gl/op/Ops.Extension.WebGpu.WebGpuCanvas)
 
@@ -519,7 +519,7 @@ Output information about WebGPU adapter and implementation.
 - **Architecture** (String)
 - **Presentation Format** (String)
 
-**Example Patch:** [cables.gl/edit/UTES3I](https://cables.gl/edit/UTES3I)
+**Example:** [cables.gl/edit/UTES3I](https://cables.gl/edit/UTES3I)
 
 **Doc:** [cables.gl/op/Ops.Extension.WebGpu.WebGpuInfo](https://cables.gl/op/Ops.Extension.WebGpu.WebGpuInfo)
 

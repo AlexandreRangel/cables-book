@@ -19,7 +19,7 @@ Outputs the currently active/focused element.
 
 - **Active Element** (Object)
 
-**Example Patch:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
+**Example:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
 
 **Doc:** [cables.gl/op/Ops.Html.ActiveElement](https://cables.gl/op/Ops.Html.ActiveElement)
 
@@ -43,7 +43,7 @@ Align a HTML element to another, keep positioning.
 - **Element Passthrough** (Object)
 - **Aligned Element** (Object)
 
-**Example Patch:** [cables.gl/edit/jKcTdv](https://cables.gl/edit/jKcTdv)
+**Example:** [cables.gl/edit/jKcTdv](https://cables.gl/edit/jKcTdv)
 
 **Doc:** [cables.gl/op/Ops.Html.AlignElement](https://cables.gl/op/Ops.Html.AlignElement)
 
@@ -64,7 +64,7 @@ Appends a HTML DOM Element to another.
 - **Parent Out** (Object)
 - **Child Out** (Object)
 
-**Example Patch:** [cables.gl/edit/PakK8i](https://cables.gl/edit/PakK8i)
+**Example:** [cables.gl/edit/PakK8i](https://cables.gl/edit/PakK8i)
 
 **Doc:** [cables.gl/op/Ops.Html.AppendChild_v2](https://cables.gl/op/Ops.Html.AppendChild_v2)
 
@@ -89,7 +89,7 @@ set file dependant on browser.
 - **Browser Specific File** (String)
 - **Detected Browser** (String)
 
-**Example Patch:** [cables.gl/edit/CfJkIk](https://cables.gl/edit/CfJkIk)
+**Example:** [cables.gl/edit/CfJkIk](https://cables.gl/edit/CfJkIk)
 
 **Doc:** [cables.gl/op/Ops.Html.BrowserSpecificFile_v2](https://cables.gl/op/Ops.Html.BrowserSpecificFile_v2)
 
@@ -115,7 +115,7 @@ Create an image file from a canvas.
 - **Loading** (booleanNumber)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Html.CanvasToBase64#example](https://cables.gl/op/Ops.Html.CanvasToBase64#example)
+**Example:** [cables.gl/op/Ops.Html.CanvasToBase64#example](https://cables.gl/op/Ops.Html.CanvasToBase64#example)
 
 **Doc:** [cables.gl/op/Ops.Html.CanvasToBase64](https://cables.gl/op/Ops.Html.CanvasToBase64)
 
@@ -140,7 +140,7 @@ compares two images and shows the difference as a pink color.
 - **Resemble Data** (Object)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/1xkRN8](https://cables.gl/edit/1xkRN8)
+**Example:** [cables.gl/edit/1xkRN8](https://cables.gl/edit/1xkRN8)
 
 **Doc:** [cables.gl/op/Ops.Html.CompareImages_v2](https://cables.gl/op/Ops.Html.CompareImages_v2)
 
@@ -155,7 +155,7 @@ Outputs the current document body element.
 
 - **Body** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Html.DocumentBody#example](https://cables.gl/op/Ops.Html.DocumentBody#example)
+**Example:** [cables.gl/op/Ops.Html.DocumentBody#example](https://cables.gl/op/Ops.Html.DocumentBody#example)
 
 **Doc:** [cables.gl/op/Ops.Html.DocumentBody](https://cables.gl/op/Ops.Html.DocumentBody)
 
@@ -176,7 +176,7 @@ Make a HTML element draggable to move it around with the mouse.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/edit/WSi9iO](https://cables.gl/edit/WSi9iO)
+**Example:** [cables.gl/edit/WSi9iO](https://cables.gl/edit/WSi9iO)
 
 **Doc:** [cables.gl/op/Ops.Html.DraggableElement](https://cables.gl/op/Ops.Html.DraggableElement)
 
@@ -195,7 +195,7 @@ Serialize HTML/SVG elements to a string.
 
 - **HTML String** (String)
 
-**Example Patch:** [cables.gl/edit/3kGgr5](https://cables.gl/edit/3kGgr5)
+**Example:** [cables.gl/edit/3kGgr5](https://cables.gl/edit/3kGgr5)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementAsHtmlString](https://cables.gl/op/Ops.Html.ElementAsHtmlString)
 
@@ -224,7 +224,7 @@ Set childs of a HTML Element.
 
 - **Parent Out** (Object)
 
-**Example Patch:** [cables.gl/edit/S4VD0H](https://cables.gl/edit/S4VD0H)
+**Example:** [cables.gl/edit/S4VD0H](https://cables.gl/edit/S4VD0H)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementChilds_v2](https://cables.gl/op/Ops.Html.ElementChilds_v2)
 
@@ -246,7 +246,7 @@ add child elements to another HTML Element.
 - **Parent Out** (Object)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/zC9iWh](https://cables.gl/edit/zC9iWh)
+**Example:** [cables.gl/edit/zC9iWh](https://cables.gl/edit/zC9iWh)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementChildsMultiPort_v2](https://cables.gl/op/Ops.Html.ElementChildsMultiPort_v2)
 
@@ -269,7 +269,7 @@ get html element absolute position and size in pixels on screen.
 - **Width** (Number)
 - **Height** (Number)
 
-**Example Patch:** [cables.gl/edit/1Z8oLu](https://cables.gl/edit/1Z8oLu)
+**Example:** [cables.gl/edit/1Z8oLu](https://cables.gl/edit/1Z8oLu)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementClientRect](https://cables.gl/op/Ops.Html.ElementClientRect)
 
@@ -292,7 +292,7 @@ Set the mouse cursor.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/_f5W8s](https://cables.gl/edit/_f5W8s)
+**Example:** [cables.gl/edit/_f5W8s](https://cables.gl/edit/_f5W8s)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementCssCursor_v3](https://cables.gl/op/Ops.Html.ElementCssCursor_v3)
 
@@ -311,7 +311,7 @@ Output css attributes of an element as a string.
 
 - **CSS** (String)
 
-**Example Patch:** [cables.gl/edit/8JmrBZ](https://cables.gl/edit/8JmrBZ)
+**Example:** [cables.gl/edit/8JmrBZ](https://cables.gl/edit/8JmrBZ)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementCssString](https://cables.gl/op/Ops.Html.ElementCssString)
 
@@ -330,7 +330,7 @@ Get the data-attributes and values of an HTML element.
 
 - **Dataset** (Object)
 
-**Example Patch:** [cables.gl/edit/MgdKjH](https://cables.gl/edit/MgdKjH)
+**Example:** [cables.gl/edit/MgdKjH](https://cables.gl/edit/MgdKjH)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementDataSet](https://cables.gl/op/Ops.Html.ElementDataSet)
 
@@ -350,7 +350,7 @@ Check if two HTML element objects are equal.
 
 - **Equal** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/LZSRjH](https://cables.gl/edit/LZSRjH)
+**Example:** [cables.gl/edit/LZSRjH](https://cables.gl/edit/LZSRjH)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementEquals](https://cables.gl/op/Ops.Html.ElementEquals)
 
@@ -373,7 +373,7 @@ fade html elements in or out.
 - **PassThrough** (Object)
 - **Is Showing** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Whj018](https://cables.gl/edit/Whj018)
+**Example:** [cables.gl/edit/Whj018](https://cables.gl/edit/Whj018)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementFadeInOut_v2](https://cables.gl/op/Ops.Html.ElementFadeInOut_v2)
 
@@ -393,7 +393,7 @@ get the closest parent element matching the query selector.
 
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/ojHGjH](https://cables.gl/edit/ojHGjH)
+**Example:** [cables.gl/edit/ojHGjH](https://cables.gl/edit/ojHGjH)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementGetClosest](https://cables.gl/op/Ops.Html.ElementGetClosest)
 
@@ -416,7 +416,7 @@ Use a cables gradient as HTML element background.
 - **HTML Element** (Object)
 - **CSS String** (String)
 
-**Example Patch:** [cables.gl/edit/QB7br5](https://cables.gl/edit/QB7br5)
+**Example:** [cables.gl/edit/QB7br5](https://cables.gl/edit/QB7br5)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementGradientBg](https://cables.gl/op/Ops.Html.ElementGradientBg)
 
@@ -437,7 +437,7 @@ Does the element currenty have a specific class set.
 
 - **Has Class** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Html.ElementHasClass#example](https://cables.gl/op/Ops.Html.ElementHasClass#example)
+**Example:** [cables.gl/op/Ops.Html.ElementHasClass#example](https://cables.gl/op/Ops.Html.ElementHasClass#example)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementHasClass](https://cables.gl/op/Ops.Html.ElementHasClass)
 
@@ -457,7 +457,7 @@ Get information about an element.
 - **Tagname** (String)
 - **Id** (String)
 
-**Example Patch:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
+**Example:** [cables.gl/edit/0iRDu1](https://cables.gl/edit/0iRDu1)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementInfo](https://cables.gl/op/Ops.Html.ElementInfo)
 
@@ -477,7 +477,7 @@ Is the connected element currently focused.
 
 - **Has Focus** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/9jTwz1](https://cables.gl/edit/9jTwz1)
+**Example:** [cables.gl/edit/9jTwz1](https://cables.gl/edit/9jTwz1)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementIsFocused](https://cables.gl/op/Ops.Html.ElementIsFocused)
 
@@ -499,7 +499,7 @@ get html element absolute positions and sizes by classname.
 - **Size** (Array)
 - **Total Elements** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Html.ElementsPositionsByClass#example](https://cables.gl/op/Ops.Html.ElementsPositionsByClass#example)
+**Example:** [cables.gl/op/Ops.Html.ElementsPositionsByClass#example](https://cables.gl/op/Ops.Html.ElementsPositionsByClass#example)
 
 **Doc:** [cables.gl/op/Ops.Html.ElementsPositionsByClass](https://cables.gl/op/Ops.Html.ElementsPositionsByClass)
 
@@ -521,7 +521,7 @@ Load a font file like .otf, .ttf, .woff via css.
 - **Loaded** (booleanNumber)
 - **Loaded Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/xR9zIR](https://cables.gl/edit/xR9zIR)
+**Example:** [cables.gl/edit/xR9zIR](https://cables.gl/edit/xR9zIR)
 
 **Doc:** [cables.gl/op/Ops.Html.FontFile_v2](https://cables.gl/op/Ops.Html.FontFile_v2)
 
@@ -536,7 +536,7 @@ triggers when asynchronous requests finised loading.
 
 - **Font Loaded** (Trigger)
 
-**Example Patch:** [cables.gl/edit/xP04r1](https://cables.gl/edit/xP04r1)
+**Example:** [cables.gl/edit/xP04r1](https://cables.gl/edit/xP04r1)
 
 **Doc:** [cables.gl/op/Ops.Html.FontsLoaded](https://cables.gl/op/Ops.Html.FontsLoaded)
 
@@ -557,7 +557,7 @@ Switch webgl to fullscreen.
 - **Is Fullscreen** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/CCoJji](https://cables.gl/edit/CCoJji)
+**Example:** [cables.gl/edit/CCoJji](https://cables.gl/edit/CCoJji)
 
 **Doc:** [cables.gl/op/Ops.Html.FullscreenMode](https://cables.gl/op/Ops.Html.FullscreenMode)
 
@@ -578,7 +578,7 @@ Copy GL canvas content to another canvas.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/u2vAu1](https://cables.gl/edit/u2vAu1)
+**Example:** [cables.gl/edit/u2vAu1](https://cables.gl/edit/u2vAu1)
 
 **Doc:** [cables.gl/op/Ops.Html.GlCopyToCanvas](https://cables.gl/op/Ops.Html.GlCopyToCanvas)
 
@@ -597,7 +597,7 @@ Open another website.
 - **Win Specs** (String)
 - **Rel Attribute** (String)
 
-**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
+**Example:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
 **Doc:** [cables.gl/op/Ops.Html.HyperLink_v3](https://cables.gl/op/Ops.Html.HyperLink_v3)
 
@@ -619,7 +619,7 @@ Set innerHTML or innerTEXT of an HTML element.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/jgArsw](https://cables.gl/edit/jgArsw)
+**Example:** [cables.gl/edit/jgArsw](https://cables.gl/edit/jgArsw)
 
 **Doc:** [cables.gl/op/Ops.Html.InnerHTML](https://cables.gl/op/Ops.Html.InnerHTML)
 
@@ -640,7 +640,7 @@ Append string to the inner html or an element.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/hmTiu1](https://cables.gl/edit/hmTiu1)
+**Example:** [cables.gl/edit/hmTiu1](https://cables.gl/edit/hmTiu1)
 
 **Doc:** [cables.gl/op/Ops.Html.InnerHtmlAppend](https://cables.gl/op/Ops.Html.InnerHtmlAppend)
 
@@ -657,7 +657,7 @@ creates a mailto: link to open the default email app.
 - **Subject** (String)
 - **Execute** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
+**Example:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
 **Doc:** [cables.gl/op/Ops.Html.MailtoLink](https://cables.gl/op/Ops.Html.MailtoLink)
 
@@ -677,7 +677,7 @@ markdown markup language to html parser.
 
 - **Html** (String)
 
-**Example Patch:** [cables.gl/edit/52Zlij](https://cables.gl/edit/52Zlij)
+**Example:** [cables.gl/edit/52Zlij](https://cables.gl/edit/52Zlij)
 
 **Doc:** [cables.gl/op/Ops.Html.MarkdownToHtml](https://cables.gl/op/Ops.Html.MarkdownToHtml)
 
@@ -702,7 +702,7 @@ create a modal HTML overlay with a darkened background.
 - **Closed** (Trigger)
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/RXU-K2](https://cables.gl/edit/RXU-K2)
+**Example:** [cables.gl/edit/RXU-K2](https://cables.gl/edit/RXU-K2)
 
 **Doc:** [cables.gl/op/Ops.Html.ModalOverlay](https://cables.gl/op/Ops.Html.ModalOverlay)
 
@@ -725,7 +725,7 @@ Selects an element in the DOM.
 
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/C6z3GH](https://cables.gl/edit/C6z3GH)
+**Example:** [cables.gl/edit/C6z3GH](https://cables.gl/edit/C6z3GH)
 
 **Doc:** [cables.gl/op/Ops.Html.QuerySelector_v3](https://cables.gl/op/Ops.Html.QuerySelector_v3)
 
@@ -749,7 +749,7 @@ Selects all matching elements in the DOM.
 
 - **Elements** (Array)
 
-**Example Patch:** [cables.gl/edit/QTs5GH](https://cables.gl/edit/QTs5GH)
+**Example:** [cables.gl/edit/QTs5GH](https://cables.gl/edit/QTs5GH)
 
 **Doc:** [cables.gl/op/Ops.Html.QuerySelectorAll_v2](https://cables.gl/op/Ops.Html.QuerySelectorAll_v2)
 
@@ -764,7 +764,7 @@ reload the website.
 
 - **Exec** (Trigger)
 
-**Example Patch:** [cables.gl/edit/BPeCci](https://cables.gl/edit/BPeCci)
+**Example:** [cables.gl/edit/BPeCci](https://cables.gl/edit/BPeCci)
 
 **Doc:** [cables.gl/op/Ops.Html.ReloadPage](https://cables.gl/op/Ops.Html.ReloadPage)
 
@@ -784,7 +784,7 @@ Scroll an area, so the html element is visible/in view.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
+**Example:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
 
 **Doc:** [cables.gl/op/Ops.Html.ScrollIntoView](https://cables.gl/op/Ops.Html.ScrollIntoView)
 
@@ -809,7 +809,7 @@ the current x y top left scrolling position of html page or element.
 - **Percentage X** (Number)
 - **Percentage Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Html.ScrollPosition_v2#example](https://cables.gl/op/Ops.Html.ScrollPosition_v2#example)
+**Example:** [cables.gl/op/Ops.Html.ScrollPosition_v2#example](https://cables.gl/op/Ops.Html.ScrollPosition_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Html.ScrollPosition_v2](https://cables.gl/op/Ops.Html.ScrollPosition_v2)
 
@@ -826,7 +826,7 @@ Trigger the browser to scroll to top or bottom of an element.
 - **Scroll To Top** (Trigger)
 - **Scroll To Bottom** (Trigger)
 
-**Example Patch:** [cables.gl/edit/JEThu1](https://cables.gl/edit/JEThu1)
+**Example:** [cables.gl/edit/JEThu1](https://cables.gl/edit/JEThu1)
 
 **Doc:** [cables.gl/op/Ops.Html.ScrollTo](https://cables.gl/op/Ops.Html.ScrollTo)
 
@@ -841,7 +841,7 @@ close current window.
 
 - **Close** (Trigger)
 
-**Example Patch:** [cables.gl/edit/WGBCci](https://cables.gl/edit/WGBCci)
+**Example:** [cables.gl/edit/WGBCci](https://cables.gl/edit/WGBCci)
 
 **Doc:** [cables.gl/op/Ops.Html.WindowClose](https://cables.gl/op/Ops.Html.WindowClose)
 
@@ -857,7 +857,7 @@ detect if the browser window/tab has focus.
 - **Has Focus** (booleanNumber)
 - **Tab Visible** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/uI9yOg](https://cables.gl/edit/uI9yOg)
+**Example:** [cables.gl/edit/uI9yOg](https://cables.gl/edit/uI9yOg)
 
 **Doc:** [cables.gl/op/Ops.Html.WindowHasFocus](https://cables.gl/op/Ops.Html.WindowHasFocus)
 
@@ -878,7 +878,7 @@ size of browser window in pixels.
 - **Orientation Angle** (Number)
 - **Orientation Type** (String)
 
-**Example Patch:** [cables.gl/edit/DyHxSP](https://cables.gl/edit/DyHxSP)
+**Example:** [cables.gl/edit/DyHxSP](https://cables.gl/edit/DyHxSP)
 
 **Doc:** [cables.gl/op/Ops.Html.WindowInfo](https://cables.gl/op/Ops.Html.WindowInfo)
 
@@ -898,7 +898,7 @@ Get the current scroll position of the window.
 - **Scoll X** (Number)
 - **Scoll Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Html.WindowScroll#example](https://cables.gl/op/Ops.Html.WindowScroll#example)
+**Example:** [cables.gl/op/Ops.Html.WindowScroll#example](https://cables.gl/op/Ops.Html.WindowScroll#example)
 
 **Doc:** [cables.gl/op/Ops.Html.WindowScroll](https://cables.gl/op/Ops.Html.WindowScroll)
 

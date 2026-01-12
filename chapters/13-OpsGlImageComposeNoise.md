@@ -34,7 +34,7 @@
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/9DZmT6](https://cables.gl/edit/9DZmT6)
+**Example:** [cables.gl/edit/9DZmT6](https://cables.gl/edit/9DZmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.CellularNoise_v2)
 
@@ -70,7 +70,7 @@ fractional brownian motion noise.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/DmWmT6](https://cables.gl/edit/DmWmT6)
+**Example:** [cables.gl/edit/DmWmT6](https://cables.gl/edit/DmWmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.FBMNoise_v2)
 
@@ -95,7 +95,7 @@ Render "gabor noise" into a texture.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PWDdQm](https://cables.gl/edit/PWDdQm)
+**Example:** [cables.gl/edit/PWDdQm](https://cables.gl/edit/PWDdQm)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GaborNoise)
 
@@ -126,7 +126,7 @@ Creates a black and white glitched texture to use for displacement.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/cknm0r](https://cables.gl/edit/cknm0r)
+**Example:** [cables.gl/edit/cknm0r](https://cables.gl/edit/cknm0r)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.GlitchNoise_v2)
 
@@ -158,7 +158,7 @@ Creates a hexagonal noise.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/plbB53](https://cables.gl/edit/plbB53)
+**Example:** [cables.gl/edit/plbB53](https://cables.gl/edit/plbB53)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.HexagonNoise_v2)
 
@@ -190,7 +190,7 @@ Multilayer perlin noise variation.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/NSYy0t](https://cables.gl/edit/NSYy0t)
+**Example:** [cables.gl/edit/NSYy0t](https://cables.gl/edit/NSYy0t)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.LayerNoise_v3)
 
@@ -216,7 +216,7 @@ White noise pixel effect.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PdHmT6](https://cables.gl/edit/PdHmT6)
+**Example:** [cables.gl/edit/PdHmT6](https://cables.gl/edit/PdHmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Noise_v2)
 
@@ -251,7 +251,7 @@ Draw perlin noise into an image.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/zfzmT6](https://cables.gl/edit/zfzmT6)
+**Example:** [cables.gl/edit/zfzmT6](https://cables.gl/edit/zfzmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PerlinNoise_v2)
 
@@ -284,7 +284,7 @@ Amount of blend mode to apply.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/pdjoOb](https://cables.gl/edit/pdjoOb)
+**Example:** [cables.gl/edit/pdjoOb](https://cables.gl/edit/pdjoOb)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PixelNoise_v3)
 
@@ -314,7 +314,7 @@ Amount of blend mode to apply.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/pKNTub](https://cables.gl/edit/pKNTub)
+**Example:** [cables.gl/edit/pKNTub](https://cables.gl/edit/pKNTub)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.PolkaDotNoise_v2)
 
@@ -341,7 +341,7 @@ Render "shard noise" into a texture.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/GSZtvs](https://cables.gl/edit/GSZtvs)
+**Example:** [cables.gl/edit/GSZtvs](https://cables.gl/edit/GSZtvs)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Shardnoise)
 
@@ -375,7 +375,7 @@ simplex noise generator.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/c3vmUf](https://cables.gl/edit/c3vmUf)
+**Example:** [cables.gl/edit/c3vmUf](https://cables.gl/edit/c3vmUf)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.SimplexNoise_v2)
 
@@ -400,7 +400,7 @@ noise made from triangles.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/wvkJyC](https://cables.gl/edit/wvkJyC)
+**Example:** [cables.gl/edit/wvkJyC](https://cables.gl/edit/wvkJyC)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.TriangleNoise_v2)
 
@@ -425,7 +425,7 @@ noise made from triangles.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/SgTmT6](https://cables.gl/edit/SgTmT6)
+**Example:** [cables.gl/edit/SgTmT6](https://cables.gl/edit/SgTmT6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.ValueNoise_v2)
 
@@ -455,7 +455,7 @@ Voronoi Noise function.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3zb6Us](https://cables.gl/edit/3zb6Us)
+**Example:** [cables.gl/edit/3zb6Us](https://cables.gl/edit/3zb6Us)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.Voronoise_v2)
 
@@ -494,7 +494,7 @@ Voronoi Noise function.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/sivDJd](https://cables.gl/edit/sivDJd)
+**Example:** [cables.gl/edit/sivDJd](https://cables.gl/edit/sivDJd)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2](https://cables.gl/op/Ops.Gl.ImageCompose.Noise.WorleyNoise_v2)
 

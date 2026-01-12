@@ -4,11 +4,11 @@
 
 ![[01-introduction-1766980878670.jpeg]]
 
-**Cables.gl** is a powerful, browser-based visual programming environment for creating interactive 2D and 3D graphics using WebGL. It was created by undev in Berlin and has become a popular tool for creative coding, interactive installations, data visualization, and web-based visual experiences.
+**Cables.gl** is a powerful, browser-based visual programming environment for creating interactive 2D and 3D graphics using WebGL. It has become a popular tool for creative coding, interactive installations, data visualization, and web-based visual experiences.
 
 Unlike traditional coding environments, cables.gl uses a **node-based** (or "patch-based") approach where you connect visual operators (ops) together to create your projects. This makes it accessible to artists and designers while still being powerful enough for developers.
 
-## A (Brief) History of cables.gl
+## A Brief History of cables.gl
 
 cables.gl was created by **undev** (Berlin) with the goal of making **real-time WebGL** creation approachable through a node-based workflow—similar in spirit to visual programming environments used in motion design and interactive installations, but built for the browser.
 
@@ -91,10 +91,15 @@ Author: Kirell Benzi
 ### More Resources
 
 **Note:** There are limited intro-specific YouTube videos for cables.gl, but the platform has excellent resources:
+
 - Browse the [cables.gl Public Patches](https://cables.gl/ops) to see examples
+
 - Check the official [cables.gl YouTube channel](https://www.youtube.com/@cablesgl) for official tutorials
+
 - The [Decode GL channel](https://www.youtube.com/@Decode_gl) has multiple cables.gl tutorials
+
 - Search for "cables.gl" on YouTube for the latest community content
+
 - Many cables.gl creators share their work on social media and personal channels
 
 ## Getting Help

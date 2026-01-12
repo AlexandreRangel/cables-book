@@ -23,7 +23,7 @@ Use the detect-gpu library to assess performance of the client running the patch
 - **GPU Name** (String)
 - **FPS** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
+**Example:** [cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.DetectGpu.DetectGPU](https://cables.gl/op/Ops.Extension.DetectGpu.DetectGPU)
 

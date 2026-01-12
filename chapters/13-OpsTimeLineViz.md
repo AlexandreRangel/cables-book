@@ -16,7 +16,7 @@ Display current Beat index and BPM timing information as beat rectangles on the 
 - **BPM** (Number)
 - **Offset** (Number)
 
-**Example Patch:** [cables.gl/edit/gpr6A1](https://cables.gl/edit/gpr6A1)
+**Example:** [cables.gl/edit/gpr6A1](https://cables.gl/edit/gpr6A1)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineBPM)
 
@@ -35,7 +35,7 @@ Display an image on the timeline.
 - **Start** (Number)
 - **End** (Number)
 
-**Example Patch:** [cables.gl/edit/1DD6A1](https://cables.gl/edit/1DD6A1)
+**Example:** [cables.gl/edit/1DD6A1](https://cables.gl/edit/1DD6A1)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.Viz.TimeLineImage](https://cables.gl/op/Ops.TimeLine.Viz.TimeLineImage)
 

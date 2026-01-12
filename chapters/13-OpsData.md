@@ -18,7 +18,7 @@ Enter data in a spreadsheet table.
 - **Height** (Number)
 - **Column Names** (Array)
 
-**Example Patch:** [cables.gl/edit/wDITt1](https://cables.gl/edit/wDITt1)
+**Example:** [cables.gl/edit/wDITt1](https://cables.gl/edit/wDITt1)
 
 **Doc:** [cables.gl/op/Ops.Data.SpreadSheetArray](https://cables.gl/op/Ops.Data.SpreadSheetArray)
 

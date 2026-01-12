@@ -19,7 +19,7 @@ decode a string to base64.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.Base64.Base64Decode_v2#example](https://cables.gl/op/Ops.String.Base64.Base64Decode_v2#example)
+**Example:** [cables.gl/op/Ops.String.Base64.Base64Decode_v2#example](https://cables.gl/op/Ops.String.Base64.Base64Decode_v2#example)
 
 **Doc:** [cables.gl/op/Ops.String.Base64.Base64Decode_v2](https://cables.gl/op/Ops.String.Base64.Base64Decode_v2)
 
@@ -39,7 +39,7 @@ encode a string to base64.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.Base64.Base64Encode_v3#example](https://cables.gl/op/Ops.String.Base64.Base64Encode_v3#example)
+**Example:** [cables.gl/op/Ops.String.Base64.Base64Encode_v3#example](https://cables.gl/op/Ops.String.Base64.Base64Encode_v3#example)
 
 **Doc:** [cables.gl/op/Ops.String.Base64.Base64Encode_v3](https://cables.gl/op/Ops.String.Base64.Base64Encode_v3)
 
@@ -60,7 +60,7 @@ trigger a download of a base64 binary file.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/jE9zO8](https://cables.gl/edit/jE9zO8)
+**Example:** [cables.gl/edit/jE9zO8](https://cables.gl/edit/jE9zO8)
 
 **Doc:** [cables.gl/op/Ops.String.Base64.DownloadBase64File](https://cables.gl/op/Ops.String.Base64.DownloadBase64File)
 

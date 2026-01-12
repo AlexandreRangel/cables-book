@@ -40,7 +40,7 @@
 - **Faces** (Array)
 - **TexCoords** (Array)
 
-**Example Patch:** [cables.gl/edit/LgcEiq](https://cables.gl/edit/LgcEiq)
+**Example:** [cables.gl/edit/LgcEiq](https://cables.gl/edit/LgcEiq)
 
 **Doc:** [cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesCpu)
 
@@ -78,7 +78,7 @@
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ka9Vxq](https://cables.gl/edit/ka9Vxq)
+**Example:** [cables.gl/edit/ka9Vxq](https://cables.gl/edit/ka9Vxq)
 
 **Doc:** [cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu](https://cables.gl/op/Ops.Extension.SuperShapes.SuperShapesGpu)
 

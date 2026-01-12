@@ -20,7 +20,7 @@ Generate an animated geometry from MpFaceTracking Point Coordinates.
 
 - **Result Geom** (Object)
 
-**Example Patch:** [cables.gl/edit/by9Tq4](https://cables.gl/edit/by9Tq4)
+**Example:** [cables.gl/edit/by9Tq4](https://cables.gl/edit/by9Tq4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.FaceMesh](https://cables.gl/op/Ops.Extension.Mediapipe.FaceMesh)
 
@@ -42,7 +42,7 @@ Get face mesh from webcam/video using mediapipe library.
 - **Found** (Number)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/wznlp4](https://cables.gl/edit/wznlp4)
+**Example:** [cables.gl/edit/wznlp4](https://cables.gl/edit/wznlp4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpFaceTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpFaceTracking)
 
@@ -67,7 +67,7 @@ Get points and lines for left/right hand from mediapipe.
 - **Found Hand** (Number)
 - **Score** (Number)
 
-**Example Patch:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
+**Example:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpHand](https://cables.gl/op/Ops.Extension.Mediapipe.MpHand)
 
@@ -89,7 +89,7 @@ Get individual coordinates of fingers or wrist from an array of mediapipe data.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
+**Example:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpHandCoordinate](https://cables.gl/op/Ops.Extension.Mediapipe.MpHandCoordinate)
 
@@ -111,7 +111,7 @@ Get hand data from mediapipe library, use with MpHand.
 - **Result** (Object)
 - **Found Hands** (Number)
 
-**Example Patch:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
+**Example:** [cables.gl/edit/a5xfp4](https://cables.gl/edit/a5xfp4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpHandTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpHandTracking)
 
@@ -133,7 +133,7 @@ Get coordinates of specific body parts from mediapipe data.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/uepop4](https://cables.gl/edit/uepop4)
+**Example:** [cables.gl/edit/uepop4](https://cables.gl/edit/uepop4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpPoseGetCoordinate](https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseGetCoordinate)
 
@@ -164,7 +164,7 @@ Get pose-data (points/landmarks/lines) from webcam using mediapipe library.
 - **Lines** (Array)
 - **Found** (Number)
 
-**Example Patch:** [cables.gl/edit/uepop4](https://cables.gl/edit/uepop4)
+**Example:** [cables.gl/edit/uepop4](https://cables.gl/edit/uepop4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Mediapipe.MpPoseTracking](https://cables.gl/op/Ops.Extension.Mediapipe.MpPoseTracking)
 

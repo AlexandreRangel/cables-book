@@ -24,7 +24,7 @@ Creates a spectrogram texture from an audio FFT array.
 - **Texture Out** (Object)
 - **Position** (Number)
 
-**Example Patch:** [cables.gl/edit/T_-vCp](https://cables.gl/edit/T_-vCp)
+**Example:** [cables.gl/edit/T_-vCp](https://cables.gl/edit/T_-vCp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AnalyzerTexture_v2](https://cables.gl/op/Ops.WebAudio.AnalyzerTexture_v2)
 
@@ -57,7 +57,7 @@ Extracts FFT, RMS & Waveform data from an incoming audio signal.
 - **Average Volume Time-Domain** (Number)
 - **RMS Volume** (Number)
 
-**Example Patch:** [cables.gl/edit/h2eBh-](https://cables.gl/edit/h2eBh-)
+**Example:** [cables.gl/edit/h2eBh-](https://cables.gl/edit/h2eBh-)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioAnalyzer_v2](https://cables.gl/op/Ops.WebAudio.AudioAnalyzer_v2)
 
@@ -84,7 +84,7 @@ Holds an audio file / sample in a buffer.
 - **Number Of Channels** (Number)
 - **IsLoading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/xEL0rn](https://cables.gl/edit/xEL0rn)
+**Example:** [cables.gl/edit/xEL0rn](https://cables.gl/edit/xEL0rn)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioBuffer_v3](https://cables.gl/op/Ops.WebAudio.AudioBuffer_v3)
 
@@ -108,7 +108,7 @@ Route audio from one input channel to any output channel.
 - **Audio Buffer Out** (Object)
 - **Output Channels** (Number)
 
-**Example Patch:** [cables.gl/edit/KlCyYN](https://cables.gl/edit/KlCyYN)
+**Example:** [cables.gl/edit/KlCyYN](https://cables.gl/edit/KlCyYN)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioBufferChannelRouter](https://cables.gl/op/Ops.WebAudio.AudioBufferChannelRouter)
 
@@ -134,7 +134,7 @@ Play back audio data stored in an AudioBuffer.
 - **Is Playing** (booleanNumber)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/5PFIfu](https://cables.gl/edit/5PFIfu)
+**Example:** [cables.gl/edit/5PFIfu](https://cables.gl/edit/5PFIfu)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioBufferPlayer_v2](https://cables.gl/op/Ops.WebAudio.AudioBufferPlayer_v2)
 
@@ -158,7 +158,7 @@ Outputs the waveform of an audio file as a spline array.
 - **Next** (Trigger)
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/OcOVBp](https://cables.gl/edit/OcOVBp)
+**Example:** [cables.gl/edit/OcOVBp](https://cables.gl/edit/OcOVBp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioBufferToSplineArray](https://cables.gl/op/Ops.WebAudio.AudioBufferToSplineArray)
 
@@ -178,7 +178,7 @@ stereo pan an audio signal from left to right.
 
 - **Audio Out** (Object)
 
-**Example Patch:** [cables.gl/edit/iNue_j](https://cables.gl/edit/iNue_j)
+**Example:** [cables.gl/edit/iNue_j](https://cables.gl/edit/iNue_j)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioPanner](https://cables.gl/op/Ops.WebAudio.AudioPanner)
 
@@ -211,7 +211,7 @@ record, playback and download audio.
 - **AudioBuffer Out** (Object)
 - **Data URL** (String)
 
-**Example Patch:** [cables.gl/edit/nEKhbI](https://cables.gl/edit/nEKhbI)
+**Example:** [cables.gl/edit/nEKhbI](https://cables.gl/edit/nEKhbI)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.AudioRecorder](https://cables.gl/op/Ops.WebAudio.AudioRecorder)
 
@@ -239,7 +239,7 @@ Different kinds of audio filters.
 - **Phase Response Array** (Array)
 - **Response Arrays Length** (Number)
 
-**Example Patch:** [cables.gl/edit/nhyACp](https://cables.gl/edit/nhyACp)
+**Example:** [cables.gl/edit/nhyACp](https://cables.gl/edit/nhyACp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.BiquadFilter_v2](https://cables.gl/op/Ops.WebAudio.BiquadFilter_v2)
 
@@ -266,7 +266,7 @@ send bpm based triggers like a clocked trigger sequencer / clock divider.
 - **Stop Out** (Trigger)
 - **Reset Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/J8Uccu](https://cables.gl/edit/J8Uccu)
+**Example:** [cables.gl/edit/J8Uccu](https://cables.gl/edit/J8Uccu)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.ClockSequencer](https://cables.gl/op/Ops.WebAudio.ClockSequencer)
 
@@ -291,7 +291,7 @@ sequence triggers by defining a pattern (like a drum machine).
 - **Sequenced Value** (Number)
 - **Current Step** (Number)
 
-**Example Patch:** [cables.gl/edit/KM0Dgu](https://cables.gl/edit/KM0Dgu)
+**Example:** [cables.gl/edit/KM0Dgu](https://cables.gl/edit/KM0Dgu)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.ClockSequencerPattern](https://cables.gl/op/Ops.WebAudio.ClockSequencerPattern)
 
@@ -315,7 +315,7 @@ Audio reverb using an impulse response (sample).
 - **Audio Out** (Object)
 - **Wet Out** (Object)
 
-**Example Patch:** [cables.gl/edit/WlLDwp](https://cables.gl/edit/WlLDwp)
+**Example:** [cables.gl/edit/WlLDwp](https://cables.gl/edit/WlLDwp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Convolver_v2](https://cables.gl/op/Ops.WebAudio.Convolver_v2)
 
@@ -340,7 +340,7 @@ dj style filter (lowpass and highpass).
 
 - **Audio Out** (Object)
 
-**Example Patch:** [cables.gl/edit/6SsZxp](https://cables.gl/edit/6SsZxp)
+**Example:** [cables.gl/edit/6SsZxp](https://cables.gl/edit/6SsZxp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.CutFilter](https://cables.gl/op/Ops.WebAudio.CutFilter)
 
@@ -369,7 +369,7 @@ add a delay effect to an audio stream.
 - **Mix Out** (Object)
 - **Wet Out** (Object)
 
-**Example Patch:** [cables.gl/edit/IUjXgu](https://cables.gl/edit/IUjXgu)
+**Example:** [cables.gl/edit/IUjXgu](https://cables.gl/edit/IUjXgu)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Delay](https://cables.gl/op/Ops.WebAudio.Delay)
 
@@ -395,7 +395,7 @@ get average value in an area of a fft audio analysis buffer.
 - **Texture Out** (Object)
 - **Area Average Volume** (Number)
 
-**Example Patch:** [cables.gl/edit/F6Fhyp](https://cables.gl/edit/F6Fhyp)
+**Example:** [cables.gl/edit/F6Fhyp](https://cables.gl/edit/F6Fhyp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.FFTAreaAverage_v3](https://cables.gl/op/Ops.WebAudio.FFTAreaAverage_v3)
 
@@ -416,7 +416,7 @@ Changes the gain / volume.
 
 - **Audio Out** (Object)
 
-**Example Patch:** [cables.gl/edit/JeKgDp](https://cables.gl/edit/JeKgDp)
+**Example:** [cables.gl/edit/JeKgDp](https://cables.gl/edit/JeKgDp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Gain](https://cables.gl/op/Ops.WebAudio.Gain)
 
@@ -460,7 +460,7 @@ Generates notes based on key presses.
 - **Frequency** (Number)
 - **Is Pressed** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.WebAudio.KeyPiano#example](https://cables.gl/op/Ops.WebAudio.KeyPiano#example)
+**Example:** [cables.gl/op/Ops.WebAudio.KeyPiano#example](https://cables.gl/op/Ops.WebAudio.KeyPiano#example)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.KeyPiano](https://cables.gl/op/Ops.WebAudio.KeyPiano)
 
@@ -484,7 +484,7 @@ Access to the microphone and/or audio input devices.
 - **Listening** (booleanNumber)
 - **List Of Input Devices** (Array)
 
-**Example Patch:** [cables.gl/edit/xjHACp](https://cables.gl/edit/xjHACp)
+**Example:** [cables.gl/edit/xjHACp](https://cables.gl/edit/xjHACp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.MicrophoneIn_v2](https://cables.gl/op/Ops.WebAudio.MicrophoneIn_v2)
 
@@ -504,7 +504,7 @@ Converts a midi value to a frequency.
 
 - **Frequency** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example)
+**Example:** [cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency#example)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.MidiValueToFrequency](https://cables.gl/op/Ops.WebAudio.MidiValueToFrequency)
 
@@ -547,7 +547,7 @@ Mix audio signals together.
 
 - **Audio Out** (Object)
 
-**Example Patch:** [cables.gl/edit/J7YdCp](https://cables.gl/edit/J7YdCp)
+**Example:** [cables.gl/edit/J7YdCp](https://cables.gl/edit/J7YdCp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Mixer](https://cables.gl/op/Ops.WebAudio.Mixer)
 
@@ -576,7 +576,7 @@ Outputs a musical scale array (major, minor, ...) as strings, steps and midi not
 - **Midi Note Array** (Array)
 - **Current Scale** (String)
 
-**Example Patch:** [cables.gl/edit/8Ekchu](https://cables.gl/edit/8Ekchu)
+**Example:** [cables.gl/edit/8Ekchu](https://cables.gl/edit/8Ekchu)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.MusicalScales](https://cables.gl/op/Ops.WebAudio.MusicalScales)
 
@@ -600,7 +600,7 @@ Sends an audio signal to your speakers.
 - **Number Of Channels** (Number)
 - **Context State** (String)
 
-**Example Patch:** [cables.gl/edit/teZhCp](https://cables.gl/edit/teZhCp)
+**Example:** [cables.gl/edit/teZhCp](https://cables.gl/edit/teZhCp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Output_v2](https://cables.gl/op/Ops.WebAudio.Output_v2)
 
@@ -634,7 +634,7 @@ Sends an audio signal to your speakers.
 
 - **Audio Out** (Object)
 
-**Example Patch:** [cables.gl/edit/tD2Vxp](https://cables.gl/edit/tD2Vxp)
+**Example:** [cables.gl/edit/tD2Vxp](https://cables.gl/edit/tD2Vxp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.ThreeBandEqualizer](https://cables.gl/op/Ops.WebAudio.ThreeBandEqualizer)
 
@@ -662,7 +662,7 @@ Outputs the waveform of an audio file as a geometry.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/VqDkCp](https://cables.gl/edit/VqDkCp)
+**Example:** [cables.gl/edit/VqDkCp](https://cables.gl/edit/VqDkCp)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.WaveformMesh](https://cables.gl/op/Ops.WebAudio.WaveformMesh)
 
@@ -689,7 +689,7 @@ add waveshaping (distortion, overdrive, fuzz) to an audio stream.
 - **distortion curve array output** (one-dimensional)
 - **Curve Length** (Number)
 
-**Example Patch:** [cables.gl/edit/6Vl87I](https://cables.gl/edit/6Vl87I)
+**Example:** [cables.gl/edit/6Vl87I](https://cables.gl/edit/6Vl87I)
 
 **Doc:** [cables.gl/op/Ops.WebAudio.Waveshaper](https://cables.gl/op/Ops.WebAudio.Waveshaper)
 

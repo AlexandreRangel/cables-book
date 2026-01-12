@@ -28,7 +28,7 @@ Let’s you tap in a beat, useful to synchronise visuals to music (VJ, sync, sou
 - **States** (Array)
 - **Beat Index** (Number)
 
-**Example Patch:** [cables.gl/edit/vwdfqX](https://cables.gl/edit/vwdfqX)
+**Example:** [cables.gl/edit/vwdfqX](https://cables.gl/edit/vwdfqX)
 
 **Doc:** [cables.gl/op/Ops.Audio.BpmTap](https://cables.gl/op/Ops.Audio.BpmTap)
 
@@ -55,7 +55,7 @@ read MIDI information at time x.
 - **BPM** (Number)
 - **Data** (Object)
 
-**Example Patch:** [cables.gl/edit/yJPMCV](https://cables.gl/edit/yJPMCV)
+**Example:** [cables.gl/edit/yJPMCV](https://cables.gl/edit/yJPMCV)
 
 **Doc:** [cables.gl/op/Ops.Audio.MidiJson](https://cables.gl/op/Ops.Audio.MidiJson)
 
@@ -82,7 +82,7 @@ Filter MidiJson for notes.
 - **Trigger** (Trigger)
 - **Reseted** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Audio.MidiJsonNote_v2#example](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2#example)
+**Example:** [cables.gl/op/Ops.Audio.MidiJsonNote_v2#example](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Audio.MidiJsonNote_v2](https://cables.gl/op/Ops.Audio.MidiJsonNote_v2)
 

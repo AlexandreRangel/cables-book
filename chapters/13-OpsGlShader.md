@@ -22,7 +22,7 @@ render mesh normals as colors.
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/bZEZGc](https://cables.gl/edit/bZEZGc)
+**Example:** [cables.gl/edit/bZEZGc](https://cables.gl/edit/bZEZGc)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.AttributeAsColorMaterial)
 
@@ -58,7 +58,7 @@ A material without shading.
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/SKCL88](https://cables.gl/edit/SKCL88)
+**Example:** [cables.gl/edit/SKCL88](https://cables.gl/edit/SKCL88)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.BasicMaterial_v3)
 
@@ -88,7 +88,7 @@ display texture and replace a color with transparency.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/aDqoTq](https://cables.gl/edit/aDqoTq)
+**Example:** [cables.gl/edit/aDqoTq](https://cables.gl/edit/aDqoTq)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial](https://cables.gl/op/Ops.Gl.Shader.ChromaKeyMaterial)
 
@@ -119,7 +119,7 @@ Write your own custom shader.
 - **Shader** (Object)
 - **Has Errors** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
+**Example:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.CustomShader_v2](https://cables.gl/op/Ops.Gl.Shader.CustomShader_v2)
 
@@ -138,7 +138,7 @@ draw meshes using the cables error material shader.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
+**Example:** [cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ErrorMaterial](https://cables.gl/op/Ops.Gl.Shader.ErrorMaterial)
 
@@ -157,7 +157,7 @@ visualize which faces are facing the camera.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Lm6p9r](https://cables.gl/edit/Lm6p9r)
+**Example:** [cables.gl/edit/Lm6p9r](https://cables.gl/edit/Lm6p9r)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial](https://cables.gl/op/Ops.Gl.Shader.FrontBacksideMaterial)
 
@@ -177,7 +177,7 @@ get current set shader.
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
+**Example:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.GetShader](https://cables.gl/op/Ops.Gl.Shader.GetShader)
 
@@ -220,7 +220,7 @@ Easy to use image based lighting Material.
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/gWkghi](https://cables.gl/edit/gWkghi)
+**Example:** [cables.gl/edit/gWkghi](https://cables.gl/edit/gWkghi)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3](https://cables.gl/op/Ops.Gl.Shader.MatCapMaterial_v3)
 
@@ -239,7 +239,7 @@ Minify GLSL shader source code.
 
 - **Minified Shader Source** (String)
 
-**Example Patch:** [cables.gl/edit/t5H1Qc](https://cables.gl/edit/t5H1Qc)
+**Example:** [cables.gl/edit/t5H1Qc](https://cables.gl/edit/t5H1Qc)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.MinifyGlsl](https://cables.gl/op/Ops.Gl.Shader.MinifyGlsl)
 
@@ -284,7 +284,7 @@ Draw all vertices as points / circles.
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/O9yRO6](https://cables.gl/edit/O9yRO6)
+**Example:** [cables.gl/edit/O9yRO6](https://cables.gl/edit/O9yRO6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.PointMaterial_v6](https://cables.gl/op/Ops.Gl.Shader.PointMaterial_v6)
 
@@ -303,7 +303,7 @@ draw meshes using XYZ position coordinates as RGB color.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/qbiIbk](https://cables.gl/edit/qbiIbk)
+**Example:** [cables.gl/edit/qbiIbk](https://cables.gl/edit/qbiIbk)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial](https://cables.gl/op/Ops.Gl.Shader.PositionAsColorMaterial)
 
@@ -323,7 +323,7 @@ Reuse another shader at different points in the patch.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
+**Example:** [cables.gl/edit/BweOVl](https://cables.gl/edit/BweOVl)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.SetShader](https://cables.gl/op/Ops.Gl.Shader.SetShader)
 
@@ -349,7 +349,7 @@ set a uniform value of the current shader.
 - **Type** (String)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
+**Example:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformFloat_v2)
 
@@ -371,7 +371,7 @@ set a uniform value of the current shader.
 - **Next** (Trigger)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
+**Example:** [cables.gl/edit/5W7X2f](https://cables.gl/edit/5W7X2f)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2](https://cables.gl/op/Ops.Gl.Shader.SetUniformTexture_v2)
 
@@ -390,7 +390,7 @@ Set shader defines.
 - **Active** (Number: Boolean)
 - **Public** (4): 1
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine#example](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
+**Example:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine#example](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderDefine](https://cables.gl/op/Ops.Gl.Shader.ShaderDefine)
 
@@ -423,7 +423,7 @@ view current shader source code.
 - **Arributes Names** (Array)
 - **Num Defines** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderInfo#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo#example)
+**Example:** [cables.gl/op/Ops.Gl.Shader.ShaderInfo#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderInfo](https://cables.gl/op/Ops.Gl.Shader.ShaderInfo)
 
@@ -443,7 +443,7 @@ read back all uniforms values of the current bound shader.
 - **Next** (Trigger)
 - **Uniforms** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example)
+**Example:** [cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderInfoUniforms_v2)
 
@@ -472,7 +472,7 @@ render a shader into a texture.
 - **Texture 3** (Object)
 - **Texture 4** (Object)
 
-**Example Patch:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
+**Example:** [cables.gl/edit/vWyGud](https://cables.gl/edit/vWyGud)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2](https://cables.gl/op/Ops.Gl.Shader.ShaderToTexture_v2)
 
@@ -492,7 +492,7 @@ Draw a mesh, showing only its vertex colors.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/6MsLhR](https://cables.gl/edit/6MsLhR)
+**Example:** [cables.gl/edit/6MsLhR](https://cables.gl/edit/6MsLhR)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.VertexColorMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexColorMaterial)
 
@@ -511,7 +511,7 @@ visually debug vertices of your 3D geometry.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/x2PmHf](https://cables.gl/edit/x2PmHf)
+**Example:** [cables.gl/edit/x2PmHf](https://cables.gl/edit/x2PmHf)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial](https://cables.gl/op/Ops.Gl.Shader.VertexNumberMaterial)
 
@@ -542,7 +542,7 @@ Renders following meshes as wireframes.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/bRlSDe](https://cables.gl/edit/bRlSDe)
+**Example:** [cables.gl/edit/bRlSDe](https://cables.gl/edit/bRlSDe)
 
 **Doc:** [cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2](https://cables.gl/op/Ops.Gl.Shader.WireframeMaterial_v2)
 

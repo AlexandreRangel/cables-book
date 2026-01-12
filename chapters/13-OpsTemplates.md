@@ -15,7 +15,7 @@ example how to code a viz layer op.
 
 - **Number** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Templates.ExampleVizOp#example](https://cables.gl/op/Ops.Templates.ExampleVizOp#example)
+**Example:** [cables.gl/op/Ops.Templates.ExampleVizOp#example](https://cables.gl/op/Ops.Templates.ExampleVizOp#example)
 
 **Doc:** [cables.gl/op/Ops.Templates.ExampleVizOp](https://cables.gl/op/Ops.Templates.ExampleVizOp)
 
@@ -35,7 +35,7 @@ Material Example Template.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/aySyci](https://cables.gl/edit/aySyci)
+**Example:** [cables.gl/edit/aySyci](https://cables.gl/edit/aySyci)
 
 **Doc:** [cables.gl/op/Ops.Templates.MinimalMaterial](https://cables.gl/op/Ops.Templates.MinimalMaterial)
 
@@ -54,7 +54,7 @@ Is a template for creating Array ports.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsArrayExample](https://cables.gl/op/Ops.Templates.PortsArrayExample)
 
@@ -73,7 +73,7 @@ Is a template for creating Boolean ports.
 
 - **Boolean Out** (Number)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsBooleanExample](https://cables.gl/op/Ops.Templates.PortsBooleanExample)
 
@@ -92,7 +92,7 @@ Is a template for creating Object ports.
 
 - **Object Out** (Object)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsObjectExample](https://cables.gl/op/Ops.Templates.PortsObjectExample)
 
@@ -111,7 +111,7 @@ Is a template for creating String ports.
 
 - **String Out** (String)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsStringExample](https://cables.gl/op/Ops.Templates.PortsStringExample)
 
@@ -131,7 +131,7 @@ Is a template for creating Trigger ports.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsTriggerExample](https://cables.gl/op/Ops.Templates.PortsTriggerExample)
 
@@ -150,7 +150,7 @@ Is a template for creating Value ports.
 
 - **Value Out** (Number)
 
-**Example Patch:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
+**Example:** [cables.gl/edit/rWJICn](https://cables.gl/edit/rWJICn)
 
 **Doc:** [cables.gl/op/Ops.Templates.PortsValueExample](https://cables.gl/op/Ops.Templates.PortsValueExample)
 
@@ -170,7 +170,7 @@ shader effect example template.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Templates.ShaderEffectExample#example](https://cables.gl/op/Ops.Templates.ShaderEffectExample#example)
+**Example:** [cables.gl/op/Ops.Templates.ShaderEffectExample#example](https://cables.gl/op/Ops.Templates.ShaderEffectExample#example)
 
 **Doc:** [cables.gl/op/Ops.Templates.ShaderEffectExample](https://cables.gl/op/Ops.Templates.ShaderEffectExample)
 
@@ -203,7 +203,7 @@ UI indicators example op.
 
 - **Something** (Number)
 
-**Example Patch:** [cables.gl/edit/RUUacI](https://cables.gl/edit/RUUacI)
+**Example:** [cables.gl/edit/RUUacI](https://cables.gl/edit/RUUacI)
 
 **Doc:** [cables.gl/op/Ops.Templates.UiTestOp](https://cables.gl/op/Ops.Templates.UiTestOp)
 

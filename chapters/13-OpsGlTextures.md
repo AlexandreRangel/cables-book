@@ -22,7 +22,7 @@ Converts a base-64 image string into a texture.
 - **Has Error** (booleanNumber)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/dNuMWr](https://cables.gl/edit/dNuMWr)
+**Example:** [cables.gl/edit/dNuMWr](https://cables.gl/edit/dNuMWr)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.Base64ToTexture](https://cables.gl/op/Ops.Gl.Textures.Base64ToTexture)
 
@@ -44,7 +44,7 @@ Simple texture filled with one color.
 
 - **Texture_out** (Object)
 
-**Example Patch:** [cables.gl/edit/QuT1X2](https://cables.gl/edit/QuT1X2)
+**Example:** [cables.gl/edit/QuT1X2](https://cables.gl/edit/QuT1X2)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.ColorTexture](https://cables.gl/op/Ops.Gl.Textures.ColorTexture)
 
@@ -84,7 +84,7 @@ combine multiple textures into one by copying colorchannels.
 - **Next** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/yZJ2WW](https://cables.gl/edit/yZJ2WW)
+**Example:** [cables.gl/edit/yZJ2WW](https://cables.gl/edit/yZJ2WW)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.CombineTextures](https://cables.gl/op/Ops.Gl.Textures.CombineTextures)
 
@@ -115,7 +115,7 @@ copy a texture and optionally resize it.
 - **Texture_out** (Object)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [cables.gl/edit/G2_my7](https://cables.gl/edit/G2_my7)
+**Example:** [cables.gl/edit/G2_my7](https://cables.gl/edit/G2_my7)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.CopyTexture_v3](https://cables.gl/op/Ops.Gl.Textures.CopyTexture_v3)
 
@@ -135,7 +135,7 @@ A very simple empty transparent texture with an opacity of 0.
 
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/QuT1X2](https://cables.gl/edit/QuT1X2)
+**Example:** [cables.gl/edit/QuT1X2](https://cables.gl/edit/QuT1X2)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.EmptyTexture](https://cables.gl/op/Ops.Gl.Textures.EmptyTexture)
 
@@ -160,7 +160,7 @@ load .exr floating point texture files.
 - **Channels** (String)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/zHxXMW](https://cables.gl/edit/zHxXMW)
+**Example:** [cables.gl/edit/zHxXMW](https://cables.gl/edit/zHxXMW)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.ExrTexture](https://cables.gl/op/Ops.Gl.Textures.ExrTexture)
 
@@ -185,7 +185,7 @@ draw a graph of a value into a texture.
 
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/eqfKTx](https://cables.gl/edit/eqfKTx)
+**Example:** [cables.gl/edit/eqfKTx](https://cables.gl/edit/eqfKTx)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.GraphTexture](https://cables.gl/op/Ops.Gl.Textures.GraphTexture)
 
@@ -206,7 +206,7 @@ graphical representation of distribution of color in a texture.
 - **Histogram Texture** (Object)
 - **Histogram Data** (Object)
 
-**Example Patch:** [cables.gl/edit/Z315nc](https://cables.gl/edit/Z315nc)
+**Example:** [cables.gl/edit/Z315nc](https://cables.gl/edit/Z315nc)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.Histogram](https://cables.gl/op/Ops.Gl.Textures.Histogram)
 
@@ -249,7 +249,7 @@ combine multiple textures into one by copying colorchannels.
 - **Columns** (Number)
 - **Rows** (Number)
 
-**Example Patch:** [cables.gl/edit/pM45O8](https://cables.gl/edit/pM45O8)
+**Example:** [cables.gl/edit/pM45O8](https://cables.gl/edit/pM45O8)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.MontageTextures_v2](https://cables.gl/op/Ops.Gl.Textures.MontageTextures_v2)
 
@@ -287,7 +287,7 @@ Simple noisetexture.
 - **Texture** (Object)
 - **Total Pixel** (Number)
 
-**Example Patch:** [cables.gl/edit/Lv4hay](https://cables.gl/edit/Lv4hay)
+**Example:** [cables.gl/edit/Lv4hay](https://cables.gl/edit/Lv4hay)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.NoiseTexture](https://cables.gl/op/Ops.Gl.Textures.NoiseTexture)
 
@@ -308,7 +308,7 @@ Create a RGB color palette using an array.
 - **Color Array** (Array)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/tdRoSP](https://cables.gl/edit/tdRoSP)
+**Example:** [cables.gl/edit/tdRoSP](https://cables.gl/edit/tdRoSP)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.PaletteTexture](https://cables.gl/op/Ops.Gl.Textures.PaletteTexture)
 
@@ -357,7 +357,7 @@ control order and flow of objects.
 - **Output 14** (Object)
 - **Output 15** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Textures.SequenceTextures#example](https://cables.gl/op/Ops.Gl.Textures.SequenceTextures#example)
+**Example:** [cables.gl/op/Ops.Gl.Textures.SequenceTextures#example](https://cables.gl/op/Ops.Gl.Textures.SequenceTextures#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.SequenceTextures](https://cables.gl/op/Ops.Gl.Textures.SequenceTextures)
 
@@ -385,7 +385,7 @@ screen space ambient occlusion from depth texture.
 - **Next** (Trigger)
 - **SSAO** (Object)
 
-**Example Patch:** [cables.gl/edit/qt0JiG](https://cables.gl/edit/qt0JiG)
+**Example:** [cables.gl/edit/qt0JiG](https://cables.gl/edit/qt0JiG)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.SSAO](https://cables.gl/op/Ops.Gl.Textures.SSAO)
 
@@ -407,7 +407,7 @@ Switch between multiple textures.
 - **Texture** (Object)
 - **Num Textures** (Number)
 
-**Example Patch:** [cables.gl/edit/pDGOrh](https://cables.gl/edit/pDGOrh)
+**Example:** [cables.gl/edit/pDGOrh](https://cables.gl/edit/pDGOrh)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.SwitchTextureMultiPort_v2](https://cables.gl/op/Ops.Gl.Textures.SwitchTextureMultiPort_v2)
 
@@ -445,7 +445,7 @@ Switch between different textures.
 - **Next** (Trigger)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/gsXwVJ](https://cables.gl/edit/gsXwVJ)
+**Example:** [cables.gl/edit/gsXwVJ](https://cables.gl/edit/gsXwVJ)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.SwitchTextures_v2](https://cables.gl/op/Ops.Gl.Textures.SwitchTextures_v2)
 
@@ -497,7 +497,7 @@ Generates a texture of Text using one of the font ops.
 - **Aspect** (Number)
 - **Num Lines** (Number)
 
-**Example Patch:** [cables.gl/edit/RZsPWU](https://cables.gl/edit/RZsPWU)
+**Example:** [cables.gl/edit/RZsPWU](https://cables.gl/edit/RZsPWU)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextTexture_v6](https://cables.gl/op/Ops.Gl.Textures.TextTexture_v6)
 
@@ -518,7 +518,7 @@ Information about Textures in an array.
 - **Widths** (Array)
 - **Heights** (Array)
 
-**Example Patch:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
+**Example:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextureArrayInfo](https://cables.gl/op/Ops.Gl.Textures.TextureArrayInfo)
 
@@ -549,7 +549,7 @@ Outputs information about the connected texture.
 - **Is Cubemap** (booleanNumber)
 - **Id** (Number)
 
-**Example Patch:** [cables.gl/edit/y0A18i](https://cables.gl/edit/y0A18i)
+**Example:** [cables.gl/edit/y0A18i](https://cables.gl/edit/y0A18i)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextureInfo_v2](https://cables.gl/op/Ops.Gl.Textures.TextureInfo_v2)
 
@@ -573,7 +573,7 @@ Load a SVG image and convert to a texture of pixels.
 - **Texture** (Object)
 - **Loaded** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/oqCKY6](https://cables.gl/edit/oqCKY6)
+**Example:** [cables.gl/edit/oqCKY6](https://cables.gl/edit/oqCKY6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextureSVG_v2](https://cables.gl/op/Ops.Gl.Textures.TextureSVG_v2)
 
@@ -599,7 +599,7 @@ Converts a texture into a base-64 image string.
 - **Loading** (booleanNumber)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dNuMWr](https://cables.gl/edit/dNuMWr)
+**Example:** [cables.gl/edit/dNuMWr](https://cables.gl/edit/dNuMWr)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextureToBase64_v5](https://cables.gl/op/Ops.Gl.Textures.TextureToBase64_v5)
 
@@ -624,7 +624,7 @@ convert a texture to a 3d coordinate grid storing coordinates in texture RGB cha
 - **Next** (Trigger)
 - **HDR Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/nMBUVW](https://cables.gl/edit/nMBUVW)
+**Example:** [cables.gl/edit/nMBUVW](https://cables.gl/edit/nMBUVW)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.TextureToCoordinateGrid](https://cables.gl/op/Ops.Gl.Textures.TextureToCoordinateGrid)
 
@@ -670,7 +670,7 @@ Play a video file and use it as a texture.
 - **Auto FPS** (booleanNumber)
 - **Error Message** (String)
 
-**Example Patch:** [cables.gl/edit/RQCm0m](https://cables.gl/edit/RQCm0m)
+**Example:** [cables.gl/edit/RQCm0m](https://cables.gl/edit/RQCm0m)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.VideoTexture_v3](https://cables.gl/op/Ops.Gl.Textures.VideoTexture_v3)
 
@@ -710,7 +710,7 @@ Use your webcam camera as a texture.
 - **Active Device** (String)
 - **Texture Updated** (Trigger)
 
-**Example Patch:** [cables.gl/edit/iwaEwm](https://cables.gl/edit/iwaEwm)
+**Example:** [cables.gl/edit/iwaEwm](https://cables.gl/edit/iwaEwm)
 
 **Doc:** [cables.gl/op/Ops.Gl.Textures.WebcamTexture_v3](https://cables.gl/op/Ops.Gl.Textures.WebcamTexture_v3)
 

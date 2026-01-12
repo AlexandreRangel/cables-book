@@ -29,7 +29,7 @@ Lsystem generator.
 - **Max Size** (Number)
 - **Final Generated String** (String)
 
-**Example Patch:** [cables.gl/edit/xk724p](https://cables.gl/edit/xk724p)
+**Example:** [cables.gl/edit/xk724p](https://cables.gl/edit/xk724p)
 
 **Doc:** [cables.gl/op/Ops.Extension.LSystem.Lsystem_v2](https://cables.gl/op/Ops.Extension.LSystem.Lsystem_v2)
 

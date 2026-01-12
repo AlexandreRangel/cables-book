@@ -24,7 +24,7 @@ Always animates to the current value.
 - **Result** (Number)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/lntUQx](https://cables.gl/edit/lntUQx)
+**Example:** [cables.gl/edit/lntUQx](https://cables.gl/edit/lntUQx)
 
 **Doc:** [cables.gl/op/Ops.Anim.AnimNumber](https://cables.gl/op/Ops.Anim.AnimNumber)
 
@@ -47,7 +47,7 @@ Trigger a simple bang animation going from 1 to 0.
 - **Trigger Out** (Trigger)
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/TctR5r](https://cables.gl/edit/TctR5r)
+**Example:** [cables.gl/edit/TctR5r](https://cables.gl/edit/TctR5r)
 
 **Doc:** [cables.gl/op/Ops.Anim.Bang](https://cables.gl/op/Ops.Anim.Bang)
 
@@ -75,7 +75,7 @@ Animate between two numbers based on a boolean value.
 - **Finished** (booleanNumber)
 - **Finished Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ofPcTo](https://cables.gl/edit/ofPcTo)
+**Example:** [cables.gl/edit/ofPcTo](https://cables.gl/edit/ofPcTo)
 
 **Doc:** [cables.gl/op/Ops.Anim.BoolAnim](https://cables.gl/op/Ops.Anim.BoolAnim)
 
@@ -98,7 +98,7 @@ Crossfade between 2 values.
 - **A** (Number)
 - **B** (Number)
 
-**Example Patch:** [cables.gl/edit/U_a2d-](https://cables.gl/edit/U_a2d-)
+**Example:** [cables.gl/edit/U_a2d-](https://cables.gl/edit/U_a2d-)
 
 **Doc:** [cables.gl/op/Ops.Anim.Crossfade](https://cables.gl/op/Ops.Anim.Crossfade)
 
@@ -126,7 +126,7 @@ Parses string containing ranges of frames and play as coherent animation.
 - **Anim Length** (Number)
 - **Progress** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example)
+**Example:** [cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Anim.FrameRangeAnim_v2](https://cables.gl/op/Ops.Anim.FrameRangeAnim_v2)
 
@@ -159,7 +159,7 @@ Switch between multiple anim ranges of a keyframed 3d scene.
 - **Time Fade** (Number)
 - **Time 2** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example)
+**Example:** [cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher#example)
 
 **Doc:** [cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher](https://cables.gl/op/Ops.Anim.FrameRangeAnimSwitcher)
 
@@ -190,7 +190,7 @@ Animates after a trigger from 1 to 0 to 1.
 - **Middle** (Trigger)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/HwVRrT](https://cables.gl/edit/HwVRrT)
+**Example:** [cables.gl/edit/HwVRrT](https://cables.gl/edit/HwVRrT)
 
 **Doc:** [cables.gl/op/Ops.Anim.InOutInAnim](https://cables.gl/op/Ops.Anim.InOutInAnim)
 
@@ -214,7 +214,7 @@ Low-frequency oscillation for animations.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/9EOrS8](https://cables.gl/edit/9EOrS8)
+**Example:** [cables.gl/edit/9EOrS8](https://cables.gl/edit/9EOrS8)
 
 **Doc:** [cables.gl/op/Ops.Anim.LFO_v3](https://cables.gl/op/Ops.Anim.LFO_v3)
 
@@ -240,7 +240,7 @@ Animates between random values defined by a min and max value.
 - **Result** (Number)
 - **Looped** (Trigger)
 
-**Example Patch:** [cables.gl/edit/nCSoG8](https://cables.gl/edit/nCSoG8)
+**Example:** [cables.gl/edit/nCSoG8](https://cables.gl/edit/nCSoG8)
 
 **Doc:** [cables.gl/op/Ops.Anim.RandomAnim_v2](https://cables.gl/op/Ops.Anim.RandomAnim_v2)
 
@@ -270,7 +270,7 @@ Simple animation between two values.
 - **Finished** (Number)
 - **Finished Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/dOlV9L](https://cables.gl/edit/dOlV9L)
+**Example:** [cables.gl/edit/dOlV9L](https://cables.gl/edit/dOlV9L)
 
 **Doc:** [cables.gl/op/Ops.Anim.SimpleAnim](https://cables.gl/op/Ops.Anim.SimpleAnim)
 
@@ -294,7 +294,7 @@ Animation in the form of a sine/cosine curve (sinus/cos).
 - **Trigger Out** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/3bbUfp](https://cables.gl/edit/3bbUfp)
+**Example:** [cables.gl/edit/3bbUfp](https://cables.gl/edit/3bbUfp)
 
 **Doc:** [cables.gl/op/Ops.Anim.SineAnim](https://cables.gl/op/Ops.Anim.SineAnim)
 
@@ -316,7 +316,7 @@ Smooths out jumps in values (AverageInterpolation).
 - **Next** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/c9gqda](https://cables.gl/edit/c9gqda)
+**Example:** [cables.gl/edit/c9gqda](https://cables.gl/edit/c9gqda)
 
 **Doc:** [cables.gl/op/Ops.Anim.Smooth](https://cables.gl/op/Ops.Anim.Smooth)
 
@@ -348,7 +348,7 @@ Snap at certain points (e.g. while scrolling).
 - **Snapped** (Number)
 - **Was Snapped** (Number)
 
-**Example Patch:** [cables.gl/edit/7B11U6](https://cables.gl/edit/7B11U6)
+**Example:** [cables.gl/edit/7B11U6](https://cables.gl/edit/7B11U6)
 
 **Doc:** [cables.gl/op/Ops.Anim.Snap](https://cables.gl/op/Ops.Anim.Snap)
 
@@ -371,7 +371,7 @@ Spring simulation based on input target value.
 - **Trigger** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/bsbM2y](https://cables.gl/edit/bsbM2y)
+**Example:** [cables.gl/edit/bsbM2y](https://cables.gl/edit/bsbM2y)
 
 **Doc:** [cables.gl/op/Ops.Anim.Spring](https://cables.gl/op/Ops.Anim.Spring)
 
@@ -396,7 +396,7 @@ Animates a text/string, like it is being typed out by a person.
 - **Changed** (Trigger)
 - **Finished** (Trigger)
 
-**Example Patch:** [cables.gl/edit/8dB2eH](https://cables.gl/edit/8dB2eH)
+**Example:** [cables.gl/edit/8dB2eH](https://cables.gl/edit/8dB2eH)
 
 **Doc:** [cables.gl/op/Ops.Anim.StringTypeAnimation_v2](https://cables.gl/op/Ops.Anim.StringTypeAnimation_v2)
 
@@ -418,7 +418,7 @@ Measure the time difference between two triggers.
 - **Trigger** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/omrKQm](https://cables.gl/edit/omrKQm)
+**Example:** [cables.gl/edit/omrKQm](https://cables.gl/edit/omrKQm)
 
 **Doc:** [cables.gl/op/Ops.Anim.TimeDelta](https://cables.gl/op/Ops.Anim.TimeDelta)
 
@@ -440,7 +440,7 @@ A timer that can be started, paused and reset by triggering.
 
 - **Time** (Number)
 
-**Example Patch:** [cables.gl/edit/YTuOQm](https://cables.gl/edit/YTuOQm)
+**Example:** [cables.gl/edit/YTuOQm](https://cables.gl/edit/YTuOQm)
 
 **Doc:** [cables.gl/op/Ops.Anim.Timer_v2](https://cables.gl/op/Ops.Anim.Timer_v2)
 

@@ -22,7 +22,7 @@ Compose an Object.
 - **Next** (Trigger)
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
+**Example:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObject](https://cables.gl/op/Ops.Data.Compose.Object.CompObject)
 
@@ -42,7 +42,7 @@ Set key/values to the current ObjectCompose from an existing object.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/9ORqOg](https://cables.gl/edit/9ORqOg)
+**Example:** [cables.gl/edit/9ORqOg](https://cables.gl/edit/9ORqOg)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectFromObject)
 
@@ -63,7 +63,7 @@ set array as object property.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
+**Example:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetArray)
 
@@ -84,7 +84,7 @@ set a boolean as object property.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ggd-JK](https://cables.gl/edit/ggd-JK)
+**Example:** [cables.gl/edit/ggd-JK](https://cables.gl/edit/ggd-JK)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetBool)
 
@@ -105,7 +105,7 @@ set number as object property.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
+**Example:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetNumber)
 
@@ -126,7 +126,7 @@ set object as object property.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetObject)
 
@@ -147,7 +147,7 @@ set string as object property.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
+**Example:** [cables.gl/edit/Theojz](https://cables.gl/edit/Theojz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString](https://cables.gl/op/Ops.Data.Compose.Object.CompObjectSetString)
 

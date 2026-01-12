@@ -15,7 +15,7 @@ Organize and group your patch operators.
 
 - **Delete** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ozgnnR](https://cables.gl/edit/ozgnnR)
+**Example:** [cables.gl/edit/ozgnnR](https://cables.gl/edit/ozgnnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.Area](https://cables.gl/op/Ops.Ui.Area)
 
@@ -35,7 +35,7 @@ Cables UI Event Triggers.
 - **Saving Patch** (Trigger)
 - **PortValueEdited** (Trigger)
 
-**Example Patch:** [cables.gl/edit/gdbdQc](https://cables.gl/edit/gdbdQc)
+**Example:** [cables.gl/edit/gdbdQc](https://cables.gl/edit/gdbdQc)
 
 **Doc:** [cables.gl/op/Ops.Ui.CablesEditorEvents](https://cables.gl/op/Ops.Ui.CablesEditorEvents)
 
@@ -46,7 +46,7 @@ Cables UI Event Triggers.
 
 Displays a comment in the patch area.
 
-**Example Patch:** [cables.gl/edit/7Tyqii](https://cables.gl/edit/7Tyqii)
+**Example:** [cables.gl/edit/7Tyqii](https://cables.gl/edit/7Tyqii)
 
 **Doc:** [cables.gl/op/Ops.Ui.Comment_v2](https://cables.gl/op/Ops.Ui.Comment_v2)
 
@@ -61,7 +61,7 @@ Get the default theme colors of the cables editor.
 
 - **Theme** (Object)
 
-**Example Patch:** [cables.gl/edit/Kq8Pq1](https://cables.gl/edit/Kq8Pq1)
+**Example:** [cables.gl/edit/Kq8Pq1](https://cables.gl/edit/Kq8Pq1)
 
 **Doc:** [cables.gl/op/Ops.Ui.GetCablesDefaultTheme](https://cables.gl/op/Ops.Ui.GetCablesDefaultTheme)
 
@@ -80,7 +80,7 @@ maximize renderer to window size.
 
 - **Maximized** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/BaFBnO](https://cables.gl/edit/BaFBnO)
+**Example:** [cables.gl/edit/BaFBnO](https://cables.gl/edit/BaFBnO)
 
 **Doc:** [cables.gl/op/Ops.Ui.MaximizeRenderer](https://cables.gl/op/Ops.Ui.MaximizeRenderer)
 
@@ -95,7 +95,7 @@ Helper op for sub-patches.
 
 - **Create Port** (Dynamic)
 
-**Example Patch:** [cables.gl/op/Ops.Ui.PatchInput#example](https://cables.gl/op/Ops.Ui.PatchInput#example)
+**Example:** [cables.gl/op/Ops.Ui.PatchInput#example](https://cables.gl/op/Ops.Ui.PatchInput#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.PatchInput](https://cables.gl/op/Ops.Ui.PatchInput)
 
@@ -110,7 +110,7 @@ Helper op for sub-patches.
 
 - **Create Port** (Dynamic)
 
-**Example Patch:** [cables.gl/op/Ops.Ui.PatchOutput#example](https://cables.gl/op/Ops.Ui.PatchOutput#example)
+**Example:** [cables.gl/op/Ops.Ui.PatchOutput#example](https://cables.gl/op/Ops.Ui.PatchOutput#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.PatchOutput](https://cables.gl/op/Ops.Ui.PatchOutput)
 
@@ -129,7 +129,7 @@ Set cables editor colors.
 
 - **Missing** (Object)
 
-**Example Patch:** [cables.gl/edit/Kq8Pq1](https://cables.gl/edit/Kq8Pq1)
+**Example:** [cables.gl/edit/Kq8Pq1](https://cables.gl/edit/Kq8Pq1)
 
 **Doc:** [cables.gl/op/Ops.Ui.SetCablesTheme](https://cables.gl/op/Ops.Ui.SetCablesTheme)
 
@@ -150,7 +150,7 @@ Set cables editor colors.
 
 - **Create Port Out** (Dynamic)
 
-**Example Patch:** [cables.gl/op/Ops.Ui.SubPatch#example](https://cables.gl/op/Ops.Ui.SubPatch#example)
+**Example:** [cables.gl/op/Ops.Ui.SubPatch#example](https://cables.gl/op/Ops.Ui.SubPatch#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.SubPatch](https://cables.gl/op/Ops.Ui.SubPatch)
 
@@ -166,7 +166,7 @@ Set cables editor colors.
 - **PatchId** (String)
 - **Public** (3): 1
 
-**Example Patch:** [cables.gl/op/Ops.Ui.Subpatch2Template#example](https://cables.gl/op/Ops.Ui.Subpatch2Template#example)
+**Example:** [cables.gl/op/Ops.Ui.Subpatch2Template#example](https://cables.gl/op/Ops.Ui.Subpatch2Template#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.Subpatch2Template](https://cables.gl/op/Ops.Ui.Subpatch2Template)
 
@@ -181,7 +181,7 @@ Set cables editor colors.
 
 - **A1jf8yr1w** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Ui.SubPatchInput#example](https://cables.gl/op/Ops.Ui.SubPatchInput#example)
+**Example:** [cables.gl/op/Ops.Ui.SubPatchInput#example](https://cables.gl/op/Ops.Ui.SubPatchInput#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.SubPatchInput](https://cables.gl/op/Ops.Ui.SubPatchInput)
 
@@ -192,7 +192,7 @@ Set cables editor colors.
 
 *Visit [documentation](https://cables.gl/op/Ops.Ui.SubPatchOutput) for details*.
 
-**Example Patch:** [cables.gl/op/Ops.Ui.SubPatchOutput#example](https://cables.gl/op/Ops.Ui.SubPatchOutput#example)
+**Example:** [cables.gl/op/Ops.Ui.SubPatchOutput#example](https://cables.gl/op/Ops.Ui.SubPatchOutput#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.SubPatchOutput](https://cables.gl/op/Ops.Ui.SubPatchOutput)
 
@@ -208,7 +208,7 @@ Displays information of the distribution of numerical values in an array.
 - **Array Numbers** (Array)
 - **Titles** (Array)
 
-**Example Patch:** [cables.gl/edit/bPWV2f](https://cables.gl/edit/bPWV2f)
+**Example:** [cables.gl/edit/bPWV2f](https://cables.gl/edit/bPWV2f)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizArrayChart](https://cables.gl/op/Ops.Ui.VizArrayChart)
 
@@ -228,7 +228,7 @@ Visualize Array as line graph.
 
 - **Passthrough Array** (Array)
 
-**Example Patch:** [cables.gl/edit/gCl1ws](https://cables.gl/edit/gCl1ws)
+**Example:** [cables.gl/edit/gCl1ws](https://cables.gl/edit/gCl1ws)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizArrayGraph](https://cables.gl/op/Ops.Ui.VizArrayGraph)
 
@@ -249,7 +249,7 @@ Show the contents of the input array in a table in the patch, useful for debuggi
 
 - **Passthrough Array** (Array)
 
-**Example Patch:** [cables.gl/edit/g8Qfq4](https://cables.gl/edit/g8Qfq4)
+**Example:** [cables.gl/edit/g8Qfq4](https://cables.gl/edit/g8Qfq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizArrayTable_v2](https://cables.gl/op/Ops.Ui.VizArrayTable_v2)
 
@@ -268,7 +268,7 @@ Visualize the state of a boolean input in the patch, useful for debugging.
 
 - **Bool** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/9SHiq4](https://cables.gl/edit/9SHiq4)
+**Example:** [cables.gl/edit/9SHiq4](https://cables.gl/edit/9SHiq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizBool](https://cables.gl/op/Ops.Ui.VizBool)
 
@@ -292,7 +292,7 @@ Displays graphs for the numbers on the input port in the patchfield.
 - **Fill Graph** (Number: Boolean)
 - **Reset** (Trigger)
 
-**Example Patch:** [cables.gl/edit/4D2DnR](https://cables.gl/edit/4D2DnR)
+**Example:** [cables.gl/edit/4D2DnR](https://cables.gl/edit/4D2DnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizGraph](https://cables.gl/op/Ops.Ui.VizGraph)
 
@@ -313,7 +313,7 @@ preview an image URL or a data/base64 URL.
 - **Height** (Number)
 - **Loading** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/gsP8hO](https://cables.gl/edit/gsP8hO)
+**Example:** [cables.gl/edit/gsP8hO](https://cables.gl/edit/gsP8hO)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizImageUrl](https://cables.gl/op/Ops.Ui.VizImageUrl)
 
@@ -331,7 +331,7 @@ Log changes of input values line by line, use like a logfile for debugging.
 - **Object** (Object)
 - **Clear** (Trigger)
 
-**Example Patch:** [cables.gl/edit/-4pkq4](https://cables.gl/edit/-4pkq4)
+**Example:** [cables.gl/edit/-4pkq4](https://cables.gl/edit/-4pkq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizLogger](https://cables.gl/op/Ops.Ui.VizLogger)
 
@@ -350,7 +350,7 @@ Displays input string on the patchfield.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/gkySnR](https://cables.gl/edit/gkySnR)
+**Example:** [cables.gl/edit/gkySnR](https://cables.gl/edit/gkySnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizNumber](https://cables.gl/op/Ops.Ui.VizNumber)
 
@@ -369,7 +369,7 @@ Visualize numbers as a bar in patch, useful for debugging.
 
 - **Passthrough** (Number)
 
-**Example Patch:** [cables.gl/edit/-yFlq4](https://cables.gl/edit/-yFlq4)
+**Example:** [cables.gl/edit/-yFlq4](https://cables.gl/edit/-yFlq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizNumberBar](https://cables.gl/op/Ops.Ui.VizNumberBar)
 
@@ -390,7 +390,7 @@ Show information about any object for patch debugging.
 - **Font Size** (Number)
 - **Scroll** (Number)
 
-**Example Patch:** [cables.gl/edit/PKAmq4](https://cables.gl/edit/PKAmq4)
+**Example:** [cables.gl/edit/PKAmq4](https://cables.gl/edit/PKAmq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizObject](https://cables.gl/op/Ops.Ui.VizObject)
 
@@ -416,7 +416,7 @@ Displays long input string on the patchfield.
 
 - **Passthrough String** (String)
 
-**Example Patch:** [cables.gl/edit/tRmy5f](https://cables.gl/edit/tRmy5f)
+**Example:** [cables.gl/edit/tRmy5f](https://cables.gl/edit/tRmy5f)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizString](https://cables.gl/op/Ops.Ui.VizString)
 
@@ -440,7 +440,7 @@ Displays texture at input port.
 - **Texture Out** (Object)
 - **Info** (String)
 
-**Example Patch:** [cables.gl/edit/HOVjnR](https://cables.gl/edit/HOVjnR)
+**Example:** [cables.gl/edit/HOVjnR](https://cables.gl/edit/HOVjnR)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizTexture](https://cables.gl/op/Ops.Ui.VizTexture)
 
@@ -456,7 +456,7 @@ Show pixel colors of connected texture as a table, useful for debugging.
 - **Texture** (Object:Texture)
 - **Row Start** (Number: Integer)
 
-**Example Patch:** [cables.gl/edit/kp6oq4](https://cables.gl/edit/kp6oq4)
+**Example:** [cables.gl/edit/kp6oq4](https://cables.gl/edit/kp6oq4)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizTextureTable](https://cables.gl/op/Ops.Ui.VizTextureTable)
 
@@ -478,7 +478,7 @@ Visualize triggering for debugging reasons.
 - **Count** (Number)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ROKBEe](https://cables.gl/edit/ROKBEe)
+**Example:** [cables.gl/edit/ROKBEe](https://cables.gl/edit/ROKBEe)
 
 **Doc:** [cables.gl/op/Ops.Ui.VizTrigger](https://cables.gl/op/Ops.Ui.VizTrigger)
 

@@ -20,7 +20,7 @@ Insert a line break in a string of words.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/4f-D16](https://cables.gl/edit/4f-D16)
+**Example:** [cables.gl/edit/4f-D16](https://cables.gl/edit/4f-D16)
 
 **Doc:** [cables.gl/op/Ops.String.AddLineBreaks_v2](https://cables.gl/op/Ops.String.AddLineBreaks_v2)
 
@@ -41,7 +41,7 @@ Check if an array contains a string which can also be a number (find,search,inde
 - **Found** (booleanNumber)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/VuK4ve](https://cables.gl/edit/VuK4ve)
+**Example:** [cables.gl/edit/VuK4ve](https://cables.gl/edit/VuK4ve)
 
 **Doc:** [cables.gl/op/Ops.String.ArrayContainsString](https://cables.gl/op/Ops.String.ArrayContainsString)
 
@@ -62,7 +62,7 @@ Create an array of strings and optionally attach index-number.
 
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/haeXx3](https://cables.gl/edit/haeXx3)
+**Example:** [cables.gl/edit/haeXx3](https://cables.gl/edit/haeXx3)
 
 **Doc:** [cables.gl/op/Ops.String.ArrayOfStrings](https://cables.gl/op/Ops.String.ArrayOfStrings)
 
@@ -85,7 +85,7 @@ String rotate characters like a split-flap display.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/-IuM8S](https://cables.gl/edit/-IuM8S)
+**Example:** [cables.gl/edit/-IuM8S](https://cables.gl/edit/-IuM8S)
 
 **Doc:** [cables.gl/op/Ops.String.CharacterRotate](https://cables.gl/op/Ops.String.CharacterRotate)
 
@@ -107,7 +107,7 @@ Joins two strings together.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
+**Example:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
 
 **Doc:** [cables.gl/op/Ops.String.Concat_v2](https://cables.gl/op/Ops.String.Concat_v2)
 
@@ -133,7 +133,7 @@ Joins multiple strings together.
 
 - **Concat String** (String)
 
-**Example Patch:** [cables.gl/edit/DNW-QJ](https://cables.gl/edit/DNW-QJ)
+**Example:** [cables.gl/edit/DNW-QJ](https://cables.gl/edit/DNW-QJ)
 
 **Doc:** [cables.gl/op/Ops.String.ConcatMulti_v2](https://cables.gl/op/Ops.String.ConcatMulti_v2)
 
@@ -154,7 +154,7 @@ concatinate/join multiple string inputs.
 - **String** (String)
 - **Num Strings** (Number)
 
-**Example Patch:** [cables.gl/edit/PBHPrh](https://cables.gl/edit/PBHPrh)
+**Example:** [cables.gl/edit/PBHPrh](https://cables.gl/edit/PBHPrh)
 
 **Doc:** [cables.gl/op/Ops.String.ConcatMultiPort_v2](https://cables.gl/op/Ops.String.ConcatMultiPort_v2)
 
@@ -174,7 +174,7 @@ Copy string to clipboard on trigger.
 
 - **Success** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Rquam4](https://cables.gl/edit/Rquam4)
+**Example:** [cables.gl/edit/Rquam4](https://cables.gl/edit/Rquam4)
 
 **Doc:** [cables.gl/op/Ops.String.CopyToClipboard](https://cables.gl/op/Ops.String.CopyToClipboard)
 
@@ -194,7 +194,7 @@ delay the output of a string by n seconds.
 
 - **Out Value** (String)
 
-**Example Patch:** [cables.gl/edit/kqtJkE](https://cables.gl/edit/kqtJkE)
+**Example:** [cables.gl/edit/kqtJkE](https://cables.gl/edit/kqtJkE)
 
 **Doc:** [cables.gl/op/Ops.String.DelayStringSimple](https://cables.gl/op/Ops.String.DelayStringSimple)
 
@@ -214,7 +214,7 @@ does a string starts with another string?.
 
 - **Ends With** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/X0EBz1](https://cables.gl/edit/X0EBz1)
+**Example:** [cables.gl/edit/X0EBz1](https://cables.gl/edit/X0EBz1)
 
 **Doc:** [cables.gl/op/Ops.String.EndsWith](https://cables.gl/op/Ops.String.EndsWith)
 
@@ -235,7 +235,7 @@ create an array from multiple string.
 - **Result** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/uoPbz1](https://cables.gl/edit/uoPbz1)
+**Example:** [cables.gl/edit/uoPbz1](https://cables.gl/edit/uoPbz1)
 
 **Doc:** [cables.gl/op/Ops.String.FileUrlsToArrayMultiPort_v2](https://cables.gl/op/Ops.String.FileUrlsToArrayMultiPort_v2)
 
@@ -259,7 +259,7 @@ filter valid strings (not null,undefined or empty).
 - **Last Valid String** (String)
 - **Is Valid** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.String.FilterValidString#example](https://cables.gl/op/Ops.String.FilterValidString#example)
+**Example:** [cables.gl/op/Ops.String.FilterValidString#example](https://cables.gl/op/Ops.String.FilterValidString#example)
 
 **Doc:** [cables.gl/op/Ops.String.FilterValidString](https://cables.gl/op/Ops.String.FilterValidString)
 
@@ -279,7 +279,7 @@ capture the current input and copy it to the output, even after a reload.
 
 - **Frozen String** (String)
 
-**Example Patch:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
+**Example:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
 
 **Doc:** [cables.gl/op/Ops.String.FreezeString](https://cables.gl/op/Ops.String.FreezeString)
 
@@ -300,7 +300,7 @@ Output string if pass through is true.
 
 - **String Out** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.GateString#example](https://cables.gl/op/Ops.String.GateString#example)
+**Example:** [cables.gl/op/Ops.String.GateString#example](https://cables.gl/op/Ops.String.GateString#example)
 
 **Doc:** [cables.gl/op/Ops.String.GateString](https://cables.gl/op/Ops.String.GateString)
 
@@ -322,7 +322,7 @@ string conversion using handlebars template engine.
 - **Result** (String)
 - **Errors** (String)
 
-**Example Patch:** [cables.gl/edit/TKQIs7](https://cables.gl/edit/TKQIs7)
+**Example:** [cables.gl/edit/TKQIs7](https://cables.gl/edit/TKQIs7)
 
 **Doc:** [cables.gl/op/Ops.String.HandleBarsHtml_v2](https://cables.gl/op/Ops.String.HandleBarsHtml_v2)
 
@@ -341,7 +341,7 @@ convert a html encoded string to a normal UTF8 string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/jVwciO](https://cables.gl/edit/jVwciO)
+**Example:** [cables.gl/edit/jVwciO](https://cables.gl/edit/jVwciO)
 
 **Doc:** [cables.gl/op/Ops.String.HtmlDecode](https://cables.gl/op/Ops.String.HtmlDecode)
 
@@ -360,7 +360,7 @@ encode a string to html.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/jVwciO](https://cables.gl/edit/jVwciO)
+**Example:** [cables.gl/edit/jVwciO](https://cables.gl/edit/jVwciO)
 
 **Doc:** [cables.gl/op/Ops.String.HtmlEncode](https://cables.gl/op/Ops.String.HtmlEncode)
 
@@ -381,7 +381,7 @@ create a fixed length string from a number 1 -> 0001.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/8LJxz7](https://cables.gl/edit/8LJxz7)
+**Example:** [cables.gl/edit/8LJxz7](https://cables.gl/edit/8LJxz7)
 
 **Doc:** [cables.gl/op/Ops.String.LeftPad_v2](https://cables.gl/op/Ops.String.LeftPad_v2)
 
@@ -403,7 +403,7 @@ Limit number of lines in a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/ZCUND-](https://cables.gl/edit/ZCUND-)
+**Example:** [cables.gl/edit/ZCUND-](https://cables.gl/edit/ZCUND-)
 
 **Doc:** [cables.gl/op/Ops.String.LimitLineBreaks_v2](https://cables.gl/op/Ops.String.LimitLineBreaks_v2)
 
@@ -422,7 +422,7 @@ Outputs a linebreak, or adds a linebreak to a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/U7PniO](https://cables.gl/edit/U7PniO)
+**Example:** [cables.gl/edit/U7PniO](https://cables.gl/edit/U7PniO)
 
 **Doc:** [cables.gl/op/Ops.String.LineBreak](https://cables.gl/op/Ops.String.LineBreak)
 
@@ -442,7 +442,7 @@ Convert linebreaks to html breaks.
 
 - **HTML** (String)
 
-**Example Patch:** [cables.gl/edit/M0BG16](https://cables.gl/edit/M0BG16)
+**Example:** [cables.gl/edit/M0BG16](https://cables.gl/edit/M0BG16)
 
 **Doc:** [cables.gl/op/Ops.String.LineBreaksHtml](https://cables.gl/op/Ops.String.LineBreaksHtml)
 
@@ -459,7 +459,7 @@ Lorem ipsum dolor sit amet.
 - **HTML String** (String)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/4f-D16](https://cables.gl/edit/4f-D16)
+**Example:** [cables.gl/edit/4f-D16](https://cables.gl/edit/4f-D16)
 
 **Doc:** [cables.gl/op/Ops.String.LoremIpsum](https://cables.gl/op/Ops.String.LoremIpsum)
 
@@ -478,7 +478,7 @@ convert all characters to small letters.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
+**Example:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
 
 **Doc:** [cables.gl/op/Ops.String.Lowercase_v2](https://cables.gl/op/Ops.String.Lowercase_v2)
 
@@ -497,7 +497,7 @@ Create a md5 hash of a string.
 
 - **MD5 Hash** (String)
 
-**Example Patch:** [cables.gl/edit/IyC0O8](https://cables.gl/edit/IyC0O8)
+**Example:** [cables.gl/edit/IyC0O8](https://cables.gl/edit/IyC0O8)
 
 **Doc:** [cables.gl/op/Ops.String.Md5](https://cables.gl/op/Ops.String.Md5)
 
@@ -525,7 +525,7 @@ Format a number to a string in the given locale and format.
 - **Formatted Number** (String)
 - **Has Error** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/-h-Rx3](https://cables.gl/edit/-h-Rx3)
+**Example:** [cables.gl/edit/-h-Rx3](https://cables.gl/edit/-h-Rx3)
 
 **Doc:** [cables.gl/op/Ops.String.NumberFormatter](https://cables.gl/op/Ops.String.NumberFormatter)
 
@@ -564,7 +564,7 @@ associate numbers by strings.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/CWSBeE](https://cables.gl/edit/CWSBeE)
+**Example:** [cables.gl/edit/CWSBeE](https://cables.gl/edit/CWSBeE)
 
 **Doc:** [cables.gl/op/Ops.String.NumberSwitchByString](https://cables.gl/op/Ops.String.NumberSwitchByString)
 
@@ -584,7 +584,7 @@ Convert a number to a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/fo6nci](https://cables.gl/edit/fo6nci)
+**Example:** [cables.gl/edit/fo6nci](https://cables.gl/edit/fo6nci)
 
 **Doc:** [cables.gl/op/Ops.String.NumberToString_v2](https://cables.gl/op/Ops.String.NumberToString_v2)
 
@@ -603,7 +603,7 @@ Count number of line breaks in a string.
 
 - **Total Lines** (Number)
 
-**Example Patch:** [cables.gl/edit/lkDCeT](https://cables.gl/edit/lkDCeT)
+**Example:** [cables.gl/edit/lkDCeT](https://cables.gl/edit/lkDCeT)
 
 **Doc:** [cables.gl/op/Ops.String.NumTotalLineBreaks](https://cables.gl/op/Ops.String.NumTotalLineBreaks)
 
@@ -629,7 +629,7 @@ outputs the first valid string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.OrString#example](https://cables.gl/op/Ops.String.OrString#example)
+**Example:** [cables.gl/op/Ops.String.OrString#example](https://cables.gl/op/Ops.String.OrString#example)
 
 **Doc:** [cables.gl/op/Ops.String.OrString](https://cables.gl/op/Ops.String.OrString)
 
@@ -648,7 +648,7 @@ Parse a string to a integer number / string to number.
 
 - **Number** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.String.ParseInt_v2#example](https://cables.gl/op/Ops.String.ParseInt_v2#example)
+**Example:** [cables.gl/op/Ops.String.ParseInt_v2#example](https://cables.gl/op/Ops.String.ParseInt_v2#example)
 
 **Doc:** [cables.gl/op/Ops.String.ParseInt_v2](https://cables.gl/op/Ops.String.ParseInt_v2)
 
@@ -669,7 +669,7 @@ Generate a random string of given characters.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/HqmXN8](https://cables.gl/edit/HqmXN8)
+**Example:** [cables.gl/edit/HqmXN8](https://cables.gl/edit/HqmXN8)
 
 **Doc:** [cables.gl/op/Ops.String.RandomString_v3](https://cables.gl/op/Ops.String.RandomString_v3)
 
@@ -690,7 +690,7 @@ create a string with a fixed length filling the space with a character.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/8LJxz7](https://cables.gl/edit/8LJxz7)
+**Example:** [cables.gl/edit/8LJxz7](https://cables.gl/edit/8LJxz7)
 
 **Doc:** [cables.gl/op/Ops.String.RightPad_v2](https://cables.gl/op/Ops.String.RightPad_v2)
 
@@ -710,7 +710,7 @@ Converts a number to a string with num decimal places, adds 0's.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/ps8ZHq](https://cables.gl/edit/ps8ZHq)
+**Example:** [cables.gl/edit/ps8ZHq](https://cables.gl/edit/ps8ZHq)
 
 **Doc:** [cables.gl/op/Ops.String.RightPadNumber_v2](https://cables.gl/op/Ops.String.RightPadNumber_v2)
 
@@ -741,7 +741,7 @@ Route a string to an output port.
 - **Index 8 String** (String)
 - **Index 9 String** (String)
 
-**Example Patch:** [cables.gl/edit/WDoBX8](https://cables.gl/edit/WDoBX8)
+**Example:** [cables.gl/edit/WDoBX8](https://cables.gl/edit/WDoBX8)
 
 **Doc:** [cables.gl/op/Ops.String.RouteString](https://cables.gl/op/Ops.String.RouteString)
 
@@ -758,7 +758,7 @@ download a textfile containing the input string.
 - **Filename** (String)
 - **Content String** (String)
 
-**Example Patch:** [cables.gl/edit/mxybpX](https://cables.gl/edit/mxybpX)
+**Example:** [cables.gl/edit/mxybpX](https://cables.gl/edit/mxybpX)
 
 **Doc:** [cables.gl/op/Ops.String.SaveTextFile](https://cables.gl/op/Ops.String.SaveTextFile)
 
@@ -807,7 +807,7 @@ control order and flow of strings.
 - **Output 14** (String)
 - **Output 15** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.SequenceStrings#example](https://cables.gl/op/Ops.String.SequenceStrings#example)
+**Example:** [cables.gl/op/Ops.String.SequenceStrings#example](https://cables.gl/op/Ops.String.SequenceStrings#example)
 
 **Doc:** [cables.gl/op/Ops.String.SequenceStrings](https://cables.gl/op/Ops.String.SequenceStrings)
 
@@ -827,7 +827,7 @@ does a string starts with another string?.
 
 - **Starts With** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Hht1O8](https://cables.gl/edit/Hht1O8)
+**Example:** [cables.gl/edit/Hht1O8](https://cables.gl/edit/Hht1O8)
 
 **Doc:** [cables.gl/op/Ops.String.StartsWith](https://cables.gl/op/Ops.String.StartsWith)
 
@@ -846,7 +846,7 @@ String input/output.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/FXRsii](https://cables.gl/edit/FXRsii)
+**Example:** [cables.gl/edit/FXRsii](https://cables.gl/edit/FXRsii)
 
 **Doc:** [cables.gl/op/Ops.String.String_v3](https://cables.gl/op/Ops.String.String_v3)
 
@@ -871,7 +871,7 @@ Combine multiple Values to a new String.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
+**Example:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
 
 **Doc:** [cables.gl/op/Ops.String.StringCompose_v3](https://cables.gl/op/Ops.String.StringCompose_v3)
 
@@ -892,7 +892,7 @@ check if string contains another string (find,search,indexOf).
 - **Found** (Number)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.String.StringContains_v2#example](https://cables.gl/op/Ops.String.StringContains_v2#example)
+**Example:** [cables.gl/op/Ops.String.StringContains_v2#example](https://cables.gl/op/Ops.String.StringContains_v2#example)
 
 **Doc:** [cables.gl/op/Ops.String.StringContains_v2](https://cables.gl/op/Ops.String.StringContains_v2)
 
@@ -912,7 +912,7 @@ string text editor.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/Jhvn8i](https://cables.gl/edit/Jhvn8i)
+**Example:** [cables.gl/edit/Jhvn8i](https://cables.gl/edit/Jhvn8i)
 
 **Doc:** [cables.gl/op/Ops.String.StringEditor](https://cables.gl/op/Ops.String.StringEditor)
 
@@ -932,7 +932,7 @@ check if content of two strings is the same.
 
 - **Result** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Nx2zci](https://cables.gl/edit/Nx2zci)
+**Example:** [cables.gl/edit/Nx2zci](https://cables.gl/edit/Nx2zci)
 
 **Doc:** [cables.gl/op/Ops.String.StringEquals_v2](https://cables.gl/op/Ops.String.StringEquals_v2)
 
@@ -953,7 +953,7 @@ output the line number at the character index.
 - **Line** (Number)
 - **Found** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.String.StringGetLineNumAtIndex#example](https://cables.gl/op/Ops.String.StringGetLineNumAtIndex#example)
+**Example:** [cables.gl/op/Ops.String.StringGetLineNumAtIndex#example](https://cables.gl/op/Ops.String.StringGetLineNumAtIndex#example)
 
 **Doc:** [cables.gl/op/Ops.String.StringGetLineNumAtIndex](https://cables.gl/op/Ops.String.StringGetLineNumAtIndex)
 
@@ -976,7 +976,7 @@ iterate over every character of a string.
 - **Index** (Number)
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.String.StringIterator_v2#example](https://cables.gl/op/Ops.String.StringIterator_v2#example)
+**Example:** [cables.gl/op/Ops.String.StringIterator_v2#example](https://cables.gl/op/Ops.String.StringIterator_v2#example)
 
 **Doc:** [cables.gl/op/Ops.String.StringIterator_v2](https://cables.gl/op/Ops.String.StringIterator_v2)
 
@@ -995,7 +995,7 @@ number of characters in a string.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/v9GLji](https://cables.gl/edit/v9GLji)
+**Example:** [cables.gl/edit/v9GLji](https://cables.gl/edit/v9GLji)
 
 **Doc:** [cables.gl/op/Ops.String.StringLength_v2](https://cables.gl/op/Ops.String.StringLength_v2)
 
@@ -1016,7 +1016,7 @@ Remove every occurances of given characters from a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/ls8ciO](https://cables.gl/edit/ls8ciO)
+**Example:** [cables.gl/edit/ls8ciO](https://cables.gl/edit/ls8ciO)
 
 **Doc:** [cables.gl/op/Ops.String.StringRemoveCharacters](https://cables.gl/op/Ops.String.StringRemoveCharacters)
 
@@ -1038,7 +1038,7 @@ replace occurrences of a string with another string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/q0iLkE](https://cables.gl/edit/q0iLkE)
+**Example:** [cables.gl/edit/q0iLkE](https://cables.gl/edit/q0iLkE)
 
 **Doc:** [cables.gl/op/Ops.String.StringReplace](https://cables.gl/op/Ops.String.StringReplace)
 
@@ -1058,7 +1058,7 @@ sort each line of a string alphabetically.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/MMS2O8](https://cables.gl/edit/MMS2O8)
+**Example:** [cables.gl/edit/MMS2O8](https://cables.gl/edit/MMS2O8)
 
 **Doc:** [cables.gl/op/Ops.String.StringSortLines](https://cables.gl/op/Ops.String.StringSortLines)
 
@@ -1079,7 +1079,7 @@ create an array from multiple string.
 - **Result** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/oBPhsh](https://cables.gl/edit/oBPhsh)
+**Example:** [cables.gl/edit/oBPhsh](https://cables.gl/edit/oBPhsh)
 
 **Doc:** [cables.gl/op/Ops.String.StringsToArrayMultiPort_v2](https://cables.gl/op/Ops.String.StringsToArrayMultiPort_v2)
 
@@ -1119,7 +1119,7 @@ Switch between multiple strings by a string index.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/op/Ops.String.StringSwitchByString#example](https://cables.gl/op/Ops.String.StringSwitchByString#example)
+**Example:** [cables.gl/op/Ops.String.StringSwitchByString#example](https://cables.gl/op/Ops.String.StringSwitchByString#example)
 
 **Doc:** [cables.gl/op/Ops.String.StringSwitchByString](https://cables.gl/op/Ops.String.StringSwitchByString)
 
@@ -1139,7 +1139,7 @@ Parses a string and returns a floating point number / string to number.
 - **Number** (Number)
 - **Not A Number** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/XMEwci](https://cables.gl/edit/XMEwci)
+**Example:** [cables.gl/edit/XMEwci](https://cables.gl/edit/XMEwci)
 
 **Doc:** [cables.gl/op/Ops.String.StringToNumber](https://cables.gl/op/Ops.String.StringToNumber)
 
@@ -1158,7 +1158,7 @@ Remove whitespace from both ends of a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/Ddmsii](https://cables.gl/edit/Ddmsii)
+**Example:** [cables.gl/edit/Ddmsii](https://cables.gl/edit/Ddmsii)
 
 **Doc:** [cables.gl/op/Ops.String.StringTrim_v2](https://cables.gl/op/Ops.String.StringTrim_v2)
 
@@ -1177,7 +1177,7 @@ remove html tags from a string.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/5NsMve](https://cables.gl/edit/5NsMve)
+**Example:** [cables.gl/edit/5NsMve](https://cables.gl/edit/5NsMve)
 
 **Doc:** [cables.gl/op/Ops.String.StripHtml](https://cables.gl/op/Ops.String.StripHtml)
 
@@ -1199,7 +1199,7 @@ Subset of a string between one index and another.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/FvIvci](https://cables.gl/edit/FvIvci)
+**Example:** [cables.gl/edit/FvIvci](https://cables.gl/edit/FvIvci)
 
 **Doc:** [cables.gl/op/Ops.String.SubString_v2](https://cables.gl/op/Ops.String.SubString_v2)
 
@@ -1228,7 +1228,7 @@ Switch between multiple strings with an index.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/2uRAci](https://cables.gl/edit/2uRAci)
+**Example:** [cables.gl/edit/2uRAci](https://cables.gl/edit/2uRAci)
 
 **Doc:** [cables.gl/op/Ops.String.SwitchString](https://cables.gl/op/Ops.String.SwitchString)
 
@@ -1250,7 +1250,7 @@ switch between multiple string inputs.
 - **String** (String)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/TwZ1sh](https://cables.gl/edit/TwZ1sh)
+**Example:** [cables.gl/edit/TwZ1sh](https://cables.gl/edit/TwZ1sh)
 
 **Doc:** [cables.gl/op/Ops.String.SwitchStringMultiPort_v2](https://cables.gl/op/Ops.String.SwitchStringMultiPort_v2)
 
@@ -1269,7 +1269,7 @@ Convert all characters in a string to upperase.
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
+**Example:** [cables.gl/edit/a8qVz6](https://cables.gl/edit/a8qVz6)
 
 **Doc:** [cables.gl/op/Ops.String.Uppercase_v2](https://cables.gl/op/Ops.String.Uppercase_v2)
 
@@ -1288,7 +1288,7 @@ outputs a unique identifier string.
 
 - **Id** (String)
 
-**Example Patch:** [cables.gl/edit/ryYQwn](https://cables.gl/edit/ryYQwn)
+**Example:** [cables.gl/edit/ryYQwn](https://cables.gl/edit/ryYQwn)
 
 **Doc:** [cables.gl/op/Ops.String.UUID](https://cables.gl/op/Ops.String.UUID)
 

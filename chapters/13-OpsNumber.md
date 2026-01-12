@@ -23,7 +23,7 @@ delay a value by seconds.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.DelayedNumber#example](https://cables.gl/op/Ops.Number.DelayedNumber#example)
+**Example:** [cables.gl/op/Ops.Number.DelayedNumber#example](https://cables.gl/op/Ops.Number.DelayedNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Number.DelayedNumber](https://cables.gl/op/Ops.Number.DelayedNumber)
 
@@ -43,7 +43,7 @@ delay the value data flow by x seconds.
 
 - **Out Value** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.DelayNumberSimple#example](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
+**Example:** [cables.gl/op/Ops.Number.DelayNumberSimple#example](https://cables.gl/op/Ops.Number.DelayNumberSimple#example)
 
 **Doc:** [cables.gl/op/Ops.Number.DelayNumberSimple](https://cables.gl/op/Ops.Number.DelayNumberSimple)
 
@@ -64,7 +64,7 @@ Filter valid numbers.
 - **Last Valid Number** (Number)
 - **Is Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Number.FilterValidNumber#example](https://cables.gl/op/Ops.Number.FilterValidNumber#example)
+**Example:** [cables.gl/op/Ops.Number.FilterValidNumber#example](https://cables.gl/op/Ops.Number.FilterValidNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Number.FilterValidNumber](https://cables.gl/op/Ops.Number.FilterValidNumber)
 
@@ -84,7 +84,7 @@ capture the current input and copy it to the output, even after a reload.
 
 - **Frozen Number** (Number)
 
-**Example Patch:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
+**Example:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
 
 **Doc:** [cables.gl/op/Ops.Number.FreezeNumber](https://cables.gl/op/Ops.Number.FreezeNumber)
 
@@ -105,7 +105,7 @@ Let’s a number through only if control bool is true, like a gate.
 
 - **Value Out** (Number)
 
-**Example Patch:** [cables.gl/edit/JJSflJ](https://cables.gl/edit/JJSflJ)
+**Example:** [cables.gl/edit/JJSflJ](https://cables.gl/edit/JJSflJ)
 
 **Doc:** [cables.gl/op/Ops.Number.GateNumber](https://cables.gl/op/Ops.Number.GateNumber)
 
@@ -124,7 +124,7 @@ Number op which only outputs integers.
 
 - **Number Out** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.Integer#example](https://cables.gl/op/Ops.Number.Integer#example)
+**Example:** [cables.gl/op/Ops.Number.Integer#example](https://cables.gl/op/Ops.Number.Integer#example)
 
 **Doc:** [cables.gl/op/Ops.Number.Integer](https://cables.gl/op/Ops.Number.Integer)
 
@@ -139,7 +139,7 @@ Returns the maximum safe integer (number, constant).
 
 - **Max Int** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.MaximumSafeInteger#example](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
+**Example:** [cables.gl/op/Ops.Number.MaximumSafeInteger#example](https://cables.gl/op/Ops.Number.MaximumSafeInteger#example)
 
 **Doc:** [cables.gl/op/Ops.Number.MaximumSafeInteger](https://cables.gl/op/Ops.Number.MaximumSafeInteger)
 
@@ -154,7 +154,7 @@ Returns the minimum safe integer (number, constant).
 
 - **Min Int** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.MinimumSafeInteger#example](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
+**Example:** [cables.gl/op/Ops.Number.MinimumSafeInteger#example](https://cables.gl/op/Ops.Number.MinimumSafeInteger#example)
 
 **Doc:** [cables.gl/op/Ops.Number.MinimumSafeInteger](https://cables.gl/op/Ops.Number.MinimumSafeInteger)
 
@@ -173,7 +173,7 @@ Stores a value, use the same value in different places (was: value.value).
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
+**Example:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
 
 **Doc:** [cables.gl/op/Ops.Number.Number](https://cables.gl/op/Ops.Number.Number)
 
@@ -197,7 +197,7 @@ Copies the input value to the (value sequence).
 - **Out Value 2** (Number)
 - **Out Value 3** (Number)
 
-**Example Patch:** [cables.gl/edit/GfgpOb](https://cables.gl/edit/GfgpOb)
+**Example:** [cables.gl/edit/GfgpOb](https://cables.gl/edit/GfgpOb)
 
 **Doc:** [cables.gl/op/Ops.Number.NumberSequence](https://cables.gl/op/Ops.Number.NumberSequence)
 
@@ -234,7 +234,7 @@ State management of all parameters connected to it - Create presets of multiple 
 - **Dbg_data** (Array)
 - **Dbg_sets** (Array)
 
-**Example Patch:** [cables.gl/edit/KI3veT](https://cables.gl/edit/KI3veT)
+**Example:** [cables.gl/edit/KI3veT](https://cables.gl/edit/KI3veT)
 
 **Doc:** [cables.gl/op/Ops.Number.Preset](https://cables.gl/op/Ops.Number.Preset)
 
@@ -254,7 +254,7 @@ remember/store last set number.
 - **Current Value** (Number)
 - **Previous Value** (Number)
 
-**Example Patch:** [cables.gl/edit/XhZWfo](https://cables.gl/edit/XhZWfo)
+**Example:** [cables.gl/edit/XhZWfo](https://cables.gl/edit/XhZWfo)
 
 **Doc:** [cables.gl/op/Ops.Number.PreviousNumberStore](https://cables.gl/op/Ops.Number.PreviousNumberStore)
 
@@ -287,7 +287,7 @@ Routes the value to one of the (based on index, relay).
 - **Index 8 Value** (Number)
 - **Index 9 Value** (Number)
 
-**Example Patch:** [cables.gl/edit/qJcKT6](https://cables.gl/edit/qJcKT6)
+**Example:** [cables.gl/edit/qJcKT6](https://cables.gl/edit/qJcKT6)
 
 **Doc:** [cables.gl/op/Ops.Number.RouteNumber](https://cables.gl/op/Ops.Number.RouteNumber)
 
@@ -336,7 +336,7 @@ control order and flow of numbers.
 - **Output 14** (Number)
 - **Output 15** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.SequenceNumbers#example](https://cables.gl/op/Ops.Number.SequenceNumbers#example)
+**Example:** [cables.gl/op/Ops.Number.SequenceNumbers#example](https://cables.gl/op/Ops.Number.SequenceNumbers#example)
 
 **Doc:** [cables.gl/op/Ops.Number.SequenceNumbers](https://cables.gl/op/Ops.Number.SequenceNumbers)
 
@@ -357,7 +357,7 @@ Switch between multiple number inputs.
 - **Number** (Number)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/fUoCu1](https://cables.gl/edit/fUoCu1)
+**Example:** [cables.gl/edit/fUoCu1](https://cables.gl/edit/fUoCu1)
 
 **Doc:** [cables.gl/op/Ops.Number.SumMultiPort_v2](https://cables.gl/op/Ops.Number.SumMultiPort_v2)
 
@@ -392,7 +392,7 @@ switch between number values by index.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumber#example](https://cables.gl/op/Ops.Number.SwitchNumber#example)
+**Example:** [cables.gl/op/Ops.Number.SwitchNumber#example](https://cables.gl/op/Ops.Number.SwitchNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Number.SwitchNumber](https://cables.gl/op/Ops.Number.SwitchNumber)
 
@@ -414,7 +414,7 @@ Switch between multiple number inputs.
 - **Number** (Number)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example)
+**Example:** [cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2](https://cables.gl/op/Ops.Number.SwitchNumberMultiPort_v2)
 
@@ -451,7 +451,7 @@ Sets a specific output value on trigger.
 - **Last Value** (Number)
 - **Triggered** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example)
+**Example:** [cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger#example)
 
 **Doc:** [cables.gl/op/Ops.Number.SwitchNumberOnTrigger](https://cables.gl/op/Ops.Number.SwitchNumberOnTrigger)
 
@@ -479,7 +479,7 @@ Stores a 3D coordinate (was Value3).
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Number.Trigger3Numbers#example](https://cables.gl/op/Ops.Number.Trigger3Numbers#example)
+**Example:** [cables.gl/op/Ops.Number.Trigger3Numbers#example](https://cables.gl/op/Ops.Number.Trigger3Numbers#example)
 
 **Doc:** [cables.gl/op/Ops.Number.Trigger3Numbers](https://cables.gl/op/Ops.Number.Trigger3Numbers)
 
@@ -499,7 +499,7 @@ triggers every time the input value changed.
 - **Next** (Trigger)
 - **Number** (Number)
 
-**Example Patch:** [cables.gl/edit/8y5hVJ](https://cables.gl/edit/8y5hVJ)
+**Example:** [cables.gl/edit/8y5hVJ](https://cables.gl/edit/8y5hVJ)
 
 **Doc:** [cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2](https://cables.gl/op/Ops.Number.TriggerOnChangeNumber_v2)
 

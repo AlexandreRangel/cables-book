@@ -33,7 +33,7 @@ Outputs the button states of a gamepad.
 - **Right Shoulder** (Number)
 - **Right Shoulder Bottom** (Number)
 
-**Example Patch:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
+**Example:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
 
 **Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePad](https://cables.gl/op/Ops.Devices.GamePad.GamePad)
 
@@ -56,7 +56,7 @@ get axis and angle of a joystick/thumbstick.
 - **DeadZone** (Number)
 - **Angle** (Number)
 
-**Example Patch:** [cables.gl/edit/bDqHdN](https://cables.gl/edit/bDqHdN)
+**Example:** [cables.gl/edit/bDqHdN](https://cables.gl/edit/bDqHdN)
 
 **Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis](https://cables.gl/op/Ops.Devices.GamePad.GamePadJoystickAxis)
 
@@ -79,7 +79,7 @@ list connected gamepads - press a button to connect.
 - **Pad 2** (Object)
 - **Pad 3** (Object)
 
-**Example Patch:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
+**Example:** [cables.gl/edit/XHK7NH](https://cables.gl/edit/XHK7NH)
 
 **Doc:** [cables.gl/op/Ops.Devices.GamePad.GamePads](https://cables.gl/op/Ops.Devices.GamePad.GamePads)
 

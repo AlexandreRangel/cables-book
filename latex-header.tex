@@ -11,6 +11,7 @@
   \fi%
 }
 
+
 %% ------------------------------------------------------------
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
@@ -35,6 +36,8 @@
 %% ------------------------------------------------------------
 \newcommand{\SectionOneFontSize}{19}      % Chapter titles
 \newcommand{\SectionOneLeading}{14}
+\newcommand{\SectionOneSpacingBefore}{0ex}  % Spacing before chapter titles
+\newcommand{\SectionOneSpacingAfter}{1.1ex}  % Spacing after chapter titles
 
 \newcommand{\SectionTwoFontSize}{16}      % Major sections
 \newcommand{\SectionTwoLeading}{10}
@@ -54,24 +57,26 @@
 \newcommand{\SectionFourSpacingBefore}{0.4ex}  % Spacing before paragraph headers
 \newcommand{\SectionFourSpacingAfter}{0.8ex} 
 
+
 %% ------------------------------------------------------------
 %% SECTION HEADINGS - Colors (RGB 0-255)
 %% ------------------------------------------------------------
-\newcommand{\SectionOneColorRed}{75}      % Chapter titles - dark gray
-\newcommand{\SectionOneColorGreen}{75}
-\newcommand{\SectionOneColorBlue}{75}
+\newcommand{\SectionOneColorRed}{99}      % Chapter titles - dark gray
+\newcommand{\SectionOneColorGreen}{99}
+\newcommand{\SectionOneColorBlue}{99}
 
 \newcommand{\SectionTwoColorRed}{0}       % Major sections - dark blue
-\newcommand{\SectionTwoColorGreen}{40}
-\newcommand{\SectionTwoColorBlue}{120}
+\newcommand{\SectionTwoColorGreen}{50}
+\newcommand{\SectionTwoColorBlue}{144}
 
 \newcommand{\SectionThreeColorRed}{0}    % Subsections
-\newcommand{\SectionThreeColorGreen}{51}
-\newcommand{\SectionThreeColorBlue}{151}
+\newcommand{\SectionThreeColorGreen}{60}
+\newcommand{\SectionThreeColorBlue}{160}
 
 \newcommand{\SectionFourColorRed}{51}     % Paragraph headers - dark gray
 \newcommand{\SectionFourColorGreen}{51}
 \newcommand{\SectionFourColorBlue}{51}
+
 
 %% ------------------------------------------------------------
 %% OPS SECTION - Port Symbol Colors (RGB 0-255)
@@ -84,6 +89,7 @@
 \newcommand{\OutputPortSymbolGreen}{128}
 \newcommand{\OutputPortSymbolBlue}{0}
 
+
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
@@ -91,6 +97,8 @@
 \newcommand{\OpImageSpacing}{-0.35\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.91\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.0}      % Line spacing in ops sections
+\newcommand{\OpImageBrightnessOverlay}{0.25}  % Op image brightness overlay (0.0 = no change, 1.0 = fully white). Higher = brighter/lighter for printing
+
 
 %% ------------------------------------------------------------
 %% CODE BLOCKS
@@ -104,13 +112,25 @@
 \newcommand{\CodeBlockPaddingLeft}{10pt}    % Left padding inside code blocks
 \newcommand{\CodeBlockPaddingRight}{8pt}  % Right padding inside code blocks
 
+
 %% ------------------------------------------------------------
 %% BODY TEXT
 %% ------------------------------------------------------------
 \newcommand{\BodyTextFontSize}{11pt}      % Body text font size
 \newcommand{\BodyTextLeading}{13.1pt}    % Body text line height (leading) - typically 1.2x font size
 
+
+%% ------------------------------------------------------------
+%% TEXT COLORS (90% gray = black!90, meaning 90% black, 10% white = dark gray)
+%% ------------------------------------------------------------
+\newcommand{\BodyTextGrayPercent}{80}     % Body text color (black!90 = 90% gray, lighter than pure black)
+\newcommand{\ParagraphTextGrayPercent}{80} % Regular paragraph text color
+\newcommand{\ListItemTextGrayPercent}{80}   % List item text color
+\newcommand{\CodeBlockTextGrayPercent}{80} % Code block text color
+\newcommand{\LinkTextGrayPercent}{60}      % Link text color (when not using colored links)
+
 \newcommand{\ListItemSpacing}{0.36ex}
+
 
 %% ------------------------------------------------------------
 %% IMAGES
@@ -180,6 +200,7 @@
 \usepackage{needspace} % For preventing orphans
 \usepackage{enumitem} % For list spacing control
 \usepackage{microtype} % Better typography and word breaking
+\usepackage{tikz} % For op image brightness adjustment
 % longtable is needed even when Pandoc skips it; patched in AtBeginDocument
 
 %% Prevent orphan headings (heading at end of column/page with no content after)
@@ -258,11 +279,20 @@
 }
 \renewcommand{\includegraphics}[2][]{%
   \isopimage{#2}{%
-    % Op image: mark flag globally and insert image
+    % Op image: mark flag globally and insert image with brightness adjustment
     \global\@opimagetrue
     % Ops images: scale by a fixed max HEIGHT (consistent across varying aspect ratios),
     % with a width cap to prevent overflow in a column.
-    \noindent\oldincludegraphics[height=\OpImageHeightFraction\textheight,keepaspectratio]{#2}%
+    % Apply brightness overlay using TikZ: overlay white semi-transparent layer
+    \noindent\begin{tikzpicture}[baseline=0pt]
+      \node[inner sep=0pt,anchor=south west] (img) {%
+        \oldincludegraphics[height=\OpImageHeightFraction\textheight,keepaspectratio]{#2}%
+      };
+      % Overlay white semi-transparent layer to brighten image (for better printing)
+      \ifdim\OpImageBrightnessOverlay pt>0pt
+        \fill[white,opacity=\OpImageBrightnessOverlay] (img.south west) rectangle (img.north east);
+      \fi
+    \end{tikzpicture}%
   }{%
     % Regular image: use standard settings
     \global\@opimagefalse
@@ -291,6 +321,12 @@
 \definecolor{linkblue}{RGB}{0,102,204}
 \definecolor{inputportsymbol}{RGB}{\InputPortSymbolRed,\InputPortSymbolGreen,\InputPortSymbolBlue}
 \definecolor{outputportsymbol}{RGB}{\OutputPortSymbolRed,\OutputPortSymbolGreen,\OutputPortSymbolBlue}
+
+%% Define text colors (90% gray for body text)
+\colorlet{bodytextcolor}{black!\BodyTextGrayPercent}
+\colorlet{paragraphtextcolor}{black!\ParagraphTextGrayPercent}
+\colorlet{listitemtextcolor}{black!\ListItemTextGrayPercent}
+\colorlet{codeblocktextcolor}{black!\CodeBlockTextGrayPercent}
 
 %% TOC: color ONLY level-1 entries (sections) in blue; keep others dark gray
 \renewcommand{\cftsecfont}{\color{sectiontwocolor}}
@@ -321,6 +357,8 @@
 \titleformat{\section}
   {\fontsize{\SectionOneFontSize}{\SectionOneLeading}\bfseries\color{sectiononecolor}}
   {\thesection}{1em}{}
+%% Format: \titlespacing{command}{left}{before-sep}{after-sep}
+\titlespacing*{\section}{0pt}{\SectionOneSpacingBefore}{\SectionOneSpacingAfter}
 
 %% Section 2 (major sections)
 \titleformat{\subsection}
@@ -364,9 +402,9 @@
 %% Set section numbering depth to 3
 \setcounter{secnumdepth}{3}
 
-%% List item spacing
-\setlist[itemize]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt}
-\setlist[enumerate]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt}
+%% List item spacing and color
+\setlist[itemize]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt, before=\color{listitemtextcolor}, after=\color{bodytextcolor}}
+\setlist[enumerate]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt, before=\color{listitemtextcolor}, after=\color{bodytextcolor}}
 
 %% Code block styling
 \usepackage{fancyvrb}
@@ -423,6 +461,7 @@
 \newcommand{\CodeBlockFormat}{%
   \fontsize{\CodeBlockFontSize}{\CodeBlockLeadingPt}\selectfont%
   \linespread{\CodeBlockLineSpacing}\selectfont%
+  \color{codeblocktextcolor}%
 }
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{
     formatcom=\CodeBlockFormat,
@@ -479,6 +518,8 @@
 \AtBeginDocument{
   % Set body text font size and leading (only affects body text, not headings or code blocks)
   \fontsize{\BodyTextFontSize}{\BodyTextLeading}\selectfont
+  % Set default text color to 90% gray (body text color)
+  \color{bodytextcolor}
   % Enable better word breaking to prevent overflow
   \tolerance=1000
   \emergencystretch=3em

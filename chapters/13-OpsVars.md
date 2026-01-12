@@ -20,7 +20,7 @@ Get an array variable value at time of trigger.
 - **Next** (Trigger)
 - **Value** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Vars.TriggerVarGetArray#example](https://cables.gl/op/Ops.Vars.TriggerVarGetArray#example)
+**Example:** [cables.gl/op/Ops.Vars.TriggerVarGetArray#example](https://cables.gl/op/Ops.Vars.TriggerVarGetArray#example)
 
 **Doc:** [cables.gl/op/Ops.Vars.TriggerVarGetArray](https://cables.gl/op/Ops.Vars.TriggerVarGetArray)
 
@@ -40,7 +40,7 @@ Get a number variable value at time of trigger.
 - **Next** (Trigger)
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/yNCGmy](https://cables.gl/edit/yNCGmy)
+**Example:** [cables.gl/edit/yNCGmy](https://cables.gl/edit/yNCGmy)
 
 **Doc:** [cables.gl/op/Ops.Vars.TriggerVarGetNumber](https://cables.gl/op/Ops.Vars.TriggerVarGetNumber)
 
@@ -60,7 +60,7 @@ Get an object variable value at time of trigger.
 - **Next** (Trigger)
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Vars.TriggerVarGetObject#example](https://cables.gl/op/Ops.Vars.TriggerVarGetObject#example)
+**Example:** [cables.gl/op/Ops.Vars.TriggerVarGetObject#example](https://cables.gl/op/Ops.Vars.TriggerVarGetObject#example)
 
 **Doc:** [cables.gl/op/Ops.Vars.TriggerVarGetObject](https://cables.gl/op/Ops.Vars.TriggerVarGetObject)
 
@@ -80,7 +80,7 @@ Get a string variable value at time of trigger.
 - **Next** (Trigger)
 - **Value** (String)
 
-**Example Patch:** [cables.gl/edit/elyQeG](https://cables.gl/edit/elyQeG)
+**Example:** [cables.gl/edit/elyQeG](https://cables.gl/edit/elyQeG)
 
 **Doc:** [cables.gl/op/Ops.Vars.TriggerVarGetString](https://cables.gl/op/Ops.Vars.TriggerVarGetString)
 
@@ -95,7 +95,7 @@ Get a variable array.
 
 - **Value** (Array)
 
-**Example Patch:** [cables.gl/edit/3LkNp6](https://cables.gl/edit/3LkNp6)
+**Example:** [cables.gl/edit/3LkNp6](https://cables.gl/edit/3LkNp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarGetArray_v2](https://cables.gl/op/Ops.Vars.VarGetArray_v2)
 
@@ -110,7 +110,7 @@ read a variable number.
 
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/1tfFT6](https://cables.gl/edit/1tfFT6)
+**Example:** [cables.gl/edit/1tfFT6](https://cables.gl/edit/1tfFT6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarGetNumber_v2](https://cables.gl/op/Ops.Vars.VarGetNumber_v2)
 
@@ -129,7 +129,7 @@ Get a variable object.
 
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/0pVTp6](https://cables.gl/edit/0pVTp6)
+**Example:** [cables.gl/edit/0pVTp6](https://cables.gl/edit/0pVTp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarGetObject_v2](https://cables.gl/op/Ops.Vars.VarGetObject_v2)
 
@@ -144,7 +144,7 @@ String variable getter.
 
 - **Value** (String)
 
-**Example Patch:** [cables.gl/edit/W14clJ](https://cables.gl/edit/W14clJ)
+**Example:** [cables.gl/edit/W14clJ](https://cables.gl/edit/W14clJ)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarGetString](https://cables.gl/op/Ops.Vars.VarGetString)
 
@@ -159,7 +159,7 @@ get a texture from a variable.
 
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/lkS998](https://cables.gl/edit/lkS998)
+**Example:** [cables.gl/edit/lkS998](https://cables.gl/edit/lkS998)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarGetTexture_v2](https://cables.gl/op/Ops.Vars.VarGetTexture_v2)
 
@@ -179,7 +179,7 @@ outputs an object containing all variables.
 
 - **Result** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Vars.VariablesAsObject#example](https://cables.gl/op/Ops.Vars.VariablesAsObject#example)
+**Example:** [cables.gl/op/Ops.Vars.VariablesAsObject#example](https://cables.gl/op/Ops.Vars.VariablesAsObject#example)
 
 **Doc:** [cables.gl/op/Ops.Vars.VariablesAsObject](https://cables.gl/op/Ops.Vars.VariablesAsObject)
 
@@ -194,7 +194,7 @@ Set a variable array.
 
 - **Value** (Array)
 
-**Example Patch:** [cables.gl/edit/3LkNp6](https://cables.gl/edit/3LkNp6)
+**Example:** [cables.gl/edit/3LkNp6](https://cables.gl/edit/3LkNp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetArray_v2](https://cables.gl/op/Ops.Vars.VarSetArray_v2)
 
@@ -209,7 +209,7 @@ set a variable number.
 
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/1tfFT6](https://cables.gl/edit/1tfFT6)
+**Example:** [cables.gl/edit/1tfFT6](https://cables.gl/edit/1tfFT6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetNumber_v2](https://cables.gl/op/Ops.Vars.VarSetNumber_v2)
 
@@ -224,7 +224,7 @@ Set a variable object.
 
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/0pVTp6](https://cables.gl/edit/0pVTp6)
+**Example:** [cables.gl/edit/0pVTp6](https://cables.gl/edit/0pVTp6)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetObject_v2](https://cables.gl/op/Ops.Vars.VarSetObject_v2)
 
@@ -239,7 +239,7 @@ Set string variable.
 
 - **Value** (String)
 
-**Example Patch:** [cables.gl/edit/W14clJ](https://cables.gl/edit/W14clJ)
+**Example:** [cables.gl/edit/W14clJ](https://cables.gl/edit/W14clJ)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetString_v2](https://cables.gl/op/Ops.Vars.VarSetString_v2)
 
@@ -254,7 +254,7 @@ set a texture variable.
 
 - **Value** (Object:Texture)
 
-**Example Patch:** [cables.gl/edit/lkS998](https://cables.gl/edit/lkS998)
+**Example:** [cables.gl/edit/lkS998](https://cables.gl/edit/lkS998)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarSetTexture_v2](https://cables.gl/op/Ops.Vars.VarSetTexture_v2)
 
@@ -274,7 +274,7 @@ Set an array variable by a trigger.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/8WWthI](https://cables.gl/edit/8WWthI)
+**Example:** [cables.gl/edit/8WWthI](https://cables.gl/edit/8WWthI)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarTriggerArray](https://cables.gl/op/Ops.Vars.VarTriggerArray)
 
@@ -294,7 +294,7 @@ set number variable by trigger.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/JEYSfE](https://cables.gl/edit/JEYSfE)
+**Example:** [cables.gl/edit/JEYSfE](https://cables.gl/edit/JEYSfE)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarTriggerNumber](https://cables.gl/op/Ops.Vars.VarTriggerNumber)
 
@@ -314,7 +314,7 @@ Set an object variable by trigger.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Vars.VarTriggerObject#example](https://cables.gl/op/Ops.Vars.VarTriggerObject#example)
+**Example:** [cables.gl/op/Ops.Vars.VarTriggerObject#example](https://cables.gl/op/Ops.Vars.VarTriggerObject#example)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarTriggerObject](https://cables.gl/op/Ops.Vars.VarTriggerObject)
 
@@ -334,7 +334,7 @@ set string variable by trigger.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PlLFcI](https://cables.gl/edit/PlLFcI)
+**Example:** [cables.gl/edit/PlLFcI](https://cables.gl/edit/PlLFcI)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarTriggerString](https://cables.gl/op/Ops.Vars.VarTriggerString)
 
@@ -354,7 +354,7 @@ Set an object variable by trigger.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Vars.VarTriggerTexture#example](https://cables.gl/op/Ops.Vars.VarTriggerTexture#example)
+**Example:** [cables.gl/op/Ops.Vars.VarTriggerTexture#example](https://cables.gl/op/Ops.Vars.VarTriggerTexture#example)
 
 **Doc:** [cables.gl/op/Ops.Vars.VarTriggerTexture](https://cables.gl/op/Ops.Vars.VarTriggerTexture)
 

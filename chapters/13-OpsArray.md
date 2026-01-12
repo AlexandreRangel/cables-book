@@ -21,7 +21,7 @@ Outputs the angle between points in 3D space (degree).
 
 - **Rotations** (Array)
 
-**Example Patch:** [cables.gl/edit/Y2_BIR](https://cables.gl/edit/Y2_BIR)
+**Example:** [cables.gl/edit/Y2_BIR](https://cables.gl/edit/Y2_BIR)
 
 **Doc:** [cables.gl/op/Ops.Array.AnglesBetweenPoints](https://cables.gl/op/Ops.Array.AnglesBetweenPoints)
 
@@ -44,7 +44,7 @@ Animate values in an array to another array.
 - **Next** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/OwvgkJ](https://cables.gl/edit/OwvgkJ)
+**Example:** [cables.gl/edit/OwvgkJ](https://cables.gl/edit/OwvgkJ)
 
 **Doc:** [cables.gl/op/Ops.Array.AnimArray_v2](https://cables.gl/op/Ops.Array.AnimArray_v2)
 
@@ -65,7 +65,7 @@ convert an array1 to array2,3,4 by choosing content for new axis.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/omZrLu](https://cables.gl/edit/omZrLu)
+**Example:** [cables.gl/edit/omZrLu](https://cables.gl/edit/omZrLu)
 
 **Doc:** [cables.gl/op/Ops.Array.Array1toX_v2](https://cables.gl/op/Ops.Array.Array1toX_v2)
 
@@ -86,7 +86,7 @@ Inserts zeroes every third item.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/xAg8P6](https://cables.gl/edit/xAg8P6)
+**Example:** [cables.gl/edit/xAg8P6](https://cables.gl/edit/xAg8P6)
 
 **Doc:** [cables.gl/op/Ops.Array.Array2To3](https://cables.gl/op/Ops.Array.Array2To3)
 
@@ -110,7 +110,7 @@ Create an array of num triplets set to default values xyz.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
+**Example:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3](https://cables.gl/op/Ops.Array.Array3)
 
@@ -131,7 +131,7 @@ Average x,y,z values of an array3x.
 - **Average Y** (Number)
 - **Average Z** (Number)
 
-**Example Patch:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
+**Example:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3GetAverage](https://cables.gl/op/Ops.Array.Array3GetAverage)
 
@@ -153,7 +153,7 @@ Get 3 values XYZ from an array.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/5LhTLJ](https://cables.gl/edit/5LhTLJ)
+**Example:** [cables.gl/edit/5LhTLJ](https://cables.gl/edit/5LhTLJ)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3GetNumbers](https://cables.gl/op/Ops.Array.Array3GetNumbers)
 
@@ -176,7 +176,7 @@ Interpolate between two arrays.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/2UuCa6](https://cables.gl/edit/2UuCa6)
+**Example:** [cables.gl/edit/2UuCa6](https://cables.gl/edit/2UuCa6)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3InterpolateDistributed](https://cables.gl/op/Ops.Array.Array3InterpolateDistributed)
 
@@ -205,7 +205,7 @@ Iterate over an array in steps of three and outputs three values.
 - **Value 3** (Number)
 - **Third value of the current triplet** (e.g. z)
 
-**Example Patch:** [cables.gl/edit/Ubwk3u](https://cables.gl/edit/Ubwk3u)
+**Example:** [cables.gl/edit/Ubwk3u](https://cables.gl/edit/Ubwk3u)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3Iterator](https://cables.gl/op/Ops.Array.Array3Iterator)
 
@@ -227,7 +227,7 @@ Multiply every XYZ member of array3x.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/8FxmVJ](https://cables.gl/edit/8FxmVJ)
+**Example:** [cables.gl/edit/8FxmVJ](https://cables.gl/edit/8FxmVJ)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3Multiply](https://cables.gl/op/Ops.Array.Array3Multiply)
 
@@ -252,7 +252,7 @@ Push three numbers to the end of an array (was ArrayPushValue3x).
 - **Next** (Trigger)
 - **Result Array** (Array)
 
-**Example Patch:** [cables.gl/edit/uOzMH7](https://cables.gl/edit/uOzMH7)
+**Example:** [cables.gl/edit/uOzMH7](https://cables.gl/edit/uOzMH7)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3PushNumbers_v2](https://cables.gl/op/Ops.Array.Array3PushNumbers_v2)
 
@@ -275,7 +275,7 @@ Extract definable amount of random xyz points from an array.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/1qNz98](https://cables.gl/edit/1qNz98)
+**Example:** [cables.gl/edit/1qNz98](https://cables.gl/edit/1qNz98)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3RandomSelection](https://cables.gl/op/Ops.Array.Array3RandomSelection)
 
@@ -298,7 +298,7 @@ Set three numbers at index in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/t44fQc](https://cables.gl/edit/t44fQc)
+**Example:** [cables.gl/edit/t44fQc](https://cables.gl/edit/t44fQc)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3SetNumber](https://cables.gl/op/Ops.Array.Array3SetNumber)
 
@@ -320,7 +320,7 @@ Add number to every XYZ member of array3x.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/D-pQHj](https://cables.gl/edit/D-pQHj)
+**Example:** [cables.gl/edit/D-pQHj](https://cables.gl/edit/D-pQHj)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3Sum](https://cables.gl/op/Ops.Array.Array3Sum)
 
@@ -339,7 +339,7 @@ Remove every 3rd item of an array - changes array length.
 
 - **Array2x** (Array)
 
-**Example Patch:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
+**Example:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3To2](https://cables.gl/op/Ops.Array.Array3To2)
 
@@ -360,7 +360,7 @@ Convert an array3 to an array4 by filling it up with 1.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/h_Dbm4](https://cables.gl/edit/h_Dbm4)
+**Example:** [cables.gl/edit/h_Dbm4](https://cables.gl/edit/h_Dbm4)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3To4](https://cables.gl/op/Ops.Array.Array3To4)
 
@@ -380,7 +380,7 @@ Return the length of a vector from an array 3.
 - **Array Out** (Array)
 - **Array Lengths** (Number)
 
-**Example Patch:** [cables.gl/edit/L9tsRJ](https://cables.gl/edit/L9tsRJ)
+**Example:** [cables.gl/edit/L9tsRJ](https://cables.gl/edit/L9tsRJ)
 
 **Doc:** [cables.gl/op/Ops.Array.Array3VectorLength](https://cables.gl/op/Ops.Array.Array3VectorLength)
 
@@ -405,7 +405,7 @@ Create an array of num quadruples set to default values xyz.
 - **Total Quadruplets** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/HjHdQc](https://cables.gl/edit/HjHdQc)
+**Example:** [cables.gl/edit/HjHdQc](https://cables.gl/edit/HjHdQc)
 
 **Doc:** [cables.gl/op/Ops.Array.Array4](https://cables.gl/op/Ops.Array.Array4)
 
@@ -428,7 +428,7 @@ Get 4 values from an array.
 - **Z** (Number)
 - **W** (Number)
 
-**Example Patch:** [cables.gl/edit/tI0COg](https://cables.gl/edit/tI0COg)
+**Example:** [cables.gl/edit/tI0COg](https://cables.gl/edit/tI0COg)
 
 **Doc:** [cables.gl/op/Ops.Array.Array4GetNumbers](https://cables.gl/op/Ops.Array.Array4GetNumbers)
 
@@ -452,7 +452,7 @@ Set four numbers at index in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/HjHdQc](https://cables.gl/edit/HjHdQc)
+**Example:** [cables.gl/edit/HjHdQc](https://cables.gl/edit/HjHdQc)
 
 **Doc:** [cables.gl/op/Ops.Array.Array4SetNumber](https://cables.gl/op/Ops.Array.Array4SetNumber)
 
@@ -472,7 +472,7 @@ Convert an array4 to array3 by dropping every 4th number.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/SZdOet](https://cables.gl/edit/SZdOet)
+**Example:** [cables.gl/edit/SZdOet](https://cables.gl/edit/SZdOet)
 
 **Doc:** [cables.gl/op/Ops.Array.Array4toArray3](https://cables.gl/op/Ops.Array.Array4toArray3)
 
@@ -499,7 +499,7 @@ Can generate 3 kinds of arrays:
 - **Array** (Array)
 - **Array Length Out** (Number)
 
-**Example Patch:** [cables.gl/edit/P4qAz6](https://cables.gl/edit/P4qAz6)
+**Example:** [cables.gl/edit/P4qAz6](https://cables.gl/edit/P4qAz6)
 
 **Doc:** [cables.gl/op/Ops.Array.Array_v3](https://cables.gl/op/Ops.Array.Array_v3)
 
@@ -518,7 +518,7 @@ Converts array contents to absolute values - converts all negative numbers to po
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/Jdij7z](https://cables.gl/edit/Jdij7z)
+**Example:** [cables.gl/edit/Jdij7z](https://cables.gl/edit/Jdij7z)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayAbs](https://cables.gl/op/Ops.Array.ArrayAbs)
 
@@ -540,7 +540,7 @@ Append an array to an existing array.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/quYUvH](https://cables.gl/edit/quYUvH)
+**Example:** [cables.gl/edit/quYUvH](https://cables.gl/edit/quYUvH)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayAppendArray](https://cables.gl/op/Ops.Array.ArrayAppendArray)
 
@@ -564,7 +564,7 @@ Store values in an array / fifo array buffer.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/_ZPEnB](https://cables.gl/edit/_ZPEnB)
+**Example:** [cables.gl/edit/_ZPEnB](https://cables.gl/edit/_ZPEnB)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayBuffer](https://cables.gl/op/Ops.Array.ArrayBuffer)
 
@@ -590,7 +590,7 @@ Circular buffer for xyz values.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/TNwIZC](https://cables.gl/edit/TNwIZC)
+**Example:** [cables.gl/edit/TNwIZC](https://cables.gl/edit/TNwIZC)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayBuffer3](https://cables.gl/op/Ops.Array.ArrayBuffer3)
 
@@ -609,7 +609,7 @@ Round numbers up.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
+**Example:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayCeil](https://cables.gl/op/Ops.Array.ArrayCeil)
 
@@ -632,7 +632,7 @@ Extracts x elements from an array.
 - **Output Array** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/yGR5GA](https://cables.gl/edit/yGR5GA)
+**Example:** [cables.gl/edit/yGR5GA](https://cables.gl/edit/yGR5GA)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayChunk](https://cables.gl/op/Ops.Array.ArrayChunk)
 
@@ -653,7 +653,7 @@ Repeat chunks of an array multiple times.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/Vu22bf](https://cables.gl/edit/Vu22bf)
+**Example:** [cables.gl/edit/Vu22bf](https://cables.gl/edit/Vu22bf)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayChunkDuplicate](https://cables.gl/op/Ops.Array.ArrayChunkDuplicate)
 
@@ -674,7 +674,7 @@ Clamp the values of an array to a min and max value.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/tyxvSP](https://cables.gl/edit/tyxvSP)
+**Example:** [cables.gl/edit/tyxvSP](https://cables.gl/edit/tyxvSP)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayClamp](https://cables.gl/op/Ops.Array.ArrayClamp)
 
@@ -695,7 +695,7 @@ Check if an array contains a number (find,search,indexOf).
 - **Found** (booleanNumber)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/8pZ8GA](https://cables.gl/edit/8pZ8GA)
+**Example:** [cables.gl/edit/8pZ8GA](https://cables.gl/edit/8pZ8GA)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayContains_v2](https://cables.gl/op/Ops.Array.ArrayContains_v2)
 
@@ -715,7 +715,7 @@ Divide all values in an array by one number.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
+**Example:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayDivide](https://cables.gl/op/Ops.Array.ArrayDivide)
 
@@ -736,7 +736,7 @@ Return all the indexes of a string in an array.
 - **Index** (Array)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/p9sBjH](https://cables.gl/edit/p9sBjH)
+**Example:** [cables.gl/edit/p9sBjH](https://cables.gl/edit/p9sBjH)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayFindStrings](https://cables.gl/op/Ops.Array.ArrayFindStrings)
 
@@ -755,7 +755,7 @@ Round numbers down.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
+**Example:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayFloor](https://cables.gl/op/Ops.Array.ArrayFloor)
 
@@ -774,7 +774,7 @@ Return the fractional remainder of all values in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/uVzImG](https://cables.gl/edit/uVzImG)
+**Example:** [cables.gl/edit/uVzImG](https://cables.gl/edit/uVzImG)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayFract](https://cables.gl/op/Ops.Array.ArrayFract)
 
@@ -826,7 +826,7 @@ Simple way to create small arrays of numbers.
 - **Next** (Trigger)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/ZNPh2B](https://cables.gl/edit/ZNPh2B)
+**Example:** [cables.gl/edit/ZNPh2B](https://cables.gl/edit/ZNPh2B)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayFromNumbers](https://cables.gl/op/Ops.Array.ArrayFromNumbers)
 
@@ -846,7 +846,7 @@ Get an array from an array of arrays.
 
 - **Result Array** (Array)
 
-**Example Patch:** [cables.gl/edit/yU2Pet](https://cables.gl/edit/yU2Pet)
+**Example:** [cables.gl/edit/yU2Pet](https://cables.gl/edit/yU2Pet)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetArray](https://cables.gl/op/Ops.Array.ArrayGetArray)
 
@@ -868,7 +868,7 @@ Return a value from an array.
 - **Value** (Number)
 - **Valid Index** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/38AIji](https://cables.gl/edit/38AIji)
+**Example:** [cables.gl/edit/38AIji](https://cables.gl/edit/38AIji)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetNumber](https://cables.gl/op/Ops.Array.ArrayGetNumber)
 
@@ -888,7 +888,7 @@ Get an object from an array.
 
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/7npL_M](https://cables.gl/edit/7npL_M)
+**Example:** [cables.gl/edit/7npL_M](https://cables.gl/edit/7npL_M)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetObject](https://cables.gl/op/Ops.Array.ArrayGetObject)
 
@@ -909,7 +909,7 @@ Get a string from an array at [index].
 - **Result** (String)
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/aHNk8i](https://cables.gl/edit/aHNk8i)
+**Example:** [cables.gl/edit/aHNk8i](https://cables.gl/edit/aHNk8i)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetString_v2](https://cables.gl/op/Ops.Array.ArrayGetString_v2)
 
@@ -929,7 +929,7 @@ Get texture from array at index.
 
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/jFv097](https://cables.gl/edit/jFv097)
+**Example:** [cables.gl/edit/jFv097](https://cables.gl/edit/jFv097)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetTexture](https://cables.gl/op/Ops.Array.ArrayGetTexture)
 
@@ -950,7 +950,7 @@ Pick values from input array at given indices and stride.
 
 - **Results** (Array)
 
-**Example Patch:** [cables.gl/edit/bOBgTq](https://cables.gl/edit/bOBgTq)
+**Example:** [cables.gl/edit/bOBgTq](https://cables.gl/edit/bOBgTq)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayGetValuesByIndexArray](https://cables.gl/op/Ops.Array.ArrayGetValuesByIndexArray)
 
@@ -970,7 +970,7 @@ Output index where value is greater than number and smaller then next number.
 
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/kH4xLu](https://cables.gl/edit/kH4xLu)
+**Example:** [cables.gl/edit/kH4xLu](https://cables.gl/edit/kH4xLu)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIndexBetween](https://cables.gl/op/Ops.Array.ArrayIndexBetween)
 
@@ -992,7 +992,7 @@ Find lowest/highest numbers in an array.
 - **Min** (Number)
 - **Index Min** (Number)
 
-**Example Patch:** [cables.gl/edit/gamucI](https://cables.gl/edit/gamucI)
+**Example:** [cables.gl/edit/gamucI](https://cables.gl/edit/gamucI)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIndexMinMax](https://cables.gl/op/Ops.Array.ArrayIndexMinMax)
 
@@ -1014,7 +1014,7 @@ Iterate over an array of arrays.
 - **Index** (Number)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/xFKQet](https://cables.gl/edit/xFKQet)
+**Example:** [cables.gl/edit/xFKQet](https://cables.gl/edit/xFKQet)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIteratorArray](https://cables.gl/op/Ops.Array.ArrayIteratorArray)
 
@@ -1036,7 +1036,7 @@ Loop over every element of an array.
 - **Index** (Number)
 - **Value** (Number)
 
-**Example Patch:** [cables.gl/edit/Ubwk3u](https://cables.gl/edit/Ubwk3u)
+**Example:** [cables.gl/edit/Ubwk3u](https://cables.gl/edit/Ubwk3u)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIteratorNumbers](https://cables.gl/op/Ops.Array.ArrayIteratorNumbers)
 
@@ -1059,7 +1059,7 @@ Iterate over an array of objects.
 - **Index** (Number)
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/UlL2G1](https://cables.gl/edit/UlL2G1)
+**Example:** [cables.gl/edit/UlL2G1](https://cables.gl/edit/UlL2G1)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIteratorObjects](https://cables.gl/op/Ops.Array.ArrayIteratorObjects)
 
@@ -1081,7 +1081,7 @@ Loop over every element of an array.
 - **Index** (Number)
 - **Value** (String)
 
-**Example Patch:** [cables.gl/edit/53WCcI](https://cables.gl/edit/53WCcI)
+**Example:** [cables.gl/edit/53WCcI](https://cables.gl/edit/53WCcI)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIteratorStrings](https://cables.gl/op/Ops.Array.ArrayIteratorStrings)
 
@@ -1104,7 +1104,7 @@ Iterate over an array of objects.
 - **Index** (Number)
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
+**Example:** [cables.gl/edit/vS5fjz](https://cables.gl/edit/vS5fjz)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayIteratorTextures](https://cables.gl/op/Ops.Array.ArrayIteratorTextures)
 
@@ -1123,7 +1123,7 @@ Number of items in an array.
 
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/P4qAz6](https://cables.gl/edit/P4qAz6)
+**Example:** [cables.gl/edit/P4qAz6](https://cables.gl/edit/P4qAz6)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayLength_v2](https://cables.gl/op/Ops.Array.ArrayLength_v2)
 
@@ -1147,7 +1147,7 @@ Performs logical comparison operations on a single array of numbers.
 - **Array Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/D3DmbJ](https://cables.gl/edit/D3DmbJ)
+**Example:** [cables.gl/edit/D3DmbJ](https://cables.gl/edit/D3DmbJ)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayLogic](https://cables.gl/op/Ops.Array.ArrayLogic)
 
@@ -1171,7 +1171,7 @@ Performs logical comparison operations on two arrays.
 - **Array Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/T_-NmJ](https://cables.gl/edit/T_-NmJ)
+**Example:** [cables.gl/edit/T_-NmJ](https://cables.gl/edit/T_-NmJ)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayLogicArray](https://cables.gl/op/Ops.Array.ArrayLogicArray)
 
@@ -1193,7 +1193,7 @@ If value of array is between min and max then the value is 1 else 0.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/jTqRet](https://cables.gl/edit/jTqRet)
+**Example:** [cables.gl/edit/jTqRet](https://cables.gl/edit/jTqRet)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayLogicBetween_v2](https://cables.gl/op/Ops.Array.ArrayLogicBetween_v2)
 
@@ -1214,7 +1214,7 @@ Create an array that is filled with values looked up by index from another array
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/cwJBEe](https://cables.gl/edit/cwJBEe)
+**Example:** [cables.gl/edit/cwJBEe](https://cables.gl/edit/cwJBEe)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayLookup](https://cables.gl/op/Ops.Array.ArrayLookup)
 
@@ -1236,7 +1236,7 @@ Pick from multiple mathematical modes which can all be applied to a single array
 - **Array Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/7E1hqH](https://cables.gl/edit/7E1hqH)
+**Example:** [cables.gl/edit/7E1hqH](https://cables.gl/edit/7E1hqH)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMath](https://cables.gl/op/Ops.Array.ArrayMath)
 
@@ -1258,7 +1258,7 @@ Perform a math operations on two arrays.
 - **Array Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
+**Example:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMathArray](https://cables.gl/op/Ops.Array.ArrayMathArray)
 
@@ -1285,7 +1285,7 @@ Calculate a user-defined mathematical expression.
 - **Array Length** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/_o2Mue](https://cables.gl/edit/_o2Mue)
+**Example:** [cables.gl/edit/_o2Mue](https://cables.gl/edit/_o2Mue)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMathExpression](https://cables.gl/op/Ops.Array.ArrayMathExpression)
 
@@ -1314,7 +1314,7 @@ Calculate a user-defined mathematical expression.
 - **Array Length** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/_o2Mue](https://cables.gl/edit/_o2Mue)
+**Example:** [cables.gl/edit/_o2Mue](https://cables.gl/edit/_o2Mue)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMathExpressionTrigger](https://cables.gl/op/Ops.Array.ArrayMathExpressionTrigger)
 
@@ -1334,7 +1334,7 @@ Apply a max operation to all values in an array.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/bc0xTn](https://cables.gl/edit/bc0xTn)
+**Example:** [cables.gl/edit/bc0xTn](https://cables.gl/edit/bc0xTn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMax](https://cables.gl/op/Ops.Array.ArrayMax)
 
@@ -1361,7 +1361,7 @@ Merge multiple arrays - in consecutive order.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/P7siGA](https://cables.gl/edit/P7siGA)
+**Example:** [cables.gl/edit/P7siGA](https://cables.gl/edit/P7siGA)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMerge_v3](https://cables.gl/op/Ops.Array.ArrayMerge_v3)
 
@@ -1394,7 +1394,7 @@ Merge / concatenate arrays by trigger.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ArrayMergeTrigger#example](https://cables.gl/op/Ops.Array.ArrayMergeTrigger#example)
+**Example:** [cables.gl/op/Ops.Array.ArrayMergeTrigger#example](https://cables.gl/op/Ops.Array.ArrayMergeTrigger#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMergeTrigger](https://cables.gl/op/Ops.Array.ArrayMergeTrigger)
 
@@ -1414,7 +1414,7 @@ Apply a min operation to all values in an array.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/bc0xTn](https://cables.gl/edit/bc0xTn)
+**Example:** [cables.gl/edit/bc0xTn](https://cables.gl/edit/bc0xTn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMin](https://cables.gl/op/Ops.Array.ArrayMin)
 
@@ -1434,7 +1434,7 @@ Apply a modulo operation to all values in an array.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
+**Example:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayModulo](https://cables.gl/op/Ops.Array.ArrayModulo)
 
@@ -1454,7 +1454,7 @@ Multiply every number in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/xmNqci](https://cables.gl/edit/xmNqci)
+**Example:** [cables.gl/edit/xmNqci](https://cables.gl/edit/xmNqci)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayMultiply](https://cables.gl/op/Ops.Array.ArrayMultiply)
 
@@ -1475,7 +1475,7 @@ Create an array that contains X numbers between start and end values.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/LfNG9t](https://cables.gl/edit/LfNG9t)
+**Example:** [cables.gl/edit/LfNG9t](https://cables.gl/edit/LfNG9t)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayNumberRamp_v2](https://cables.gl/op/Ops.Array.ArrayNumberRamp_v2)
 
@@ -1504,7 +1504,7 @@ Create an array filled with other arrays.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/iId8ve](https://cables.gl/edit/iId8ve)
+**Example:** [cables.gl/edit/iId8ve](https://cables.gl/edit/iId8ve)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayOfArrays](https://cables.gl/op/Ops.Array.ArrayOfArrays)
 
@@ -1527,7 +1527,7 @@ Filter key-value pairs in objects in an array of objects.
 
 - **ArrayOut** (Array)
 
-**Example Patch:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
+**Example:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayOfObjectsFilterByKeyValue_v3](https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterByKeyValue_v3)
 
@@ -1549,7 +1549,7 @@ Remove key-value pairs from objects in an array of objects.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
+**Example:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayOfObjectsFilterKeys](https://cables.gl/op/Ops.Array.ArrayOfObjectsFilterKeys)
 
@@ -1568,7 +1568,7 @@ Convert an array of objects into readable string format.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
+**Example:** [cables.gl/edit/HFRsU5](https://cables.gl/edit/HFRsU5)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayOfObjectsToString](https://cables.gl/op/Ops.Array.ArrayOfObjectsToString)
 
@@ -1594,7 +1594,7 @@ Pack multiple arrays into a new array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/fT3AeT](https://cables.gl/edit/fT3AeT)
+**Example:** [cables.gl/edit/fT3AeT](https://cables.gl/edit/fT3AeT)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack](https://cables.gl/op/Ops.Array.ArrayPack)
 
@@ -1617,7 +1617,7 @@ Pack two individual arrays into a new array.
 - **Array Out** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/WaPiSP](https://cables.gl/edit/WaPiSP)
+**Example:** [cables.gl/edit/WaPiSP](https://cables.gl/edit/WaPiSP)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack2](https://cables.gl/op/Ops.Array.ArrayPack2)
 
@@ -1639,7 +1639,7 @@ Pack 2 individual arrays into an array2 - without needing a trigger.
 - **Num Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/Udb6eG](https://cables.gl/edit/Udb6eG)
+**Example:** [cables.gl/edit/Udb6eG](https://cables.gl/edit/Udb6eG)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack2Simple](https://cables.gl/op/Ops.Array.ArrayPack2Simple)
 
@@ -1664,7 +1664,7 @@ Pack 3 individual arrays into a xyz array.
 - **Num Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/As6p8i](https://cables.gl/edit/As6p8i)
+**Example:** [cables.gl/edit/As6p8i](https://cables.gl/edit/As6p8i)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack3](https://cables.gl/op/Ops.Array.ArrayPack3)
 
@@ -1687,7 +1687,7 @@ Pack 3 individual arrays into an array3 - without needing a trigger.
 - **Num Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/Hx09v4](https://cables.gl/edit/Hx09v4)
+**Example:** [cables.gl/edit/Hx09v4](https://cables.gl/edit/Hx09v4)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack3Simple](https://cables.gl/op/Ops.Array.ArrayPack3Simple)
 
@@ -1712,7 +1712,7 @@ Pack 4 arrays into one array.
 - **Array Out** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/zgbOqH](https://cables.gl/edit/zgbOqH)
+**Example:** [cables.gl/edit/zgbOqH](https://cables.gl/edit/zgbOqH)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack4](https://cables.gl/op/Ops.Array.ArrayPack4)
 
@@ -1736,7 +1736,7 @@ Pack 3 individual arrays into an array3 - without needing a trigger.
 - **Num Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/Hx09v4](https://cables.gl/edit/Hx09v4)
+**Example:** [cables.gl/edit/Hx09v4](https://cables.gl/edit/Hx09v4)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPack4Simple](https://cables.gl/op/Ops.Array.ArrayPack4Simple)
 
@@ -1756,7 +1756,7 @@ Values below 0 are not accepted. 1 = Array in is unaltered.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/nakc7z](https://cables.gl/edit/nakc7z)
+**Example:** [cables.gl/edit/nakc7z](https://cables.gl/edit/nakc7z)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPow](https://cables.gl/op/Ops.Array.ArrayPow)
 
@@ -1776,7 +1776,7 @@ Push/Append a string to the end of an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ArrayPushString#example](https://cables.gl/op/Ops.Array.ArrayPushString#example)
+**Example:** [cables.gl/op/Ops.Array.ArrayPushString#example](https://cables.gl/op/Ops.Array.ArrayPushString#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayPushString](https://cables.gl/op/Ops.Array.ArrayPushString)
 
@@ -1797,7 +1797,7 @@ Quantize input to nearest number in array.
 - **Quantized Value** (Number)
 - **Quantization Error** (Number)
 
-**Example Patch:** [cables.gl/edit/0yr3cu](https://cables.gl/edit/0yr3cu)
+**Example:** [cables.gl/edit/0yr3cu](https://cables.gl/edit/0yr3cu)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayQuantizer](https://cables.gl/op/Ops.Array.ArrayQuantizer)
 
@@ -1819,7 +1819,7 @@ Extract a definable amount of values from an array.
 - **Result** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/ZYDYpH](https://cables.gl/edit/ZYDYpH)
+**Example:** [cables.gl/edit/ZYDYpH](https://cables.gl/edit/ZYDYpH)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayRandomSelection](https://cables.gl/op/Ops.Array.ArrayRandomSelection)
 
@@ -1839,7 +1839,7 @@ Remove falsy items from an array.
 
 - **Result Array** (Array)
 
-**Example Patch:** [cables.gl/edit/s6p6iO](https://cables.gl/edit/s6p6iO)
+**Example:** [cables.gl/edit/s6p6iO](https://cables.gl/edit/s6p6iO)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayRemoveFalsy](https://cables.gl/op/Ops.Array.ArrayRemoveFalsy)
 
@@ -1858,7 +1858,7 @@ Reverse an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/UGUp8i](https://cables.gl/edit/UGUp8i)
+**Example:** [cables.gl/edit/UGUp8i](https://cables.gl/edit/UGUp8i)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayReverse](https://cables.gl/op/Ops.Array.ArrayReverse)
 
@@ -1879,7 +1879,7 @@ Round numbers up.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
+**Example:** [cables.gl/edit/7xdJrG](https://cables.gl/edit/7xdJrG)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayRound](https://cables.gl/op/Ops.Array.ArrayRound)
 
@@ -1900,7 +1900,7 @@ Set a number at index in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/bJrH16](https://cables.gl/edit/bJrH16)
+**Example:** [cables.gl/edit/bJrH16](https://cables.gl/edit/bJrH16)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySetNumber_v3](https://cables.gl/op/Ops.Array.ArraySetNumber_v3)
 
@@ -1921,7 +1921,7 @@ Set a string at index in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/b0vNrh](https://cables.gl/edit/b0vNrh)
+**Example:** [cables.gl/edit/b0vNrh](https://cables.gl/edit/b0vNrh)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySetString](https://cables.gl/op/Ops.Array.ArraySetString)
 
@@ -1944,7 +1944,7 @@ Perform a sin or cos operation on the contents of an array.
 
 - **Array Result** (Array)
 
-**Example Patch:** [cables.gl/edit/x1Hqrq](https://cables.gl/edit/x1Hqrq)
+**Example:** [cables.gl/edit/x1Hqrq](https://cables.gl/edit/x1Hqrq)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySin](https://cables.gl/op/Ops.Array.ArraySin)
 
@@ -1965,7 +1965,7 @@ The fancy way of saying it is Perform Hermite interpolation between two values.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/Cyvm7z](https://cables.gl/edit/Cyvm7z)
+**Example:** [cables.gl/edit/Cyvm7z](https://cables.gl/edit/Cyvm7z)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySmoothStep](https://cables.gl/op/Ops.Array.ArraySmoothStep)
 
@@ -1984,7 +1984,7 @@ Return the square root of all values in the array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/g7ulSP](https://cables.gl/edit/g7ulSP)
+**Example:** [cables.gl/edit/g7ulSP](https://cables.gl/edit/g7ulSP)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySqrt](https://cables.gl/op/Ops.Array.ArraySqrt)
 
@@ -2006,7 +2006,7 @@ Create an array from multiple string.
 - **Result** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ArraysToArrayMultiPort#example](https://cables.gl/op/Ops.Array.ArraysToArrayMultiPort#example)
+**Example:** [cables.gl/op/Ops.Array.ArraysToArrayMultiPort#example](https://cables.gl/op/Ops.Array.ArraysToArrayMultiPort#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraysToArrayMultiPort](https://cables.gl/op/Ops.Array.ArraysToArrayMultiPort)
 
@@ -2026,7 +2026,7 @@ Subtract one number from all values in an array.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
+**Example:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySubtract](https://cables.gl/op/Ops.Array.ArraySubtract)
 
@@ -2046,7 +2046,7 @@ Add one number to all values in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
+**Example:** [cables.gl/edit/uIYNcn](https://cables.gl/edit/uIYNcn)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySum](https://cables.gl/op/Ops.Array.ArraySum)
 
@@ -2066,7 +2066,7 @@ Sum up every number in an array with the sum of the previous.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/udsvLu](https://cables.gl/edit/udsvLu)
+**Example:** [cables.gl/edit/udsvLu](https://cables.gl/edit/udsvLu)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySumPrevious](https://cables.gl/op/Ops.Array.ArraySumPrevious)
 
@@ -2085,7 +2085,7 @@ Sum of every number in an array.
 
 - **Sum** (Number)
 
-**Example Patch:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
+**Example:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySumUp](https://cables.gl/op/Ops.Array.ArraySumUp)
 
@@ -2104,7 +2104,7 @@ Manage/re-order components of an array (stride).
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/MFv6cy](https://cables.gl/edit/MFv6cy)
+**Example:** [cables.gl/edit/MFv6cy](https://cables.gl/edit/MFv6cy)
 
 **Doc:** [cables.gl/op/Ops.Array.ArraySwizzle](https://cables.gl/op/Ops.Array.ArraySwizzle)
 
@@ -2124,7 +2124,7 @@ Split an array up into an array of arrays.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/Bpx7ck](https://cables.gl/edit/Bpx7ck)
+**Example:** [cables.gl/edit/Bpx7ck](https://cables.gl/edit/Bpx7ck)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayToArrays](https://cables.gl/op/Ops.Array.ArrayToArrays)
 
@@ -2143,7 +2143,7 @@ Convert an array to a byte buffer (Uint8ClampedArray).
 
 - **Buffer** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ArrayToByteBuffer#example](https://cables.gl/op/Ops.Array.ArrayToByteBuffer#example)
+**Example:** [cables.gl/op/Ops.Array.ArrayToByteBuffer#example](https://cables.gl/op/Ops.Array.ArrayToByteBuffer#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayToByteBuffer](https://cables.gl/op/Ops.Array.ArrayToByteBuffer)
 
@@ -2164,7 +2164,7 @@ Join array values to a string (concat).
 
 - **Result** (String)
 
-**Example Patch:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
+**Example:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayToString_v3](https://cables.gl/op/Ops.Array.ArrayToString_v3)
 
@@ -2185,7 +2185,7 @@ Trigger an array.
 - **Trigger Out** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ArrayTrigger#example](https://cables.gl/op/Ops.Array.ArrayTrigger#example)
+**Example:** [cables.gl/op/Ops.Array.ArrayTrigger#example](https://cables.gl/op/Ops.Array.ArrayTrigger#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayTrigger](https://cables.gl/op/Ops.Array.ArrayTrigger)
 
@@ -2207,7 +2207,7 @@ Filter an array for duplicate items and returns all unique items in a new array.
 - **ArrayOut** (Array)
 - **Array Length Out** (Number)
 
-**Example Patch:** [cables.gl/edit/vIQlS-](https://cables.gl/edit/vIQlS-)
+**Example:** [cables.gl/edit/vIQlS-](https://cables.gl/edit/vIQlS-)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUnique](https://cables.gl/op/Ops.Array.ArrayUnique)
 
@@ -2226,7 +2226,7 @@ Return information about the count of "duplicates" in an array, as an object.
 
 - **ObjectOut** (Object)
 
-**Example Patch:** [cables.gl/edit/72VpS-](https://cables.gl/edit/72VpS-)
+**Example:** [cables.gl/edit/72VpS-](https://cables.gl/edit/72VpS-)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUniqueItemInfo](https://cables.gl/op/Ops.Array.ArrayUniqueItemInfo)
 
@@ -2247,7 +2247,7 @@ Unpack an xy array into separate arrays.
 - **Array 2 Out** (Array)
 - **Array Lengths** (Number)
 
-**Example Patch:** [cables.gl/edit/N00tci](https://cables.gl/edit/N00tci)
+**Example:** [cables.gl/edit/N00tci](https://cables.gl/edit/N00tci)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUnpack2](https://cables.gl/op/Ops.Array.ArrayUnpack2)
 
@@ -2269,7 +2269,7 @@ Split an xyz array into 3 individual arrays.
 - **Array 3 Out** (Array)
 - **Array Lengths** (Number)
 
-**Example Patch:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
+**Example:** [cables.gl/edit/lmn5Og](https://cables.gl/edit/lmn5Og)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUnpack3](https://cables.gl/op/Ops.Array.ArrayUnpack3)
 
@@ -2292,7 +2292,7 @@ Split an xyzw array into 4 individual arrays.
 - **Array 4 Out** (Array)
 - **Array Lengths** (Number)
 
-**Example Patch:** [cables.gl/edit/vl1N_M](https://cables.gl/edit/vl1N_M)
+**Example:** [cables.gl/edit/vl1N_M](https://cables.gl/edit/vl1N_M)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUnpack4](https://cables.gl/op/Ops.Array.ArrayUnpack4)
 
@@ -2312,7 +2312,7 @@ Insert/add/unshift a string to the beginning of an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/Ckkk7M](https://cables.gl/edit/Ckkk7M)
+**Example:** [cables.gl/edit/Ckkk7M](https://cables.gl/edit/Ckkk7M)
 
 **Doc:** [cables.gl/op/Ops.Array.ArrayUnshiftString](https://cables.gl/op/Ops.Array.ArrayUnshiftString)
 
@@ -2334,7 +2334,7 @@ Smooth/average values in an array.
 - **Smoothed Array** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/t8uSdn](https://cables.gl/edit/t8uSdn)
+**Example:** [cables.gl/edit/t8uSdn](https://cables.gl/edit/t8uSdn)
 
 **Doc:** [cables.gl/op/Ops.Array.AverageArray](https://cables.gl/op/Ops.Array.AverageArray)
 
@@ -2356,7 +2356,7 @@ Array filled with `0`, only one can be `1`.
 
 - **State Array** (Array)
 
-**Example Patch:** [cables.gl/edit/9oowlJ](https://cables.gl/edit/9oowlJ)
+**Example:** [cables.gl/edit/9oowlJ](https://cables.gl/edit/9oowlJ)
 
 **Doc:** [cables.gl/op/Ops.Array.BoolStateArray](https://cables.gl/op/Ops.Array.BoolStateArray)
 
@@ -2378,7 +2378,7 @@ Copy an array with a trigger, reset to use a default array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/JqSoH-](https://cables.gl/edit/JqSoH-)
+**Example:** [cables.gl/edit/JqSoH-](https://cables.gl/edit/JqSoH-)
 
 **Doc:** [cables.gl/op/Ops.Array.CopyArray](https://cables.gl/op/Ops.Array.CopyArray)
 
@@ -2393,7 +2393,7 @@ Create a copy of an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.CopyArraySimple#example](https://cables.gl/op/Ops.Array.CopyArraySimple#example)
+**Example:** [cables.gl/op/Ops.Array.CopyArraySimple#example](https://cables.gl/op/Ops.Array.CopyArraySimple#example)
 
 **Doc:** [cables.gl/op/Ops.Array.CopyArraySimple](https://cables.gl/op/Ops.Array.CopyArraySimple)
 
@@ -2415,7 +2415,7 @@ The array to crop.
 - **Cropped Array** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/UuuJH-](https://cables.gl/edit/UuuJH-)
+**Example:** [cables.gl/edit/UuuJH-](https://cables.gl/edit/UuuJH-)
 
 **Doc:** [cables.gl/op/Ops.Array.CropArray](https://cables.gl/op/Ops.Array.CropArray)
 
@@ -2437,7 +2437,7 @@ Remove elements from an array from the beginning and/or the end.
 - **Cut Array** (Array)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/VbqZTh](https://cables.gl/edit/VbqZTh)
+**Example:** [cables.gl/edit/VbqZTh](https://cables.gl/edit/VbqZTh)
 
 **Doc:** [cables.gl/op/Ops.Array.CutArray](https://cables.gl/op/Ops.Array.CutArray)
 
@@ -2459,7 +2459,7 @@ Apply easing curve to numbers in an array.
 
 - **Result Array** (Array)
 
-**Example Patch:** [cables.gl/edit/Mbwkf6](https://cables.gl/edit/Mbwkf6)
+**Example:** [cables.gl/edit/Mbwkf6](https://cables.gl/edit/Mbwkf6)
 
 **Doc:** [cables.gl/op/Ops.Array.EaseArray](https://cables.gl/op/Ops.Array.EaseArray)
 
@@ -2474,7 +2474,7 @@ Apply easing curve to numbers in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.EmptyArray#example](https://cables.gl/op/Ops.Array.EmptyArray#example)
+**Example:** [cables.gl/op/Ops.Array.EmptyArray#example](https://cables.gl/op/Ops.Array.EmptyArray#example)
 
 **Doc:** [cables.gl/op/Ops.Array.EmptyArray](https://cables.gl/op/Ops.Array.EmptyArray)
 
@@ -2495,7 +2495,7 @@ Fill an array with random duplicates.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/z4S3dz](https://cables.gl/edit/z4S3dz)
+**Example:** [cables.gl/edit/z4S3dz](https://cables.gl/edit/z4S3dz)
 
 **Doc:** [cables.gl/op/Ops.Array.FillArrayRandomDuplicates_v2](https://cables.gl/op/Ops.Array.FillArrayRandomDuplicates_v2)
 
@@ -2520,7 +2520,7 @@ Compare elements from an array and remove not matching ones.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/Z2dVoX](https://cables.gl/edit/Z2dVoX)
+**Example:** [cables.gl/edit/Z2dVoX](https://cables.gl/edit/Z2dVoX)
 
 **Doc:** [cables.gl/op/Ops.Array.FilterArray](https://cables.gl/op/Ops.Array.FilterArray)
 
@@ -2541,7 +2541,7 @@ Filter valid arrays.
 - **Last Valid Array** (Array)
 - **Is Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Array.FilterValidArray#example](https://cables.gl/op/Ops.Array.FilterValidArray#example)
+**Example:** [cables.gl/op/Ops.Array.FilterValidArray#example](https://cables.gl/op/Ops.Array.FilterValidArray#example)
 
 **Doc:** [cables.gl/op/Ops.Array.FilterValidArray](https://cables.gl/op/Ops.Array.FilterValidArray)
 
@@ -2560,7 +2560,7 @@ Create a new array with all sub-array elements concatenated into it.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/x6HFeT](https://cables.gl/edit/x6HFeT)
+**Example:** [cables.gl/edit/x6HFeT](https://cables.gl/edit/x6HFeT)
 
 **Doc:** [cables.gl/op/Ops.Array.FlattenArray](https://cables.gl/op/Ops.Array.FlattenArray)
 
@@ -2580,7 +2580,7 @@ Capture the current input and copy it to the output, even after a reload.
 
 - **Frozen Array** (Array)
 
-**Example Patch:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
+**Example:** [cables.gl/edit/MuPepX](https://cables.gl/edit/MuPepX)
 
 **Doc:** [cables.gl/op/Ops.Array.FreezeArray](https://cables.gl/op/Ops.Array.FreezeArray)
 
@@ -2600,7 +2600,7 @@ Only allow an array through if pass through is true.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/gOaDAH](https://cables.gl/edit/gOaDAH)
+**Example:** [cables.gl/edit/gOaDAH](https://cables.gl/edit/gOaDAH)
 
 **Doc:** [cables.gl/op/Ops.Array.GateArray_v2](https://cables.gl/op/Ops.Array.GateArray_v2)
 
@@ -2621,7 +2621,7 @@ Get an array of values by key of objects in an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/KQGGeT](https://cables.gl/edit/KQGGeT)
+**Example:** [cables.gl/edit/KQGGeT](https://cables.gl/edit/KQGGeT)
 
 **Doc:** [cables.gl/op/Ops.Array.GetValuesFromArrayOfObjects](https://cables.gl/op/Ops.Array.GetValuesFromArrayOfObjects)
 
@@ -2647,7 +2647,7 @@ Generate an RGBA array from up to 4 arrays (HSBA).
 - **Array Length** (Number)
 - **RGBA Tuple Length** (Number)
 
-**Example Patch:** [cables.gl/edit/jFyRM-](https://cables.gl/edit/jFyRM-)
+**Example:** [cables.gl/edit/jFyRM-](https://cables.gl/edit/jFyRM-)
 
 **Doc:** [cables.gl/op/Ops.Array.HSBtoRGBArray](https://cables.gl/op/Ops.Array.HSBtoRGBArray)
 
@@ -2668,7 +2668,7 @@ Min, Max and Average value from an array.
 - **Max** (Number)
 - **Average** (Number)
 
-**Example Patch:** [cables.gl/edit/qySZQx](https://cables.gl/edit/qySZQx)
+**Example:** [cables.gl/edit/qySZQx](https://cables.gl/edit/qySZQx)
 
 **Doc:** [cables.gl/op/Ops.Array.InfoArray](https://cables.gl/op/Ops.Array.InfoArray)
 
@@ -2693,7 +2693,7 @@ Min, Max and Average values of an array2.
 - **Max Y** (Number)
 - **Average Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Array.InfoArray2#example](https://cables.gl/op/Ops.Array.InfoArray2#example)
+**Example:** [cables.gl/op/Ops.Array.InfoArray2#example](https://cables.gl/op/Ops.Array.InfoArray2#example)
 
 **Doc:** [cables.gl/op/Ops.Array.InfoArray2](https://cables.gl/op/Ops.Array.InfoArray2)
 
@@ -2724,7 +2724,7 @@ Min, Max and Average values of an array3.
 - **Center Y** (Number)
 - **Center Z** (Number)
 
-**Example Patch:** [cables.gl/edit/tg7cRx](https://cables.gl/edit/tg7cRx)
+**Example:** [cables.gl/edit/tg7cRx](https://cables.gl/edit/tg7cRx)
 
 **Doc:** [cables.gl/op/Ops.Array.InfoArray3](https://cables.gl/op/Ops.Array.InfoArray3)
 
@@ -2747,7 +2747,7 @@ Interpolate between two arrays (lerp) - linear interpolation.
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/qU2GB3](https://cables.gl/edit/qU2GB3)
+**Example:** [cables.gl/edit/qU2GB3](https://cables.gl/edit/qU2GB3)
 
 **Doc:** [cables.gl/op/Ops.Array.InterpolateArrays](https://cables.gl/op/Ops.Array.InterpolateArrays)
 
@@ -2773,7 +2773,7 @@ Interpolate between two arrays, only a few numbers at the same time.
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/3GIOe6](https://cables.gl/edit/3GIOe6)
+**Example:** [cables.gl/edit/3GIOe6](https://cables.gl/edit/3GIOe6)
 
 **Doc:** [cables.gl/op/Ops.Array.InterpolateArraysRange](https://cables.gl/op/Ops.Array.InterpolateArraysRange)
 
@@ -2793,7 +2793,7 @@ Interpolate between all values of an array.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/dbUc-L](https://cables.gl/edit/dbUc-L)
+**Example:** [cables.gl/edit/dbUc-L](https://cables.gl/edit/dbUc-L)
 
 **Doc:** [cables.gl/op/Ops.Array.InterpolateNumbersArray](https://cables.gl/op/Ops.Array.InterpolateNumbersArray)
 
@@ -2815,7 +2815,7 @@ Get interpolated values between the indices of an array3x.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/Oqy2n7](https://cables.gl/edit/Oqy2n7)
+**Example:** [cables.gl/edit/Oqy2n7](https://cables.gl/edit/Oqy2n7)
 
 **Doc:** [cables.gl/op/Ops.Array.InterpolateNumbersArray3](https://cables.gl/op/Ops.Array.InterpolateNumbersArray3)
 
@@ -2840,7 +2840,7 @@ Generate spline using lissajous formulas.
 - **Total Points** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/Wa8TS3](https://cables.gl/edit/Wa8TS3)
+**Example:** [cables.gl/edit/Wa8TS3](https://cables.gl/edit/Wa8TS3)
 
 **Doc:** [cables.gl/op/Ops.Array.LissajouseSpline](https://cables.gl/op/Ops.Array.LissajouseSpline)
 
@@ -2859,7 +2859,7 @@ Make the 1st and last point of an array the same, good for closing splines and s
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/-x_dxN](https://cables.gl/edit/-x_dxN)
+**Example:** [cables.gl/edit/-x_dxN](https://cables.gl/edit/-x_dxN)
 
 **Doc:** [cables.gl/op/Ops.Array.LoopArray3](https://cables.gl/op/Ops.Array.LoopArray3)
 
@@ -2883,7 +2883,7 @@ Map values in an array from one range into another.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/ZQI6sU](https://cables.gl/edit/ZQI6sU)
+**Example:** [cables.gl/edit/ZQI6sU](https://cables.gl/edit/ZQI6sU)
 
 **Doc:** [cables.gl/op/Ops.Array.MapRangeArray](https://cables.gl/op/Ops.Array.MapRangeArray)
 
@@ -2904,7 +2904,7 @@ Create an array from multiple number inputs.
 - **Result** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/mCTLrh](https://cables.gl/edit/mCTLrh)
+**Example:** [cables.gl/edit/mCTLrh](https://cables.gl/edit/mCTLrh)
 
 **Doc:** [cables.gl/op/Ops.Array.NumbersToArrayMultiPort_v2](https://cables.gl/op/Ops.Array.NumbersToArrayMultiPort_v2)
 
@@ -2927,7 +2927,7 @@ Iterate over an array of objects.
 - **Index** (Number)
 - **Value** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Array.ObjectIteratorKeys#example](https://cables.gl/op/Ops.Array.ObjectIteratorKeys#example)
+**Example:** [cables.gl/op/Ops.Array.ObjectIteratorKeys#example](https://cables.gl/op/Ops.Array.ObjectIteratorKeys#example)
 
 **Doc:** [cables.gl/op/Ops.Array.ObjectIteratorKeys](https://cables.gl/op/Ops.Array.ObjectIteratorKeys)
 
@@ -2942,7 +2942,7 @@ Contains a collection of color palettes in groups of 5 in an array.
 
 - **Palette Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/zpLrSP](https://cables.gl/edit/zpLrSP)
+**Example:** [cables.gl/edit/zpLrSP](https://cables.gl/edit/zpLrSP)
 
 **Doc:** [cables.gl/op/Ops.Array.PaletteLibrary](https://cables.gl/op/Ops.Array.PaletteLibrary)
 
@@ -2966,7 +2966,7 @@ Create an array filled with Perlin noise values.
 - **Array Out** (Array)
 - **Array Length Out** (Number)
 
-**Example Patch:** [cables.gl/edit/Vm8fhL](https://cables.gl/edit/Vm8fhL)
+**Example:** [cables.gl/edit/Vm8fhL](https://cables.gl/edit/Vm8fhL)
 
 **Doc:** [cables.gl/op/Ops.Array.PerlinArray](https://cables.gl/op/Ops.Array.PerlinArray)
 
@@ -2988,7 +2988,7 @@ Coordinate generation like arrangement of leaves in some plants.
 
 - **Coordinates** (Array)
 
-**Example Patch:** [cables.gl/edit/1Pu9Tb](https://cables.gl/edit/1Pu9Tb)
+**Example:** [cables.gl/edit/1Pu9Tb](https://cables.gl/edit/1Pu9Tb)
 
 **Doc:** [cables.gl/op/Ops.Array.Phyllotaxis](https://cables.gl/op/Ops.Array.Phyllotaxis)
 
@@ -3020,7 +3020,7 @@ Create a random array of 1 to 4 dimensions.
 - **Chunks Amount** (Number)
 - **Array Length** (Number)
 
-**Example Patch:** [cables.gl/edit/jmm7N-](https://cables.gl/edit/jmm7N-)
+**Example:** [cables.gl/edit/jmm7N-](https://cables.gl/edit/jmm7N-)
 
 **Doc:** [cables.gl/op/Ops.Array.RandomNumbersArray_v4](https://cables.gl/op/Ops.Array.RandomNumbersArray_v4)
 
@@ -3040,7 +3040,7 @@ Generate an array filled with random english words.
 
 - **Words** (Array)
 
-**Example Patch:** [cables.gl/edit/VHW78i](https://cables.gl/edit/VHW78i)
+**Example:** [cables.gl/edit/VHW78i](https://cables.gl/edit/VHW78i)
 
 **Doc:** [cables.gl/op/Ops.Array.RandomWordsArray](https://cables.gl/op/Ops.Array.RandomWordsArray)
 
@@ -3063,7 +3063,7 @@ Remove points from an array, e.g. xth points, random, duplicates.
 
 - **Result Array** (Array)
 
-**Example Patch:** [cables.gl/edit/vgRDeT](https://cables.gl/edit/vgRDeT)
+**Example:** [cables.gl/edit/vgRDeT](https://cables.gl/edit/vgRDeT)
 
 **Doc:** [cables.gl/op/Ops.Array.ReduceArray3_v3](https://cables.gl/op/Ops.Array.ReduceArray3_v3)
 
@@ -3083,7 +3083,7 @@ Reverse an array with value triplets [x, y, z, ...].
 
 - **Reversed Array** (Array)
 
-**Example Patch:** [cables.gl/edit/1QJiVJ](https://cables.gl/edit/1QJiVJ)
+**Example:** [cables.gl/edit/1QJiVJ](https://cables.gl/edit/1QJiVJ)
 
 **Doc:** [cables.gl/op/Ops.Array.ReverseArray3](https://cables.gl/op/Ops.Array.ReverseArray3)
 
@@ -3106,7 +3106,7 @@ Array of fixed size, index is automatically incremented and restarts after reach
 - **Result** (Array)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/NwwS97](https://cables.gl/edit/NwwS97)
+**Example:** [cables.gl/edit/NwwS97](https://cables.gl/edit/NwwS97)
 
 **Doc:** [cables.gl/op/Ops.Array.RingBuffer](https://cables.gl/op/Ops.Array.RingBuffer)
 
@@ -3126,7 +3126,7 @@ Shift array contents based upon rotate amount.
 
 - **ArrayOut** (Array)
 
-**Example Patch:** [cables.gl/edit/r7Av7z](https://cables.gl/edit/r7Av7z)
+**Example:** [cables.gl/edit/r7Av7z](https://cables.gl/edit/r7Av7z)
 
 **Doc:** [cables.gl/op/Ops.Array.RotateArray](https://cables.gl/op/Ops.Array.RotateArray)
 
@@ -3156,7 +3156,7 @@ Route an array to an output port.
 - **Index 8 Array** (Array)
 - **Index 9 Array** (Array)
 
-**Example Patch:** [cables.gl/edit/pDYxX8](https://cables.gl/edit/pDYxX8)
+**Example:** [cables.gl/edit/pDYxX8](https://cables.gl/edit/pDYxX8)
 
 **Doc:** [cables.gl/op/Ops.Array.RouteArray](https://cables.gl/op/Ops.Array.RouteArray)
 
@@ -3179,7 +3179,7 @@ Change the number of an array at an index.
 - **Next** (Trigger)
 - **Values** (Array)
 
-**Example Patch:** [cables.gl/edit/WRrXSn](https://cables.gl/edit/WRrXSn)
+**Example:** [cables.gl/edit/WRrXSn](https://cables.gl/edit/WRrXSn)
 
 **Doc:** [cables.gl/op/Ops.Array.SetNumberArray](https://cables.gl/op/Ops.Array.SetNumberArray)
 
@@ -3203,7 +3203,7 @@ Set three values at position index in an array.
 
 - **Values** (Array)
 
-**Example Patch:** [cables.gl/edit/El3nlJ](https://cables.gl/edit/El3nlJ)
+**Example:** [cables.gl/edit/El3nlJ](https://cables.gl/edit/El3nlJ)
 
 **Doc:** [cables.gl/op/Ops.Array.SetNumbersArray3](https://cables.gl/op/Ops.Array.SetNumbersArray3)
 
@@ -3223,7 +3223,7 @@ Shuffle/Randomize the order of an array of triplets.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/tbdwsh](https://cables.gl/edit/tbdwsh)
+**Example:** [cables.gl/edit/tbdwsh](https://cables.gl/edit/tbdwsh)
 
 **Doc:** [cables.gl/op/Ops.Array.ShuffleArray3_v3](https://cables.gl/op/Ops.Array.ShuffleArray3_v3)
 
@@ -3243,7 +3243,7 @@ Randomize the order of elements inside an array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/doUssh](https://cables.gl/edit/doUssh)
+**Example:** [cables.gl/edit/doUssh](https://cables.gl/edit/doUssh)
 
 **Doc:** [cables.gl/op/Ops.Array.ShuffleArray_v3](https://cables.gl/op/Ops.Array.ShuffleArray_v3)
 
@@ -3267,7 +3267,7 @@ Create an array filled with Simplex noise values (Range: -1, 1).
 - **Array Out** (Array)
 - **Array Length Out** (Number)
 
-**Example Patch:** [cables.gl/edit/rNAlhL](https://cables.gl/edit/rNAlhL)
+**Example:** [cables.gl/edit/rNAlhL](https://cables.gl/edit/rNAlhL)
 
 **Doc:** [cables.gl/op/Ops.Array.SimplexArray](https://cables.gl/op/Ops.Array.SimplexArray)
 
@@ -3290,7 +3290,7 @@ Smooth out changes in values of an array.
 - **Next** (Trigger)
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/BgtGZK](https://cables.gl/edit/BgtGZK)
+**Example:** [cables.gl/edit/BgtGZK](https://cables.gl/edit/BgtGZK)
 
 **Doc:** [cables.gl/op/Ops.Array.SmoothArray](https://cables.gl/op/Ops.Array.SmoothArray)
 
@@ -3309,7 +3309,7 @@ Sort an array of numbers with one of two modes - ascending or descending.
 
 - **Sorted Array** (Array)
 
-**Example Patch:** [cables.gl/edit/M2f7RJ](https://cables.gl/edit/M2f7RJ)
+**Example:** [cables.gl/edit/M2f7RJ](https://cables.gl/edit/M2f7RJ)
 
 **Doc:** [cables.gl/op/Ops.Array.SortArray](https://cables.gl/op/Ops.Array.SortArray)
 
@@ -3330,7 +3330,7 @@ Sort an array with the lowest values of the selected component.
 - **Result** (Array)
 - **The sorted array** (new array)
 
-**Example Patch:** [cables.gl/edit/QS8qVJ](https://cables.gl/edit/QS8qVJ)
+**Example:** [cables.gl/edit/QS8qVJ](https://cables.gl/edit/QS8qVJ)
 
 **Doc:** [cables.gl/op/Ops.Array.SortArray3](https://cables.gl/op/Ops.Array.SortArray3)
 
@@ -3351,7 +3351,7 @@ Sort an array of objects by the values of a key.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/shtaz1](https://cables.gl/edit/shtaz1)
+**Example:** [cables.gl/edit/shtaz1](https://cables.gl/edit/shtaz1)
 
 **Doc:** [cables.gl/op/Ops.Array.SortArrayOfOjects](https://cables.gl/op/Ops.Array.SortArrayOfOjects)
 
@@ -3372,7 +3372,7 @@ Sort an array of numbers and also get sorted indices.
 - **Sorted Array** (Array)
 - **Sorted Indices** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.SortArrayWithIndices_v2#example](https://cables.gl/op/Ops.Array.SortArrayWithIndices_v2#example)
+**Example:** [cables.gl/op/Ops.Array.SortArrayWithIndices_v2#example](https://cables.gl/op/Ops.Array.SortArrayWithIndices_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Array.SortArrayWithIndices_v2](https://cables.gl/op/Ops.Array.SortArrayWithIndices_v2)
 
@@ -3392,7 +3392,7 @@ Return a number with the total distance between the points/items in an array3.
 
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/uOzMH7](https://cables.gl/edit/uOzMH7)
+**Example:** [cables.gl/edit/uOzMH7](https://cables.gl/edit/uOzMH7)
 
 **Doc:** [cables.gl/op/Ops.Array.SplineLengthArray3](https://cables.gl/op/Ops.Array.SplineLengthArray3)
 
@@ -3411,7 +3411,7 @@ Convert an array of splines to one "line stripped" array.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/_UiSmX](https://cables.gl/edit/_UiSmX)
+**Example:** [cables.gl/edit/_UiSmX](https://cables.gl/edit/_UiSmX)
 
 **Doc:** [cables.gl/op/Ops.Array.SplinesToLineStripArray](https://cables.gl/op/Ops.Array.SplinesToLineStripArray)
 
@@ -3436,7 +3436,7 @@ Parse a string into an array (create, split string, stringToArray).
 - **Parsed** (Trigger)
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
+**Example:** [cables.gl/edit/U4M4J5](https://cables.gl/edit/U4M4J5)
 
 **Doc:** [cables.gl/op/Ops.Array.StringToArray_v2](https://cables.gl/op/Ops.Array.StringToArray_v2)
 
@@ -3456,7 +3456,7 @@ Turn a string into an array of single characters or ASCII numbers.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/30a1rn](https://cables.gl/edit/30a1rn)
+**Example:** [cables.gl/edit/30a1rn](https://cables.gl/edit/30a1rn)
 
 **Doc:** [cables.gl/op/Ops.Array.StringToCharArray](https://cables.gl/op/Ops.Array.StringToCharArray)
 
@@ -3475,7 +3475,7 @@ Output an array containing a line number for every character.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.StringToLineNumberArray#example](https://cables.gl/op/Ops.Array.StringToLineNumberArray#example)
+**Example:** [cables.gl/op/Ops.Array.StringToLineNumberArray#example](https://cables.gl/op/Ops.Array.StringToLineNumberArray#example)
 
 **Doc:** [cables.gl/op/Ops.Array.StringToLineNumberArray](https://cables.gl/op/Ops.Array.StringToLineNumberArray)
 
@@ -3496,7 +3496,7 @@ For subdividing splines, smoothing lines using cubic bezier interpolation.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/RJiCqH](https://cables.gl/edit/RJiCqH)
+**Example:** [cables.gl/edit/RJiCqH](https://cables.gl/edit/RJiCqH)
 
 **Doc:** [cables.gl/op/Ops.Array.SubdivideArray1](https://cables.gl/op/Ops.Array.SubdivideArray1)
 
@@ -3525,7 +3525,7 @@ Switch between multiple arrays.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/4J2o8i](https://cables.gl/edit/4J2o8i)
+**Example:** [cables.gl/edit/4J2o8i](https://cables.gl/edit/4J2o8i)
 
 **Doc:** [cables.gl/op/Ops.Array.SwitchArray](https://cables.gl/op/Ops.Array.SwitchArray)
 
@@ -3547,7 +3547,7 @@ Switch between multiple input arrays.
 - **Number** (Array)
 - **Num Values** (Number)
 
-**Example Patch:** [cables.gl/edit/L7sKrh](https://cables.gl/edit/L7sKrh)
+**Example:** [cables.gl/edit/L7sKrh](https://cables.gl/edit/L7sKrh)
 
 **Doc:** [cables.gl/op/Ops.Array.SwitchArrayMultiPort_v2](https://cables.gl/op/Ops.Array.SwitchArrayMultiPort_v2)
 
@@ -3581,7 +3581,7 @@ Switch between multiple arrays on trigger.
 
 - **Out Array** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.SwitchArrayOnTrigger#example](https://cables.gl/op/Ops.Array.SwitchArrayOnTrigger#example)
+**Example:** [cables.gl/op/Ops.Array.SwitchArrayOnTrigger#example](https://cables.gl/op/Ops.Array.SwitchArrayOnTrigger#example)
 
 **Doc:** [cables.gl/op/Ops.Array.SwitchArrayOnTrigger](https://cables.gl/op/Ops.Array.SwitchArrayOnTrigger)
 
@@ -3605,7 +3605,7 @@ Store various textures in an array, starts at the beginning again when end reach
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Array.TextureBufferArray#example](https://cables.gl/op/Ops.Array.TextureBufferArray#example)
+**Example:** [cables.gl/op/Ops.Array.TextureBufferArray#example](https://cables.gl/op/Ops.Array.TextureBufferArray#example)
 
 **Doc:** [cables.gl/op/Ops.Array.TextureBufferArray](https://cables.gl/op/Ops.Array.TextureBufferArray)
 
@@ -3626,7 +3626,7 @@ Weave two arrays together (combine, join, merge).
 
 - **Combined Array** (Array)
 
-**Example Patch:** [cables.gl/edit/HSGq8i](https://cables.gl/edit/HSGq8i)
+**Example:** [cables.gl/edit/HSGq8i](https://cables.gl/edit/HSGq8i)
 
 **Doc:** [cables.gl/op/Ops.Array.WeaveArrays](https://cables.gl/op/Ops.Array.WeaveArrays)
 

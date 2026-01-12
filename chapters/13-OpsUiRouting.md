@@ -19,7 +19,7 @@ Patchfield cable routing helper for array cables.
 
 - **Array Out** (Array)
 
-**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
+**Example:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
 **Doc:** [cables.gl/op/Ops.Ui.Routing.RouteArray](https://cables.gl/op/Ops.Ui.Routing.RouteArray)
 
@@ -38,7 +38,7 @@ Patchfield cable routing helper for number cables.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
+**Example:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
 **Doc:** [cables.gl/op/Ops.Ui.Routing.RouteNumber](https://cables.gl/op/Ops.Ui.Routing.RouteNumber)
 
@@ -57,7 +57,7 @@ Patchfield cable routing helper for object cables.
 
 - **Array Out** (Object)
 
-**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
+**Example:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
 **Doc:** [cables.gl/op/Ops.Ui.Routing.RouteObject](https://cables.gl/op/Ops.Ui.Routing.RouteObject)
 
@@ -76,7 +76,7 @@ Patchfield cable routing helper for string cables.
 
 - **String** (String)
 
-**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
+**Example:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
 **Doc:** [cables.gl/op/Ops.Ui.Routing.RouteString](https://cables.gl/op/Ops.Ui.Routing.RouteString)
 
@@ -95,7 +95,7 @@ Routing Helper for trigger cables.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
+**Example:** [cables.gl/edit/CLMeDg](https://cables.gl/edit/CLMeDg)
 
 **Doc:** [cables.gl/op/Ops.Ui.Routing.RouteTrigger](https://cables.gl/op/Ops.Ui.Routing.RouteTrigger)
 

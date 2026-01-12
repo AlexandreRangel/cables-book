@@ -25,7 +25,7 @@ Add a custom event listener.
 - **Event Trigger** (Trigger)
 - **Event Object** (Object)
 
-**Example Patch:** [cables.gl/edit/9ixt13](https://cables.gl/edit/9ixt13)
+**Example:** [cables.gl/edit/9ixt13](https://cables.gl/edit/9ixt13)
 
 **Doc:** [cables.gl/op/Ops.Html.Event.ElementEventListener_v2](https://cables.gl/op/Ops.Html.Event.ElementEventListener_v2)
 
@@ -61,7 +61,7 @@ Listen to events of an element.
 - **Touch Cancel** (Trigger)
 - **Event Name** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Html.Event.ElementPointerEvents#example](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
+**Example:** [cables.gl/op/Ops.Html.Event.ElementPointerEvents#example](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents#example)
 
 **Doc:** [cables.gl/op/Ops.Html.Event.ElementPointerEvents](https://cables.gl/op/Ops.Html.Event.ElementPointerEvents)
 
@@ -87,7 +87,7 @@ listen to events on multiple html elements.
 - **Event Object** (Object)
 - **Event Element** (Object)
 
-**Example Patch:** [cables.gl/edit/4rKHP0](https://cables.gl/edit/4rKHP0)
+**Example:** [cables.gl/edit/4rKHP0](https://cables.gl/edit/4rKHP0)
 
 **Doc:** [cables.gl/op/Ops.Html.Event.ElementsArrayEventListener](https://cables.gl/op/Ops.Html.Event.ElementsArrayEventListener)
 
@@ -108,7 +108,7 @@ Prevents the default on a JavaScript event.
 - **Next** (Trigger)
 - **Event Out** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Html.Event.PreventDefault#example](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
+**Example:** [cables.gl/op/Ops.Html.Event.PreventDefault#example](https://cables.gl/op/Ops.Html.Event.PreventDefault#example)
 
 **Doc:** [cables.gl/op/Ops.Html.Event.PreventDefault](https://cables.gl/op/Ops.Html.Event.PreventDefault)
 
@@ -129,7 +129,7 @@ Stop a JavaScript event (bubbling / capturing).
 - **Next** (Trigger)
 - **Event Out** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Html.Event.StopPropagation#example](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
+**Example:** [cables.gl/op/Ops.Html.Event.StopPropagation#example](https://cables.gl/op/Ops.Html.Event.StopPropagation#example)
 
 **Doc:** [cables.gl/op/Ops.Html.Event.StopPropagation](https://cables.gl/op/Ops.Html.Event.StopPropagation)
 

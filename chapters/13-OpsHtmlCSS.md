@@ -26,7 +26,7 @@ Set CSS backdrop filter like blur, contrast, brightness, saturation.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/Tem67C](https://cables.gl/edit/Tem67C)
+**Example:** [cables.gl/edit/Tem67C](https://cables.gl/edit/Tem67C)
 
 **Doc:** [cables.gl/op/Ops.Html.Css.ElementBackDropFilter](https://cables.gl/op/Ops.Html.Css.ElementBackDropFilter)
 
@@ -50,7 +50,7 @@ Set CSS margins of a html element.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/op/Ops.Html.Css.ElementMargin#example](https://cables.gl/op/Ops.Html.Css.ElementMargin#example)
+**Example:** [cables.gl/op/Ops.Html.Css.ElementMargin#example](https://cables.gl/op/Ops.Html.Css.ElementMargin#example)
 
 **Doc:** [cables.gl/op/Ops.Html.Css.ElementMargin](https://cables.gl/op/Ops.Html.Css.ElementMargin)
 

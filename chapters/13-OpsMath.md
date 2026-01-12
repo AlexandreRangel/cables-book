@@ -20,7 +20,7 @@ Returns the absolute, positive value.
 - **Result** (Number)
 - **The absolute value of Number** (always positive)
 
-**Example Patch:** [cables.gl/edit/vtPZ7i](https://cables.gl/edit/vtPZ7i)
+**Example:** [cables.gl/edit/vtPZ7i](https://cables.gl/edit/vtPZ7i)
 
 **Doc:** [cables.gl/op/Ops.Math.Abs](https://cables.gl/op/Ops.Math.Abs)
 
@@ -43,7 +43,7 @@ Add to and multiply a number, set to current value.
 
 - **Current Value** (Number)
 
-**Example Patch:** [cables.gl/edit/Ejzvsx](https://cables.gl/edit/Ejzvsx)
+**Example:** [cables.gl/edit/Ejzvsx](https://cables.gl/edit/Ejzvsx)
 
 **Doc:** [cables.gl/op/Ops.Math.Accumulator](https://cables.gl/op/Ops.Math.Accumulator)
 
@@ -64,7 +64,7 @@ Add to and multiply a number, set to current value.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/cWh78i](https://cables.gl/edit/cWh78i)
+**Example:** [cables.gl/edit/cWh78i](https://cables.gl/edit/cWh78i)
 
 **Doc:** [cables.gl/op/Ops.Math.AddUp](https://cables.gl/op/Ops.Math.AddUp)
 
@@ -86,7 +86,7 @@ outputs the angle between two points (degree).
 
 - **Angle** (Number)
 
-**Example Patch:** [cables.gl/edit/aMsTGc](https://cables.gl/edit/aMsTGc)
+**Example:** [cables.gl/edit/aMsTGc](https://cables.gl/edit/aMsTGc)
 
 **Doc:** [cables.gl/op/Ops.Math.AngleBetweenPoints](https://cables.gl/op/Ops.Math.AngleBetweenPoints)
 
@@ -107,7 +107,7 @@ multiply every XYZ coordinate with a matrix.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Array3MultiplyMatrix#example](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix#example)
+**Example:** [cables.gl/op/Ops.Math.Array3MultiplyMatrix#example](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Array3MultiplyMatrix](https://cables.gl/op/Ops.Math.Array3MultiplyMatrix)
 
@@ -134,7 +134,7 @@ calculate 2d positions of an array3x.
 - **Next** (Trigger)
 - **Array2x** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Array3To2dProjection#example](https://cables.gl/op/Ops.Math.Array3To2dProjection#example)
+**Example:** [cables.gl/op/Ops.Math.Array3To2dProjection#example](https://cables.gl/op/Ops.Math.Array3To2dProjection#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Array3To2dProjection](https://cables.gl/op/Ops.Math.Array3To2dProjection)
 
@@ -156,7 +156,7 @@ Calculates the angle from a specified point to the coordinate origin.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Atan2#example](https://cables.gl/op/Ops.Math.Atan2#example)
+**Example:** [cables.gl/op/Ops.Math.Atan2#example](https://cables.gl/op/Ops.Math.Atan2#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Atan2](https://cables.gl/op/Ops.Math.Atan2)
 
@@ -176,7 +176,7 @@ average of last two values.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Average#example](https://cables.gl/op/Ops.Math.Average#example)
+**Example:** [cables.gl/op/Ops.Math.Average#example](https://cables.gl/op/Ops.Math.Average#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Average](https://cables.gl/op/Ops.Math.Average)
 
@@ -196,7 +196,7 @@ generate coordinates of a butterfly curve.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.ButterflyCurve#example](https://cables.gl/op/Ops.Math.ButterflyCurve#example)
+**Example:** [cables.gl/op/Ops.Math.ButterflyCurve#example](https://cables.gl/op/Ops.Math.ButterflyCurve#example)
 
 **Doc:** [cables.gl/op/Ops.Math.ButterflyCurve](https://cables.gl/op/Ops.Math.ButterflyCurve)
 
@@ -215,7 +215,7 @@ Returns the smallest integer greater than or equal to a given number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
+**Example:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
 **Doc:** [cables.gl/op/Ops.Math.Ceil](https://cables.gl/op/Ops.Math.Ceil)
 
@@ -236,7 +236,7 @@ x and y coordinates of a circle.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/edit/uAkdL5](https://cables.gl/edit/uAkdL5)
+**Example:** [cables.gl/edit/uAkdL5](https://cables.gl/edit/uAkdL5)
 
 **Doc:** [cables.gl/op/Ops.Math.CircleCoordinates](https://cables.gl/op/Ops.Math.CircleCoordinates)
 
@@ -258,7 +258,7 @@ Makes sure a value is within range cuts off the rest.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Clamp#example](https://cables.gl/op/Ops.Math.Clamp#example)
+**Example:** [cables.gl/op/Ops.Math.Clamp#example](https://cables.gl/op/Ops.Math.Clamp#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Clamp](https://cables.gl/op/Ops.Math.Clamp)
 
@@ -281,7 +281,7 @@ Calculates the cosine of an angle.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
+**Example:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
 
 **Doc:** [cables.gl/op/Ops.Math.Cosine](https://cables.gl/op/Ops.Math.Cosine)
 
@@ -309,7 +309,7 @@ Computes the cross product of two vec3's.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Cross#example](https://cables.gl/op/Ops.Math.Cross#example)
+**Example:** [cables.gl/op/Ops.Math.Cross#example](https://cables.gl/op/Ops.Math.Cross#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Cross](https://cables.gl/op/Ops.Math.Cross)
 
@@ -328,7 +328,7 @@ Converts a radian measurement to its corresponding value in degrees.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Degrees#example](https://cables.gl/op/Ops.Math.Degrees#example)
+**Example:** [cables.gl/op/Ops.Math.Degrees#example](https://cables.gl/op/Ops.Math.Degrees#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Degrees](https://cables.gl/op/Ops.Math.Degrees)
 
@@ -349,7 +349,7 @@ Calculates a vector (x and y) based on an angle in degrees.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/edit/k76YnO](https://cables.gl/edit/k76YnO)
+**Example:** [cables.gl/edit/k76YnO](https://cables.gl/edit/k76YnO)
 
 **Doc:** [cables.gl/op/Ops.Math.DegreeToVector](https://cables.gl/op/Ops.Math.DegreeToVector)
 
@@ -370,7 +370,7 @@ difference to the last value (previous, store).
 
 - **Delta** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Delta#example](https://cables.gl/op/Ops.Math.Delta#example)
+**Example:** [cables.gl/op/Ops.Math.Delta#example](https://cables.gl/op/Ops.Math.Delta#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Delta](https://cables.gl/op/Ops.Math.Delta)
 
@@ -396,7 +396,7 @@ add delta values to an clamped absolute value.
 
 - **Absolute Value** (Number)
 
-**Example Patch:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
+**Example:** [cables.gl/edit/hH8f_6](https://cables.gl/edit/hH8f_6)
 
 **Doc:** [cables.gl/op/Ops.Math.DeltaSum](https://cables.gl/op/Ops.Math.DeltaSum)
 
@@ -416,7 +416,7 @@ Difference between two numbers.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Difference#example](https://cables.gl/op/Ops.Math.Difference#example)
+**Example:** [cables.gl/op/Ops.Math.Difference#example](https://cables.gl/op/Ops.Math.Difference#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Difference](https://cables.gl/op/Ops.Math.Difference)
 
@@ -438,7 +438,7 @@ Calculates the Distance between two 2d points.
 
 - **Distance** (Number)
 
-**Example Patch:** [cables.gl/edit/7mTKgg](https://cables.gl/edit/7mTKgg)
+**Example:** [cables.gl/edit/7mTKgg](https://cables.gl/edit/7mTKgg)
 
 **Doc:** [cables.gl/op/Ops.Math.Distance2d](https://cables.gl/op/Ops.Math.Distance2d)
 
@@ -464,7 +464,7 @@ distance between two 3d points, calculated when triggered.
 - **Next** (Trigger)
 - **Distance** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Distance3d_v2#example](https://cables.gl/op/Ops.Math.Distance3d_v2#example)
+**Example:** [cables.gl/op/Ops.Math.Distance3d_v2#example](https://cables.gl/op/Ops.Math.Distance3d_v2#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Distance3d_v2](https://cables.gl/op/Ops.Math.Distance3d_v2)
 
@@ -484,7 +484,7 @@ Divides a number by another.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Divide#example](https://cables.gl/op/Ops.Math.Divide#example)
+**Example:** [cables.gl/op/Ops.Math.Divide#example](https://cables.gl/op/Ops.Math.Divide#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Divide](https://cables.gl/op/Ops.Math.Divide)
 
@@ -506,7 +506,7 @@ map a value to an easing curve.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/rLxYY6](https://cables.gl/edit/rLxYY6)
+**Example:** [cables.gl/edit/rLxYY6](https://cables.gl/edit/rLxYY6)
 
 **Doc:** [cables.gl/op/Ops.Math.Ease](https://cables.gl/op/Ops.Math.Ease)
 
@@ -525,7 +525,7 @@ Calculates the power of Euler’s number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Exp#example](https://cables.gl/op/Ops.Math.Exp#example)
+**Example:** [cables.gl/op/Ops.Math.Exp#example](https://cables.gl/op/Ops.Math.Exp#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Exp](https://cables.gl/op/Ops.Math.Exp)
 
@@ -544,7 +544,7 @@ positive numbers become negative and vice versa (negate).
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.FlipSign#example](https://cables.gl/op/Ops.Math.FlipSign#example)
+**Example:** [cables.gl/op/Ops.Math.FlipSign#example](https://cables.gl/op/Ops.Math.FlipSign#example)
 
 **Doc:** [cables.gl/op/Ops.Math.FlipSign](https://cables.gl/op/Ops.Math.FlipSign)
 
@@ -563,7 +563,7 @@ returns the largest integer less than or equal to a given number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
+**Example:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
 **Doc:** [cables.gl/op/Ops.Math.Floor](https://cables.gl/op/Ops.Math.Floor)
 
@@ -582,7 +582,7 @@ returns the fractional part of a number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/VWb2t7](https://cables.gl/edit/VWb2t7)
+**Example:** [cables.gl/edit/VWb2t7](https://cables.gl/edit/VWb2t7)
 
 **Doc:** [cables.gl/op/Ops.Math.Fract](https://cables.gl/op/Ops.Math.Fract)
 
@@ -603,7 +603,7 @@ random numbers fitting a Gaussian, or normal, distribution.
 
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/i14QNS](https://cables.gl/edit/i14QNS)
+**Example:** [cables.gl/edit/i14QNS](https://cables.gl/edit/i14QNS)
 
 **Doc:** [cables.gl/op/Ops.Math.GaussianRandomArray](https://cables.gl/op/Ops.Math.GaussianRandomArray)
 
@@ -629,7 +629,7 @@ increment a number by triggering.
 - **Value** (Number)
 - **Restarted** (Trigger)
 
-**Example Patch:** [cables.gl/edit/OdcvGu](https://cables.gl/edit/OdcvGu)
+**Example:** [cables.gl/edit/OdcvGu](https://cables.gl/edit/OdcvGu)
 
 **Doc:** [cables.gl/op/Ops.Math.Incrementor](https://cables.gl/op/Ops.Math.Incrementor)
 
@@ -649,7 +649,7 @@ return fraction of value by index.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/SV3NPO](https://cables.gl/edit/SV3NPO)
+**Example:** [cables.gl/edit/SV3NPO](https://cables.gl/edit/SV3NPO)
 
 **Doc:** [cables.gl/op/Ops.Math.IndexFraction](https://cables.gl/op/Ops.Math.IndexFraction)
 
@@ -670,7 +670,7 @@ Interpolate between values, lerp, linear interpolate.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Interpolate#example](https://cables.gl/op/Ops.Math.Interpolate#example)
+**Example:** [cables.gl/op/Ops.Math.Interpolate#example](https://cables.gl/op/Ops.Math.Interpolate#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Interpolate](https://cables.gl/op/Ops.Math.Interpolate)
 
@@ -689,7 +689,7 @@ detect if a number rising or falling.
 
 - **Rising** (Number)
 
-**Example Patch:** [cables.gl/edit/UN11cI](https://cables.gl/edit/UN11cI)
+**Example:** [cables.gl/edit/UN11cI](https://cables.gl/edit/UN11cI)
 
 **Doc:** [cables.gl/op/Ops.Math.IsNumberRising](https://cables.gl/op/Ops.Math.IsNumberRising)
 
@@ -708,7 +708,7 @@ Calculates the logarithm of Number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Log#example](https://cables.gl/op/Ops.Math.Log#example)
+**Example:** [cables.gl/op/Ops.Math.Log#example](https://cables.gl/op/Ops.Math.Log#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Log](https://cables.gl/op/Ops.Math.Log)
 
@@ -728,7 +728,7 @@ map geo locations (latitude - longitude) to spherical coordinates.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/BvXW5Q](https://cables.gl/edit/BvXW5Q)
+**Example:** [cables.gl/edit/BvXW5Q](https://cables.gl/edit/BvXW5Q)
 
 **Doc:** [cables.gl/op/Ops.Math.MapGeoCoordsSpherical](https://cables.gl/op/Ops.Math.MapGeoCoordsSpherical)
 
@@ -753,7 +753,7 @@ Maps a value from one range into another.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/YFIVGc](https://cables.gl/edit/YFIVGc)
+**Example:** [cables.gl/edit/YFIVGc](https://cables.gl/edit/YFIVGc)
 
 **Doc:** [cables.gl/op/Ops.Math.MapRange](https://cables.gl/op/Ops.Math.MapRange)
 
@@ -774,7 +774,7 @@ Allows different mathematical operations to be applied to two numbers.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/mTqdVJ](https://cables.gl/edit/mTqdVJ)
+**Example:** [cables.gl/edit/mTqdVJ](https://cables.gl/edit/mTqdVJ)
 
 **Doc:** [cables.gl/op/Ops.Math.Math](https://cables.gl/op/Ops.Math.Math)
 
@@ -798,7 +798,7 @@ calculates a user defined mathematical expression.
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/s5-tve](https://cables.gl/edit/s5-tve)
+**Example:** [cables.gl/edit/s5-tve](https://cables.gl/edit/s5-tve)
 
 **Doc:** [cables.gl/op/Ops.Math.MathExpression](https://cables.gl/op/Ops.Math.MathExpression)
 
@@ -818,7 +818,7 @@ Sets the output to the input value which is higher.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/hV3X7i](https://cables.gl/edit/hV3X7i)
+**Example:** [cables.gl/edit/hV3X7i](https://cables.gl/edit/hV3X7i)
 
 **Doc:** [cables.gl/op/Ops.Math.Max](https://cables.gl/op/Ops.Math.Max)
 
@@ -838,7 +838,7 @@ Outputs the maximum value since reset has been triggered.
 
 - **Maximum** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.MaxSinceReset#example](https://cables.gl/op/Ops.Math.MaxSinceReset#example)
+**Example:** [cables.gl/op/Ops.Math.MaxSinceReset#example](https://cables.gl/op/Ops.Math.MaxSinceReset#example)
 
 **Doc:** [cables.gl/op/Ops.Math.MaxSinceReset](https://cables.gl/op/Ops.Math.MaxSinceReset)
 
@@ -861,7 +861,7 @@ project mercator coordinates.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/edit/oi9AI4](https://cables.gl/edit/oi9AI4)
+**Example:** [cables.gl/edit/oi9AI4](https://cables.gl/edit/oi9AI4)
 
 **Doc:** [cables.gl/op/Ops.Math.MercatorCoord](https://cables.gl/op/Ops.Math.MercatorCoord)
 
@@ -883,7 +883,7 @@ Mercator map and center an array of latitudes and longitudes to a local coordina
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/vgRDeT](https://cables.gl/edit/vgRDeT)
+**Example:** [cables.gl/edit/vgRDeT](https://cables.gl/edit/vgRDeT)
 
 **Doc:** [cables.gl/op/Ops.Math.MercatorCoordsArray](https://cables.gl/op/Ops.Math.MercatorCoordsArray)
 
@@ -903,7 +903,7 @@ Result will be the smaller number of the inputs.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/rvAW7i](https://cables.gl/edit/rvAW7i)
+**Example:** [cables.gl/edit/rvAW7i](https://cables.gl/edit/rvAW7i)
 
 **Doc:** [cables.gl/op/Ops.Math.Min_v3](https://cables.gl/op/Ops.Math.Min_v3)
 
@@ -923,7 +923,7 @@ Outputs the minimum value since reset has been triggered.
 
 - **Minimum** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.MinSinceReset#example](https://cables.gl/op/Ops.Math.MinSinceReset#example)
+**Example:** [cables.gl/op/Ops.Math.MinSinceReset#example](https://cables.gl/op/Ops.Math.MinSinceReset#example)
 
 **Doc:** [cables.gl/op/Ops.Math.MinSinceReset](https://cables.gl/op/Ops.Math.MinSinceReset)
 
@@ -944,7 +944,7 @@ outputs the remainder after division of one number by another.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Modulo#example](https://cables.gl/op/Ops.Math.Modulo#example)
+**Example:** [cables.gl/op/Ops.Math.Modulo#example](https://cables.gl/op/Ops.Math.Modulo#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Modulo](https://cables.gl/op/Ops.Math.Modulo)
 
@@ -970,7 +970,7 @@ multiply XYZ values with a gl matrix vec3 x mat4.
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [cables.gl/edit/QlOcck](https://cables.gl/edit/QlOcck)
+**Example:** [cables.gl/edit/QlOcck](https://cables.gl/edit/QlOcck)
 
 **Doc:** [cables.gl/op/Ops.Math.MulMatrixXyz](https://cables.gl/op/Ops.Math.MulMatrixXyz)
 
@@ -990,7 +990,7 @@ Multiplies two numbers.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
+**Example:** [cables.gl/edit/0010r1](https://cables.gl/edit/0010r1)
 
 **Doc:** [cables.gl/op/Ops.Math.Multiply](https://cables.gl/op/Ops.Math.Multiply)
 
@@ -1014,7 +1014,7 @@ multiply three numbers.
 - **ResultG** (Number)
 - **ResultB** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Multiply3Numbers#example](https://cables.gl/op/Ops.Math.Multiply3Numbers#example)
+**Example:** [cables.gl/op/Ops.Math.Multiply3Numbers#example](https://cables.gl/op/Ops.Math.Multiply3Numbers#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Multiply3Numbers](https://cables.gl/op/Ops.Math.Multiply3Numbers)
 
@@ -1037,7 +1037,7 @@ normalize a vector.
 - **Result Y** (Number)
 - **Result Z** (Number)
 
-**Example Patch:** [cables.gl/edit/O8S5O8](https://cables.gl/edit/O8S5O8)
+**Example:** [cables.gl/edit/O8S5O8](https://cables.gl/edit/O8S5O8)
 
 **Doc:** [cables.gl/op/Ops.Math.Normalize](https://cables.gl/op/Ops.Math.Normalize)
 
@@ -1057,7 +1057,7 @@ is a number capable of being divided.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/-IqoJ5](https://cables.gl/edit/-IqoJ5)
+**Example:** [cables.gl/edit/-IqoJ5](https://cables.gl/edit/-IqoJ5)
 
 **Doc:** [cables.gl/op/Ops.Math.NumberDivisible](https://cables.gl/op/Ops.Math.NumberDivisible)
 
@@ -1076,7 +1076,7 @@ subtract a number from one.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
+**Example:** [cables.gl/edit/8-XQ5d](https://cables.gl/edit/8-XQ5d)
 
 **Doc:** [cables.gl/op/Ops.Math.OneMinus](https://cables.gl/op/Ops.Math.OneMinus)
 
@@ -1099,7 +1099,7 @@ outputs a perlin noise value like random.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/gOCdhL](https://cables.gl/edit/gOCdhL)
+**Example:** [cables.gl/edit/gOCdhL](https://cables.gl/edit/gOCdhL)
 
 **Doc:** [cables.gl/op/Ops.Math.PerlinNoise_v2](https://cables.gl/op/Ops.Math.PerlinNoise_v2)
 
@@ -1118,7 +1118,7 @@ returns PI (3.141592653589793) * multiply amount.
 
 - **Pi** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Pi#example](https://cables.gl/op/Ops.Math.Pi#example)
+**Example:** [cables.gl/op/Ops.Math.Pi#example](https://cables.gl/op/Ops.Math.Pi#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Pi](https://cables.gl/op/Ops.Math.Pi)
 
@@ -1144,7 +1144,7 @@ test if a point is in or outside of a rectangle.
 - **Pos X** (Number)
 - **Pos Y** (Number)
 
-**Example Patch:** [cables.gl/edit/dG4B98](https://cables.gl/edit/dG4B98)
+**Example:** [cables.gl/edit/dG4B98](https://cables.gl/edit/dG4B98)
 
 **Doc:** [cables.gl/op/Ops.Math.PointInRectangle2d](https://cables.gl/op/Ops.Math.PointInRectangle2d)
 
@@ -1164,7 +1164,7 @@ value of x to the power of y.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Pow#example](https://cables.gl/op/Ops.Math.Pow#example)
+**Example:** [cables.gl/op/Ops.Math.Pow#example](https://cables.gl/op/Ops.Math.Pow#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Pow](https://cables.gl/op/Ops.Math.Pow)
 
@@ -1186,7 +1186,7 @@ Return the next values as power of two.
 - **Width Result** (Number)
 - **Height Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.PowerOfTwoSize#example](https://cables.gl/op/Ops.Math.PowerOfTwoSize#example)
+**Example:** [cables.gl/op/Ops.Math.PowerOfTwoSize#example](https://cables.gl/op/Ops.Math.PowerOfTwoSize#example)
 
 **Doc:** [cables.gl/op/Ops.Math.PowerOfTwoSize](https://cables.gl/op/Ops.Math.PowerOfTwoSize)
 
@@ -1205,7 +1205,7 @@ Converts a degree measurement to its corresponding value in radians.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Radians#example](https://cables.gl/op/Ops.Math.Radians#example)
+**Example:** [cables.gl/op/Ops.Math.Radians#example](https://cables.gl/op/Ops.Math.Radians#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Radians](https://cables.gl/op/Ops.Math.Radians)
 
@@ -1226,7 +1226,7 @@ add up random numbers by triggering.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/I8AxeE](https://cables.gl/edit/I8AxeE)
+**Example:** [cables.gl/edit/I8AxeE](https://cables.gl/edit/I8AxeE)
 
 **Doc:** [cables.gl/op/Ops.Math.RandomCounter](https://cables.gl/op/Ops.Math.RandomCounter)
 
@@ -1250,7 +1250,7 @@ Simple way to get random numbers without using arrays.
 - **Z** (Number)
 - **W** (Number)
 
-**Example Patch:** [cables.gl/edit/W_z9bI](https://cables.gl/edit/W_z9bI)
+**Example:** [cables.gl/edit/W_z9bI](https://cables.gl/edit/W_z9bI)
 
 **Doc:** [cables.gl/op/Ops.Math.RandomNumbers_v3](https://cables.gl/op/Ops.Math.RandomNumbers_v3)
 
@@ -1271,7 +1271,7 @@ Random number generator from a string seed.
 - **Random Value** (Number)
 - **Random Numbers** (Array)
 
-**Example Patch:** [cables.gl/edit/aAaJgt](https://cables.gl/edit/aAaJgt)
+**Example:** [cables.gl/edit/aAaJgt](https://cables.gl/edit/aAaJgt)
 
 **Doc:** [cables.gl/op/Ops.Math.RandomNumbersFromString](https://cables.gl/op/Ops.Math.RandomNumbersFromString)
 
@@ -1293,7 +1293,7 @@ Create rotation matrix from normal.
 
 - **RotationMatrix** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Math.RotationFromNormal#example](https://cables.gl/op/Ops.Math.RotationFromNormal#example)
+**Example:** [cables.gl/op/Ops.Math.RotationFromNormal#example](https://cables.gl/op/Ops.Math.RotationFromNormal#example)
 
 **Doc:** [cables.gl/op/Ops.Math.RotationFromNormal](https://cables.gl/op/Ops.Math.RotationFromNormal)
 
@@ -1313,7 +1313,7 @@ Outputs number rounded to the nearest integer.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
+**Example:** [cables.gl/edit/nPvVW2](https://cables.gl/edit/nPvVW2)
 
 **Doc:** [cables.gl/op/Ops.Math.Round](https://cables.gl/op/Ops.Math.Round)
 
@@ -1333,7 +1333,7 @@ round to the next even number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/a0z7hL](https://cables.gl/edit/a0z7hL)
+**Example:** [cables.gl/edit/a0z7hL](https://cables.gl/edit/a0z7hL)
 
 **Doc:** [cables.gl/op/Ops.Math.RoundEven](https://cables.gl/op/Ops.Math.RoundEven)
 
@@ -1354,7 +1354,7 @@ Custom easing curve via schlick bias and gain.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/FO9IG3](https://cables.gl/edit/FO9IG3)
+**Example:** [cables.gl/edit/FO9IG3](https://cables.gl/edit/FO9IG3)
 
 **Doc:** [cables.gl/op/Ops.Math.SchlickBias](https://cables.gl/op/Ops.Math.SchlickBias)
 
@@ -1374,7 +1374,7 @@ get sign of value.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
+**Example:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
 **Doc:** [cables.gl/op/Ops.Math.Sign](https://cables.gl/op/Ops.Math.Sign)
 
@@ -1394,7 +1394,7 @@ Calculate the Average of the last X values.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.SimpleMovingAverage#example](https://cables.gl/op/Ops.Math.SimpleMovingAverage#example)
+**Example:** [cables.gl/op/Ops.Math.SimpleMovingAverage#example](https://cables.gl/op/Ops.Math.SimpleMovingAverage#example)
 
 **Doc:** [cables.gl/op/Ops.Math.SimpleMovingAverage](https://cables.gl/op/Ops.Math.SimpleMovingAverage)
 
@@ -1417,7 +1417,7 @@ Calculates the sine of an angle.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
+**Example:** [cables.gl/edit/RhfUW2](https://cables.gl/edit/RhfUW2)
 
 **Doc:** [cables.gl/op/Ops.Math.Sine](https://cables.gl/op/Ops.Math.Sine)
 
@@ -1437,7 +1437,7 @@ measure speed of how much a value changes.
 
 - **Speed** (Number)
 
-**Example Patch:** [cables.gl/edit/Sgmd39](https://cables.gl/edit/Sgmd39)
+**Example:** [cables.gl/edit/Sgmd39](https://cables.gl/edit/Sgmd39)
 
 **Doc:** [cables.gl/op/Ops.Math.Speed](https://cables.gl/op/Ops.Math.Speed)
 
@@ -1456,7 +1456,7 @@ square root of a number.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Sqrt#example](https://cables.gl/op/Ops.Math.Sqrt#example)
+**Example:** [cables.gl/op/Ops.Math.Sqrt#example](https://cables.gl/op/Ops.Math.Sqrt#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Sqrt](https://cables.gl/op/Ops.Math.Sqrt)
 
@@ -1476,7 +1476,7 @@ Subtracts Number2 from Number1 (minus, -).
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Subtract#example](https://cables.gl/op/Ops.Math.Subtract#example)
+**Example:** [cables.gl/op/Ops.Math.Subtract#example](https://cables.gl/op/Ops.Math.Subtract#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Subtract](https://cables.gl/op/Ops.Math.Subtract)
 
@@ -1496,7 +1496,7 @@ Result of the addition.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/P7d1r1](https://cables.gl/edit/P7d1r1)
+**Example:** [cables.gl/edit/P7d1r1](https://cables.gl/edit/P7d1r1)
 
 **Doc:** [cables.gl/op/Ops.Math.Sum](https://cables.gl/op/Ops.Math.Sum)
 
@@ -1519,7 +1519,7 @@ Calculates the ratio of the sine and cosine of an angle.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Tangent#example](https://cables.gl/op/Ops.Math.Tangent#example)
+**Example:** [cables.gl/op/Ops.Math.Tangent#example](https://cables.gl/op/Ops.Math.Tangent#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Tangent](https://cables.gl/op/Ops.Math.Tangent)
 
@@ -1550,7 +1550,7 @@ calculates a user defined mathematical expression.
 - **Result** (Number)
 - **Expression Valid** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/6K7A5f](https://cables.gl/edit/6K7A5f)
+**Example:** [cables.gl/edit/6K7A5f](https://cables.gl/edit/6K7A5f)
 
 **Doc:** [cables.gl/op/Ops.Math.TriggerMathExpression](https://cables.gl/op/Ops.Math.TriggerMathExpression)
 
@@ -1574,7 +1574,7 @@ Generate random number between min and max.
 - **Next** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/s3FP7f](https://cables.gl/edit/s3FP7f)
+**Example:** [cables.gl/edit/s3FP7f](https://cables.gl/edit/s3FP7f)
 
 **Doc:** [cables.gl/op/Ops.Math.TriggerRandomNumber_v3](https://cables.gl/op/Ops.Math.TriggerRandomNumber_v3)
 
@@ -1595,7 +1595,7 @@ length of a vector.
 
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.VectorLength#example](https://cables.gl/op/Ops.Math.VectorLength#example)
+**Example:** [cables.gl/op/Ops.Math.VectorLength#example](https://cables.gl/op/Ops.Math.VectorLength#example)
 
 **Doc:** [cables.gl/op/Ops.Math.VectorLength](https://cables.gl/op/Ops.Math.VectorLength)
 

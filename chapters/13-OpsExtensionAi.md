@@ -23,7 +23,7 @@
 - **Jcju8npa2** (booleanNumber)
 - **Ozg9pnd1z** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Ai.LLmModelList#example](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
+**Example:** [cables.gl/op/Ops.Extension.Ai.LLmModelList#example](https://cables.gl/op/Ops.Extension.Ai.LLmModelList#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Ai.LLmModelList](https://cables.gl/op/Ops.Extension.Ai.LLmModelList)
 
@@ -50,7 +50,7 @@
 - **Xs18z73z0** (booleanNumber)
 - **Aosval1gx** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Ai.LlmPrompt#example](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
+**Example:** [cables.gl/op/Ops.Extension.Ai.LlmPrompt#example](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Ai.LlmPrompt](https://cables.gl/op/Ops.Extension.Ai.LlmPrompt)
 

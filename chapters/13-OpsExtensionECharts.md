@@ -36,7 +36,7 @@ wrapper for echarts-library.
 - **Chart Updated** (Trigger)
 - **Theme Changed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
+**Example:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
 
 **Doc:** [cables.gl/op/Ops.Extension.ECharts.ECharts](https://cables.gl/op/Ops.Extension.ECharts.ECharts)
 
@@ -61,7 +61,7 @@ capture echart-library-events.
 - **Trigger** (Trigger)
 - **Event Params** (Object)
 
-**Example Patch:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
+**Example:** [cables.gl/edit/iY6lbI](https://cables.gl/edit/iY6lbI)
 
 **Doc:** [cables.gl/op/Ops.Extension.ECharts.EChartsEvent](https://cables.gl/op/Ops.Extension.ECharts.EChartsEvent)
 

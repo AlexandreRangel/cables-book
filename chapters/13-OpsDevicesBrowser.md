@@ -36,7 +36,7 @@ Reports the browser being used.
 - **User Agent** (String)
 - **Platform Object** (Object)
 
-**Example Patch:** [cables.gl/edit/YOJiIk](https://cables.gl/edit/YOJiIk)
+**Example:** [cables.gl/edit/YOJiIk](https://cables.gl/edit/YOJiIk)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3](https://cables.gl/op/Ops.Devices.Browser.BrowserInfo_v3)
 
@@ -54,7 +54,7 @@ Get light/dark color scheme preference of the browser.
 - **Light Mode** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/An48HJ](https://cables.gl/edit/An48HJ)
+**Example:** [cables.gl/edit/An48HJ](https://cables.gl/edit/An48HJ)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.ColorScheme](https://cables.gl/op/Ops.Devices.Browser.ColorScheme)
 
@@ -70,7 +70,7 @@ Move back or forward in the browser navigation history.
 - **Back** (Trigger)
 - **Forward** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Devices.Browser.History#example](https://cables.gl/op/Ops.Devices.Browser.History#example)
+**Example:** [cables.gl/op/Ops.Devices.Browser.History#example](https://cables.gl/op/Ops.Devices.Browser.History#example)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.History](https://cables.gl/op/Ops.Devices.Browser.History)
 
@@ -93,7 +93,7 @@ evaluate a javascript expression.
 - **Result Object** (Object)
 - **Error** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/gpp4O8](https://cables.gl/edit/gpp4O8)
+**Example:** [cables.gl/edit/gpp4O8](https://cables.gl/edit/gpp4O8)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.JsExpression](https://cables.gl/op/Ops.Devices.Browser.JsExpression)
 
@@ -113,7 +113,7 @@ browser js memory consumption.
 - **Used Heap Size** (Number)
 - **Total Heap Size** (Number)
 
-**Example Patch:** [cables.gl/edit/_UyS0f](https://cables.gl/edit/_UyS0f)
+**Example:** [cables.gl/edit/_UyS0f](https://cables.gl/edit/_UyS0f)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.JsMemory](https://cables.gl/op/Ops.Devices.Browser.JsMemory)
 
@@ -136,7 +136,7 @@ detect if the user interacted with or activated the page.
 - **User Is Active** (booleanNumber)
 - **Supported** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/3S26Qc](https://cables.gl/edit/3S26Qc)
+**Example:** [cables.gl/edit/3S26Qc](https://cables.gl/edit/3S26Qc)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.UserActivation](https://cables.gl/op/Ops.Devices.Browser.UserActivation)
 
@@ -162,7 +162,7 @@ Opens a sharing dialog to share text and images.
 - **Status** (String)
 - **Supported** (Number)
 
-**Example Patch:** [cables.gl/edit/pQ49m4](https://cables.gl/edit/pQ49m4)
+**Example:** [cables.gl/edit/pQ49m4](https://cables.gl/edit/pQ49m4)
 
 **Doc:** [cables.gl/op/Ops.Devices.Browser.WebShare](https://cables.gl/op/Ops.Devices.Browser.WebShare)
 

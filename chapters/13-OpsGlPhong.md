@@ -23,7 +23,7 @@ ambient light for phong material shading.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/g3ioXU](https://cables.gl/edit/g3ioXU)
+**Example:** [cables.gl/edit/g3ioXU](https://cables.gl/edit/g3ioXU)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.AmbientLight_v4](https://cables.gl/op/Ops.Gl.Phong.AmbientLight_v4)
 
@@ -73,7 +73,7 @@ Directional light for phong shading.
 - **Trigger Out** (Trigger)
 - **Shadow Map** (Object)
 
-**Example Patch:** [cables.gl/edit/nEWpXU](https://cables.gl/edit/nEWpXU)
+**Example:** [cables.gl/edit/nEWpXU](https://cables.gl/edit/nEWpXU)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5](https://cables.gl/op/Ops.Gl.Phong.DirectionalLight_v5)
 
@@ -99,7 +99,7 @@ a simple shaded material.
 - **Next** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/PAvm26](https://cables.gl/edit/PAvm26)
+**Example:** [cables.gl/edit/PAvm26](https://cables.gl/edit/PAvm26)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2](https://cables.gl/op/Ops.Gl.Phong.LambertMaterial_v2)
 
@@ -160,7 +160,7 @@ A shaded material for lighting objects.
 - **Trigger Out** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/L3HqYa](https://cables.gl/edit/L3HqYa)
+**Example:** [cables.gl/edit/L3HqYa](https://cables.gl/edit/L3HqYa)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6](https://cables.gl/op/Ops.Gl.Phong.PhongMaterial_v6)
 
@@ -203,7 +203,7 @@ Point light for phong shading.
 - **World Position Y** (Number)
 - **World Position Z** (Number)
 
-**Example Patch:** [cables.gl/edit/MybtXU](https://cables.gl/edit/MybtXU)
+**Example:** [cables.gl/edit/MybtXU](https://cables.gl/edit/MybtXU)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.PointLight_v5](https://cables.gl/op/Ops.Gl.Phong.PointLight_v5)
 
@@ -223,7 +223,7 @@ reset lights for everything triggered after.
 
 - **Trigger Out** (Trigger)
 
-**Example Patch:** [cables.gl/edit/eU7obI](https://cables.gl/edit/eU7obI)
+**Example:** [cables.gl/edit/eU7obI](https://cables.gl/edit/eU7obI)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.ResetLights](https://cables.gl/op/Ops.Gl.Phong.ResetLights)
 
@@ -268,7 +268,7 @@ spot light that emits a cone of light.
 - **World Position Y** (Number)
 - **World Position Z** (Number)
 
-**Example Patch:** [cables.gl/edit/D5evXU](https://cables.gl/edit/D5evXU)
+**Example:** [cables.gl/edit/D5evXU](https://cables.gl/edit/D5evXU)
 
 **Doc:** [cables.gl/op/Ops.Gl.Phong.SpotLight_v5](https://cables.gl/op/Ops.Gl.Phong.SpotLight_v5)
 

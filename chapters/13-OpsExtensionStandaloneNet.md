@@ -24,7 +24,7 @@ Create a Web/Http server locally.
 - **Request** (Object)
 - **Running** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/lke9pn](https://cables.gl/edit/lke9pn)
+**Example:** [cables.gl/edit/lke9pn](https://cables.gl/edit/lke9pn)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.HttpServer](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServer)
 
@@ -41,7 +41,7 @@ Answer http requests by sending string to the browser/client.
 - **Response** (Object)
 - **Body** (String)
 
-**Example Patch:** [cables.gl/edit/lke9pn](https://cables.gl/edit/lke9pn)
+**Example:** [cables.gl/edit/lke9pn](https://cables.gl/edit/lke9pn)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse](https://cables.gl/op/Ops.Extension.Standalone.Net.HttpServerResponse)
 
@@ -58,7 +58,7 @@ Outputs your local IP Adress.
 - **Interface** (String)
 - **Data** (Object)
 
-**Example Patch:** [cables.gl/edit/lCYxun](https://cables.gl/edit/lCYxun)
+**Example:** [cables.gl/edit/lCYxun](https://cables.gl/edit/lCYxun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.IpAddress](https://cables.gl/op/Ops.Extension.Standalone.Net.IpAddress)
 
@@ -80,7 +80,7 @@ Outputs your local IP Adress.
 - **Connection** (Object)
 - **Status** (String)
 
-**Example Patch:** [cables.gl/edit/PCZCun](https://cables.gl/edit/PCZCun)
+**Example:** [cables.gl/edit/PCZCun](https://cables.gl/edit/PCZCun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2](https://cables.gl/op/Ops.Extension.Standalone.Net.Osc_v2)
 
@@ -101,7 +101,7 @@ send data to a OSC device.
 - **Send** (Trigger)
 - **Public** (1): OSC: READ / SEND
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.OscSend](https://cables.gl/op/Ops.Extension.Standalone.Net.OscSend)
 
@@ -124,7 +124,7 @@ Read a text file as string from the local file system.
 - **Has Error** (booleanNumber)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
+**Example:** [cables.gl/edit/PT9Aun](https://cables.gl/edit/PT9Aun)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.ReadTextFile](https://cables.gl/op/Ops.Extension.Standalone.Net.ReadTextFile)
 
@@ -150,7 +150,7 @@ start a socketcluster server.
 - **Clients** (Number)
 - **Error** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example)
+**Example:** [cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer](https://cables.gl/op/Ops.Extension.Standalone.Net.SocketClusterServer)
 

@@ -20,7 +20,7 @@ convert and download an array of numbers as an .exr image file.
 - **Filename** (String)
 - **Download** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PoAXNA](https://cables.gl/edit/PoAXNA)
+**Example:** [cables.gl/edit/PoAXNA](https://cables.gl/edit/PoAXNA)
 
 **Doc:** [cables.gl/op/Ops.Graphics.ArrayToExr](https://cables.gl/op/Ops.Graphics.ArrayToExr)
 
@@ -42,7 +42,7 @@ change depth testing method (depthMask,depthWrite,depthFunc).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/A9PD8i](https://cables.gl/edit/A9PD8i)
+**Example:** [cables.gl/edit/A9PD8i](https://cables.gl/edit/A9PD8i)
 
 **Doc:** [cables.gl/op/Ops.Graphics.DepthTest](https://cables.gl/op/Ops.Graphics.DepthTest)
 
@@ -62,7 +62,7 @@ merge two geometries into one.
 
 - **Geometry Result** (Object)
 
-**Example Patch:** [cables.gl/edit/4gsNve](https://cables.gl/edit/4gsNve)
+**Example:** [cables.gl/edit/4gsNve](https://cables.gl/edit/4gsNve)
 
 **Doc:** [cables.gl/op/Ops.Graphics.GeometryMergeSimple](https://cables.gl/op/Ops.Graphics.GeometryMergeSimple)
 
@@ -82,7 +82,7 @@ get the id/index of the current set material.
 - **Next** (Trigger)
 - **Material Id** (Number)
 
-**Example Patch:** [cables.gl/edit/PYpQit](https://cables.gl/edit/PYpQit)
+**Example:** [cables.gl/edit/PYpQit](https://cables.gl/edit/PYpQit)
 
 **Doc:** [cables.gl/op/Ops.Graphics.GetMaterialId](https://cables.gl/op/Ops.Graphics.GetMaterialId)
 
@@ -102,7 +102,7 @@ get the id/index of the current object/mesh.
 - **Next** (Trigger)
 - **Material Id** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Graphics.GetObjectId#example](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
+**Example:** [cables.gl/op/Ops.Graphics.GetObjectId#example](https://cables.gl/op/Ops.Graphics.GetObjectId#example)
 
 **Doc:** [cables.gl/op/Ops.Graphics.GetObjectId](https://cables.gl/op/Ops.Graphics.GetObjectId)
 
@@ -141,7 +141,7 @@ rotate your object by clicking and dragging the mouse.
 - **Rot X** (Number)
 - **Rot Y** (Number)
 
-**Example Patch:** [cables.gl/edit/Krorsh](https://cables.gl/edit/Krorsh)
+**Example:** [cables.gl/edit/Krorsh](https://cables.gl/edit/Krorsh)
 
 **Doc:** [cables.gl/op/Ops.Graphics.OrbitControls_v3](https://cables.gl/op/Ops.Graphics.OrbitControls_v3)
 
@@ -167,7 +167,7 @@ Transform objects in 3d space (rotate, translate, scale).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/o741ft](https://cables.gl/edit/o741ft)
+**Example:** [cables.gl/edit/o741ft](https://cables.gl/edit/o741ft)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Transform](https://cables.gl/op/Ops.Graphics.Transform)
 
@@ -193,7 +193,7 @@ the most simple camera op / transform the viewmatrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/0GAv8i](https://cables.gl/edit/0GAv8i)
+**Example:** [cables.gl/edit/0GAv8i](https://cables.gl/edit/0GAv8i)
 
 **Doc:** [cables.gl/op/Ops.Graphics.TransformView](https://cables.gl/op/Ops.Graphics.TransformView)
 

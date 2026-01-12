@@ -19,7 +19,7 @@ Load OTF & TTF fonts via OpenType library.
 
 - **Opentype Font** (Object)
 
-**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
+**Example:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
 **Doc:** [cables.gl/op/Ops.Extension.OpenType.OpentypeFont](https://cables.gl/op/Ops.Extension.OpenType.OpentypeFont)
 
@@ -40,7 +40,7 @@ get svg path from (OTF) OpentypeFont using the opentype library.
 
 - **Path String** (String)
 
-**Example Patch:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
+**Example:** [cables.gl/edit/Cp5VS3](https://cables.gl/edit/Cp5VS3)
 
 **Doc:** [cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath](https://cables.gl/op/Ops.Extension.OpenType.OpentypeToSvgPath)
 

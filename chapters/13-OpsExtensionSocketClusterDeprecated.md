@@ -22,7 +22,7 @@ receive an array from the socketcluster topic.
 - **Data** (Array)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveArray)
 
@@ -44,7 +44,7 @@ Receive boolean value from the socketcluster socket/topic.
 - **Data** (booleanNumber)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveBoolean)
 
@@ -66,7 +66,7 @@ receive number from the socketcluster socket/topic.
 - **Data** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveNumber)
 
@@ -88,7 +88,7 @@ receives string from the socketcluster socket/topic.
 - **Client Id** (String)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterReceiveString)
 
@@ -107,7 +107,7 @@ sends an array via socketcluster/websocket.
 - **Data** (Array)
 - **Public** (2): MOUSE MOVEMENT SEND
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendArray)
 
@@ -125,7 +125,7 @@ Sends boolean value via socketcluster/websocket.
 - **Topic** (String)
 - **Data** (Number: Boolean)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendBoolean)
 
@@ -143,7 +143,7 @@ sends a number via socketcluster/websocket.
 - **Topic** (String)
 - **Data** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendNumber)
 
@@ -161,7 +161,7 @@ sends a string via socketcluster/websocket.
 - **Topic** (String)
 - **Data** (String)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
+**Example:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString](https://cables.gl/op/Ops.Extension.SocketCluster.Deprecated.SocketClusterSendString)
 

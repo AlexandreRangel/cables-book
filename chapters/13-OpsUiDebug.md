@@ -16,7 +16,7 @@ Output the current patch coordinates.
 - **X** (Number)
 - **Y** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
+**Example:** [cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords#example)
 
 **Doc:** [cables.gl/op/Ops.Ui.Debug.PatchUiCoords](https://cables.gl/op/Ops.Ui.Debug.PatchUiCoords)
 

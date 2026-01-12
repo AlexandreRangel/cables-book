@@ -69,8 +69,11 @@ MainLoop -> BasicMaterial -> Circle
 Connect `SetColor` output to `BasicMaterial`'s color input ports (r, g, b, a) to set the color.
 
 **Color Modes:**
+
 - RGB (Red, Green, Blue)
+
 - HSB (Hue, Saturation, Brightness)
+
 - Hex values
 
 ### SetAlpha
@@ -820,16 +823,23 @@ Value -> DrawNumber (on screen)
 ### Color Coding
 
 Use consistent colors to identify different element types:
+
 - Structural elements: Blue
+
 - Interactive elements: Green  
+
 - Data elements: Yellow
+
 - Background: Dark grey
 
 ### Naming Convention
 
 Name ops descriptively:
+
 - `TransformRotation_MainShape`
+
 - `Color_Background`
+
 - `Iterator_ParticleGrid`
 
 ### Comment Ops

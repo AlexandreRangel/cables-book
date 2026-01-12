@@ -22,7 +22,7 @@ cables logo mesh/geometry.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/xUMq3j](https://cables.gl/edit/xUMq3j)
+**Example:** [cables.gl/edit/xUMq3j](https://cables.gl/edit/xUMq3j)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.CablesLogo](https://cables.gl/op/Ops.Graphics.Meshes.CablesLogo)
 
@@ -50,7 +50,7 @@ Draws a circle to the canvas.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/DAAkQ6](https://cables.gl/edit/DAAkQ6)
+**Example:** [cables.gl/edit/DAAkQ6](https://cables.gl/edit/DAAkQ6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Circle_v3](https://cables.gl/op/Ops.Graphics.Meshes.Circle_v3)
 
@@ -78,7 +78,7 @@ Draws a cross with controllable thickness and length.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/ojTS_o](https://cables.gl/edit/ojTS_o)
+**Example:** [cables.gl/edit/ojTS_o](https://cables.gl/edit/ojTS_o)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Cross](https://cables.gl/op/Ops.Graphics.Meshes.Cross)
 
@@ -111,7 +111,7 @@ Draws a cube to the canvas. Please note that without doing a rotation you will o
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/0ghhQ6](https://cables.gl/edit/0ghhQ6)
+**Example:** [cables.gl/edit/0ghhQ6](https://cables.gl/edit/0ghhQ6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Cube_v2](https://cables.gl/op/Ops.Graphics.Meshes.Cube_v2)
 
@@ -138,7 +138,7 @@ draw a rectangle (plane, square).
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/M3QiQ6](https://cables.gl/edit/M3QiQ6)
+**Example:** [cables.gl/edit/M3QiQ6](https://cables.gl/edit/M3QiQ6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4](https://cables.gl/op/Ops.Graphics.Meshes.Rectangle_v4)
 
@@ -162,7 +162,7 @@ Draw parameterizable sphere.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/HvxfQ6](https://cables.gl/edit/HvxfQ6)
+**Example:** [cables.gl/edit/HvxfQ6](https://cables.gl/edit/HvxfQ6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Sphere_v3](https://cables.gl/op/Ops.Graphics.Meshes.Sphere_v3)
 
@@ -190,7 +190,7 @@ draw a star mesh (saw,gear).
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/eXhAY4](https://cables.gl/edit/eXhAY4)
+**Example:** [cables.gl/edit/eXhAY4](https://cables.gl/edit/eXhAY4)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Star_v2](https://cables.gl/op/Ops.Graphics.Meshes.Star_v2)
 
@@ -213,7 +213,7 @@ Renders a triangle to the canvas.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/RnNiQ6](https://cables.gl/edit/RnNiQ6)
+**Example:** [cables.gl/edit/RnNiQ6](https://cables.gl/edit/RnNiQ6)
 
 **Doc:** [cables.gl/op/Ops.Graphics.Meshes.Triangle_v2](https://cables.gl/op/Ops.Graphics.Meshes.Triangle_v2)
 

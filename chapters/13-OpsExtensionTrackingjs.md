@@ -26,7 +26,7 @@ Track a position of a specific color in the current webcam stream.
 - **Positions** (Array)
 - **Sizes** (Array)
 
-**Example Patch:** [cables.gl/edit/vSwLsT](https://cables.gl/edit/vSwLsT)
+**Example:** [cables.gl/edit/vSwLsT](https://cables.gl/edit/vSwLsT)
 
 **Doc:** [cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor](https://cables.gl/op/Ops.Extension.Trackingjs.TrackWebcamColor)
 

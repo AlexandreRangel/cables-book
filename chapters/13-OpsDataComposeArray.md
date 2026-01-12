@@ -23,7 +23,7 @@ Compose an Array.
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/RLvmjz](https://cables.gl/edit/RLvmjz)
+**Example:** [cables.gl/edit/RLvmjz](https://cables.gl/edit/RLvmjz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArray](https://cables.gl/op/Ops.Data.Compose.Array.CompArray)
 
@@ -43,7 +43,7 @@ pop/remove the last number from an array.
 - **Next** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPopNumber)
 
@@ -63,7 +63,7 @@ push/append an array to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArray)
 
@@ -83,7 +83,7 @@ push/append an array to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ADSKWn](https://cables.gl/edit/ADSKWn)
+**Example:** [cables.gl/edit/ADSKWn](https://cables.gl/edit/ADSKWn)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArrayItems](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushArrayItems)
 
@@ -103,7 +103,7 @@ push/append a number to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/RLvmjz](https://cables.gl/edit/RLvmjz)
+**Example:** [cables.gl/edit/RLvmjz](https://cables.gl/edit/RLvmjz)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumber](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumber)
 
@@ -126,7 +126,7 @@ push/append multiple numbers to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushNumbers)
 
@@ -146,7 +146,7 @@ push/append an object to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/SCFZJK](https://cables.gl/edit/SCFZJK)
+**Example:** [cables.gl/edit/SCFZJK](https://cables.gl/edit/SCFZJK)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushObject](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushObject)
 
@@ -166,7 +166,7 @@ push/append a string to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushString)
 
@@ -186,7 +186,7 @@ push/append a texture to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayPushTexture)
 
@@ -207,7 +207,7 @@ set a number to an array at index.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetNumber)
 
@@ -228,7 +228,7 @@ push/append a number to an array.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySetObject)
 
@@ -248,7 +248,7 @@ shift/remove the first number from an array.
 - **Next** (Trigger)
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber](https://cables.gl/op/Ops.Data.Compose.Array.CompArrayShiftNumber)
 
@@ -268,7 +268,7 @@ get a copy of the current state of an array.
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot#example)
+**Example:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot#example](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot#example)
 
 **Doc:** [cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot](https://cables.gl/op/Ops.Data.Compose.Array.CompArraySnapshot)
 

@@ -21,7 +21,7 @@ returns the array at the position defined by a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/uqXSWr](https://cables.gl/edit/uqXSWr)
+**Example:** [cables.gl/edit/uqXSWr](https://cables.gl/edit/uqXSWr)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayByPath)
 
@@ -42,7 +42,7 @@ Outputs all the values of the properties of an array of objects given a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/Y3pXWr](https://cables.gl/edit/Y3pXWr)
+**Example:** [cables.gl/edit/Y3pXWr](https://cables.gl/edit/Y3pXWr)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetArrayValuesByPath)
 
@@ -63,7 +63,7 @@ finds a number at a position in an array defined by path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/7kSVWr](https://cables.gl/edit/7kSVWr)
+**Example:** [cables.gl/edit/7kSVWr](https://cables.gl/edit/7kSVWr)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetNumberByPath)
 
@@ -83,7 +83,7 @@ Returns the object at the position defined by a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/AapUWr](https://cables.gl/edit/AapUWr)
+**Example:** [cables.gl/edit/AapUWr](https://cables.gl/edit/AapUWr)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetObjectByPath)
 
@@ -105,7 +105,7 @@ Finds a string at a position in an array defined by path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/rs0XWr](https://cables.gl/edit/rs0XWr)
+**Example:** [cables.gl/edit/rs0XWr](https://cables.gl/edit/rs0XWr)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ArrayGetStringByPath_v2)
 
@@ -126,7 +126,7 @@ returns the array at the position defined by a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/oghmln](https://cables.gl/edit/oghmln)
+**Example:** [cables.gl/edit/oghmln](https://cables.gl/edit/oghmln)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayByPath)
 
@@ -147,7 +147,7 @@ Outputs all the values of the properties of an array of objects given a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/fBcgln](https://cables.gl/edit/fBcgln)
+**Example:** [cables.gl/edit/fBcgln](https://cables.gl/edit/fBcgln)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetArrayValuesByPath)
 
@@ -168,7 +168,7 @@ finds a number at a position in an object defined by path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/RrYnln](https://cables.gl/edit/RrYnln)
+**Example:** [cables.gl/edit/RrYnln](https://cables.gl/edit/RrYnln)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetNumberByPath)
 
@@ -188,7 +188,7 @@ Returns the object at the position defined by a path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/-Zlrln](https://cables.gl/edit/-Zlrln)
+**Example:** [cables.gl/edit/-Zlrln](https://cables.gl/edit/-Zlrln)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetObjectByPath)
 
@@ -210,7 +210,7 @@ Finds a string at a position in an object defined by path.
 
 - **Found** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/eJIqln](https://cables.gl/edit/eJIqln)
+**Example:** [cables.gl/edit/eJIqln](https://cables.gl/edit/eJIqln)
 
 **Doc:** [cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2](https://cables.gl/op/Ops.Data.JsonPath.ObjectGetStringByPath_v2)
 

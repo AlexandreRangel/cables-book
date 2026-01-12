@@ -24,7 +24,7 @@ Simple Audio Player, using HTML5 Audio, does not need WebAudio.
 - **Element** (Object)
 - **Has Ended** (Trigger)
 
-**Example Patch:** [cables.gl/edit/ftHtx3](https://cables.gl/edit/ftHtx3)
+**Example:** [cables.gl/edit/ftHtx3](https://cables.gl/edit/ftHtx3)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.AudioMediaElement](https://cables.gl/op/Ops.Html.Elements.AudioMediaElement)
 
@@ -56,7 +56,7 @@ A more convinient version of div element op, that can be used for creating html 
 - **Hovering** (booleanNumber)
 - **Clicked** (Trigger)
 
-**Example Patch:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
+**Example:** [cables.gl/edit/KmnVEm](https://cables.gl/edit/KmnVEm)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.Element_v2](https://cables.gl/op/Ops.Html.Elements.Element_v2)
 
@@ -78,7 +78,7 @@ Show another website in an iframe element.
 
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/SLesr2](https://cables.gl/edit/SLesr2)
+**Example:** [cables.gl/edit/SLesr2](https://cables.gl/edit/SLesr2)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.IFrame_v3](https://cables.gl/op/Ops.Html.Elements.IFrame_v3)
 
@@ -105,7 +105,7 @@ create an image(img) html element.
 - **Error** (booleanNumber)
 - **Loaded** (Trigger)
 
-**Example Patch:** [cables.gl/edit/OZaVN8](https://cables.gl/edit/OZaVN8)
+**Example:** [cables.gl/edit/OZaVN8](https://cables.gl/edit/OZaVN8)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.ImageElement_v3](https://cables.gl/op/Ops.Html.Elements.ImageElement_v3)
 
@@ -140,7 +140,7 @@ HTML input/textarea element to allow the user to enter text.
 - **Enter Pressed** (Trigger)
 - **Escape Pressed** (Trigger)
 
-**Example Patch:** [cables.gl/edit/L83aeG](https://cables.gl/edit/L83aeG)
+**Example:** [cables.gl/edit/L83aeG](https://cables.gl/edit/L83aeG)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.InputElement](https://cables.gl/op/Ops.Html.Elements.InputElement)
 
@@ -176,7 +176,7 @@ html video player element.
 - **Video Width** (Number)
 - **Video Height** (Number)
 
-**Example Patch:** [cables.gl/edit/1QTBve](https://cables.gl/edit/1QTBve)
+**Example:** [cables.gl/edit/1QTBve](https://cables.gl/edit/1QTBve)
 
 **Doc:** [cables.gl/op/Ops.Html.Elements.VideoElement](https://cables.gl/op/Ops.Html.Elements.VideoElement)
 

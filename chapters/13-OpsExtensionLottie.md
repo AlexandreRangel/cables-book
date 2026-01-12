@@ -28,7 +28,7 @@ Play Bodymovin/Lottie animations as SVG in a HTML element.
 - **Progress** (Number)
 - **Total Frames** (Number)
 
-**Example Patch:** [cables.gl/edit/3ezRZH](https://cables.gl/edit/3ezRZH)
+**Example:** [cables.gl/edit/3ezRZH](https://cables.gl/edit/3ezRZH)
 
 **Doc:** [cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer](https://cables.gl/op/Ops.Extension.Lottie.LottieSVGPlayer)
 
@@ -59,7 +59,7 @@ Play a Lottie animation in a texture.
 - **Texture** (Object)
 - **Total Frames** (Number)
 
-**Example Patch:** [cables.gl/edit/zW0RFn](https://cables.gl/edit/zW0RFn)
+**Example:** [cables.gl/edit/zW0RFn](https://cables.gl/edit/zW0RFn)
 
 **Doc:** [cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2](https://cables.gl/op/Ops.Extension.Lottie.LottieTexturePlayer_v2)
 

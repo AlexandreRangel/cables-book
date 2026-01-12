@@ -24,7 +24,7 @@ Outputs an array of data from a user defined OSC address.
 - **Array Length** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
+**Example:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
 **Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsArray)
 
@@ -45,7 +45,7 @@ Shows the current active address of an incoming OSC message.
 - **Arguments** (Array)
 - **Total Arguments** (Number)
 
-**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
+**Example:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
 **Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsMessage)
 
@@ -68,7 +68,7 @@ Outputs a single number from a user defined OSC address.
 - **Value** (Number)
 - **Received** (Trigger)
 
-**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
+**Example:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
 **Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumber)
 
@@ -94,7 +94,7 @@ Outputs up to 4 numbers from a user defined OSC address.
 - **Number 2** (Number)
 - **Number 3** (Number)
 
-**Example Patch:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
+**Example:** [cables.gl/edit/F77YvQ](https://cables.gl/edit/F77YvQ)
 
 **Doc:** [cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers](https://cables.gl/op/Ops.Extension.Osc2Ws.Osc2WsNumbers)
 

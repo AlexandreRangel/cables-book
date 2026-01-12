@@ -26,7 +26,7 @@ Returns current date and time and timestamp.
 - **Seconds** (Number)
 - **Timestamp** (Number)
 
-**Example Patch:** [cables.gl/edit/GuzKSD](https://cables.gl/edit/GuzKSD)
+**Example:** [cables.gl/edit/GuzKSD](https://cables.gl/edit/GuzKSD)
 
 **Doc:** [cables.gl/op/Ops.Date.DateAndTime](https://cables.gl/op/Ops.Date.DateAndTime)
 
@@ -50,7 +50,7 @@ Perform date calculations.
 - **Date** (Object)
 - **Timestamp** (Number)
 
-**Example Patch:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
+**Example:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
 
 **Doc:** [cables.gl/op/Ops.Date.DateCalc](https://cables.gl/op/Ops.Date.DateCalc)
 
@@ -78,7 +78,7 @@ Calculates the difference between two timestamps.
 - **Milliseconds** (Number)
 - **Diff** (Number)
 
-**Example Patch:** [cables.gl/edit/d1NUet](https://cables.gl/edit/d1NUet)
+**Example:** [cables.gl/edit/d1NUet](https://cables.gl/edit/d1NUet)
 
 **Doc:** [cables.gl/op/Ops.Date.DateDifference](https://cables.gl/op/Ops.Date.DateDifference)
 
@@ -99,7 +99,7 @@ String representation of a date.
 
 - **StringDate** (String)
 
-**Example Patch:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
+**Example:** [cables.gl/edit/mzfGGl](https://cables.gl/edit/mzfGGl)
 
 **Doc:** [cables.gl/op/Ops.Date.DateFormatter](https://cables.gl/op/Ops.Date.DateFormatter)
 
@@ -118,7 +118,7 @@ parses a date and time in iso format and outputs a millisecond timestamp.
 
 - **Timestamp** (Number)
 
-**Example Patch:** [cables.gl/edit/nsSRrU](https://cables.gl/edit/nsSRrU)
+**Example:** [cables.gl/edit/nsSRrU](https://cables.gl/edit/nsSRrU)
 
 **Doc:** [cables.gl/op/Ops.Date.DateIsoToTimestamp](https://cables.gl/op/Ops.Date.DateIsoToTimestamp)
 
@@ -141,7 +141,7 @@ Calculates the timestamp of a date by year / month / day / hour / minute.
 
 - **Timestamp** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Date.DateTimestamp#example](https://cables.gl/op/Ops.Date.DateTimestamp#example)
+**Example:** [cables.gl/op/Ops.Date.DateTimestamp#example](https://cables.gl/op/Ops.Date.DateTimestamp#example)
 
 **Doc:** [cables.gl/op/Ops.Date.DateTimestamp](https://cables.gl/op/Ops.Date.DateTimestamp)
 
@@ -160,7 +160,7 @@ Value since the time origin in milliseconds (performance.now()).
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/dJzVbI](https://cables.gl/edit/dJzVbI)
+**Example:** [cables.gl/edit/dJzVbI](https://cables.gl/edit/dJzVbI)
 
 **Doc:** [cables.gl/op/Ops.Date.Milliseconds](https://cables.gl/op/Ops.Date.Milliseconds)
 
@@ -179,7 +179,7 @@ convert a timestamp to an ISO date string.
 
 - **ISO Date** (String)
 
-**Example Patch:** [cables.gl/edit/MqNl8i](https://cables.gl/edit/MqNl8i)
+**Example:** [cables.gl/edit/MqNl8i](https://cables.gl/edit/MqNl8i)
 
 **Doc:** [cables.gl/op/Ops.Date.TimestampToIsoDate](https://cables.gl/op/Ops.Date.TimestampToIsoDate)
 

@@ -28,7 +28,7 @@ Map the range of color number values to another.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/TgoiV6](https://cables.gl/edit/TgoiV6)
+**Example:** [cables.gl/edit/TgoiV6](https://cables.gl/edit/TgoiV6)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange](https://cables.gl/op/Ops.Gl.ImageCompose.Math.ColorMapRange)
 
@@ -49,7 +49,7 @@ normalize texture rgb values.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/7c4jW2](https://cables.gl/edit/7c4jW2)
+**Example:** [cables.gl/edit/7c4jW2](https://cables.gl/edit/7c4jW2)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Normalize)
 
@@ -73,7 +73,7 @@ Convert a RGBE texture to HDR/floating point texture.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/adsLpX](https://cables.gl/edit/adsLpX)
+**Example:** [cables.gl/edit/adsLpX](https://cables.gl/edit/adsLpX)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbeToFloat32Texture)
 
@@ -104,7 +104,7 @@ This OP enables you to use precise values to modify the pixels in your texture. 
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/H3cEpX](https://cables.gl/edit/H3cEpX)
+**Example:** [cables.gl/edit/H3cEpX](https://cables.gl/edit/H3cEpX)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMath)
 
@@ -132,7 +132,7 @@ Execute a glsl code math expression in a image compose.
 - **Trigger** (Trigger)
 - **Code** (String)
 
-**Example Patch:** [cables.gl/edit/tG4xFs](https://cables.gl/edit/tG4xFs)
+**Example:** [cables.gl/edit/tG4xFs](https://cables.gl/edit/tG4xFs)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbMathExpression)
 
@@ -164,7 +164,7 @@ transform RGB values interpreted as XYZ coordinates.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/UJvMbk](https://cables.gl/edit/UJvMbk)
+**Example:** [cables.gl/edit/UJvMbk](https://cables.gl/edit/UJvMbk)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform](https://cables.gl/op/Ops.Gl.ImageCompose.Math.RgbTransform)
 
@@ -185,7 +185,7 @@ Round number values of texture color channels.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example)
+**Example:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.Round](https://cables.gl/op/Ops.Gl.ImageCompose.Math.Round)
 
@@ -211,7 +211,7 @@ compare and pass through of color channel values.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/RjKQWp](https://cables.gl/edit/RjKQWp)
+**Example:** [cables.gl/edit/RjKQWp](https://cables.gl/edit/RjKQWp)
 
 **Doc:** [cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare](https://cables.gl/op/Ops.Gl.ImageCompose.Math.TexMathCompare)
 

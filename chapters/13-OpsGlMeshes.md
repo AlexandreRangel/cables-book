@@ -17,7 +17,7 @@ Rule of thirds image composition helper.
 - **Scale** (Number)
 - **Show Center** (Number: Boolean)
 
-**Example Patch:** [cables.gl/edit/G8mQQ2](https://cables.gl/edit/G8mQQ2)
+**Example:** [cables.gl/edit/G8mQQ2](https://cables.gl/edit/G8mQQ2)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay](https://cables.gl/op/Ops.Gl.Meshes.ComposingGridOverlay)
 
@@ -42,7 +42,7 @@ number of horizontal segments.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/fGA7W6](https://cables.gl/edit/fGA7W6)
+**Example:** [cables.gl/edit/fGA7W6](https://cables.gl/edit/fGA7W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Cone](https://cables.gl/op/Ops.Gl.Meshes.Cone)
 
@@ -68,7 +68,7 @@ render a rectangular corner.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/KWolQ6](https://cables.gl/edit/KWolQ6)
+**Example:** [cables.gl/edit/KWolQ6](https://cables.gl/edit/KWolQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Corner](https://cables.gl/op/Ops.Gl.Meshes.Corner)
 
@@ -97,7 +97,7 @@ draw parameterizable cylinder (aka tube,pipe,round,circle).
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/GxagQ6](https://cables.gl/edit/GxagQ6)
+**Example:** [cables.gl/edit/GxagQ6](https://cables.gl/edit/GxagQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Cylinder_v2](https://cables.gl/op/Ops.Gl.Meshes.Cylinder_v2)
 
@@ -117,7 +117,7 @@ draw a grid on the floor.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/LiwB16](https://cables.gl/edit/LiwB16)
+**Example:** [cables.gl/edit/LiwB16](https://cables.gl/edit/LiwB16)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.FloorGrid](https://cables.gl/op/Ops.Gl.Meshes.FloorGrid)
 
@@ -157,7 +157,7 @@ A freely deformable plane, rectangle, polygon.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/Q92nQ6](https://cables.gl/edit/Q92nQ6)
+**Example:** [cables.gl/edit/Q92nQ6](https://cables.gl/edit/Q92nQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.FreeFormPlane](https://cables.gl/op/Ops.Gl.Meshes.FreeFormPlane)
 
@@ -179,7 +179,7 @@ Draws a rectangle using the full WebGL canvas size.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/uKkIeG](https://cables.gl/edit/uKkIeG)
+**Example:** [cables.gl/edit/uKkIeG](https://cables.gl/edit/uKkIeG)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.FullscreenRectangle_v2](https://cables.gl/op/Ops.Gl.Meshes.FullscreenRectangle_v2)
 
@@ -210,7 +210,7 @@ Convert vertices of a geometry to a data texture.
 - **Total Vertices** (Number)
 - **Texture** (Object)
 
-**Example Patch:** [cables.gl/edit/bhWkpX](https://cables.gl/edit/bhWkpX)
+**Example:** [cables.gl/edit/bhWkpX](https://cables.gl/edit/bhWkpX)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.GeometryToTexture_v3](https://cables.gl/op/Ops.Gl.Meshes.GeometryToTexture_v3)
 
@@ -233,7 +233,7 @@ Draw a simple grid of lines.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/VxPlQ6](https://cables.gl/edit/VxPlQ6)
+**Example:** [cables.gl/edit/VxPlQ6](https://cables.gl/edit/VxPlQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Grid](https://cables.gl/op/Ops.Gl.Meshes.Grid)
 
@@ -261,7 +261,7 @@ generate a rectangular mesh where the height is defined by the luminance of an i
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/bRlSDe](https://cables.gl/edit/bRlSDe)
+**Example:** [cables.gl/edit/bRlSDe](https://cables.gl/edit/bRlSDe)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.HeightMap](https://cables.gl/op/Ops.Gl.Meshes.HeightMap)
 
@@ -287,7 +287,7 @@ generates a helix, spiral spline.
 - **Next** (Trigger)
 - **Points** (Array)
 
-**Example Patch:** [cables.gl/edit/CW8-I6](https://cables.gl/edit/CW8-I6)
+**Example:** [cables.gl/edit/CW8-I6](https://cables.gl/edit/CW8-I6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Helix](https://cables.gl/op/Ops.Gl.Meshes.Helix)
 
@@ -309,7 +309,7 @@ Renders a icosahedron (polyhedron with 20 faces).
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/Ie6iQ6](https://cables.gl/edit/Ie6iQ6)
+**Example:** [cables.gl/edit/Ie6iQ6](https://cables.gl/edit/Ie6iQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Icosahedron_v2](https://cables.gl/op/Ops.Gl.Meshes.Icosahedron_v2)
 
@@ -335,7 +335,7 @@ Draw a line between two points.
 - **Next** (Trigger)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/D_eE98](https://cables.gl/edit/D_eE98)
+**Example:** [cables.gl/edit/D_eE98](https://cables.gl/edit/D_eE98)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Line](https://cables.gl/op/Ops.Gl.Meshes.Line)
 
@@ -363,7 +363,7 @@ an array of lines.
 - **Trigger** (Trigger)
 - **Point Arrays** (Array)
 
-**Example Patch:** [cables.gl/edit/oXke6r](https://cables.gl/edit/oXke6r)
+**Example:** [cables.gl/edit/oXke6r](https://cables.gl/edit/oXke6r)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.LinesArray](https://cables.gl/op/Ops.Gl.Meshes.LinesArray)
 
@@ -396,7 +396,7 @@ Draw the same mesh multiple times on the GPU.
 - **Trigger Out** (Trigger)
 - **Num** (Number)
 
-**Example Patch:** [cables.gl/edit/H3cEpX](https://cables.gl/edit/H3cEpX)
+**Example:** [cables.gl/edit/H3cEpX](https://cables.gl/edit/H3cEpX)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.MeshInstancerFromTexture_v3](https://cables.gl/op/Ops.Gl.Meshes.MeshInstancerFromTexture_v3)
 
@@ -437,7 +437,7 @@ Creates a 3d mesh from a 2d area expressions.
 - **outputs the vertices of the surface** (as an xyz-Array)
 - **Position Amount** (Number)
 
-**Example Patch:** [cables.gl/edit/TnUBsL](https://cables.gl/edit/TnUBsL)
+**Example:** [cables.gl/edit/TnUBsL](https://cables.gl/edit/TnUBsL)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.ParametricSurface](https://cables.gl/op/Ops.Gl.Meshes.ParametricSurface)
 
@@ -464,7 +464,7 @@ visualize an array of coordinates as points.
 - **Trigger Out** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/v8G4Wz](https://cables.gl/edit/v8G4Wz)
+**Example:** [cables.gl/edit/v8G4Wz](https://cables.gl/edit/v8G4Wz)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.PointCloudFromArray_v2](https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromArray_v2)
 
@@ -490,7 +490,7 @@ Visualize a RGB texture as XYZ coordinates as points.
 - **Trigger** (Trigger)
 - **Total Points** (Number)
 
-**Example Patch:** [cables.gl/edit/bhWkpX](https://cables.gl/edit/bhWkpX)
+**Example:** [cables.gl/edit/bhWkpX](https://cables.gl/edit/bhWkpX)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.PointCloudFromTexture](https://cables.gl/op/Ops.Gl.Meshes.PointCloudFromTexture)
 
@@ -509,7 +509,7 @@ Generate polyhedron meshes.
 
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/VRG6Q6](https://cables.gl/edit/VRG6Q6)
+**Example:** [cables.gl/edit/VRG6Q6](https://cables.gl/edit/VRG6Q6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Polyhedron_v2](https://cables.gl/op/Ops.Gl.Meshes.Polyhedron_v2)
 
@@ -534,7 +534,7 @@ render a pyramid mesh.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/Y09mQ6](https://cables.gl/edit/Y09mQ6)
+**Example:** [cables.gl/edit/Y09mQ6](https://cables.gl/edit/Y09mQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Pyramid_v2](https://cables.gl/op/Ops.Gl.Meshes.Pyramid_v2)
 
@@ -564,7 +564,7 @@ Warp a texture mapped quad (projection mapping).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/T2A7zp](https://cables.gl/edit/T2A7zp)
+**Example:** [cables.gl/edit/T2A7zp](https://cables.gl/edit/T2A7zp)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.QuadWarpTexture](https://cables.gl/op/Ops.Gl.Meshes.QuadWarpTexture)
 
@@ -592,7 +592,7 @@ nine slice image format texture mapped rectangle.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/WkQpIG](https://cables.gl/edit/WkQpIG)
+**Example:** [cables.gl/edit/WkQpIG](https://cables.gl/edit/WkQpIG)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Rectangle9Slice](https://cables.gl/op/Ops.Gl.Meshes.Rectangle9Slice)
 
@@ -620,7 +620,7 @@ Draws a rectangle frame.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/HLViQ6](https://cables.gl/edit/HLViQ6)
+**Example:** [cables.gl/edit/HLViQ6](https://cables.gl/edit/HLViQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.RectangleFrame_v2](https://cables.gl/op/Ops.Gl.Meshes.RectangleFrame_v2)
 
@@ -649,7 +649,7 @@ Draws a rectangle with rounded corners.
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/1la6mJ](https://cables.gl/edit/1la6mJ)
+**Example:** [cables.gl/edit/1la6mJ](https://cables.gl/edit/1la6mJ)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.RectangleRounded_v2](https://cables.gl/op/Ops.Gl.Meshes.RectangleRounded_v2)
 
@@ -674,7 +674,7 @@ Draws a simple spline only one pixel wide.
 - **Geometry** (Object)
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/qRD7W6](https://cables.gl/edit/qRD7W6)
+**Example:** [cables.gl/edit/qRD7W6](https://cables.gl/edit/qRD7W6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.SimpleSpline_v2](https://cables.gl/op/Ops.Gl.Meshes.SimpleSpline_v2)
 
@@ -694,7 +694,7 @@ Simple Wireframe Line Renderer.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/gt0cay](https://cables.gl/edit/gt0cay)
+**Example:** [cables.gl/edit/gt0cay](https://cables.gl/edit/gt0cay)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.SimpleWireframe](https://cables.gl/op/Ops.Gl.Meshes.SimpleWireframe)
 
@@ -716,7 +716,7 @@ draw splines/lines.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3l5Uu-](https://cables.gl/edit/3l5Uu-)
+**Example:** [cables.gl/edit/3l5Uu-](https://cables.gl/edit/3l5Uu-)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.SplineMesh_v2](https://cables.gl/op/Ops.Gl.Meshes.SplineMesh_v2)
 
@@ -748,7 +748,7 @@ material for splinemesh.
 - **Trigger** (Trigger)
 - **Shader** (Object)
 
-**Example Patch:** [cables.gl/edit/tnUJta](https://cables.gl/edit/tnUJta)
+**Example:** [cables.gl/edit/tnUJta](https://cables.gl/edit/tnUJta)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.SplineMeshMaterial_v2](https://cables.gl/op/Ops.Gl.Meshes.SplineMeshMaterial_v2)
 
@@ -784,7 +784,7 @@ Draws text in 3d space using one of the font ops.
 - **Width** (Number)
 - **Font Available** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/LzDnH-](https://cables.gl/edit/LzDnH-)
+**Example:** [cables.gl/edit/LzDnH-](https://cables.gl/edit/LzDnH-)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.TextMesh_v2](https://cables.gl/op/Ops.Gl.Meshes.TextMesh_v2)
 
@@ -809,7 +809,7 @@ Draw a torus (doughnut, donut, ring mesh).
 - **Trigger** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/ECMhQ6](https://cables.gl/edit/ECMhQ6)
+**Example:** [cables.gl/edit/ECMhQ6](https://cables.gl/edit/ECMhQ6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.Torus_v3](https://cables.gl/op/Ops.Gl.Meshes.Torus_v3)
 
@@ -832,7 +832,7 @@ A sphere mesh with uniform distributed vertices.
 - **Next** (Trigger)
 - **Geometry** (Object)
 
-**Example Patch:** [cables.gl/edit/T43V0D](https://cables.gl/edit/T43V0D)
+**Example:** [cables.gl/edit/T43V0D](https://cables.gl/edit/T43V0D)
 
 **Doc:** [cables.gl/op/Ops.Gl.Meshes.TriangleSphere](https://cables.gl/op/Ops.Gl.Meshes.TriangleSphere)
 

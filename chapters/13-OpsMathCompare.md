@@ -21,7 +21,7 @@ result is true if value is between number1 and number2.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
+**Example:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.Between](https://cables.gl/op/Ops.Math.Compare.Between)
 
@@ -42,7 +42,7 @@ result is true if value is between or equal number1 and number2.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
+**Example:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.BetweenEquals](https://cables.gl/op/Ops.Math.Compare.BetweenEquals)
 
@@ -64,7 +64,7 @@ Performs logical comparisons on numbers (compare, operators).
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/edit/54YpN-](https://cables.gl/edit/54YpN-)
+**Example:** [cables.gl/edit/54YpN-](https://cables.gl/edit/54YpN-)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.CompareNumbers](https://cables.gl/op/Ops.Math.Compare.CompareNumbers)
 
@@ -84,7 +84,7 @@ result is true if number1 and number2 are equal.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Compare.Equals#example](https://cables.gl/op/Ops.Math.Compare.Equals#example)
+**Example:** [cables.gl/op/Ops.Math.Compare.Equals#example](https://cables.gl/op/Ops.Math.Compare.Equals#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.Equals](https://cables.gl/op/Ops.Math.Compare.Equals)
 
@@ -104,7 +104,7 @@ result is true if number 1 is greater or equals number 2.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Compare.GreaterOrEquals#example](https://cables.gl/op/Ops.Math.Compare.GreaterOrEquals#example)
+**Example:** [cables.gl/op/Ops.Math.Compare.GreaterOrEquals#example](https://cables.gl/op/Ops.Math.Compare.GreaterOrEquals#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.GreaterOrEquals](https://cables.gl/op/Ops.Math.Compare.GreaterOrEquals)
 
@@ -124,7 +124,7 @@ result is true if number1 is greater than number2.
 
 - **Result** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
+**Example:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.GreaterThan](https://cables.gl/op/Ops.Math.Compare.GreaterThan)
 
@@ -148,7 +148,7 @@ triggers when value is between min and max.
 - **Else** (Trigger)
 - **Bs Between** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Compare.IfBetweenThen#example](https://cables.gl/op/Ops.Math.Compare.IfBetweenThen#example)
+**Example:** [cables.gl/op/Ops.Math.Compare.IfBetweenThen#example](https://cables.gl/op/Ops.Math.Compare.IfBetweenThen#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.IfBetweenThen](https://cables.gl/op/Ops.Math.Compare.IfBetweenThen)
 
@@ -167,7 +167,7 @@ Checks if Value is even or not.
 
 - **Result** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Math.Compare.IsEven#example](https://cables.gl/op/Ops.Math.Compare.IsEven#example)
+**Example:** [cables.gl/op/Ops.Math.Compare.IsEven#example](https://cables.gl/op/Ops.Math.Compare.IsEven#example)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.IsEven](https://cables.gl/op/Ops.Math.Compare.IsEven)
 
@@ -187,7 +187,7 @@ Is n1 smaller than n2? (lesser, less).
 
 - **Result** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
+**Example:** [cables.gl/edit/pixllg](https://cables.gl/edit/pixllg)
 
 **Doc:** [cables.gl/op/Ops.Math.Compare.LessThan](https://cables.gl/op/Ops.Math.Compare.LessThan)
 

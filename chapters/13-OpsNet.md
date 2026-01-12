@@ -21,7 +21,7 @@ create a cables.gl CORS proxy URL.
 
 - **CORS URL** (String)
 
-**Example Patch:** [cables.gl/edit/PAedBi](https://cables.gl/edit/PAedBi)
+**Example:** [cables.gl/edit/PAedBi](https://cables.gl/edit/PAedBi)
 
 **Doc:** [cables.gl/op/Ops.Net.CorsProxy_v3](https://cables.gl/op/Ops.Net.CorsProxy_v3)
 

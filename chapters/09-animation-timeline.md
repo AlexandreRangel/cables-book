@@ -147,7 +147,7 @@ Property 3 o---------------o----------
 
 - **Move:** Drag keyframe left/right (time) or up/down (value)
 - **Delete:** Select and press Delete
-- **Copy/Paste:** Ctrl+C, Ctrl+V
+- **Copy/Paste:** Ctrl + C, Ctrl + V
 - **Multi-select:** Shift+click or drag box
 
 ### Timeline Tracks

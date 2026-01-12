@@ -4,7 +4,17 @@
 
 Shaders are programs that run on the GPU, enabling custom visual effects and rendering techniques. Cables.gl provides powerful tools for writing and using GLSL (OpenGL Shading Language) shaders.
 
-**Official reference:** start with [cables.gl docs](https://cables.gl/docs) and search for **Shaders**, **TextureEffect**, **ShaderMaterial**, and **CustomShader**. The exact shader “template” and available built-ins can vary depending on the op/runtime version.
+**Official reference:** start with [cables.gl docs](https://cables.gl/docs) and search for:
+
+- **Shaders**
+
+- **TextureEffect**
+
+- **ShaderMaterial**
+
+- **CustomShader**
+
+The exact shader “template” and available built-ins can vary depending on the op/runtime version.
 
 Quick links (official operator reference examples):
 - [`Ops.Gl.Shader.ShaderMaterial`](https://cables.gl/op/Ops.Gl.Shader.ShaderMaterial)

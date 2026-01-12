@@ -16,7 +16,7 @@ create a cables logo which links to cables gl.
 - **Size** (Number)
 - **Opacity** (Number)
 
-**Example Patch:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
+**Example:** [cables.gl/edit/ilts7O](https://cables.gl/edit/ilts7O)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.CablesLink](https://cables.gl/op/Ops.Html.Utils.CablesLink)
 
@@ -36,7 +36,7 @@ show a typical web loading/progress indicator animation.
 - **Elment** (Object)
 - **Requests** (Array)
 
-**Example Patch:** [cables.gl/edit/EsV74q](https://cables.gl/edit/EsV74q)
+**Example:** [cables.gl/edit/EsV74q](https://cables.gl/edit/EsV74q)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2](https://cables.gl/op/Ops.Html.Utils.LoadingIndicator_v2)
 
@@ -69,7 +69,7 @@ Trigger a simple pop up notification on the screen.
 - **Finished** (booleanNumber)
 - **DOM Element** (Object)
 
-**Example Patch:** [cables.gl/edit/2Rue0j](https://cables.gl/edit/2Rue0j)
+**Example:** [cables.gl/edit/2Rue0j](https://cables.gl/edit/2Rue0j)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.Notification](https://cables.gl/op/Ops.Html.Utils.Notification)
 
@@ -98,7 +98,7 @@ shows a playbutton for forcing a simple user interaction.
 - **Clicked** (booleanNumber)
 - **Clicked Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/WoGy8s](https://cables.gl/edit/WoGy8s)
+**Example:** [cables.gl/edit/WoGy8s](https://cables.gl/edit/WoGy8s)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.PlayButton](https://cables.gl/op/Ops.Html.Utils.PlayButton)
 
@@ -131,7 +131,7 @@ simple html ui for timeline/mediaplayers (was: TimeLineUI).
 - **Dragging** (booleanNumber)
 - **DOM Element** (Object)
 
-**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
+**Example:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2](https://cables.gl/op/Ops.Html.Utils.PlayerControlPanel_v2)
 
@@ -151,7 +151,7 @@ Generate a qr code as a texture.
 - **Image DataUrl** (String)
 - **Element** (Object)
 
-**Example Patch:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
+**Example:** [cables.gl/edit/QjlEo-](https://cables.gl/edit/QjlEo-)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.QrCode](https://cables.gl/op/Ops.Html.Utils.QrCode)
 
@@ -180,7 +180,7 @@ play a youtube video in a HTML element.
 - **Element** (Object)
 - **Direct Link** (String)
 
-**Example Patch:** [cables.gl/edit/aMkD16](https://cables.gl/edit/aMkD16)
+**Example:** [cables.gl/edit/aMkD16](https://cables.gl/edit/aMkD16)
 
 **Doc:** [cables.gl/op/Ops.Html.Utils.YoutubePlayer](https://cables.gl/op/Ops.Html.Utils.YoutubePlayer)
 

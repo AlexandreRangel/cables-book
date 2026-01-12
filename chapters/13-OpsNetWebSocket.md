@@ -24,7 +24,7 @@ Create a websocket connection and receive data from it.
 - **Received Data** (Trigger)
 - **Raw Data** (String)
 
-**Example Patch:** [cables.gl/edit/gu7DBo](https://cables.gl/edit/gu7DBo)
+**Example:** [cables.gl/edit/gu7DBo](https://cables.gl/edit/gu7DBo)
 
 **Doc:** [cables.gl/op/Ops.Net.WebSocket.WebSocket_v2](https://cables.gl/op/Ops.Net.WebSocket.WebSocket_v2)
 
@@ -46,7 +46,7 @@ send an object to a websocket connection.
 
 - **Sent** (Number)
 
-**Example Patch:** [cables.gl/edit/gu7DBo](https://cables.gl/edit/gu7DBo)
+**Example:** [cables.gl/edit/gu7DBo](https://cables.gl/edit/gu7DBo)
 
 **Doc:** [cables.gl/op/Ops.Net.WebSocket.WebSocketSend](https://cables.gl/op/Ops.Net.WebSocket.WebSocketSend)
 

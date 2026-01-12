@@ -26,7 +26,7 @@ Test if a boundingbox could be visible in the current viewport.
 - **Next** (Trigger)
 - **Visible** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/DAhGve](https://cables.gl/edit/DAhGve)
+**Example:** [cables.gl/edit/DAhGve](https://cables.gl/edit/DAhGve)
 
 **Doc:** [cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible](https://cables.gl/op/Ops.Gl.Geometry.BoundingBoxVisible)
 
@@ -52,7 +52,7 @@ Calculate a bounding box from a geometry.
 - **Max Z** (Number)
 - **MaxMin Points** (Array)
 
-**Example Patch:** [cables.gl/edit/DAhGve](https://cables.gl/edit/DAhGve)
+**Example:** [cables.gl/edit/DAhGve](https://cables.gl/edit/DAhGve)
 
 **Doc:** [cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox](https://cables.gl/op/Ops.Gl.Geometry.GeometryBoundingBox)
 

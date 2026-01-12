@@ -26,7 +26,7 @@ FxHash simulator / generator of seeded random numbers.
 - **Random Numbers** (Array)
 - **Fxhash Environment** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/dnDl82](https://cables.gl/edit/dnDl82)
+**Example:** [cables.gl/edit/dnDl82](https://cables.gl/edit/dnDl82)
 
 **Doc:** [cables.gl/op/Ops.Extension.FxHash.FxHash](https://cables.gl/op/Ops.Extension.FxHash.FxHash)
 

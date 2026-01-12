@@ -35,7 +35,7 @@ uses mespeak.js to convert text-to-speech.
 - **Speaking** (booleanNumber)
 - **Voice Loaded** (booleanNumber)
 
-**Example Patch:** [cables.gl/op/Ops.Extension.Voice.MeSpeak#example](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
+**Example:** [cables.gl/op/Ops.Extension.Voice.MeSpeak#example](https://cables.gl/op/Ops.Extension.Voice.MeSpeak#example)
 
 **Doc:** [cables.gl/op/Ops.Extension.Voice.MeSpeak](https://cables.gl/op/Ops.Extension.Voice.MeSpeak)
 
@@ -67,7 +67,7 @@ Text-to-Speech, speaks different languages (speech synthesis).
 - **Pending** (Number)
 - **Paused** (Number)
 
-**Example Patch:** [cables.gl/edit/WubOWc](https://cables.gl/edit/WubOWc)
+**Example:** [cables.gl/edit/WubOWc](https://cables.gl/edit/WubOWc)
 
 **Doc:** [cables.gl/op/Ops.Extension.Voice.Say_v2](https://cables.gl/op/Ops.Extension.Voice.Say_v2)
 
@@ -92,7 +92,7 @@ speech to text recognition.
 - **New Result** (Trigger)
 - **Started** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/9p7kw4](https://cables.gl/edit/9p7kw4)
+**Example:** [cables.gl/edit/9p7kw4](https://cables.gl/edit/9p7kw4)
 
 **Doc:** [cables.gl/op/Ops.Extension.Voice.SpeechRecognition](https://cables.gl/op/Ops.Extension.Voice.SpeechRecognition)
 

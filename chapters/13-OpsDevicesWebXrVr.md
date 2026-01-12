@@ -34,7 +34,7 @@ rendering on webxr virtual reality immersive devices.
 - **Texture** (Object)
 - **Texture Depth** (Object)
 
-**Example Patch:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
+**Example:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
 
 **Doc:** [cables.gl/op/Ops.Devices.WebXr.Vr.Vr](https://cables.gl/op/Ops.Devices.WebXr.Vr.Vr)
 
@@ -78,7 +78,7 @@ tracking of vr hand controller.
 - **Transformed Position** (Trigger)
 - **Found** (Number)
 
-**Example Patch:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
+**Example:** [cables.gl/edit/IzKYx5](https://cables.gl/edit/IzKYx5)
 
 **Doc:** [cables.gl/op/Ops.Devices.WebXr.Vr.VrController](https://cables.gl/op/Ops.Devices.WebXr.Vr.VrController)
 

@@ -23,7 +23,7 @@ animate values in a matrix to a new matrix.
 - **Next** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/99cg1x](https://cables.gl/edit/99cg1x)
+**Example:** [cables.gl/edit/99cg1x](https://cables.gl/edit/99cg1x)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.AnimMatrix](https://cables.gl/op/Ops.Gl.Matrix.AnimMatrix)
 
@@ -49,7 +49,7 @@ interpolate position on a spline/array3x.
 - **Transform Lookat** (Trigger)
 - **Index** (Number)
 
-**Example Patch:** [cables.gl/edit/lL9_EF](https://cables.gl/edit/lL9_EF)
+**Example:** [cables.gl/edit/lL9_EF](https://cables.gl/edit/lL9_EF)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollow)
 
@@ -75,7 +75,7 @@ render lots of particles following a path/spline/array3x.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/4wT0J6](https://cables.gl/edit/4wT0J6)
+**Example:** [cables.gl/edit/4wT0J6](https://cables.gl/edit/4wT0J6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2](https://cables.gl/op/Ops.Gl.Matrix.ArrayPathFollowParticles_v2)
 
@@ -94,7 +94,7 @@ rotate an object to always face the camera.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/GVpkrq](https://cables.gl/edit/GVpkrq)
+**Example:** [cables.gl/edit/GVpkrq](https://cables.gl/edit/GVpkrq)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Billboard](https://cables.gl/op/Ops.Gl.Matrix.Billboard)
 
@@ -135,7 +135,7 @@ Transforms and projects the scene from the point of view of the camera.
 - **Aspect** (Number)
 - **Look At Array** (Array)
 
-**Example Patch:** [cables.gl/edit/PSw73e](https://cables.gl/edit/PSw73e)
+**Example:** [cables.gl/edit/PSw73e](https://cables.gl/edit/PSw73e)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Camera_v2](https://cables.gl/op/Ops.Gl.Matrix.Camera_v2)
 
@@ -175,7 +175,7 @@ get camera attributes from current camera/orbit controls.
 - **FOV** (Number)
 - **Aspect Ratio** (Number)
 
-**Example Patch:** [cables.gl/edit/YfJ4S-](https://cables.gl/edit/YfJ4S-)
+**Example:** [cables.gl/edit/YfJ4S-](https://cables.gl/edit/YfJ4S-)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.CameraInfo](https://cables.gl/op/Ops.Gl.Matrix.CameraInfo)
 
@@ -197,7 +197,7 @@ get the current position of viewmatrix/camera eye.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/JwL86R](https://cables.gl/edit/JwL86R)
+**Example:** [cables.gl/edit/JwL86R](https://cables.gl/edit/JwL86R)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.CameraPosition](https://cables.gl/op/Ops.Gl.Matrix.CameraPosition)
 
@@ -219,7 +219,7 @@ current xyz coordinates (modelmatrix).
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/2AtI98](https://cables.gl/edit/2AtI98)
+**Example:** [cables.gl/edit/2AtI98](https://cables.gl/edit/2AtI98)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Coordinates](https://cables.gl/op/Ops.Gl.Matrix.Coordinates)
 
@@ -239,7 +239,7 @@ gyroscope motionsensor camera.
 - **Next** (Trigger)
 - **Window Orientation** (Number)
 
-**Example Patch:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
+**Example:** [cables.gl/edit/dZ8wQ0](https://cables.gl/edit/dZ8wQ0)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera](https://cables.gl/op/Ops.Gl.Matrix.DeviceOrientationCamera)
 
@@ -260,7 +260,7 @@ Get the scalar scaling of a matrix.
 - **Trigger** (Trigger)
 - **Scaling** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling](https://cables.gl/op/Ops.Gl.Matrix.GetMatrixScaling)
 
@@ -280,7 +280,7 @@ Get current modelmatrix.
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
+**Example:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.GetModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetModelMatrix)
 
@@ -300,7 +300,7 @@ get current projectionmatrix.
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
+**Example:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetProjectionMatrix)
 
@@ -320,7 +320,7 @@ get current viewmatrix.
 - **Trigger** (Trigger)
 - **Matrix** (Array)
 
-**Example Patch:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
+**Example:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.GetViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.GetViewMatrix)
 
@@ -343,7 +343,7 @@ interpolate between two matrices.
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix](https://cables.gl/op/Ops.Gl.Matrix.InterpolateMatrix)
 
@@ -362,7 +362,7 @@ outputs an inverted matrix.
 
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/G51FhI](https://cables.gl/edit/G51FhI)
+**Example:** [cables.gl/edit/G51FhI](https://cables.gl/edit/G51FhI)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.InvertMatrix](https://cables.gl/op/Ops.Gl.Matrix.InvertMatrix)
 
@@ -391,7 +391,7 @@ transforms view to look from eye to center.
 - **Trigger** (Trigger)
 - **Array** (Array)
 
-**Example Patch:** [cables.gl/edit/_JlGz6](https://cables.gl/edit/_JlGz6)
+**Example:** [cables.gl/edit/_JlGz6](https://cables.gl/edit/_JlGz6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.LookatCamera](https://cables.gl/op/Ops.Gl.Matrix.LookatCamera)
 
@@ -414,7 +414,7 @@ get translation of a matrix.
 - **Y** (Number)
 - **Z** (Number)
 
-**Example Patch:** [cables.gl/edit/Zz52On](https://cables.gl/edit/Zz52On)
+**Example:** [cables.gl/edit/Zz52On](https://cables.gl/edit/Zz52On)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.MatrixTranslation](https://cables.gl/op/Ops.Gl.Matrix.MatrixTranslation)
 
@@ -435,7 +435,7 @@ multiply model matrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
+**Example:** [cables.gl/edit/HkYpci](https://cables.gl/edit/HkYpci)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix](https://cables.gl/op/Ops.Gl.Matrix.MultiplyModelMatrix)
 
@@ -456,7 +456,7 @@ multiply view matrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
+**Example:** [cables.gl/edit/hDWuci](https://cables.gl/edit/hDWuci)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.MulViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.MulViewMatrix)
 
@@ -479,7 +479,7 @@ multiplies current modelmatrix with a quaternion.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.Quaternion#example](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.Quaternion#example](https://cables.gl/op/Ops.Gl.Matrix.Quaternion#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Quaternion](https://cables.gl/op/Ops.Gl.Matrix.Quaternion)
 
@@ -508,7 +508,7 @@ Set up a camera, rotated by a quaternion.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.QuaternionCamera](https://cables.gl/op/Ops.Gl.Matrix.QuaternionCamera)
 
@@ -535,7 +535,7 @@ place random objects on a grid.
 - **Index** (Number)
 - **Depth** (Number)
 
-**Example Patch:** [cables.gl/edit/FsZFVB](https://cables.gl/edit/FsZFVB)
+**Example:** [cables.gl/edit/FsZFVB](https://cables.gl/edit/FsZFVB)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacement)
 
@@ -563,7 +563,7 @@ Place random objects on a grid.
 - **Array Length** (Number)
 - **Total Points** (Number)
 
-**Example Patch:** [cables.gl/edit/PYUHNP](https://cables.gl/edit/PYUHNP)
+**Example:** [cables.gl/edit/PYUHNP](https://cables.gl/edit/PYUHNP)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays](https://cables.gl/op/Ops.Gl.Matrix.RandomGridPlacementArrays)
 
@@ -586,7 +586,7 @@ Scale all child objects (scaleXYZ).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/au9U7i](https://cables.gl/edit/au9U7i)
+**Example:** [cables.gl/edit/au9U7i](https://cables.gl/edit/au9U7i)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Scale](https://cables.gl/op/Ops.Gl.Matrix.Scale)
 
@@ -608,7 +608,7 @@ scale xyz of viewmatrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/aSB6On](https://cables.gl/edit/aSB6On)
+**Example:** [cables.gl/edit/aSB6On](https://cables.gl/edit/aSB6On)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix](https://cables.gl/op/Ops.Gl.Matrix.ScaleXYZViewMatrix)
 
@@ -631,7 +631,7 @@ screen/pixel coordinates of the current transform.
 - **Y** (Number)
 - **Visible** (Number)
 
-**Example Patch:** [cables.gl/edit/-GNBD-](https://cables.gl/edit/-GNBD-)
+**Example:** [cables.gl/edit/-GNBD-](https://cables.gl/edit/-GNBD-)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2](https://cables.gl/op/Ops.Gl.Matrix.ScreenCoordinates_v2)
 
@@ -655,7 +655,7 @@ convert screen coordinates to a 3d position.
 - **Result X** (Number)
 - **Result Y** (Number)
 
-**Example Patch:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
+**Example:** [cables.gl/edit/mDiCq6](https://cables.gl/edit/mDiCq6)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3](https://cables.gl/op/Ops.Gl.Matrix.ScreenPosTo3d_v3)
 
@@ -675,7 +675,7 @@ set a projection matrix.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
+**Example:** [cables.gl/edit/573_4S](https://cables.gl/edit/573_4S)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix](https://cables.gl/op/Ops.Gl.Matrix.SetProjectionMatrix)
 
@@ -696,7 +696,7 @@ displaces each point of a mesh in fixed direction.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/PmTYnO](https://cables.gl/edit/PmTYnO)
+**Example:** [cables.gl/edit/PmTYnO](https://cables.gl/edit/PmTYnO)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Shear](https://cables.gl/op/Ops.Gl.Matrix.Shear)
 
@@ -726,7 +726,7 @@ transform a matrix (mat4).
 - **Next** (Trigger)
 - **Result** (Array)
 
-**Example Patch:** [cables.gl/edit/A0W1Jx](https://cables.gl/edit/A0W1Jx)
+**Example:** [cables.gl/edit/A0W1Jx](https://cables.gl/edit/A0W1Jx)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.TransformMatrix](https://cables.gl/op/Ops.Gl.Matrix.TransformMatrix)
 
@@ -746,7 +746,7 @@ multiply current modelmatrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.TransformMul#example](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.TransformMul#example](https://cables.gl/op/Ops.Gl.Matrix.TransformMul#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.TransformMul](https://cables.gl/op/Ops.Gl.Matrix.TransformMul)
 
@@ -768,7 +768,7 @@ Translate objects (move / position in 3D space).
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.Translate#example](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.Translate#example](https://cables.gl/op/Ops.Gl.Matrix.Translate#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.Translate](https://cables.gl/op/Ops.Gl.Matrix.Translate)
 
@@ -790,7 +790,7 @@ translate the view/camera matrix.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.TranslateView#example](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.TranslateView#example](https://cables.gl/op/Ops.Gl.Matrix.TranslateView#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.TranslateView](https://cables.gl/op/Ops.Gl.Matrix.TranslateView)
 
@@ -818,7 +818,7 @@ Translate any geometry underneath it using vectors and speed.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
+**Example:** [cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate#example)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.VectorTranslate](https://cables.gl/op/Ops.Gl.Matrix.VectorTranslate)
 
@@ -854,7 +854,7 @@ simple camera you control with W,A,S,D keys like in a FPS game.
 - **Dir Y** (Number)
 - **Dir Z** (Number)
 
-**Example Patch:** [cables.gl/edit/oLCaao](https://cables.gl/edit/oLCaao)
+**Example:** [cables.gl/edit/oLCaao](https://cables.gl/edit/oLCaao)
 
 **Doc:** [cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2](https://cables.gl/op/Ops.Gl.Matrix.WASDCamera_v2)
 

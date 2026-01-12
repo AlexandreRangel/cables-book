@@ -22,7 +22,7 @@ Element Accessibility properties for screen reader.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/R5XS8x](https://cables.gl/edit/R5XS8x)
+**Example:** [cables.gl/edit/R5XS8x](https://cables.gl/edit/R5XS8x)
 
 **Doc:** [cables.gl/op/Ops.Html.Attributes.ElementAccessibility](https://cables.gl/op/Ops.Html.Attributes.ElementAccessibility)
 
@@ -41,7 +41,7 @@ Get all attributes from an element an object.
 
 - **Attribs** (Object)
 
-**Example Patch:** [cables.gl/edit/Gflosw](https://cables.gl/edit/Gflosw)
+**Example:** [cables.gl/edit/Gflosw](https://cables.gl/edit/Gflosw)
 
 **Doc:** [cables.gl/op/Ops.Html.Attributes.ElementAttributes](https://cables.gl/op/Ops.Html.Attributes.ElementAttributes)
 
@@ -62,7 +62,7 @@ Read or Get the value of an HTML element Attribute.
 - **Value** (String)
 - **Has Attribute** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
+**Example:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
 
 **Doc:** [cables.gl/op/Ops.Html.Attributes.ElementGetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementGetAttribute)
 
@@ -84,7 +84,7 @@ Write or Set the value of an HTML element Attribute.
 
 - **HTML Element** (Object)
 
-**Example Patch:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
+**Example:** [cables.gl/edit/lfiS8x](https://cables.gl/edit/lfiS8x)
 
 **Doc:** [cables.gl/op/Ops.Html.Attributes.ElementSetAttribute](https://cables.gl/op/Ops.Html.Attributes.ElementSetAttribute)
 

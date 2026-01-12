@@ -23,7 +23,7 @@ timeline keyframable animation object.
 - **Loop Length** (Number)
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/sKguKJ](https://cables.gl/edit/sKguKJ)
+**Example:** [cables.gl/edit/sKguKJ](https://cables.gl/edit/sKguKJ)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.Anim](https://cables.gl/op/Ops.TimeLine.Anim)
 
@@ -45,7 +45,7 @@ Get data from a single key in an animation.
 - **Key Value** (Number)
 - **Key Time** (Number)
 
-**Example Patch:** [cables.gl/edit/gXgDz1](https://cables.gl/edit/gXgDz1)
+**Example:** [cables.gl/edit/gXgDz1](https://cables.gl/edit/gXgDz1)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.AnimGetKey](https://cables.gl/op/Ops.TimeLine.AnimGetKey)
 
@@ -66,7 +66,7 @@ get the animated value at time x of an animation object.
 - **Value** (Number)
 - **Loop** (Number)
 
-**Example Patch:** [cables.gl/edit/yEIpR1](https://cables.gl/edit/yEIpR1)
+**Example:** [cables.gl/edit/yEIpR1](https://cables.gl/edit/yEIpR1)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.AnimGetValue](https://cables.gl/op/Ops.TimeLine.AnimGetValue)
 
@@ -86,7 +86,7 @@ Get information about an anim object.
 - **Total Keys** (Number)
 - **Length Seconds** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.AnimInfo#example](https://cables.gl/op/Ops.TimeLine.AnimInfo#example)
+**Example:** [cables.gl/op/Ops.TimeLine.AnimInfo#example](https://cables.gl/op/Ops.TimeLine.AnimInfo#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.AnimInfo](https://cables.gl/op/Ops.TimeLine.AnimInfo)
 
@@ -97,7 +97,7 @@ Get information about an anim object.
 
 Automatically starts the timeline playback when opening patch.
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.AutoPlay#example](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
+**Example:** [cables.gl/op/Ops.TimeLine.AutoPlay#example](https://cables.gl/op/Ops.TimeLine.AutoPlay#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.AutoPlay](https://cables.gl/op/Ops.TimeLine.AutoPlay)
 
@@ -124,7 +124,7 @@ Prerenderer based on timeline progress.
 - **Progress** (Number)
 - **Num Events** (Number)
 
-**Example Patch:** [cables.gl/edit/sewM2h](https://cables.gl/edit/sewM2h)
+**Example:** [cables.gl/edit/sewM2h](https://cables.gl/edit/sewM2h)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.DemoPrerender](https://cables.gl/op/Ops.TimeLine.DemoPrerender)
 
@@ -139,7 +139,7 @@ jump to a key in the timeline.
 
 - **Frame** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.GotoFrame#example](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
+**Example:** [cables.gl/op/Ops.TimeLine.GotoFrame#example](https://cables.gl/op/Ops.TimeLine.GotoFrame#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.GotoFrame](https://cables.gl/op/Ops.TimeLine.GotoFrame)
 
@@ -164,7 +164,7 @@ Render the patch at certain times.
 - **Done** (Trigger)
 - **Progress** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.PreRender#example](https://cables.gl/op/Ops.TimeLine.PreRender#example)
+**Example:** [cables.gl/op/Ops.TimeLine.PreRender#example](https://cables.gl/op/Ops.TimeLine.PreRender#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.PreRender](https://cables.gl/op/Ops.TimeLine.PreRender)
 
@@ -185,7 +185,7 @@ configure the timeline for the current patch.
 
 - **Duration Seconds** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimelineConfig#example](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimelineConfig#example](https://cables.gl/op/Ops.TimeLine.TimelineConfig#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimelineConfig](https://cables.gl/op/Ops.TimeLine.TimelineConfig)
 
@@ -200,7 +200,7 @@ use position and play pause state of cables timeline.
 
 - **Time** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineControls#example](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLineControls#example](https://cables.gl/op/Ops.TimeLine.TimeLineControls#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineControls](https://cables.gl/op/Ops.TimeLine.TimeLineControls)
 
@@ -230,7 +230,7 @@ use position and play pause state of cables timeline.
 - **Selected Times Max** (Number)
 - **Selected Keys** (Array)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimelineDebug#example](https://cables.gl/op/Ops.TimeLine.TimelineDebug#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimelineDebug#example](https://cables.gl/op/Ops.TimeLine.TimelineDebug#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimelineDebug](https://cables.gl/op/Ops.TimeLine.TimelineDebug)
 
@@ -245,7 +245,7 @@ Returns the current frame number of the timeline.
 
 - **Time** (Number)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineFrame#example](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLineFrame#example](https://cables.gl/op/Ops.TimeLine.TimeLineFrame#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineFrame](https://cables.gl/op/Ops.TimeLine.TimeLineFrame)
 
@@ -264,7 +264,7 @@ current set length of the timeline.
 
 - **Length** (Number)
 
-**Example Patch:** [cables.gl/edit/qSMdck](https://cables.gl/edit/qSMdck)
+**Example:** [cables.gl/edit/qSMdck](https://cables.gl/edit/qSMdck)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineLength](https://cables.gl/op/Ops.TimeLine.TimeLineLength)
 
@@ -285,7 +285,7 @@ Automatic rewind of timeline at a certain time.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/edit/GbEqL-](https://cables.gl/edit/GbEqL-)
+**Example:** [cables.gl/edit/GbEqL-](https://cables.gl/edit/GbEqL-)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineLoop](https://cables.gl/op/Ops.TimeLine.TimeLineLoop)
 
@@ -305,7 +305,7 @@ overwrite timeline time value.
 
 - **Trigger** (Trigger)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineOverwrite](https://cables.gl/op/Ops.TimeLine.TimeLineOverwrite)
 
@@ -325,7 +325,7 @@ overwrite timeline time value.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
+**Example:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLinePlay](https://cables.gl/op/Ops.TimeLine.TimeLinePlay)
 
@@ -353,7 +353,7 @@ Player controls for the timeline.
 - **Current Frame** (Number)
 - **Current time in frames** (30fps)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLinePlayer#example](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLinePlayer#example](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLinePlayer](https://cables.gl/op/Ops.TimeLine.TimeLinePlayer)
 
@@ -372,7 +372,7 @@ set time of timeline to 0 (rewind, restart).
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
+**Example:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineRewind](https://cables.gl/op/Ops.TimeLine.TimeLineRewind)
 
@@ -392,7 +392,7 @@ set current time of timeline.
 
 - **Next** (Trigger)
 
-**Example Patch:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
+**Example:** [cables.gl/edit/3F6DOe](https://cables.gl/edit/3F6DOe)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineSetTime](https://cables.gl/op/Ops.TimeLine.TimeLineSetTime)
 
@@ -408,7 +408,7 @@ Returns the current time of the timeline.
 - **Time** (Number)
 - **The current time of the timeline** (in seconds)
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineTime#example](https://cables.gl/op/Ops.TimeLine.TimeLineTime#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLineTime#example](https://cables.gl/op/Ops.TimeLine.TimeLineTime#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineTime](https://cables.gl/op/Ops.TimeLine.TimeLineTime)
 
@@ -424,7 +424,7 @@ toggle between timeline playing and being paused.
 - **Play** (Number: Boolean)
 - **Public** (20): MY IDENTITY PATTERN
 
-**Example Patch:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
+**Example:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay#example)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimeLineTogglePlay](https://cables.gl/op/Ops.TimeLine.TimeLineTogglePlay)
 
@@ -447,7 +447,7 @@ Animate and get value at "time" of timeline.
 - **Anim Array** (Array)
 - **Anim Finished** (booleanNumber)
 
-**Example Patch:** [cables.gl/edit/xAg8P6](https://cables.gl/edit/xAg8P6)
+**Example:** [cables.gl/edit/xAg8P6](https://cables.gl/edit/xAg8P6)
 
 **Doc:** [cables.gl/op/Ops.TimeLine.TimelineValue](https://cables.gl/op/Ops.TimeLine.TimelineValue)
 
