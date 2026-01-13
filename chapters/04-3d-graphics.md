@@ -183,8 +183,11 @@ DirectionalLight (shadows enabled) -> ShadowMap -> Scene
 ```
 
 **Shadow Parameters:**
+
 - `Shadow Map Size` - Resolution (higher = sharper, slower)
+
 - `Shadow Bias` - Prevents shadow acne
+
 - `Shadow Radius` - Softness of shadow edges
 
 **Tip:** Use lower shadow map sizes for better performance. 1024x1024 is usually sufficient.
@@ -455,9 +458,13 @@ CustomGeometry -> Material -> Render
 **Bending Algorithm (Node-Based):**
 
 For each vertex:
+
 1. Calculate distance from bend center
+
 2. Calculate angle based on distance and bend amount
+
 3. Rotate vertex around bend axis
+
 4. Update position
 
 **Node Setup for Bending:**
@@ -996,9 +1003,13 @@ Most realistic material option.
 - `Clearcoat` - Additional glossy layer (for car paint, etc.)
 
 **PBR Workflow Tips:**
+
 - Use real-world material values for best results
+
 - Metalness and Roughness are inverse - metals are usually smooth (low roughness)
+
 - Combine texture maps for realistic surfaces
+
 - Use HDR environment maps for accurate reflections
 
 ### Material Blending

@@ -66,10 +66,15 @@ AudioSource -> AudioAnalyzer
 ```
 
 **Key Outputs:**
+
 - `FFT Array` - Frequency spectrum data
+
 - `Volume` - Overall loudness
+
 - `Bass` - Low frequency level
+
 - `Mid` - Middle frequency level
+
 - `High` - High frequency level
 
 ### FFT (Fast Fourier Transform)

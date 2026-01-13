@@ -15,15 +15,21 @@ ImageTexture -> Material (texture input)
 ```
 
 **Supported Formats:**
+
 - PNG (with transparency)
+
 - JPG
+
 - WebP
+
 - GIF (first frame or animated)
 
 **Key Parameters:**
 
 - `URL` - Path to image
+
 - `Filter` - Nearest (pixelated) or Linear (smooth)
+
 - `Wrap` - Repeat, Clamp, Mirror
 
 ### VideoTexture
@@ -37,12 +43,17 @@ VideoTexture -> Material (texture input)
 **Key Parameters:**
 
 - `URL` - Path to video file
+
 - `Loop` - Whether to loop playback
+
 - `Playback Rate` - Speed control
+
 - `Volume` - Audio volume
 
 **Supported Formats:**
+
 - MP4 (H.264)
+
 - WebM
 
 ### WebcamTexture
@@ -104,8 +115,11 @@ TextureTransform -> Before texture application
 ```
 
 **Parameters:**
+
 - `Offset U/V` - Shift the texture
+
 - `Scale U/V` - Tile or shrink
+
 - `Rotate` - Rotate the texture
 
 ### Tiling Textures
@@ -196,7 +210,9 @@ ImageTexture (Mask)
 ```
 
 **Notes:**
+
 - The mask should be treated as a data texture (linear).
+
 - Great for dirt overlays, decals, and transitions.
 
 ### Recipe: Animated UVs (Scrolling / Parallax)
@@ -222,8 +238,11 @@ TextureEffects -> Output
 **Use Cases:**
 
 - blur/glow chains
+
 - color grading
+
 - stylized distortion
+
 - feedback trails (see next recipe)
 
 ### Recipe: Feedback / Trails (Texture Feedback Loop)
@@ -271,8 +290,11 @@ VideoTexture -> BasicMaterial -> Plane
 ```
 
 **Checklist:**
+
 - Use a browser-served URL (avoid `file://` in production).
+
 - Make sure autoplay policies are satisfied (user interaction may be required).
+
 - Use a fallback poster image if video takes time to load.
 
 ### Recipe: Webcam Texture (Permissions + UX)
@@ -282,8 +304,11 @@ WebcamTexture -> BasicMaterial -> Plane
 ```
 
 **Checklist:**
+
 - Provide a UI prompt (“Click to enable camera”).
+
 - Handle denied permissions gracefully (fallback texture).
+
 - Keep resolution reasonable for performance.
 
 ## Texture Types for PBR Materials
@@ -339,9 +364,13 @@ NoiseTexture -> Creates Perlin/Simplex noise
 ```
 
 **Types:**
+
 - Perlin noise
+
 - Simplex noise
+
 - Voronoi
+
 - Fractal/FBM
 
 ### Gradient Textures
@@ -385,11 +414,17 @@ ImageTexture -> TextureEffects -> Output
 ```
 
 **Available Effects:**
+
 - Blur
+
 - Sharpen
+
 - Color correction
+
 - Distortion
+
 - Edge detection
+
 - Pixelation
 
 ### Custom Shader Effects
@@ -407,8 +442,11 @@ CubemapTexture -> Environment lighting
 ```
 
 **Uses:**
+
 - Skyboxes
+
 - Reflections
+
 - Image-based lighting (IBL)
 
 ### HDRITexture
@@ -426,7 +464,9 @@ HDRITexture -> IBL/Environment
 1. **Use appropriate formats:**
 
 - PNG for transparency
+
 - JPG for photos (no transparency)
+
 - WebP for best compression
 2. **Power of 2 sizes:** 256, 512, 1024, 2048, 4096 pixels
 3. **Mipmaps:** Enable for textures viewed at varying distances
@@ -435,8 +475,11 @@ HDRITexture -> IBL/Environment
 ### Memory Considerations:
 
 - 512x512: ~1 MB
+
 - 1024x1024: ~4 MB
+
 - 2048x2048: ~16 MB
+
 - 4096x4096: ~64 MB
 
 ## Practical Examples

@@ -672,44 +672,71 @@ Before using any shader in cables.gl, verify:
 ### Troubleshooting Common Issues
 
 **Issue: "Shader won't compile"**
+
 - Check for `precision mediump float;` at the top
+
 - Verify texture sampling matches the shader context (WebGL1-style: `texture2D`; WebGL2-style: `texture`)
+
 - Ensure no WebGL 2.0 features are used
+
 - Check for syntax errors (missing semicolons, etc.)
 
 **Issue: "Black screen or no output"**
+
 - Verify texture is connected to `tex` (or appropriate sampler2D) port
+
 - Check UV coordinates are in 0.0-1.0 range
+
 - Ensure resolution is connected if shader uses it
+
 - Check if shader is sampling outside texture bounds
 
 **Issue: "Resolution uniform not working"**
+
 - `resolution` is NOT automatically provided
+
 - Connect `CanvasInfo` op or `GetResolution` op to `resolution` port
+
 - Verify resolution values are correct (width, height in pixels)
 
 **Issue: "Integer uniforms not working"**
+
 - Cables.gl may not support `uniform int` reliably
+
 - Convert to `uniform float` and use float comparisons:
+
   - `if (direction == 0)` -> `if (direction < 0.5)`
+
   - `if (direction == 1)` -> `if (direction > 0.5 && direction < 1.5)`
 
 **Issue: "Matrix uniforms not working"**
+
 - Verify your cables.gl version supports `mat3`/`mat4`
+
 - Use Matrix ops to create matrix values
+
 - Consider using `vec4` arrays or separate `vec2`/`vec3` values if matrices aren't supported
 
 **Issue: "Performance is poor"**
+
 - Reduce texture samples per pixel
+
 - Use `mediump` precision (already done)
+
 - Avoid branching in shaders when possible
+
 - Consider breaking into multiple passes
+
 - Check if using custom JavaScript ops (adds overhead)
 
 **Issue: "Ports not appearing"**
+
 - Ensure uniform declarations match exactly (case-sensitive)
+
 - Check uniform types are supported
+
 - Verify shader compiles successfully
+
 - Try recompiling the shader in TextureEffect
 
 ### Using Shaders in Cables.gl: Two Approaches
