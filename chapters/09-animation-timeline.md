@@ -147,7 +147,7 @@ Property 3 o---------------o----------
 
 - **Move:** Drag keyframe left/right (time) or up/down (value)
 - **Delete:** Select and press Delete
-- **Copy/Paste:** Ctrl + C, Ctrl + V
+- **Copy/Paste:** Ctrl C, Ctrl V
 - **Multi-select:** Shift+click or drag box
 
 ### Timeline Tracks
@@ -276,9 +276,7 @@ Smooth transition from walk to run
 
 Clips are stored within your project and can be:
 
-- **Renamed**
-- Right
--click clip in timeline -> Rename
+- **Renamed** - Right-click clip in timeline -> Rename
 - **Duplicated** - Copy clip to create variations
 - **Deleted** - Remove unused clips
 - **Exported/Imported** - Share clips between projects
@@ -304,8 +302,8 @@ Apply at t=5s: Clip starts here
 Apply at t=10s: Clip with 0.5x speed (time remap)
 ```
 
-#### Clip Masking
 
+#### Clip Masking
 Use clips to mask or modulate other animations:
 
 ```
@@ -314,8 +312,8 @@ Clip "mask" (0 to 1) -> Multiply
 Masked Animation (only active where mask = 1)
 ```
 
-#### Conditional Clip Playback
 
+#### Conditional Clip Playback
 Control clip playback based on conditions:
 
 ```
@@ -325,13 +323,11 @@ Condition -> If
 ```
 
 ## JavaScript Custom Op Integration with Animation System
-
 The new animation system integrates seamlessly with JavaScript custom operators, allowing programmatic control and extension of animation capabilities.
 
 ### Accessing Animation Data from Custom Ops
 
 #### Reading Animation Values
-
 ```javascript
 // Get current animation value from an Anim op
 // NOTE: patch inspection APIs can vary between cables versions/runtimes.
@@ -343,8 +339,8 @@ if (animOp && animOp.outValue && typeof animOp.outValue.get === "function") {
 }
 ```
 
-#### Monitoring Animation State
 
+#### Monitoring Animation State
 ```javascript
 const inTrigger = op.inTrigger("Render");
 const outAnimValue = op.outNumber("Animation Value");
@@ -1206,9 +1202,12 @@ const outCombined = op.outNumber("Combined Value");
 
 let velocity = 0;
 let position = 0;
+let lastTime = op.patch.timer.getTime();
 
 inRender.onTriggered = function() {
-    const delta = op.patch.timer.getDelta();
+    const now = op.patch.timer.getTime();
+    const delta = Math.max(0, now - lastTime);
+    lastTime = now;
     const anim = inAnimValue.get();
     const force = inPhysicsForce.get();
     const damp = inDamping.get();

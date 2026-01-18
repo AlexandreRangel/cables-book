@@ -380,17 +380,17 @@ resizeCables();
 
 ### Asset Optimization
 
-**Images:**
+**Images**
 - Use WebP format when possible
 - Use power-of-2 dimensions
 - Compress with tools like TinyPNG
 
-**3D Models:**
+**3D Models**
 - Use glTF/GLB format
 - Remove unnecessary detail
 - Use Draco compression
 
-**Audio:**
+**Audio**
 - Use MP3 or OGG
 - Compress appropriately
 - Consider streaming for long files
@@ -413,7 +413,6 @@ CABLES.patch = new CABLES.Patch({
 ## Deployment Checklist (The Stuff That Breaks at the Worst Time)
 
 Before you publish, run through this list:
-
 - **Loading**: Do you show a loader/progress bar for heavy patches?
 - **Autoplay policies**: If you use audio/video/webcam, do you require a user click?
 - **Mobile sanity**: Does it run on a mid-tier phone without overheating?
@@ -425,14 +424,12 @@ Before you publish, run through this list:
 ### Cache Busting and Versioning
 
 Static hosts cache aggressively. If you deploy a new version and still see the old one:
-
 - add a version/hash to filenames (e.g. `ops.v123.js`)
 - or configure cache headers (short cache for HTML, long cache for hashed assets)
 
 ### MIME Types (Especially for Wasm / Binary Assets)
 
 Some servers mis-serve file types. If a resource fails to load, check response headers:
-
 - `.wasm` should be served as `application/wasm`
 - `.json` as `application/json`
 - textures as correct image mime types
@@ -447,14 +444,12 @@ If you load assets from another domain:
 ### Content Security Policy (CSP)
 
 If your patch is embedded into a site with strict CSP, you may need to allow:
-
 - fetching assets from required domains
 - media playback sources
 
 When possible, avoid “unsafe-inline” and instead rely on your host app’s approved patterns.
 
 ## CI/CD Ideas (Optional, But Great for Teams)
-
 If you repeatedly export and deploy:
 
 - treat the export zip as a build artifact
@@ -464,7 +459,6 @@ If you repeatedly export and deploy:
 Even a simple workflow that publishes static files to GitHub Pages can save time and reduce mistakes.
 
 ## Offline/PWA
-
 Make your patch work offline as a Progressive Web App:
 
 ### manifest.json
@@ -527,7 +521,8 @@ For a truly native desktop experience, you can package your cables.gl export as 
 
 ### Why Electron?
 
-**Advantages:**
+**Advantages**
+
 - Native desktop experience (menus, system tray, notifications)
 - Full file system access
 - Better performance control
@@ -536,7 +531,8 @@ For a truly native desktop experience, you can package your cables.gl export as 
 - Access to native OS APIs
 - Professional distribution via installers
 
-**Considerations:**
+**Considerations**
+
 - Larger app size (~100-200MB)
 - Requires code signing for distribution
 - More complex build process
@@ -1462,9 +1458,9 @@ app.whenReady().then(() => {
 
 Saving and loading JSON data is essential for app settings, user preferences, and state persistence:
 
-#### Method 1: Using IPC Handlers (Recommended)
 
-**In main.js:**
+#### Method 1: Using IPC Handlers (Recommended)
+**in main.js**
 
 ```javascript
 const fs = require('fs').promises;
@@ -1549,7 +1545,7 @@ ipcMain.handle('list-json-files', async (event, directory = '') => {
 });
 ```
 
-**In preload.js:**
+**in preload.js**
 
 ```javascript
 contextBridge.exposeInMainWorld('electronAPI', {
@@ -1572,8 +1568,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
 });
 ```
 
-**In your renderer (cables patch or HTML):**
-
+**in your renderer (cables patch or HTML)**
 ```javascript
 // Save settings
 async function saveSettings(settings) {
@@ -1666,7 +1661,9 @@ async function loadPatchState() {
 }
 ```
 
+
 #### Method 2: Using electron-store (Simpler)
+
 
 ```bash
 npm install electron-store
@@ -1745,15 +1742,15 @@ const allSettings = await window.electronAPI.store.all();
 
 Code signing is essential for smooth app distribution on macOS and Windows. Unsigned apps trigger security warnings and may be blocked.
 
-#### macOS Code Signing
 
-**Requirements:**
+#### macOS Code Signing
+**Requirements**
 
 - Apple Developer Account ($99/year)
 - Valid code signing certificate
 - Notarization (required for macOS 10.15+)
 
-**package.json configuration:**
+**package.json configuration**
 
 ```json
 {
@@ -1785,7 +1782,8 @@ Code signing is essential for smooth app distribution on macOS and Windows. Unsi
 }
 ```
 
-**entitlements.mac.plist:**
+
+**entitlements.mac.plist**
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -1804,7 +1802,8 @@ Code signing is essential for smooth app distribution on macOS and Windows. Unsi
 </plist>
 ```
 
-**scripts/notarize.js:**
+
+**scripts/notarize.js**
 
 ```javascript
 const { notarize } = require('@electron/notarize');
@@ -1828,7 +1827,8 @@ exports.default = async function notarizing(context) {
 };
 ```
 
-**Environment variables (.env or export):**
+
+**Environment variables (.env or export)**
 
 ```bash
 export APPLE_ID="your@email.com"
@@ -1836,20 +1836,265 @@ export APPLE_ID_PASSWORD="app-specific-password"
 export APPLE_TEAM_ID="YOUR_TEAM_ID"
 ```
 
-**Build command:**
+
+**Build command**
 
 ```bash
 npm run build:mac
 ```
 
+#### Notarization Update (2026): Prefer `notarytool` / API Keys
+
+Apple stopped accepting notarization uploads via `altool` years ago; modern notarization is done with **`notarytool`** (and in practice many teams use **App Store Connect API keys** instead of Apple ID + app-specific password).
+
+If you keep using `@electron/notarize`, make sure you’re on a recent version and prefer API-key based auth when available.
+
+At a high level, modern notarization looks like this:
+
+- Build a signed app (`.app`) and package it (`.zip` or `.pkg`)
+- Submit with `xcrun notarytool submit ... --wait`
+- Staple the ticket with `xcrun stapler staple ...`
+
+If you distribute **outside the App Store** (DMG/ZIP download), notarization is still important for a smooth user experience.
+
+
+#### Mac App Store (MAS) Submission (Electron)
+If you want your exported cables app to be installable from the **Mac App Store**, you’ll typically wrap it with Electron and build a **`mas`** target (instead of DMG/ZIP).
+
+This path is stricter than Developer ID distribution:
+
+- Apps must run in the **App Sandbox**
+- Entitlements must match what App Store Connect expects
+- Your build must be signed with **Apple Distribution** (for Mac App Store)
+- Auto-updaters must be disabled (App Store updates your app)
+
+**Prerequisites**
+
+- Apple Developer Program membership
+- An App ID / Bundle ID in the Apple Developer portal (e.g. `com.yourcompany.cablesapp`)
+- App Store Connect app record created (same bundle id)
+- A Mac App Store provisioning profile (Distribution)
+
+
+**electron-builder configuration example**
+
+```json
+{
+  "build": {
+    "appId": "com.yourcompany.cablesapp",
+    "mac": {
+      "target": [
+        {
+          "target": "mas",
+          "arch": ["arm64", "x64"]
+        }
+      ],
+      "entitlements": "build/mac/entitlements.mas.plist",
+      "entitlementsInherit": "build/mac/entitlements.mas.inherit.plist"
+    }
+  }
+}
+```
+
+
+**`entitlements.mas.plist` (example starting point)**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>com.apple.security.app-sandbox</key>
+  <true/>
+
+  <!-- Most interactive WebGL apps need outbound network (CDNs, APIs, etc.) -->
+  <key>com.apple.security.network.client</key>
+  <true/>
+
+  <!-- If you allow opening/saving files via system dialogs -->
+  <key>com.apple.security.files.user-selected.read-write</key>
+  <true/>
+
+  <!-- If you capture images/audio/video, you still need Info.plist usage strings -->
+  <!-- (Entitlements alone are not enough.) -->
+</dict>
+</plist>
+```
+
+
+**`entitlements.mas.inherit.plist` (for helpers)**
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>com.apple.security.app-sandbox</key>
+  <true/>
+  <key>com.apple.security.inherit</key>
+  <true/>
+</dict>
+</plist>
+```
+
+
+**Submission workflow (MAS)**
+
+1. Build the `mas` target (electron-builder will produce a signed `.app` / `.pkg` depending on your setup).
+2. Upload to App Store Connect using Apple’s **Transporter** app (or the supported CLI tooling).
+3. Fill in App Store Connect metadata:
+   - screenshots
+   - age rating
+   - privacy details (“nutrition labels”)
+   - review notes (especially if your app requires specific input devices or has a hidden exit in kiosk mode)
+4. Submit for review and release.
+
+
+**Practical advice for cables.gl apps on MAS**
+
+- Prefer bundling your patch assets locally; minimize remote code-loading.
+- Be explicit about permissions (camera/mic) and provide in-app explanations.
+- Test sandbox behavior early (file access + network + local storage paths can differ).
+
+### iOS App Store + TestFlight (Wrap a Standalone Export)
+
+cables.gl exports are web apps. To ship them on iOS via the App Store, you typically create a **native iOS wrapper** that hosts your exported patch in a `WKWebView`.
+
+There are two proven approaches:
+
+1. **WKWebView + bundled files** (simplest, most “native”)
+2. **Capacitor/Cordova** (convenient if you already use that ecosystem)
+
+Below is the WKWebView approach, because it’s the most transparent and doesn’t require extra tooling.
+
+#### Step 1: Export for “offline”
+
+- Use a **Standalone export** from cables.gl
+- Make sure all assets are local (textures, audio, models) and referenced relatively
+- Test by running the exported folder with no internet connection
+
+#### Step 2: Create an iOS wrapper project
+
+In Xcode:
+
+- Create a new **iOS App** project
+- Add your exported files into the app bundle (e.g. under `www/`), ensuring “Copy items if needed” is enabled
+
+#### Step 3: Load the app in `WKWebView` (recommended patterns)
+
+You have three common options (choose one):
+
+- **Load a local file URL** (`loadFileURL`) with proper read access
+- **Use a custom URL scheme** with `WKURLSchemeHandler` (very robust for complex asset trees)
+- **Run a local server** (e.g. GCDWebServer) and load `http://127.0.0.1:<port>/index.html`
+
+The “local server” approach often avoids edge cases where subresources don’t load due to file URL restrictions, but it’s one more moving part.
+
+#### Step 4: iOS-specific constraints you must plan for
+
+- **WebGL limits**: iOS devices have tighter memory budgets; test on older devices.
+- **Audio/video autoplay**: must be started by a user gesture (tap).
+- **Pointer lock / right-click**: limited or not available; design input accordingly.
+- **Backgrounding**: iOS may suspend your app; ensure your patch handles resume cleanly.
+
+#### Step 5: App Store requirements (the non-code part)
+
+In App Store Connect you’ll need
+
+- App name, bundle id, version/build numbers
+- Icons, screenshots (and often a preview video)
+- Privacy “nutrition labels”
+- Review notes (how to use the app; any hidden UI)
+
+If your patch uses device features, add the correct **usage strings** to `Info.plist`:
+
+- Camera (if you use webcam ops)
+- Microphone (if you record / analyze audio input)
+- Photo Library (if you import/export user images)
+
+#### Step 6: TestFlight + release flow
+
+1. In Xcode: **Archive** your app (Release build)
+2. Upload to App Store Connect
+3. Enable **TestFlight**:
+   - Internal testing (fast)
+   - External testing (requires review)
+4. When stable, submit the same build for App Store review and release
+
+#### Important: Apple Store vs “Add to Home Screen”
+
+A PWA (“Add to Home Screen”) is great for web distribution, but it’s **not** the same as publishing to the iOS App Store. For App Store distribution you need a native wrapper and App Store Connect submission.
+
+## App Store Submission Checklist (Mac App Store + iOS/TestFlight)
+
+Use this section as a final “is everything ready?” checklist before you upload.
+
+### Mac App Store (MAS) checklist
+
+- **App identity**
+  - Bundle ID matches in Apple Developer portal + App Store Connect + `appId` in your build config
+  - Version/build numbers increment properly
+- **Sandbox & entitlements**
+  - App Sandbox enabled (`com.apple.security.app-sandbox = true`)
+  - Only the entitlements you actually need are enabled (network, file access, etc.)
+  - If you access camera/mic, you also added the correct permission usage strings in `Info.plist`
+- **Code signing**
+  - Signed with the correct **Apple Distribution** identity for Mac App Store
+  - Provisioning profile is the **Mac App Store** distribution profile
+- **Packaging**
+  - Built as `mas` (not DMG) and produces a store-uploadable artifact (`.pkg` / `.app` workflow)
+  - Auto-updaters disabled (App Store handles updates)
+- **Content & review risk**
+  - Avoid remote “code download” behavior (don’t fetch executable JS from unknown sources)
+  - If you load remote assets, document why and ensure it’s safe/necessary
+  - If you have kiosk/fullscreen modes, provide a clear exit method and mention it in review notes
+- **App Store Connect metadata**
+  - App name, description, category, age rating
+  - Privacy “nutrition labels”
+  - Screenshots at required sizes (and localized if you support multiple languages)
+  - Contact info + support URL + privacy policy URL
+- **Testing**
+  - Tested on Apple Silicon + Intel (if you ship universal)
+  - Tested sandboxed file dialogs, network calls, save/load paths
+  - Tested “first launch” experience (no scary errors, clear instructions)
+
+### iOS App Store + TestFlight checklist
+
+- **Project setup**
+  - Bundle ID matches across Xcode + Apple Developer portal + App Store Connect
+  - `WKWebView` wrapper loads your exported patch offline (no missing files)
+  - If you use a local server / custom scheme, it’s stable and stays scoped to your app content
+- **Permissions**
+  - `Info.plist` includes all required usage strings (camera/mic/photos/etc.)
+  - If you *don’t* use those features, verify you’re not requesting them accidentally
+- **WebGL + performance**
+  - Tested on at least one older device (memory + GPU limits)
+  - Texture sizes reasonable; avoid huge uncompressed assets
+  - Audio starts only after a user gesture (tap)
+- **Networking**
+  - If the patch calls APIs, ensure App Transport Security is configured correctly
+  - Avoid executing remote code; keep logic bundled with the app
+- **App Store Connect**
+  - App record created; pricing/availability set
+  - Privacy “nutrition labels” filled out accurately
+  - Screenshots for required iPhone/iPad sizes (as applicable)
+  - Review notes explain how to use the app and any non-obvious controls
+- **TestFlight**
+  - Archive + upload works
+  - Internal testing enabled (quick validation)
+  - External testing plan (requires Apple review for external testers)
+- **Release**
+  - Final build number uploaded and selected for App Review
+  - You have a rollback plan (if a build is rejected, what changes next?)
+
 #### Windows Code Signing
 
-**Requirements:**
+**Requirements**
 
 - Code signing certificate (purchased from certificate authority)
 - Or use self-signed certificate for testing (not recommended for distribution)
 
-**package.json configuration:**
+**package.json configuration**
 
 ```json
 {
@@ -1875,7 +2120,7 @@ npm run build:mac
 }
 ```
 
-**build/win/sign.js:**
+**build/win/sign.js**
 
 ```javascript
 const path = require('path');
@@ -1912,7 +2157,7 @@ exports.default = async function(configuration) {
 };
 ```
 
-**Alternative: Using electron-builder's built-in signing:**
+**Alternative: Using electron-builder's built-in signing**
 
 ```json
 {
@@ -1927,7 +2172,7 @@ exports.default = async function(configuration) {
 }
 ```
 
-**Build command:**
+**Build command**
 
 ```bash
 npm run build:win
@@ -2066,24 +2311,27 @@ npm run build:linux
 npm run build:all
 ```
 
+
 #### Distribution Checklist
 
-**Before Building:**
-- [ ] Update version in package.json
-- [ ] Test app thoroughly
-- [ ] Optimize assets
-- [ ] Prepare code signing certificates
-- [ ] Set up environment variables
-- [ ] Test on target platforms
+**Before Building**
+
+- Update version in package.json
+- Test app thoroughly
+- Optimize assets
+- Prepare code signing certificates
+- Set up environment variables
+- Test on target platforms
 
 **After Building:**
-- [ ] Test installer on clean system
-- [ ] Verify code signing
-- [ ] Test auto-updater (if implemented)
-- [ ] Check file associations
-- [ ] Verify menu items work
-- [ ] Test file operations
-- [ ] Check window state persistence
+
+- Test installer on clean system
+- Verify code signing
+- Test auto-updater (if implemented)
+- Check file associations
+- Verify menu items work
+- Test file operations
+- Check window state persistence
 
 ### Advanced Electron Features
 
@@ -2194,22 +2442,22 @@ function showNotification(title, body) {
 
 ### Troubleshooting Electron Issues
 
-**App won't start:**
+**App won't start**
 - Check main.js for syntax errors
 - Verify all dependencies are installed
 - Check console for error messages
 
-**Window is blank:**
+**Window is blank**
 - Verify file paths are correct
 - Check DevTools for errors
 - Ensure renderer files are included in build
 
-**Code signing fails:**
+**Code signing fails**
 - Verify certificate is valid
 - Check environment variables are set
 - Ensure certificate password is correct
 
-**App is slow:**
+**App is slow**
 - Check for memory leaks
 - Optimize asset loading
 - Use performance profiling tools
@@ -2218,23 +2466,23 @@ function showNotification(title, body) {
 
 ### Common Issues
 
-**"Assets not loading"**
+**Assets not loading**
 - Check file paths are correct
 - Ensure CORS headers are set for cross-origin assets
 - Verify assets are included in export
 
-**"Blank screen"**
+**Blank screen**
 - Check browser console for errors
 - Verify all JavaScript files loaded
 - Test on a local server (not file://)
 
-**"Poor performance"**
+**Poor performance**
 - Reduce canvas resolution
 - Lower texture sizes
 - Simplify shaders
 - Check for memory leaks
 
-**"Works locally but not on server"**
+**Works locally but not on server**
 - Check file paths (case-sensitive on Linux)
 - Verify all files uploaded
 - Check server MIME types
@@ -2261,5 +2509,3 @@ Author: Decode GL
 8. **Electron Exercise**: Create a multi-window Electron app with inter-window communication
 9. **Electron Exercise**: Implement window state persistence (save/restore window position and size)
 10. **Electron Exercise**: Add a system tray icon with context menu for your Electron app
-
-

@@ -17,6 +17,67 @@ Set-Location $scriptDir
 # Get temp directory where XeLaTeX will work
 $userTemp = [System.IO.Path]::GetTempPath()
 
+# Preprocess input so double blank lines become extra vertical space in PDF.
+# Pandoc collapses multiple blank lines, so we inject raw LaTeX only in the
+# generated temp file (keeps original markdown untouched).
+function Convert-DoubleBlankLines {
+    param(
+        [string]$SourcePath,
+        [string]$DestPath
+    )
+
+    $lines = Get-Content -Path $SourcePath
+    $outLines = New-Object System.Collections.Generic.List[string]
+
+    $inCodeBlock = $false
+    $blankRun = 0
+
+    foreach ($line in $lines) {
+        $trimmed = $line.Trim()
+
+        # Toggle fenced code block state.
+        if ($trimmed.StartsWith('```') -or $trimmed.StartsWith('~~~')) {
+            if ($blankRun -gt 0) {
+                $outLines.Add("")
+                for ($i = 2; $i -le $blankRun; $i++) {
+                    $outLines.Add('\vspace{\baselineskip}')
+                    $outLines.Add("")
+                }
+                $blankRun = 0
+            }
+            $inCodeBlock = -not $inCodeBlock
+            $outLines.Add($line)
+            continue
+        }
+
+        if (-not $inCodeBlock -and $trimmed.Length -eq 0) {
+            $blankRun++
+            continue
+        }
+
+        if ($blankRun -gt 0) {
+            $outLines.Add("")
+            for ($i = 2; $i -le $blankRun; $i++) {
+                $outLines.Add('\vspace{\baselineskip}')
+                $outLines.Add("")
+            }
+            $blankRun = 0
+        }
+
+        $outLines.Add($line)
+    }
+
+    if ($blankRun -gt 0) {
+        $outLines.Add("")
+        for ($i = 2; $i -le $blankRun; $i++) {
+            $outLines.Add("\vspace{\baselineskip}")
+            $outLines.Add("")
+        }
+    }
+
+    Set-Content -Path $DestPath -Value $outLines -Encoding UTF8
+}
+
 # Check if cover file exists and add it before TOC
 $coverFile = "chapters\00-Cover.md"
 $coverArg = ""
@@ -28,8 +89,19 @@ if (Test-Path $coverFile) {
 }
 
 # Build pandoc command
+$inputForPandoc = $InputFile
+$preprocessedInput = Join-Path $userTemp "cables_book_preprocessed.md"
+if (Test-Path $InputFile) {
+    Convert-DoubleBlankLines -SourcePath $InputFile -DestPath $preprocessedInput
+    $inputForPandoc = $preprocessedInput
+}
+
 $pandocArgs = @(
-    $InputFile,
+    $inputForPandoc,
+    # Treat single newlines in markdown as hard line breaks.
+    # Fixes cases like "**Setup:**" followed by "1.", "2.", etc. lines that
+    # should stay on separate lines in the PDF (Pandoc otherwise collapses them).
+    "--from=markdown+hard_line_breaks",
     "-o", $OutputFile,
     "--pdf-engine=xelatex",
     "--pdf-engine-opt=-interaction=nonstopmode",
@@ -233,7 +305,7 @@ if (Test-Path $OutputFile) {
         $errorContent = Get-Content $tempErr -ErrorAction SilentlyContinue
         if ($errorContent) {
             # Filter for actual errors
-            $errors = $errorContent | Where-Object { $_ -match "(Error|Fatal|!)" }
+            $errors = $errorContent | Where-Object { $_ -match '(Error|Fatal|!)' }
             if ($errors) {
                 Write-Host "Errors found:"
                 $errors | Select-Object -First 10 | ForEach-Object { Write-Host "  $_" }

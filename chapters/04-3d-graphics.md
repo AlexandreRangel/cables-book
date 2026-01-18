@@ -993,7 +993,6 @@ Shiny material with specular highlights.
 Most realistic material option.
 
 **Key Parameters:**
-
 - `Albedo` - Base color
 - `Metalness` - How metallic (0 = plastic, 1 = metal)
 - `Roughness` - Surface smoothness (0 = mirror, 1 = rough)
@@ -1003,13 +1002,9 @@ Most realistic material option.
 - `Clearcoat` - Additional glossy layer (for car paint, etc.)
 
 **PBR Workflow Tips:**
-
 - Use real-world material values for best results
-
 - Metalness and Roughness are inverse - metals are usually smooth (low roughness)
-
 - Combine texture maps for realistic surfaces
-
 - Use HDR environment maps for accurate reflections
 
 ### Material Blending
@@ -1072,8 +1067,7 @@ Transform
 
 For advanced control, use matrix ops:
 
-- `MatrixMultiply`
-- Combine transformations
+- `MatrixMultiply`- Combine transformations
 - `LookAt` - Point object at target
 - `Billboard` - Always face camera
 - `MatrixInvert` - Reverse transformation
@@ -1090,7 +1084,6 @@ Mesh
 ```
 
 **Use Cases:**
-
 - Character rigging (body -> arm -> hand)
 - Vehicle systems (car -> wheel -> tire)
 - Solar systems (sun -> planet -> moon)
@@ -1785,22 +1778,22 @@ StateMachine
 
 ### Visual Debugging
 
-**Show Normals:**
+**Show Normals**
 ```
 Mesh -> DebugNormals -> Visualize normals
 ```
 
-**Show Bounding Boxes:**
+**Show Bounding Boxes**
 ```
 Mesh -> DebugBounds -> Show bounding boxes
 ```
 
-**Show Wireframe:**
+**Show Wireframe**
 ```
 Material -> Wireframe mode -> See geometry
 ```
 
-**Show Grid:**
+**Show Grid**
 ```
 GridHelper -> Visual reference
 ```

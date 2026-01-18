@@ -171,15 +171,335 @@ const inTrigger = op.inTrigger("Render");
 const outNext = op.outTrigger("Next");
 
 let time = 0;
+let lastTime = op.patch.timer.getTime();
 
 inTrigger.onTriggered = function() {
-    time += op.patch.timer.getDelta();
+    const now = op.patch.timer.getTime();
+    const dt = Math.max(0, now - lastTime);
+    lastTime = now;
+    time += dt;
     
     // Do per-frame calculations
     
     outNext.trigger();
 };
 ```
+
+## Custom Op: Animated Dots + Lines (Texture Output)
+
+This custom op draws animated dots connected by lines into a hidden canvas, then you turn that canvas into a texture using `HtmlToTexture`. It is a common "particle network" effect used for backgrounds and UI motion graphics.
+
+### Patch Wiring (recommended)
+
+```
+MainLoop -> DotsNetwork (Render)
+DotsNetwork.Canvas -> HtmlToTexture (Element) -> Texture Out
+```
+
+### Op: `Ops.User.Rangel.DotsNetworkTexture`
+
+```javascript
+// Animated dots + connecting lines -> Canvas (use HtmlToTexture for Texture Out)
+// Name: Ops.User.Rangel.DotsNetworkTexture
+
+const inRender = op.inTrigger("Render");
+
+const inResX = op.inInt("Res X", 1024);
+const inResY = op.inInt("Res Y", 1024);
+
+const inNumPoints = op.inInt("Points", 80);
+const inPointSize = op.inFloat("Point Size", 2.5);
+const inPointSizeRand = op.inFloat("Point Size Random", 0.4);
+
+const inLinesPerPoint = op.inInt("Lines Per Point", 2);
+
+const inPointR = op.inFloat("Point R", 1.0);
+const inPointG = op.inFloat("Point G", 1.0);
+const inPointB = op.inFloat("Point B", 1.0);
+const inPointA = op.inFloat("Point A", 0.9);
+
+const inLineR = op.inFloat("Line R", 0.6);
+const inLineG = op.inFloat("Line G", 0.6);
+const inLineB = op.inFloat("Line B", 0.6);
+const inLineA = op.inFloat("Line A", 0.4);
+
+const inColorJitter = op.inFloat("Color Randomize", 0.15);
+const inSpeed = op.inFloat("Speed", 1.0);
+
+const inDirectTexture = op.inBool("Direct Texture", true);
+const outTexture = op.outTexture("Texture Out");
+const outCanvas = op.outObject("Canvas");
+const outCanvasSelector = op.outString("Canvas Selector");
+const outNext = op.outTrigger("Next");
+
+let canvas = null;
+let ctx = null;
+let points = [];
+let time = 0;
+let lastTime = null;
+let canvasReady = false;
+let cglTexture = null;
+let directTextureFailed = false;
+
+function clamp01(v) {
+    return Math.max(0, Math.min(1, v));
+}
+
+function ensureCanvas() {
+    const w = Math.max(16, inResX.get() | 0);
+    const h = Math.max(16, inResY.get() | 0);
+
+    if (!canvas) {
+        canvas = document.createElement("canvas");
+        canvas.id = "dots-network-canvas";
+        canvas.style.position = "fixed";
+        canvas.style.left = "-10000px";
+        canvas.style.top = "-10000px";
+        document.body.appendChild(canvas);
+        ctx = canvas.getContext("2d");
+        outCanvasSelector.set("#" + canvas.id);
+    }
+
+    if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+    }
+}
+
+function rebuildPoints() {
+    const w = canvas.width;
+    const h = canvas.height;
+    const n = Math.max(2, inNumPoints.get() | 0);
+    const sizeRand = Math.max(0, inPointSizeRand.get());
+    points = [];
+
+    for (let i = 0; i < n; i++) {
+        const scale = 1 - sizeRand + Math.random() * sizeRand * 2;
+        points.push({
+            x: Math.random() * w,
+            y: Math.random() * h,
+            vx: (Math.random() * 2 - 1) * 40,
+            vy: (Math.random() * 2 - 1) * 40,
+            sizeMul: scale,
+            seed: Math.random() * 1000
+        });
+    }
+}
+
+function updatePoints(dt) {
+    const w = canvas.width;
+    const h = canvas.height;
+    const speed = Math.max(0, inSpeed.get());
+
+    for (let i = 0; i < points.length; i++) {
+        const p = points[i];
+        p.x += p.vx * dt * speed;
+        p.y += p.vy * dt * speed;
+
+        if (p.x < 0) p.x += w;
+        if (p.x > w) p.x -= w;
+        if (p.y < 0) p.y += h;
+        if (p.y > h) p.y -= h;
+    }
+}
+
+function findNearest(pointIndex, count) {
+    const p = points[pointIndex];
+    const best = [];
+
+    for (let i = 0; i < points.length; i++) {
+        if (i === pointIndex) continue;
+        const q = points[i];
+        const dx = p.x - q.x;
+        const dy = p.y - q.y;
+        const d2 = dx * dx + dy * dy;
+
+        if (best.length < count) {
+            best.push({ i, d2 });
+            continue;
+        }
+
+        // Replace the worst if this is closer
+        let worstIdx = 0;
+        for (let j = 1; j < best.length; j++) {
+            if (best[j].d2 > best[worstIdx].d2) worstIdx = j;
+        }
+        if (d2 < best[worstIdx].d2) best[worstIdx] = { i, d2 };
+    }
+    return best;
+}
+
+function draw() {
+    const w = canvas.width;
+    const h = canvas.height;
+    const nLines = Math.max(0, inLinesPerPoint.get() | 0);
+    const maxDist = Math.hypot(w, h) * 0.35;
+    const jitter = Math.max(0, inColorJitter.get());
+
+    ctx.clearRect(0, 0, w, h);
+    ctx.globalCompositeOperation = "source-over";
+
+    // Lines first
+    for (let i = 0; i < points.length; i++) {
+        const p = points[i];
+        const neighbors = findNearest(i, nLines);
+        for (let j = 0; j < neighbors.length; j++) {
+            const q = points[neighbors[j].i];
+            const dx = p.x - q.x;
+            const dy = p.y - q.y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            const alphaFade = 1 - Math.min(1, dist / maxDist);
+
+            const t = time * 0.7 + p.seed;
+            const jr = (Math.sin(t) * 0.5 + 0.5) * jitter;
+            const jg = (Math.sin(t + 2.1) * 0.5 + 0.5) * jitter;
+            const jb = (Math.sin(t + 4.2) * 0.5 + 0.5) * jitter;
+
+            const r = clamp01(inLineR.get() + jr);
+            const g = clamp01(inLineG.get() + jg);
+            const b = clamp01(inLineB.get() + jb);
+            const a = clamp01(inLineA.get()) * alphaFade;
+
+            ctx.strokeStyle = `rgba(${(r * 255) | 0}, ${(g * 255) | 0}, ${(b * 255) | 0}, ${a})`;
+            ctx.beginPath();
+            ctx.moveTo(p.x, p.y);
+            ctx.lineTo(q.x, q.y);
+            ctx.stroke();
+        }
+    }
+
+    // Points on top
+    for (let i = 0; i < points.length; i++) {
+        const p = points[i];
+        const size = Math.max(0.25, inPointSize.get() * p.sizeMul);
+
+        const t = time + p.seed * 0.5;
+        const jr = (Math.sin(t) * 0.5 + 0.5) * jitter;
+        const jg = (Math.sin(t + 1.7) * 0.5 + 0.5) * jitter;
+        const jb = (Math.sin(t + 3.4) * 0.5 + 0.5) * jitter;
+
+        const r = clamp01(inPointR.get() + jr);
+        const g = clamp01(inPointG.get() + jg);
+        const b = clamp01(inPointB.get() + jb);
+        const a = clamp01(inPointA.get());
+
+        ctx.fillStyle = `rgba(${(r * 255) | 0}, ${(g * 255) | 0}, ${(b * 255) | 0}, ${a})`;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, size, 0, Math.PI * 2);
+        ctx.fill();
+    }
+}
+
+function getDeltaSafe() {
+    const now = op.patch.timer && typeof op.patch.timer.getTime === "function"
+        ? op.patch.timer.getTime()
+        : performance.now() / 1000;
+    if (lastTime === null) {
+        lastTime = now;
+        return 0;
+    }
+    const dt = Math.max(0, now - lastTime);
+    lastTime = now;
+    return dt;
+}
+
+function updateDirectTexture() {
+    if (!inDirectTexture.get() || directTextureFailed || !canvas) return;
+    const cgl = op.patch && op.patch.cgl ? op.patch.cgl : null;
+    if (!cgl) return;
+
+    try {
+        if (!cglTexture) {
+            if (typeof cgl.createTextureFromCanvas === "function") {
+                cglTexture = cgl.createTextureFromCanvas(canvas);
+            } else if (typeof cgl.createTexture === "function") {
+                cglTexture = cgl.createTexture(canvas);
+            } else if (cgl.Texture) {
+                cglTexture = new cgl.Texture(canvas);
+            } else if (typeof CGL !== "undefined" && CGL.Texture) {
+                cglTexture = new CGL.Texture(canvas);
+            }
+        } else if (typeof cglTexture.setSource === "function") {
+            cglTexture.setSource(canvas);
+        } else if (typeof cglTexture.updateFromCanvas === "function") {
+            cglTexture.updateFromCanvas(canvas);
+        } else if (typeof cglTexture.update === "function") {
+            cglTexture.update(canvas);
+        }
+
+        if (cglTexture) {
+            outTexture.set(cglTexture);
+        }
+    } catch (e) {
+        directTextureFailed = true;
+        op.logWarn("Direct texture update failed, use HtmlToTexture instead.");
+    }
+}
+
+function refreshLayout() {
+    ensureCanvas();
+    rebuildPoints();
+}
+
+inResX.onChange = refreshLayout;
+inResY.onChange = refreshLayout;
+inNumPoints.onChange = refreshLayout;
+inPointSizeRand.onChange = refreshLayout;
+
+// First init
+refreshLayout();
+
+inRender.onTriggered = function () {
+    ensureCanvas();
+    if (!canvasReady && canvas) {
+        outCanvas.set(canvas);
+        canvasReady = true;
+    }
+    const dt = getDeltaSafe();
+    time += dt;
+    updatePoints(dt);
+    draw();
+    updateDirectTexture();
+    outNext.trigger();
+};
+```
+
+### Turn the Canvas into a Texture (HtmlToTexture)
+
+Use `Ops.Extension.HtmlToTexture.HtmlToTexture` to convert the output canvas into a usable texture:
+
+```
+DotsNetworkTexture.Canvas Selector -> HtmlToTexture (Element) -> Texture Out
+MainLoop -> HtmlToTexture (Render)
+```
+
+Set the `Element` input in `HtmlToTexture` to `DotsNetworkTexture.Canvas Selector` (or `#dots-network-canvas`).
+
+**Exact cables.gl op setup (plain workflow):**
+
+1. Add **`MainLoop`**
+2. Add **`DotsNetworkTexture`** (your Custom Op)
+3. Add **`HtmlToTexture`** (`Ops.Extension.HtmlToTexture.HtmlToTexture`)
+4. Add **`BasicMaterial`** and a **`Rectangle`** (or any mesh that accepts a texture)
+5. Wire the ports:
+   - `MainLoop` **Trigger** → `DotsNetworkTexture.Render`
+   - `MainLoop` **Trigger** → `HtmlToTexture.Render`
+   - `DotsNetworkTexture.Canvas Selector` → `HtmlToTexture.Element`
+   - `HtmlToTexture.Texture Out` → `BasicMaterial.Color Tex` (or any texture input)
+   - `BasicMaterial` → `Rectangle` → output
+
+**Result:** the animated dots+lines are rendered to a texture and displayed on your mesh using only standard cables.gl ops (no custom texture API calls).
+
+### Optional: Direct Texture Output (Best-effort)
+
+If your cables runtime exposes a CGL texture API, you can enable **Direct Texture** on the op and use `Texture Out` directly.
+If it fails (API not available), the op will warn and you can fall back to HtmlToTexture.
+
+### Performance Tips
+
+- Start with 40–80 points and 1–2 lines per point.
+- Large blur/glow effects should be applied *after* this texture (post FX).
+- If you need more points, reduce resolution to keep the effect smooth.
 
 ## UI Port Groups
 
@@ -202,7 +522,7 @@ Change how ports appear in the UI:
 ```javascript
 // Slider
 const inValue = op.inFloat("Value", 0.5);
-op.setUiAttrib({ "type": "slider", "min": 0, "max": 1 });
+inValue.setUiAttribs({ type: "slider", min: 0, max: 1 });
 
 // Color picker
 const inR = op.inFloat("R", 1);
@@ -223,8 +543,14 @@ const inMode = op.inSwitch("Mode", ["Option1", "Option2", "Option3"], "Option1")
 // Current time
 const time = op.patch.timer.getTime();
 
-// Delta time (time since last frame)
-const delta = op.patch.timer.getDelta();
+// Delta time (safe pattern)
+let lastTime = op.patch.timer.getTime();
+function getDeltaSafe() {
+    const now = op.patch.timer.getTime();
+    const dt = Math.max(0, now - lastTime);
+    lastTime = now;
+    return dt;
+}
 
 // FPS
 const fps = op.patch.timer.getFPS();
@@ -680,7 +1006,7 @@ op.logWarn("This is a warning");
 op.logError("This is an error");
 
 // Visual debugging
-op.setUiAttrib({ "error": "Something went wrong" });
+op.setUiError("error", "Something went wrong");
 ```
 
 ## Advanced Patterns (How to Build “Good” Ops)

@@ -421,6 +421,246 @@ button:active {
 }
 ```
 
+## Mouse Hotspots & 3D Object Clicking (Picking)
+
+This section focuses on *interacting with what you render* (canvas content): clickable hotspots, hover states, and clicking 3D meshes (including mesh text).
+
+In cables.gl there are two common strategies:
+
+- **2D hotspots (screen-space)**: You define rectangles (or circles) in screen coordinates and test the mouse position against them. This is simple and fast.
+- **3D picking (world-space)**: You cast a ray from the camera through the mouse position and detect which object it hits. This is what you want for “click a mesh”.
+
+### Input: Getting Reliable Mouse/Pointer Data
+
+Use `Ops.Devices.Mouse.Mouse_v4` for mouse *and* touch/pointer input:
+
+- **X / Y**: pointer position (relative to the chosen element/area)
+- **Click**: trigger when the user clicks/taps
+- **Mouse Is Hovering**: useful for hover-only logic
+- **Element** (input): bind the mouse tracking to a specific DOM element (recommended for exported projects)
+
+Doc: [cables.gl/op/Ops.Devices.Mouse.Mouse_v4](https://cables.gl/op/Ops.Devices.Mouse.Mouse_v4)
+
+If you need more explicit button events (double click, mouse up/down), use `Ops.Devices.Mouse.MouseButtons`:
+
+Doc: [cables.gl/op/Ops.Devices.Mouse.MouseButtons](https://cables.gl/op/Ops.Devices.Mouse.MouseButtons)
+
+### 2D Hotspots (Clickable Regions Over the Canvas)
+
+This is the most robust approach for “click zones”, UI-like areas, and overlays.
+
+#### Example: A Single Rectangular Hotspot
+
+Goal: Trigger an action when the user clicks inside a rectangle.
+
+**Patch concept:**
+
+```
+Mouse_v4 (X,Y,Click)
+X -> BetweenEquals (minX,maxX) -> xInside
+Y -> BetweenEquals (minY,maxY) -> yInside
+xInside + yInside -> And -> isInside
+Click -> GateTrigger(Pass Through = isInside) -> HotspotClicked
+```
+
+Ops used:
+
+- `Ops.Math.Compare.BetweenEquals` (or `Between`)  
+  Doc: [cables.gl/op/Ops.Math.Compare.BetweenEquals](https://cables.gl/op/Ops.Math.Compare.BetweenEquals)
+- `Ops.Boolean.And`  
+  Doc: [cables.gl/op/Ops.Boolean.And](https://cables.gl/op/Ops.Boolean.And)
+- `Ops.Trigger.GateTrigger`  
+  Doc: [cables.gl/op/Ops.Trigger.GateTrigger](https://cables.gl/op/Ops.Trigger.GateTrigger)
+
+**Hover state:**
+
+- Use `isInside` to drive highlight, tooltip visibility, or cursor changes.
+- If you’re using an HTML overlay HUD, remember you can set `pointer-events: none;` on non-interactive layers so the canvas still receives pointer input.
+
+#### Multiple Hotspots (Without Duplicating a Ton of Logic)
+
+When you have many hotspots, define them as data:
+
+- **Per hotspot**: `minX, minY, maxX, maxY, id`
+- Use an iterator pattern to test all hotspots and output the first hit (or all hits).
+
+If you prefer to stay simple: duplicate the “single hotspot” block for a handful of hotspots. It’s often clearer than building a generic system too early.
+
+### 3D Object Clicking (Ray Picking)
+
+For “click a 3D object”, you need to cast a ray and ask “which body did we hit?”
+
+There are two practical ways to do this in cables.gl:
+
+#### Option A (Recommended): Physics-based picking with AmmoRaycast
+
+If you are already using physics (or you’re okay adding it), `Ops.Extension.AmmoPhysics.AmmoRaycast` is the most straightforward “mouse-to-3D-hit” workflow because it supports **screen X/Y** directly.
+
+Doc: [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast)
+
+**Basic setup:**
+
+1. Create an `AmmoWorld`.
+2. Give every clickable object a physics body (usually `AmmoBody`, or a GLTF helper like `GltfAmmoBodies` if you’re using imported models).
+3. Use `Mouse_v4` to get pointer **X/Y**.
+4. Feed X/Y into `AmmoRaycast` as **normalized screen coordinates** (0..1).  
+   - If your X/Y are pixels, divide by canvas width/height first.
+5. On each frame (or on click), trigger `AmmoRaycast`.
+6. Use **Has Hit** + **Hit Body Name** to decide what was clicked.
+
+**Click gating pattern (so you only “select” on click, not every frame):**
+
+```
+Mouse_v4.Click -> GateTrigger(Pass Through = AmmoRaycast.Has Hit) -> PickClicked
+PickClicked -> your action
+```
+
+To route by object name:
+
+- `Ops.String.StringEquals_v2` can compare `Hit Body Name` to `"door"`, `"buttonA"`, `"titleText"`, etc.  
+  Doc: [cables.gl/op/Ops.String.StringEquals_v2](https://cables.gl/op/Ops.String.StringEquals_v2)
+
+**Hover + cursor:**
+
+- Many raycast/intersection ops have a “Change Cursor” input. If you enable it, the cursor can change automatically when hovering a hittable body.
+
+#### Option B: Lightweight intersection world (no full physics simulation)
+
+If you don’t want physics simulation, you can build a small “intersection world” and ray-test it:
+
+- `Ops.Graphics.Intersection.IntersectWorld` defines a set of bodies.
+- `Ops.Graphics.Intersection.IntersectBody` registers bodies (name + size + position).
+- `Ops.Graphics.Intersection.IntersectTestRaycast` casts a ray from **(X,Y,Z)** to **(ToX,ToY,ToZ)** and returns hit info.
+
+Docs:
+
+- [cables.gl/op/Ops.Graphics.Intersection.IntersectWorld](https://cables.gl/op/Ops.Graphics.Intersection.IntersectWorld)
+- [cables.gl/op/Ops.Graphics.Intersection.IntersectBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody)
+- [cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast)
+
+**Important:** This method needs a world-space ray (start + end points). If your patch version doesn’t already provide an op to convert mouse screen coordinates into a world ray, the typical solution is a tiny Custom JS op that:
+
+- reads the active camera matrices
+- unprojects the mouse into a ray direction
+- outputs two points: ray start (camera position) and ray end (camera position + direction * distance)
+
+Once you have start/end points, `IntersectTestRaycast` works the same way as AmmoRaycast: you get **Has Hit** and **Hit Body Name**.
+
+### Clicking “Mesh Text” When You Use `TextTexture` (Draw Mesh)
+
+If you’re using `Ops.Gl.Textures.TextTexture_v6` with **Draw Mesh = true**, cables.gl renders your text texture onto a simple rectangle mesh (a “card”) in the scene.
+
+Doc: [cables.gl/op/Ops.Gl.Textures.TextTexture_v6](https://cables.gl/op/Ops.Gl.Textures.TextTexture_v6)
+
+The important part for clicking is: **the visible text plane is just a rectangle**, so you can click it reliably by creating a matching *box/plane collider* (rather than trying to click per-glyph geometry).
+
+#### Best Practice: Add a Matching Collider “Behind” the Text Plane
+
+1. **Name your clickable thing** (e.g. `"menu_play"`, `"titleText"`)
+2. **Create a collider body** aligned to the same transform as the drawn text mesh
+3. Use ray picking (AmmoRaycast recommended) and route by **Hit Body Name**
+
+Because `TextTexture_v6` outputs **Aspect**, you can drive the collider size from your text’s current dimensions:
+
+- **SizeY**: use your `Scale Mesh` value
+- **SizeX**: use \(ScaleMesh \times Aspect\)
+- **SizeZ**: a small thickness (e.g. `0.01`) so it’s still hittable
+
+If your text appears “rotated” (portrait vs landscape), swap which axis uses `Aspect`—the goal is simply: collider matches what you see.
+
+#### Dynamic Text (Auto-updating the Hotspot)
+
+If your text changes at runtime (score counters, menus, typewriter effects), your hotspot must update too.
+
+There are two easy ways to keep the collider in sync:
+
+**Method 1: Update the collider whenever the texture redraws**
+
+`TextTexture_v6` already has the triggers you need:
+
+- **Render** (Trigger): causes the text texture to redraw
+- **Force Redraw** (Trigger): explicit redraw
+- **Next** (Trigger): fires after redraw
+
+Hook that redraw trigger to your collider update, and recompute sizes from the latest `Aspect`:
+
+```
+TextTexture_v6.Force Redraw (or Render)
+  -> TextTexture_v6.Next
+      -> AmmoBody.Update
+
+TextTexture_v6.Aspect -> (math) -> AmmoBody.SizeX
+ScaleMesh             -> (math) -> AmmoBody.SizeY
+```
+
+This ensures the collider resizes *exactly when the text actually changes on screen*.
+
+**Method 2: Only update when the text input changes (less work per frame)**
+
+If your text source is a string (from UI, JSON, etc.), use:
+
+- `Ops.Trigger.TriggerOnChangeString_v2`  
+  Doc: [cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2](https://cables.gl/op/Ops.Trigger.TriggerOnChangeString_v2)
+
+Concept:
+
+```
+YourTextString -> TriggerOnChangeString_v2 -> Changed
+Changed -> TextTexture_v6.Force Redraw
+Changed -> AmmoBody.Update
+```
+
+This avoids updating the collider every frame for “static most of the time” text.
+
+#### Clicking TextTexture via AmmoRaycast (Recommended)
+
+This is the cleanest path for clickable 3D text planes because `AmmoRaycast` accepts **screen X/Y** directly.
+
+Docs:
+
+- [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoRaycast)
+- [cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody](https://cables.gl/op/Ops.Extension.AmmoPhysics.AmmoBody)
+
+**Concept:**
+
+```
+TextTexture_v6 (Draw Mesh = true)
+  -> (your Transform / positioning in 3D)
+
+AmmoBody (box collider, same transform)
+  Name = "menu_play"
+  SizeX = ScaleMesh * Aspect
+  SizeY = ScaleMesh
+  SizeZ = 0.01
+
+Mouse_v4 (X,Y,Click) -> (normalize 0..1 if needed) -> AmmoRaycast
+AmmoRaycast.Has Hit + Hit Body Name -> your click routing
+```
+
+#### If You Don’t Want Physics
+
+You can do the same idea with the Graphics Intersection “world”:
+
+- Register a body with the same position/size as the text plane (`IntersectBody`)
+- Cast a ray (`IntersectTestRaycast`)
+
+Docs:
+
+- [cables.gl/op/Ops.Graphics.Intersection.IntersectBody](https://cables.gl/op/Ops.Graphics.Intersection.IntersectBody)
+- [cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast](https://cables.gl/op/Ops.Graphics.Intersection.IntersectTestRaycast)
+
+This path requires a world-space ray (start/end points). If you don’t already have an op that converts mouse screen coordinates into a world ray for your camera, AmmoRaycast is usually faster to get working.
+
+### Common Pitfalls (and Fixes)
+
+- **Clicks don’t register in exported builds**
+  - Bind `Mouse_v4` to the correct **Element** (canvas/container), and ensure overlays don’t block input.
+- **Hover works but click doesn’t**
+  - Ensure the click trigger is gated by “inside/hit” (GateTrigger) and that you’re using the correct click trigger (`Mouse_v4.Click` vs `MouseButtons.Click Left`).
+- **Screen coordinates are “off”**
+  - Normalize properly (0..1) when an op expects normalized screen coordinates.
+  - Watch for Y inversion (Mouse_v4 has `Flip Y`).
+
 ## Native Sidebar Interface Ops
 
 ### Overview
@@ -887,7 +1127,7 @@ function adjustBrightness(color, percent) {
     const r = Math.max(0, Math.min(255, (num >> 16) + percent));
     const g = Math.max(0, Math.min(255, ((num >> 8) & 0x00FF) + percent));
     const b = Math.max(0, Math.min(255, (num & 0x0000FF) + percent));
-    return "#" + ((r << 16) (g << 8) b).toString(16).padStart(6, "0");
+    return "#" + ((r << 16) | (g << 8) | b).toString(16).padStart(6, "0");
 }
 
 inTheme.onChange = updateStyles;

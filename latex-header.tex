@@ -16,18 +16,18 @@
 %% PAGE LAYOUT
 %% ------------------------------------------------------------
 \newcommand{\PagePaper}{a4paper}         % Page size
-\newcommand{\PageMarginLeft}{0.4in}      % Left margin
-\newcommand{\PageMarginRight}{0.28in}     % Right margin
-\newcommand{\PageMarginTop}{0.26in}       % Top margin
-\newcommand{\PageMarginBottom}{0.22in}   % Bottom margin
+\newcommand{\PageMarginLeft}{0.27in}      % Left margin
+\newcommand{\PageMarginRight}{0.27in}     % Right margin
+\newcommand{\PageMarginTop}{0.25in}       % Top margin
+\newcommand{\PageMarginBottom}{0.15in}   % Bottom margin
 \newcommand{\HeaderHeight}{6}            % Header height in points
-\newcommand{\FooterHeight}{6}            % Footer height in points
+\newcommand{\FooterHeight}{5}            % Footer height in points
 \newcommand{\FooterSkip}{5pt}            % Distance from text bottom to footer (lower = closer to page edge)
-\newcommand{\FooterVerticalOffset}{-7pt} % Vertical offset for page number (negative = closer to page edge)
+\newcommand{\FooterVerticalOffset}{-1pt} % Vertical offset for page number (negative = closer to page edge)
 \newcommand{\PageNumberGrayPercent}{45}  % Page number color (black!75)
 \newcommand{\PageNumberFontSeries}{sb}   % Page number weight (sb=semibold, bf=bold)
-\newcommand{\PageNumberFontSize}{10.4}   % Page number font size
-\newcommand{\ColumnGutterWidth}{0.3in}  % Space between columns in 2-column layout (tripled from default ~0.14in)
+\newcommand{\PageNumberFontSize}{10.25}   % Page number font size
+\newcommand{\ColumnGutterWidth}{0.27in}  % Space between columns in 2-column layout
 
 
 %% ------------------------------------------------------------
@@ -39,23 +39,23 @@
 \newcommand{\SectionOneSpacingBefore}{0ex}  % Spacing before chapter titles
 \newcommand{\SectionOneSpacingAfter}{1.1ex}  % Spacing after chapter titles
 
-\newcommand{\SectionTwoFontSize}{16}      % Major sections
+\newcommand{\SectionTwoFontSize}{16.1}      % Major sections
 \newcommand{\SectionTwoLeading}{10}
-\newcommand{\SectionTwoSpacingBefore}{1.0ex}  % Spacing before major sections
-\newcommand{\SectionTwoSpacingAfter}{0.9ex}  % Spacing after major sections
+\newcommand{\SectionTwoSpacingBefore}{0.93ex}  % Spacing before major sections
+\newcommand{\SectionTwoSpacingAfter}{0.93ex}  % Spacing after major sections
 
 \newcommand{\SectionThreeFontSize}{13.5}    % Subsections (op names)
 \newcommand{\SectionThreeLeading}{9}
-\newcommand{\SectionThreeSpacingBefore}{0.8ex}  % Spacing before subsections
-\newcommand{\SectionThreeSpacingAfter}{1.2ex}  % Spacing after subsections
+\newcommand{\SectionThreeSpacingBefore}{0.5ex}  % Spacing before subsections
+\newcommand{\SectionThreeSpacingAfter}{1.18ex}  % Spacing after subsections
 
 \newcommand{\SubsubsectionSpacingBefore}{2.2ex}  % Spacing before subsubsections 
-\newcommand{\SubsubsectionSpacingAfter}{1.2ex }  
+\newcommand{\SubsubsectionSpacingAfter}{1.2ex}  
 
 \newcommand{\SectionFourFontSize}{12}     % Paragraph headers
-\newcommand{\SectionFourLeading}{10.5}
-\newcommand{\SectionFourSpacingBefore}{0.4ex}  % Spacing before paragraph headers
-\newcommand{\SectionFourSpacingAfter}{0.8ex} 
+\newcommand{\SectionFourLeading}{10.6}
+\newcommand{\SectionFourSpacingBefore}{0.3ex}  % Spacing before paragraph headers
+\newcommand{\SectionFourSpacingAfter}{0.9ex} 
 
 
 %% ------------------------------------------------------------
@@ -93,23 +93,24 @@
 %% ------------------------------------------------------------
 %% OPS SECTION - Spacing & Layout
 %% ------------------------------------------------------------
-\newcommand{\OpImageHeightFraction}{0.055}  % Op image height fraction of \textheight (width scales proportionally)
-\newcommand{\OpImageSpacing}{-0.35\baselineskip}  % Spacing before/after op images
+\newcommand{\OpImageHeightFraction}{0.053}  % Op image height fraction of \textheight (width scales proportionally)
+\newcommand{\OpImageSpacing}{-0.33\baselineskip}  % Spacing before/after op images
 \newcommand{\OpParagraphSpacing}{0.91\parskip}  % Paragraph spacing in ops
 \newcommand{\OpsSectionLeading}{1.0}      % Line spacing in ops sections
-\newcommand{\OpImageBrightnessOverlay}{0.25}  % Op image brightness overlay (0.0 = no change, 1.0 = fully white). Higher = brighter/lighter for printing
+\newcommand{\OpImageBrightnessOverlay}{0.23}  % Op image brightness overlay (0.0 = no change, 1.0 = fully white). Higher = brighter/lighter for printing
 
 
 %% ------------------------------------------------------------
 %% CODE BLOCKS
 %% ------------------------------------------------------------
-\newcommand{\CodeBlockFontSize}{11}     % Font size in points
-\newcommand{\CodeBlockLeadingPt}{12}  % Line height (leading) in points
+\newcommand{\CodeBlockFontSize}{11.2}     % Font size in points
+\newcommand{\CodeBlockLeadingPt}{12.15}  % Line height (leading) in points
 \newcommand{\CodeBlockLineSpacing}{1.15}  % Extra multiplier (1.0 = none). Keep for fine-tuning.
-\newcommand{\CodeBlockSpacingBefore}{0.85\baselineskip}  % Space before code blocks
+\newcommand{\CodeBlockSpacingBefore}{1.0\baselineskip}  % Space before code blocks
+\newcommand{\CodeBlockSpacingAfter}{\baselineskip}  % Space after code blocks
 \newcommand{\CodeBlockPaddingTop}{7pt}    % Top padding inside code blocks
-\newcommand{\CodeBlockPaddingBottom}{6pt} % Bottom padding inside code blocks
-\newcommand{\CodeBlockPaddingLeft}{10pt}    % Left padding inside code blocks
+\newcommand{\CodeBlockPaddingBottom}{7pt} % Bottom padding inside code blocks
+\newcommand{\CodeBlockPaddingLeft}{11pt}    % Left padding inside code blocks
 \newcommand{\CodeBlockPaddingRight}{8pt}  % Right padding inside code blocks
 
 
@@ -187,7 +188,15 @@
 
 
 %% Basic packages
+% Ensure all PDF links default to opening in a new window/tab
+% (Some PDF viewers may still override this behavior.)
+\PassOptionsToPackage{pdfnewwindow=true}{hyperref}
 \usepackage{graphicx}
+% Add graphics paths for finding images
+\graphicspath{{chapters/}{chapters/images/}{./}}
+% Support for SVG files with XeLaTeX
+\usepackage{svg}
+\svgpath{{chapters/images/}{chapters/}{./}}
 \usepackage{xcolor}
 \usepackage{xstring}  % For string comparison in image handling
 \usepackage{ragged2e} % For better left alignment
@@ -406,6 +415,13 @@
 \setlist[itemize]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt, before=\color{listitemtextcolor}, after=\color{bodytextcolor}}
 \setlist[enumerate]{itemsep=\ListItemSpacing, parsep=0pt, topsep=0pt, partopsep=0pt, before=\color{listitemtextcolor}, after=\color{bodytextcolor}}
 
+%% Define \tightlist command for Pandoc tight lists
+%% This ensures consistent spacing for lists without blank lines between items
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{\ListItemSpacing}%
+  \setlength{\parskip}{0pt}%
+}
+
 %% Code block styling
 \usepackage{fancyvrb}
 \usepackage{fvextra} % enables automatic line breaking for Verbatim environments
@@ -442,7 +458,7 @@
     rightmargin=0pt,
     roundcorner=\CardCornerRadius,
     skipabove=\CodeBlockSpacingBefore,
-    skipbelow=\baselineskip
+    skipbelow=\CodeBlockSpacingAfter
 }
 
 % Video cards: keep cardstyle, but make left/right padding match the (good) top padding
@@ -532,8 +548,12 @@
     linkcolor=sectiononecolor,
     urlcolor=linkblue,
     citecolor=sectiononecolor,
-    filecolor=sectiononecolor
+    filecolor=sectiononecolor,
+    pdfnewwindow=true
   }
+  % Make all URL links open in new tabs/windows when PDF is viewed in browser
+  % The pdfnewwindow=true option ensures example patches, doc pages, and all URLs open in new tabs
+  % This prevents the PDF from being replaced when clicking links
   % Add a hard page break after the TOC
   \apptocmd{\tableofcontents}{\clearpage}{}{}
   % Final override to ensure figures are left-aligned

@@ -1783,6 +1783,9 @@ void main() {
 let shaderMaterial = null;
 
 function updateShader() {
+    if (!op.patch.cgl || typeof op.patch.cgl.createRenderTarget !== "function") {
+        return;
+    }
     const tex = inTexture.get();
     if (!tex) return;
     

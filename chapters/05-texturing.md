@@ -105,9 +105,6 @@ Texture <- Moved right/up
 Scale U/V: Tile or shrink texture
 Tex Tex Tex <- Tiled horizontally
 Rotate: Rotate texture around center
-/ \
-/ Texture \ <- Rotated
-\ /
 ```
 
 ```

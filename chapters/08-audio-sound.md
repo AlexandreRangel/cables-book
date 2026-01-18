@@ -26,6 +26,67 @@ AudioFile -> AudioAnalyzer -> Visual ops
 - `Volume` - Playback volume
 - `Playback Rate` - Speed control
 
+### Including MP3 Files (Reliable Workflow)
+
+For consistent playback across browsers, treat MP3s as **project assets** and keep paths relative:
+
+- Export your patch with **Standalone** so audio files are packaged locally.
+- Use relative paths like `audio/track-01.mp3` (not absolute paths).
+- If you host the patch, make sure your server sets a correct `Content-Type` (`audio/mpeg`).
+
+**Tip:** If a file fails to load, verify the URL in DevTools and confirm the server isn’t blocking range requests.
+
+### Playing Multiple MP3s (Playlists & Sequencing)
+
+There are two common patterns for sequencing tracks: **manual switching** and **automatic chaining**.
+
+#### Pattern 1: Manual track switching
+
+Use multiple `AudioFile` ops and route which one is audible:
+
+```
+AudioFile (Track A) -> Gain A ->
+AudioFile (Track B) -> Gain B -> Mix -> Output
+AudioFile (Track C) -> Gain C ->
+```
+
+Then control the Gains (0..1) from UI or triggers to select the active track.
+
+#### Pattern 2: Automatic chaining (Track A -> Track B -> Track C)
+
+Use a trigger when a track ends, then start the next one.
+
+Concept:
+
+```
+AudioFile (Track A)
+  -> OnEnded trigger -> start Track B
+AudioFile (Track B)
+  -> OnEnded trigger -> start Track C
+```
+
+If your version doesn’t have a dedicated **OnEnded** trigger, use a timing approach:
+
+- Track duration (seconds) -> Timer/Delay -> Trigger next track
+- Add a small safety buffer (e.g., +0.1s) for decoding delay
+
+#### Practical sequencing tips
+
+- **Preload** tracks when possible to avoid gaps.
+- **Crossfade** between tracks by overlapping playback and fading Gain A down while Gain B goes up.
+- If you only need one track active at a time, **pause** or **stop** the others to save CPU.
+
+### Smooth Crossfades (No Clicks, No Gaps)
+
+The most polished sequence is a short crossfade:
+
+```
+Fade Out Track A Gain (1 -> 0 over 0.5s)
+Fade In  Track B Gain (0 -> 1 over 0.5s)
+```
+
+You can drive the fades with a `Smooth` or animation/timeline curve.
+
 ### Microphone
 
 Capture live audio input:
@@ -430,6 +491,81 @@ document.addEventListener('click', () => {
     }
 }, { once: true });
 ```
+
+## Text-to-Speech (TTS) and Voice Installation
+
+If you want spoken narration, captions, or voice feedback, use **Text-to-Speech (TTS)**. In the browser, the most common approach is the **Web Speech API** (`speechSynthesis`), which uses the voices installed on the user’s system.
+
+### How TTS Works in the Browser
+
+- The browser exposes a list of available voices via `speechSynthesis.getVoices()`.
+- Which voices you see depends on the **OS + installed language packs**.
+- You can let users pick a voice from that list and store their preference.
+
+### Installing New Voices (for more languages)
+
+These steps are for **the user’s machine** (because voices are system-level):
+
+**Windows 10/11**
+
+1. Settings → **Time & language** → **Language & region**
+2. **Add a language**, then open it
+3. Under **Language options**, install **Speech** (and optionally **Text-to-speech**)
+4. Restart the browser and refresh the patch
+
+**macOS**
+
+1. System Settings → **Accessibility** → **Spoken Content**
+2. Under **System Voice**, choose **Manage Voices**
+3. Download the language/voice you want
+4. Restart the browser and refresh the patch
+
+**iOS / iPadOS**
+
+1. Settings → **Accessibility** → **Spoken Content**
+2. **Voices** → choose language → download voices
+3. Restart the app/browser
+
+**Android (Chrome)**
+
+1. Settings → **System** → **Languages & input** → **Text-to-speech output**
+2. Install/download additional voices
+3. Restart the browser
+
+### Letting Users Choose a Voice (Recommended)
+
+Provide a simple UI (HTML or sidebar) that lists available voices and stores the selection:
+
+```javascript
+// Example: list voices and speak
+const synth = window.speechSynthesis;
+
+function loadVoices() {
+  const voices = synth.getVoices();
+  // Populate a dropdown in your UI with voices
+}
+
+// Some browsers load voices asynchronously
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = loadVoices;
+}
+
+function speak(text, voiceName) {
+  const utter = new SpeechSynthesisUtterance(text);
+  const voices = synth.getVoices();
+  const voice = voices.find(v => v.name === voiceName);
+  if (voice) utter.voice = voice;
+  synth.speak(utter);
+}
+```
+
+**Best practice:** store the user’s selection (e.g., LocalStorage or patch variables) and re-apply it on load.
+
+### Practical Notes for TTS in cables.gl
+
+- **Autoplay rules apply**: many browsers require a user gesture before audio (including TTS) will play.
+- **Fallbacks**: if a voice isn’t available, choose a default and show a small warning in the UI.
+- **Offline use**: downloaded system voices work offline, which is ideal for installations.
 
 ## Featured Videos
 

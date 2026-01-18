@@ -31,7 +31,7 @@ PATCH EDITOR
 - **Pan the view:** Middle mouse drag or Space + drag
 - **Zoom in/out:** Mouse scroll wheel
 - **Select op:** Left click
-- **Multi-select:** Shift + click or drag box
+- **Multi-select:** Shift click or drag box
 - **Delete selected:** Delete or Backspace
 - **Add new op:** Double-click or Tab
 - **Connect ports:** Drag from output to input
@@ -44,106 +44,98 @@ Mastering keyboard shortcuts will significantly speed up your workflow in cables
 
 - **Tab** or **Double-click:** Add new op (opens search)
 - **Delete** or **Backspace:** Delete selected op(s)
-- **Ctrl + C :** Copy selected op(s)
-- **Ctrl + V :** Paste selected op(s)
-- **Ctrl + X :** Cut selected op(s)
-- **Ctrl + D :** Duplicate selected op(s)
-- **Ctrl + Z :** Undo
-- **Ctrl + Shift + Z :** Redo
+- **Ctrl C :** Copy selected op(s)
+- **Ctrl V :** Paste selected op(s)
+- **Ctrl X :** Cut selected op(s)
+- **Ctrl D :** Duplicate selected op(s)
+- **Ctrl Z :** Undo
+- **Ctrl Shift Z :** Redo
 
 ### Selection & Navigation
 
-- **Ctrl + A :** Select all ops
-- **Shift + Click:** Add to selection
-- **Ctrl + Click :** Toggle selection
-- **Escape:** Deselect all
-- **Space + Drag:** Pan the patch view
-- **Mouse Wheel:** Zoom in/out
-- **Ctrl + 0 :** Zoom to fit all ops
-- **F:** Focus/frame selected op(s)
+- **Ctrl A :** Select all ops
+- **Shift Click :** Add to selection
+- **Ctrl Click :** Toggle selection
+- **Escape :** Deselect all
+- **Space + Drag :** Pan the patch view
+- **Mouse Wheel :** Zoom in/out
+- **Ctrl 0 :** Zoom to fit all ops
+- **F :** Focus/frame selected op(s)
 
 ### Organizing & Aligning
 
-- **Ctrl + Shift + A :** Align selected ops horizontally
-- **Ctrl + Shift + D :** Distribute selected ops evenly
-- **Ctrl + G :** Group selected ops
-- **Arrow Keys:** Nudge selected op(s) by small amount
-- **Shift + Arrow Keys:** Nudge selected op(s) by larger amount
+- **Ctrl Shift A :** Align selected ops horizontally
+- **Ctrl Shift D :** Distribute selected ops evenly
+- **Ctrl G :** Group selected ops
+- **Arrow Keys :** Nudge selected op(s) by small amount
+- **Shift Arrow Keys :** Nudge selected op(s) by larger amount
 
 ### Working with Ops
 
-- **Enter:** Open/edit selected op's parameters
-- **Ctrl + E :** Enable/disable selected op
-- **Ctrl + M :** Mute selected op
-- **R:** Rename selected op
-- **C:** Add comment node
-- **Ctrl + F :** Find/search ops in patch
+- **Enter :** Open/edit selected op's parameters
+- **Ctrl E :** Enable/disable selected op
+- **Ctrl M :** Mute selected op
+- **R :** Rename selected op
+- **C :** Add comment node
+- **Ctrl F :** Find/search ops in patch
 
 ### Cables & Connections
 
-- **Drag from port:** Create connection
-- **Click connection:** Select cable
-- **Alt + Click connection:** Delete cable
-- **Shift + Drag port:** Create cable with search
+- **Drag from port :** Create connection
+- **Click connection :** Select cable
+- **Alt Click connection :** Delete cable
+- **Shift Drag port :** Create cable with search
 
 ### View & Interface
 
-- **T:** Toggle timeline
-- **Ctrl + / :** Toggle op library
-- **H:** Toggle patch editor visibility
-- **P:** Toggle parameters panel
-- **Ctrl + S :** Save patch
-- **Ctrl + Shift + S :** Save as...
+- **T :** Toggle timeline
+- **Ctrl / :** Toggle op library
+- **H :** Toggle patch editor visibility
+- **P :** Toggle parameters panel
+- **Ctrl S :** Save patch
+- **Ctrl Shift S :** Save as...
 
 ### Performance & Debugging
 
-- **Ctrl + Shift + P :** Performance monitor
-- **Ctrl + Shift + L :** Show patch loading info
-- **Alt + Click op:** View op documentation
+- **Ctrl Shift P :** Performance monitor
+- **Ctrl Shift L :** Show patch loading info
+- **Alt Click op :** View op documentation
 
 ### Pro Tips
 
-- **Hold Shift while connecting**: Automatically opens op search to insert an op in the connection
-- **Hold Alt while dragging**: Duplicate op while moving
-- **Double-click a connection**: Insert a new op in that cable
-- **Right-click an op**: Quick access to op menu (rename, mute, group, etc.)
-- **Click and drag in empty space**: Selection box for multiple ops
+- **Hold Shift while connecting** : Automatically opens op search to insert an op in the connection
+- **Hold Alt while dragging** : Duplicate op while moving
+- **Double-click a connection** : Insert a new op in that cable
+- **Right-click an op** : Quick access to op menu (rename, mute, group, etc.)
+- **Click and drag in empty space** : Selection box for multiple ops
 
 ## Your First Patch
-
 Let's create a simple animated shape!
 
 ### Step 1: Create the Render Pipeline
-
+\
 1. Double-click in the patch editor to open the op search
 2. Search for `MainLoop` and add it
 3. The MainLoop is the heartbeat of your patch - it triggers every frame
 
 ### Step 2: Add a BasicMaterial
-
+\
 1. Add a `BasicMaterial` op
 2. Connect `MainLoop`'s trigger output to `BasicMaterial`'s trigger input
 3. You should see a black canvas appear
 
 ### Step 3: Draw a Circle
-
 1. Add a `Circle` op
 2. Connect `BasicMaterial` -> `Circle`
 3. A white circle appears!
 
-Here's what your patch should look like:
-
-*The basic render chain: MainLoop triggers the BasicMaterial, which then draws the Circle*
-
 ### Step 4: Add Color
-
 1. Select the `BasicMaterial` op
 2. Adjust the color values (r, g, b) in the parameters panel
 3. Or connect a `SetColor` op's output to `BasicMaterial`'s color input ports
 4. The circle will display with your chosen color
 
 ### Step 5: Animate It
-
 1. Add a `Time` op (outputs current time)
 2. Add a `Math` op (for calculations)
 3. Add a `Sin` op (sine wave)

@@ -88,7 +88,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/Ds4fPcxyBvM
-Title: Noise Texture Operator for generating color palettes for various design techniques - Video Tutorial
+Title: Noise Texture Operator for generating color palettes
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/Ds4fPcxyBvM/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -151,7 +151,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/SaKWF6RnsyI
-Title: Transform Vertex Operator tutorial (GPU vs CPU based animation) - byte size
+Title: Transform Vertex Operator (GPU vs CPU animation)
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/SaKWF6RnsyI/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -160,7 +160,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/B9GyRzov5Bg
-Title: tutorial demo effect / render2textures world position target tricks
+Title: demo effect / render2textures world position target tricks
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/B9GyRzov5Bg/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -226,7 +226,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/ZCKrhswQiyc
-Title: you can cut cables with the [Y] key #animation #motiondesign #design #web #3danimation
+Title: you can cut cables with the [Y] key
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/ZCKrhswQiyc/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -234,7 +234,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/xawlfxKpxRQ
-Title: you can replace cables that easy #animation #motiondesign #design #web
+Title: you can replace cables that easy
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/xawlfxKpxRQ/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -242,7 +242,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/GQc6JF_jy6M
-Title: Debug View in Cables.gl | Setting up multiple views in your patch
+Title: Debug View | Setting up multiple views in your patch
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/GQc6JF_jy6M/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -250,7 +250,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/lOMplXy_JV0
-Title: Visualize any YouTube playlist in 3D with n8n.io & cables.gl (part 1)
+Title: Visualize any YouTube playlist with n8n.io & cables (part 1)
 Author: Decode GL
 Thumbnail: https://i.ytimg.com/vi/lOMplXy_JV0/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@Decode_gl
@@ -258,7 +258,7 @@ AuthorUrl: https://www.youtube.com/@Decode_gl
 
 ```vid
 https://youtu.be/AZrWNl3MwHQ
-Title: Scrolling Terrain with UFO in 10 minutes using cables.gl
+Title: Scrolling Terrain with UFO in 10 minutes
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/AZrWNl3MwHQ/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -266,7 +266,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/sbqE83ZHiTU
-Title: Scrolling Terrain with UFO in 10 minutes using cables.gl
+Title: Scrolling Terrain with UFO in 10 minutes
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/sbqE83ZHiTU/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -274,7 +274,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/3KSS1nrv6t0
-Title: cables.gl web demo - realtime visualizer soundcloud globe | Exyl - Ping! Moai
+Title: realtime visualizer soundcloud globe
 Author: stobelights
 Thumbnail: https://i.ytimg.com/vi/3KSS1nrv6t0/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@stobelights
@@ -284,7 +284,7 @@ AuthorUrl: https://www.youtube.com/@stobelights
 
 ```vid
 https://youtu.be/iqIXSb-kAws
-Title: Importing GLTF 3D Scenes with Camera positions and animating them in cables.gl
+Title: Importing GLTF 3D Scenes with Camera positions and animating
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/iqIXSb-kAws/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -292,7 +292,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/I_eD5nml_5A
-Title: More GLTF operators - animated rig support, position data, separate animation timing - Byte Size
+Title: More GLTF - animated rig, position data, separate animation timing
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/I_eD5nml_5A/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -300,7 +300,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/DW9U5tv1GHM
-Title: Varying Mesh Instances with color, animation and textures - Video Tutorial
+Title: Varying Mesh Instances with color, animation and textures
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/DW9U5tv1GHM/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -332,7 +332,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/knGnukutZeM
-Title: Lights and Shadows Operators - getting started - Video Tutorial
+Title: Lights and Shadows Operators - getting started
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/knGnukutZeM/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -366,7 +366,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/uwoj7R52yU8
-Title: PBR Material & PBR Environment Light Op - Byte Size - Physically Based Rendering in Cables
+Title: PBR Material & PBR Environment Light Op - Physically Based Rendering in Cables
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/uwoj7R52yU8/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -434,7 +434,7 @@ AuthorUrl: https://www.youtube.com/@Meletou1
 
 ```vid
 https://youtu.be/SFXvtm-vkvE
-Title: Introduction to Generative Music and Audio Reactive Systems with Cables.gl
+Title: Introduction to Generative Music and Audio Reactive Systems
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/SFXvtm-vkvE/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -442,7 +442,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/h20ZH-xD8Ts
-Title: Microphone Input & Audio Reactivity in Cables.gl - Tutorial
+Title: Microphone Input & Audio Reactivity in Cables.gl
 Author: The Interactive & Immersive HQ
 Thumbnail: https://i.ytimg.com/vi/h20ZH-xD8Ts/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@TheInteractiveImmersiveHQ
@@ -498,7 +498,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/3owzsIzvkdQ
-Title: Let's make some noise! Building a drum machine with Cables.gl.
+Title: Let's make some noise! Drum machine with Cables
 Author: Kirell Benzi
 Thumbnail: https://i.ytimg.com/vi/3owzsIzvkdQ/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@KirellB
@@ -506,7 +506,7 @@ AuthorUrl: https://www.youtube.com/@KirellB
 
 ```vid
 https://youtu.be/KtREXHa9tS8
-Title: Programmation Cables.gl Audio Analyzer Partie 7.
+Title: Programmation Cables.gl Audio Analyzer Partie 7
 Author: Meletou1
 Thumbnail: https://i.ytimg.com/vi/KtREXHa9tS8/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@Meletou1
@@ -530,7 +530,7 @@ AuthorUrl: https://www.youtube.com/@vozh-kc
 
 ```vid
 https://youtu.be/S-KyCySVucM
-Title: [HD] Sidereal Collapse // cables.gl, Bitwig Studio
+Title: Sidereal Collapse. cables.gl, Bitwig Studio
 Author: vozh-kc
 Thumbnail: https://i.ytimg.com/vi/S-KyCySVucM/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@vozh-kc
@@ -540,7 +540,7 @@ AuthorUrl: https://www.youtube.com/@vozh-kc
 
 ```vid
 https://youtu.be/hlmNf_42raY
-Title: AmmoRaycast Operator - creating a simple 3D menu UI - Tutorial
+Title: AmmoRaycast Operator - creating a simple 3D menu UI
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/hlmNf_42raY/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -548,7 +548,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/TAhAqgY_EEs
-Title: AmmoWorld and AmmoBody Operators - physics simulations in cables.gl - Video Tutorial
+Title: AmmoWorld and AmmoBody Operators - physics in cables
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/TAhAqgY_EEs/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -558,7 +558,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/MOdVmJ6MYQE
-Title: Creating your own cables.gl operators - custom and user ops tutorial
+Title: Creating your own cables operators - custom and user ops
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/MOdVmJ6MYQE/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -614,7 +614,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/hVxrxXhH7vQ
-Title: Cables.gl Standalone (Offline) Build: Create Without Limits!
+Title: Cables.gl Standalone (Offline) Build: Create Without Limits
 Author: Decode GL
 Thumbnail: https://i.ytimg.com/vi/hVxrxXhH7vQ/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@Decode_gl
@@ -625,7 +625,7 @@ AuthorUrl: https://www.youtube.com/@Decode_gl
 
 ```vid
 https://youtu.be/vebGfUp9vJ4
-Title: Getting cables.gl to talk to hardware, using Chataigne!
+Title: Getting cables.gl to talk to hardware, using Chataigne
 Author: Rob Duarte
 Thumbnail: https://i.ytimg.com/vi/vebGfUp9vJ4/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@RobDuarte
@@ -644,7 +644,7 @@ AuthorUrl: https://www.youtube.com/@wirmachenbunt
 
 ```vid
 https://youtu.be/3tZQtsEiicw
-Title: February 2022 Release Chat - cables.gl updated - PBR, Geometry from Textures, Teams, EXR support
+Title: February 2022 Release Chat - PBR, Geometry from Textures, Teams, EXR support
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/3tZQtsEiicw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -652,7 +652,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/FvC3Ec_38Jo
-Title: Inércia 2023 | Seminar: Cables.gl as a demo making tool by anticore feat. liqube
+Title: Inércia 2023 | Seminar: Cables.gl as a demo making tool by anticore
 Author: Associação Inércia
 Thumbnail: https://i.ytimg.com/vi/FvC3Ec_38Jo/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@inercia_pt
@@ -676,7 +676,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/C2FjpdRWPxw
-Title: Updated Physically Based Rendering Operators - discussion with the developer AMajesticSeaFlapFlap
+Title: Updated Physically Based Rendering Operators - talk with AMajesticSeaFlapFlap
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/C2FjpdRWPxw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -684,7 +684,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/v4rYqHuT-0E
-Title: Seminar: Making demos with cables.gl (speaker: pandur)
+Title: Seminar: Making demos with cables
 Author: psenough
 Thumbnail: https://i.ytimg.com/vi/v4rYqHuT-0E/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@psenough
@@ -695,7 +695,7 @@ AuthorUrl: https://www.youtube.com/@psenough
 
 ```vid
 https://youtu.be/oLPsJd0e4Gc
-Title: antonymph - vylet pony (avoset remix; cables.gl visualiser)
+Title: antonymph - vylet pony (avoset remix; cables visualiser)
 Author: avoset
 Thumbnail: https://i.ytimg.com/vi/oLPsJd0e4Gc/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@avoset
@@ -740,7 +740,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/R9-D4SxBd90
-Title: Ninja de Gaia - Inércia 2023 - creating a demo with cables.gl
+Title: Ninja de Gaia - Inércia 2023 - creating a demo
 Author: cables_gl
 Thumbnail: https://i.ytimg.com/vi/R9-D4SxBd90/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@cablesgl
@@ -785,7 +785,7 @@ AuthorUrl: https://www.youtube.com/@faktisProductions
 
 ```vid
 https://youtu.be/xba3e91Fum4
-Title: Design Designs Design - "Smorp" (A Cables.gl demo for Evoke 2022)
+Title: Design Designs Design - "Smorp" (demo for Evoke 2022)
 Author: Jan-Jozef Tuigstra
 Thumbnail: https://i.ytimg.com/vi/xba3e91Fum4/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jan-jozeftuigstra2218
@@ -793,7 +793,7 @@ AuthorUrl: https://www.youtube.com/@jan-jozeftuigstra2218
 
 ```vid
 https://youtu.be/uzqplBUGMWg
-Title: 01 Jam Sessions : Generative Fluid Graphic in Cables.gl
+Title: 01 Jam Sessions: Generative Fluid Graphic in Cables
 Author: FahmiMursyid
 Thumbnail: https://i.ytimg.com/vi/uzqplBUGMWg/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@fahmimursyid
@@ -802,7 +802,7 @@ AuthorUrl: https://www.youtube.com/@fahmimursyid
 
 ```vid
 https://youtu.be/wERboDg6zOI
-Title: Impactful Transitions under 10 minutes using cables.gl | Genuary 04: Intersections
+Title: Impactful Transitions 10 minutes | Genuary 04: Intersections
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/wERboDg6zOI/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -850,7 +850,7 @@ AuthorUrl: https://www.youtube.com/@karthikdondeti1672
 
 ```vid
 https://youtu.be/1FqBKJ1RXdY
-Title: Entornos virtuales WEB con programación visual en cables.gl Parte 1
+Title: Entornos virtuales WEB con programación visual en cables Parte 1
 Author: Alberto Barrios L. (nahui-ocelotl.com)
 Thumbnail: https://i.ytimg.com/vi/1FqBKJ1RXdY/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@4183RtdF
@@ -913,7 +913,7 @@ AuthorUrl: https://www.youtube.com/@antiguoautomata
 
 ```vid
 https://youtu.be/7BiDxNc7D7g
-Title: Create awesome Visuals using OpenDAW and cables.gl!
+Title: Create awesome Visuals using OpenDAW and cables
 Author: BeatMax_Prediction
 Thumbnail: https://i.ytimg.com/vi/7BiDxNc7D7g/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@BeatMax2023
@@ -974,7 +974,7 @@ AuthorUrl: https://www.youtube.com/@cablesgl
 
 ```vid
 https://youtu.be/8LfR8iLLbMA
-Title: Infinite Looping Motion Graphic in 10 minutes using cables.gl
+Title: Infinite Looping Motion Graphic in 10 minutes using cables
 Author: Jaalibandar
 Thumbnail: https://i.ytimg.com/vi/8LfR8iLLbMA/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@jaalibandar
@@ -983,7 +983,7 @@ AuthorUrl: https://www.youtube.com/@jaalibandar
 
 ```vid
 https://youtu.be/WGoM1AmfW7g
-Title: Getting data from an API with cables.gl - data-driven gradient from geo-located weather - part 1
+Title: Getting data from an API: data-driven geo-located weather - part 1
 Author: Kirell Benzi
 Thumbnail: https://i.ytimg.com/vi/WGoM1AmfW7g/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@KirellB
@@ -992,7 +992,7 @@ AuthorUrl: https://www.youtube.com/@KirellB
 
 ```vid
 https://youtu.be/G1HKysL8iVw
-Title: Présentation du logiciel Cables.gl par les étudiants en UI/UX design
+Title: Présentation du logiciel Cables par UI/UX design
 Author: L'École de design Nantes Atlantique
 Thumbnail: https://i.ytimg.com/vi/G1HKysL8iVw/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@ecoledesignnantes
@@ -1019,7 +1019,7 @@ AuthorUrl: https://www.youtube.com/@nathansonzogni
 
 ```vid
 https://youtu.be/n4UPiZhbcRU
-Title: StableDiffusion and ControlNet in Cables.gl via the WebUI
+Title: StableDiffusion and ControlNet in Cables WebUI
 Author: Neight Allen
 Thumbnail: https://i.ytimg.com/vi/n4UPiZhbcRU/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@CzechNeight
@@ -1037,7 +1037,7 @@ AuthorUrl: https://www.youtube.com/@tob-har
 
 ```vid
 https://youtu.be/vOVKpppw1ds
-Title: Class 30: Learning how to mint a cables.gl patch on fx hash w/ Somaticbits
+Title: Class 30: Learning how to mint patch on fxhash Somaticbits
 Author: VERTICAL
 Thumbnail: https://i.ytimg.com/vi/vOVKpppw1ds/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@verticalcrypto
@@ -1055,10 +1055,8 @@ AuthorUrl: https://www.youtube.com/@videoartduo
 
 ```vid
 https://youtu.be/9UR8upg0g54
-Title: Pod005 - Flicker | Distortion | cables.gl
+Title: Pod005 - Flicker | Distortion | cables
 Author: zuggamasta
 Thumbnail: https://i.ytimg.com/vi/9UR8upg0g54/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@zuggamasta
 ```
-
-

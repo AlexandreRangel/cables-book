@@ -10,7 +10,7 @@ Unlike traditional coding environments, cables.gl uses a **node-based** (or "pat
 
 ## A Brief History of cables.gl
 
-cables.gl was created by **undev** (Berlin) with the goal of making **real-time WebGL** creation approachable through a node-based workflow—similar in spirit to visual programming environments used in motion design and interactive installations, but built for the browser.
+cables.gl was created by **undev** (Cologne, Germany) with the goal of making **real-time WebGL** creation approachable through a node-based workflow—similar in spirit to visual programming environments used in motion design and interactive installations, but built for browser or local development and distribution.
 
 Over time, cables.gl grew from a tool for quick experiments into a full ecosystem:
 
@@ -89,21 +89,8 @@ Author: Kirell Benzi
 ```
 
 ### More Resources
-
-**Note:** There are limited intro-specific YouTube videos for cables.gl, but the platform has excellent resources:
-
 - Browse the [cables.gl Public Patches](https://cables.gl/ops) to see examples
-
 - Check the official [cables.gl YouTube channel](https://www.youtube.com/@cablesgl) for official tutorials
-
 - The [Decode GL channel](https://www.youtube.com/@Decode_gl) has multiple cables.gl tutorials
-
 - Search for "cables.gl" on YouTube for the latest community content
-
 - Many cables.gl creators share their work on social media and personal channels
-
-## Getting Help
-
-- **Official Documentation**: [cables.gl/docs](https://cables.gl/docs)
-- **Example Patches**: Browse public patches for inspiration
-

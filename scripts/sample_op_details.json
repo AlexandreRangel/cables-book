@@ -1,0 +1,62 @@
+[
+  {
+    "full_name": "Ops.Math.Abs",
+    "short_name": "Abs",
+    "namespace": "Ops.Math",
+    "url": "https://cables.gl/op/Ops.Math.Abs",
+    "description": "",
+    "input_ports": [],
+    "output_ports": [
+      {
+        "name": "The absolute value of Number",
+        "type": "always positive",
+        "description": "*Check documentation*"
+      }
+    ]
+  },
+  {
+    "full_name": "Ops.Math.Accumulator",
+    "short_name": "Accumulator",
+    "namespace": "Ops.Math",
+    "url": "https://cables.gl/op/Ops.Math.Accumulator",
+    "description": "",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Math.AddUp",
+    "short_name": "AddUp",
+    "namespace": "Ops.Math",
+    "url": "https://cables.gl/op/Ops.Math.AddUp",
+    "description": "",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.And",
+    "short_name": "And",
+    "namespace": "Ops.Boolean",
+    "url": "https://cables.gl/op/Ops.Boolean.And",
+    "description": "Bool1",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.AndMultiPort_v2",
+    "short_name": "AndMultiPort_v2",
+    "namespace": "Ops.Boolean",
+    "url": "https://cables.gl/op/Ops.Boolean.AndMultiPort_v2",
+    "description": "",
+    "input_ports": [],
+    "output_ports": []
+  },
+  {
+    "full_name": "Ops.Boolean.BoolByTrigger",
+    "short_name": "BoolByTrigger",
+    "namespace": "Ops.Boolean",
+    "url": "https://cables.gl/op/Ops.Boolean.BoolByTrigger",
+    "description": "",
+    "input_ports": [],
+    "output_ports": []
+  }
+]

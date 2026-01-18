@@ -12,7 +12,7 @@ Whether you're creating data visualizations, interactive installations, or gener
 
 The `Circle` op is one of the most common 2D primitives.
 
-**Key Parameters:**
+**Key Parameters**
 
 - `Radius` - Size of the circle
 - `Segments` - Smoothness (more segments = smoother circle)
@@ -22,7 +22,7 @@ The `Circle` op is one of the most common 2D primitives.
 
 The `Rectangle` op draws rectangular shapes.
 
-**Key Parameters:**
+**Key Parameters**
 
 - `Width` - Horizontal size
 - `Height` - Vertical size
@@ -32,7 +32,7 @@ The `Rectangle` op draws rectangular shapes.
 
 A rectangle with smooth corners.
 
-**Key Parameters:**
+**Key Parameters**
 
 - `Width` / `Height` - Dimensions
 - `Corner Radius` - How rounded the corners are
@@ -41,7 +41,7 @@ A rectangle with smooth corners.
 
 Create regular polygons (triangles, pentagons, etc.)
 
-**Key Parameters:**
+**Key Parameters**
 
 - `Sides` - Number of sides (3 = triangle, 5 = pentagon, etc.)
 - `Radius` - Size of the polygon
@@ -50,7 +50,7 @@ Create regular polygons (triangles, pentagons, etc.)
 
 Draw single or multiple lines.
 
-**Key Parameters:**
+**Key Parameters**
 
 - Start and End coordinates
 - Line width
@@ -109,7 +109,7 @@ Transform
 Shape (Circle, Rectangle, etc.)
 ```
 
-**Parameters:**
+**Parameters**
 - `TranslateX`, `TranslateY`, `TranslateZ` - Position
 - `RotateX`, `RotateY`, `RotateZ` - Rotation (degrees)
 - `Scale` - Uniform scaling
@@ -170,8 +170,11 @@ The child inherits and adds to the parent's transformations.
 Controls how colors combine when shapes overlap.
 
 **Common Modes:**
+
 - `Normal` - Standard opacity blending
+  
 - `Add` - Colors add together (great for glow effects)
+  
 - `Multiply` - Colors multiply (darkening effect)
 
 ### Depth Testing
@@ -206,7 +209,7 @@ Iterate over data arrays to position multiple shapes.
 
 Display text in your patches.
 
-**Key Parameters:**
+**Key Parameters**
 
 - `Text` - The string to display
 - `Font` - Font family
@@ -216,6 +219,188 @@ Display text in your patches.
 ### TextTexture
 
 Create textures from text for more advanced effects.
+
+### TextTexture FX (Shadows, Glow, Blur, Outlines, Echo, Neon)
+
+This section shows a **workflow-first** approach to text effects using `TextTexture`:
+
+1. Render text into a texture (TextTexture)
+2. Apply transforms (offset, scale, rotation)
+3. Layer multiple passes with `ImageCompose`
+4. Add blur/glow with texture effects
+
+#### Core TextTexture workflow (single pass)
+
+```
+TextTexture -> BasicMaterial -> Rectangle -> Output
+```
+
+**Key controls to expose for FX:**
+
+- `Font`, `FontSize`, `Letter Spacing`, `Line Height Add`
+- `Padding X / Y` (gives room for blur/glow)
+- `Background A` (use 0 for transparent, or a soft fill for halo effects)
+- `Draw Mesh` (if you want TextTexture to draw its own plane)
+
+
+#### Technique 1: Drop Shadow (Offset Duplicate)
+
+Create a second text layer, offset and darker:
+
+```
+TextTexture -> BasicMaterial (Shadow Color) -> Transform (offset) -> Rectangle
+TextTexture -> BasicMaterial (Main Color)   -> Transform (no offset) -> Rectangle
+ImageCompose (Shadow under Main)
+```
+
+**Notes**
+- Use small offsets (2–6 px).
+- Lower opacity for soft shadows.
+- Increase `Padding` so shadows are not clipped.
+
+
+#### Technique 2: Soft Shadow (Offset + Blur)
+
+```
+TextTexture -> Shadow Layer -> RenderToTexture
+RenderToTexture -> TextureEffect (Blur) -> Shadow Soft
+Shadow Soft + Main Text -> ImageCompose
+```
+
+**Tip** Blur the shadow layer only, then blend under the main text.
+
+
+#### Technique 3: Glow (Blur + Additive Blend)
+
+```
+TextTexture -> Color (Glow Color) -> RenderToTexture
+RenderToTexture -> TextureEffect (Blur) -> Glow
+Glow + Main Text -> ImageCompose (Additive)
+```
+
+**Notes**
+- Keep glow layer bright and semi-transparent.
+- Use additive blending for “light” feel.
+- Increase `Padding` so glow isn’t clipped.
+
+
+#### Technique 4: Double Glow (Wide + Tight)
+
+Layer two glow passes:
+
+```
+Glow Wide (large blur, low opacity)
+Glow Tight (small blur, higher opacity)
+Main Text
+ImageCompose (Wide + Tight + Main)
+```
+
+This gives a neon-like depth without looking blurry.
+
+
+#### Technique 5: Outline / Stroke (Multi-pass Scale)
+
+Approximate a stroke by duplicating text slightly scaled:
+
+```
+TextTexture -> BasicMaterial (Stroke Color) -> Transform (slightly scale up) -> Rectangle
+TextTexture -> BasicMaterial (Fill Color)   -> Transform (normal scale)      -> Rectangle
+ImageCompose (Stroke under Fill)
+```
+
+**Tip:** You can stack 2–3 scaled layers for thicker outlines.
+
+
+#### Technique 6: Thick Outline (8-direction Offsets)
+
+For a bolder outline:
+
+- Duplicate the text **8 times** and offset in a circle around the center (up/down/left/right + diagonals).
+- Then draw the fill on top.
+
+This is heavier but produces a crisp outline without shaders.
+
+
+#### Technique 7: Inner Glow (Reverse Shadow)
+
+Simulate inner glow by rendering a smaller bright text on top of a soft blur:
+
+```
+TextTexture -> Bright Color -> Blur (small) -> ImageCompose
+TextTexture -> Bright Color -> Scale down slightly -> ImageCompose (on top)
+```
+
+This makes edges appear brighter than the center.
+
+
+#### Technique 8: Layered “Neon Tube”
+
+```
+Glow Wide (color A)
+Glow Tight (color A)
+Main Text (white or pale)
+Thin Outline (color A)
+```
+
+Add a slight flicker by modulating glow opacity with noise or a sine wave.
+
+
+#### Technique 9: Echo / Motion Trail (Time Offset Layers)
+
+Render text multiple times with slightly different transforms:
+
+```
+TextTexture -> Transform (offset by time) -> Rectangle
+TextTexture -> Transform (offset by time * 0.6) -> Rectangle
+TextTexture -> Transform (offset by time * 0.2) -> Rectangle
+ImageCompose (rear layers darker)
+```
+
+Good for “ghosted” motion or scanline trails.
+
+
+#### Technique 10: Gradient Fill (Mask with Text)
+
+Use the text as a mask over a gradient texture:
+
+```
+GradientTexture -> ImageCompose (Mask: TextTexture)
+```
+
+If your compose op doesn’t support masks, use:
+
+- `TextTexture` as alpha
+- `ImageCompose` in “multiply” or “alpha over” mode
+
+
+#### Technique 11: Outline + Shadow + Glow (Full Stack)
+
+Order matters:
+
+1. Soft shadow
+2. Wide glow
+3. Tight glow
+4. Stroke (outline)
+5. Main fill
+
+This creates a readable, cinematic title.
+
+
+#### Technique 12: Animated “Typing” Reveal
+
+If your text changes over time:
+
+- Animate the **Text** input (add chars)
+- Trigger `Force Redraw`
+- Keep shadows/glow tied to `TextTexture` outputs
+
+This works well for subtitles, credits, or tutorials.
+
+### Performance Notes
+
+- Multiple passes increase cost. Start with **2–3 layers**, then add more if needed.
+- Use lower blur radius where possible.
+- Avoid very large text textures (high width/height) unless you truly need them.
 
 ## Advanced Transformation Techniques
 
@@ -236,7 +421,7 @@ Control the center of rotation and scaling:
 Transform (set pivot) -> Transform (rotate) -> Shape
 ```
 
-**Common Pivot Values:**
+**Common Pivot Values**
 - `0, 0` - Bottom left corner
 - `0.5, 0.5` - Center (default)
 - `1, 1` - Top right corner
@@ -267,7 +452,7 @@ InteractiveRectangle
 Control other ops with mouse input
 ```
 
-**Use Cases:**
+**Use Cases**
 
 - On-screen sliders
 - Draggable controllers
@@ -282,7 +467,7 @@ Capture and use mouse position:
 Mouse -> Map (screen to world coords) -> Visual property
 ```
 
-**Mouse Ops:**
+**Mouse Ops**
 - `MouseX` / `MouseY` - Cursor position
 - `MouseButton` - Click detection
 - `MouseWheel` - Scroll input
@@ -303,7 +488,7 @@ FullscreenRectangle
 
 Create evolving, self-referential visuals by feeding output back as input:
 
-**Basic Feedback Setup:**
+**Basic Feedback Setup**
 ```
 MainLoop
 RenderToTexture (previous frame)
@@ -314,10 +499,10 @@ Draw new shapes
 Output (becomes next frame's input)
 ```
 
-**Parameters to Experiment With:**
+**Parameters to Experiment With**
 - Feedback decay (fade amount)
 - Transformation amount (scale, rotation)
-- Blend mode (add, multiply, screen)
+- Blend mode (add, multiply, screen) 
 - Blur intensity
 
 **Result:** Trails, echoes, and organic growth patterns
@@ -343,7 +528,7 @@ Vary parameters like:
 
 Use noise and math to create endless variations:
 
-**Perlin Noise-Based Patterns:**
+**Perlin Noise-Based Patterns**
 ```
 IteratorLoop
 Position -> NoiseTexture sample
@@ -351,7 +536,7 @@ Noise value -> Circle size
 Noise value -> Color
 ```
 
-**Grid Distortion:**
+**Grid Distortion**
 ```
 IteratorLoop (grid)
 Position + (Noise * distortion amount)
@@ -376,19 +561,19 @@ Final Output
 
 Apply effects to your rendered 2D scene:
 
-**Blur:**
+**Blur**
 ```
 RenderToTexture -> TextureEffects (Blur) -> Output
 ```
 
-**Color Grading:**
+**Color Grading**
 ```
 RenderToTexture -> ColorCorrection
     (adjust hue, saturation, brightness, contrast)
 Output
 ```
 
-**Glow Effect:**
+**Glow Effect**
 ```
 Original scene
 RenderToTexture (bright pass)
@@ -449,7 +634,7 @@ Visual representation
 
 Create custom charts and graphs:
 
-**Bar Chart:**
+**Bar Chart**
 ```
 ArrayIterator (data values)
 Index -> X position
@@ -457,7 +642,7 @@ Value -> Rectangle height
 Rectangle (bar)
 ```
 
-**Line Chart:**
+**Line Chart**
 ```
 ArrayIterator (data points)
 Connect points with Lines op
@@ -470,19 +655,19 @@ Apache ECharts is a powerful open-source charting library that integrates seamle
 
 **Why ECharts + cables.gl?**
 
-- **Rich Chart Types**: Bar, line, pie, scatter, radar, candlestick, heatmap, treemap, sunburst, and more
-- **Interactive Features**: Tooltips, zooming, panning, data selection
-- **Real-Time Updates**: Stream live data into animated charts
-- **3D Enhancement**: Apply cables.gl effects to chart outputs
+- Rich Chart Types: Bar, line, pie, scatter, radar, candlestick, heatmap, treemap, sunburst...
+- Interactive Features: Tooltips, zooming, panning, data selection
+- Real-Time Updates: Stream live data into animated charts
+- 3D Enhancement: Apply cables.gl effects to chart outputs
 
-**Setup and Integration:**
+**Setup and Integration**
 
 1. **Load the ECharts Extension** in cables.gl using the `Ops.Extension.ECharts.ECharts` op
 2. **Configure Chart Options** using JSON format (same as standard ECharts)
 3. **Connect Data Sources** from other cables.gl ops (JSON fetch, WebSocket, etc.)
 4. **Apply Visual Effects** using cables.gl post-processing
 
-**Basic ECharts Patch Structure:**
+**Basic ECharts Patch Structure**
 
 ```
 MainLoop
@@ -493,7 +678,7 @@ ECharts Op
 ECharts Instance -> Use in other ops
 ```
 
-**Example: Simple Bar Chart Configuration:**
+**Example: Simple Bar Chart Configuration**
 
 ```json
 {
@@ -512,7 +697,7 @@ ECharts Instance -> Use in other ops
 }
 ```
 
-**Example: Real-Time Line Chart:**
+**Example: Real-Time Line Chart**
 
 ```
 WebSocket (data stream)
@@ -523,7 +708,7 @@ Render to texture
 Apply glow effect
 ```
 
-**Example: Interactive Pie Chart with Events:**
+**Example: Interactive Pie Chart with Events**
 
 ```
 ECharts Op (pie chart)
@@ -533,7 +718,7 @@ EChartsEvent Op
 Update other visuals based on selection
 ```
 
-**Combining Charts with 3D:**
+**Combining Charts with 3D**
 
 ```
 ECharts Op -> Render to texture
@@ -542,21 +727,21 @@ Transform (rotate in 3D space)
 Post-processing (glow, bloom)
 ```
 
-**Advanced Techniques:**
+**Advanced Techniques**
 
-- **Multi-Chart Dashboards**: Use multiple ECharts ops with different configurations
-- **Animated Transitions**: ECharts handles smooth data transitions automatically
-- **Custom Themes**: Define color palettes that match your cables.gl aesthetic
-- **Responsive Charts**: Connect viewport size to chart dimensions
+- Multi-Chart Dashboards: Use multiple ECharts ops with different configurations
+- Animated Transitions: ECharts handles smooth data transitions automatically
+- Custom Themes: Define color palettes that match your cables.gl aesthetic
+- Responsive Charts: Connect viewport size to chart dimensions
 
-**Performance Tips:**
+**Performance Tips**
 
 - Limit data points for smooth animation (< 1000 for real-time)
 - Use `notMerge: true` for complete data replacement
 - Disable animations for very high-frequency updates
 - Cache chart instances when possible
 
-**Resources:**
+**Resources**
 
 - [Apache ECharts Documentation](https://echarts.apache.org/en/index.html)
 - [ECharts Examples Gallery](https://echarts.apache.org/examples/en/index.html)
@@ -708,20 +893,20 @@ Your content (masked by texture)
 
 Generate pleasing color palettes:
 
-**Complementary:**
+**Complementary**
 ```
 BaseHue -> SetColor (shape 1)
 BaseHue + 180° -> SetColor (shape 2)
 ```
 
-**Triadic:**
+**Triadic**
 ```
 BaseHue -> Color 1
 BaseHue + 120° -> Color 2
 BaseHue + 240° -> Color 3
 ```
 
-**Analogous:**
+**Analogous**
 ```
 BaseHue -> Color 1
 BaseHue + 30° -> Color 2
@@ -732,14 +917,14 @@ BaseHue - 30° -> Color 3
 
 Smooth color transitions:
 
-**Linear Gradient:**
+**Linear Gradient**
 ```
 IteratorLoop (steps)
 Index / TotalSteps -> Mix (Color1, Color2, t)
 SetColor -> Rectangle strip
 ```
 
-**Radial Gradient:**
+**Radial Gradient**
 ```
 Distance from center -> Mix (Inner, Outer, t)
 ```
